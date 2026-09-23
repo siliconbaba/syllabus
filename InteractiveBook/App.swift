@@ -2,6 +2,7 @@ import SwiftUI
 
 @main
 struct InteractiveBookApp: App {
+    @StateObject private var speechReader = SpeechReaderManager()
     @AppStorage("bookTheme") private var theme = "light"
 
     init() {
@@ -11,7 +12,10 @@ struct InteractiveBookApp: App {
 
     var body: some Scene {
         WindowGroup {
-            BookView()
+            BookView(reader: speechReader)
+                .safeAreaInset(edge: .bottom, spacing: 0) {
+                    if speechReader.topicID != nil { SpeechControls(reader: speechReader) }
+                }
                 .preferredColorScheme(theme == "dark" ? .dark : .light)
         }
     }

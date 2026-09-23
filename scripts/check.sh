@@ -9,3 +9,6 @@ mkdir -p "$BOOK_ROOT/build/checks"
 /usr/bin/xcrun swiftc "$BOOK_ROOT/Tests/WebKitSmoke.swift" -o "$BOOK_ROOT/build/checks/webkit-smoke" -framework Cocoa -framework WebKit
 "$BOOK_ROOT/build/checks/webkit-smoke" "$BOOK_ROOT/InteractiveBook/WebContent" "$BOOK_ROOT/Tests" 390 760
 "$BOOK_ROOT/build/checks/webkit-smoke" "$BOOK_ROOT/InteractiveBook/WebContent" "$BOOK_ROOT/Tests" 320 568
+
+/usr/bin/xcrun swiftc "$BOOK_ROOT/InteractiveBook/Audio/SpeechTextProcessor.swift" "$BOOK_ROOT/InteractiveBook/Audio/SpeechReaderManager.swift" "$BOOK_ROOT/Tests/SpeechTests.swift" -o "$BOOK_ROOT/build/checks/speech-tests" -framework AVFoundation -framework Combine
+"$BOOK_ROOT/build/checks/speech-tests"

@@ -27,8 +27,10 @@ final class Runner: NSObject, WKNavigationDelegate, WKScriptMessageHandler {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         print("Loaded test phase \(phase)")
         let path = CommandLine.arguments[2] + (phase == 0 ? "/reader.test.js" : "/restore.test.js")
-        do { let js = try String(contentsOfFile:path, encoding:.utf8)
-            web.evaluateJavaScript("void " + js) { _, error in if let error = error { print(error); exit(1) } }
+        do {
+            let extraction = phase == 0 ? try String(contentsOfFile: CommandLine.arguments[2] + "/audio-extraction.test.js", encoding: .utf8) : ""
+            let js = extraction + "\nvoid " + (try String(contentsOfFile:path, encoding:.utf8))
+            web.evaluateJavaScript(js) { _, error in if let error = error { print(error); exit(1) } }
         } catch { print(error); exit(1) }
     }
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {

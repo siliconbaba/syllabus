@@ -39,6 +39,7 @@
   function setCurrent(id) {
     if (current === id) return;
     current = id;
+    if (window.bookAudio) window.bookAudio.topicChanged(id);
     toc.querySelectorAll('.current').forEach(function(a) { a.classList.remove('current'); a.removeAttribute('aria-current'); });
     var link = toc.querySelector('a[href="#' + id + '"]');
     if (link) { link.classList.add('current'); link.setAttribute('aria-current', 'location'); }
@@ -97,6 +98,7 @@
   function navigate(id, historyEntry) {
     var target = document.getElementById(id); if (!target) return;
     menu(false);
+    if (window.bookAudio) window.bookAudio.topicChanged(id);
     requestAnimationFrame(function () {
       measure();
       main.scrollTop += target.getBoundingClientRect().top - main.getBoundingClientRect().top - 16;
@@ -140,6 +142,7 @@
   applyFilter(get('ya-filter','all'));
   filter.addEventListener('click',function(e) {
     var b=e.target.closest('[data-f]');if(!b)return;
+    if(window.bookAudio)window.bookAudio.invalidate();
     var loc=locationNow();applyFilter(b.dataset.f);set('ya-filter',b.dataset.f);restorePosition(loc);savePosition();
   });
   function updateProgress() {
@@ -159,7 +162,7 @@
   });
   document.querySelectorAll('details').forEach(function(d,i){
     var key='ya-detail-'+i; d.open=get(key,'0')==='1';
-    d.addEventListener('toggle',function(){if(ready){set(key,d.open?'1':'0');measure();savePosition();}});
+    d.addEventListener('toggle',function(){if(ready){set(key,d.open?'1':'0');if(window.bookAudio)window.bookAudio.invalidate(d.closest('.topic')?.id);measure();savePosition();}});
   });
   document.querySelectorAll('.tbl-wrap').forEach(function(w){
     var hint=document.createElement('p');hint.className='table-hint';hint.textContent='Таблицу можно прокручивать влево и вправо';w.before(hint);

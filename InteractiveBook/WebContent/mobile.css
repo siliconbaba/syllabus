@@ -54,3 +54,9 @@ body.side-open .sidebar { transform:translateX(0); visibility:visible; }
 @media (max-width:360px) { main { padding-left:10px; padding-right:10px; } .topic { padding:12px; } }
 @media (prefers-reduced-motion:reduce) { *,*::before { transition:none!important; scroll-behavior:auto!important; } }
 @media print { html,body { height:auto; overflow:visible; } main { position:static; overflow:visible; padding:0; } .sidebar,#menuBackdrop,.table-hint { display:none!important; } .tbl { min-width:0; } .tbl-wrap { overflow:visible; } }
+
+/* Speech controls do not alter the textbook text or scroll position. */
+.topic-actions { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+.speech-listen { color:var(--accent); border-color:var(--accent); font-weight:600; }
+.speech-current { background:var(--accent-soft); border-radius:4px; outline:2px solid var(--accent); outline-offset:3px; }
+@media print { .speech-listen { display:none; } .speech-current { background:transparent; outline:none; } }

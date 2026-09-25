@@ -37,7 +37,15 @@ struct SpeechControls: View {
                 control("Следующий блок", "forward.end.fill", enabled: reader.hasNext) { reader.next() }
                 Spacer(minLength: 0)
                 Menu {
-                    Menu("Голос: " + reader.voiceName) {
+                    Menu("Озвучивание") {
+                        ForEach(SpeechEngineKind.allCases,id: \.rawValue) { kind in
+                            Button { reader.setEngine(kind) } label: {
+                                if reader.engineKind == kind { Label(kind.label,systemImage:"checkmark") }
+                                else { Text(kind.label) }
+                            }
+                        }
+                    }
+                    if reader.engineKind == .system { Menu("Голос: " + reader.voiceName) {
                         Button { reader.setVoice(nil) } label: {
                             if reader.preferredVoiceID == nil { Label("Автоматически", systemImage: "checkmark") }
                             else { Text("Автоматически") }
@@ -49,6 +57,7 @@ struct SpeechControls: View {
                                 else { Text(label) }
                             }
                         }
+                    }
                     }
                     ForEach(SpeechReaderManager.speeds, id: \.self) { speed in
                         Button { reader.setSpeed(speed) } label: {

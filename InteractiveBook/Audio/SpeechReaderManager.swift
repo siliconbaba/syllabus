@@ -6,15 +6,6 @@ import UIKit
 import MediaPlayer
 #endif
 
-protocol SpeechSynthesizing: AnyObject {
-    var delegate: AVSpeechSynthesizerDelegate? { get set }
-    func speak(_ utterance: AVSpeechUtterance)
-    func stopSpeaking(at boundary: AVSpeechBoundary) -> Bool
-    func pauseSpeaking(at boundary: AVSpeechBoundary) -> Bool
-    func continueSpeaking() -> Bool
-}
-extension AVSpeechSynthesizer: SpeechSynthesizing {}
-
 protocol SpeechAudioSession {
     func activate() throws
     func deactivate()
@@ -34,7 +25,7 @@ struct PlaybackSpeechSession: SpeechAudioSession {
     }
 }
 
-/// One synthesizer, one active utterance, one in-memory topic. No WebKit dependency.
+/// One logical topic/queue, pluggable playback engines, one audio session and Now Playing owner.
 @MainActor
 final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizerDelegate {
     enum State: String { case idle, loading, playing, paused, finished }
@@ -52,13 +43,17 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     var onHighlight: ((String, String?) -> Void)?
     var onRequestTopic: ((String) -> Void)?
 
-    private var synthesizer: SpeechSynthesizing
-    private let makeSynthesizer: () -> SpeechSynthesizing
+    @Published private(set) var engineKind:SpeechEngineKind
+    private var engine:SpeechEngine
+    private let engineFactory:(SpeechEngineKind)->SpeechEngine
+    private var topic:SpeechTopic?
+    private var requestIDs:[UUID]=[]
+    private var activeRequest:UUID?
+    private var preparation:Task<Void,Never>?
+    private var engineRevision=UUID()
     private let session: SpeechAudioSession
     private let defaults: UserDefaults
     private let processor = SpeechTextProcessor()
-    private var activeUtterance: AVSpeechUtterance?
-    private var utteranceOffset = 0
     private var spokenOffset = 0
     private var loadID: UUID?
     private var interrupted = false
@@ -73,15 +68,25 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     init(defaults: UserDefaults = .standard,
          session: SpeechAudioSession = PlaybackSpeechSession(),
          makeSynthesizer: @escaping () -> SpeechSynthesizing = { AVSpeechSynthesizer() },
-         observeSystem: Bool = true) {
+         observeSystem: Bool = true,
+         makeEngine: ((SpeechEngineKind)->SpeechEngine)? = nil) {
         self.defaults = defaults
         self.session = session
-        self.makeSynthesizer = makeSynthesizer
-        self.synthesizer = makeSynthesizer()
+        let factory: (SpeechEngineKind)->SpeechEngine = makeEngine ?? { kind in
+            if kind == .system{return AppleSpeechEngine(makeSynthesizer:makeSynthesizer)}
+            #if os(iOS)
+            return SileroSpeechEngine()
+            #else
+            return UnavailableSpeechEngine()
+            #endif
+        }
+        self.engineFactory=factory
+        let kind=SpeechEngineKind(rawValue:defaults.string(forKey:"speech.engine") ?? "") ?? .system
+        self.engineKind=kind;self.engine=factory(kind)
         let saved = defaults.double(forKey: "speech.speed")
         self.speed = Self.speeds.contains(saved) ? saved : 1
         super.init()
-        configureSynthesizer()
+        connectEngine()
         chooseVoice()
         #if os(iOS)
         if observeSystem {
@@ -97,6 +102,7 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
             observe(AVAudioSession.routeChangeNotification) { $0.routeChanged($1) }
             observe(AVAudioSession.mediaServicesWereResetNotification) { reader, _ in reader.mediaReset() }
             observe(UIApplication.didBecomeActiveNotification) { reader, _ in reader.becameActive() }
+            observe(UIApplication.didReceiveMemoryWarningNotification) { reader,_ in reader.memoryPressure() }
             installRemoteControls()
         }
         #endif
@@ -104,27 +110,85 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
 
     deinit {
         notifications.forEach { NotificationCenter.default.removeObserver($0) }
-        synthesizer.delegate = nil
-        _ = synthesizer.stopSpeaking(at: .immediate)
+        preparation?.cancel()
+        let engine=engine
+        Task { @MainActor in engine.shutdown() }
         if sessionActive { session.deactivate() }
         #if os(iOS)
         for (command, target) in remoteTargets { command.removeTarget(target) }
         #endif
     }
 
-    private func configureSynthesizer() {
-        synthesizer.delegate = self
-        #if os(iOS)
-        (synthesizer as? AVSpeechSynthesizer)?.usesApplicationAudioSession = true
-        #endif
+    private func connectEngine() {
+        let revision=engineRevision
+        engine.onEvent={ [weak self] event in
+            guard let self=self,self.engineRevision==revision else{return}
+            self.receive(event)
+        }
+    }
+    private func receive(_ event:SpeechEngineEvent) {
+        switch event {
+        case .started(let id):
+            guard id==activeRequest,state != .paused else{return}
+            state = .playing;persistBookmark();highlightCurrent();updateNowPlaying()
+        case .progress(let id,let offset):if id==activeRequest && state == .playing{spokenOffset=offset}
+        case .finished(let id):
+            guard id==activeRequest,state == .playing else{return}
+            activeRequest=nil
+            if currentIndex+1<fragments.count{currentIndex+=1;speakCurrent()}
+            else{state = .finished;spokenOffset=0;engine.stop();persistBookmark();clearHighlight();releaseSession();updateNowPlaying()}
+        case .failed(let id,_):
+            guard id==activeRequest else{return}
+            if engineKind == .neural{fallbackToSystem(resume:state != .paused)}
+            else{activeRequest=nil;state = .paused;releaseSession();updateNowPlaying()}
+        }
+    }
+    func setEngine(_ kind:SpeechEngineKind) {
+        guard kind != engineKind else{return}
+        let wasPlaying=state == .playing || state == .loading && !fragments.isEmpty
+        let block=fragments.indices.contains(currentIndex) ? fragments[currentIndex].blockID:nil
+        cancelUtterance();releaseSession();engine.shutdown();engineRevision=UUID()
+        engineKind=kind;defaults.set(kind.rawValue,forKey:"speech.engine");engine=engineFactory(kind);connectEngine()
+        if let topic=topic{fragments=processor.fragments(from:topic,systemNormalization:kind == .system);requestIDs=fragments.map{_ in UUID()};currentIndex=block.flatMap{b in fragments.firstIndex{$0.blockID==b}} ?? 0}
+        spokenOffset=0;chooseVoice()
+        if wasPlaying{speakCurrent()}
+        else if kind == .neural{prepareSelected(resume:false)}
+        else{state = fragments.isEmpty ? .idle:.paused;updateNowPlaying()}
+    }
+    private func fallbackToSystem(resume:Bool) {
+        // Stop before switching; retry the same logical block, never drop it.
+        state = resume ? .playing:.paused
+        setEngine(.system)
+        message="Нейросетевой голос недоступен. Продолжаем системным голосом."
+    }
+    private func prepareSelected(resume:Bool) {
+        preparation?.cancel();let revision=engineRevision;let selected=engine
+        state = .loading;updateNowPlaying()
+        preparation=Task { [weak self] in
+            do {
+                try await selected.prepare();try Task.checkCancellation()
+                guard let self=self,self.engineRevision==revision else{return}
+                self.preparation=nil
+                if resume{self.speakCurrent()}
+                else{self.state=self.fragments.isEmpty ? .idle:.paused;self.updateNowPlaying()}
+            }catch{
+                guard !Task.isCancelled,let self=self,self.engineRevision==revision else{return}
+                self.preparation=nil;self.fallbackToSystem(resume:resume)
+            }
+        }
+    }
+    func memoryPressure() {
+        guard engineKind == .neural else{return}
+        pauseInternal();cancelUtterance();engine.shutdown();releaseSession();state = .paused
+        message="Нейросетевой голос выгружен для освобождения памяти. Нажмите «Продолжить»."
     }
 
-    var hasPrevious: Bool { !fragments.isEmpty && currentIndex > 0 && state != .loading }
-    var hasNext: Bool { currentIndex + 1 < fragments.count && state != .loading }
+    var hasPrevious: Bool { !fragments.isEmpty && currentIndex > 0 && loadID == nil }
+    var hasNext: Bool { currentIndex + 1 < fragments.count && loadID == nil }
     var statusText: String {
         switch state {
         case .idle: return "Готово к чтению"
-        case .loading: return "Подготовка текста…"
+        case .loading: return engineKind == .neural && loadID == nil ? "Подготовка нейросетевого голоса…":"Подготовка текста…"
         case .playing: return "Чтение · \(currentIndex + 1) из \(fragments.count)"
         case .paused: return "Пауза · \(currentIndex + 1) из \(fragments.count)"
         case .finished: return "Тема прочитана"
@@ -143,7 +207,9 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     func finishLoading(_ topic: SpeechTopic, request: UUID) {
         guard request == loadID, state == .loading, topic.id == topicID else { return }
         loadID = nil
-        fragments = processor.fragments(from: topic)
+        self.topic=topic
+        fragments = processor.fragments(from: topic, systemNormalization: engineKind == .system)
+        requestIDs=fragments.map{_ in UUID()}
         title = topic.title
         guard !fragments.isEmpty else {
             state = .idle; message = "В этой теме нет доступного текста для чтения."; return
@@ -165,13 +231,13 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     }
 
     func play() {
-        guard state != .playing && state != .loading, let id = topicID else { return }
+        guard state != .playing && loadID == nil, let id = topicID else { return }
         guard !interrupted else { message = "Дождитесь окончания системного аудио или звонка."; return }
         if fragments.isEmpty { onRequestTopic?(id); return }
         if state == .paused {
             guard activate() else { return }
             state = .playing
-            if activeUtterance != nil, synthesizer.continueSpeaking() { updateNowPlaying(); return }
+            if activeRequest != nil, engine.resume() { updateNowPlaying(); return }
             speakCurrent(offset: spokenOffset)
         } else {
             currentIndex = 0; speakCurrent()
@@ -184,9 +250,10 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     }
 
     private func pauseInternal() {
-        guard state == .playing else { return }
+        guard state == .playing || state == .loading && loadID == nil else { return }
+        preparation?.cancel();preparation=nil
         state = .paused
-        if !synthesizer.pauseSpeaking(at: .immediate) { cancelUtterance() }
+        engine.pause()
         releaseSession()
         updateNowPlaying()
     }
@@ -199,14 +266,14 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     }
 
     func reset() {
-        stop(); topicID = nil; title = ""; fragments = []; message = nil; voiceName = ""
+        stop(); topicID = nil; topic=nil;title = ""; fragments = [];requestIDs=[]; message = nil; voiceName = ""
     }
 
     func previous() { if hasPrevious { move(to: currentIndex - 1) } }
     func next() { if hasNext { move(to: currentIndex + 1) } }
     private func move(to index: Int) {
         resumeAfterInterruption = false
-        let shouldPlay = state == .playing
+        let shouldPlay = state == .playing || state == .loading
         cancelUtterance(); currentIndex = index; spokenOffset = 0
         if shouldPlay { speakCurrent() }
         else { state = .paused; highlightCurrent(); updateNowPlaying() }
@@ -215,6 +282,7 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     func setSpeed(_ value: Double) {
         guard Self.speeds.contains(value), value != speed else { return }
         speed = value; defaults.set(value, forKey: "speech.speed")
+        if engineKind == .neural{engine.setSpeed(value);updateNowPlaying();return}
         let playing = state == .playing
         if playing || state == .paused {
             let offset = spokenOffset
@@ -234,14 +302,14 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     // A slightly slower baseline than Apple's default suits dense textbook prose.
     // These are relative TTS settings, not exact audio-duration multipliers.
     static func speechRate(for speed: Double) -> Float {
-        min(AVSpeechUtteranceMaximumSpeechRate,
-            max(AVSpeechUtteranceMinimumSpeechRate, 0.46 * Float(speed)))
+        AppleSpeechEngine.rate(for:speed)
     }
 
     func setVoice(_ identifier: String?) {
         guard identifier == nil || availableVoices.contains(where: { $0.identifier == identifier }) else { return }
         defaults.set(identifier, forKey: "speech.voiceIdentifier")
         chooseVoice()
+        guard engineKind == .system else{return}
         let playing = state == .playing
         if playing || state == .paused {
             let offset = spokenOffset
@@ -271,7 +339,7 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
             voice = AVSpeechSynthesisVoice(language: AVSpeechSynthesisVoice.currentLanguageCode())
             message = "Русский голос недоступен. Используется системный голос. Русские голоса можно загрузить в настройках универсального доступа iPhone."
         } else { message = nil }
-        voiceName = voice?.name ?? "Системный голос"
+        voiceName = engineKind == .neural ? "Нейросетевой · Xenia" : (voice?.name ?? "Системный голос")
         #if DEBUG
         for candidate in availableVoices {
             NSLog("Speech voice: name=%@ identifier=%@ quality=%@ selected=%@", candidate.name,
@@ -294,26 +362,20 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
         if sessionActive { session.deactivate(); sessionActive = false }
     }
     private func cancelUtterance() {
-        // Invalidate before stop: delayed callbacks from old utterances must be harmless.
-        activeUtterance = nil
-        _ = synthesizer.stopSpeaking(at: .immediate)
+        activeRequest=nil;preparation?.cancel();preparation=nil;engine.stop()
+        requestIDs=fragments.map{_ in UUID()}
     }
-    private func speakCurrent(offset: Int = 0) {
-        guard fragments.indices.contains(currentIndex), !interrupted else { return }
-        cancelUtterance()
-        guard activate() else { return }
-        let text = fragments[currentIndex].text as NSString
-        utteranceOffset = min(max(0, offset), max(0, text.length - 1))
-        spokenOffset = utteranceOffset
-        let utterance = AVSpeechUtterance(string: text.substring(from: utteranceOffset))
-        utterance.voice = voice
-        utterance.rate = Self.speechRate(for: speed)
-        utterance.pitchMultiplier = 1.0
-        utterance.preUtteranceDelay = 0
-        utterance.postUtteranceDelay = fragments[currentIndex].postDelay
-        activeUtterance = utterance; state = .playing
-        persistBookmark(); highlightCurrent(); updateNowPlaying()
-        synthesizer.speak(utterance)
+    private func speakCurrent(offset:Int=0) {
+        guard fragments.indices.contains(currentIndex),!interrupted else{return}
+        if engine.requiresPreparation{prepareSelected(resume:true);return}
+        guard activate() else{return}
+        func request(_ i:Int,_ offset:Int=0)->SpeechRequest {
+            SpeechRequest(id:requestIDs[i],fragment:fragments[i],offset:offset,speed:speed,voiceIdentifier:voice?.identifier)
+        }
+        spokenOffset=offset;let current=request(currentIndex,offset);activeRequest=current.id
+        // Only cold start displays loading. Warm prebuffer never flashes a spinner.
+        if state != .playing{state = engineKind == .system ? .playing:.loading}
+        engine.speak(current,next:currentIndex+1<fragments.count ? request(currentIndex+1):nil)
     }
     private func persistBookmark() {
         defaults.set(topicID, forKey: "speech.lastTopic")
@@ -325,36 +387,14 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     }
     private func clearHighlight() { if let id = topicID { onHighlight?(id, nil) } }
 
-    // All delegate work is serialized with UI actions on the main actor.
-    nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
-        Task { @MainActor [weak self] in
-            guard let self = self, self.activeUtterance === utterance, self.state == .playing else { return }
-            self.activeUtterance = nil
-            if self.currentIndex + 1 < self.fragments.count {
-                self.currentIndex += 1; self.speakCurrent()
-            } else {
-                self.state = .finished; self.spokenOffset = 0
-                self.persistBookmark(); self.clearHighlight(); self.releaseSession(); self.updateNowPlaying()
-            }
-        }
-    }
-    nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
-        Task { @MainActor [weak self] in
-            guard let self = self, self.activeUtterance === utterance else { return }
-            self.activeUtterance = nil; self.state = .paused; self.releaseSession(); self.updateNowPlaying()
-        }
-    }
-    nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, willSpeakRangeOfSpeechString range: NSRange, utterance: AVSpeechUtterance) {
-        Task { @MainActor [weak self] in
-            guard let self = self, self.activeUtterance === utterance, self.state == .playing else { return }
-            self.spokenOffset = self.utteranceOffset + range.location
-            if range.location == 0 { self.highlightCurrent() }
-        }
-    }
+    // Compatibility entry points for existing system-voice regression tests.
+    nonisolated func speechSynthesizer(_ s:AVSpeechSynthesizer,didFinish u:AVSpeechUtterance){Task{@MainActor [weak self] in (self?.engine as? AppleSpeechEngine)?.speechSynthesizer(s,didFinish:u)}}
+    nonisolated func speechSynthesizer(_ s:AVSpeechSynthesizer,didCancel u:AVSpeechUtterance){Task{@MainActor [weak self] in (self?.engine as? AppleSpeechEngine)?.speechSynthesizer(s,didCancel:u)}}
+    nonisolated func speechSynthesizer(_ s:AVSpeechSynthesizer,willSpeakRangeOfSpeechString r:NSRange,utterance u:AVSpeechUtterance){Task{@MainActor [weak self] in (self?.engine as? AppleSpeechEngine)?.speechSynthesizer(s,willSpeakRangeOfSpeechString:r,utterance:u)}}
 
     func interruptionBegan() {
         interrupted = true
-        resumeAfterInterruption = state == .playing
+        resumeAfterInterruption = state == .playing || state == .loading && loadID == nil
         pauseInternal()
     }
     func interruptionEnded(shouldResume: Bool) {
@@ -379,7 +419,7 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
         pause() // Do not suddenly continue through the loudspeaker after headphones disconnect.
     }
     @objc private func mediaReset() {
-        stop(); interrupted = false; synthesizer = makeSynthesizer(); configureSynthesizer()
+        stop(); interrupted = false;engine.shutdown();engineRevision=UUID();engine=engineFactory(engineKind);connectEngine()
         message = "Аудиосистема перезапущена. Нажмите «Слушать», чтобы продолжить."
     }
     @objc private func becameActive() { if state == .playing || state == .paused { highlightCurrent() } }
@@ -405,7 +445,7 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
     private func updateNowPlaying() {
         #if os(iOS)
         guard !remoteTargets.isEmpty else { return }
-        let active = state == .playing || state == .paused
+        let active = state == .playing || state == .paused || state == .loading && !fragments.isEmpty
         let center = MPRemoteCommandCenter.shared()
         center.playCommand.isEnabled = active && state == .paused
         center.pauseCommand.isEnabled = active && state == .playing

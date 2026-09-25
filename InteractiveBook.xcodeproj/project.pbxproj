@@ -7,26 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		169D848E6EA030687207F30F /* InteractiveBook/Audio/Silero/SileroTextRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F4C87550ECDEF98A80EA85 /* InteractiveBook/Audio/Silero/SileroTextRules.swift */; };
+		3682A459D13E5C1145B92590 /* InteractiveBook/Audio/Silero/DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E1D5B589DAFEA7E403E12 /* InteractiveBook/Audio/Silero/DSP.swift */; };
+		53D1D75DF11331D8A4A63DED /* InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8DECC645CA2416460415 /* InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift */; };
+		64DFA87ED7B10433C108F021 /* InteractiveBook/Audio/Silero/SileroPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D937E1BDC20F611DD22998 /* InteractiveBook/Audio/Silero/SileroPreprocessor.swift */; };
+		6755DAE5070826A01A020BE9 /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB150F25C14EDDEE868CDA /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c */; };
+		70E6A2D9C9C5FB1FC01F7135 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4957C352708D3870C16E9 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift */; };
+		7867E2997973F8EF53634CF5 /* InteractiveBook/SileroResources in Resources */ = {isa = PBXBuildFile; fileRef = B2E6E17C817FAE2397823825 /* InteractiveBook/SileroResources */; };
+		886207456C94C01D5CD7FFA2 /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = D62B3A9D181C868008ECF39B /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c */; };
+		8AC8DE887189DA3AC2575AE9 /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0AE1E8EFA66366021707D /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift */; };
+		924ADAE8198105CBA7A50765 /* InteractiveBook/Audio/Silero/SileroAuxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8310F0FE7CA9F6446BD1697 /* InteractiveBook/Audio/Silero/SileroAuxiliary.swift */; };
+		96A42950E42C5FACAEAF9F5E /* InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8755630193A524DA85B02 /* InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift */; };
+		981E833765E953B881E046E3 /* InteractiveBook/Audio/SileroSpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F54F76DEAAB4C6A8892F55 /* InteractiveBook/Audio/SileroSpeechEngine.swift */; };
 		A00000000000000000000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* App.swift */; };
 		A00000000000000000000002 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* BookView.swift */; };
 		A00000000000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* Assets.xcassets */; };
 		A00000000000000000000004 /* WebContent in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* WebContent */; };
-		A00000000000000000000007 /* SpeechTextProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* SpeechTextProcessor.swift */; };
-		A00000000000000000000008 /* SpeechReaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* SpeechReaderManager.swift */; };
-		A00000000000000000000009 /* SpeechControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* SpeechControls.swift */; };
+		A00000000000000000000007 /* Audio/SpeechTextProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* Audio/SpeechTextProcessor.swift */; };
+		A00000000000000000000008 /* Audio/SpeechReaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* Audio/SpeechReaderManager.swift */; };
+		A00000000000000000000009 /* Audio/SpeechControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* Audio/SpeechControls.swift */; };
+		AA25EE8BDE82C5B6C6F0E84A /* InteractiveBook/Audio/Silero/SileroWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5CE947C75514FDC5D89989 /* InteractiveBook/Audio/Silero/SileroWorker.swift */; };
+		B271FBEC702E5B5BE6077693 /* onnxruntime in Frameworks */ = {isa = PBXBuildFile; productRef = EAC6EE3A2DFA358D00049288 /* onnxruntime */; };
+		C78032AE8E41AA071F407301 /* InteractiveBook/Audio/AppleSpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D1A02C977D6F080DAE4BC4 /* InteractiveBook/Audio/AppleSpeechEngine.swift */; };
+		C92CC0506835B2FB5F7B305A /* InteractiveBook/Audio/SpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42815BFE9291536B66BC1BAA /* InteractiveBook/Audio/SpeechEngine.swift */; };
+		CD518B937C624FF900D499F5 /* InteractiveBook/Audio/Silero/ORTBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7513EE54E3F1CB029ED38 /* InteractiveBook/Audio/Silero/ORTBridge.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07F54F76DEAAB4C6A8892F55 /* InteractiveBook/Audio/SileroSpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/SileroSpeechEngine.swift; sourceTree = SOURCE_ROOT; };
+		2ACB150F25C14EDDEE868CDA /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InteractiveBook/Audio/Silero/Vendor/kiss_fft.c; sourceTree = SOURCE_ROOT; };
+		30E4957C352708D3870C16E9 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/TechnicalLexicon.swift; sourceTree = SOURCE_ROOT; };
+		3A9E1D5B589DAFEA7E403E12 /* InteractiveBook/Audio/Silero/DSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/DSP.swift; sourceTree = SOURCE_ROOT; };
+		42815BFE9291536B66BC1BAA /* InteractiveBook/Audio/SpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/SpeechEngine.swift; sourceTree = SOURCE_ROOT; };
+		47F4C87550ECDEF98A80EA85 /* InteractiveBook/Audio/Silero/SileroTextRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroTextRules.swift; sourceTree = SOURCE_ROOT; };
+		60D937E1BDC20F611DD22998 /* InteractiveBook/Audio/Silero/SileroPreprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroPreprocessor.swift; sourceTree = SOURCE_ROOT; };
+		6AE0AE1E8EFA66366021707D /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/TechnicalNumbers.swift; sourceTree = SOURCE_ROOT; };
+		8EE7513EE54E3F1CB029ED38 /* InteractiveBook/Audio/Silero/ORTBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InteractiveBook/Audio/Silero/ORTBridge.mm; sourceTree = SOURCE_ROOT; };
+		98C8755630193A524DA85B02 /* InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift; sourceTree = SOURCE_ROOT; };
+		AA8E8DECC645CA2416460415 /* InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift; sourceTree = SOURCE_ROOT; };
 		B00000000000000000000001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		B00000000000000000000002 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		B00000000000000000000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00000000000000000000004 /* WebContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebContent; sourceTree = "<group>"; };
 		B00000000000000000000005 /* InteractiveBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00000000000000000000006 /* Config/Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/Signing.xcconfig; sourceTree = "<group>"; };
-		B00000000000000000000007 /* SpeechTextProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio/SpeechTextProcessor.swift; sourceTree = "<group>"; };
-		B00000000000000000000008 /* SpeechReaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio/SpeechReaderManager.swift; sourceTree = "<group>"; };
-		B00000000000000000000009 /* SpeechControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio/SpeechControls.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* Audio/SpeechTextProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio/SpeechTextProcessor.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* Audio/SpeechReaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio/SpeechReaderManager.swift; sourceTree = "<group>"; };
+		B00000000000000000000009 /* Audio/SpeechControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio/SpeechControls.swift; sourceTree = "<group>"; };
 		B0000000000000000000000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E6E17C817FAE2397823825 /* InteractiveBook/SileroResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = InteractiveBook/SileroResources; sourceTree = SOURCE_ROOT; };
+		D62B3A9D181C868008ECF39B /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c; sourceTree = SOURCE_ROOT; };
+		DB5CE947C75514FDC5D89989 /* InteractiveBook/Audio/Silero/SileroWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroWorker.swift; sourceTree = SOURCE_ROOT; };
+		E8310F0FE7CA9F6446BD1697 /* InteractiveBook/Audio/Silero/SileroAuxiliary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroAuxiliary.swift; sourceTree = SOURCE_ROOT; };
+		F6D1A02C977D6F080DAE4BC4 /* InteractiveBook/Audio/AppleSpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/AppleSpeechEngine.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B271FBEC702E5B5BE6077693 /* onnxruntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +77,22 @@
 		D00000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
+				42815BFE9291536B66BC1BAA /* InteractiveBook/Audio/SpeechEngine.swift */,
+				F6D1A02C977D6F080DAE4BC4 /* InteractiveBook/Audio/AppleSpeechEngine.swift */,
+				07F54F76DEAAB4C6A8892F55 /* InteractiveBook/Audio/SileroSpeechEngine.swift */,
+				3A9E1D5B589DAFEA7E403E12 /* InteractiveBook/Audio/Silero/DSP.swift */,
+				E8310F0FE7CA9F6446BD1697 /* InteractiveBook/Audio/Silero/SileroAuxiliary.swift */,
+				60D937E1BDC20F611DD22998 /* InteractiveBook/Audio/Silero/SileroPreprocessor.swift */,
+				AA8E8DECC645CA2416460415 /* InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift */,
+				47F4C87550ECDEF98A80EA85 /* InteractiveBook/Audio/Silero/SileroTextRules.swift */,
+				DB5CE947C75514FDC5D89989 /* InteractiveBook/Audio/Silero/SileroWorker.swift */,
+				30E4957C352708D3870C16E9 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift */,
+				6AE0AE1E8EFA66366021707D /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift */,
+				98C8755630193A524DA85B02 /* InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift */,
+				8EE7513EE54E3F1CB029ED38 /* InteractiveBook/Audio/Silero/ORTBridge.mm */,
+				2ACB150F25C14EDDEE868CDA /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c */,
+				D62B3A9D181C868008ECF39B /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c */,
+				B2E6E17C817FAE2397823825 /* InteractiveBook/SileroResources */,
 				D00000000000000000000002 /* InteractiveBook */,
 				D00000000000000000000003 /* Products */,
 				B00000000000000000000006 /* Config/Signing.xcconfig */,
@@ -55,9 +105,9 @@
 				B00000000000000000000001 /* App.swift */,
 				B00000000000000000000002 /* BookView.swift */,
 				B0000000000000000000000A /* Info.plist */,
-				B00000000000000000000009 /* SpeechControls.swift */,
-				B00000000000000000000008 /* SpeechReaderManager.swift */,
-				B00000000000000000000007 /* SpeechTextProcessor.swift */,
+				B00000000000000000000009 /* Audio/SpeechControls.swift */,
+				B00000000000000000000008 /* Audio/SpeechReaderManager.swift */,
+				B00000000000000000000007 /* Audio/SpeechTextProcessor.swift */,
 				B00000000000000000000003 /* Assets.xcassets */,
 				B00000000000000000000004 /* WebContent */,
 			);
@@ -88,6 +138,9 @@
 			dependencies = (
 			);
 			name = InteractiveBook;
+			packageProductDependencies = (
+				EAC6EE3A2DFA358D00049288 /* onnxruntime */,
+			);
 			productName = InteractiveBook;
 			productReference = B00000000000000000000005 /* InteractiveBook.app */;
 			productType = "com.apple.product-type.application";
@@ -104,7 +157,11 @@
 					E00000000000000000000001 = {
 						CreatedOnToolsVersion = 16.0;
 						ProvisioningStyle = Automatic;
-						SystemCapabilities = { com.apple.BackgroundModes = { enabled = 1; }; };
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -118,6 +175,9 @@
 				Base,
 			);
 			mainGroup = D00000000000000000000001;
+			packageReferences = (
+				68AD313CC5BA82BB021359B0 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */,
+			);
 			productRefGroup = D00000000000000000000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7867E2997973F8EF53634CF5 /* InteractiveBook/SileroResources in Resources */,
 				A00000000000000000000003 /* Assets.xcassets in Resources */,
 				A00000000000000000000004 /* WebContent in Resources */,
 			);
@@ -144,11 +205,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92CC0506835B2FB5F7B305A /* InteractiveBook/Audio/SpeechEngine.swift in Sources */,
+				C78032AE8E41AA071F407301 /* InteractiveBook/Audio/AppleSpeechEngine.swift in Sources */,
+				981E833765E953B881E046E3 /* InteractiveBook/Audio/SileroSpeechEngine.swift in Sources */,
+				3682A459D13E5C1145B92590 /* InteractiveBook/Audio/Silero/DSP.swift in Sources */,
+				924ADAE8198105CBA7A50765 /* InteractiveBook/Audio/Silero/SileroAuxiliary.swift in Sources */,
+				64DFA87ED7B10433C108F021 /* InteractiveBook/Audio/Silero/SileroPreprocessor.swift in Sources */,
+				53D1D75DF11331D8A4A63DED /* InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift in Sources */,
+				169D848E6EA030687207F30F /* InteractiveBook/Audio/Silero/SileroTextRules.swift in Sources */,
+				AA25EE8BDE82C5B6C6F0E84A /* InteractiveBook/Audio/Silero/SileroWorker.swift in Sources */,
+				70E6A2D9C9C5FB1FC01F7135 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift in Sources */,
+				8AC8DE887189DA3AC2575AE9 /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift in Sources */,
+				96A42950E42C5FACAEAF9F5E /* InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift in Sources */,
+				CD518B937C624FF900D499F5 /* InteractiveBook/Audio/Silero/ORTBridge.mm in Sources */,
+				6755DAE5070826A01A020BE9 /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c in Sources */,
+				886207456C94C01D5CD7FFA2 /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c in Sources */,
 				A00000000000000000000001 /* App.swift in Sources */,
 				A00000000000000000000002 /* BookView.swift in Sources */,
-				A00000000000000000000009 /* SpeechControls.swift in Sources */,
-				A00000000000000000000008 /* SpeechReaderManager.swift in Sources */,
-				A00000000000000000000007 /* SpeechTextProcessor.swift in Sources */,
+				A00000000000000000000009 /* Audio/SpeechControls.swift in Sources */,
+				A00000000000000000000008 /* Audio/SpeechReaderManager.swift in Sources */,
+				A00000000000000000000007 /* Audio/SpeechTextProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +238,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -183,9 +259,14 @@
 			baseConfigurationReference = B00000000000000000000006 /* Config/Signing.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_OPTIMIZATION_LEVEL = 2;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/InteractiveBook/Audio/Silero/Vendor";
 				INFOPLIST_FILE = InteractiveBook/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Интерактивный учебник";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -194,6 +275,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OBJC_BRIDGING_HEADER = InteractiveBook/Audio/Silero/Bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -203,9 +287,14 @@
 			baseConfigurationReference = B00000000000000000000006 /* Config/Signing.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_OPTIMIZATION_LEVEL = 2;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/InteractiveBook/Audio/Silero/Vendor";
 				INFOPLIST_FILE = InteractiveBook/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Интерактивный учебник";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -214,6 +303,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = InteractiveBook/Audio/Silero/Bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -240,6 +331,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68AD313CC5BA82BB021359B0 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/microsoft/onnxruntime-swift-package-manager";
+			requirement = {
+				kind = exactVersion;
+				version = 1.24.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAC6EE3A2DFA358D00049288 /* onnxruntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68AD313CC5BA82BB021359B0 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */;
+			productName = onnxruntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E00000000000000000000002 /* Project object */;
 }

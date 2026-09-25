@@ -1,0 +1,52 @@
+{
+  "version": "v5_5_ru",
+  "sample_rate": 48000,
+  "speaker": "xenia",
+  "files": {
+    "duration.onnx": {
+      "sha256": "cb078455e1f62cce8eea8c162289e2ef7fecd64f564c081a4151fe92337e8980",
+      "bytes": 2279956,
+      "source": "experiments/silero-ios-feasibility/artifacts/onnx-dsp/duration.onnx"
+    },
+    "pitch.onnx": {
+      "sha256": "6de663792367cde7305614469f1dd52a0bcacf24aae4183fe90acd655d565103",
+      "bytes": 2281630,
+      "source": "experiments/silero-ios-feasibility/artifacts/onnx-dsp/pitch.onnx"
+    },
+    "encoder.onnx": {
+      "sha256": "d349307b3d77b8ac870b14ae0a53877cd96d5c454bfa79d6987da113c34d9479",
+      "bytes": 14200427,
+      "source": "experiments/silero-ios-feasibility/artifacts/onnx-dsp/encoder.onnx"
+    },
+    "decoder.onnx": {
+      "sha256": "f9970f6b3e66c3d5dcaaefb7c45a5aa26bf1077b0ada40f4f1129251944fc054",
+      "bytes": 11563943,
+      "source": "experiments/silero-ios-feasibility/artifacts/onnx-dsp/decoder.onnx"
+    },
+    "spectral.onnx": {
+      "sha256": "dd8b27331f5b6499990490af06ec8ca9779508d4071aed2440496cad9cbf7bcf",
+      "bytes": 58288938,
+      "source": "experiments/silero-ios-feasibility/artifacts/onnx-dsp/spectral.onnx"
+    },
+    "accent.onnx": {
+      "bytes": 8248029,
+      "sha256": "7667f328055d495ef48ce4bf7c9596e86bb74d5c537dd4a19ed826e1e72fb230",
+      "source": "experiments/silero-ios-feasibility/artifacts/preprocessing/accent.onnx"
+    },
+    "homograph.onnx": {
+      "bytes": 117110437,
+      "sha256": "cdcc460acb3925ff0946734c41f282035bea0ffa7b0d455d9b718a75794af826",
+      "source": "experiments/silero-ios-feasibility/artifacts/preprocessing/homograph.onnx"
+    },
+    "data.json": {
+      "bytes": 6206094,
+      "sha256": "4b2e407ac225f54a00604d9067b3aa5b8c4bac238729e6d58da42b5ce25b26b1",
+      "source": "experiments/silero-ios-feasibility/artifacts/preprocessing/data.json"
+    },
+    "window.bin": {
+      "sha256": "615a1e89b017f6f4b8d460b07eabf2a61efee3f1f43094e617d9ebc78d6deacf",
+      "bytes": 9600,
+      "source": "experiments/silero-ios-feasibility/ios/SileroIOSPoC/Fixtures/window.bin"
+    }
+  }
+}

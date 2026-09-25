@@ -1,0 +1,956 @@
+{
+  "format": "contiguous little-endian row-major arrays; JSON shapes/dtypes; no headers",
+  "sample_rate": 48000,
+  "models": {
+    "duration": {
+      "sha256": "cb078455e1f62cce8eea8c162289e2ef7fecd64f564c081a4151fe92337e8980",
+      "bytes": 2279956
+    },
+    "pitch": {
+      "sha256": "6de663792367cde7305614469f1dd52a0bcacf24aae4183fe90acd655d565103",
+      "bytes": 2281630
+    },
+    "encoder": {
+      "sha256": "d349307b3d77b8ac870b14ae0a53877cd96d5c454bfa79d6987da113c34d9479",
+      "bytes": 14200427
+    },
+    "decoder": {
+      "sha256": "f9970f6b3e66c3d5dcaaefb7c45a5aa26bf1077b0ada40f4f1129251944fc054",
+      "bytes": 11563943
+    },
+    "spectral": {
+      "sha256": "dd8b27331f5b6499990490af06ec8ca9779508d4071aed2440496cad9cbf7bcf",
+      "bytes": 58288938
+    }
+  },
+  "cases": [
+    {
+      "id": "statement",
+      "inputs": {
+        "sequence": {
+          "file": "statement-sequence.bin",
+          "shape": [
+            1,
+            59
+          ],
+          "dtype": "int64",
+          "sha256": "ebc34e3cbc50e1ba80047945c4d84ddc34ceb23b2b99c8a5e5cb5f93bcdaecb9"
+        },
+        "speaker_ids": {
+          "file": "statement-speaker_ids.bin",
+          "shape": [
+            1
+          ],
+          "dtype": "int64",
+          "sha256": "f0a0278e4372459cca6159cd5e71cfee638302a7b9ca9b05c34181ac0a65ac5d"
+        },
+        "durs_rate": {
+          "file": "statement-durs_rate.bin",
+          "shape": [
+            1,
+            59
+          ],
+          "dtype": "float32",
+          "sha256": "2527cdb4113366c24877f11f69ccf07aaea50e59c8dabd59e877fb9dca57058a"
+        },
+        "pitch_coefs": {
+          "file": "statement-pitch_coefs.bin",
+          "shape": [
+            1,
+            59
+          ],
+          "dtype": "float32",
+          "sha256": "2527cdb4113366c24877f11f69ccf07aaea50e59c8dabd59e877fb9dca57058a"
+        },
+        "type_ids": {
+          "file": "statement-type_ids.bin",
+          "shape": [
+            1,
+            59
+          ],
+          "dtype": "int64",
+          "sha256": "22fec3bc784546d70e79696b405d950aff355b6f429f266ceacffe0cc2e5ba02"
+        }
+      },
+      "reference": {
+        "file": "statement-reference.bin",
+        "shape": [
+          139200
+        ],
+        "dtype": "float32",
+        "sha256": "c6b2612ccab988c9c7b5d093b111fc1a231f58a6a64cad8d4e8e50e479e2defe"
+      },
+      "mac": {
+        "file": "statement-mac.bin",
+        "shape": [
+          139200
+        ],
+        "dtype": "float32",
+        "sha256": "ec2098067b2b2a8c70d22951a50709ba1a9cf8357c1fcab68d95736a91ee5374"
+      },
+      "durations": {
+        "file": "statement-durations.bin",
+        "shape": [
+          1,
+          59
+        ],
+        "dtype": "float32",
+        "sha256": "81996c2be6137c6f00b93222285c9bf0b4dee9dc9eef665f25906fd35d9f0e9c"
+      },
+      "mac_spectral": {
+        "file": "statement-mac-spectral.bin",
+        "shape": [
+          1,
+          2402,
+          232
+        ],
+        "dtype": "float32",
+        "sha256": "69fa30e94a565ceec07a17ec9d6fca0d68aed743b0017d66be8afc0f748f4944"
+      },
+      "intermediate": {
+        "duration_log": {
+          "file": "statement-mac-duration_log.bin",
+          "shape": [
+            1,
+            59
+          ],
+          "dtype": "float32",
+          "sha256": "4ad72d32f0c29bf8e536e6828dd3d77016545cf9c694e9eaa4765ccfaa57b6b0"
+        },
+        "pitch": {
+          "file": "statement-mac-pitch.bin",
+          "shape": [
+            1,
+            1,
+            59
+          ],
+          "dtype": "float32",
+          "sha256": "fdff9bbeea857e5398fdeda8d8b2678c2eaa00dc20b1c7d92cce334c51d00950"
+        },
+        "mel": {
+          "file": "statement-mac-mel.bin",
+          "shape": [
+            1,
+            192,
+            232
+          ],
+          "dtype": "float32",
+          "sha256": "615310c7379b7995f5bc38f03019f1713d710c10c39aaa830ad7f9c05f2d75ea"
+        }
+      }
+    },
+    {
+      "id": "question",
+      "inputs": {
+        "sequence": {
+          "file": "question-sequence.bin",
+          "shape": [
+            1,
+            30
+          ],
+          "dtype": "int64",
+          "sha256": "3c2c2b77feb3b4448b69642a0689f3045d6178c41638639af4fb4862e113f565"
+        },
+        "speaker_ids": {
+          "file": "question-speaker_ids.bin",
+          "shape": [
+            1
+          ],
+          "dtype": "int64",
+          "sha256": "f0a0278e4372459cca6159cd5e71cfee638302a7b9ca9b05c34181ac0a65ac5d"
+        },
+        "durs_rate": {
+          "file": "question-durs_rate.bin",
+          "shape": [
+            1,
+            30
+          ],
+          "dtype": "float32",
+          "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5"
+        },
+        "pitch_coefs": {
+          "file": "question-pitch_coefs.bin",
+          "shape": [
+            1,
+            30
+          ],
+          "dtype": "float32",
+          "sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5"
+        },
+        "type_ids": {
+          "file": "question-type_ids.bin",
+          "shape": [
+            1,
+            30
+          ],
+          "dtype": "int64",
+          "sha256": "a06193a4ca9f98fdabd09209b03e2f4f7a3a64b6693c0236161192eb4671b269"
+        }
+      },
+      "reference": {
+        "file": "question-reference.bin",
+        "shape": [
+          75000
+        ],
+        "dtype": "float32",
+        "sha256": "9b241689b71788bf895bd80ade8b928f7a20401ec75f786bf2768861aeaf4245"
+      },
+      "mac": {
+        "file": "question-mac.bin",
+        "shape": [
+          75000
+        ],
+        "dtype": "float32",
+        "sha256": "0668c23ec29180821ffd4c506c13e124e7e9d5e8ecb97cdc57f8a43893fdc5e8"
+      },
+      "durations": {
+        "file": "question-durations.bin",
+        "shape": [
+          1,
+          30
+        ],
+        "dtype": "float32",
+        "sha256": "f35d820f12db2376e58a7f047a86b60300c7136e333de52893e265fc3a5dd885"
+      },
+      "mac_spectral": {
+        "file": "question-mac-spectral.bin",
+        "shape": [
+          1,
+          2402,
+          125
+        ],
+        "dtype": "float32",
+        "sha256": "8f17f24a3f0e74d45b4a21ef3e3c9f21f9974c676e824c1be3ade9e186937498"
+      },
+      "intermediate": {
+        "duration_log": {
+          "file": "question-mac-duration_log.bin",
+          "shape": [
+            1,
+            30
+          ],
+          "dtype": "float32",
+          "sha256": "eb5b0ced899345470900c0d7d824cf05ed5651a147c97fe2de918084f94a4a1b"
+        },
+        "pitch": {
+          "file": "question-mac-pitch.bin",
+          "shape": [
+            1,
+            1,
+            30
+          ],
+          "dtype": "float32",
+          "sha256": "181c87aa4ab78d29aaaa9d80ba29b081b26126d30886cb10173f192ec1f551d6"
+        },
+        "mel": {
+          "file": "question-mac-mel.bin",
+          "shape": [
+            1,
+            192,
+            125
+          ],
+          "dtype": "float32",
+          "sha256": "dfc6e5b5a0f7bb8dc6158e1acd29344fbe872221e44042480a4ba1b7736f10ff"
+        }
+      }
+    },
+    {
+      "id": "homograph",
+      "inputs": {
+        "sequence": {
+          "file": "homograph-sequence.bin",
+          "shape": [
+            1,
+            81
+          ],
+          "dtype": "int64",
+          "sha256": "5d4267ecc3997f37faf5a846dba633bcb56f029fb8bce55d805aeefa690b62ac"
+        },
+        "speaker_ids": {
+          "file": "homograph-speaker_ids.bin",
+          "shape": [
+            1
+          ],
+          "dtype": "int64",
+          "sha256": "f0a0278e4372459cca6159cd5e71cfee638302a7b9ca9b05c34181ac0a65ac5d"
+        },
+        "durs_rate": {
+          "file": "homograph-durs_rate.bin",
+          "shape": [
+            1,
+            81
+          ],
+          "dtype": "float32",
+          "sha256": "18eff6d9e4f7aa03df4937cfc2ec1afeb7850a7e76f59889ab8343471799d9ae"
+        },
+        "pitch_coefs": {
+          "file": "homograph-pitch_coefs.bin",
+          "shape": [
+            1,
+            81
+          ],
+          "dtype": "float32",
+          "sha256": "18eff6d9e4f7aa03df4937cfc2ec1afeb7850a7e76f59889ab8343471799d9ae"
+        },
+        "type_ids": {
+          "file": "homograph-type_ids.bin",
+          "shape": [
+            1,
+            81
+          ],
+          "dtype": "int64",
+          "sha256": "f4bd841308415de6ed2727462cd66a7333ac8155b4e8e95de0220355189c785c"
+        }
+      },
+      "reference": {
+        "file": "homograph-reference.bin",
+        "shape": [
+          229800
+        ],
+        "dtype": "float32",
+        "sha256": "1004fa25299492bf87748268cb8018fd242b31a9fb39a068f3380a8ba422dfca"
+      },
+      "mac": {
+        "file": "homograph-mac.bin",
+        "shape": [
+          229800
+        ],
+        "dtype": "float32",
+        "sha256": "785e14b7612a22b3c34a0bc4c49c47f1342dae72d40782e0ab5c8dfc7cfe1400"
+      },
+      "durations": {
+        "file": "homograph-durations.bin",
+        "shape": [
+          1,
+          81
+        ],
+        "dtype": "float32",
+        "sha256": "9ac6f53f0957a7680c672a9ff91af08488e6c940edc7950c2fd18a4416f113de"
+      },
+      "mac_spectral": {
+        "file": "homograph-mac-spectral.bin",
+        "shape": [
+          1,
+          2402,
+          383
+        ],
+        "dtype": "float32",
+        "sha256": "8a1f83f3f53e8c1436c3e73509c2c1067cd79dcabc1cd01c1eb2b71c3f5e7718"
+      },
+      "intermediate": {
+        "duration_log": {
+          "file": "homograph-mac-duration_log.bin",
+          "shape": [
+            1,
+            81
+          ],
+          "dtype": "float32",
+          "sha256": "a85336e7b58ced144597d0e32b8c8cf9d5038352369f7751744621a52ee8726c"
+        },
+        "pitch": {
+          "file": "homograph-mac-pitch.bin",
+          "shape": [
+            1,
+            1,
+            81
+          ],
+          "dtype": "float32",
+          "sha256": "e58c60dde3156cbca0843cdade8e6baf580cd61254f475c560a32151e8e12ed7"
+        },
+        "mel": {
+          "file": "homograph-mac-mel.bin",
+          "shape": [
+            1,
+            192,
+            383
+          ],
+          "dtype": "float32",
+          "sha256": "8097f235422d07b2125be2bb1f3e3a7243eb4abfa53ac773ca833a7960f2c77e"
+        }
+      }
+    },
+    {
+      "id": "yo",
+      "inputs": {
+        "sequence": {
+          "file": "yo-sequence.bin",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "int64",
+          "sha256": "83cdfbec3b3a193aa5d2c427aa8ff6d3dc8dbb1a32d9d76659a605c10e12fa86"
+        },
+        "speaker_ids": {
+          "file": "yo-speaker_ids.bin",
+          "shape": [
+            1
+          ],
+          "dtype": "int64",
+          "sha256": "f0a0278e4372459cca6159cd5e71cfee638302a7b9ca9b05c34181ac0a65ac5d"
+        },
+        "durs_rate": {
+          "file": "yo-durs_rate.bin",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float32",
+          "sha256": "973c140a8575ffd2273b979b71385a9ff4c3a73462181c4387f57a2d32d8c104"
+        },
+        "pitch_coefs": {
+          "file": "yo-pitch_coefs.bin",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float32",
+          "sha256": "973c140a8575ffd2273b979b71385a9ff4c3a73462181c4387f57a2d32d8c104"
+        },
+        "type_ids": {
+          "file": "yo-type_ids.bin",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "int64",
+          "sha256": "e6a4dd1cc11fe045554f993bb765eba87d46248a8b85a7c8dbaa5c40594e0214"
+        }
+      },
+      "reference": {
+        "file": "yo-reference.bin",
+        "shape": [
+          135000
+        ],
+        "dtype": "float32",
+        "sha256": "00c0b79a9863c5201722f3113b4f69a87c4aab2b122819ccb7598f5612f30d2a"
+      },
+      "mac": {
+        "file": "yo-mac.bin",
+        "shape": [
+          135000
+        ],
+        "dtype": "float32",
+        "sha256": "c229602a0f8eb175bbfdc995b9277f8cf71a96f962a7e18dbc327faa799a0307"
+      },
+      "durations": {
+        "file": "yo-durations.bin",
+        "shape": [
+          1,
+          53
+        ],
+        "dtype": "float32",
+        "sha256": "4c0a910af0f9b8352cd40f1ce14668d26e4ff65d552fb5a9003515f776592411"
+      },
+      "mac_spectral": {
+        "file": "yo-mac-spectral.bin",
+        "shape": [
+          1,
+          2402,
+          225
+        ],
+        "dtype": "float32",
+        "sha256": "5516ed4a5b157d42c5c76bea6d8eec0bbf934f3e915a03833a30253c992396a9"
+      },
+      "intermediate": {
+        "duration_log": {
+          "file": "yo-mac-duration_log.bin",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float32",
+          "sha256": "35b24781e3f4d4963cf10b2ec890d2151eca279f61afdb81d09a18f7965181de"
+        },
+        "pitch": {
+          "file": "yo-mac-pitch.bin",
+          "shape": [
+            1,
+            1,
+            53
+          ],
+          "dtype": "float32",
+          "sha256": "107e93e93f3833024da61ac156a983f9dbfc4b3e60ef4d2fac2a0211000cd221"
+        },
+        "mel": {
+          "file": "yo-mac-mel.bin",
+          "shape": [
+            1,
+            192,
+            225
+          ],
+          "dtype": "float32",
+          "sha256": "f4241ea92b442014984bae4254eb14fb16d6c0981bc9e79e05b3c7fc6f254634"
+        }
+      }
+    },
+    {
+      "id": "number",
+      "inputs": {
+        "sequence": {
+          "file": "number-sequence.bin",
+          "shape": [
+            1,
+            34
+          ],
+          "dtype": "int64",
+          "sha256": "e41ca5e77e441ab9aaa779ae8affd9220401f1149509088ba2264f5a4f012ad1"
+        },
+        "speaker_ids": {
+          "file": "number-speaker_ids.bin",
+          "shape": [
+            1
+          ],
+          "dtype": "int64",
+          "sha256": "f0a0278e4372459cca6159cd5e71cfee638302a7b9ca9b05c34181ac0a65ac5d"
+        },
+        "durs_rate": {
+          "file": "number-durs_rate.bin",
+          "shape": [
+            1,
+            34
+          ],
+          "dtype": "float32",
+          "sha256": "3da4732691885ce6ba7dfeccf1a2cf7c3aba92b34f5176e8d12fd97692bb8bb4"
+        },
+        "pitch_coefs": {
+          "file": "number-pitch_coefs.bin",
+          "shape": [
+            1,
+            34
+          ],
+          "dtype": "float32",
+          "sha256": "3da4732691885ce6ba7dfeccf1a2cf7c3aba92b34f5176e8d12fd97692bb8bb4"
+        },
+        "type_ids": {
+          "file": "number-type_ids.bin",
+          "shape": [
+            1,
+            34
+          ],
+          "dtype": "int64",
+          "sha256": "e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574"
+        }
+      },
+      "reference": {
+        "file": "number-reference.bin",
+        "shape": [
+          87600
+        ],
+        "dtype": "float32",
+        "sha256": "e477b37d4b151838a3818f2f8df3799e9399d3c91d76f409e32d7f41557e2bf9"
+      },
+      "mac": {
+        "file": "number-mac.bin",
+        "shape": [
+          87600
+        ],
+        "dtype": "float32",
+        "sha256": "83e5b7bb8d571f686b609f1d15fea30fab3aa389341ac13fdbfd6135936afecb"
+      },
+      "durations": {
+        "file": "number-durations.bin",
+        "shape": [
+          1,
+          34
+        ],
+        "dtype": "float32",
+        "sha256": "11853a93d7d11fb6f560538a42df32bc71027c719ac25506d18faa08284c3894"
+      },
+      "mac_spectral": {
+        "file": "number-mac-spectral.bin",
+        "shape": [
+          1,
+          2402,
+          146
+        ],
+        "dtype": "float32",
+        "sha256": "9cd2ee6b7495608fab9fc1b7fef5866d097be451f5360aa7e3877d649203772e"
+      },
+      "intermediate": {
+        "duration_log": {
+          "file": "number-mac-duration_log.bin",
+          "shape": [
+            1,
+            34
+          ],
+          "dtype": "float32",
+          "sha256": "e9bc3593fc096c8184d4c0022f9e18d86d262ffd2470e197cfb2685c984466db"
+        },
+        "pitch": {
+          "file": "number-mac-pitch.bin",
+          "shape": [
+            1,
+            1,
+            34
+          ],
+          "dtype": "float32",
+          "sha256": "9b4c5dc9e6366e44507b38bb8cdb851b0631c4c2d3635e478a374c136832e2bd"
+        },
+        "mel": {
+          "file": "number-mac-mel.bin",
+          "shape": [
+            1,
+            192,
+            146
+          ],
+          "dtype": "float32",
+          "sha256": "9c91c9e51ee1a804162965cdc8f7e10dd9619ad86d9899ee5dae88814c9d9f9b"
+        }
+      }
+    },
+    {
+      "id": "technical",
+      "inputs": {
+        "sequence": {
+          "file": "technical-sequence.bin",
+          "shape": [
+            1,
+            62
+          ],
+          "dtype": "int64",
+          "sha256": "e6e046a6946d26335c5c1cee7d4609f7373fb59fbf3064c6c5e8498bbfad67d0"
+        },
+        "speaker_ids": {
+          "file": "technical-speaker_ids.bin",
+          "shape": [
+            1
+          ],
+          "dtype": "int64",
+          "sha256": "f0a0278e4372459cca6159cd5e71cfee638302a7b9ca9b05c34181ac0a65ac5d"
+        },
+        "durs_rate": {
+          "file": "technical-durs_rate.bin",
+          "shape": [
+            1,
+            62
+          ],
+          "dtype": "float32",
+          "sha256": "4a014e46503145e6315c9f6b0455bbad1153ce3d833e1b4ceb52ab5c3ec8b616"
+        },
+        "pitch_coefs": {
+          "file": "technical-pitch_coefs.bin",
+          "shape": [
+            1,
+            62
+          ],
+          "dtype": "float32",
+          "sha256": "4a014e46503145e6315c9f6b0455bbad1153ce3d833e1b4ceb52ab5c3ec8b616"
+        },
+        "type_ids": {
+          "file": "technical-type_ids.bin",
+          "shape": [
+            1,
+            62
+          ],
+          "dtype": "int64",
+          "sha256": "882993b55cc0c527f0a6059b69b3faf4ef3ccb9cecd3d8847ca0e49a1444debe"
+        }
+      },
+      "reference": {
+        "file": "technical-reference.bin",
+        "shape": [
+          145800
+        ],
+        "dtype": "float32",
+        "sha256": "45a6a5aa6ffbd0793f1e1fc61d8c0a9f29fea20c76fa283a6e0663546f022425"
+      },
+      "mac": {
+        "file": "technical-mac.bin",
+        "shape": [
+          145800
+        ],
+        "dtype": "float32",
+        "sha256": "57aa2a0c8fd45c20d1eef0c198cc203b3992d5bb670feef97664987d99871fbc"
+      },
+      "durations": {
+        "file": "technical-durations.bin",
+        "shape": [
+          1,
+          62
+        ],
+        "dtype": "float32",
+        "sha256": "53ef9b888ac72d139668b43ccdecfb03ea4fdca00199bc8143f641e9891bfbfc"
+      },
+      "mac_spectral": {
+        "file": "technical-mac-spectral.bin",
+        "shape": [
+          1,
+          2402,
+          243
+        ],
+        "dtype": "float32",
+        "sha256": "7e40f53191eb01b9960ee1cd6b602202b399c250a5e44bbc150d8643feb60da0"
+      },
+      "intermediate": {
+        "duration_log": {
+          "file": "technical-mac-duration_log.bin",
+          "shape": [
+            1,
+            62
+          ],
+          "dtype": "float32",
+          "sha256": "b0cfdbba9e7d3d5add0fd2cb20cd7fb2f6a59da2a8deab5e69e97bbdc1b23fb6"
+        },
+        "pitch": {
+          "file": "technical-mac-pitch.bin",
+          "shape": [
+            1,
+            1,
+            62
+          ],
+          "dtype": "float32",
+          "sha256": "890e8f250f15f3fbf84b5add38e0c70c8a3bbfeeced83935bcd0a4f3dbadacfa"
+        },
+        "mel": {
+          "file": "technical-mac-mel.bin",
+          "shape": [
+            1,
+            192,
+            243
+          ],
+          "dtype": "float32",
+          "sha256": "dd7dc8b9711a05fbb21fb7d4d964213f867ece29b42ba03d363e8c24989fb18b"
+        }
+      }
+    },
+    {
+      "id": "abbreviations",
+      "inputs": {
+        "sequence": {
+          "file": "abbreviations-sequence.bin",
+          "shape": [
+            1,
+            19
+          ],
+          "dtype": "int64",
+          "sha256": "1302803ba7de2011f1894dc0628d2e2488ff55cf57de3daceb3806931ac2df1d"
+        },
+        "speaker_ids": {
+          "file": "abbreviations-speaker_ids.bin",
+          "shape": [
+            1
+          ],
+          "dtype": "int64",
+          "sha256": "f0a0278e4372459cca6159cd5e71cfee638302a7b9ca9b05c34181ac0a65ac5d"
+        },
+        "durs_rate": {
+          "file": "abbreviations-durs_rate.bin",
+          "shape": [
+            1,
+            19
+          ],
+          "dtype": "float32",
+          "sha256": "de991f9095bad46b975b57c0b1d49f8819c65f2e3a432b60622067457f90cbe4"
+        },
+        "pitch_coefs": {
+          "file": "abbreviations-pitch_coefs.bin",
+          "shape": [
+            1,
+            19
+          ],
+          "dtype": "float32",
+          "sha256": "de991f9095bad46b975b57c0b1d49f8819c65f2e3a432b60622067457f90cbe4"
+        },
+        "type_ids": {
+          "file": "abbreviations-type_ids.bin",
+          "shape": [
+            1,
+            19
+          ],
+          "dtype": "int64",
+          "sha256": "85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f"
+        }
+      },
+      "reference": {
+        "file": "abbreviations-reference.bin",
+        "shape": [
+          57600
+        ],
+        "dtype": "float32",
+        "sha256": "38f20c93ce8ac33426e8d83cd9661afe46b3c562d20508d887afe7438cecc232"
+      },
+      "mac": {
+        "file": "abbreviations-mac.bin",
+        "shape": [
+          57600
+        ],
+        "dtype": "float32",
+        "sha256": "812db20b040e0b3d2d850c397486258c33df298834fa66b99e0637a6d36ae37c"
+      },
+      "durations": {
+        "file": "abbreviations-durations.bin",
+        "shape": [
+          1,
+          19
+        ],
+        "dtype": "float32",
+        "sha256": "39ba59c57af5ec86144bc003524538f030df20b4b6c6ed87a339ef41573827ea"
+      },
+      "mac_spectral": {
+        "file": "abbreviations-mac-spectral.bin",
+        "shape": [
+          1,
+          2402,
+          96
+        ],
+        "dtype": "float32",
+        "sha256": "7b269aae16d91b274458543116d60f6c6f65d7c7f83acb640db775e834eed3c7"
+      },
+      "intermediate": {
+        "duration_log": {
+          "file": "abbreviations-mac-duration_log.bin",
+          "shape": [
+            1,
+            19
+          ],
+          "dtype": "float32",
+          "sha256": "01d5bb413ca20fa0ff1dc158382b3367d59e8702d31ed3f5c0d93fc91a366aea"
+        },
+        "pitch": {
+          "file": "abbreviations-mac-pitch.bin",
+          "shape": [
+            1,
+            1,
+            19
+          ],
+          "dtype": "float32",
+          "sha256": "6ba04a46f815f61587f56d1c442c6d948b614b76aec35ae847b70443686ea6a7"
+        },
+        "mel": {
+          "file": "abbreviations-mac-mel.bin",
+          "shape": [
+            1,
+            192,
+            96
+          ],
+          "dtype": "float32",
+          "sha256": "40fc3562eb4797ee3de8168ed3588b008f0d92cc53af781d97ae152a6dc93bb1"
+        }
+      }
+    },
+    {
+      "id": "long",
+      "inputs": {
+        "sequence": {
+          "file": "long-sequence.bin",
+          "shape": [
+            1,
+            274
+          ],
+          "dtype": "int64",
+          "sha256": "a0039235ab764a2d20f94e21198203daf12a022ef34bf7128468934cb18ce164"
+        },
+        "speaker_ids": {
+          "file": "long-speaker_ids.bin",
+          "shape": [
+            1
+          ],
+          "dtype": "int64",
+          "sha256": "f0a0278e4372459cca6159cd5e71cfee638302a7b9ca9b05c34181ac0a65ac5d"
+        },
+        "durs_rate": {
+          "file": "long-durs_rate.bin",
+          "shape": [
+            1,
+            274
+          ],
+          "dtype": "float32",
+          "sha256": "bb5bf8fe7583d606c1450fa3223ffd78f740e0e0159b7c11a4a29da664346de8"
+        },
+        "pitch_coefs": {
+          "file": "long-pitch_coefs.bin",
+          "shape": [
+            1,
+            274
+          ],
+          "dtype": "float32",
+          "sha256": "bb5bf8fe7583d606c1450fa3223ffd78f740e0e0159b7c11a4a29da664346de8"
+        },
+        "type_ids": {
+          "file": "long-type_ids.bin",
+          "shape": [
+            1,
+            274
+          ],
+          "dtype": "int64",
+          "sha256": "c3f98bcd6e42258b08619d44bece48a614e4d6825295af9e133c62e05efe6da8"
+        }
+      },
+      "reference": {
+        "file": "long-reference.bin",
+        "shape": [
+          630600
+        ],
+        "dtype": "float32",
+        "sha256": "b61c279f02608b539f9f0b1dcb137cb2c775df063a1570c2b450188158e930f7"
+      },
+      "mac": {
+        "file": "long-mac.bin",
+        "shape": [
+          630600
+        ],
+        "dtype": "float32",
+        "sha256": "fa77733281393d40dfda9a6d03f26b4556b1e8a9c06278d91f199646c3c48e14"
+      },
+      "durations": {
+        "file": "long-durations.bin",
+        "shape": [
+          1,
+          274
+        ],
+        "dtype": "float32",
+        "sha256": "46b9d2dd25fe9d50fe0405c881830cdb67e1e9514108b80a182c6f7bdec2d696"
+      },
+      "mac_spectral": {
+        "file": "long-mac-spectral.bin",
+        "shape": [
+          1,
+          2402,
+          1051
+        ],
+        "dtype": "float32",
+        "sha256": "1fe178dfb1bd2bb9c058e168bbbaff65e5ba5deebcf832e577158485423adc8b"
+      },
+      "intermediate": {
+        "duration_log": {
+          "file": "long-mac-duration_log.bin",
+          "shape": [
+            1,
+            274
+          ],
+          "dtype": "float32",
+          "sha256": "7f7ebcfef22d1ee177d8533f29be71cbb00d21f1a2e4c9398283c0fbaa2a7d7b"
+        },
+        "pitch": {
+          "file": "long-mac-pitch.bin",
+          "shape": [
+            1,
+            1,
+            274
+          ],
+          "dtype": "float32",
+          "sha256": "4eb5f3c290c11cdd55380a87114a6efa55ecbf2fee399f310e921ecab4bcd97d"
+        },
+        "mel": {
+          "file": "long-mac-mel.bin",
+          "shape": [
+            1,
+            192,
+            1051
+          ],
+          "dtype": "float32",
+          "sha256": "d78ddc1363ae92752a6452620727d0133a67ea92c428b9d19e25add6186fc1d6"
+        }
+      }
+    }
+  ],
+  "window": {
+    "file": "window.bin",
+    "shape": [
+      2400
+    ],
+    "dtype": "float32",
+    "sha256": "615a1e89b017f6f4b8d460b07eabf2a61efee3f1f43094e617d9ebc78d6deacf"
+  }
+}

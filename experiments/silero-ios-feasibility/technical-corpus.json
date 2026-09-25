@@ -1,0 +1,422 @@
+[
+  {
+    "id": "tech_01",
+    "category": "api",
+    "source": "API вернул HTTP 500.",
+    "expected": "эй пи ай вернул эйч ти ти пи пятьсот.",
+    "audio": true
+  },
+  {
+    "id": "tech_02",
+    "category": "api",
+    "source": "REST API использует JSON.",
+    "expected": "рэст эй пи ай использует джейсон.",
+    "audio": true
+  },
+  {
+    "id": "tech_03",
+    "category": "api",
+    "source": "Запрос завершился по таймауту через 30 секунд.",
+    "expected": "Запрос завершился по таймауту через тридцать секунд.",
+    "audio": true
+  },
+  {
+    "id": "tech_04",
+    "category": "delivery",
+    "source": "Перед релизом проводится go/no-go.",
+    "expected": "Перед релизом проводится гоу ноу гоу.",
+    "audio": true
+  },
+  {
+    "id": "tech_05",
+    "category": "delivery",
+    "source": "Lead time снизился на 15%.",
+    "expected": "лид тайм снизился на пятнадцать процентов.",
+    "audio": true
+  },
+  {
+    "id": "tech_06",
+    "category": "delivery",
+    "source": "Команда отслеживает DORA-метрики.",
+    "expected": "Команда отслеживает дора-метрики.",
+    "audio": true
+  },
+  {
+    "id": "tech_07",
+    "category": "devops",
+    "source": "CI/CD pipeline запускается после merge request.",
+    "expected": "си ай си ди пайплайн запускается после мёрдж реквест.",
+    "audio": true
+  },
+  {
+    "id": "tech_08",
+    "category": "devops",
+    "source": "Docker-контейнер работает в Kubernetes.",
+    "expected": "докер-контейнер работает в кубернетес.",
+    "audio": true
+  },
+  {
+    "id": "tech_09",
+    "category": "database",
+    "source": "PostgreSQL 16 используется как основная OLTP база.",
+    "expected": "постгрес шестнадцать используется как основная оу эл ти пи база.",
+    "audio": true
+  },
+  {
+    "id": "tech_10",
+    "category": "database",
+    "source": "Debezium читает WAL и публикует CDC-события в Kafka.",
+    "expected": "дебезиум читает вал и публикует си ди си-события в кафка.",
+    "audio": true
+  },
+  {
+    "id": "tech_11",
+    "category": "product",
+    "source": "Conversion вырос с 12.5% до 14%.",
+    "expected": "конверсия вырос с двенадцати целых пяти десятых процента до четырнадцати процентов.",
+    "audio": true
+  },
+  {
+    "id": "tech_12",
+    "category": "product",
+    "source": "MAU составляет 500000 пользователей.",
+    "expected": "эм эй ю составляет пятьсот тысяч пользователей.",
+    "audio": true
+  },
+  {
+    "id": "tech_13",
+    "category": "reliability",
+    "source": "SLA составляет 99.95%.",
+    "expected": "эс эл эй составляет девяносто девять целых девяносто пять сотых процента.",
+    "audio": true
+  },
+  {
+    "id": "tech_14",
+    "category": "reliability",
+    "source": "RTO — 15 минут, RPO — 5 минут.",
+    "expected": "ар ти оу – пятнадцать минут, ар пи оу – пять минут.",
+    "audio": true
+  },
+  {
+    "id": "tech_15",
+    "category": "version",
+    "source": "Java 21 использует 4 GB RAM.",
+    "expected": "джава двадцать один использует четыре гигабайта оперативной памяти.",
+    "audio": true
+  },
+  {
+    "id": "tech_16",
+    "category": "units",
+    "source": "Сервис обрабатывает 500 RPS.",
+    "expected": "Сервис обрабатывает пятьсот запросов в секунду.",
+    "audio": true
+  },
+  {
+    "id": "tech_17",
+    "category": "version",
+    "source": "iOS 26 использует API версии 2.3.",
+    "expected": "ай оу эс двадцать шесть использует эй пи ай версии два точка три.",
+    "audio": true
+  },
+  {
+    "id": "tech_18",
+    "category": "units",
+    "source": "Задержка составляет 200 мс.",
+    "expected": "Задержка составляет двести миллисекунд.",
+    "audio": true
+  },
+  {
+    "id": "tech_19",
+    "category": "percent",
+    "source": "Доступность равна 99.9%.",
+    "expected": "Доступность равна девяносто девять целых девять десятых процента.",
+    "audio": true
+  },
+  {
+    "id": "tech_20",
+    "category": "version",
+    "source": "Версия v2 использует HTTPS.",
+    "expected": "Версия два использует эйч ти ти пи эс.",
+    "audio": true
+  },
+  {
+    "id": "tech_21",
+    "category": "api",
+    "source": "TCP и IP используют URL и URI.",
+    "expected": "ти си пи и ай пи используют ю ар эл и ю ар ай.",
+    "audio": false
+  },
+  {
+    "id": "tech_22",
+    "category": "api",
+    "source": "XML и YAML отличаются от JSON.",
+    "expected": "икс эм эль и ямл отличаются от джейсон.",
+    "audio": false
+  },
+  {
+    "id": "tech_23",
+    "category": "product",
+    "source": "UI и UX влияют на KPI и OKR.",
+    "expected": "ю ай и ю икс влияют на кей пи ай и оу кей ар.",
+    "audio": false
+  },
+  {
+    "id": "tech_24",
+    "category": "product",
+    "source": "MVP проверяет A/B гипотезу для B2B и B2C.",
+    "expected": "эм ви пи проверяет эй би гипотезу для би ту би и би ту си.",
+    "audio": false
+  },
+  {
+    "id": "tech_25",
+    "category": "api",
+    "source": "CRM и ERP используют IAM, SSO и OAuth.",
+    "expected": "си ар эм и и ар пи используют ай эм, эс эс оу и оу аут.",
+    "audio": false
+  },
+  {
+    "id": "tech_26",
+    "category": "api",
+    "source": "JWT проверяется через SDK, CLI и IDE.",
+    "expected": "джей дабл ю ти проверяется через эс ди кей, си эл ай и ай ди и.",
+    "audio": false
+  },
+  {
+    "id": "tech_27",
+    "category": "database",
+    "source": "JVM читает DB через DBMS, ETL и ELT.",
+    "expected": "джей ви эм читает ди би через ди би эм эс, и ти эл и и эл ти.",
+    "audio": false
+  },
+  {
+    "id": "tech_28",
+    "category": "database",
+    "source": "NoSQL и OLAP дополняют SQL.",
+    "expected": "ноу эс кью эль и олап дополняют эс кью эль.",
+    "audio": false
+  },
+  {
+    "id": "tech_29",
+    "category": "reliability",
+    "source": "QA, DevOps и SRE отслеживают SLO и SLI.",
+    "expected": "кью эй, девопс и эс ар и отслеживают эс эл оу и эс эл ай.",
+    "audio": false
+  },
+  {
+    "id": "tech_30",
+    "category": "devops",
+    "source": "CI готовит сборку, CD выполняет deploy.",
+    "expected": "си ай готовит сборку, си ди выполняет деплой.",
+    "audio": false
+  },
+  {
+    "id": "tech_31",
+    "category": "devops",
+    "source": "Docker Compose работает с OpenShift.",
+    "expected": "докер компоуз работает с оупен шифт.",
+    "audio": false
+  },
+  {
+    "id": "tech_32",
+    "category": "devops",
+    "source": "Git, GitLab и GitHub хранят commit.",
+    "expected": "гит, гитлаб и гитхаб хранят коммит.",
+    "audio": false
+  },
+  {
+    "id": "tech_33",
+    "category": "technology",
+    "source": "Kotlin, Swift и Python доступны команде.",
+    "expected": "котлин, свифт и пайтон доступны команде.",
+    "audio": false
+  },
+  {
+    "id": "tech_34",
+    "category": "technology",
+    "source": "JavaScript и TypeScript используются с React.",
+    "expected": "джаваскрипт и тайпскрипт используются с реакт.",
+    "audio": false
+  },
+  {
+    "id": "tech_35",
+    "category": "database",
+    "source": "Redis, MongoDB и Oracle дополняют Postgres.",
+    "expected": "редис, монго ди би и оракл дополняют постгрес.",
+    "audio": false
+  },
+  {
+    "id": "tech_36",
+    "category": "technology",
+    "source": "Linux и nginx передают данные в Grafana и Prometheus.",
+    "expected": "линукс и энджин икс передают данные в графана и прометеус.",
+    "audio": false
+  },
+  {
+    "id": "tech_37",
+    "category": "technology",
+    "source": "Jira, Confluence и Jenkins связаны с RabbitMQ.",
+    "expected": "джира, конфлюенс и дженкинс связаны с рэббит эм кью.",
+    "audio": false
+  },
+  {
+    "id": "tech_38",
+    "category": "units",
+    "source": "Файлы занимают 10 MB, 2 GB и 512 KB.",
+    "expected": "Файлы занимают десять мегабайт, два гигабайта и пятьсот двенадцать килобайт.",
+    "audio": false
+  },
+  {
+    "id": "tech_39",
+    "category": "units",
+    "source": "Нужны 2 CPU и 16 GB RAM.",
+    "expected": "Нужны два процессора и шестнадцать гигабайт оперативной памяти.",
+    "audio": false
+  },
+  {
+    "id": "tech_40",
+    "category": "units",
+    "source": "Нагрузка составляет 100 RPS и 500 TPS.",
+    "expected": "Нагрузка составляет сто запросов в секунду и пятьсот транзакций в секунду.",
+    "audio": false
+  },
+  {
+    "id": "tech_41",
+    "category": "decimal",
+    "source": "Коэффициенты равны 1.5 и 0.95.",
+    "expected": "Коэффициенты равны одна целая пять десятых и ноль целых девяносто пять сотых.",
+    "audio": false
+  },
+  {
+    "id": "tech_42",
+    "category": "year",
+    "source": "2026 год станет важным.",
+    "expected": "две тысячи двадцать шестой год станет важным.",
+    "audio": false
+  },
+  {
+    "id": "tech_43",
+    "category": "year",
+    "source": "В 2026 году завершится проект.",
+    "expected": "В две тысячи двадцать шестом году завершится проект.",
+    "audio": false
+  },
+  {
+    "id": "tech_44",
+    "category": "year",
+    "source": "До 2026 года план не меняется.",
+    "expected": "До две тысячи двадцать шестого года план не меняется.",
+    "audio": false
+  },
+  {
+    "id": "tech_45",
+    "category": "symbols",
+    "source": "5+2=7, а 5-2=3.",
+    "expected": "пять плюс два равно семь, а пять минус два равно три.",
+    "audio": false
+  },
+  {
+    "id": "tech_46",
+    "category": "symbols",
+    "source": "2 × 3 → 6.",
+    "expected": "два умножить на три переходит в шесть.",
+    "audio": false
+  },
+  {
+    "id": "tech_47",
+    "category": "symbols",
+    "source": "QA & DevOps проверяют #42 и @team.",
+    "expected": "кью эй и девопс проверяют номер сорок два и собака ти и эй эм.",
+    "audio": false
+  },
+  {
+    "id": "tech_48",
+    "category": "fallback",
+    "source": "XQZ и frobnicate требуют проверки.",
+    "expected": "экс кью зед и эф ар оу би эн ай си эй ти и требуют проверки.",
+    "audio": false
+  },
+  {
+    "id": "tech_49",
+    "category": "symbols",
+    "source": "Вариант чтение/запись остаётся.",
+    "expected": "Вариант чтение слэш запись остаётся.",
+    "audio": false
+  },
+  {
+    "id": "tech_50",
+    "category": "russian",
+    "source": "Ёжик ждёт: всё ещё хорошо? Да!",
+    "expected": "Ёжик ждёт: всё ещё хорошо? Да!",
+    "audio": false
+  },
+  {
+    "id": "tech_51",
+    "category": "version",
+    "source": "Python 3.12 и версия 2.3 совместимы.",
+    "expected": "пайтон три точка двенадцать и версия два точка три совместимы.",
+    "audio": false
+  },
+  {
+    "id": "tech_52",
+    "category": "units",
+    "source": "Буфер занимает 2GB и 1.5 MB.",
+    "expected": "Буфер занимает два гигабайта и одна целая пять десятых мегабайта.",
+    "audio": false
+  },
+  {
+    "id": "tech_53",
+    "category": "number",
+    "source": "Ошибки 001 и 1000000 различаются.",
+    "expected": "Ошибки ноль ноль один и один миллион различаются.",
+    "audio": false
+  },
+  {
+    "id": "tech_54",
+    "category": "percent",
+    "source": "Значения составляют 1%, 2% и 11%.",
+    "expected": "Значения составляют один процент, два процента и одиннадцать процентов.",
+    "audio": false
+  },
+  {
+    "id": "tech_55",
+    "category": "negative",
+    "source": "Изменение равно -5%.",
+    "expected": "Изменение равно минус пять процентов.",
+    "audio": false
+  },
+  {
+    "id": "tech_56",
+    "category": "url",
+    "source": "Адрес https://example.com/v2 содержит путь.",
+    "expected": "Адрес эйч ти ти пи эс: слэш слэш и экс эй эм пи эл и.си оу эм слэш версия два содержит путь.",
+    "audio": false
+  },
+  {
+    "id": "tech_57",
+    "category": "units",
+    "source": "Ожидание: 1 минута, 2 секунды и 1 мс.",
+    "expected": "Ожидание: одна минута, две секунды и одна миллисекунда.",
+    "audio": false
+  },
+  {
+    "id": "tech_58",
+    "category": "case",
+    "source": "api, Api и API работают одинаково.",
+    "expected": "эй пи ай, эй пи ай и эй пи ай работают одинаково.",
+    "audio": false
+  },
+  {
+    "id": "tech_59",
+    "category": "boundaries",
+    "source": "myAPI не равно API.",
+    "expected": "эм уай эй пи ай не равно эй пи ай.",
+    "audio": false
+  },
+  {
+    "id": "tech_60",
+    "category": "stress",
+    "source": "Слово з+амок уже содержит ударение.",
+    "expected": "Слово з+амок уже содержит ударение.",
+    "audio": false
+  }
+]

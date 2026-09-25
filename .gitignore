@@ -11,3 +11,22 @@ Config/Local.xcconfig
 *.ipa
 .env
 .env.*
+# Canonical generated neural resources; source manifest is Config/SileroResources.json.
+InteractiveBook/SileroResources/*
+!InteractiveBook/SileroResources/.gitkeep
+*.onnx
+*.jit
+
+# Generated neural artifacts and local experiment output
+*.pt
+*.pte
+*.wav
+*.f32
+*.npz
+*.npy
+*.ses
+*.mlpackage/
+.venv/
+__pycache__/
+Packages/
+/reports/production-integration/

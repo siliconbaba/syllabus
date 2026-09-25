@@ -1,0 +1,21 @@
+.venv/
+artifacts/
+__pycache__/
+*.pt
+*.onnx
+*.mlpackage/
+*.pte
+*.wav
+
+# Keep pinned manifests, exclude generated captures and simulator results.
+reports/*
+!reports/model.sha256
+!reports/ios/
+reports/ios/*
+!reports/ios/resources-manifest.json
+!reports/preprocessing/
+reports/preprocessing/*
+!reports/preprocessing/resources-manifest.json
+!reports/onnx-dsp/
+reports/onnx-dsp/*
+!reports/onnx-dsp/golden-fixture-hashes.json

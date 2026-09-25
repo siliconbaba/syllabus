@@ -1,0 +1,6 @@
+SileroIOSPoC/Fixtures/
+build/
+Packages/
+*.xcuserstate
+xcuserdata/
+SileroIOSPoC/Preprocessing/

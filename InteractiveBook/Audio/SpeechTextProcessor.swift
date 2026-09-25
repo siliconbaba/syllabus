@@ -52,9 +52,9 @@ struct SpeechTextProcessor {
             .trimmingCharacters(in: .whitespacesAndNewlines)
     }
 
-    func fragments(from topic: SpeechTopic) -> [SpeechFragment] {
+    func fragments(from topic: SpeechTopic, systemNormalization: Bool = true) -> [SpeechFragment] {
         topic.blocks.flatMap { block in
-            let pieces = split(normalize(block.text))
+            let pieces = split(systemNormalization ? normalize(block.text) : block.text, limit: systemNormalization ? 1200 : 600)
             return pieces.enumerated().map { index, text in
                 let endDelay: TimeInterval
                 switch block.kind {

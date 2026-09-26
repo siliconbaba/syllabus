@@ -100,5 +100,5 @@ Local WAVs: build/english-pronunciation/audio/. Open the separate Silero Fixture
 ## Delivery
 
 Full check.sh: PASS (exit 0): production build, both WebKit viewports, reader/engine state tests, Saved tests and all pronunciation corpora.
-Implementation commit: pending.
-Push status: pending.
+Implementation commit: 3be159d3d312394a92bd4aa9d999642e302cae86 — fix: improve English pronunciation in neural TTS.
+Push status: ordinary push to origin/main succeeded; remote refs/heads/main was verified at 3be159d3d312394a92bd4aa9d999642e302cae86. This delivery-metadata update is recorded in a subsequent documentation-only commit.

@@ -3,6 +3,8 @@ import Foundation
 /// Research-only additions. Existing pronunciations are referenced, not copied.
 enum TechnicalLexicon {
     static let additions:[String:String] = [
+        "framework":"фреймворк", "feature":"фича", "deployment":"деплоймент", "delivery":"деливери", "monitoring":"мониторинг", "streaming":"стриминг",
+        "frontend":"фронтенд", "dashboard":"дашборд", "workflow":"воркфлоу", "feedback":"фидбэк", "performance":"перформанс", "throughput":"трупут", "latency":"лейтенси", "rollback":"ролбэк", "hotfix":"хотфикс", "refactoring":"рефакторинг", "sprint":"спринт", "backlog":"бэклог", "product":"продакт", "manager":"менеджер", "team":"тим", "cloud":"клауд", "server":"сервер", "client":"клиент", "service":"сервис", "testing":"тестинг",
         "TCP":"ти си пи", "IP":"ай пи", "URL":"ю ар эл", "URI":"ю ар ай",
         "NoSQL":"ноу эс кью эль", "YAML":"ямл", "CI":"си ай", "CD":"си ди",
         "SLI":"эс эл ай", "KPI":"кей пи ай", "OKR":"оу кей ар", "MVP":"эм ви пи",

@@ -204,7 +204,7 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
         return token
     }
 
-    func finishLoading(_ topic: SpeechTopic, request: UUID) {
+    func finishLoading(_ topic: SpeechTopic, request: UUID, startBlockID: String? = nil) {
         guard request == loadID, state == .loading, topic.id == topicID else { return }
         loadID = nil
         self.topic=topic
@@ -215,7 +215,12 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
             state = .idle; message = "В этой теме нет доступного текста для чтения."; return
         }
         chooseVoice()
-        currentIndex = 0
+        if let block = startBlockID {
+            guard let index = fragments.firstIndex(where: { $0.blockID == block }) else {
+                state = .idle; message = "Выбранный абзац недоступен. Выделите текст ещё раз."; return
+            }
+            currentIndex = index
+        } else { currentIndex = 0 }
         speakCurrent()
     }
 

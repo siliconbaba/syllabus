@@ -3,12 +3,14 @@ import WebKit
 
 struct BookView: UIViewRepresentable {
     let reader: SpeechReaderManager
-    func makeCoordinator() -> Coordinator { Coordinator(reader: reader) }
+    let excerpts: SavedExcerptStore
+    func makeCoordinator() -> Coordinator { Coordinator(reader: reader, excerpts: excerpts) }
 
     func makeUIView(context: Context) -> WKWebView {
         let controller = WKUserContentController()
         controller.add(context.coordinator, name: "setting")
         controller.add(context.coordinator, name: "speech")
+        controller.add(context.coordinator, name: "saved")
         let saved = UserDefaults.standard.dictionary(forKey: "bookState") as? [String: String] ?? [:]
         let encoded = (try? JSONSerialization.data(withJSONObject: saved)) ?? Data("{}".utf8)
         let json = String(data: encoded, encoding: .utf8) ?? "{}"
@@ -45,6 +47,8 @@ struct BookView: UIViewRepresentable {
     func updateUIView(_ uiView: WKWebView, context: Context) {}
 
     static func dismantleUIView(_ uiView: WKWebView, coordinator: Coordinator) {
+        coordinator.excerpts.openSource = nil
+        uiView.configuration.userContentController.removeScriptMessageHandler(forName: "saved")
         coordinator.reader.reset()
         coordinator.reader.onHighlight = nil
         coordinator.reader.onRequestTopic = nil
@@ -60,7 +64,10 @@ struct BookView: UIViewRepresentable {
 
         let reader: SpeechReaderManager
 
-        init(reader: SpeechReaderManager) {
+        let excerpts: SavedExcerptStore
+
+        init(reader: SpeechReaderManager, excerpts: SavedExcerptStore) {
+            self.excerpts = excerpts
             self.reader = reader
             super.init()
             NotificationCenter.default.addObserver(self, selector: #selector(saveReadingPosition),
@@ -75,10 +82,19 @@ struct BookView: UIViewRepresentable {
 
         func userContentController(_ userContentController: WKUserContentController,
                                    didReceive message: WKScriptMessage) {
-            guard message.frameInfo.isMainFrame,
-                  let url = webView?.url, url.isFileURL,
-                  let folder = contentFolder,
-                  url.standardizedFileURL.path.hasPrefix(folder.standardizedFileURL.path + "/") else { return }
+            guard BookMessageTrust.accepts(message, controller: userContentController, webView: webView, folder: contentFolder) else { return }
+            if message.name == "saved", let payload = message.body as? [String: Any] {
+                if payload["action"] as? String == "open" { excerpts.isPresented = true }
+                else if payload["action"] as? String == "listenFrom", let item = SavedExcerpt.from(payload: payload), let block = item.anchor, block.hasPrefix(item.topicID + "-block-") {
+                    requestTopic(item.topicID, title: item.topicTitle, startBlockID: block)
+                    webView?.callAsyncJavaScript("window.bookSaved.feedback(text, true)", arguments: ["text": "Чтение с выбранного абзаца"], in: nil, in: .page, completionHandler: nil)
+                }
+                else if payload["action"] as? String == "save" {
+                    let result = excerpts.save(payload)
+                    webView?.callAsyncJavaScript("window.bookSaved.feedback(text)", arguments: ["text": result], in: nil, in: .page, completionHandler: nil)
+                }
+                return
+            }
             if message.name == "speech", let payload = message.body as? [String: Any] {
                 let id = payload["id"] as? String ?? ""
                 guard id.count < 150 else { return }
@@ -101,6 +117,15 @@ struct BookView: UIViewRepresentable {
         }
 
         func connectReader() {
+            excerpts.openSource = { [weak self] item in
+                guard let self = self else { return }
+                self.reader.stop()
+                let value: [String: Any] = ["topicID": item.topicID, "anchor": item.anchor ?? "", "text": item.text]
+                self.webView?.callAsyncJavaScript("return await window.bookSaved.openSource(value)", arguments: ["value": value], in: nil, in: .page) { [weak self] result in
+                    if case .success(let status) = result, let status = status as? String, status != "missingTopic" { return }
+                    self?.excerpts.message = "Исходная тема недоступна в этой версии учебника. Фрагмент остался в сохранённом."
+                }
+            }
             reader.onRequestTopic = { [weak self] id in self?.requestTopic(id, title: self?.reader.title ?? "Аудиочтение") }
             reader.onHighlight = { [weak self] id, block in
                 guard UIApplication.shared.applicationState == .active else { return }
@@ -111,7 +136,7 @@ struct BookView: UIViewRepresentable {
             }
         }
 
-        private func requestTopic(_ id: String, title: String) {
+        private func requestTopic(_ id: String, title: String, startBlockID: String? = nil) {
             guard let webView = webView,
                   let data = try? JSONSerialization.data(withJSONObject: [id]),
                   let argument = String(data: data, encoding: .utf8) else { return }
@@ -125,7 +150,7 @@ struct BookView: UIViewRepresentable {
                       topic.blocks.allSatisfy({ $0.id.count < 200 && $0.text.count < 50_000 }) else {
                     self.reader.failLoading(request: token); return
                 }
-                self.reader.finishLoading(topic, request: token)
+                self.reader.finishLoading(topic, request: token, startBlockID: startBlockID)
             }
         }
 

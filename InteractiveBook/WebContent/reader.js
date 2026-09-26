@@ -95,17 +95,48 @@
       li.classList.toggle('open',open); a.setAttribute('aria-expanded',String(open));
     });
   });
-  function navigate(id, historyEntry) {
+  // Session-only navigation history. Scrolling itself never adds entries.
+  var readingHistory = [], navigating = false;
+  function snapshot() { measure(); return {location:locationNow(), filter:document.body.dataset.filter}; }
+  function updateBack() { backButton.disabled = readingHistory.length === 0; }
+  var backButton = document.createElement('button');
+  backButton.type = 'button'; backButton.className = 'btn'; backButton.id = 'reading-back';
+  backButton.textContent = 'Назад к чтению'; backButton.disabled = true;
+  sidebar.insertBefore(backButton, toc);
+  function back() {
+    if (navigating || !readingHistory.length) return false;
+    navigating = true;
+    var previous = readingHistory.pop(); updateBack(); menu(false);
+    if (window.bookAudio) window.bookAudio.invalidate();
+    applyFilter(previous.filter); set('ya-filter', previous.filter);
+    requestAnimationFrame(function() {
+      restorePosition(previous.location); savePosition();
+      history.replaceState(null, '', location.pathname + location.search + (previous.location.id ? '#' + previous.location.id : ''));
+      navigating = false;
+    });
+    return true;
+  }
+  backButton.addEventListener('click', back);
+  window.bookNavigation = {back:back, canBack:function(){return !navigating && readingHistory.length > 0;}, snapshot:snapshot, closeMenu:function(){menu(false);}};
+  function navigate(id, historyEntry, origin) {
     var target = document.getElementById(id); if (!target) return;
+    if (navigating) return;
+    if (historyEntry) {
+      readingHistory.push(origin || snapshot());
+      if (readingHistory.length > 100) readingHistory.shift();
+      updateBack();
+    }
+    navigating = true;
     menu(false);
     if (window.bookAudio) window.bookAudio.topicChanged(id);
     requestAnimationFrame(function () {
       measure();
       main.scrollTop += target.getBoundingClientRect().top - main.getBoundingClientRect().top - 16;
       if (historyEntry && location.hash !== '#' + id) history.pushState(null,'','#' + id);
-      savePosition(); setCurrent(id);
+      savePosition(); setCurrent(id); navigating = false;
     });
   }
+  window.bookNavigateTo = navigate;
   document.addEventListener('click',function(e) {
     var a = e.target.closest('a[href^="#"]');
     if (!a || a.classList.contains('toc-part')) return;

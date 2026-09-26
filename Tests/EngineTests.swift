@@ -78,6 +78,30 @@ struct TestSession:SpeechAudioSession{func activate()throws{};func deactivate(){
     reader.contextChanged(to:topic.id,invalidate:true);check(reader.topicID==nil,"filter invalidation stops both engine modes")
     let restored=SpeechReaderManager(defaults:defaults,session:TestSession(),observeSystem:false,makeEngine:factory)
     check(restored.engineKind == .neural && restored.state == .idle,"selection restores without automatic model loading or reading")
+    for kind in SpeechEngineKind.allCases {
+        let isolated = UserDefaults(suiteName:"FromBlock."+UUID().uuidString)!
+        isolated.set(kind.rawValue,forKey:"speech.engine")
+        let playback = TestEngine()
+        let from = SpeechReaderManager(defaults:isolated,session:TestSession(),observeSystem:false,makeEngine:{_ in playback})
+        let blocks = [SpeechTopic.Block(id:"first",text:"Первый.",kind:"paragraph"),SpeechTopic.Block(id:"middle",text:"Середина.",kind:"paragraph"),SpeechTopic.Block(id:"list",text:"Пункт.",kind:"list"),SpeechTopic.Block(id:"last",text:"Последний.",kind:"paragraph")]
+        let selectedTopic = SpeechTopic(id:"t-10-1",title:"Тема",blocks:blocks)
+        var highlight:String?
+        from.onHighlight={_, block in highlight=block}
+        for (index, block) in blocks.enumerated() {
+            from.finishLoading(selectedTopic,request:from.beginLoading(id:selectedTopic.id,title:selectedTopic.title),startBlockID:block.id)
+            playback.began()
+            check(from.currentIndex==index && playback.requests.last?.fragment.blockID==block.id && highlight==block.id,"\(kind): start block \(block.id), highlight")
+            let stale=playback.requests.last!
+            from.pause()
+            from.finishLoading(selectedTopic,request:from.beginLoading(id:selectedTopic.id,title:selectedTopic.title),startBlockID:block.id)
+            playback.onEvent?(.finished(stale.id));playback.onEvent?(.started(stale.id))
+            check(from.currentIndex==index,"\(kind): restart from pause cancels old generation/prebuffer")
+            playback.began()
+        }
+        playback.ended();check(from.state == .finished,"\(kind): selected last block completes topic")
+        from.finishLoading(selectedTopic,request:from.beginLoading(id:selectedTopic.id,title:selectedTopic.title),startBlockID:"missing")
+        check(from.state == .idle && from.message != nil,"\(kind): missing block explicit error")
+    }
     print("PASS: production engine state transitions")
  }
 }

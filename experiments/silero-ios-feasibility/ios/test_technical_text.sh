@@ -9,4 +9,4 @@ xcrun swiftc -O ../../InteractiveBook/Audio/SpeechTextProcessor.swift \
  ios/SileroIOSPoC/Sources/TechnicalNumbers.swift \
  ios/SileroIOSPoC/Sources/TechnicalSpeechNormalizer.swift \
  ios/tests/main.swift -o artifacts/technical/text-tests
-artifacts/technical/text-tests technical-corpus.json
+artifacts/technical/text-tests technical-regression-corpus.json

@@ -60,3 +60,19 @@ body.side-open .sidebar { transform:translateX(0); visibility:visible; }
 .speech-listen { color:var(--accent); border-color:var(--accent); font-weight:600; }
 .speech-current { background:var(--accent-soft); border-radius:4px; outline:2px solid var(--accent); outline-offset:3px; }
 @media print { .speech-listen { display:none; } .speech-current { background:transparent; outline:none; } }
+
+#saved-entry { font-size:.75rem; padding:6px; }
+.saved-selection { position:fixed; z-index:1000; right:16px; bottom:20px; background:var(--accent); color:white; box-shadow:0 3px 16px #0003; }
+.saved-selection[hidden] { display:none; }
+.saved-toast { position:fixed; z-index:1001; bottom:24px; left:50%; transform:translateX(-50%); padding:12px 20px; border-radius:12px; background:var(--bg-elev); color:var(--text); box-shadow:0 3px 16px #0003; }
+.saved-source { outline:2px solid #d4a62c; background-color:#eecb5533; border-radius:4px; }
+
+#reading-back { width:100%; margin:8px 0; text-align:left; }
+#reading-back:disabled { opacity:.45; }
+body.back-gesture-ready::after { content:'‹ Назад'; position:fixed; z-index:1002; left:8px; top:50%; padding:10px 14px; border-radius:20px; background:var(--bg-elev); color:var(--fg); box-shadow:0 2px 12px #0003; pointer-events:none; }
+body.menu-gesture-ready #sidebar { box-shadow:inset -4px 0 var(--accent); }
+
+.saved-selection { display:flex; gap:8px; padding:6px; background:var(--bg-elev); border-radius:12px; max-width:calc(100% - 24px); }
+.saved-selection .btn { background:var(--bg-elev); color:var(--accent); }
+
+.saved-toast { bottom:88px; pointer-events:none; }

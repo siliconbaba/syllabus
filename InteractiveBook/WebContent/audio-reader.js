@@ -14,6 +14,30 @@
     var style = getComputedStyle(element);
     return style.display !== 'none' && style.visibility !== 'hidden' && style.visibility !== 'collapse' && style.opacity !== '0' && style.contentVisibility !== 'hidden';
   }
+  function blockID(topic, element) {
+    var path = [];
+    for (var el = element; el && el !== topic; el = el.parentElement) {
+      var siblings = Array.from(el.parentElement.children).filter(function(sibling) { return sibling.tagName === el.tagName && !sibling.matches(excluded); });
+      path.unshift(el.tagName.toLowerCase() + siblings.indexOf(el));
+    }
+    return topic.id + '-block-' + path.join('.');
+  }
+  function elementForBlock(topic, id) {
+    return Array.from(topic.querySelectorAll('*')).find(function(el) { return !el.matches(excluded) && blockID(topic, el) === id; }) || null;
+  }
+  function selectionBlock(node) {
+    var element = node.nodeType === 1 ? node : node.parentElement;
+    var topic = element.closest('.topic[id]');
+    if (!topic) return null;
+    var snapshot = extractTopic(topic.id);
+    if (!snapshot) return null;
+    var ids = new Set(snapshot.blocks.map(function(block) { return block.id; }));
+    for (var el = element; el && topic.contains(el); el = el.parentElement) {
+      var id = blockID(topic, el);
+      if (ids.has(id)) return id;
+    }
+    return null;
+  }
   function extractTopic(id) {
     var topic = topicFor(id);
     if (!topic || !visible(topic)) return null;
@@ -21,10 +45,10 @@
     function emit(element, text) {
       text = text.replace(/\s+/g, ' ').trim();
       if (!text || !/[\p{L}\p{N}]/u.test(text)) return;
-      var blockID = element.dataset.speechId;
-      if (!blockID) { blockID = id + '-speech-' + (++counter); element.dataset.speechId = blockID; }
+      var semanticID = blockID(topic, element);
+      element.dataset.speechId = semanticID;
       var kind = /^H[1-6]$/.test(element.tagName) ? 'heading' : element.closest('li') ? 'list' : 'paragraph';
-      blocks.push({id: blockID, text:text, kind:kind});
+      blocks.push({id: semanticID, text:text, kind:kind});
     }
     // Reset extraction markers so the same visible snapshot produces stable IDs.
     topic.querySelectorAll('[data-speech-id]').forEach(function(el) { delete el.dataset.speechId; });
@@ -76,7 +100,7 @@
     if (id && id !== currentTopic) return;
     post({action:'context', id:currentTopic || '', invalidate:true});
   }
-  window.bookAudio = {extractTopic:extractTopic, highlight:highlight, topicChanged:topicChanged, invalidate:invalidate};
+  window.bookAudio = {extractTopic:extractTopic, highlight:highlight, selectionBlock:selectionBlock, elementForBlock:elementForBlock, topicChanged:topicChanged, invalidate:invalidate};
   if (handler) {
     document.querySelectorAll('.topic[id]').forEach(function(topic) {
       var head = topic.querySelector('.topic-head'), studied = head.querySelector('.studied');

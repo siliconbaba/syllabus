@@ -1,0 +1,138 @@
+[
+  {
+    "source": "framework",
+    "expected": "фреймворк"
+  },
+  {
+    "source": "deployment",
+    "expected": "деплоймент"
+  },
+  {
+    "source": "streaming",
+    "expected": "стриминг"
+  },
+  {
+    "source": "feature",
+    "expected": "фича"
+  },
+  {
+    "source": "delivery",
+    "expected": "деливери"
+  },
+  {
+    "source": "monitoring",
+    "expected": "мониторинг"
+  },
+  {
+    "source": "backend",
+    "expected": "бэкенд"
+  },
+  {
+    "source": "frontend",
+    "expected": "фронтенд"
+  },
+  {
+    "source": "pipeline",
+    "expected": "пайплайн"
+  },
+  {
+    "source": "Pipeline",
+    "expected": "пайплайн"
+  },
+  {
+    "source": "PIPELINE",
+    "expected": "пайплайн"
+  },
+  {
+    "source": "Framework",
+    "expected": "фреймворк"
+  },
+  {
+    "source": "FRAMEWORK",
+    "expected": "фреймворк"
+  },
+  {
+    "source": "release",
+    "expected": "релиз"
+  },
+  {
+    "source": "API",
+    "expected": "эй пи ай"
+  },
+  {
+    "source": "HTTP",
+    "expected": "эйч ти ти пи"
+  },
+  {
+    "source": "SLA",
+    "expected": "эс эл эй"
+  },
+  {
+    "source": "RTO",
+    "expected": "ар ти оу"
+  },
+  {
+    "source": "RPO",
+    "expected": "ар пи оу"
+  },
+  {
+    "source": "CPU",
+    "expected": "си пи ю"
+  },
+  {
+    "source": "SDK",
+    "expected": "эс ди кей"
+  },
+  {
+    "source": "CLI",
+    "expected": "си эл ай"
+  },
+  {
+    "source": "XYZ",
+    "expected": "экс уай зед"
+  },
+  {
+    "source": "winter",
+    "expected": "винтер"
+  },
+  {
+    "source": "zebra",
+    "expected": "зебра"
+  },
+  {
+    "source": "featureFlag",
+    "expected": "фича флаг"
+  },
+  {
+    "source": "dataPipeline",
+    "expected": "дата пайплайн"
+  },
+  {
+    "source": "APIClient",
+    "expected": "эй пи ай клиент"
+  },
+  {
+    "source": "Проверяем framework.",
+    "expected": "Проверяем фреймворк."
+  },
+  {
+    "source": "streaming!",
+    "expected": "стриминг!"
+  },
+  {
+    "source": "feature-flag",
+    "expected": "фича-флаг"
+  },
+  {
+    "source": "backend/frontend",
+    "expected": "бэкенд слэш фронтенд"
+  },
+  {
+    "source": "monitoring, delivery",
+    "expected": "мониторинг, деливери"
+  },
+  {
+    "source": "dashboard",
+    "expected": "дашборд"
+  }
+]

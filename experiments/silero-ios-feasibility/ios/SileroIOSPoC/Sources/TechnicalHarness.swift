@@ -2,10 +2,10 @@ import Foundation
 struct TechnicalExample:Decodable {let id:String;let category:String;let source:String;let expected:String;let audio:Bool}
 final class TechnicalHarness {
     let root:URL;let output:URL;let examples:[TechnicalExample]
-    init()throws {
+    init(pronunciation:Bool = false)throws {
         root=Bundle.main.resourceURL!.appendingPathComponent("Preprocessing")
-        examples=try JSONDecoder().decode([TechnicalExample].self,from:Data(contentsOf:root.appendingPathComponent("technical-corpus.json")))
-        output=FileManager.default.urls(for:.documentDirectory,in:.userDomainMask)[0].appendingPathComponent("TechnicalResults")
+        examples=try JSONDecoder().decode([TechnicalExample].self,from:Data(contentsOf:root.appendingPathComponent(pronunciation ? "pronunciation-audio-corpus.json" : "technical-corpus.json")))
+        output=FileManager.default.urls(for:.documentDirectory,in:.userDomainMask)[0].appendingPathComponent(pronunciation ? "PronunciationResults" : "TechnicalResults")
         try FileManager.default.createDirectory(at:output,withIntermediateDirectories:true)
     }
     func run(_ progress:(String)->Void)throws->[String:Any] {

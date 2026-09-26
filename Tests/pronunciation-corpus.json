@@ -1,0 +1,402 @@
+[
+  {
+    "source": "scope",
+    "expected": "скоуп"
+  },
+  {
+    "source": "spike",
+    "expected": "спайк"
+  },
+  {
+    "source": "cache",
+    "expected": "кэш"
+  },
+  {
+    "source": "code",
+    "expected": "код"
+  },
+  {
+    "source": "mode",
+    "expected": "мод"
+  },
+  {
+    "source": "pipeline",
+    "expected": "пайплайн"
+  },
+  {
+    "source": "failover",
+    "expected": "фейловер"
+  },
+  {
+    "source": "timeout",
+    "expected": "таймаут"
+  },
+  {
+    "source": "retry",
+    "expected": "ретрай"
+  },
+  {
+    "source": "backend",
+    "expected": "бэкенд"
+  },
+  {
+    "source": "frontend",
+    "expected": "фронтенд"
+  },
+  {
+    "source": "framework",
+    "expected": "фреймворк"
+  },
+  {
+    "source": "feature",
+    "expected": "фича"
+  },
+  {
+    "source": "release",
+    "expected": "релиз"
+  },
+  {
+    "source": "rollback",
+    "expected": "ролбэк"
+  },
+  {
+    "source": "deployment",
+    "expected": "деплоймент"
+  },
+  {
+    "source": "delivery",
+    "expected": "деливери"
+  },
+  {
+    "source": "latency",
+    "expected": "латенси"
+  },
+  {
+    "source": "throughput",
+    "expected": "трупут"
+  },
+  {
+    "source": "queue",
+    "expected": "кью"
+  },
+  {
+    "source": "batch",
+    "expected": "батч"
+  },
+  {
+    "source": "token",
+    "expected": "токен"
+  },
+  {
+    "source": "prompt",
+    "expected": "промпт"
+  },
+  {
+    "source": "workflow",
+    "expected": "воркфлоу"
+  },
+  {
+    "source": "streaming",
+    "expected": "стриминг"
+  },
+  {
+    "source": "monitoring",
+    "expected": "мониторинг"
+  },
+  {
+    "source": "performance",
+    "expected": "перформанс"
+  },
+  {
+    "source": "fallback",
+    "expected": "фолбэк"
+  },
+  {
+    "source": "bug",
+    "expected": "баг"
+  },
+  {
+    "source": "fix",
+    "expected": "фикс"
+  },
+  {
+    "source": "API",
+    "expected": "эй пи ай"
+  },
+  {
+    "source": "SLA",
+    "expected": "эс эл эй"
+  },
+  {
+    "source": "SLO",
+    "expected": "эс эл оу"
+  },
+  {
+    "source": "HTTP",
+    "expected": "эйч ти ти пи"
+  },
+  {
+    "source": "SDK",
+    "expected": "эс ди кей"
+  },
+  {
+    "source": "CLI",
+    "expected": "си эл ай"
+  },
+  {
+    "source": "RTO",
+    "expected": "ар ти оу"
+  },
+  {
+    "source": "RPO",
+    "expected": "ар пи оу"
+  },
+  {
+    "source": "XYZ",
+    "expected": "экс уай зед"
+  },
+  {
+    "source": "XQZ",
+    "expected": "экс кью зед"
+  },
+  {
+    "source": "SCOPE",
+    "expected": "скоуп"
+  },
+  {
+    "source": "SPIKE",
+    "expected": "спайк"
+  },
+  {
+    "source": "PIPELINE",
+    "expected": "пайплайн"
+  },
+  {
+    "source": "RELEASE",
+    "expected": "релиз"
+  },
+  {
+    "source": "CODE",
+    "expected": "код"
+  },
+  {
+    "source": "TRAIN",
+    "expected": "трэйн"
+  },
+  {
+    "source": "myScope",
+    "expected": "май скоуп"
+  },
+  {
+    "source": "requestTimeout",
+    "expected": "реквест таймаут"
+  },
+  {
+    "source": "featureFlag",
+    "expected": "фича флаг"
+  },
+  {
+    "source": "rollbackPlan",
+    "expected": "ролбэк план"
+  },
+  {
+    "source": "releasePipeline",
+    "expected": "релиз пайплайн"
+  },
+  {
+    "source": "APIClient",
+    "expected": "эй пи ай клиент"
+  },
+  {
+    "source": "dataPipeline",
+    "expected": "дата пайплайн"
+  },
+  {
+    "source": "feature-flag",
+    "expected": "фича-флаг"
+  },
+  {
+    "source": "blue-green",
+    "expected": "блю грин"
+  },
+  {
+    "source": "fail-over",
+    "expected": "фейловер"
+  },
+  {
+    "source": "rollback-plan",
+    "expected": "ролбэк-план"
+  },
+  {
+    "source": "scope.",
+    "expected": "скоуп."
+  },
+  {
+    "source": "(spike)",
+    "expected": ", спайк,"
+  },
+  {
+    "source": "feature,",
+    "expected": "фича,"
+  },
+  {
+    "source": "rollback/restore",
+    "expected": "ролбэк слэш ристор"
+  },
+  {
+    "source": "Lead time",
+    "expected": "лид тайм"
+  },
+  {
+    "source": "Docker Compose",
+    "expected": "докер компоуз"
+  },
+  {
+    "source": "pull request",
+    "expected": "пул реквест"
+  },
+  {
+    "source": "merge request",
+    "expected": "мёрдж реквест"
+  },
+  {
+    "source": "train",
+    "expected": "трэйн"
+  },
+  {
+    "source": "play",
+    "expected": "плэй"
+  },
+  {
+    "source": "boat",
+    "expected": "боут"
+  },
+  {
+    "source": "field",
+    "expected": "филд"
+  },
+  {
+    "source": "light",
+    "expected": "лайт"
+  },
+  {
+    "source": "house",
+    "expected": "хаус"
+  },
+  {
+    "source": "slow",
+    "expected": "слоу"
+  },
+  {
+    "source": "book",
+    "expected": "бук"
+  },
+  {
+    "source": "action",
+    "expected": "экшан"
+  },
+  {
+    "source": "vision",
+    "expected": "вижан"
+  },
+  {
+    "source": "phone",
+    "expected": "фоун"
+  },
+  {
+    "source": "think",
+    "expected": "тингк"
+  },
+  {
+    "source": "ship",
+    "expected": "шип"
+  },
+  {
+    "source": "chip",
+    "expected": "чип"
+  },
+  {
+    "source": "quick",
+    "expected": "квик"
+  },
+  {
+    "source": "box",
+    "expected": "бакс"
+  },
+  {
+    "source": "city",
+    "expected": "сити"
+  },
+  {
+    "source": "giant",
+    "expected": "джайант"
+  },
+  {
+    "source": "happy",
+    "expected": "хэпи"
+  },
+  {
+    "source": "running",
+    "expected": "ранинг"
+  },
+  {
+    "source": "played",
+    "expected": "плэйд"
+  },
+  {
+    "source": "worker",
+    "expected": "веркер"
+  },
+  {
+    "source": "payment",
+    "expected": "пэймант"
+  },
+  {
+    "source": "ability",
+    "expected": "абилати"
+  },
+  {
+    "source": "famous",
+    "expected": "фэймас"
+  },
+  {
+    "source": "winter",
+    "expected": "винтер"
+  },
+  {
+    "source": "zebra",
+    "expected": "зебра"
+  },
+  {
+    "source": "frobnicate",
+    "expected": "фрабникэйт"
+  },
+  {
+    "source": "blape",
+    "expected": "блэйп"
+  },
+  {
+    "source": "snoat",
+    "expected": "сноут"
+  },
+  {
+    "source": "spligh",
+    "expected": "сплай"
+  },
+  {
+    "source": "mipment",
+    "expected": "мипмант"
+  },
+  {
+    "source": "zavity",
+    "expected": "зэвити"
+  },
+  {
+    "source": "mipped",
+    "expected": "мипт"
+  },
+  {
+    "source": "glimmer",
+    "expected": "глимер"
+  }
+]

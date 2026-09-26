@@ -1,0 +1,252 @@
+[
+  {
+    "topic": "t-2-4",
+    "source": "Третий рычаг — scope: миграция по волнам.",
+    "word": "scope",
+    "id": "english-sentence-01",
+    "category": "curriculum",
+    "expected": "Третий рычаг – скоуп: миграция по волнам.",
+    "audio": true
+  },
+  {
+    "topic": "t-2-3",
+    "source": "Когда правильное решение — не оценивать, а разбить или сделать spike?",
+    "word": "spike",
+    "id": "english-sentence-02",
+    "category": "curriculum",
+    "expected": "Когда правильное решение – не оценивать, а разбить или сделать спайк?",
+    "audio": true
+  },
+  {
+    "topic": "t-15-7",
+    "source": "Есть ли feature flag на новую логику лимитов?",
+    "word": "feature",
+    "id": "english-sentence-03",
+    "category": "curriculum",
+    "expected": "Есть ли фича флаг на новую логику лимитов?",
+    "audio": true
+  },
+  {
+    "topic": "t-4-3",
+    "source": "SAFe (Scaled Agile Framework) — самый тяжёлый и самый распространённый в корпорациях и банках.",
+    "word": "framework",
+    "id": "english-sentence-04",
+    "category": "curriculum",
+    "expected": "сейф, скэйлд эджайл фреймворк, – самый тяжёлый и самый распространённый в корпорациях и банках.",
+    "audio": true
+  },
+  {
+    "topic": "t-3-4",
+    "source": "Поэтапная раскатка (staged rollout, phased release).",
+    "word": "release",
+    "id": "english-sentence-05",
+    "category": "curriculum",
+    "expected": "Поэтапная раскатка, стэйджд роулаут, фэйзд релиз,.",
+    "audio": true
+  },
+  {
+    "topic": "t-3-3",
+    "source": "Rollback-план (план отката) — обязательная часть релиза, и его отсутствие в чек-листе — красный флаг.",
+    "word": "rollback",
+    "id": "english-sentence-06",
+    "category": "curriculum",
+    "expected": "ролбэк-план, план отката, – обязательная часть релиза, и его отсутствие в чек-листе – красный флаг.",
+    "audio": true
+  },
+  {
+    "topic": "t-12-2",
+    "source": "Могу посчитать deployment frequency, MTTR с медианой, change failure rate без fan-out через EXISTS.",
+    "word": "deployment",
+    "id": "english-sentence-07",
+    "category": "curriculum",
+    "expected": "Могу посчитать деплоймент фрикванси, эм ти ти ар с медианой, чейндж фэйлйер рэйт без фэн-аут через игзистс.",
+    "audio": true
+  },
+  {
+    "topic": "t-a-2",
+    "source": "Message queue; Очередь сообщений; Компонент асинхронного взаимодействия сервисов (Kafka, RabbitMQ): производитель пишет, потребитель читает в своём темпе.",
+    "word": "queue",
+    "id": "english-sentence-08",
+    "category": "curriculum",
+    "expected": "месадж кью; Очередь сообщений; Компонент асинхронного взаимодействия сервисов, кафка, рэббит эм кью,: производитель пишет, потребитель читает в своём темпе.",
+    "audio": true
+  },
+  {
+    "topic": "t-10-1",
+    "source": "Знаю, что такое TTL, cache miss и cache stampede, и какие вопросы задать про кэш.",
+    "word": "cache",
+    "id": "english-sentence-09",
+    "category": "curriculum",
+    "expected": "Знаю, что такое ти ти эл, кэш мис и кэш стэмпид, и какие вопросы задать про кэш.",
+    "audio": true
+  },
+  {
+    "topic": "t-14-4",
+    "source": "Бюджет задержки (latency budget) — публично известный приём: у каждого компонента лимит.",
+    "word": "latency",
+    "id": "english-sentence-10",
+    "category": "curriculum",
+    "expected": "Бюджет задержки, латенси баджит, – публично известный приём: у каждого компонента лимит.",
+    "audio": true
+  },
+  {
+    "topic": "t-4-2",
+    "source": "Throughput (пропускная способность) — задач за период.",
+    "word": "throughput",
+    "id": "english-sentence-11",
+    "category": "curriculum",
+    "expected": "трупут, пропускная способность, – задач за период.",
+    "audio": true
+  },
+  {
+    "topic": "t-12-1",
+    "source": "Знает requests с timeout и обработкой статусов.",
+    "word": "timeout",
+    "id": "english-sentence-12",
+    "category": "curriculum",
+    "expected": "Знает риквестс с таймаут и обработкой статусов.",
+    "audio": true
+  },
+  {
+    "topic": "t-7-3",
+    "source": "Вы наняли delivery-менеджера на 3 команды.",
+    "word": "delivery",
+    "id": "english-sentence-13",
+    "category": "curriculum",
+    "expected": "Вы наняли деливери-менеджера на три команды.",
+    "audio": true
+  },
+  {
+    "topic": "t-2-1",
+    "source": "Классическая модель PMBOK выделяет пять групп процессов: инициация (initiating), планирование (planning), исполнение (executing), мониторинг и контроль (monitoring and controlling), закрытие (closing).",
+    "word": "monitoring",
+    "id": "english-sentence-14",
+    "category": "curriculum",
+    "expected": "Классическая модель пи эм би оу кей выделяет пять групп процессов: инициация, инишиэйтинг,, планирование, плэнинг,, исполнение, ексакьютинг,, мониторинг и контроль, мониторинг анд кантроулинг,, закрытие, клоузинг,.",
+    "audio": true
+  },
+  {
+    "topic": "t-6-7",
+    "source": "Фидбек — про конкретное поведение и его изменение; оценка (performance review) — про итог за период.",
+    "word": "performance",
+    "id": "english-sentence-15",
+    "category": "curriculum",
+    "expected": "Фидбек – про конкретное поведение и его изменение; оценка, перформанс ревью, – про итог за период.",
+    "audio": true
+  },
+  {
+    "topic": "t-4-3",
+    "source": "Новый CTO стартапа на 60 инженеров объявил «переход на Spotify-модель»: 8 squads, 2 tribes, chapters по backend/frontend/QA.",
+    "word": "frontend",
+    "id": "english-sentence-16",
+    "category": "curriculum",
+    "expected": "Новый си ти оу стартапа на шестьдесят инженеров объявил переход на спотафай-модель: восемь сквадз, два трайбз, чэптерз по бэкенд слэш фронтенд слэш кью эй.",
+    "audio": true
+  },
+  {
+    "topic": "t-0-4",
+    "source": "План ниже написан для целевого уровня Senior / Lead TPM с фоном в банке — это основной профиль учебника.",
+    "word": "lead",
+    "id": "english-sentence-17",
+    "category": "curriculum",
+    "expected": "План ниже написан для целевого уровня сеньор слэш лид ти пи эм с фоном в банке – это основной профиль учебника.",
+    "audio": true
+  },
+  {
+    "topic": "t-12-1",
+    "source": "Развилка — определение change failure rate.",
+    "word": "change",
+    "id": "english-sentence-18",
+    "category": "curriculum",
+    "expected": "Развилка – определение чейндж фэйлйер рэйт.",
+    "audio": true
+  },
+  {
+    "topic": "t-4-2",
+    "source": "Команда ввела WIP-лимит 4 на колонку «Code review».",
+    "word": "review",
+    "id": "english-sentence-19",
+    "category": "curriculum",
+    "expected": "Команда ввела вип-лимит четыре на колонку код ревью.",
+    "audio": true
+  },
+  {
+    "topic": "t-9-2",
+    "source": "Roadmap как обещание фичей с датами на год.",
+    "word": "roadmap",
+    "id": "english-sentence-20",
+    "category": "curriculum",
+    "expected": "роудмап как обещание фичей с датами на год.",
+    "audio": true
+  },
+  {
+    "id": "english-word-scope",
+    "category": "acceptance",
+    "source": "scope",
+    "expected": "скоуп",
+    "audio": true
+  },
+  {
+    "id": "english-word-spike",
+    "category": "acceptance",
+    "source": "spike",
+    "expected": "спайк",
+    "audio": true
+  },
+  {
+    "id": "english-word-pipeline",
+    "category": "acceptance",
+    "source": "pipeline",
+    "expected": "пайплайн",
+    "audio": true
+  },
+  {
+    "id": "english-word-feature",
+    "category": "acceptance",
+    "source": "feature",
+    "expected": "фича",
+    "audio": true
+  },
+  {
+    "id": "english-word-framework",
+    "category": "acceptance",
+    "source": "framework",
+    "expected": "фреймворк",
+    "audio": true
+  },
+  {
+    "id": "english-word-release",
+    "category": "acceptance",
+    "source": "release",
+    "expected": "релиз",
+    "audio": true
+  },
+  {
+    "id": "english-word-rollback",
+    "category": "acceptance",
+    "source": "rollback",
+    "expected": "ролбэк",
+    "audio": true
+  },
+  {
+    "id": "english-word-deployment",
+    "category": "acceptance",
+    "source": "deployment",
+    "expected": "деплоймент",
+    "audio": true
+  },
+  {
+    "id": "english-word-queue",
+    "category": "acceptance",
+    "source": "queue",
+    "expected": "кью",
+    "audio": true
+  },
+  {
+    "id": "english-word-cache",
+    "category": "acceptance",
+    "source": "cache",
+    "expected": "кэш",
+    "audio": true
+  }
+]

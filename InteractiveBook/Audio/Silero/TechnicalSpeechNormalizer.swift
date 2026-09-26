@@ -16,21 +16,18 @@ final class TechnicalSpeechNormalizer {
             result.replaceSubrange(Range(m.range,in:result)!,with:transform(groups))
         };return result
     }
-    // Unknown short ALL CAPS tokens are abbreviations; ordinary/camelCase words are not.
     static func latinWord(_ token:String)->String {
-        if token.count <= 5 && token == token.uppercased() && (token.count <= 3 || token.range(of:"[AEIOUY]",options:.regularExpression) == nil) {
-            return token.lowercased().map { TechnicalLexicon.letters[String($0)]! }.joined(separator:" ")
+        let lower=token.lowercased()
+        if let known=TechnicalLexicon.lowerEntries[lower] { return known }
+        let chunks=token.replacingOccurrences(of:"([A-Z])([A-Z][a-z])",with:"$1 $2",options:.regularExpression)
+            .replacingOccurrences(of:"([a-z])([A-Z])",with:"$1 $2",options:.regularExpression).components(separatedBy:" ")
+        if chunks.count>1 { return chunks.map(latinWord).joined(separator:" ") }
+        if let pronunciation=EnglishPronunciation.known(lower) { return pronunciation }
+        // Only genuinely abbreviation-like unknowns; ALL CAPS alone is insufficient.
+        if token.count == 1 || (token == token.uppercased() && token.count<=5 && token.range(of:"[AEIOUY]",options:.regularExpression)==nil) {
+            return lower.map { TechnicalLexicon.letters[String($0)]! }.joined(separator:" ")
         }
-        let chunks = token.replacingOccurrences(of:"([A-Z])([A-Z][a-z])",with:"$1 $2",options:.regularExpression).replacingOccurrences(of: "([a-z])([A-Z])", with: "$1 $2", options:.regularExpression).components(separatedBy:" ")
-        return chunks.map { chunk in
-            if let known = TechnicalLexicon.entries.first(where: { $0.key.lowercased() == chunk.lowercased() }) { return known.value }
-            if chunks.count > 1 { return latinWord(chunk) }
-            var value = chunk.lowercased()
-            let rules:[(String,String)] = [("tion","шн"),("sion","жн"),("ough","оу"),("igh","ай"),("tch","ч"),("sh","ш"),("ch","ч"),("ph","ф"),("th","т"),("qu","кв"),("ee","и"),("ea","и"),("oo","у"),("ou","ау"),("ow","оу"),("ai","эй"),("ay","эй"),("ck","к"),("ng","нг")]
-            for (from,to) in rules { value=value.replacingOccurrences(of:from,with:to) }
-            let letters:[Character:String] = ["a":"а","b":"б","c":"к","d":"д","e":"е","f":"ф","g":"г","h":"х","i":"и","j":"дж","k":"к","l":"л","m":"м","n":"н","o":"о","p":"п","q":"к","r":"р","s":"с","t":"т","u":"у","v":"в","w":"в","x":"кс","y":"и","z":"з"]
-            return value.map { letters[$0] ?? String($0) }.joined()
-        }.joined(separator:" ")
+        return EnglishPronunciation.fallback(lower)
     }
     func normalize(_ source:String)throws->String {
         var text=replace(#"(\d)(?=(?:KB|MB|GB|TB|RPS|TPS|CPU)\b)"#,source){$0[1]+" "}

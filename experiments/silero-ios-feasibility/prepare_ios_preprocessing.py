@@ -22,3 +22,5 @@ print('Copied verified auxiliary models, original dictionaries and additive gold
 
 # Optional product corpus; distinct from immutable Silero golden captures.
 if (R/"technical-corpus.json").exists():shutil.copyfile(R/"technical-corpus.json",D/"technical-corpus.json")
+
+shutil.copyfile(R.parent.parent/"Tests/pronunciation-audio-corpus.json",D/"pronunciation-audio-corpus.json")

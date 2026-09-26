@@ -1,0 +1,422 @@
+[
+  {
+    "source": "A/B",
+    "expected": "эй би"
+  },
+  {
+    "source": "API",
+    "expected": "эй пи ай"
+  },
+  {
+    "source": "B2B",
+    "expected": "би ту би"
+  },
+  {
+    "source": "B2C",
+    "expected": "би ту си"
+  },
+  {
+    "source": "CD",
+    "expected": "си ди"
+  },
+  {
+    "source": "CDC",
+    "expected": "си ди си"
+  },
+  {
+    "source": "CI",
+    "expected": "си ай"
+  },
+  {
+    "source": "CI/CD",
+    "expected": "си ай си ди"
+  },
+  {
+    "source": "CLI",
+    "expected": "си эл ай"
+  },
+  {
+    "source": "CPU",
+    "expected": "си пи ю"
+  },
+  {
+    "source": "CRM",
+    "expected": "си ар эм"
+  },
+  {
+    "source": "Confluence",
+    "expected": "конфлюенс"
+  },
+  {
+    "source": "Conversion",
+    "expected": "конверсия"
+  },
+  {
+    "source": "DAU",
+    "expected": "ди эй ю"
+  },
+  {
+    "source": "DB",
+    "expected": "ди би"
+  },
+  {
+    "source": "DBMS",
+    "expected": "ди би эм эс"
+  },
+  {
+    "source": "DORA",
+    "expected": "дора"
+  },
+  {
+    "source": "Debezium",
+    "expected": "дебезиум"
+  },
+  {
+    "source": "DevOps",
+    "expected": "девопс"
+  },
+  {
+    "source": "Docker",
+    "expected": "докер"
+  },
+  {
+    "source": "Docker Compose",
+    "expected": "докер компоуз"
+  },
+  {
+    "source": "ELT",
+    "expected": "и эл ти"
+  },
+  {
+    "source": "ERP",
+    "expected": "и ар пи"
+  },
+  {
+    "source": "ETL",
+    "expected": "и ти эл"
+  },
+  {
+    "source": "GB",
+    "expected": "гигабайт"
+  },
+  {
+    "source": "Git",
+    "expected": "гит"
+  },
+  {
+    "source": "GitHub",
+    "expected": "гитхаб"
+  },
+  {
+    "source": "GitLab",
+    "expected": "гитлаб"
+  },
+  {
+    "source": "Grafana",
+    "expected": "графана"
+  },
+  {
+    "source": "HTTP",
+    "expected": "эйч ти ти пи"
+  },
+  {
+    "source": "HTTPS",
+    "expected": "эйч ти ти пи эс"
+  },
+  {
+    "source": "IAM",
+    "expected": "ай эм"
+  },
+  {
+    "source": "IDE",
+    "expected": "ай ди и"
+  },
+  {
+    "source": "IP",
+    "expected": "ай пи"
+  },
+  {
+    "source": "JSON",
+    "expected": "джейсон"
+  },
+  {
+    "source": "JVM",
+    "expected": "джей ви эм"
+  },
+  {
+    "source": "JWT",
+    "expected": "джей дабл ю ти"
+  },
+  {
+    "source": "Java",
+    "expected": "джава"
+  },
+  {
+    "source": "JavaScript",
+    "expected": "джаваскрипт"
+  },
+  {
+    "source": "Jenkins",
+    "expected": "дженкинс"
+  },
+  {
+    "source": "Jira",
+    "expected": "джира"
+  },
+  {
+    "source": "KB",
+    "expected": "килобайт"
+  },
+  {
+    "source": "KPI",
+    "expected": "кей пи ай"
+  },
+  {
+    "source": "Kafka",
+    "expected": "кафка"
+  },
+  {
+    "source": "Kotlin",
+    "expected": "котлин"
+  },
+  {
+    "source": "Kubernetes",
+    "expected": "кубернетес"
+  },
+  {
+    "source": "Lead time",
+    "expected": "лид тайм"
+  },
+  {
+    "source": "Linux",
+    "expected": "линукс"
+  },
+  {
+    "source": "MAU",
+    "expected": "эм эй ю"
+  },
+  {
+    "source": "MB",
+    "expected": "мегабайт"
+  },
+  {
+    "source": "MVP",
+    "expected": "эм ви пи"
+  },
+  {
+    "source": "MongoDB",
+    "expected": "монго ди би"
+  },
+  {
+    "source": "NoSQL",
+    "expected": "ноу эс кью эль"
+  },
+  {
+    "source": "OAuth",
+    "expected": "оу аут"
+  },
+  {
+    "source": "OKR",
+    "expected": "оу кей ар"
+  },
+  {
+    "source": "OLAP",
+    "expected": "олап"
+  },
+  {
+    "source": "OLTP",
+    "expected": "оу эл ти пи"
+  },
+  {
+    "source": "OpenShift",
+    "expected": "оупен шифт"
+  },
+  {
+    "source": "Oracle",
+    "expected": "оракл"
+  },
+  {
+    "source": "PostgreSQL",
+    "expected": "постгрес"
+  },
+  {
+    "source": "Postgres",
+    "expected": "постгрес"
+  },
+  {
+    "source": "Prometheus",
+    "expected": "прометеус"
+  },
+  {
+    "source": "Python",
+    "expected": "пайтон"
+  },
+  {
+    "source": "QA",
+    "expected": "кью эй"
+  },
+  {
+    "source": "RAM",
+    "expected": "оперативной памяти"
+  },
+  {
+    "source": "REST",
+    "expected": "рэст"
+  },
+  {
+    "source": "RPO",
+    "expected": "ар пи оу"
+  },
+  {
+    "source": "RPS",
+    "expected": "ар пи эс"
+  },
+  {
+    "source": "RTO",
+    "expected": "ар ти оу"
+  },
+  {
+    "source": "RabbitMQ",
+    "expected": "рэббит эм кью"
+  },
+  {
+    "source": "React",
+    "expected": "реакт"
+  },
+  {
+    "source": "Redis",
+    "expected": "редис"
+  },
+  {
+    "source": "SDK",
+    "expected": "эс ди кей"
+  },
+  {
+    "source": "SLA",
+    "expected": "эс эл эй"
+  },
+  {
+    "source": "SLI",
+    "expected": "эс эл ай"
+  },
+  {
+    "source": "SLO",
+    "expected": "эс эл оу"
+  },
+  {
+    "source": "SQL",
+    "expected": "эс кью эль"
+  },
+  {
+    "source": "SRE",
+    "expected": "эс ар и"
+  },
+  {
+    "source": "SSO",
+    "expected": "эс эс оу"
+  },
+  {
+    "source": "Swift",
+    "expected": "свифт"
+  },
+  {
+    "source": "TB",
+    "expected": "терабайт"
+  },
+  {
+    "source": "TCP",
+    "expected": "ти си пи"
+  },
+  {
+    "source": "TPS",
+    "expected": "ти пи эс"
+  },
+  {
+    "source": "TypeScript",
+    "expected": "тайпскрипт"
+  },
+  {
+    "source": "UI",
+    "expected": "ю ай"
+  },
+  {
+    "source": "URI",
+    "expected": "ю ар ай"
+  },
+  {
+    "source": "URL",
+    "expected": "ю ар эл"
+  },
+  {
+    "source": "UX",
+    "expected": "ю икс"
+  },
+  {
+    "source": "WAL",
+    "expected": "вал"
+  },
+  {
+    "source": "XML",
+    "expected": "икс эм эль"
+  },
+  {
+    "source": "YAML",
+    "expected": "ямл"
+  },
+  {
+    "source": "backend",
+    "expected": "бэкенд"
+  },
+  {
+    "source": "blue-green",
+    "expected": "блю грин"
+  },
+  {
+    "source": "canary",
+    "expected": "канареечный"
+  },
+  {
+    "source": "commit",
+    "expected": "коммит"
+  },
+  {
+    "source": "deploy",
+    "expected": "деплой"
+  },
+  {
+    "source": "frontend",
+    "expected": "фронтенд"
+  },
+  {
+    "source": "go/no-go",
+    "expected": "гоу ноу гоу"
+  },
+  {
+    "source": "iOS",
+    "expected": "ай оу эс"
+  },
+  {
+    "source": "merge request",
+    "expected": "мёрдж реквест"
+  },
+  {
+    "source": "nginx",
+    "expected": "энджин икс"
+  },
+  {
+    "source": "pipeline",
+    "expected": "пайплайн"
+  },
+  {
+    "source": "pull request",
+    "expected": "пул реквест"
+  },
+  {
+    "source": "release",
+    "expected": "релиз"
+  },
+  {
+    "source": "rollback",
+    "expected": "ролбэк"
+  }
+]

@@ -14,7 +14,9 @@ xcrun simctl bootstatus "$SIMULATOR_ID" -b
 xcrun simctl install "$SIMULATOR_ID" ios/build/Build/Products/Debug-iphonesimulator/SileroIOSPoC.app
 xcrun simctl terminate "$SIMULATOR_ID" ai.research.SileroIOSPoC 2>/dev/null || true
 xcrun simctl launch "$SIMULATOR_ID" ai.research.SileroIOSPoC "${@:2}"
-if [ "${2:-}" = "--technical" ]; then
+if [ "${2:-}" = "--pronunciation" ]; then
+ printf "Wait for 30 audio examples, then tap any row. Output: Documents/PronunciationResults/\n"
+elif [ "${2:-}" = "--technical" ]; then
  printf 'Wait for text 60/60 and audio 20/20, then Play. Collect:\nbash ios/collect_technical.sh %s\n' "$SIMULATOR_ID"
 else
  printf 'Wait for Preprocessing: 25/25; waveform: 8/8, then Play. Collect:\nbash ios/collect_preprocessing.sh %s\n' "$SIMULATOR_ID"

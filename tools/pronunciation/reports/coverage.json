@@ -1,0 +1,7492 @@
+{
+  "html_sha256": "9f194e8ab74abc7757039099e2b2e36669e4eb5bc37ad00a46e95127c31a0e47",
+  "scope": "Union of topic content including openable details; excludes audio-reader.js excluded tags/classes, URL labels, inline-hidden content; no CSS execution.",
+  "unique": 1333,
+  "occurrences": 16022,
+  "explicit": 222,
+  "dictionary": 948,
+  "uncovered": [
+    {
+      "token": "n",
+      "frequency": 509,
+      "coverage": "fallback"
+    },
+    {
+      "token": "x",
+      "frequency": 488,
+      "coverage": "fallback"
+    },
+    {
+      "token": "b",
+      "frequency": 131,
+      "coverage": "fallback"
+    },
+    {
+      "token": "p",
+      "frequency": 126,
+      "coverage": "fallback"
+    },
+    {
+      "token": "m",
+      "frequency": 76,
+      "coverage": "fallback"
+    },
+    {
+      "token": "t",
+      "frequency": 71,
+      "coverage": "fallback"
+    },
+    {
+      "token": "z",
+      "frequency": 44,
+      "coverage": "fallback"
+    },
+    {
+      "token": "c",
+      "frequency": 43,
+      "coverage": "fallback"
+    },
+    {
+      "token": "d",
+      "frequency": 40,
+      "coverage": "fallback"
+    },
+    {
+      "token": "k",
+      "frequency": 25,
+      "coverage": "fallback"
+    },
+    {
+      "token": "r",
+      "frequency": 18,
+      "coverage": "fallback"
+    },
+    {
+      "token": "s",
+      "frequency": 17,
+      "coverage": "fallback"
+    },
+    {
+      "token": "f",
+      "frequency": 16,
+      "coverage": "fallback"
+    },
+    {
+      "token": "xx",
+      "frequency": 13,
+      "coverage": "fallback"
+    },
+    {
+      "token": "g",
+      "frequency": 11,
+      "coverage": "fallback"
+    },
+    {
+      "token": "w",
+      "frequency": 10,
+      "coverage": "fallback"
+    },
+    {
+      "token": "l",
+      "frequency": 9,
+      "coverage": "fallback"
+    },
+    {
+      "token": "h",
+      "frequency": 8,
+      "coverage": "fallback"
+    },
+    {
+      "token": "systemctl",
+      "frequency": 7,
+      "coverage": "fallback"
+    },
+    {
+      "token": "v",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "keyerror",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "datetime",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "switchback",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "survivorship",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "q",
+      "frequency": 5,
+      "coverage": "fallback"
+    },
+    {
+      "token": "journalctl",
+      "frequency": 5,
+      "coverage": "fallback"
+    },
+    {
+      "token": "protobuf",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "clickhouse",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "outbox",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sigterm",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "systemd",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sudo",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "lsof",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "chmod",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "martinfowler",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "preprod",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "fifo",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "valueerror",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "timedelta",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "readme",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cont",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tlnp",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "logrotate",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "chown",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "preflight",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cuped",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ctrl",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cmd",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pmp",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "raci",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "toggles",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sonarqube",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pmi",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pestel",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "openapi",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "uuid",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ssd",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "int",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tuple",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "groupby",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "dictreader",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "strptime",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "defaultdict",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "regex",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "seq",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nulls",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "timestamp",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tmp",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "mem",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "gz",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "icmp",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "netstat",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "wc",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "uptime",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nproc",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "www",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "localhost",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rwxr",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "xr",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rw",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "euo",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pipefail",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "atlassian",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "yandex",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "localstorage",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "prd",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "psm",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "deliverables",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "keychain",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ewi",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "dor",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "scrumban",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "scrums",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "faq",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "handoff",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "recency",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rfi",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rfp",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "stateful",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "mysql",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "atomicity",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "memcached",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ydb",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rbac",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cdn",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "str",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "bool",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "filenotfounderror",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "requestexception",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "calc",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "yyyy",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "dd",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "hh",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "fromisoformat",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "webhook",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "environ",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "params",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "unparsed",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "py",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "argparse",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "agg",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "trunc",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "desc",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "prev",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "dba",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "col",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "srv",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rwx",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rss",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sigkill",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ie",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nf",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "kibana",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "loki",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "etime",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "mtime",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "copytruncate",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "usr",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "journald",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nlwp",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tnp",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "proc",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "fd",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "vmstat",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "iowait",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sl",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cgroup",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "oom",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "permissionerror",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "errno",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "setgid",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sudoers",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "oe",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nnn",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "printf",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "shellcheck",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tn",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "lgtm",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sku",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ddd",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sharding",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "prosci",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pathlib",
+      "frequency": 1,
+      "coverage": "fallback"
+    }
+  ],
+  "frequencies": [
+    {
+      "token": "head",
+      "frequency": 544,
+      "coverage": "explicit"
+    },
+    {
+      "token": "lead",
+      "frequency": 518,
+      "coverage": "explicit"
+    },
+    {
+      "token": "n",
+      "frequency": 509,
+      "coverage": "fallback"
+    },
+    {
+      "token": "x",
+      "frequency": 488,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tpm",
+      "frequency": 389,
+      "coverage": "explicit"
+    },
+    {
+      "token": "middle",
+      "frequency": 350,
+      "coverage": "explicit"
+    },
+    {
+      "token": "senior",
+      "frequency": 308,
+      "coverage": "explicit"
+    },
+    {
+      "token": "time",
+      "frequency": 305,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "junior",
+      "frequency": 267,
+      "coverage": "explicit"
+    },
+    {
+      "token": "api",
+      "frequency": 240,
+      "coverage": "explicit"
+    },
+    {
+      "token": "dm",
+      "frequency": 170,
+      "coverage": "explicit"
+    },
+    {
+      "token": "dora",
+      "frequency": 164,
+      "coverage": "explicit"
+    },
+    {
+      "token": "gates",
+      "frequency": 160,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cto",
+      "frequency": 159,
+      "coverage": "explicit"
+    },
+    {
+      "token": "y",
+      "frequency": 152,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "of",
+      "frequency": 141,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ci",
+      "frequency": 141,
+      "coverage": "explicit"
+    },
+    {
+      "token": "a",
+      "frequency": 141,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "quality",
+      "frequency": 135,
+      "coverage": "explicit"
+    },
+    {
+      "token": "b",
+      "frequency": 131,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pmo",
+      "frequency": 127,
+      "coverage": "explicit"
+    },
+    {
+      "token": "p",
+      "frequency": 126,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cpo",
+      "frequency": 109,
+      "coverage": "explicit"
+    },
+    {
+      "token": "mvp",
+      "frequency": 107,
+      "coverage": "explicit"
+    },
+    {
+      "token": "scope",
+      "frequency": 106,
+      "coverage": "explicit"
+    },
+    {
+      "token": "change",
+      "frequency": 104,
+      "coverage": "explicit"
+    },
+    {
+      "token": "rate",
+      "frequency": 101,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pm",
+      "frequency": 95,
+      "coverage": "explicit"
+    },
+    {
+      "token": "sla",
+      "frequency": 95,
+      "coverage": "explicit"
+    },
+    {
+      "token": "wip",
+      "frequency": 87,
+      "coverage": "explicit"
+    },
+    {
+      "token": "qa",
+      "frequency": 80,
+      "coverage": "explicit"
+    },
+    {
+      "token": "sdlc",
+      "frequency": 79,
+      "coverage": "explicit"
+    },
+    {
+      "token": "ml",
+      "frequency": 79,
+      "coverage": "explicit"
+    },
+    {
+      "token": "delivery",
+      "frequency": 77,
+      "coverage": "explicit"
+    },
+    {
+      "token": "m",
+      "frequency": 76,
+      "coverage": "fallback"
+    },
+    {
+      "token": "failure",
+      "frequency": 74,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "projects",
+      "frequency": 73,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "kr",
+      "frequency": 72,
+      "coverage": "explicit"
+    },
+    {
+      "token": "review",
+      "frequency": 71,
+      "coverage": "explicit"
+    },
+    {
+      "token": "t",
+      "frequency": 71,
+      "coverage": "fallback"
+    },
+    {
+      "token": "at",
+      "frequency": 70,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "slo",
+      "frequency": 69,
+      "coverage": "explicit"
+    },
+    {
+      "token": "ceo",
+      "frequency": 67,
+      "coverage": "explicit"
+    },
+    {
+      "token": "on",
+      "frequency": 63,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "retention",
+      "frequency": 63,
+      "coverage": "explicit"
+    },
+    {
+      "token": "action",
+      "frequency": 62,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "guardrail",
+      "frequency": 62,
+      "coverage": "explicit"
+    },
+    {
+      "token": "feature",
+      "frequency": 61,
+      "coverage": "explicit"
+    },
+    {
+      "token": "scrum",
+      "frequency": 59,
+      "coverage": "explicit"
+    },
+    {
+      "token": "wsjf",
+      "frequency": 58,
+      "coverage": "explicit"
+    },
+    {
+      "token": "rice",
+      "frequency": 57,
+      "coverage": "explicit"
+    },
+    {
+      "token": "gate",
+      "frequency": 57,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "join",
+      "frequency": 56,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "done",
+      "frequency": 55,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "roadmap",
+      "frequency": 52,
+      "coverage": "explicit"
+    },
+    {
+      "token": "python",
+      "frequency": 51,
+      "coverage": "explicit"
+    },
+    {
+      "token": "code",
+      "frequency": 50,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cd",
+      "frequency": 48,
+      "coverage": "explicit"
+    },
+    {
+      "token": "android",
+      "frequency": 48,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "id",
+      "frequency": 48,
+      "coverage": "explicit"
+    },
+    {
+      "token": "source",
+      "frequency": 46,
+      "coverage": "explicit"
+    },
+    {
+      "token": "okr",
+      "frequency": 45,
+      "coverage": "explicit"
+    },
+    {
+      "token": "mock",
+      "frequency": 45,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cycle",
+      "frequency": 45,
+      "coverage": "explicit"
+    },
+    {
+      "token": "hotfix",
+      "frequency": 45,
+      "coverage": "explicit"
+    },
+    {
+      "token": "items",
+      "frequency": 45,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "z",
+      "frequency": 44,
+      "coverage": "fallback"
+    },
+    {
+      "token": "inner",
+      "frequency": 44,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "c",
+      "frequency": 43,
+      "coverage": "fallback"
+    },
+    {
+      "token": "adr",
+      "frequency": 42,
+      "coverage": "explicit"
+    },
+    {
+      "token": "npv",
+      "frequency": 42,
+      "coverage": "explicit"
+    },
+    {
+      "token": "post",
+      "frequency": 42,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "star",
+      "frequency": 41,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "check",
+      "frequency": 41,
+      "coverage": "explicit"
+    },
+    {
+      "token": "e",
+      "frequency": 41,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "d",
+      "frequency": 40,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cfr",
+      "frequency": 40,
+      "coverage": "explicit"
+    },
+    {
+      "token": "pi",
+      "frequency": 40,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "release",
+      "frequency": 39,
+      "coverage": "explicit"
+    },
+    {
+      "token": "manager",
+      "frequency": 38,
+      "coverage": "explicit"
+    },
+    {
+      "token": "velocity",
+      "frequency": 38,
+      "coverage": "explicit"
+    },
+    {
+      "token": "count",
+      "frequency": 38,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "throughput",
+      "frequency": 37,
+      "coverage": "explicit"
+    },
+    {
+      "token": "to",
+      "frequency": 37,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cio",
+      "frequency": 37,
+      "coverage": "explicit"
+    },
+    {
+      "token": "mortem",
+      "frequency": 37,
+      "coverage": "explicit"
+    },
+    {
+      "token": "wbs",
+      "frequency": 36,
+      "coverage": "explicit"
+    },
+    {
+      "token": "service",
+      "frequency": 36,
+      "coverage": "explicit"
+    },
+    {
+      "token": "sdk",
+      "frequency": 36,
+      "coverage": "explicit"
+    },
+    {
+      "token": "flaky",
+      "frequency": 35,
+      "coverage": "explicit"
+    },
+    {
+      "token": "pr",
+      "frequency": 35,
+      "coverage": "explicit"
+    },
+    {
+      "token": "blameless",
+      "frequency": 34,
+      "coverage": "explicit"
+    },
+    {
+      "token": "kanban",
+      "frequency": 33,
+      "coverage": "explicit"
+    },
+    {
+      "token": "safe",
+      "frequency": 33,
+      "coverage": "explicit"
+    },
+    {
+      "token": "planning",
+      "frequency": 33,
+      "coverage": "explicit"
+    },
+    {
+      "token": "left",
+      "frequency": 33,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ic",
+      "frequency": 33,
+      "coverage": "explicit"
+    },
+    {
+      "token": "fixed",
+      "frequency": 32,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "flow",
+      "frequency": 32,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "in",
+      "frequency": 32,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ios",
+      "frequency": 32,
+      "coverage": "explicit"
+    },
+    {
+      "token": "where",
+      "frequency": 32,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "baseline",
+      "frequency": 31,
+      "coverage": "explicit"
+    },
+    {
+      "token": "request",
+      "frequency": 31,
+      "coverage": "explicit"
+    },
+    {
+      "token": "rfc",
+      "frequency": 31,
+      "coverage": "explicit"
+    },
+    {
+      "token": "must",
+      "frequency": 31,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "system",
+      "frequency": 30,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sql",
+      "frequency": 30,
+      "coverage": "explicit"
+    },
+    {
+      "token": "deployment",
+      "frequency": 30,
+      "coverage": "explicit"
+    },
+    {
+      "token": "agile",
+      "frequency": 29,
+      "coverage": "explicit"
+    },
+    {
+      "token": "json",
+      "frequency": 29,
+      "coverage": "explicit"
+    },
+    {
+      "token": "pip",
+      "frequency": 29,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "design",
+      "frequency": 28,
+      "coverage": "explicit"
+    },
+    {
+      "token": "call",
+      "frequency": 28,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "kpi",
+      "frequency": 28,
+      "coverage": "explicit"
+    },
+    {
+      "token": "price",
+      "frequency": 27,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "canary",
+      "frequency": 27,
+      "coverage": "explicit"
+    },
+    {
+      "token": "runbook",
+      "frequency": 27,
+      "coverage": "explicit"
+    },
+    {
+      "token": "flags",
+      "frequency": 27,
+      "coverage": "explicit"
+    },
+    {
+      "token": "go",
+      "frequency": 27,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "hr",
+      "frequency": 27,
+      "coverage": "explicit"
+    },
+    {
+      "token": "error",
+      "frequency": 27,
+      "coverage": "explicit"
+    },
+    {
+      "token": "less",
+      "frequency": 26,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "by",
+      "frequency": 26,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "app",
+      "frequency": 26,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cfd",
+      "frequency": 26,
+      "coverage": "explicit"
+    },
+    {
+      "token": "legacy",
+      "frequency": 26,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "grep",
+      "frequency": 26,
+      "coverage": "explicit"
+    },
+    {
+      "token": "k",
+      "frequency": 25,
+      "coverage": "fallback"
+    },
+    {
+      "token": "definition",
+      "frequency": 25,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "qr",
+      "frequency": 25,
+      "coverage": "explicit"
+    },
+    {
+      "token": "sre",
+      "frequency": 25,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cr",
+      "frequency": 25,
+      "coverage": "explicit"
+    },
+    {
+      "token": "google",
+      "frequency": 25,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sev",
+      "frequency": 25,
+      "coverage": "explicit"
+    },
+    {
+      "token": "reference",
+      "frequency": 24,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "for",
+      "frequency": 24,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "level",
+      "frequency": 24,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "green",
+      "frequency": 24,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "batna",
+      "frequency": 24,
+      "coverage": "explicit"
+    },
+    {
+      "token": "main",
+      "frequency": 24,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "vs",
+      "frequency": 23,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "jira",
+      "frequency": 23,
+      "coverage": "explicit"
+    },
+    {
+      "token": "flag",
+      "frequency": 23,
+      "coverage": "explicit"
+    },
+    {
+      "token": "blue",
+      "frequency": 23,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "po",
+      "frequency": 23,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "push",
+      "frequency": 23,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sli",
+      "frequency": 23,
+      "coverage": "explicit"
+    },
+    {
+      "token": "null",
+      "frequency": 23,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "project",
+      "frequency": 22,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "story",
+      "frequency": 22,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "out",
+      "frequency": 22,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "path",
+      "frequency": 22,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "free",
+      "frequency": 22,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mttr",
+      "frequency": 22,
+      "coverage": "explicit"
+    },
+    {
+      "token": "opex",
+      "frequency": 21,
+      "coverage": "explicit"
+    },
+    {
+      "token": "csv",
+      "frequency": 21,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "management",
+      "frequency": 20,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "team",
+      "frequency": 20,
+      "coverage": "explicit"
+    },
+    {
+      "token": "strangler",
+      "frequency": 20,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "vanity",
+      "frequency": 19,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "data",
+      "frequency": 19,
+      "coverage": "explicit"
+    },
+    {
+      "token": "store",
+      "frequency": 19,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sbi",
+      "frequency": 19,
+      "coverage": "explicit"
+    },
+    {
+      "token": "curl",
+      "frequency": 19,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "north",
+      "frequency": 19,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ownership",
+      "frequency": 18,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "r",
+      "frequency": 18,
+      "coverage": "fallback"
+    },
+    {
+      "token": "trunk",
+      "frequency": 18,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "based",
+      "frequency": 18,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "first",
+      "frequency": 18,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "value",
+      "frequency": 18,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sort",
+      "frequency": 18,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "user",
+      "frequency": 18,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "golden",
+      "frequency": 18,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pert",
+      "frequency": 17,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "group",
+      "frequency": 17,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "jtbd",
+      "frequency": 17,
+      "coverage": "explicit"
+    },
+    {
+      "token": "sign",
+      "frequency": 17,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "s",
+      "frequency": 17,
+      "coverage": "fallback"
+    },
+    {
+      "token": "crm",
+      "frequency": 17,
+      "coverage": "explicit"
+    },
+    {
+      "token": "freeze",
+      "frequency": 17,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cutover",
+      "frequency": 17,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cpu",
+      "frequency": 17,
+      "coverage": "explicit"
+    },
+    {
+      "token": "heart",
+      "frequency": 17,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "moscow",
+      "frequency": 17,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tco",
+      "frequency": 16,
+      "coverage": "explicit"
+    },
+    {
+      "token": "f",
+      "frequency": 16,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rollback",
+      "frequency": 16,
+      "coverage": "explicit"
+    },
+    {
+      "token": "points",
+      "frequency": 16,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "devops",
+      "frequency": 16,
+      "coverage": "explicit"
+    },
+    {
+      "token": "reliability",
+      "frequency": 16,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "failed",
+      "frequency": 16,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "result",
+      "frequency": 16,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "i",
+      "frequency": 16,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "security",
+      "frequency": 16,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "llm",
+      "frequency": 16,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cte",
+      "frequency": 16,
+      "coverage": "explicit"
+    },
+    {
+      "token": "exists",
+      "frequency": 16,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "nsm",
+      "frequency": 16,
+      "coverage": "explicit"
+    },
+    {
+      "token": "product",
+      "frequency": 15,
+      "coverage": "explicit"
+    },
+    {
+      "token": "sast",
+      "frequency": 15,
+      "coverage": "explicit"
+    },
+    {
+      "token": "crash",
+      "frequency": 15,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "buddy",
+      "frequency": 15,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "swot",
+      "frequency": 15,
+      "coverage": "explicit"
+    },
+    {
+      "token": "health",
+      "frequency": 15,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ui",
+      "frequency": 15,
+      "coverage": "explicit"
+    },
+    {
+      "token": "budget",
+      "frequency": 15,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ss",
+      "frequency": 15,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "finished",
+      "frequency": 15,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "having",
+      "frequency": 15,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rank",
+      "frequency": 15,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "adkar",
+      "frequency": 14,
+      "coverage": "explicit"
+    },
+    {
+      "token": "continuous",
+      "frequency": 14,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "contract",
+      "frequency": 14,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "item",
+      "frequency": 14,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "postgresql",
+      "frequency": 14,
+      "coverage": "explicit"
+    },
+    {
+      "token": "created",
+      "frequency": 14,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "performance",
+      "frequency": 13,
+      "coverage": "explicit"
+    },
+    {
+      "token": "changes",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "and",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cost",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "frequency",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "status",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "log",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "payback",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cod",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stream",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lag",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "xx",
+      "frequency": 13,
+      "coverage": "fallback"
+    },
+    {
+      "token": "awk",
+      "frequency": 13,
+      "coverage": "explicit"
+    },
+    {
+      "token": "select",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "avg",
+      "frequency": 13,
+      "coverage": "explicit"
+    },
+    {
+      "token": "is",
+      "frequency": 13,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "capex",
+      "frequency": 12,
+      "coverage": "explicit"
+    },
+    {
+      "token": "learned",
+      "frequency": 12,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "work",
+      "frequency": 12,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "o",
+      "frequency": 12,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "run",
+      "frequency": 12,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "play",
+      "frequency": 12,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "escape",
+      "frequency": 12,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "task",
+      "frequency": 12,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rest",
+      "frequency": 12,
+      "coverage": "explicit"
+    },
+    {
+      "token": "pull",
+      "frequency": 12,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "prod",
+      "frequency": 12,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pid",
+      "frequency": 12,
+      "coverage": "explicit"
+    },
+    {
+      "token": "kotter",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "span",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "control",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lessons",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "spike",
+      "frequency": 11,
+      "coverage": "explicit"
+    },
+    {
+      "token": "fig",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "g",
+      "frequency": 11,
+      "coverage": "fallback"
+    },
+    {
+      "token": "open",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "creep",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dark",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "not",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "daily",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ltv",
+      "frequency": 11,
+      "coverage": "explicit"
+    },
+    {
+      "token": "enabling",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tier",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "list",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "fan",
+      "frequency": 11,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "df",
+      "frequency": 11,
+      "coverage": "explicit"
+    },
+    {
+      "token": "linux",
+      "frequency": 10,
+      "coverage": "explicit"
+    },
+    {
+      "token": "w",
+      "frequency": 10,
+      "coverage": "fallback"
+    },
+    {
+      "token": "roi",
+      "frequency": 10,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "grpc",
+      "frequency": 10,
+      "coverage": "explicit"
+    },
+    {
+      "token": "mlops",
+      "frequency": 10,
+      "coverage": "explicit"
+    },
+    {
+      "token": "set",
+      "frequency": 10,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "payments",
+      "frequency": 10,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "uniq",
+      "frequency": 10,
+      "coverage": "explicit"
+    },
+    {
+      "token": "row",
+      "frequency": 10,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ps",
+      "frequency": 10,
+      "coverage": "explicit"
+    },
+    {
+      "token": "nginx",
+      "frequency": 10,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cjm",
+      "frequency": 10,
+      "coverage": "explicit"
+    },
+    {
+      "token": "topologies",
+      "frequency": 9,
+      "coverage": "explicit"
+    },
+    {
+      "token": "objective",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "requests",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rolling",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "monte",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "carlo",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "gantt",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "development",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "high",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "smoke",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "launch",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "elite",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "java",
+      "frequency": 9,
+      "coverage": "explicit"
+    },
+    {
+      "token": "unit",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "staging",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "expedite",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "spotify",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "l",
+      "frequency": 9,
+      "coverage": "fallback"
+    },
+    {
+      "token": "circuit",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "breaker",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "skip",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "merge",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "confidence",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "least",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "once",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cap",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "incident",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "offline",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "genai",
+      "frequency": 9,
+      "coverage": "explicit"
+    },
+    {
+      "token": "pandas",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "env",
+      "frequency": 9,
+      "coverage": "explicit"
+    },
+    {
+      "token": "between",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "kill",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "reports",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "git",
+      "frequency": 9,
+      "coverage": "explicit"
+    },
+    {
+      "token": "gitflow",
+      "frequency": 9,
+      "coverage": "explicit"
+    },
+    {
+      "token": "develop",
+      "frequency": 9,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "aarrr",
+      "frequency": 9,
+      "coverage": "explicit"
+    },
+    {
+      "token": "one",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "train",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "efficiency",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "impact",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sprint",
+      "frequency": 8,
+      "coverage": "explicit"
+    },
+    {
+      "token": "limit",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "date",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sle",
+      "frequency": 8,
+      "coverage": "explicit"
+    },
+    {
+      "token": "job",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "no",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "commit",
+      "frequency": 8,
+      "coverage": "explicit"
+    },
+    {
+      "token": "case",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "churn",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "focus",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "factor",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "credits",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "key",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "nps",
+      "frequency": 8,
+      "coverage": "explicit"
+    },
+    {
+      "token": "effort",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "nosql",
+      "frequency": 8,
+      "coverage": "explicit"
+    },
+    {
+      "token": "stateless",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "http",
+      "frequency": 8,
+      "coverage": "explicit"
+    },
+    {
+      "token": "ttr",
+      "frequency": 8,
+      "coverage": "explicit"
+    },
+    {
+      "token": "dict",
+      "frequency": 8,
+      "coverage": "explicit"
+    },
+    {
+      "token": "timeout",
+      "frequency": 8,
+      "coverage": "explicit"
+    },
+    {
+      "token": "load",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "deployments",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "started",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "releases",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "distinct",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "number",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "h",
+      "frequency": 8,
+      "coverage": "fallback"
+    },
+    {
+      "token": "fake",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "door",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stories",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "should",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "kano",
+      "frequency": 8,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "technical",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "statement",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "milestones",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "operational",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "readiness",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rps",
+      "frequency": 7,
+      "coverage": "explicit"
+    },
+    {
+      "token": "poker",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "fast",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tracking",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bottleneck",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "delay",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "decision",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "deploy",
+      "frequency": 7,
+      "coverage": "explicit"
+    },
+    {
+      "token": "art",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "teams",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "situation",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bias",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cac",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ttd",
+      "frequency": 7,
+      "coverage": "explicit"
+    },
+    {
+      "token": "ttm",
+      "frequency": 7,
+      "coverage": "explicit"
+    },
+    {
+      "token": "threat",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "modeling",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "eval",
+      "frequency": 7,
+      "coverage": "explicit"
+    },
+    {
+      "token": "the",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pending",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "success",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "order",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dense",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "severity",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "average",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "systemctl",
+      "frequency": 7,
+      "coverage": "fallback"
+    },
+    {
+      "token": "warn",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pickup",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "could",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "won",
+      "frequency": 7,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "capacity",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pdf",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "qps",
+      "frequency": 6,
+      "coverage": "explicit"
+    },
+    {
+      "token": "bonus",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pager",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "board",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "v",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "restore",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "end",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "test",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "as",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "self",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "large",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "portfolio",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "weighted",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "shortest",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "squads",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "chapters",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "leading",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "agreement",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "shaped",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "effect",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "interview",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mau",
+      "frequency": 6,
+      "coverage": "explicit"
+    },
+    {
+      "token": "reach",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "collaboration",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "redis",
+      "frequency": 6,
+      "coverage": "explicit"
+    },
+    {
+      "token": "read",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "detect",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "secure",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sca",
+      "frequency": 6,
+      "coverage": "explicit"
+    },
+    {
+      "token": "keyerror",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "except",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "datetime",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "size",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "incidents",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tail",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "var",
+      "frequency": 6,
+      "coverage": "explicit"
+    },
+    {
+      "token": "ledger",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tls",
+      "frequency": 6,
+      "coverage": "explicit"
+    },
+    {
+      "token": "gateway",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "switchback",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "classic",
+      "frequency": 6,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "survivorship",
+      "frequency": 6,
+      "coverage": "fallback"
+    },
+    {
+      "token": "vsm",
+      "frequency": 6,
+      "coverage": "explicit"
+    },
+    {
+      "token": "q",
+      "frequency": 5,
+      "coverage": "fallback"
+    },
+    {
+      "token": "driven",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "grade",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "program",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "crashing",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "risk",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "architecture",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "expand",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "recovery",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "medium",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "low",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "age",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "integration",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "iac",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "framework",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "guide",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "master",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sm",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "confluence",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "rte",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "hardware",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "gitlab",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "desire",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "top",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mandatory",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "total",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "contingency",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "reserve",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "map",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cache",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "metrics",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "commander",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "communications",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sms",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "none",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "true",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "get",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "max",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "scan",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "permission",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "denied",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ls",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "du",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "journalctl",
+      "frequency": 5,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rn",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "docker",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "com",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bind",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "adoption",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "novelty",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "difference",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "differences",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "minimum",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "viable",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "contact",
+      "frequency": 5,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cdc",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "rsu",
+      "frequency": 5,
+      "coverage": "explicit"
+    },
+    {
+      "token": "pci",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "dss",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pmbok",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "estimation",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "critical",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "warning",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "gold",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "plating",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "you",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "build",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "it",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "retrospective",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "software",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "roll",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "forward",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "consumer",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bounded",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "research",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "assessment",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "state",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "progress",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mean",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "scaled",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ip",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "solution",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "chapter",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "squad",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "waterfall",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "excel",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ability",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "context",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "protobuf",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "shape",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stay",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "office",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "governance",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "investment",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "arpu",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "premise",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "clickhouse",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ttl",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "kafka",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "outbox",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "partition",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "idempotency",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "site",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "engineering",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mitigate",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "resolve",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "auc",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "scientist",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mail",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "succeeded",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bank",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "parse",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dates",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "production",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "false",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "iso",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "sample",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "print",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "acc",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "domain",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stat",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sigterm",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "systemd",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sudo",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "lsof",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "disk",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "chmod",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "fail",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rebase",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cherry",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pick",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "happiness",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "engagement",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lagging",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "holdout",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "qg",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cliff",
+      "frequency": 4,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tc",
+      "frequency": 4,
+      "coverage": "explicit"
+    },
+    {
+      "token": "martinfowler",
+      "frequency": 4,
+      "coverage": "fallback"
+    },
+    {
+      "token": "jobs",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "life",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "controlling",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "charter",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "burn",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "poc",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "milestone",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "class",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "float",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "early",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "indicators",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "handover",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dast",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "staged",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rollout",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "anr",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cloud",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "accelerate",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lean",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cumulative",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "diagram",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "shift",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "testing",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "analysis",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "preprod",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "owner",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "backlog",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "law",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "fifo",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "scale",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "huge",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stage",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "car",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stakeholder",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "report",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "radical",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "candor",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "core",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "record",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "comments",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "onboarding",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "plan",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "postmortem",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cf",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "customer",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "acquisition",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "managed",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "eac",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "objectives",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "results",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "conway",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "complicated",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "subsystem",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "acid",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "consistency",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stampede",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rabbitmq",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "url",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "saga",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "failover",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "alert",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "fatigue",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "email",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "scientists",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "apple",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "valueerror",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "timedelta",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pd",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "counter",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "shell",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "assert",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "now",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "html",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "readme",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "from",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "min",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "resolved",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "filter",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "percentile",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cont",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "current",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "over",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "preceding",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "integer",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ping",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ssh",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "tlnp",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "usage",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sh",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rh",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "rm",
+      "frequency": 3,
+      "coverage": "explicit"
+    },
+    {
+      "token": "logrotate",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "connection",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "refused",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "available",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "chown",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "bash",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "preflight",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "branch",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "metric",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "peeking",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cuped",
+      "frequency": 3,
+      "coverage": "fallback"
+    },
+    {
+      "token": "actionable",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "anti",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "corruption",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "layer",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "book",
+      "frequency": 3,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ctrl",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cmd",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pmp",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "home",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "raci",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "down",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "breakdown",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "structure",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cone",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "uncertainty",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "forecasting",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "buffer",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "buffers",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "iron",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "triangle",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "off",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "issue",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "register",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "appetite",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "acceptance",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "records",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ready",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "toggles",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "application",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "expedited",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "soft",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "update",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "microservices",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "contracts",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "scatter",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "debt",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "server",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "sonarqube",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "regression",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dev",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "configuration",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "but",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "increment",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "expectation",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "engineer",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "requirement",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "areas",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tribes",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "guilds",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "water",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "fall",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dry",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "awareness",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stop",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "behavioral",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "interest",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "keep",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "monitor",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "toggle",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "getting",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "yes",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "best",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "alternative",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "negotiated",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "behavior",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "hours",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tuckman",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "improvement",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "exit",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pmi",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "institute",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "supportive",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "directive",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "psychological",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "safety",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "return",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "period",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "net",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "present",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "expenditure",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "fully",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "loaded",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "headcount",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "vendor",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lock",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "benefit",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sessions",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "version",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pestel",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cross",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sell",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "aligned",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "platform",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "openapi",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "proto",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "miss",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "soap",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "replication",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "uuid",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "graceful",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bulkhead",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "your",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "writes",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "observability",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "latency",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "traffic",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "errors",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "indicator",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "scribe",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ops",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "champions",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ssd",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "processing",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "reversal",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "int",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tuple",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "try",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "groupby",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nan",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tasks",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mm",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dictreader",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "strptime",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "defaultdict",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ok",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mobile",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "caused",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ts",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dump",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "raise",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sleep",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cron",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "upstream",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "re",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "common",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "regex",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "if",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "deploys",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ids",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "split",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "strip",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "days",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mob",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "week",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "table",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sum",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "seq",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "index",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "month",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "nulls",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "last",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bad",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "numeric",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "series",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "timestamp",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tmp",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "mem",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "gz",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "icmp",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tcp",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "netstat",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "https",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "wc",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "since",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "exception",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "active",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "find",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lib",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "uptime",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nproc",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "aux",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "retry",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "root",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cause",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "example",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "www",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "authenticate",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "expired",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "memory",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "localhost",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "host",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "output",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "la",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rwxr",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "xr",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rw",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "euo",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pipefail",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "mr",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tag",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "github",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "tests",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "revert",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "input",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "activation",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "revenue",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "referral",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "be",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "journey",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "fermi",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "checkout",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "process",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "kotlin",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "swift",
+      "frequency": 2,
+      "coverage": "explicit"
+    },
+    {
+      "token": "hiring",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "restricted",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stock",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "units",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "refresh",
+      "frequency": 2,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "atlassian",
+      "frequency": 2,
+      "coverage": "fallback"
+    },
+    {
+      "token": "yandex",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ru",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cultural",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "fit",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "localstorage",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "screening",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "elevator",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pitch",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "career",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "prd",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "psm",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "take",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "assignment",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "initiating",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "executing",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "monitoring",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "closing",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "up",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "demo",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "notes",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "assumptions",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "deliverables",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "packages",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "wave",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "evaluation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "technique",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "keychain",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "fallback",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "slack",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "feeding",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ms",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "triple",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "constraint",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "trade",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ewi",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "kickoff",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "closure",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dor",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "mode",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "rejection",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "phased",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "halt",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "responding",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "hard",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "monolith",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "contexts",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "octopus",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "plot",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "obsolescence",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "windows",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "hot",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "spots",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "exploratory",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "environments",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "infrastructure",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "drift",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "branches",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "jenkins",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "kubernetes",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "commitments",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "developers",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "goal",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "parallel",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "little",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "classes",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "standard",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "intangible",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "scrumban",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "architect",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "overall",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "retro",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "scrums",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cfo",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "backend",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "frontend",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "pos",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sim",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "forrester",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "faq",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "knowledge",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "reinforcement",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "derby",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "larsen",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "start",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "continue",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "liked",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lacked",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "longed",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "influence",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "without",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "authority",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "probing",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "questions",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "power",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "manage",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "closely",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "satisfied",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "informed",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "kick",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "escalation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "red",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "facilitation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "schema",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "position",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "feedback",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "care",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "personally",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "challenge",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "directly",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "distributed",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "remote",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "handoff",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "forming",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "storming",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "norming",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "performing",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "adjourning",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "scorecard",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "halo",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "similar",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "me",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "confirmation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "shadowing",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "productivity",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "principal",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "approve",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "peer",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "recency",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "burnout",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sustainable",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pace",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "business",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lifetime",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "contribution",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "margin",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "grow",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "capital",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "operating",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "estimate",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "completion",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "utilization",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rfi",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "information",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rfp",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "proposal",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "proof",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "concept",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "materials",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "retainer",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "make",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "or",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "buy",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "saas",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "private",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "deliverable",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "benefits",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "steering",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "committee",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dau",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "divided",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "duration",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "walking",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "skeleton",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "strengths",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "weaknesses",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "opportunities",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "threats",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "inverse",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "maneuver",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "skelton",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pais",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "facilitating",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stateful",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "programming",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "interface",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mysql",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "atomicity",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "isolation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "durability",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mongodb",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cassandra",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "memcached",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "live",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ydb",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "topics",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "producer",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "chaos",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "exactly",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pc",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "availability",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "degradation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "gather",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "logs",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "traces",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "saturation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "policy",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "operations",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "privilege",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rbac",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "machine",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "learning",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "online",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "generative",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ai",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "language",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "model",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rag",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "back",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "envelope",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "batch",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "refund",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "refunded",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cdn",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "str",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "bool",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "mutable",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "immutable",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "comprehension",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "filenotfounderror",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "requestexception",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "calc",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "render",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "yyyy",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "dd",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "hh",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "statistics",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sorted",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lambda",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "round",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "fromisoformat",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ensure",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ascii",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "indent",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "issues",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "webhook",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "os",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "environ",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "params",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "abc",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "line",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "compile",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "match",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "most",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "unparsed",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "ide",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "manual",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "median",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "coerce",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "nat",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "delivered",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "py",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "argparse",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "yaml",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "logging",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "compute",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sources",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bi",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "name",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "agg",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pivot",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "expression",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "with",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "column",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "explain",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "hash",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "nested",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "loop",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "view",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "trunc",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "extract",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "epoch",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "within",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "worst",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "generate",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "coalesce",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "rows",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "window",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "range",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "interval",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "weeks",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "desc",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "prev",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "gap",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dba",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "col",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "etc",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "opt",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "srv",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rwx",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "rss",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sigkill",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pipe",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "prometheus",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "cat",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ie",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nf",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "kibana",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "grafana",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "loki",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "address",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "already",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "use",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "etime",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "restart",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "shutdown",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mtime",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "deleted",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "copytruncate",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "usr",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "vacuum",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "image",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "prune",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "journald",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nlwp",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "tnp",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "proc",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "fd",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "storm",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "vmstat",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "iowait",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sl",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "thread",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "transfers",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "authorization",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bearer",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "content",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "type",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "handshake",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "token",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "invalid",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "audience",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "certificate",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "has",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "unable",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "local",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "issuer",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "running",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "cgroup",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "oom",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "killer",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "used",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "notifications",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "worker",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "permissionerror",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "errno",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "show",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "setgid",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sudoers",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "minute",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "paste",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "oe",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "nnn",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "history",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "connect",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dns",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dig",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "db",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "printf",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "shellcheck",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "truncate",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tn",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "hell",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lgtm",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "protection",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "lint",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "templates",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "include",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "goals",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "signals",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ratio",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mismatch",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "criteria",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "anchors",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sku",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "sandbox",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "backward",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "scheduling",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "deep",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "link",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "mapping",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "ddd",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "big",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "bang",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "dual",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "write",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "capture",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "eventual",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "shadow",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "reconciliation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "models",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "shared",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "growth",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "composition",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "command",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "reserved",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "instances",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "transformation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "final",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "backdoor",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "base",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "salary",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "annual",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "target",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "vesting",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "grant",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "relocation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "compensation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "offer",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "schedule",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "simulation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "force",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pyramid",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "steps",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "theorem",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "message",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "queue",
+      "frequency": 1,
+      "coverage": "explicit"
+    },
+    {
+      "token": "queries",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "per",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "second",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pattern",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "sharding",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "cohort",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "statistical",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "significance",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "economics",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "hypothesis",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "calibration",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "funnel",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "stages",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "specialist",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "science",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "phoenix",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "negotiation",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "measure",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "what",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "matters",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "step",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "prosci",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "aristotle",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "quick",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "culture",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "playbook",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "handbook",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "evan",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "miller",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "calculator",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "intercom",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "tutorial",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "pathlib",
+      "frequency": 1,
+      "coverage": "fallback"
+    },
+    {
+      "token": "pro",
+      "frequency": 1,
+      "coverage": "cmudict"
+    },
+    {
+      "token": "guidelines",
+      "frequency": 1,
+      "coverage": "cmudict"
+    }
+  ]
+}

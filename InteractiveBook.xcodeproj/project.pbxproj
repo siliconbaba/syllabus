@@ -16,6 +16,7 @@ FB0000000000000000000003 = {isa = PBXBuildFile; fileRef = FA00000000000000000000
 		64DFA87ED7B10433C108F021 /* InteractiveBook/Audio/Silero/SileroPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D937E1BDC20F611DD22998 /* InteractiveBook/Audio/Silero/SileroPreprocessor.swift */; };
 		6755DAE5070826A01A020BE9 /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB150F25C14EDDEE868CDA /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c */; };
 		70E6A2D9C9C5FB1FC01F7135 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4957C352708D3870C16E9 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift */; };
+		ED0000000000000000000001 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0000000000000000000002 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift */; };
 		7867E2997973F8EF53634CF5 /* InteractiveBook/SileroResources in Resources */ = {isa = PBXBuildFile; fileRef = B2E6E17C817FAE2397823825 /* InteractiveBook/SileroResources */; };
 		886207456C94C01D5CD7FFA2 /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = D62B3A9D181C868008ECF39B /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c */; };
 		8AC8DE887189DA3AC2575AE9 /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0AE1E8EFA66366021707D /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift */; };
@@ -43,6 +44,7 @@ FA0000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourceco
 		07F54F76DEAAB4C6A8892F55 /* InteractiveBook/Audio/SileroSpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/SileroSpeechEngine.swift; sourceTree = SOURCE_ROOT; };
 		2ACB150F25C14EDDEE868CDA /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InteractiveBook/Audio/Silero/Vendor/kiss_fft.c; sourceTree = SOURCE_ROOT; };
 		30E4957C352708D3870C16E9 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/TechnicalLexicon.swift; sourceTree = SOURCE_ROOT; };
+		ED0000000000000000000002 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/EnglishPronunciation.swift; sourceTree = SOURCE_ROOT; };
 		3A9E1D5B589DAFEA7E403E12 /* InteractiveBook/Audio/Silero/DSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/DSP.swift; sourceTree = SOURCE_ROOT; };
 		42815BFE9291536B66BC1BAA /* InteractiveBook/Audio/SpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/SpeechEngine.swift; sourceTree = SOURCE_ROOT; };
 		47F4C87550ECDEF98A80EA85 /* InteractiveBook/Audio/Silero/SileroTextRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroTextRules.swift; sourceTree = SOURCE_ROOT; };
@@ -96,6 +98,7 @@ FA0000000000000000000003,
 				47F4C87550ECDEF98A80EA85 /* InteractiveBook/Audio/Silero/SileroTextRules.swift */,
 				DB5CE947C75514FDC5D89989 /* InteractiveBook/Audio/Silero/SileroWorker.swift */,
 				30E4957C352708D3870C16E9 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift */,
+				ED0000000000000000000002 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift */,
 				6AE0AE1E8EFA66366021707D /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift */,
 				98C8755630193A524DA85B02 /* InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift */,
 				8EE7513EE54E3F1CB029ED38 /* InteractiveBook/Audio/Silero/ORTBridge.mm */,
@@ -227,6 +230,7 @@ FB0000000000000000000003,
 				169D848E6EA030687207F30F /* InteractiveBook/Audio/Silero/SileroTextRules.swift in Sources */,
 				AA25EE8BDE82C5B6C6F0E84A /* InteractiveBook/Audio/Silero/SileroWorker.swift in Sources */,
 				70E6A2D9C9C5FB1FC01F7135 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift in Sources */,
+				ED0000000000000000000001 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift in Sources */,
 				8AC8DE887189DA3AC2575AE9 /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift in Sources */,
 				96A42950E42C5FACAEAF9F5E /* InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift in Sources */,
 				CD518B937C624FF900D499F5 /* InteractiveBook/Audio/Silero/ORTBridge.mm in Sources */,

@@ -14,14 +14,14 @@ import AVFoundation
         Task.detached(priority:.userInitiated) { [self] in
             do {
                 if useTechnical {
-                    let harness=try TechnicalHarness()
+                    let harness=try TechnicalHarness(pronunciation:ProcessInfo.processInfo.arguments.contains("--pronunciation"))
                     let report=try harness.run { name in Task { @MainActor in self.status="Синтез: \(name)" } }
                     let rows=report["audio"] as! [[String:Any]]
                     await MainActor.run {
                         self.fixtures=rows.map{$0["id"] as! String}
                         self.titles=Dictionary(uniqueKeysWithValues:rows.map{($0["id"] as! String,$0["source"] as! String)})
                         self.speakable=Dictionary(uniqueKeysWithValues:rows.map{($0["id"] as! String,$0["speakable"] as! String)})
-                        self.status="Текст: \((report["cases"] as! [[String:Any]]).count)/60; аудио: \(rows.count)/20";self.busy=false
+                        self.status="Текст: \((report["cases"] as! [[String:Any]]).count); аудио: \(rows.count)";self.busy=false
                     }
                 } else if ProcessInfo.processInfo.arguments.contains("--fixtures-only") {
                     let harness = try FixtureHarness()
@@ -45,7 +45,7 @@ import AVFoundation
     }
     func play(_ fixture: String) {
         do {
-            let url=FileManager.default.urls(for:.documentDirectory,in:.userDomainMask)[0].appendingPathComponent("\(technicalMode ? "TechnicalResults" : "Results")/\(fixture).wav")
+            let url=FileManager.default.urls(for:.documentDirectory,in:.userDomainMask)[0].appendingPathComponent("\(technicalMode ? (ProcessInfo.processInfo.arguments.contains("--pronunciation") ? "PronunciationResults" : "TechnicalResults") : "Results")/\(fixture).wav")
             player=try AVAudioPlayer(contentsOf:url);player?.prepareToPlay()
             let started=player?.play() ?? false
             status=started ? "Воспроизведение: \(fixture)" : "Не удалось начать воспроизведение"
@@ -72,7 +72,7 @@ import AVFoundation
                         }.accessibilityIdentifier("play.\(name)")
                     }
                 }.navigationTitle("Silero Fixture PoC")
-            }.task { state.start(technical:ProcessInfo.processInfo.arguments.contains("--technical")) }
+            }.task { state.start(technical:ProcessInfo.processInfo.arguments.contains("--technical") || ProcessInfo.processInfo.arguments.contains("--pronunciation")) }
         }
     }
 }

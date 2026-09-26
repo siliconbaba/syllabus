@@ -1,0 +1,78 @@
+{
+  "cases": 30,
+  "audio": 30,
+  "all_pass": true,
+  "text_pass": true,
+  "topic_characters": 1731,
+  "topic_ms": [
+    6.364941596984863,
+    6.708979606628418,
+    6.213068962097168,
+    6.162047386169434,
+    6.747961044311523
+  ],
+  "audio_seconds": 112.9875,
+  "subjective_listening": "not performed; UI playback activation verified, not acoustic assessment",
+  "words": [
+    {
+      "source": "scope",
+      "speakable": "скоуп",
+      "stressed": "ск+оуп",
+      "sha256": "0acbeeaa9c459ed9f8ad876255941dd7ff042aeee29ce475a34585a7ba920d5b"
+    },
+    {
+      "source": "spike",
+      "speakable": "спайк",
+      "stressed": "сп+айк",
+      "sha256": "77f954b26583d45bd8ec6d1e66fc7a023d02b56fd8a21870f21e510ef2b9b553"
+    },
+    {
+      "source": "pipeline",
+      "speakable": "пайплайн",
+      "stressed": "п+айплайн",
+      "sha256": "12e2a5c12ff486e1f565e7ec4937a4739a270f87a4725cd7b18be7d541300f09"
+    },
+    {
+      "source": "feature",
+      "speakable": "фича",
+      "stressed": "ф+ича",
+      "sha256": "4f34bd844be2197c52d35755c9606747ed876b3549060c4785f5609ba73dd53a"
+    },
+    {
+      "source": "framework",
+      "speakable": "фреймворк",
+      "stressed": "фреймв+орк",
+      "sha256": "27a6a2704558cd5923dc776cc51dc3f43191f6491ff212e55d200f0b188303bc"
+    },
+    {
+      "source": "release",
+      "speakable": "релиз",
+      "stressed": "рел+из",
+      "sha256": "b99ee9dd3f5753ebd95ee7ab0f6d94ac76200439913cc94a657a0df62da289d2"
+    },
+    {
+      "source": "rollback",
+      "speakable": "ролбэк",
+      "stressed": "р+олбэк",
+      "sha256": "a06469062cdd35d9ad95dec2ea6d879506200eada4d0af5055c4284ac35d6852"
+    },
+    {
+      "source": "deployment",
+      "speakable": "деплоймент",
+      "stressed": "деплойм+ент",
+      "sha256": "c4d4d631849e9e0f0299232cb9a162b3d80659a994722911c55e4b1eacb36105"
+    },
+    {
+      "source": "queue",
+      "speakable": "кью",
+      "stressed": "кь+ю",
+      "sha256": "b99cc3a4b99c682714022a25705fef80f3d722311cdd9bcf4432e69546daab2a"
+    },
+    {
+      "source": "cache",
+      "speakable": "кэш",
+      "stressed": "к+эш",
+      "sha256": "c9bd9242be382b74ec425c28b8f3910a5d36a4b89f66f8e1643c3a93fd21109d"
+    }
+  ]
+}

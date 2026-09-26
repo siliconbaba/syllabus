@@ -1,6 +1,6 @@
 from pathlib import Path
 R=Path(__file__).resolve().parent
-files=['App.swift','TechnicalLexicon.swift','TechnicalNumbers.swift','TechnicalSpeechNormalizer.swift','TechnicalHarness.swift','SileroTextRules.swift','SileroAuxiliary.swift','SileroPreprocessor.swift','Harness.swift','DSP.swift','ORTBridge.mm','kiss_fft.c','kiss_fftr.c']
+files=['App.swift','TechnicalLexicon.swift','EnglishPronunciation.swift','TechnicalNumbers.swift','TechnicalSpeechNormalizer.swift','TechnicalHarness.swift','SileroTextRules.swift','SileroAuxiliary.swift','SileroPreprocessor.swift','Harness.swift','DSP.swift','ORTBridge.mm','kiss_fft.c','kiss_fftr.c']
 objs={};counter=0
 def add(value):
  global counter

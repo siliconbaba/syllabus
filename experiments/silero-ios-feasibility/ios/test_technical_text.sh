@@ -5,6 +5,7 @@ export DEVELOPER_DIR="${DEVELOPER_DIR:-/Applications/Xcode.app/Contents/Develope
 mkdir -p artifacts/technical
 xcrun swiftc -O ../../InteractiveBook/Audio/SpeechTextProcessor.swift \
  ios/SileroIOSPoC/Sources/SileroTextRules.swift \
+ ios/SileroIOSPoC/Sources/EnglishPronunciation.swift \
  ios/SileroIOSPoC/Sources/TechnicalLexicon.swift \
  ios/SileroIOSPoC/Sources/TechnicalNumbers.swift \
  ios/SileroIOSPoC/Sources/TechnicalSpeechNormalizer.swift \

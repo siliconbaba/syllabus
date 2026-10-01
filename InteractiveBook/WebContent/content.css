@@ -1,0 +1,72 @@
+/* Integrated content components use the reader's light/dark palette. */
+.sd-card, .sd-concept, .case-section, .bank-group { margin:20px 0; min-width:0; }
+.sd-concept { padding:16px; border:1px solid var(--border); border-radius:8px; background:var(--bg); }
+.sd-concept h5 { color:var(--fg); font-size:1.1rem; margin-bottom:12px; }
+.sd-concept p:last-child, .sd-card p:last-child { margin-bottom:0; }
+.sd-glossary-index ul { columns:2; column-gap:24px; }
+.sd-glossary-index li { break-inside:avoid; margin:8px 0; }
+.sd-glossary-index small { color:var(--fg-muted); }
+.sd-case { padding:18px; margin-top:24px; }
+.sd-case > h4 { color:var(--fg); font-size:1.25rem; text-transform:none; letter-spacing:0; }
+.case-section { border-top:1px solid var(--border); padding-top:18px; }
+.case-section > h5 { color:var(--accent); font-size:1.08rem; }
+h6 { font-size:1rem; margin:16px 0 8px; }
+.sd-code { white-space:pre; overflow:auto; padding:14px; font-size:.85rem; line-height:1.6; }
+.callout.warning { background:var(--warn); border-left:4px solid var(--warn-bd); }
+.sd-card .note, .sd-ex, .sd-pm { background:var(--note); padding:14px; border-radius:8px; }
+.system-diagram { margin:18px 0; padding:12px; border:1px solid var(--border); border-radius:10px; background:var(--bg-elev); }
+.diagram-scope, .diagram-legend { font-size:.82rem; color:var(--fg-muted); }
+.diagram-description { font-size:.94rem; margin-top:12px; }
+.diagram-scroll { max-width:100%; overflow-x:auto; overscroll-behavior-x:contain; -webkit-overflow-scrolling:touch; }
+.diagram-scroll svg { display:block; width:var(--diagram-width); min-width:var(--diagram-width); max-width:none; height:auto; font:16px var(--font); color:var(--fg); }
+.diagram-scroll text { fill:var(--fg); }
+.system-boundary { fill:var(--bg); stroke:var(--fg-muted); stroke-dasharray:8 5; }
+.boundary-label { font-size:13px; fill:var(--fg-muted)!important; }
+.diagram-node rect,.diagram-node path,.diagram-node ellipse,.sequence-actor { fill:var(--bg-elev); stroke:var(--fg-muted); stroke-width:1.5; }
+.diagram-node.external rect { fill:var(--note); stroke-dasharray:5 4; }
+.diagram-node.database path,.diagram-node.database ellipse { fill:var(--tip); stroke:var(--link); }
+.diagram-node.queue rect,.diagram-node.queue path { fill:var(--accent-soft); stroke:var(--accent); }
+.diagram-node text { font-weight:600; }
+.diagram-edge { fill:none; stroke:currentColor; stroke-width:1.6; }
+.diagram-edge.async { stroke-dasharray:6 4; }
+.edge-label { font-size:13px; paint-order:stroke; stroke:var(--bg-elev); stroke-width:4px; stroke-linejoin:round; }
+.lifeline { fill:none; stroke:var(--fg-muted); stroke-dasharray:4 5; }
+.terminal { fill:none; stroke:var(--fg); stroke-width:2px; }
+.bank-group { margin-top:28px; }
+.bank-group > h4 { font-size:1.15rem; color:var(--fg); text-transform:none; letter-spacing:0; }
+.bank-question > summary { align-items:flex-start; gap:10px; padding:16px 12px; }
+.bank-question > summary::before { margin-top:2px; flex:none; }
+.bank-question > summary > .num { flex:none; min-width:28px; font-weight:700; color:var(--accent); }
+.bank-question .qt { font-weight:650; }
+.question-checks { color:var(--fg-muted); font-size:.88rem; font-weight:400; margin-top:6px; }
+.question-body { padding-bottom:12px; }
+.answer-tabs { display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 16px; }
+.answer-tabs .btn { font-size:.84rem; padding:8px 10px; }
+.answer-tabs [aria-pressed="true"] { border-color:var(--accent); color:var(--accent); background:var(--accent-soft); }
+.answer-variant { border-left:3px solid var(--border); padding:12px; margin:14px 0; background:var(--bg); }
+.answer-variant[hidden] { display:none!important; }
+.answer-variant h4 { font-size:.94rem; text-transform:none; color:var(--fg); }
+.bank-question .tip { padding:12px; background:var(--tip); border-left:3px solid var(--tip-bd); }
+.bank-question .mark { background:var(--warn); color:var(--fg); border-bottom:1px dashed var(--warn-bd); }
+#bank-cheats .cheats { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+#bank-cheats .cheat { background:var(--bg); border:1px solid var(--border); padding:12px; border-radius:8px; }
+#bank-cheats b { display:block; }
+#contentSearchResults { padding:0; margin:12px 0; list-style:none; }
+#contentSearchResults a { display:block; padding:10px 8px; border-bottom:1px solid var(--border); font-size:.88rem; }
+#contentSearchResults small { display:block; color:var(--fg-muted); }
+@media(max-width:480px) {
+ .sd-glossary-index ul { columns:1; }
+ .sd-case { padding:12px; }
+ .sd-concept { padding:12px; }
+ .system-diagram { padding:8px; }
+ .answer-variant { padding:10px; }
+}
+@media print {
+ .answer-tabs,#contentSearchResults { display:none!important; }
+ .answer-variant[hidden] { display:block!important; }
+ .diagram-scroll { overflow:visible; }
+ .diagram-scroll svg { width:100%; min-width:0; max-width:100%; }
+ .system-diagram { break-inside:avoid; }
+ .sd-case,.bank-question,.case-section { break-inside:auto; }
+ .sd-case > h4,.case-section > h5,.bank-group > h4 { break-after:avoid; }
+}

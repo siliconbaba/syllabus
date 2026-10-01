@@ -127,13 +127,15 @@
       updateBack();
     }
     navigating = true;
+    if (window.bookRevealElement) window.bookRevealElement(target);
     menu(false);
-    if (window.bookAudio) window.bookAudio.topicChanged(id);
+    var navigationContext=target.closest('.topic') || target;
+    if (window.bookAudio) window.bookAudio.topicChanged(navigationContext.id);
     requestAnimationFrame(function () {
       measure();
       main.scrollTop += target.getBoundingClientRect().top - main.getBoundingClientRect().top - 16;
       if (historyEntry && location.hash !== '#' + id) history.pushState(null,'','#' + id);
-      savePosition(); setCurrent(id); navigating = false;
+      savePosition(); setCurrent(navigationContext.id); navigating = false;
     });
   }
   window.bookNavigateTo = navigate;
@@ -144,19 +146,40 @@
     if (document.getElementById(id)) { e.preventDefault(); navigate(id,true); }
   });
   window.addEventListener('popstate',function() { if(location.hash) navigate(location.hash.slice(1),false); else {main.scrollTop=0;savePosition();} });
+  // Build a text index once, including closed details and inactive answer variants.
+  var topicText = new Map(topics.map(function(t) { return [t.id,t.textContent.toLocaleLowerCase('ru')]; }));
+  var questionIndex = Array.from(document.querySelectorAll('.bank-question')).map(function(q) {
+    return {element:q, text:q.textContent.toLocaleLowerCase('ru'), title:q.querySelector('.qt').textContent,
+      variants:Array.from(q.querySelectorAll('.answer-variant')).map(function(v){return {id:v.id,text:v.textContent.toLocaleLowerCase('ru')};})};
+  });
+  var searchResults=document.createElement('ul');searchResults.id='contentSearchResults';
+  searchResults.setAttribute('aria-label','Найденные вопросы');search.after(searchResults);
   search.addEventListener('input', function () {
     var q = search.value.trim().toLocaleLowerCase('ru'), found = 0;
     toc.querySelectorAll(':scope > li').forEach(function(li) {
       var heading = li.querySelector('.toc-part');
       var selfMatch = !!q && heading.textContent.toLocaleLowerCase('ru').includes(q), any = false;
       li.querySelectorAll('ul li').forEach(function(sub) {
-        var match = !q || selfMatch || sub.textContent.toLocaleLowerCase('ru').includes(q);
+        var link=sub.querySelector('a'),id=link && link.getAttribute('href').slice(1);
+        var match = !q || selfMatch || sub.textContent.toLocaleLowerCase('ru').includes(q) || (topicText.get(id)||'').includes(q);
         sub.classList.toggle('hidden',!match); if(match) any=true;
       });
       li.classList.toggle('hidden', !(any || selfMatch));
       if(any || selfMatch) found++;
       if(q && (any || selfMatch)) {li.classList.add('open');heading.setAttribute('aria-expanded','true');}
     });
+    searchResults.replaceChildren();
+    if(q) {
+      var matches=questionIndex.filter(function(item){return item.text.includes(q);});
+      matches.slice(0,20).forEach(function(item) {
+        var variant=item.variants.find(function(v){return v.text.includes(q);});
+        var li=document.createElement('li'),a=document.createElement('a');
+        a.href='#'+(variant ? variant.id : item.element.id);
+        a.textContent=item.element.dataset.question+'. '+item.title;
+        li.appendChild(a);searchResults.appendChild(li);
+      });
+      if(matches.length>20) {var more=document.createElement('li');more.textContent='Найдено '+matches.length+' вопросов. Уточните запрос, чтобы сузить список.';searchResults.appendChild(more);}
+    }
     document.getElementById('searchEmpty').hidden = found !== 0;
   });
   var themeBtn = document.getElementById('themeBtn');
@@ -191,9 +214,44 @@
     var key='ya-chk-'+cb.dataset.id;cb.checked=get(key,'0')==='1';
     cb.addEventListener('change',function(){set(key,cb.checked?'1':'0');});
   });
-  document.querySelectorAll('details').forEach(function(d,i){
-    var key='ya-detail-'+i; d.open=get(key,'0')==='1';
-    d.addEventListener('toggle',function(){if(ready){set(key,d.open?'1':'0');if(window.bookAudio)window.bookAudio.invalidate(d.closest('.topic')?.id);measure();savePosition();}});
+  var printing=false,printSnapshot=null;
+  var detailOrdinals=new Map(),legacyOffsets=window.bookLegacyDetailOffsets || {};
+  document.querySelectorAll('details').forEach(function(d){
+    var topic=d.closest('.topic'),id=topic ? topic.id : 'document',ordinal=detailOrdinals.get(id)||0;
+    detailOrdinals.set(id,ordinal+1);
+    var key=d.dataset.stateKey || (d.id ? 'ya-detail-id-'+d.id : legacyOffsets[id] !== undefined ? 'ya-detail-'+(legacyOffsets[id]+ordinal) : 'ya-detail-'+id+'-'+ordinal);
+    d.open=get(key,'0')==='1';
+    d.addEventListener('toggle',function(){if(ready && !printing){set(key,d.open?'1':'0');if(window.bookAudio)window.bookAudio.invalidate(topic?.id);measure();savePosition();}});
+  });
+  function chooseAnswer(question,mode,persist) {
+    if(!['both','pm','ex','deep'].includes(mode))mode='both';
+    question.querySelectorAll('[data-answer-mode]').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.answerMode===mode));});
+    question.querySelectorAll('[data-answer-variant]').forEach(function(v){v.hidden=mode!=='both' && v.dataset.answerVariant!==mode;});
+    if(persist) {
+      set('ya-answer-'+question.id,mode);
+      if(window.bookAudio)window.bookAudio.invalidate(question.closest('.topic')?.id);
+      measure();savePosition();
+    }
+  }
+  document.querySelectorAll('.bank-question').forEach(function(q){
+    chooseAnswer(q,get('ya-answer-'+q.id,'both'),false);
+  });
+  document.addEventListener('click',function(e){
+    var button=e.target.closest('[data-answer-mode]');if(!button)return;
+    var question=button.closest('.bank-question');if(question)chooseAnswer(question,button.dataset.answerMode,true);
+  });
+  window.bookRevealElement=function(target) {
+    for(var el=target;el;el=el.parentElement)if(el.tagName==='DETAILS')el.open=true;
+    var variant=target.closest('[data-answer-variant]');
+    if(variant)chooseAnswer(variant.closest('.bank-question'),variant.dataset.answerVariant,true);
+  };
+  window.addEventListener('beforeprint',function(){
+    if(printing)return;printing=true;
+    printSnapshot=Array.from(document.querySelectorAll('details')).map(function(d){var row=[d,d.open];d.open=true;return row;});
+  });
+  window.addEventListener('afterprint',function(){
+    if(printSnapshot)printSnapshot.forEach(function(row){row[0].open=row[1];});
+    printSnapshot=null;printing=false;measure();
   });
   document.querySelectorAll('.tbl-wrap').forEach(function(w){
     var hint=document.createElement('p');hint.className='table-hint';hint.textContent='Таблицу можно прокручивать влево и вправо';w.before(hint);

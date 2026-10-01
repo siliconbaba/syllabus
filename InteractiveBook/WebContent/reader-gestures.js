@@ -3,7 +3,7 @@
   const main = document.querySelector('main'), sidebar = document.getElementById('sidebar');
   let gesture = null, suppressClickUntil = 0;
   const hasSelection = () => !!getSelection()?.toString().trim();
-  const excluded = 'input,textarea,select,button,[contenteditable="true"],.tbl-wrap,table,pre';
+  const excluded = 'input,textarea,select,button,[contenteditable="true"],.tbl-wrap,.diagram-scroll,table,pre';
   function reset() {
     gesture = null; document.body.classList.remove('back-gesture-ready','menu-gesture-ready');
   }

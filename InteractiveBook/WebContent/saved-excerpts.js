@@ -90,6 +90,7 @@
     if (target && !normalize(target.textContent).includes(normalize(value.text))) target = null;
     if (!target) target = Array.from(topic.querySelectorAll(blocks)).find(el => normalize(el.textContent).includes(normalize(value.text)));
     if (target) {
+      window.bookRevealElement?.(target);
       for (let el = target; el && el !== topic; el = el.parentElement) if (el.tagName === 'DETAILS') el.open = true;
       if (!allowed(target, topic)) document.querySelector('#filter [data-f="all"]')?.click();
     }

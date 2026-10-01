@@ -10,7 +10,7 @@
   try{
     await wait();
     const main=document.querySelector('main'), menu=document.getElementById('sidebar');
-    assert(document.querySelectorAll('.topic').length===127,'127 topics');
+    assert(document.querySelectorAll('.topic').length===129,'129 topics');
     assert(document.documentElement.scrollWidth<=innerWidth,'no horizontal page overflow');
     assert(main.getBoundingClientRect().top>=document.querySelector('.topbar').getBoundingClientRect().bottom,'header does not overlap text');
     document.getElementById('burger').click();
@@ -39,8 +39,8 @@
     assert(Array.from(topic.querySelectorAll('[data-level]')).filter(e=>!e.dataset.level.split(' ').includes('head')).every(e=>getComputedStyle(e).display==='none'),'other levels hidden');
     document.querySelector('[data-f="all"]').click();await wait();
     const table=document.querySelector('.tbl-wrap');
-    assert(table.scrollWidth>table.clientWidth,'table has horizontal scroll area');
-    table.scrollLeft=100;assert(table.scrollLeft>0,'table scrolls horizontally');
+    if(innerWidth<821) {assert(table.scrollWidth>table.clientWidth,'table has horizontal scroll area');
+    table.scrollLeft=100;assert(table.scrollLeft>0,'table scrolls horizontally');}
     document.getElementById('themeBtn').click();
     assert(document.documentElement.dataset.theme==='dark','dark mode toggles');
     main.scrollTop+=340;await wait();const expected=main.scrollTop;

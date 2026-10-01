@@ -64,6 +64,11 @@
     function walk(element) {
       if (!visible(element)) return;
       if (element.tagName === 'DETAILS' && !element.open) return;
+      // An opened bank question speaks its prompt before the visible answer variant.
+      if (element.matches('details.bank-question[open]')) {
+        var prompt=element.querySelector(':scope > summary');
+        if(prompt)emit(element,prompt.textContent);
+      }
       if (element.tagName === 'TR') {
         emit(element, Array.from(element.children).filter(visible).map(inlineText).join('; ')); return;
       }

@@ -25,12 +25,12 @@ import WebKit
         window.makeKeyAndOrderFront(nil)
         NSApp.activate(ignoringOtherApps: true)
         web.loadFileURL(root.appendingPathComponent("index.html"), allowingReadAccessTo:root)
-        DispatchQueue.main.asyncAfter(deadline:.now()+60) { print("FAIL: timeout"); exit(1) }
+        DispatchQueue.main.asyncAfter(deadline:.now()+180) { print("FAIL: timeout"); exit(1) }
     }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         print("Loaded test phase \(phase)")
         if phase >= 2 {
-            let testFile = phase == 2 ? "/saved-excerpts.test.js" : "/reader-gestures.test.js"
+            let testFile = phase == 2 ? "/saved-excerpts.test.js" : phase == 3 ? "/reader-gestures.test.js" : "/content.test.js"
             let js = try! String(contentsOfFile: CommandLine.arguments[2] + testFile, encoding: .utf8)
             web.evaluateJavaScript("void " + js) { _, error in if let error = error { print(error); exit(1) } }
             return
@@ -55,7 +55,8 @@ import WebKit
         guard let result=message.body as? [String:Any] else { return }
         print(result)
         if result["ok"] as? Bool != true { exit(1) }
-        if phase == 3 { print("PASS: edge navigation and menu gestures, cancellation and conflict guards"); exit(0) }
+        if phase == 4 { print("PASS: integrated content, answer tabs, search, diagram layout and speech"); exit(0) }
+        if phase == 3 { print("PASS: edge navigation and menu gestures, cancellation and conflict guards"); phase=4; self.webView(web, didFinish:nil); return }
         if phase == 2 {
             guard excerpts.excerpts.count == 1 && listenedBlock == excerpts.excerpts[0].anchor else { print("FAIL: native saved store"); exit(1) }
             print("PASS: saved selection, bridge, persistence and source navigation"); phase=3; self.webView(web, didFinish:nil); return

@@ -1,0 +1,3028 @@
+{
+  "sources": {
+    "System_Design_для_технического_менеджера_проектов_секция_Яндекса.html": "4408a70db4824b2f49169280fb92b6c51fee4fd836023ebcf7908a186c410e06",
+    "100_вопросов_собеседования_в_Яндекс_Project_Delivery_Technical_Project.html": "c9a1872e9c5659e097fa089ea52a99a504a525a0547be94364c973120b967af2"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "group": 1,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "95150499c3e04f1bfc52afec5a70bf2f75a70529bef53b19441fb9909373b973"
+        },
+        {
+          "mode": "ex",
+          "sha256": "7ffff1a1c8e77a085c609cdcdc798862b12545e0050db6ed964e3c05e8ee8404"
+        },
+        {
+          "mode": "deep",
+          "sha256": "d638b4bf4a36ad3eeafd90e3a68c3e2cc45eec11e5ae447374f24a79dde89e79"
+        }
+      ],
+      "content_sha256": "b058b41f0f65e4b959dbaf592d7a5ace7e9e5b7a5a7a13824acee526114cd5a8"
+    },
+    {
+      "number": 2,
+      "group": 1,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "2ff0d52b50913c1ff0a2d251f08bbe06ea06c362f310252132370304ea40c8f1"
+        },
+        {
+          "mode": "ex",
+          "sha256": "2c0d8e7c3215199c7177590e4e20109c765d3c0621bb7090bb66319c64ee7b94"
+        },
+        {
+          "mode": "deep",
+          "sha256": "04c60325d29d588def165b92346a6504353e84623f886e659911a20e617cd987"
+        }
+      ],
+      "content_sha256": "a7ae708e136effa519a2661a25515934506d6cedb5a16c2db383f0702a4d2f80"
+    },
+    {
+      "number": 3,
+      "group": 1,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "4544891cf3fb952745fe7c24948d30919fd61de22f60d2dd1d6160ae818c3ac8"
+        },
+        {
+          "mode": "ex",
+          "sha256": "f071728b35d3d9b705e14b814365fa753727804177a91dd35064736b405bfc9f"
+        },
+        {
+          "mode": "deep",
+          "sha256": "8f4818c1904ed12b624e59502b931cdfbeac3453c81efb3aa3ec8bf6ca6c1968"
+        }
+      ],
+      "content_sha256": "4437c9db2d535ad0ab963aa4df00da0aa476a1e5b347e61bdcb37ae9ce079af1"
+    },
+    {
+      "number": 4,
+      "group": 1,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "d88de564c5e13b6e4d0c4914302e7633a697380a85b37c3db1b765db6fc75126"
+        },
+        {
+          "mode": "ex",
+          "sha256": "b8e464f4004f1627f579cbe55e862c662010d26727ed33e9c83b6f2ef5f20e0c"
+        },
+        {
+          "mode": "deep",
+          "sha256": "01d95ddecadacfdf2850f36e00e39a0db57261c3555dd3e1eb50dd11dfa36aee"
+        }
+      ],
+      "content_sha256": "c1b2efa9c0bb1dc22a3511f27f5bc5483ac950b35731424d7aa81a6456c40325"
+    },
+    {
+      "number": 5,
+      "group": 1,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "29d8b9e66bf88b72753a9a1d5c76873e40b698cd26c00ce84a448a8009e200be"
+        },
+        {
+          "mode": "ex",
+          "sha256": "b33019c61bc955fc0a11e51f97177ff475315c284701a69ff29feb141949e05e"
+        },
+        {
+          "mode": "deep",
+          "sha256": "946598fb40873ffad2194d99a03ceef87eb87d19821ecf47d851bc8490d092a0"
+        }
+      ],
+      "content_sha256": "6f67b8c86c927d3925b5cb8d4d914e0756bf3e3f869fc5ba770ffa8c35734942"
+    },
+    {
+      "number": 6,
+      "group": 1,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "cff79625d24b53585f9d03d0aa79343b3b64da8314658d3bb1b588915064c8fb"
+        },
+        {
+          "mode": "ex",
+          "sha256": "773469889c9731a5de9d05a9900ec034f5b64783e168054aa0635bdf067d4090"
+        },
+        {
+          "mode": "deep",
+          "sha256": "5f0258587cbb76ee956ce0772bad7c19df779a1b6545ec4d7f18aecb590bc84b"
+        }
+      ],
+      "content_sha256": "13d24ada46969d8a40143a4c84951ffb1df46ee488da006d1f570484fa83470a"
+    },
+    {
+      "number": 7,
+      "group": 1,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "dc880b0f396732486df70f47452fd6e289cbe2ba87265f61e016ff3ce03dc373"
+        },
+        {
+          "mode": "ex",
+          "sha256": "029e866141875042ba92da4431dffe68419f9c7d87243f800eae9eb344637c17"
+        },
+        {
+          "mode": "deep",
+          "sha256": "d0863f1d795337d835010cc85505278ca2ff5bd45e7a6a05eb69a815b3cd2690"
+        }
+      ],
+      "content_sha256": "1add8ded54a2a072d93e8e48d221887ee9d5c4a600b8eadfe86ccf8cdb4e97c0"
+    },
+    {
+      "number": 8,
+      "group": 1,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "cc42729e56a7614cab7495707dc99d19bf8a8f1ba1a125446ed6d8a7eb8cbacb"
+        },
+        {
+          "mode": "ex",
+          "sha256": "0be4da897e4b89c87e29629cc8d91505ca80cb89ef6a87146854d359ab363fcd"
+        },
+        {
+          "mode": "deep",
+          "sha256": "818b027e5fe31a0765571f392f1877964ba0cb58afd5f69795dd0fd104805339"
+        }
+      ],
+      "content_sha256": "b4e8a6c129ab587b98cddd01e78511d98de3d3888c39de9d6e804c5721ad9b27"
+    },
+    {
+      "number": 9,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "66d8c9a943acd8c28ad237eb983c2c7a58b843a1d1648fd8e9da71b63c74f3be"
+        },
+        {
+          "mode": "ex",
+          "sha256": "0c5a76e96ca4f91bd7dc04a8a59ae8c50da02587fb4227e3b9fdbb7ef7af3a0d"
+        },
+        {
+          "mode": "deep",
+          "sha256": "ffaae3492f0c411a507bb13cc7666d406be282d7fe4fef1a84652f245e0675f1"
+        }
+      ],
+      "content_sha256": "fae7fead069248dbaaa69235ebfe7ec0c1c4fb951f800defc5eb41f2fd963cf0"
+    },
+    {
+      "number": 10,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "478ef5019574abc82df3bd92b1c1444fc542318aba8632c5b55f70190c310565"
+        },
+        {
+          "mode": "ex",
+          "sha256": "65b21e9a1877884706e5465aca3a4513a2006ab00f16e7e7fb1131acb21de2a5"
+        },
+        {
+          "mode": "deep",
+          "sha256": "de1e0471e1469e2117582ced5c1d719a85fbf1c97d17b64c6e9c6c9f49a7d903"
+        }
+      ],
+      "content_sha256": "06bb5ab1b2896b07349be968eb9601dee344e3219a573ff32a52c40d50bcc00c"
+    },
+    {
+      "number": 11,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "a1430e172cb5acd48db813ed1e2f0b818a1c1b3ae880cd0420db9c8e61d855a6"
+        },
+        {
+          "mode": "ex",
+          "sha256": "17f4c60d68b41ea5ce0ca7822fe5494676d5cce78f53438588425b7e3376f5a3"
+        },
+        {
+          "mode": "deep",
+          "sha256": "c04cfacf7f58a4500c72f62662d282d58eaf3107bdf424547863a03c1520dbc1"
+        }
+      ],
+      "content_sha256": "825d3ff80e35842e956b37b5b116c0dbc3c1ea48a602e30f84632fbf2427dd8e"
+    },
+    {
+      "number": 12,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "2d339df59b364bd0ad6d28ff809900a7a08bf6e515fdc12d04e90f54f1737cf7"
+        },
+        {
+          "mode": "ex",
+          "sha256": "fcf83c4ec2d5823fb8c01db3ff2967675f3d93b271a81320a0ff6e585ab8aeb2"
+        },
+        {
+          "mode": "deep",
+          "sha256": "68c25d67a1204f288324297db3f273b420d5072beeb207417d35b2f4a8f7072d"
+        }
+      ],
+      "content_sha256": "0c25da5569880e69dfe9d8e7b16e194868d34c449ad7da15add4db9d8c1faf5a"
+    },
+    {
+      "number": 13,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "5241fe97b501bdb71f5f6aea43400b59c925791489b370414a7d2c2b34ccd9ac"
+        },
+        {
+          "mode": "ex",
+          "sha256": "f0abe2a3b4c286e0bc7b141c8807fcb990e330fc7294f419c71df08e18c9a61d"
+        },
+        {
+          "mode": "deep",
+          "sha256": "493668b0710b9bd49a955870f919887a3fe66d08089b9222599a5e7dadcfd6eb"
+        }
+      ],
+      "content_sha256": "f2fc6314c20310edd019672bcc16832d282966f0798ec83ccea76fe6f76735fa"
+    },
+    {
+      "number": 14,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "1f2496f1fb323e29eb5e91fd55ceac7ee1cc58b30ec4d7a7cf797c1166720f81"
+        },
+        {
+          "mode": "ex",
+          "sha256": "fa8f9a6161a58e1e382ffd79fe58dcf1fc131f35d7770306bbc9a446da03b039"
+        },
+        {
+          "mode": "deep",
+          "sha256": "2124b4cae79423ff55d1b751e18fbe6ada591351e4f602849ebd098f3b5ab801"
+        }
+      ],
+      "content_sha256": "9327d0d4262931a233341c9736b7f233daba5892efef277b9629041fd29a53a2"
+    },
+    {
+      "number": 15,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "6676c3776d7f42c01f54928c8497c6b6b01880deb1afc60c0287df6b266aee3a"
+        },
+        {
+          "mode": "ex",
+          "sha256": "6bda25728e7736749242433512039618e4f451f7adb714a13c20339775b3ed66"
+        },
+        {
+          "mode": "deep",
+          "sha256": "addf44654dd4f62e934f1cb8a0231356450b50e8542f2353ac52f44314860641"
+        }
+      ],
+      "content_sha256": "cc5030bfe09787326aa8a768b221d5e3bb88a225e6367cc97863472709ec9e0f"
+    },
+    {
+      "number": 16,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "3d9177f6c6238e29c536952847efa28424140d297138df79543ccd4f9f0e1045"
+        },
+        {
+          "mode": "ex",
+          "sha256": "27ce3c6b38b19b931b645a417485aa04795e74d07d8a840c7ac568b678765b6b"
+        },
+        {
+          "mode": "deep",
+          "sha256": "eef3e7ed7131a4427d3905b91d3a347075f48f6d81bcb863e7c5131e09239798"
+        }
+      ],
+      "content_sha256": "ecd55acd5e7e6ccfc7df89438ea392271e50050f1f1dcd0cf35e9e855e8c12b7"
+    },
+    {
+      "number": 17,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "3459a5ce4f551e593f35a4041d9fad27e6e9ce7f61fb792b00f4b639171bad4e"
+        },
+        {
+          "mode": "ex",
+          "sha256": "67a99fead8bcde1dabb755661ad6994aee4d3312a54e5103f664e170086ea18c"
+        },
+        {
+          "mode": "deep",
+          "sha256": "7debc93a3691f55c34adf218c0cafdeb9cf8a1a8b6b72cf6918708a65ede5ce3"
+        }
+      ],
+      "content_sha256": "e785d6d0e6801f5441a9a40d697834bb5e495bcedf9c0e1c1cdeab778b189ed2"
+    },
+    {
+      "number": 18,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "982009c9c92b02d0fb8d7d6e105d5f76d9e6438c4e945f76006ad514adb7ac3c"
+        },
+        {
+          "mode": "ex",
+          "sha256": "b347fc4accbfea4aab8e8540f791347e46ea61397b410e749b3d81bfcd7baf60"
+        },
+        {
+          "mode": "deep",
+          "sha256": "94cc0cc8613663cd72d6c0e0666d19e04955f909cd04f91266743d0e04b0b79c"
+        }
+      ],
+      "content_sha256": "f7b18684853bf2af390ba3bcfa7db33b103f99dc5f4c312bed9434a5ae1b8299"
+    },
+    {
+      "number": 19,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "7abfc019c2d83912043b452351b507c5f45d61b57fcc16b791b74afdbcb4517a"
+        },
+        {
+          "mode": "ex",
+          "sha256": "04f2b958ca8ad833c3dabe110451f5f7103527510f8ca6908624facf556691f3"
+        },
+        {
+          "mode": "deep",
+          "sha256": "ab40a98939f6254f87ef20ac818a91fe45b495b94802c74eaabdc8fa9121846d"
+        }
+      ],
+      "content_sha256": "69b3a6a71743e8c6d5a971324562ec5c198f032371d8de83d378c1e4746dd69a"
+    },
+    {
+      "number": 20,
+      "group": 2,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "570cda2e1ecf6336c1b41c108edf5b043cac45d8355443116d8a30bb3819ffc3"
+        },
+        {
+          "mode": "ex",
+          "sha256": "1ccc69ce5626d20d1adf766364c6fa12e0c0d76c6f427adf61c10103c93fae6f"
+        },
+        {
+          "mode": "deep",
+          "sha256": "30bbb944376e5212af9cb234a2ba65ae58a3b53f5faa5dc2e1d45ef748e349ed"
+        }
+      ],
+      "content_sha256": "3bed902f15775b25c2dee4f21806f78caa5e6500176bbb2b8f5d7a565fd54bd8"
+    },
+    {
+      "number": 21,
+      "group": 3,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "ddaec399d9f58e3368c1f65758abb547df74dddd427c895a38623e172bc26041"
+        },
+        {
+          "mode": "ex",
+          "sha256": "96300c7f8c2e35ba2bca49fe8f327322785bca9a2d3a526ad54c7c7b66a33cc2"
+        },
+        {
+          "mode": "deep",
+          "sha256": "f4332256565c1cc64c44a4492e309d89662e5c6cdc6fd07c9cc5d53a5d008dff"
+        }
+      ],
+      "content_sha256": "6d9757192b8022f577bcb22fbf4d66f6e091b3c71ccb7a369949ce5878021755"
+    },
+    {
+      "number": 22,
+      "group": 3,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "23a2c5ca1617cb5a0f37c345bf585809e9bc11749471378335f07dbfd9552e2f"
+        },
+        {
+          "mode": "ex",
+          "sha256": "3fc29e044d7d770a618dd7a3015ab953a932711b02f97c593517ab1815bdc3d5"
+        },
+        {
+          "mode": "deep",
+          "sha256": "0a777920ffac6972baba83092b77421b111d79aa2dc12e9e99e4304a0ac8f649"
+        }
+      ],
+      "content_sha256": "7ddb3f426bf940da2647384d2607e89f48055346d762afb9cf8b67ebd13d6602"
+    },
+    {
+      "number": 23,
+      "group": 3,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "5b53a708c6147341205686b564d641f48d9520699f262840ae4ba0a0c75e37b4"
+        },
+        {
+          "mode": "ex",
+          "sha256": "da16c925acfbbe5fae660b98205baabe200d44400e290a82f44f507f9e4fa25f"
+        },
+        {
+          "mode": "deep",
+          "sha256": "cf655621f67f35b4acb19fa27f337e0e4de6f4dfd764968aac72846bb6fca2f1"
+        }
+      ],
+      "content_sha256": "3e75550a9266e262a08202c6c51785353f9b95f7d09738a43e07cf1c3aa14a3c"
+    },
+    {
+      "number": 24,
+      "group": 3,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "e9175ad4ca28a384ef873fcd4053297a43e444715cb0dcc5b1c8cf47b9571b8c"
+        },
+        {
+          "mode": "ex",
+          "sha256": "f713fc1e9bc630ad7bd083ff3c96533e25d1bdbb6ebc36e11d7b1e9a5f0f1176"
+        },
+        {
+          "mode": "deep",
+          "sha256": "42f04b753f02ff8b16df30593d28d6b4cb938328f73a27333d743ecb9c5b8b06"
+        }
+      ],
+      "content_sha256": "26060205655a08a1ac517e981c1778b242a06ac2ca84f6501bffce84cc932e11"
+    },
+    {
+      "number": 25,
+      "group": 3,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "98ad77ffb431b08648b2a52750b150022509daf2d956969f16c34b4f86d5b5fb"
+        },
+        {
+          "mode": "ex",
+          "sha256": "b9373612bae705e22ccfadd809bad6dc85238de979a4ef4295a70b3c0942e62a"
+        },
+        {
+          "mode": "deep",
+          "sha256": "f460181a7dbf1604f86a8e10b1f1863e9932f94bee18c1772e8b65422747d6eb"
+        }
+      ],
+      "content_sha256": "be7e701312aff029ef9a7685c355c018d2630deb3ddfe0a0d544e68c577b62f2"
+    },
+    {
+      "number": 26,
+      "group": 3,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "f17c77c9ebbc4c294dc3f11025219126e04c62a0e29837dd734912137bc7ef04"
+        },
+        {
+          "mode": "ex",
+          "sha256": "4f56e22d1c8f5faf1948065830e2f23aac1cf4bc2963c0cd7f7864da8695fd50"
+        },
+        {
+          "mode": "deep",
+          "sha256": "a267d59f44873e832e3a6378615422b29bcadf92f02628714b910d79144b69da"
+        }
+      ],
+      "content_sha256": "4e9eed85496c887f07e874c546d6380e3c91e15060bf3ba5de5360d85c2673b4"
+    },
+    {
+      "number": 27,
+      "group": 3,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "6619566288854492edb82acbddf0fe5d0076d82e7275f70de2c1781bb291df25"
+        },
+        {
+          "mode": "ex",
+          "sha256": "89ef108eb41155cc54547117107c62c1d7d329834a9b6a42d5d12234c10cdca0"
+        },
+        {
+          "mode": "deep",
+          "sha256": "a8f0a94a51ff22f1b02640b24d0e435ebb40376f0b794126de21089e1bf19493"
+        }
+      ],
+      "content_sha256": "390deb1c62d0f6e988554fc2a3bf4c1126b4fe24d72bb339e979fb227e187d14"
+    },
+    {
+      "number": 28,
+      "group": 3,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "3fcc0bd7250e4139dd7158d6ebb6fa2469e882a55273d881314dd91a2f30fa9b"
+        },
+        {
+          "mode": "ex",
+          "sha256": "3e5c1c95fc4cacf2f11641200c91e3259a1f19c391a51136418e3094c92e5abe"
+        },
+        {
+          "mode": "deep",
+          "sha256": "22b7056740437c1579d540819f72e141af6d400612d5f020e3e2084d94b0d7b3"
+        }
+      ],
+      "content_sha256": "f0d020e9f1bb4295b281dadeedb8f67741bb81b24b4a0722c14587b5a319b7ec"
+    },
+    {
+      "number": 29,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "dcd12a0fdc536b9a92e5cf9e1f7d09d9865c3773baca1388aebafd67999a161c"
+        },
+        {
+          "mode": "ex",
+          "sha256": "967e784aa3acdad33f2e0be84a3acd1081e3bf053dc918cada1f57c89e043985"
+        },
+        {
+          "mode": "deep",
+          "sha256": "34fd6d738a57c35fc509f9167629689ef480b48b2c6446ef9de46ed89027b69d"
+        }
+      ],
+      "content_sha256": "19e3ed8939902b2ffe18edea47789001238d9850f8b34da2a637d514f7970cd3"
+    },
+    {
+      "number": 30,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "b35995e50640440de997b96632f697cadfe70b4080aee3a3db5ec62221f25936"
+        },
+        {
+          "mode": "ex",
+          "sha256": "d4711016f1047d74a31bff96e5f2ff153b1f732768d1be3a1638bb8ede32847f"
+        },
+        {
+          "mode": "deep",
+          "sha256": "9f1c9db01a67d2282726fecf09609700f3a6afaa3b1141e8a61d3d61150b176c"
+        }
+      ],
+      "content_sha256": "f604035421206272041b5d037a61feadff842a6a4117a9490aa470a6ca27ea59"
+    },
+    {
+      "number": 31,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "b7e44e75c4d29775dff7e5e0ac049820244ebb5ed7c8de9ff4c1e20051111c88"
+        },
+        {
+          "mode": "ex",
+          "sha256": "14584feed8f802c51e49dce26738c1c927f015c85f3de526e9289d2e8a324f74"
+        },
+        {
+          "mode": "deep",
+          "sha256": "25a1b315d4d48c14ead33b92489849fa2367783bebf1949d2107f6b4e8974f42"
+        }
+      ],
+      "content_sha256": "15f5dfcdd451a9945e411282a8e31014db55933f5e0b51720b5979fd3551936c"
+    },
+    {
+      "number": 32,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "0d87847b70f0457614590aea1a88348a9e0909a7e0ba1b12ae0d916c78594e48"
+        },
+        {
+          "mode": "ex",
+          "sha256": "4465e3a8c839ab30316189172011c236d55197a138d6e42c05bda723c3370733"
+        },
+        {
+          "mode": "deep",
+          "sha256": "6036a67e6de83fec4b9191d01c35ea3931eff7571f85a11f2e1d6d2ac31da1e8"
+        }
+      ],
+      "content_sha256": "18ceed8d2e0a31836e545b8e660e310b19602499054146825250b7203c1641a4"
+    },
+    {
+      "number": 33,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "a3ff75cb099c6a85848467bceea4138b73da3867818127099f9aa70bcc88f53a"
+        },
+        {
+          "mode": "ex",
+          "sha256": "7bb5b703765bb2d98ae4f8464b374d039fd9aabee171b958c5f5fdd868747309"
+        },
+        {
+          "mode": "deep",
+          "sha256": "e3fea94f7965f5f47977267e7df1bd8432e0d453649990dbe01596d1618de566"
+        }
+      ],
+      "content_sha256": "f7a653adf912094fb09f872a8bb131bc3c0efd600769ac5b08d598b034cd168e"
+    },
+    {
+      "number": 34,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "ebe21d126e52a175a40decde5c4be32be798fd5d281bbecd09d5e1439569fda4"
+        },
+        {
+          "mode": "ex",
+          "sha256": "ab8c35f7f1244c13c59d8c0a06faf77e20919099f89e0614d9feb283144d88a7"
+        },
+        {
+          "mode": "deep",
+          "sha256": "426c1ce4cf82af51cffb11f7fcef1c64b7677c4166dc619e985319a949b0718a"
+        }
+      ],
+      "content_sha256": "f4e421c187e135f6a42f548cc2f70d8f02739721fe46f9382db98d3bdc613981"
+    },
+    {
+      "number": 35,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "31a2a4d8f81489bdfc3509fc887b08874723f72b575f8442fa2b829d0048806a"
+        },
+        {
+          "mode": "ex",
+          "sha256": "eb482c78151e01d999641711b7897708fb79d719f20f65fdfef8aea5c048361a"
+        },
+        {
+          "mode": "deep",
+          "sha256": "ad908f59b2bdd2b763b0ba8733ae5333b7593143141c42a397e981786bd7bd72"
+        }
+      ],
+      "content_sha256": "0d06d744b91955b05a93e470cf200b8649512dd4daab835454c1f05990fa191c"
+    },
+    {
+      "number": 36,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "a938a705a8471650e4e33eeba91ed211285f109f2fafcabcd8e70049bd4c8b31"
+        },
+        {
+          "mode": "ex",
+          "sha256": "b9b89397c8b4ec67ff2da6c07f90914a07454f903224bbc9839952b84b2daa44"
+        },
+        {
+          "mode": "deep",
+          "sha256": "a28e9bf22b821995ef961a61cdcdcc12dfe231829668b09d514d3b4172c12fe6"
+        }
+      ],
+      "content_sha256": "f65dc26e4c7d9f6e2c9510f74279dbeb5c29f7985a3cbc7e39b97527111afefe"
+    },
+    {
+      "number": 37,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "ea69c4eead2ecf6d9cfabcfef33ace71dbb5eb20e60eafb624e914f7b066acff"
+        },
+        {
+          "mode": "ex",
+          "sha256": "4ee2bf83d4f2e073ec264f5753e04bef3b154234f209aee7820c6cb9df512b0a"
+        },
+        {
+          "mode": "deep",
+          "sha256": "bbbc0041b0dc0e56a39763b7215b6d28e10d5a8a5a88fe2a31320bd9ecce71d2"
+        }
+      ],
+      "content_sha256": "2c349709b7c9b928b8afedcb0563bb60b614a6ed8d41e715ff3194705b85b2d3"
+    },
+    {
+      "number": 38,
+      "group": 4,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "e9400a3b045ca760e5d94c8efb6883767bfc6fdb7710e27e7e176ecac14bb61a"
+        },
+        {
+          "mode": "ex",
+          "sha256": "8be1943a21c7d1a4ed92f99041f460014bfb79d71ae28909d496d4956ecd78f2"
+        },
+        {
+          "mode": "deep",
+          "sha256": "027552c1081b49f0d40d472819358ee41446230f437c4cbb1ae558e985b3b482"
+        }
+      ],
+      "content_sha256": "c99cac677d8c05ffb5dec1c90b8f399e186de0cfd98cd96a6969afce2abfb7fa"
+    },
+    {
+      "number": 39,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "355e7dc79eceb74db1a72095c289767e6da410c2d451d86c58697907b3bbd620"
+        },
+        {
+          "mode": "ex",
+          "sha256": "11e1124d4e6d050970f55de6c4a9337be8912fdc5c91307fa611e0dd7ac68dfe"
+        },
+        {
+          "mode": "deep",
+          "sha256": "39d3434b7749a22ed085b789a45078cb8caf6965e554a5c03e3c2fe0f85ca53a"
+        }
+      ],
+      "content_sha256": "6244fe7df45fc48e80ba5a0be539bb9c6a6ae4ba658b86b0fdbea6c50165461a"
+    },
+    {
+      "number": 40,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "312cf869134608a65c49b78e106d8aedcaeab155362cf4fc80b93a4edd282cb6"
+        },
+        {
+          "mode": "ex",
+          "sha256": "d98fa71d371c60b44379ecc8a3bdad907215695ef0803e1cb68fa97b6d6a3f49"
+        },
+        {
+          "mode": "deep",
+          "sha256": "fbc44585136a96189d33efc0f057fa1f8d152e085aaeb245de348ce0f198228c"
+        }
+      ],
+      "content_sha256": "7f66ea4993e7c426673558f167fdb9eeb9aec0a599d3eccb37b700674be72efa"
+    },
+    {
+      "number": 41,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "03ec6bfa7b6c54f7bace60a12f2972ac52b1495f4e5ad7ad0d0013a71c7a99dc"
+        },
+        {
+          "mode": "ex",
+          "sha256": "53fafaef99aef29339f8717eef87f4562a121c1856f31bd5e985c8e3660b9e78"
+        },
+        {
+          "mode": "deep",
+          "sha256": "bf1afd118a0771bc550da87d877961c30c98eea8008c8811f4deec7bad91a70f"
+        }
+      ],
+      "content_sha256": "36aa0fae96a66d6fdf7d74714d8bdfe326fc077f929fa83427f4de0e9c59980e"
+    },
+    {
+      "number": 42,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "42c63f8999facba51f6b876d736a5cb3d4ce7ca4e07e09eed6b3cd76d9a2a738"
+        },
+        {
+          "mode": "ex",
+          "sha256": "aac75cf2723da47a33c10afbcfe61e97773e92ae6545915254e3d2dafb99ea5c"
+        },
+        {
+          "mode": "deep",
+          "sha256": "58e45e6c6c8d6ac8bd266c98402c77b9d615ee0276310e3f430dc236b302d2ef"
+        }
+      ],
+      "content_sha256": "c5558869be457ce2ef0305aafb14013c8a60e5822e67ff2e2375243a665cbd84"
+    },
+    {
+      "number": 43,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "0dc30e682aca2f92c77541da51d84a551e83dc331bfb2a8a331a3d19bfb05371"
+        },
+        {
+          "mode": "ex",
+          "sha256": "de29d367988159d8658a4f39f85e2da05c81ba7afe243770b7bb4279e8cdf58c"
+        },
+        {
+          "mode": "deep",
+          "sha256": "f2e7bbe6d2f1dd87e5691cf58d48e95bfd1d193dc8849904180ca2460b6d6c4e"
+        }
+      ],
+      "content_sha256": "8c225d9412ba14b87b91ed68965ea73b8d460f4c8ba5e689a158f7b0bb3c8ce0"
+    },
+    {
+      "number": 44,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "5856109327aed845c10153cfbed17573a3b268102190fd2ce98436a5ba4b8397"
+        },
+        {
+          "mode": "ex",
+          "sha256": "a21a8dff83c613b191e0da00f3c8cc4baf42898e02ac0ec4770b8c289e9cd605"
+        },
+        {
+          "mode": "deep",
+          "sha256": "a317d591f2cb9a82ef090f33825a4f8c83ae95e474e3a397daaed5adf9d50f8d"
+        }
+      ],
+      "content_sha256": "9e11aa0390869d9cb31a0d429a50eb41fb18832da75295ad27f72cc6fecbc8fa"
+    },
+    {
+      "number": 45,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "c65b21d38b66b95732d33376d026a2ab604bfa1d131a13b6946aa6784d68264f"
+        },
+        {
+          "mode": "ex",
+          "sha256": "10ddd7849623884116419bc26e5873781755396a43adcfc0be3ae4ea29af3a69"
+        },
+        {
+          "mode": "deep",
+          "sha256": "a919952c067bcd9d9fc830b2af7a06f6f1a399eebf41d391dab9f2445afe6688"
+        }
+      ],
+      "content_sha256": "94a3684d765c52dd423e55f2d403c96c96848f9ceb99e50ed72ab9540b8058dd"
+    },
+    {
+      "number": 46,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "8f0d8dc3612c634d0a778cbee5fe0fe0d7caa883dbdb1de708bfa7bcc3fec40c"
+        },
+        {
+          "mode": "ex",
+          "sha256": "286008e2188a0d7a63bca5053114f0a3c53f06e8a357e9fb0993216badf86b51"
+        },
+        {
+          "mode": "deep",
+          "sha256": "21eb8d8ab047d5cec9cdd50a0c2b2570ec1ed8039256dffb4d101c3cdd6523c0"
+        }
+      ],
+      "content_sha256": "95d59368474d01a3249c399471ab3d2413894725d2d7a786d53b5d3f069ea003"
+    },
+    {
+      "number": 47,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "2e72c844fb0b28af82962ab3468d9e5fe193b8d282e38fef09c82bf57b03c487"
+        },
+        {
+          "mode": "ex",
+          "sha256": "0e8a046a2d9f84bbea3d6e77b6d7b7e24c989c9b780693bb53f8d53e08ebb388"
+        },
+        {
+          "mode": "deep",
+          "sha256": "44ea457e6b126fc52a1fe67ea47f14836e7a69786f6fb875f7d64f4eb999c844"
+        }
+      ],
+      "content_sha256": "5b6117eac6b0764fe67c90598bf0f29f7bf05858a65576ee9b14961174837b47"
+    },
+    {
+      "number": 48,
+      "group": 5,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "867d4fe6299e7c7462ec261df53247c240573bc58e2bfb435a9b0d8730b5c6cf"
+        },
+        {
+          "mode": "ex",
+          "sha256": "cd3e7d4cbdb737f3cca20e844251cf22b6e33df10c3112a56fddd8c2cab0870e"
+        },
+        {
+          "mode": "deep",
+          "sha256": "cb7813c5afd3cb885d8d4824f4cc7dc808c55b62aa643897e728385455d8aa0c"
+        }
+      ],
+      "content_sha256": "006b91f68cee26424859c4abf79c3df9c0a20d5c641c0eb11a4675020bbb286f"
+    },
+    {
+      "number": 49,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "312a528ecf58098205d22c828763f0929eeed04b0022b7e93c2dc981523aa2ba"
+        },
+        {
+          "mode": "ex",
+          "sha256": "645997b9a1d8cac2f99bc37589829f14b88ffd277a40dae3d20221c3859be356"
+        },
+        {
+          "mode": "deep",
+          "sha256": "3171159c0559bbc296556b97ec617f81b0e01c9249abfdc06932d171d68a8f86"
+        }
+      ],
+      "content_sha256": "cc95971f39dceb9ac106521036bc875daeb7f98bf5dd7d873b5a5ac0e7042fdf"
+    },
+    {
+      "number": 50,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "b9618ae4c02b4805a509d1a5050d9058479ca2abc16fc49827190a14d88c3529"
+        },
+        {
+          "mode": "ex",
+          "sha256": "26d614ddf3c4f932dbf58d0d587a7ddf41e9d4f0d2cefec6cc3d6bb4124e4e00"
+        },
+        {
+          "mode": "deep",
+          "sha256": "58f3527d2faaa19241180d8d8b7c142ae4800e2a881ccaf92f7c7ba18ea30efe"
+        }
+      ],
+      "content_sha256": "2b41b79d3d0b6727d1f4e1df066873e64f122ead86fddcf605fccf0b0570c3e1"
+    },
+    {
+      "number": 51,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "2e818d677be35c74926dd82bd613628d0e35dadd3686f793310fcf5f3194b7fa"
+        },
+        {
+          "mode": "ex",
+          "sha256": "e8f5b3751fc7c472bfa0c036025168d87462d0d4dc07edc6dbfec5907bc90bd1"
+        },
+        {
+          "mode": "deep",
+          "sha256": "c6f03fe14fb998b374df1617279e5b09f4a4d6efac6333e510332da72251301b"
+        }
+      ],
+      "content_sha256": "1ff517efb0d73865cae8bfa160b96e972fd6e3aa2d9586fbbaa70028f08ef208"
+    },
+    {
+      "number": 52,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "40b1563c586effe4cdcb7e937094f568981b10447fe2b8ab0244f1aa7a1bef0a"
+        },
+        {
+          "mode": "ex",
+          "sha256": "9ab9e9ebc8634ddc96ff210df022833440b6e06fdb19ddfd63a1a8a6d411b590"
+        },
+        {
+          "mode": "deep",
+          "sha256": "304e25e3a9f05e94badc6c803f865d112f53e534e39a76c956a57bc0ad1921c5"
+        }
+      ],
+      "content_sha256": "b49453838cf96cb73da041df28c5d6c62c9ee5d6090966228fbd0a095f585c99"
+    },
+    {
+      "number": 53,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "21446c1d1c2a30ee977acf020d7f619dfe8c5693d32c55da77dc9ec17938a839"
+        },
+        {
+          "mode": "ex",
+          "sha256": "26b5d28a08c2e237a9828ab83f5965ae35f9d023f07b294bd469fa5ea9c54999"
+        },
+        {
+          "mode": "deep",
+          "sha256": "52549830c083a5b70c0ebdd94411b8a2b6298341a086e0e1728ed5903635eaf8"
+        }
+      ],
+      "content_sha256": "63234840fa057df33b7d24c70cea1f83e6415431031b66f0ec2edec40646ce20"
+    },
+    {
+      "number": 54,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "c156f0aa4aef4cd842e4c4827728cc9d4a7c87727ab9c6755c61e77906818cb1"
+        },
+        {
+          "mode": "ex",
+          "sha256": "8bc54c8bf8b8acc7318317e031c429b3165667e62c428f6524ad5324176f0351"
+        },
+        {
+          "mode": "deep",
+          "sha256": "400ef5867c441f1b28016bceb1e516638fed19dd8f6910a79a3f6adfbbc6c744"
+        }
+      ],
+      "content_sha256": "fad95fbba95a880a49457dcb6c21d52b1b743b0bc462d8e8c5f987dd3795e3be"
+    },
+    {
+      "number": 55,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "d062a0c1902d576f0e3a95c3396d3210f328eb817e132a94ef40007415ec41eb"
+        },
+        {
+          "mode": "ex",
+          "sha256": "c0589da6e56a003b02909dec1fc093122cdf620407b117ac43fe72acef2304ef"
+        },
+        {
+          "mode": "deep",
+          "sha256": "3e9318a1cfd02044c4ce5685a2b198f1b3b4ed6ec6aceacf3271ae97bafaef7c"
+        }
+      ],
+      "content_sha256": "275612945b1ca28967347b392476b5523baa76fd660c55d79a1f26364065186a"
+    },
+    {
+      "number": 56,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "f82acaa14cb201515a87082e5094b8a431bcd23b2e0cdf3ac81d53bf7fb048c9"
+        },
+        {
+          "mode": "ex",
+          "sha256": "01b42341996b1d6c849969e1899840a666fb7438a371a1c87cbf4ef9606f09da"
+        },
+        {
+          "mode": "deep",
+          "sha256": "719708e3cf6c66a91f54496449ee037a973eb3bab3ac20fb517099e6cebac827"
+        }
+      ],
+      "content_sha256": "58101277869646b08fe08ebb4e1b8edfdc4efb749641105258587136b16a8d42"
+    },
+    {
+      "number": 57,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "ed5053441f95c95ce51bee74bd7aff254fcbe21422f46655f19426670bf4e182"
+        },
+        {
+          "mode": "ex",
+          "sha256": "22d2fec37a2ab9778a0d8ac7ac8758738144ad8b4fca8ef3fb5f598edb33a8d0"
+        },
+        {
+          "mode": "deep",
+          "sha256": "7cee4addde84bb91202588c2a03b8e3f00fca59903f17d3a86500b19d83ef515"
+        }
+      ],
+      "content_sha256": "c4107246983f8e744d245f90b21ac86fa58a850b2499cccbd60b5c0ad50f8543"
+    },
+    {
+      "number": 58,
+      "group": 6,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "aad03f420ea2a9bb043077761b8b0f6657cb19f09ef3ba22521f47b61a568a2b"
+        },
+        {
+          "mode": "ex",
+          "sha256": "46025a08803405226aaf46509bed4c164b04ae31a3d4614e17b8a568429a6471"
+        },
+        {
+          "mode": "deep",
+          "sha256": "731140ba96834475db1cfe5f8fb50fc0d36cc4b2528f00898cbb58042217d0e9"
+        }
+      ],
+      "content_sha256": "f41e1ca3720fb07b13e1e8c8c963463468577d637b806d41a87b25e0a90ea8fa"
+    },
+    {
+      "number": 59,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "ea7e9002229c965f46e81eb6250e9bac499b1b56e14d7fa2b84e137cea521433"
+        },
+        {
+          "mode": "ex",
+          "sha256": "3fb460f797899075bb758e47a95156e33dc11f85238261c27baa529e1f164173"
+        },
+        {
+          "mode": "deep",
+          "sha256": "c7b1f5005bcb65dec1d7f5a4a0de97e2899de26d0fd59ead5b97301ecde57678"
+        }
+      ],
+      "content_sha256": "ecd97f5b376313430bc5c382e82e4c918cbbab72a470a718d0d4eb75d1596fb7"
+    },
+    {
+      "number": 60,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "0a7e423c094fb62575d9e686e55e1372e80101427630dfe46d9c445053d8d9b9"
+        },
+        {
+          "mode": "ex",
+          "sha256": "f27d71486ca5d7b17746b3da1d8e4d4d4c00033ca3ee54356a42f37d0bc03929"
+        },
+        {
+          "mode": "deep",
+          "sha256": "3b8475ca42bc65bcd6bc7a19a0c8e588f7322a008eff9524162f2726b548d129"
+        }
+      ],
+      "content_sha256": "72cc7d9a82ec8d9838d295be15f1b5aa2922aa4ab6176cc34c6ce8f8c9e477da"
+    },
+    {
+      "number": 61,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "72cce490ffb8d1de39e64a379fe1279e76b8c6c99c6ade0bcc568bc139810870"
+        },
+        {
+          "mode": "ex",
+          "sha256": "c929df62c6e27e8a39c03b901d0c09078c250c1b5a5365e50f18af9884910d22"
+        },
+        {
+          "mode": "deep",
+          "sha256": "bfde20a67c51422f9b15bead448d3863de27ed6c3dcdfaa685d28e5b865d2d2b"
+        }
+      ],
+      "content_sha256": "0e7f5e033cb27065710fb50c0f70dc1edd7202e3447827fa71f9ed88d9bbf8e7"
+    },
+    {
+      "number": 62,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "83bfc8e91d1d88c2d97f7a9da1328e6143b3aa49e07bfd8fb898cebc8faa6381"
+        },
+        {
+          "mode": "ex",
+          "sha256": "a35bead6f9c178b048d83335ff796d5820b0f47d523b6dec2342388cf483b313"
+        },
+        {
+          "mode": "deep",
+          "sha256": "52390d073405cd958c14b91402abdd8e2c0240e902df2730a10a4e49ea0052a2"
+        }
+      ],
+      "content_sha256": "3d266a167c7addc88d6cb70cbf1a3ae033d96c132a9ec40af1612c969efe46bb"
+    },
+    {
+      "number": 63,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "c0518e4757bb2c4dcda67415958f16f8fc805e04ea7e16f5898743c93a644e62"
+        },
+        {
+          "mode": "ex",
+          "sha256": "d7f6b635e121bf9b1169665dfd47fa0336f3954608a2921c36a9da611efcc13d"
+        },
+        {
+          "mode": "deep",
+          "sha256": "b5e9004676b9ddc8c63df36475c629cdf21b0dae89bac0c62a3e7eee0ad6c001"
+        }
+      ],
+      "content_sha256": "a8e8e9c923f2314a98780539ee9102563a791aa26a8b6e033a8076ae39597237"
+    },
+    {
+      "number": 64,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "453bcf8ebc4e6bea0a43c06589d856e6e476fc0166a6d9e95ed3eb9126a7693c"
+        },
+        {
+          "mode": "ex",
+          "sha256": "edf47ec0e8d7145865c91d015391efdf007b2c328e3aee857c8f319f810be85f"
+        },
+        {
+          "mode": "deep",
+          "sha256": "c24ae2febd24de4b6f1c48173b163ae8aa6a46af254f02df9cdf4c4ac2787c67"
+        }
+      ],
+      "content_sha256": "e9a4515247f8273efa5bdf7e6bd3b8055a52a34b8e42e2ed34acbc040b15145e"
+    },
+    {
+      "number": 65,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "7a0743f3c5c9db4d8ff60c9cbb8463c5c5cbdab94facca33a5da232b6904eedf"
+        },
+        {
+          "mode": "ex",
+          "sha256": "67881df08842776a961039d86328833f87733bf89502ecead36ca11a0cd89de2"
+        },
+        {
+          "mode": "deep",
+          "sha256": "fc42e6bda4bb7c7d75077a00f489af18d646ba843be88853990b4890ee741b63"
+        }
+      ],
+      "content_sha256": "f5e9b56eae48564d4075076e48e3c119f2ce2ec8f1e5553585becc6fbd14bffb"
+    },
+    {
+      "number": 66,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "ab1f2b878a1fcf736a5aa832c2fe25fc024f3140d96ba9bdf888ef7ef74c7955"
+        },
+        {
+          "mode": "ex",
+          "sha256": "bb3562ec0b1e215a9e8f8c2a59d1b92587e81c6bb799e37e81160271c60e943f"
+        },
+        {
+          "mode": "deep",
+          "sha256": "54f819e3249cc7288e3c7f79f2e08d77b461719bae1e90762ec3ed00a645eca1"
+        }
+      ],
+      "content_sha256": "b62fb8b76896750a640ce87b5e821f71d4793d74c1feba6e37a27027f1130130"
+    },
+    {
+      "number": 67,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "b403027b66b192a3e6db3c224bda9f5713d206ef0ad2fc1394af363b8550b35c"
+        },
+        {
+          "mode": "ex",
+          "sha256": "aa20c4dc7038d858f419d4d890918b3aea3445d414de8f9dc024abbb4ef9260b"
+        },
+        {
+          "mode": "deep",
+          "sha256": "3db2cc22f692819103ec4101c86e8a41edde9c0ab0314d5938b4c56cd979daa6"
+        }
+      ],
+      "content_sha256": "9a6e5fa1a4a5159719fa2670ac28109049b099863bce0c355a2728434cd509ec"
+    },
+    {
+      "number": 68,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "537c7a64c9acfc1d6c57e4c9264fcf3f948663f758245880cefbada38c0770ac"
+        },
+        {
+          "mode": "ex",
+          "sha256": "ec0f5e6ce8b463ea06b9773af79e3a43dfbe41483794324b40f9249494bba70e"
+        },
+        {
+          "mode": "deep",
+          "sha256": "31dc953986a468534e45230a8fee0664e7b124cb4ed53f41ebeaf6d15d070220"
+        }
+      ],
+      "content_sha256": "4aeef98036b67b0a32d329eae36f4ff5fb03fc95f7894998905a001cfb2d045b"
+    },
+    {
+      "number": 69,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "5f08dea32ab49e4129b783000fd3b24c0561de9198726ef7da7533408c754454"
+        },
+        {
+          "mode": "ex",
+          "sha256": "bb1e4202db24d43e63bb06b50c3ad36ec4a81a2ba0437f9cf660a812f9ab4d48"
+        },
+        {
+          "mode": "deep",
+          "sha256": "239473ae1e324442cea0d8475d215c07751577b1ebf8b55c2ede7f286e8a4255"
+        }
+      ],
+      "content_sha256": "fd799b0689348a2c995bd9df73a975f6b34357dad8a6c503c3d700b29373dcbf"
+    },
+    {
+      "number": 70,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "c99af76f1cdefe160e69f2fbea6ae465dfc2934c1f7b1410123d511dfaad4728"
+        },
+        {
+          "mode": "ex",
+          "sha256": "65e6ecf91d862d694531214cf29ad9685efd3b38a962ce4473d1bae33380fe94"
+        },
+        {
+          "mode": "deep",
+          "sha256": "ee064baa89b547ebb38b8811ee96769720e93c3e2fcb678c414a236a6eff0a72"
+        }
+      ],
+      "content_sha256": "a01fe7db4fb34ef599dfa3d6a54999cadcb255e03d94e0cf5d908089c3f6f036"
+    },
+    {
+      "number": 71,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "86c398d2f1a8321daa1f45041ee7a45842e500f99cd20512c97a67582bb179ad"
+        },
+        {
+          "mode": "ex",
+          "sha256": "7797a1b7e097d762673449a2b125231ea7085b7722912284732e7b861f8a5f8f"
+        },
+        {
+          "mode": "deep",
+          "sha256": "fe01fdeaa082af654a302a2b0beff1b59777117d51dfeba260e38858d5bb003e"
+        }
+      ],
+      "content_sha256": "2d0196ae7450835e95eee11956e310543acdedc7d4f79f8c307f1c0863e4d7aa"
+    },
+    {
+      "number": 72,
+      "group": 7,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "51f7a6518eb15c6a0c373f0b47e0b1f1ef208a54fac80a8f37b780ff79dc0e33"
+        },
+        {
+          "mode": "ex",
+          "sha256": "66d969a370edcf94beaa3a466e9eaca99857dd50a80fabf55eb6e1edd48d4d87"
+        },
+        {
+          "mode": "deep",
+          "sha256": "c6a633b72ca7156f5c2daf19dd994876c4981cbb7ed7f21c088aa679db259327"
+        }
+      ],
+      "content_sha256": "9f57a35be09b3be04d0ca827384c9503285cad96cbdea80e05ac1d656427be7d"
+    },
+    {
+      "number": 73,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "753bb8c86a15ae864b68ae7fbe66067715e20693dcc3c7dd668cf0c07f46ebe8"
+        },
+        {
+          "mode": "ex",
+          "sha256": "29765c2d928d2d0eac73380a4d9e07784ee97fb84a29353f49e0dd4c95caab27"
+        },
+        {
+          "mode": "deep",
+          "sha256": "fc5114309070f536ba1ee136a1af03a9a0a4a8059f6efc4fe2f4946147a9a612"
+        }
+      ],
+      "content_sha256": "5df09de9f46243204fbcab7706754102f5cf391ddeef936291e7d5439048c6d3"
+    },
+    {
+      "number": 74,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "99c529be55a78937fd895912691591f6eb67f42eacfeb24126389eadc090ee94"
+        },
+        {
+          "mode": "ex",
+          "sha256": "ed2faec84fd34fe0e8cd2209474c0ae952463567676f287cdfa835d81723b3c0"
+        },
+        {
+          "mode": "deep",
+          "sha256": "0f821f8c3c0e0224eaee65b890a0940f33c0c29f01fe87480a7ef684543c177d"
+        }
+      ],
+      "content_sha256": "414892c578f2b9fa6fd8d2c64de152089d5deba87bb7ec319c0f0a9cbf55effc"
+    },
+    {
+      "number": 75,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "daf59ce111f71fec96b8124efa49ba572e9f3abc90b4f84e55286c597958a74c"
+        },
+        {
+          "mode": "ex",
+          "sha256": "66988ed0467a9119a64ba89f713a31612fa9e518e76edec1eb8c34605191c9ff"
+        },
+        {
+          "mode": "deep",
+          "sha256": "3edce53086671f3b0ef347cd6149da79f507ff9fb6eb66943cedd5d6667437eb"
+        }
+      ],
+      "content_sha256": "f4db5b56d3f667117f010eae4d298a41f32393d7226e2fc9ba39e0216b893327"
+    },
+    {
+      "number": 76,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "7966b75954087e3e3ba00543bb6be80442a22950624b8c965b0aedf5cd7dbc19"
+        },
+        {
+          "mode": "ex",
+          "sha256": "0723f4b80013a3212ee3818741071a561849290a2978a5c1ffa88a77e331e396"
+        },
+        {
+          "mode": "deep",
+          "sha256": "934c750e83deaadca5cbd9625649c250d877817168e5c2299302018e92e28385"
+        }
+      ],
+      "content_sha256": "4eb4ef6a544b1ea3c0dcb0c79c85854503428b27785ca23b7bed6f15f0f4991c"
+    },
+    {
+      "number": 77,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "469c960d1cf26404213fd4d475497dc6626297493f95408d110304dcb7d06010"
+        },
+        {
+          "mode": "ex",
+          "sha256": "d0d756618fd52a453b1640ca7a7c2d9d2a948d64a99985093bff2bc22dd9049e"
+        },
+        {
+          "mode": "deep",
+          "sha256": "862929a1240bb43437b60543717054bd7681a472eb74f8b5e98a346cfcca8425"
+        }
+      ],
+      "content_sha256": "50e851154e4d51af66039a10a35fd7820e2a24e817716435c093ee7c4fbf7147"
+    },
+    {
+      "number": 78,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "73ecd98669cd6af829ebb0afb422f4c0bd8eb291bf4bf5f19ad9bfa9ca1fff08"
+        },
+        {
+          "mode": "ex",
+          "sha256": "dcbce00d24f742580fa762c84766325bde66025704b7072b9c443786e7a41f68"
+        },
+        {
+          "mode": "deep",
+          "sha256": "0ba69607bd43521f512e17db4126fa3f679f80e547e4e17d98fea6e64b29088a"
+        }
+      ],
+      "content_sha256": "d72a568ce7d751229808b8b76e4daa375b62a90b482902f4e4ae965e886d0a0a"
+    },
+    {
+      "number": 79,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "40e1800097048d7bcb16af056f6579c1be4b9fe80dffad95a0e384b9b9956d76"
+        },
+        {
+          "mode": "ex",
+          "sha256": "05d15e6c6fb84c77b5cbcaa620133d315a4a8e1c5f80dd83f23674f08065a0d2"
+        },
+        {
+          "mode": "deep",
+          "sha256": "17c5d0aa9f669733b3683659862feaf64ed29800e7545ce4e0ad8765bcec80ec"
+        }
+      ],
+      "content_sha256": "420f7d449b8d9808424e4970785ef00516daefe4738308b0de5add2da8797d0c"
+    },
+    {
+      "number": 80,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "f26d405209eaf5240ba8eec4f6e95c00808765d4539bb35e1a62dc3e52972b91"
+        },
+        {
+          "mode": "ex",
+          "sha256": "19e02287d90dd266ad511ef412275044a2d0f122e89b93d4eac07ddd0bc69589"
+        },
+        {
+          "mode": "deep",
+          "sha256": "9a5638a71c58b07b058cfcc119d7f089ffcbce04f6fdee02c29d4dcc8f3db2a9"
+        }
+      ],
+      "content_sha256": "a5215a571aa357fb3eba53c6938e4b3d6fb4ad843ec092f36d68658515c0db68"
+    },
+    {
+      "number": 81,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "788103af8554a14759516d219167ace0297e60a6ece74ea11ebd48309851ed16"
+        },
+        {
+          "mode": "ex",
+          "sha256": "77e0ae379c7d86c93b3fb48132f6ec456de3bff790fce1d29c71e2b3b7fbde42"
+        },
+        {
+          "mode": "deep",
+          "sha256": "0d6278884432ddcfd3ea44a84d83dcaa41be3536a1e94025339abfd98203338a"
+        }
+      ],
+      "content_sha256": "f944547bebbd8ceba570f16dc57f2c8b847079103137ff1b2c36c96e04cad592"
+    },
+    {
+      "number": 82,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "e6798e785cee7fc9367a75b94c3ae75dc14dc646769d1046167ffe84584f2e57"
+        },
+        {
+          "mode": "ex",
+          "sha256": "95d2b5364cf6c3fffd1102128d90782d4559058fab2400ff86439ac82e64c602"
+        },
+        {
+          "mode": "deep",
+          "sha256": "de0191ff032f9aa5fb084583293c37decc5369a83bd58bad8396bb5fd3039be3"
+        }
+      ],
+      "content_sha256": "2e4387e503b609591f69c10ba0f7e027460f65e65a16fd99deb6f1aea61e28eb"
+    },
+    {
+      "number": 83,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "cea3767a430c32cbb3dad9f864fbed65e308b23cd6f5c2e925ea2fd8fa9effd1"
+        },
+        {
+          "mode": "ex",
+          "sha256": "4e3675295c1f56be5f2b81f09ef386623f457e583d0cfbd1d897c3b1e97fcce0"
+        },
+        {
+          "mode": "deep",
+          "sha256": "bcd671e5e41ea67cdd61e287205d2b62fb6c4e025d52d62987766fc7252692be"
+        }
+      ],
+      "content_sha256": "3e49a9bf1174c694bf6710aed59c4401930527eed4a44d5cdd4a73dcbf4a5d5f"
+    },
+    {
+      "number": 84,
+      "group": 8,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "49658447a872adef092708926b6e5eec333e4b603ac0e07f5e0ba757d870e7f4"
+        },
+        {
+          "mode": "ex",
+          "sha256": "1ce1cac386afc70b2ebfa5802c527dde411f59e19c6397712ef04fe544726165"
+        },
+        {
+          "mode": "deep",
+          "sha256": "dfe00331287619b22d3a7986b07a9d824c4db78affbe7d32f2644e8b56689c5e"
+        }
+      ],
+      "content_sha256": "faff18588d554326138e1af5e64c7b3e09237ad63c320213d8ff6696bbdf8a5f"
+    },
+    {
+      "number": 85,
+      "group": 9,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "a95be7406108c92e013a77383dd79ede3c06e1f2e599317e49b4b00f6ab6cb78"
+        },
+        {
+          "mode": "ex",
+          "sha256": "9a351e5b9c8d3e9d1ad394d0be00c3dff615f3ac703707f98e733a0b99854c0a"
+        },
+        {
+          "mode": "deep",
+          "sha256": "e40d884e7c1fde07878fb517a497de5ce05ace5e38b0e70c99ace758562f2f5d"
+        }
+      ],
+      "content_sha256": "6f66c24de6419d095b1798d6b714e40e876ae397e7b9f1006aadc4c521b43a2a"
+    },
+    {
+      "number": 86,
+      "group": 9,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "a4334813c1d068d6c149046f6c8fbe09ac5f6be41971a2925bb4e30db81cc3f5"
+        },
+        {
+          "mode": "ex",
+          "sha256": "58991fb22b76705dd79b7bf9e9288fd9307a445d59642af8c868f72138560d9d"
+        },
+        {
+          "mode": "deep",
+          "sha256": "9458d766dccb56d7996ce4115eb71ee598a71ba6c3c5ac604d102cc8dc3f5994"
+        }
+      ],
+      "content_sha256": "05c9e25f964f7d0ebaf62416e7d4d22e83b328d09b3bbdefcf72d58134ed40e2"
+    },
+    {
+      "number": 87,
+      "group": 9,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "bdedb421d7215e74137ef4709da8128800ffb418395239506a1787a82b1aa5d9"
+        },
+        {
+          "mode": "ex",
+          "sha256": "f981a85b6b3ab12811b0442f48ca193c72b90b836b174a466b884fbd8a587f84"
+        },
+        {
+          "mode": "deep",
+          "sha256": "8efa19cba64ddc2ffdf4ffe03e220d0f62da59aded24c6fe7f60335a503c0543"
+        }
+      ],
+      "content_sha256": "5a38a2038ad97ff4652e804e7b5ce08b05a314d158d17bfbc584fcd58082cbe4"
+    },
+    {
+      "number": 88,
+      "group": 9,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "3c4813d545bc7f25c78b40bd220f5c1a12a4e776fc0f5205af00fb4cd668505f"
+        },
+        {
+          "mode": "ex",
+          "sha256": "475ad1710a1e13aa2e96f61963f88c473cd04e4ce59189b699ac9b2ae1557327"
+        },
+        {
+          "mode": "deep",
+          "sha256": "1e2d5cb807ff1a9ea6396c47b144abb2674f6c4ab11af438924fdbb57b36698a"
+        }
+      ],
+      "content_sha256": "763218e9586734df5660abf5a2bbd90bee1a4c4bfe0fa633005d452af3f15ee7"
+    },
+    {
+      "number": 89,
+      "group": 9,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "770128e17b76c22cc3c4807ae741470a2df316ade68af5cc9a4c6f7cdc6c491d"
+        },
+        {
+          "mode": "ex",
+          "sha256": "4ef9972d6b431c6a96d9698146e03e5a6eb3254067d82e7ee58a48d581a213f5"
+        },
+        {
+          "mode": "deep",
+          "sha256": "40248abb0e78ec1d5327c63817375e639204f8fb59b5a4f777b428d3fe971bfa"
+        }
+      ],
+      "content_sha256": "c263fd6e164ac62c574ecd32d5d921cee1012e3874b16bff7ff437a4e5e8e232"
+    },
+    {
+      "number": 90,
+      "group": 9,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "a6b59619fee3539ddcc25e1272462b561db96b15692003fdc9db54d110f61b2e"
+        },
+        {
+          "mode": "ex",
+          "sha256": "4d2960e86e786b3c339dae413d8040f6d552e5c1b037de77c8e59a6c72b49d7f"
+        },
+        {
+          "mode": "deep",
+          "sha256": "50b1815b73df8d8a4de888ad86589223f76cd752360f8b1b16976fdd9e4d61fd"
+        }
+      ],
+      "content_sha256": "b1d7dbd3bee077d2e9db6105df13140d2ef602bc7fc473251dc16a3abb2412c6"
+    },
+    {
+      "number": 91,
+      "group": 9,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "2b71960ccc82efb334d4fd5c1e655ec928fb4dc45dafa3ae202b68b8a1aa6988"
+        },
+        {
+          "mode": "ex",
+          "sha256": "b47f89854597581a7a9c275372b1fc7dff389a6fdfa27fdced148e4d9789eb66"
+        },
+        {
+          "mode": "deep",
+          "sha256": "4055c5530aea31e6af9281e0c17188a9e7292af4cb6b50d91156e0a98e7d5fb3"
+        }
+      ],
+      "content_sha256": "4b85205efe400ab513a83deb2b9718bcc5856e6d448c802d8f41b0948eb4eac1"
+    },
+    {
+      "number": 92,
+      "group": 9,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "b0e9a9a70fda45b215aeeabd8d50aebf09e066f2178c53040137753515a2f5d0"
+        },
+        {
+          "mode": "ex",
+          "sha256": "e58787df789cc277840a8995c68c285fcdbd77279643e57a4f6f2f662bbf3a04"
+        },
+        {
+          "mode": "deep",
+          "sha256": "6813fa9b316fbba393b054878c0f0b11502617aff01ba00ba30d61c6982e42d7"
+        }
+      ],
+      "content_sha256": "c80481e658839182350cc50801a1fac7e9ae7d7b3edda23911469fa4e683198f"
+    },
+    {
+      "number": 93,
+      "group": 10,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "b74247f7ee8969f518f3db5cb0c604d8b882939a61a152a34d3b024e573ca2bc"
+        },
+        {
+          "mode": "ex",
+          "sha256": "7c8ee6092f37c30cfa942bf70e3aa2b27b957091b539aea49ec4a6acb638bcd3"
+        },
+        {
+          "mode": "deep",
+          "sha256": "ac2f0b029790847fd7520a25bab3b0b298920c36d7b2531fc37263ea93f2c2b8"
+        }
+      ],
+      "content_sha256": "d0a214015f12dd4ecdd853c61615e7ac44f9daeff51c1a582224a79adb901aa1"
+    },
+    {
+      "number": 94,
+      "group": 10,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "ae3c2ca2062727b85d5e8c4421341ae1c58fd00968de184d0cafeba2dd82e7ca"
+        },
+        {
+          "mode": "ex",
+          "sha256": "8389a6342b299b8119ec573bc4749a34d33f8b57e81d7a73568903cf6baab8be"
+        },
+        {
+          "mode": "deep",
+          "sha256": "6ade1c4a11dae8c784a54697d43d217d345889353d36f6502195eeda68021939"
+        }
+      ],
+      "content_sha256": "f51cbfc32d7c878fc39dacbd96c386858592e5865271056055580edcd35c2fea"
+    },
+    {
+      "number": 95,
+      "group": 10,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "1ff2b6a19cae9691a82538b3418365d0da31dc3e10d9a6bab9c962ba910bd495"
+        },
+        {
+          "mode": "ex",
+          "sha256": "18d7af5072815c547aad05a2c5603bcbd2315042defb5250ddc989b9bb1e8a40"
+        },
+        {
+          "mode": "deep",
+          "sha256": "cdb7b25945a1cff6c4bd6f77da0368f349968ca61e796fcfd867e7d9a465c2c5"
+        }
+      ],
+      "content_sha256": "2165e3e798a956e395cbcfc820a96ee3c9344194e3d64ad83f851ec86a2ee885"
+    },
+    {
+      "number": 96,
+      "group": 10,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "8b1cbac1fed1e54fc4ecadcff65ce5c123a3dd21de12e84700430d400591ca9c"
+        },
+        {
+          "mode": "ex",
+          "sha256": "9d2c048a448d363f779207aa5ca5795d44aedcda863bb9a807f895725f58a966"
+        },
+        {
+          "mode": "deep",
+          "sha256": "c8460588bb00e51d936ae6955b6e7951c96d93d7362b1e37c6fc91ea709552f8"
+        }
+      ],
+      "content_sha256": "58f552e809b5afa415f18de333437f13eacd4c9f28e7cc77cb2b5777d0ce8b7b"
+    },
+    {
+      "number": 97,
+      "group": 10,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "cc5b65adb58f416f71fca6cbdf53567092e3cfcf5278ada42f265d7203b8958a"
+        },
+        {
+          "mode": "ex",
+          "sha256": "cc150279a9931ab7778f0ca4b51f9ed6d0dfdf3c34f5bbfabc811c51717ec421"
+        },
+        {
+          "mode": "deep",
+          "sha256": "725f7ff79d604f1533dd21f02c58345ee07d9bb1aa54eecf9282299634fee1f1"
+        }
+      ],
+      "content_sha256": "f1dc7fddf43793ec279059890f1f08f7b4ac4013700934bc1bf19a212bff6501"
+    },
+    {
+      "number": 98,
+      "group": 10,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "e03def4611e446d521bf953a1d1308f8facfbaecb6954cc00fafe8afa8fad681"
+        },
+        {
+          "mode": "ex",
+          "sha256": "f6e54b39388b6a6b799d8fbe2087d81f12d7cd492a6db5602827eebd4ce089c6"
+        },
+        {
+          "mode": "deep",
+          "sha256": "3620fa00f111d10ea25c4a4eb9253fdaf631964f37dd916da725d51f3b945e61"
+        }
+      ],
+      "content_sha256": "c540c652bad24ae735a311c5c6e4590359b9ab3a0fd0974126d9b39492abcd91"
+    },
+    {
+      "number": 99,
+      "group": 10,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "079236b4c334274a8e06102fab84c3714dcd12ed074bd5d1cca71e20cffc4eef"
+        },
+        {
+          "mode": "ex",
+          "sha256": "ae209393b95ae6bdc0407d97e87e57021adbfebb89b3670de297aa3178963a47"
+        },
+        {
+          "mode": "deep",
+          "sha256": "5f2bd3bd2b6631d1c720e7289aaafed2044e65eab55dee902cd1adb9fa5f222c"
+        }
+      ],
+      "content_sha256": "19b2beaf76a55e669da78780932bd8701dbf9617d7fc96b36a2ac07fc83236a9"
+    },
+    {
+      "number": 100,
+      "group": 10,
+      "variants": [
+        {
+          "mode": "pm",
+          "sha256": "f2a330b2e9f08ac3a41f7e94a7502d624942521f614e24bf896e63aa74ab0458"
+        },
+        {
+          "mode": "ex",
+          "sha256": "b4b228a087e2105024d63373edd74cf450b8fc9318516a54b1fca8d78743acec"
+        },
+        {
+          "mode": "deep",
+          "sha256": "8148cc628acd913f34a53c1e2389f6ac58d4a8f5387268a37cc23c4e5bb38962"
+        }
+      ],
+      "content_sha256": "7847af4dac85f42d880595ea55408f13b8f75b476d26d456e63f6112be64d28e"
+    }
+  ],
+  "system_design": [
+    {
+      "destination": "sd-block-load-balancer",
+      "chunks": [
+        "Компонент, распределяющий входящие запросы между несколькими инстансами сервиса по алгоритму (round robin, least connections, по хешу). Работает на уровне L4 (TCP) или L7 (HTTP).",
+        "Убирает единую точку отказа на входе и позволяет добавлять инстансы без изменения клиентов. Вопрос на секции: что будет, если упадёт сам балансировщик, и как проверяется здоровье инстансов."
+      ]
+    },
+    {
+      "destination": "sd-block-api-gateway",
+      "chunks": [
+        "Единая точка входа для внешних клиентов: маршрутизация, аутентификация, лимиты, преобразование протоколов, агрегация ответов.",
+        "Централизует сквозные политики (безопасность, лимиты, версии API), но становится критичным компонентом: его отказ равен отказу всего. Нужно планировать избыточность и деградацию."
+      ]
+    },
+    {
+      "destination": "sd-block-cache",
+      "chunks": [
+        "Хранение копии данных ближе к потребителю для ускорения чтения. Инвалидация это удаление или обновление устаревшей копии: по TTL, по событию записи, через версионирование ключа.",
+        "Кэш решает проблему нагрузки на чтение, но создаёт риск устаревших данных и лавины запросов при протухании (cache stampede). На секции нужно назвать стратегию инвалидации и что будет при отказе кэша."
+      ]
+    },
+    {
+      "destination": "sd-block-cdn",
+      "chunks": [
+        "Сеть серверов, географически близких к пользователям, раздающих статический и кэшируемый контент.",
+        "Снижает задержку и нагрузку на origin для статики, картинок, видео. Для банковских или транспортных API почти не применим к динамическим данным."
+      ]
+    },
+    {
+      "destination": "sd-block-replication",
+      "chunks": [
+        "Копирование данных на несколько узлов. Синхронная гарантирует наличие данных на реплике до подтверждения записи, асинхронная даёт отставание (replication lag).",
+        "Даёт отказоустойчивость и масштабирование чтения. Цена: отставание реплик, из-за которого пользователь может не увидеть только что сделанную запись. Нужно решить, какие чтения идут на мастер."
+      ]
+    },
+    {
+      "destination": "sd-block-sharding",
+      "chunks": [
+        "Горизонтальное разделение данных по узлам по ключу (ID пользователя, регион, хеш). Каждый шард хранит свою часть.",
+        "Единственный способ масштабировать запись за пределы одной ноды. Цена: транзакции и запросы между шардами становятся дорогими, решардинг это отдельный проект с рисками."
+      ]
+    },
+    {
+      "destination": "sd-block-consistency",
+      "chunks": [
+        "При сетевом разделении распределённая система выбирает между консистентностью (все видят одни данные) и доступностью (все получают ответ). Итоговая консистентность (eventual) означает, что данные сойдутся через некоторое время.",
+        "Задаёт рамку разговора о компромиссах: баланс счёта требует строгой консистентности, лента уведомлений итоговой. Умение указать, где именно нужна строгость, отличает зрелый ответ."
+      ]
+    },
+    {
+      "destination": "sd-block-queues",
+      "chunks": [
+        "Асинхронная передача сообщений между сервисами. Kafka хранит поток событий в партициях с гарантией порядка внутри партиции и позволяет нескольким потребителям читать один поток.",
+        "Сглаживают пики, развязывают отказы, дают воспроизводимость событий. Цена: итоговая консистентность, необходимость обрабатывать дубли, мониторинг лага потребителей."
+      ]
+    },
+    {
+      "destination": "sd-block-idempotency",
+      "chunks": [
+        "Свойство операции давать тот же результат при повторном выполнении с теми же параметрами. Реализуется через ключ идемпотентности, который сохраняется вместе с результатом.",
+        "Основа надёжности любых платежей и уведомлений: клиент может безопасно повторить запрос после таймаута. Без неё ретраи создают двойные списания."
+      ]
+    },
+    {
+      "destination": "sd-block-outbox",
+      "chunks": [
+        "Паттерн: событие записывается в ту же БД, что и бизнес-данные, в одной транзакции, а отдельный процесс публикует его в брокер.",
+        "Решает проблему «записали в БД, но не отправили событие» без распределённых транзакций. Обязательно упоминать в платёжных и заказных системах."
+      ]
+    },
+    {
+      "destination": "sd-block-saga",
+      "chunks": [
+        "Последовательность локальных транзакций в разных сервисах с компенсирующими действиями при сбое на любом шаге. Бывает оркестрируемая (координатор) и хореографическая (через события).",
+        "Замена распределённой транзакции в микросервисах. Нужно уметь описать компенсацию: если резерв денег прошёл, а перевод не удался, резерв нужно снять."
+      ]
+    },
+    {
+      "destination": "sd-block-circuit-breaker",
+      "chunks": [
+        "Автомат, который после серии ошибок к зависимости переводит вызовы в режим быстрого отказа, а через паузу пробует восстановить соединение.",
+        "Не даёт медленной или лежащей зависимости утащить за собой весь сервис. На секции: что делает система в состоянии «разомкнуто» и что видит пользователь."
+      ]
+    },
+    {
+      "destination": "sd-block-retry",
+      "chunks": [
+        "Повтор запроса при ошибке с растущей паузой (экспоненциальный backoff) и случайным разбросом (jitter), чтобы клиенты не повторяли синхронно.",
+        "Ретраи без backoff превращают короткий сбой в лавину. Нужно называть лимит попыток, только идемпотентные операции и различие временных и постоянных ошибок."
+      ]
+    },
+    {
+      "destination": "sd-block-rate-limiting",
+      "chunks": [
+        "Ограничение числа запросов от клиента или на ресурс за окно времени. Алгоритмы: token bucket, sliding window, fixed window.",
+        "Защита от злоупотреблений и от перегрузки собственными клиентами. Управленческий вопрос: какие лимиты для каких клиентов, что отвечаем при превышении (429 и Retry-After)."
+      ]
+    },
+    {
+      "destination": "sd-block-backpressure",
+      "chunks": [
+        "Механизм, при котором перегруженный потребитель сигнализирует источнику замедлиться или отклоняет новые задачи вместо накопления бесконечной очереди.",
+        "Без backpressure очередь растёт до исчерпания памяти и падения. Нужно определить, где система говорит «нет» и кто это увидит."
+      ]
+    },
+    {
+      "destination": "sd-block-bulkhead",
+      "chunks": [
+        "Изоляция ресурсов (пулы соединений, потоки, инстансы) между разными типами нагрузки или клиентами, чтобы отказ одного не затронул другие.",
+        "Пример: отдельный пул для критичных платежей и отдельный для отчётов. Позволяет обещать SLA критичному сценарию независимо от остальных."
+      ]
+    },
+    {
+      "destination": "sd-block-health-checks",
+      "chunks": [
+        "Проверки живости (liveness: процесс работает) и готовности (readiness: может обслуживать трафик) инстанса, которые использует балансировщик и оркестратор.",
+        "Определяют, как быстро трафик уйдёт с больного инстанса. Ошибка в readiness может выключить весь кластер разом, это классический инцидент."
+      ]
+    },
+    {
+      "destination": "sd-block-rollout",
+      "chunks": [
+        "Blue-green: две полные среды, переключение трафика между ними. Canary: выкатка новой версии на малую долю трафика с наблюдением за метриками перед полной раскаткой.",
+        "Инструменты снижения риска выкатки. Нужно уметь назвать метрики canary, порог автоматического отката и длительность наблюдения."
+      ]
+    },
+    {
+      "destination": "sd-block-feature-flags",
+      "chunks": [
+        "Переключатели функциональности в рантайме, отделяющие выкатку кода от включения функции. Могут быть по проценту, по сегменту, по пользователю.",
+        "Дают мгновенный откат без деплоя и постепенное включение. Риски: накопление старых флагов, комбинаторный взрыв конфигураций, флаг как единая точка отказа."
+      ]
+    },
+    {
+      "destination": "sd-block-slo",
+      "chunks": [
+        "SLI это измеряемый показатель (доля успешных запросов), SLO это цель по нему (99,9% за 30 дней), error budget это допустимый объём нарушений (0,1%).",
+        "Язык договорённости между бизнесом и инженерами о надёжности. Исчерпанный бюджет ошибок это аргумент заморозить фичи и заняться стабильностью."
+      ]
+    },
+    {
+      "destination": "sd-block-rpo-rto",
+      "chunks": [
+        "RPO: допустимая потеря данных во времени (сколько последних минут можно потерять). RTO: допустимое время восстановления сервиса после аварии.",
+        "Определяют стратегию резервирования и стоимость: RPO ноль требует синхронной репликации, RTO минуты требует автоматического failover и отработанных runbook."
+      ]
+    },
+    {
+      "destination": "sd-block-percentiles",
+      "chunks": [
+        "Перцентили задержки: p99 равен 300 мс означает, что 99% запросов быстрее 300 мс. Среднее скрывает хвост, перцентили его показывают.",
+        "SLA формулируется в перцентилях. Хвост p99 обычно определяется самой медленной зависимостью и ретраями, и именно он портит пользовательский опыт."
+      ]
+    },
+    {
+      "destination": "sd-block-observability",
+      "chunks": [
+        "Логи это события с контекстом, метрики это агрегированные числа во времени, трейсы это путь одного запроса через сервисы с длительностью каждого шага.",
+        "Без трёх сигналов MTTR растёт. Trace ID, проходящий через все сервисы и очереди, это первое, что нужно заложить при переходе к микросервисам."
+      ]
+    },
+    {
+      "destination": "sd-block-expand-contract",
+      "chunks": [
+        "Схема безопасного изменения структуры БД или API: сначала добавить новое (expand), перевести потребителей, потом удалить старое (contract). Каждый шаг обратно совместим.",
+        "Позволяет менять схему без даунтайма и с откатом на любом шаге. Обязательно в разговоре о миграциях."
+      ]
+    },
+    {
+      "destination": "sd-block-strangler",
+      "chunks": [
+        "Постепенная замена монолита: новый функционал и по одному вынесенные модули встают за фасадом, который маршрутизирует запросы между старой и новой системой, пока монолит не «усохнет».",
+        "Альтернатива большому переписыванию. Управляемый риск, измеримый прогресс по доле трафика, возможность остановиться на любом этапе."
+      ]
+    },
+    {
+      "destination": "sd-block-acl",
+      "chunks": [
+        "Слой-переводчик между новой системой и старой моделью данных, чтобы устаревшие структуры и термины не протекали в новый код.",
+        "Даёт новой системе чистую модель и позволяет менять старую независимо. Стоит ресурсов, поэтому нужен только на границах с действительно проблемным наследием."
+      ]
+    },
+    {
+      "destination": "sd-block-cqrs",
+      "chunks": [
+        "Разделение моделей чтения и записи: запись идёт в нормализованную модель, а чтение из отдельных денормализованных проекций, обновляемых по событиям.",
+        "Помогает масштабировать чтение и строить разные представления, но добавляет итоговую консистентность и второй набор кода. Не применять без явной проблемы с чтением."
+      ]
+    },
+    {
+      "destination": "sd-block-transactions",
+      "chunks": [
+        "Атомарное изменение данных в нескольких системах. Классический вариант двухфазный коммит (2PC) с координатором, который блокирует ресурсы до завершения.",
+        "Дорогие, медленные, чувствительные к отказу координатора. Зрелый ответ: избегать через дизайн границ сервисов, saga и outbox, а не пытаться реализовать 2PC."
+      ]
+    },
+    {
+      "destination": "sd-block-dlq",
+      "chunks": [
+        "Отдельная очередь для сообщений, которые не удалось обработать после всех попыток.",
+        "Не теряем данные и не блокируем основную очередь «ядовитым» сообщением. Нужен процесс разбора DLQ: кто смотрит, как часто, как переотправляет."
+      ]
+    },
+    {
+      "destination": "sd-block-hashing",
+      "chunks": [
+        "Способ распределения ключей по узлам, при котором добавление или удаление узла перемещает лишь малую долю ключей.",
+        "Основа кэшей и шардированных хранилищ. Достаточно знать, зачем оно нужно: чтобы масштабирование не обнуляло кэш."
+      ]
+    },
+    {
+      "destination": "sd-block-geoindex",
+      "chunks": [
+        "Способы разбиения поверхности Земли на ячейки со строковым или числовым идентификатором, где близкие точки попадают в близкие ячейки.",
+        "Основа поиска «ближайших» объектов за константное время: водителей, курьеров, точек выдачи. Позволяет объяснить, почему поиск не требует перебора всех объектов."
+      ]
+    },
+    {
+      "destination": "sd-glossary-experience",
+      "chunks": []
+    },
+    {
+      "destination": "sd-interview-purpose",
+      "chunks": [
+        "Секция System Design для технического менеджера проектов в Яндексе (и в большинстве крупных технологических компаний) устроена иначе, чем для разработчика. От кандидата не ждут кода, знания внутренностей конкретной СУБД или умения написать алгоритм консистентного хеширования на доске. Проверяют другое, и это стоит проговорить себе заранее, чтобы не пытаться играть роль архитектора.",
+        "Умение задавать вопросы. Первое, что смотрит интервьюер: бросился ли кандидат рисовать квадратики или сначала уточнил, кто пользователь, какой масштаб, какие ограничения. Менеджер, который не уточняет требования, в реальной работе приносит команде задачу с дырами.",
+        "Оценка нагрузки и порядок величин. Нужно уметь за две минуты прикинуть RPS, объём хранилища и трафик и понимать, что 100 RPS и 100 000 RPS требуют разных решений. Точность не важна, важен порядок величины и ход рассуждений.",
+        "Видение компромиссов. Любое решение что-то стоит: консистентность против доступности, скорость выкатки против риска, простота против масштабируемости. Интервьюер ждёт, что кандидат сам называет цену решения, а не защищает его как единственно верное.",
+        "Риски и режимы отказа. Что сломается первым, что увидит пользователь, как система деградирует, как откатиться. Это ровно та зона, где TPM полезен команде.",
+        "Общий язык с инженерами. Кандидат должен понимать, о чём говорят разработчики, когда обсуждают идемпотентность, шардирование или canary, и уметь переводить это в риски, сроки и решения для бизнеса.",
+        "Структура мышления. Способность вести разговор по плану, держать тайминг, возвращаться к требованиям, фиксировать договорённости. Это то же самое, что фасилитация архитектурного ревью на работе."
+      ]
+    },
+    {
+      "destination": "sd-interview-mistakes",
+      "chunks": [
+        "Начать рисовать без вопросов. Первые пять минут без единого уточнения почти всегда трактуются как минус, даже если итоговая схема хорошая.",
+        "Оценивать нагрузку ради галочки. Посчитать RPS и не сделать вывода. Числа должны менять решения.",
+        "Перечислять технологии вместо решений. «Возьмём Kafka, Redis и Kubernetes» без объяснения, какую проблему каждый из них решает, звучит как набор слов из вакансии.",
+        "Защищать единственно верное решение. Интервьюер специально предлагает альтернативу, чтобы посмотреть, умеете ли вы взвешивать. Правильная реакция: «Да, это рабочий вариант, вот чем он лучше и вот чем хуже».",
+        "Игнорировать режимы отказа. Схема, в которой все компоненты всегда работают, для платёжной или транспортной системы не принимается.",
+        "Уходить в процесс вместо системы. Менеджеры часто соскальзывают в «мы бы сделали ретро и завели риск в реестр». Это уместно один раз в конце, но не заменяет технический разбор.",
+        "Молчать, когда думаешь. Интервьюер оценивает ход мысли. Тишина в 40 секунд воспринимается как ступор. Проговаривайте: «Думаю между двумя вариантами, вот в чём разница».",
+        "Не следить за временем. Потратить 20 минут на модель данных и не дойти до отказов и выкатки, где как раз сильные стороны TPM.",
+        "Притворяться архитектором. Если не знаете детали, скажите: «Здесь я бы опирался на решение архитектора, но со своей стороны проверил бы вот эти риски». Честность про границу компетенции ценится выше, чем уверенная ошибка."
+      ]
+    },
+    {
+      "destination": "sd-framework-1",
+      "chunks": [
+        "Ниже тайминг, который стоит выучить и держать в голове как чек-лист. Секция обычно длится 45–60 минут, из которых 5 минут уходит на знакомство и 5 на вопросы кандидата, так что на собственно дизайн остаётся около 40–45 минут.",
+        "Время Этап Что делать Что говорить вслух",
+        "0–5 мин Уточнение требований Функциональные требования (что делает система), нефункциональные (нагрузка, задержки, доступность, консистентность), ограничения (регулятор, бюджет, сроки, существующие системы) «Давайте зафиксируем, что мы строим и для кого. Я задам несколько вопросов, потом сформулирую скоуп»",
+        "5–10 мин Оценка нагрузки DAU, действий на пользователя, RPS средний и пиковый, размер записи, объём данных в год, соотношение чтения и записи «Прикину порядок величин, чтобы понять, нужно ли нам вообще горизонтальное масштабирование»",
+        "10–14 мин API 3–5 ключевых эндпоинтов: метод, путь, входные и выходные поля, идемпотентность, коды ошибок «Опишу контракт с клиентом, чтобы дальше было понятно, какие данные и куда идут»",
+        "14–18 мин Модель данных Основные сущности, ключи, индексы, что нужно хранить долго, что можно потерять «Выделю сущности и определю, какое хранилище под какой паттерн доступа»",
+        "18–26 мин Компоненты и схема Высокоуровневая схема: клиент, шлюз, сервисы, хранилища, очереди, внешние системы. Проговорить поток основного сценария «Нарисую happy path, потом будем усложнять»",
+        "26–31 мин Масштабирование Где узкое место, как его расшить: кэш, шардирование, реплики, асинхронность, разделение чтения и записи «При росте нагрузки в 10 раз первым упадёт вот это, поэтому…»",
+        "31–36 мин Отказоустойчивость и деградация Отказ каждого компонента: что видит пользователь, что делает система, как восстанавливаемся, RPO/RTO «Пройдусь по компонентам и для каждого назову режим отказа и деградацию»",
+        "36–40 мин Наблюдаемость и выкатка SLI/SLO, ключевые метрики и алерты, трейсы, план выкатки через флаги и canary, критерии отката «Как мы поймём, что система работает, и как безопасно её выкатить»",
+        "40–45 мин Компромиссы и итог Таблица альтернатив, что бы сделали иначе при других требованиях, открытые вопросы «Подведу итог: что выбрали, чем заплатили, что оставили на потом»"
+      ]
+    },
+    {
+      "destination": "sd-framework-2",
+      "chunks": [
+        "Три группы вопросов, которые нужно задать в любой задаче.",
+        "Функциональные требования. Кто пользователь (человек, другой сервис, партнёр). Какие основные сценарии, а какие можно вынести за скоуп. Есть ли административные и служебные сценарии (сверка, отчёты, поддержка). Что происходит с данными после основного действия (история, аналитика, аудит).",
+        "Нефункциональные требования. Ожидаемая нагрузка сейчас и через год. Допустимая задержка ответа (p99). Целевая доступность (99,9% это 43 минуты простоя в месяц, 99,99% это 4,3 минуты). Требования к консистентности: допустимо ли, чтобы пользователь на секунду видел устаревшие данные. География: один регион или несколько дата-центров. Долговечность: можно ли потерять данные за последние секунды при аварии.",
+        "Ограничения. Регуляторные требования (персональные данные, платёжная информация, локализация). Существующие системы, с которыми нужно интегрироваться. Бюджет, сроки, размер команды. Технологический стек, который уже используется."
+      ]
+    },
+    {
+      "destination": "sd-framework-4",
+      "chunks": [
+        "API. Достаточно 3–5 эндпоинтов. Для каждого назовите метод, путь, ключевые поля, ответ и то, идемпотентен ли он. Для операций с побочными эффектами сразу говорите про ключ идемпотентности в заголовке или теле запроса. Обозначьте, что синхронно, а что асинхронно (например, создание платежа возвращает статус PENDING , а результат приходит через опрос или вебхук).",
+        "Модель данных. Назовите основные сущности и ключи. Определите паттерн доступа: чтение по ключу, диапазонные запросы по времени, поиск по геолокации, аналитика. Под каждый паттерн выберите хранилище и объясните почему. Реляционная БД для транзакций и связей, key-value для быстрого чтения по ключу, колоночная для аналитики, очередь для событий. Не нужно перечислять конкретные бренды, достаточно класса хранилища и одного примера.",
+        "Схема. Рисуйте слева направо: клиент, точка входа (балансировщик, шлюз), сервисы, хранилища, очереди, внешние системы. Сначала happy path одной стрелкой, потом усложнение. Каждый компонент на схеме должен быть оправдан: если добавляете очередь, скажите, какую проблему она решает (сглаживание пика, развязка отказов, гарантия доставки)."
+      ]
+    },
+    {
+      "destination": "sd-framework-5",
+      "chunks": [
+        "Масштабирование. Найдите узкое место через оценку нагрузки. Типовой порядок расширения: кэш перед чтением, реплики чтения, разделение по сервисам, шардирование записи, асинхронная обработка тяжёлых операций. Для каждого шага называйте цену: кэш создаёт проблему инвалидации, реплики дают отставание, шардирование усложняет транзакции и запросы между шардами.",
+        "Отказы и деградация. Пройдитесь по каждому компоненту схемы и задайте три вопроса: что произойдёт, если он недоступен; что увидит пользователь; как система восстановится. Хорошая деградация это когда пользователь получает уменьшенную, но осмысленную функциональность: «Платёж принят, результат придёт уведомлением» лучше, чем ошибка 500.",
+        "Наблюдаемость и выкатка. Назовите 3–5 SLI (успешность запросов, задержка p99, глубина очереди, отставание реплики, доля таймаутов к партнёрам) и целевые SLO. Опишите план выкатки: за флагом, canary на 1% трафика, автоматические критерии отката, полная раскатка. Скажите, какие дашборды смотрите во время выкатки.",
+        "Компромиссы. Завершите таблицей из 2–3 альтернатив с плюсами и минусами и объяснением выбора. Проговорите, что бы изменили при других требованиях: если бы нагрузка была в 100 раз меньше, если бы консистентность была не критична, если бы был жёсткий срок в месяц."
+      ]
+    },
+    {
+      "destination": "sd-framework-6",
+      "chunks": [
+        "Кто пользователь и какие 2–3 основных сценария входят в скоуп, а какие нет.",
+        "Целевые числа: RPS средний и пиковый, объём данных, p99 задержки, доступность.",
+        "Соотношение чтения и записи и вывод из него.",
+        "Требование к консистентности: строгая или итоговая, и где именно.",
+        "Идемпотентность операций с побочными эффектами и ключ идемпотентности.",
+        "Синхронные и асинхронные части, зачем нужна очередь и что будет при её отказе.",
+        "Одна точка отказа (SPOF) на схеме и как её убираем.",
+        "Режим деградации для пользователя при отказе внешней зависимости.",
+        "Таймауты, ретраи с backoff и jitter, circuit breaker к внешним системам.",
+        "Как храним долго и как чистим или архивируем данные.",
+        "SLI/SLO и 3–5 ключевых алертов.",
+        "План выкатки: флаг, canary, критерии Go/No-Go и отката.",
+        "Безопасность на уровне здравого смысла: аутентификация, авторизация, шифрование персональных и платёжных данных, аудит.",
+        "Стоимость: где основные расходы и что можно упростить на старте.",
+        "Итоговая таблица компромиссов и открытые вопросы."
+      ]
+    },
+    {
+      "destination": "sd-estimates",
+      "chunks": [
+        "Цель этапа не точное число, а порядок величины и вывод, который из него следует. Типовые числа, которые нужно знать наизусть.",
+        "Величина Значение Зачем",
+        "Секунд в сутках 86 400, округляем до 100 000 Перевод суточных событий в RPS: 10 млн событий в сутки это примерно 100 RPS в среднем",
+        "Пиковый коэффициент 2–3 для равномерных сервисов, 5–10 для сервисов с выраженным пиком (такси в час пик, распродажа) Проектировать нужно под пик, а не под среднее",
+        "Размер типовой записи Короткая транзакция 200–500 байт, событие с метаданными около 1 КБ, документ или JSON с историей 5–10 КБ Объём хранилища в год = событий в сутки × размер × 365",
+        "Один сервер приложений Порядка 1 000–10 000 простых RPS в зависимости от логики Понять, сколько инстансов нужно и нужно ли вообще масштабирование",
+        "Одна реляционная БД (одна нода) Тысячи записей в секунду, десятки тысяч чтений при хороших индексах Понять момент, когда нужны реплики или шардирование",
+        "Задержки Чтение из памяти доли миллисекунды, из кэша по сети 0,5–1 мс, из диска БД единицы миллисекунд, между дата-центрами десятки миллисекунд, HTTP-запрос к внешнему партнёру сотни миллисекунд Оценка бюджета задержки p99 и того, сколько последовательных вызовов можно позволить",
+        "Пропускная способность сети 1 Гбит/с это около 100 МБ/с Проверить, не упрёмся ли в сеть при передаче больших объёмов",
+        "Формулы, которые стоит проговаривать вслух:",
+        "Средний RPS = событий в сутки / 86 400 Пиковый RPS = средний RPS × пиковый коэффициент Объём в год = событий в сутки × размер записи × 365 Трафик = RPS × средний размер запроса или ответа Инстансов = пиковый RPS / RPS на инстанс × запас (обычно 1,5–2)",
+        "Пример рассуждения вслух: «Пусть 20 млн активных пользователей, каждый делает 2 платежа в сутки. Это 40 млн операций в сутки, около 460 RPS в среднем, при пиковом коэффициенте 5 это около 2 300 RPS. Каждая операция это запись около 1 КБ плюс события аудита, итого около 3 КБ, значит около 120 ГБ в сутки, около 45 ТБ в год. Вывод: по записи это не экстремальная нагрузка для кластера, но данные нужно партиционировать по времени и выносить историю в холодное хранилище»."
+      ]
+    },
+    {
+      "destination": "sd-payments-source-0",
+      "chunks": [
+        "Спроектировать сервис мгновенных переводов между клиентами разных банков по номеру телефона. Пользователь в приложении своего банка вводит номер телефона и сумму, получатель видит деньги на счёте в течение секунд. Сервис работает круглосуточно, участвует множество банков, есть регулятор, который задаёт требования к времени исполнения, отчётности и хранению данных."
+      ]
+    },
+    {
+      "destination": "sd-case-payments",
+      "chunks": [
+        "Мы проектируем сторону банка-участника или центральный узел платёжной системы? Ожидаемый ответ: сторону банка-участника, который принимает перевод от своего клиента, взаимодействует с центральным узлом (оператор платёжной системы) и с банком-получателем. Это упрощает задачу и делает её ближе к реальному опыту.",
+        "Какая нагрузка и пики? Ожидаемый ответ: 20–30 млн активных клиентов, до нескольких тысяч переводов в секунду в пике (зарплатные дни, вечер пятницы, праздники), рост в 2 раза за год.",
+        "Требования ко времени исполнения? Ожидаемый ответ: подтверждение клиенту за единицы секунд, регуляторный лимит на общее время исполнения перевода, p99 ответа на инициацию в пределах 1–2 секунд.",
+        "Какая консистентность нужна? Ожидаемый ответ: строгая для баланса и статуса перевода, деньги не могут списаться дважды и не могут пропасть. История операций может отставать на секунды.",
+        "Что должно происходить при недоступности банка-получателя или центрального узла? Ожидаемый ответ: перевод не должен зависнуть в неопределённом состоянии дольше регламентного времени, клиент должен получить понятный статус, деньги должны вернуться при неуспехе.",
+        "Есть ли требования к хранению и аудиту? Ожидаемый ответ: хранить историю операций несколько лет, обеспечить неизменяемый аудит, ежедневную сверку с оператором платёжной системы, отчётность.",
+        "Какие ещё сценарии в скоупе: лимиты, антифрод, возвраты? Ожидаемый ответ: лимиты и антифрод-проверка обязательны как вызовы внешних сервисов, возвраты и оспаривания можно оставить за скоупом.",
+        "Зафиксированный скоуп: приём перевода от клиента, проверка лимитов и антифрода, резервирование средств, отправка в платёжную систему, получение результата, финализация или откат, уведомление клиента, сверка."
+      ]
+    },
+    {
+      "destination": "sd-payments-source-2",
+      "chunks": [
+        "Активных клиентов 25 млн Переводов на клиента в сутки ~1,5 (исходящие + входящие) Операций в сутки ~40 млн Средний RPS 40 млн / 86 400 ≈ 460 Пиковый коэффициент 5 (вечер пятницы, праздники) Пиковый RPS инициаций ≈ 2 300 Запросов статуса ×3 к инициациям (опрос клиентом) ≈ 7 000 RPS чтения Запись на перевод ~1 КБ основная + ~2 КБ событий и аудита Объём в сутки 40 млн × 3 КБ ≈ 120 ГБ Объём в год ≈ 45 ТБ, хранить 5 лет ≈ 220 ТБ",
+        "Выводы. Запись на уровне 2–3 тысяч транзакций в секунду посильна для кластера реляционной БД, но с партиционированием по времени и шардированием по клиенту при росте. Чтение статуса нужно снимать с основной БД через кэш или реплики. Основной объём данных это история и аудит, их нужно выносить в холодное хранилище. Главный риск не в пропускной способности, а в корректности при отказах."
+      ]
+    },
+    {
+      "destination": "sd-payments-source-3",
+      "chunks": [
+        "Эндпоинт Назначение Ключевые поля Особенности",
+        "POST /transfers Инициировать перевод Заголовок Idempotency-Key , from_account , to_phone , to_bank_id , amount , currency , purpose Идемпотентен по ключу. Возвращает transfer_id и статус PENDING или ACCEPTED . Повтор с тем же ключом возвращает тот же результат, а с тем же ключом и другими параметрами возвращает 409",
+        "GET /transfers/{id} Статус перевода status , final , updated_at , failure_reason Читается из кэша или реплики, допустимо отставание в секунды",
+        "GET /recipients?phone= Найти получателя и банки по умолчанию Список банков, замаскированное имя получателя Синхронный вызов к оператору платёжной системы, кэшируется на короткое время",
+        "POST /callbacks/psp Вебхук от платёжной системы с результатом external_id , status , подпись Идемпотентен по external_id , проверка подписи, может прийти повторно и не по порядку",
+        "GET /transfers?account=&from=&to= История операций Пагинация по курсору Читается из отдельной проекции для истории, не из транзакционной таблицы"
+      ]
+    },
+    {
+      "destination": "sd-payments-source-4",
+      "chunks": [
+        "transfers : transfer_id (первичный ключ), idempotency_key (уникальный индекс вместе с client_id ), from_account , to_phone_hash , to_bank_id , amount , status , external_id , created_at , updated_at , version для оптимистичной блокировки. Партиционирование по месяцу создания, шардирование по from_account при росте.",
+        "transfer_events : неизменяемый журнал переходов статуса: transfer_id , from_status , to_status , reason , occurred_at . Это источник правды для расследований и аудита.",
+        "holds (резервы): hold_id , account , amount , transfer_id , expires_at , status . Резерв живёт в системе учёта счетов (АБС или ledger), здесь хранится ссылка.",
+        "outbox : event_id , aggregate_id , type , payload , created_at , published_at . Заполняется в той же транзакции, что и изменение transfers .",
+        "reconciliation_records : результат сверки с реестром оператора: date , external_id , our_status , their_status , discrepancy_type , resolved_at .",
+        "Статусы перевода: CREATED → LIMITS_CHECKED → HELD → SENT → CONFIRMED | REJECTED | TIMEOUT → (при REJECTED или TIMEOUT) RELEASED . Каждый переход строго определён, недопустимые переходы отвергаются на уровне кода и ограничений БД."
+      ]
+    },
+    {
+      "destination": "sd-payments-source-6",
+      "chunks": [
+        "Клиент запрашивает GET /recipients?phone= , сервис через коннектор спрашивает оператора, в каких банках открыт счёт у получателя, и возвращает список с маскированным именем.",
+        "Клиент отправляет POST /transfers с ключом идемпотентности. Шлюз проверяет токен, лимит частоты и передаёт запрос в Transfer Service.",
+        "Transfer Service в транзакции проверяет ключ идемпотентности: если запись уже есть, возвращает сохранённый результат. Если нет, создаёт перевод в статусе CREATED .",
+        "Синхронно вызываются антифрод и сервис лимитов с таймаутом 300–500 мс. При отказе антифрода применяется политика: для малых сумм пропустить с пометкой, для больших отклонить с понятной ошибкой.",
+        "Транзакция в ledger резервирует сумму на счёте отправителя (hold с временем жизни). Статус HELD . В той же транзакции БД переводов записывается событие в outbox.",
+        "Клиент получает ответ ACCEPTED с transfer_id за 200–400 мс и начинает опрашивать статус или ждёт push.",
+        "Outbox publisher публикует событие в Kafka. PSP Connector берёт событие, отправляет запрос оператору платёжной системы с нашим transfer_id в качестве внешнего ключа, статус SENT .",
+        "Оператор маршрутизирует перевод в банк-получатель, тот зачисляет средства и подтверждает. Результат приходит вебхуком или через опрос коннектором.",
+        "При CONFIRMED ledger превращает резерв в списание, статус финальный, событие уходит в Kafka, Notification Service шлёт push, History Projection обновляет историю.",
+        "При REJECTED или истечении регламентного времени резерв снимается, статус RELEASED , клиент получает уведомление с причиной.",
+        "Ночью Reconciliation Job сверяет все переводы за сутки с реестром оператора, находит расхождения (у нас TIMEOUT , у них CONFIRMED ) и запускает процедуру доработки: дозачисление, возврат или ручной разбор."
+      ]
+    },
+    {
+      "destination": "sd-payments-source-7",
+      "chunks": [
+        "БД переводов. Первое узкое место при росте записи. Шаги: партиционирование по времени, вынос истории в проекцию, шардирование по счёту отправителя. Шардирование по отправителю сохраняет локальность проверки идемпотентности и лимитов.",
+        "Синхронные вызовы антифрода и лимитов. Они входят в бюджет задержки. Держать жёсткие таймауты, кэшировать лимиты, вызывать параллельно, где возможно.",
+        "Ledger. Обычно это самая консервативная система (АБС). Горячие счета (например, счёт крупного мерчанта) создают конкуренцию за строку. Решение: агрегированные резервы или буферизация зачислений для таких счетов.",
+        "Kafka и коннектор к оператору. Партиционировать топик по transfer_id , чтобы события одного перевода обрабатывались по порядку. Число партиций задаёт параллелизм коннектора. Лаг потребителя это ключевая метрика.",
+        "Чтение статуса. Опрос клиентами создаёт трафик в несколько раз больше инициаций. Отдавать из кэша с коротким TTL, обновляемого по событиям, и переходить на push."
+      ]
+    },
+    {
+      "destination": "sd-payments-source-8",
+      "chunks": [
+        "Отказ Поведение системы Что видит пользователь",
+        "Недоступен антифрод Circuit breaker размыкается. Политика: переводы до порога проходят с пометкой для постконтроля, выше порога отклоняются Малые переводы работают, для крупных сообщение «Временно недоступно, попробуйте позже»",
+        "Недоступен сервис лимитов Использовать последнее закэшированное значение лимита с консервативным запасом либо отклонять В большинстве случаев ничего не замечает",
+        "Недоступен оператор платёжной системы Резерв уже создан, событие лежит в Kafka, коннектор ретраит с backoff. По истечении регламентного времени перевод переводится в TIMEOUT , резерв снимается Статус «Обрабатывается», затем либо успех, либо «Перевод не выполнен, средства возвращены». Деньги не пропадают",
+        "Банк-получатель не отвечает Оператор возвращает отказ или таймаут. Наша реакция та же, что выше. Особый случай: оператор подтвердил, а получатель зачислил с задержкой, это разбирается сверкой Сообщение «Банк получателя временно недоступен, средства возвращены»",
+        "Падение мастера БД переводов Автоматический failover на синхронную реплику, RPO ноль, RTO до минуты. Инициации в этот момент получают ошибку, клиент повторяет с тем же ключом Короткий период «Попробуйте ещё раз», повтор безопасен благодаря идемпотентности",
+        "Kafka недоступна Outbox накапливает события в БД, publisher ретраит. Переводы принимаются, но не отправляются. При длительном отказе включается флаг ограничения приёма, чтобы не копить резервы Статусы «Обрабатывается» дольше обычного, затем при длительном сбое «Сервис временно недоступен»",
+        "Потерян вебхук от оператора Коннектор через таймаут опрашивает статус по external_id . Сверка ловит оставшиеся расхождения Задержка обновления статуса на минуты, деньги в правильном месте"
+      ]
+    },
+    {
+      "destination": "sd-case-payments",
+      "chunks": [
+        "SLI и SLO. Доля успешных инициаций (цель 99,95%), p99 времени ответа на инициацию (до 1 секунды), доля переводов, достигших финального статуса в регламентное время (99,9%), лаг потребителя Kafka (до 30 секунд), доля расхождений на сверке (менее 0,01%), размер DLQ (ноль в норме).",
+        "Алерты. Рост доли TIMEOUT выше базовой линии, рост p99 к антифроду или оператору, состояние circuit breaker «разомкнуто» дольше минуты, число переводов в нефинальном статусе старше регламента, расхождения сверки.",
+        "Трейсы. Trace ID проходит от шлюза через сервис, outbox, Kafka и коннектор. Для платёжной системы это то, что позволяет отвечать на обращение клиента за минуты, а не часы.",
+        "Выкатка. Новая логика за feature flag по сегментам: сначала сотрудники банка, затем 1% клиентов, затем по регионам. Canary на одном инстансе с автоматическим откатом по росту ошибок и p99. Изменения схемы БД через expand/contract. Критерии Go/No-Go этапа: отсутствие роста расхождений на сверке за два цикла, стабильные SLI, отсутствие инцидентов уровня выше среднего."
+      ]
+    },
+    {
+      "destination": "sd-payments-source-10",
+      "chunks": [
+        "Решение Вариант A Вариант B Выбор и почему",
+        "Отправка в платёжную систему Синхронно в рамках запроса клиента Асинхронно через outbox и очередь B. Клиент получает быстрый ответ, отказ оператора не блокирует приём, ретраи управляемы. Цена: статус «Обрабатывается» и необходимость push",
+        "Гарантия отсутствия дублей Распределённая транзакция между БД и брокером Outbox плюс идемпотентность на каждом шаге B. Проще, надёжнее, без блокировок. Цена: возможные дубли событий, которые гасятся идемпотентностью",
+        "Хранилище переводов Одна большая реляционная таблица Партиционирование и шардирование по счёту Начать с A с партиционированием по времени, заложить ключ шардирования заранее. Шардировать при приближении к пределу записи",
+        "Поведение при отказе антифрода Всегда отклонять Пропускать малые суммы с постконтролем B по согласованию с рисками и ИБ. Доступность сервиса переводов важнее, а риск ограничен суммой",
+        "Статус клиенту Опрос Push по событию Оба: push как основной канал, опрос как резерв с кэшем"
+      ]
+    },
+    {
+      "destination": "sd-payments-section-7",
+      "chunks": [
+        "Мобильное приложение → API Gateway (auth, лимиты, идемпотентность) → Transfer Service → БД переводов (мастер + реплики) Transfer Service → Антифрод → Сервис лимитов → Ledger / АБС (резерв и списание) outbox → Kafka: transfer-events → PSP Connector → Оператор платёжной системы → Банк-получатель Kafka: transfer-events → Notification Service → History Projection → История (реплика чтения) Reconciliation Job → Реестр оператора → Расхождения → Операционная команда"
+      ]
+    },
+    {
+      "destination": "sd-payments-experience",
+      "chunks": []
+    },
+    {
+      "destination": "sd-payments-section-16",
+      "chunks": [
+        "Клиент отправил перевод, получил таймаут и нажал кнопку ещё раз. Что произойдёт? Приложение повторяет запрос с тем же ключом идемпотентности, сервис находит запись и возвращает сохранённый статус. Второго перевода не будет. Если приложение сгенерировало новый ключ, это ошибка клиента, и защитой служит антифрод-правило на одинаковые переводы за короткое окно.",
+        "Почему не двухфазный коммит между БД и Kafka? 2PC блокирует ресурсы, зависит от координатора и плохо переживает отказы. Outbox даёт тот же эффект через одну локальную транзакцию и at least once доставку с идемпотентными потребителями.",
+        "Как обеспечить порядок событий одного перевода? Партиционировать топик по transfer_id , тогда все события перевода попадают в одну партицию и читаются по порядку. Потребитель дополнительно проверяет допустимость перехода статуса.",
+        "Оператор подтвердил перевод, а у нас записан таймаут и резерв снят. Что делать? Это классическое расхождение, которое ловит сверка. Процедура: повторное списание с уведомлением клиента либо, если средств нет, задолженность и ручной разбор. Важно, чтобы такие случаи были измеримы и стремились к нулю.",
+        "Как шардировать, если запросов истории по получателю тоже много? Транзакционная таблица шардируется по отправителю, а история строится как отдельная проекция по событиям с индексами и по отправителю, и по получателю. Это применение CQRS ровно там, где оно нужно.",
+        "Какие данные нельзя хранить в логах? Полный номер телефона, номера счетов, персональные данные. В логах и трейсах маскированные значения и внутренние идентификаторы. Аудит хранится в защищённом неизменяемом хранилище с ограниченным доступом.",
+        "Как выкатывать изменение в конечный автомат статусов? Только expand/contract: сначала код понимает и старые, и новые статусы, потом переключение за флагом, потом удаление старых веток. Откат на любом шаге без потери данных.",
+        "Что делать при DDoS на инициацию переводов? Лимиты на шлюзе по клиенту и устройству, приоритизация трафика авторизованных клиентов, bulkhead между инициацией и чтением статуса, чтобы атака на одно не положила другое."
+      ]
+    },
+    {
+      "destination": "sd-notifications-source-0",
+      "chunks": [
+        "Спроектировать платформу уведомлений для крупного продукта: десятки внутренних сервисов (платежи, заказы, маркетинг, безопасность) отправляют пользователям сообщения по каналам push, SMS и email. Нужны приоритеты (код подтверждения важнее рекламной рассылки), дедупликация, ретраи, работа с несколькими внешними провайдерами, учёт предпочтений пользователя и отчётность о доставке."
+      ]
+    },
+    {
+      "destination": "sd-notifications-source-1",
+      "chunks": [
+        "Какие классы сообщений и требования к задержке для каждого? Ожидаемый ответ: транзакционные критичные (коды подтверждения, платежи) доставка за секунды; транзакционные обычные (статус заказа) за минуту; маркетинговые за часы, допустимо отложить.",
+        "Какой объём? Ожидаемый ответ: 50 млн пользователей, около 200 млн сообщений в сутки, из них 80% push, 15% email, 5% SMS. Маркетинговые кампании создают всплески в десятки миллионов сообщений за час.",
+        "Что означает «доставлено» и нужен ли статус доставки отправителю? Ожидаемый ответ: нужен статус на уровне «принято провайдером», «доставлено», «прочитано» где возможно, для транзакционных сообщений отправитель хочет вебхук.",
+        "Допустимы ли дубли? Ожидаемый ответ: дубль кода подтверждения терпим, дубль маркетингового push раздражает, дубль SMS стоит денег. Нужна дедупликация по ключу от отправителя в окне времени.",
+        "Требования к предпочтениям и регуляторике? Ожидаемый ответ: пользователь может отключать каналы и категории, маркетинг только с согласия, тихие часы, ограничение частоты маркетинговых сообщений в сутки.",
+        "Сколько провайдеров и что при отказе одного? Ожидаемый ответ: два и более на канал, при деградации одного переключаться на другой, учитывать стоимость и качество доставки по операторам.",
+        "Нужны ли шаблоны и локализация? Ожидаемый ответ: да, шаблоны с переменными и языками, управляются продуктовыми командами без релиза."
+      ]
+    },
+    {
+      "destination": "sd-notifications-source-2",
+      "chunks": [
+        "Сообщений в сутки 200 млн Средний RPS 200 млн / 86 400 ≈ 2 300 Пик маркетинговой кампании 30 млн за час ≈ 8 300 RPS поверх обычного трафика Пиковый RPS для приёма ≈ 10 000–12 000 SMS в сутки 10 млн, при цене за штуку это заметная статья расходов Размер сообщения ~1 КБ (получатель, шаблон, переменные, метаданные) Статусы доставки 2–3 события на сообщение ≈ 500 млн событий в сутки Хранение статусов 90 дней 200 млн × 1,5 КБ × 90 ≈ 27 ТБ",
+        "Выводы. Приём нужно делать асинхронным и буферизовать в очереди: пики маркетинга в 4–5 раз превышают среднее и не должны влиять на транзакционные сообщения. Провайдеры имеют собственные лимиты (тысячи сообщений в секунду), поэтому отправка ограничивается rate limiter на провайдера, а не нашей мощностью. Статусы доставки это отдельный поток событий большего объёма, чем сами сообщения, для него нужно хранилище с записью по времени и очисткой."
+      ]
+    },
+    {
+      "destination": "sd-notifications-source-3",
+      "chunks": [
+        "Эндпоинт Назначение Ключевые поля Особенности",
+        "POST /notifications Отправить уведомление dedup_key , user_id , template_id , params , priority (critical, high, normal, bulk), channels (список с порядком предпочтения), ttl Возвращает notification_id и 202. Дедупликация по dedup_key в окне 24 часа. Синхронно только валидация",
+        "POST /notifications/batch Массовая отправка campaign_id , сегмент или список user_id , шаблон, окно отправки Только для priority bulk, режется на пачки и ставится в отдельную очередь с ограничением скорости",
+        "GET /notifications/{id} Статус status по каналам, время, провайдер, ошибка Читается из хранилища статусов",
+        "PUT /users/{id}/preferences Предпочтения пользователя Каналы, категории, тихие часы, язык Кэшируется, инвалидация по событию изменения",
+        "POST /webhooks/{provider} Статусы от провайдера provider_message_id , status , подпись Идемпотентен, приходит не по порядку, обрабатывается асинхронно"
+      ]
+    },
+    {
+      "destination": "sd-notifications-source-4",
+      "chunks": [
+        "notifications : notification_id , dedup_key (уникальный индекс с sender_id и днём), user_id , template_id , priority , params , status , created_at , expires_at . Партиционирование по дню, TTL 90 дней.",
+        "deliveries : попытка доставки по каналу: delivery_id , notification_id , channel , provider , provider_message_id , attempt , status , error_code , sent_at , delivered_at . Основа отчётности и биллинга.",
+        "user_preferences : user_id , включённые каналы, категории, тихие часы, язык, лимит маркетинга в сутки. Малый объём, читается на каждое сообщение, живёт в key-value кэше.",
+        "user_devices : push-токены с платформой, датой обновления и признаком невалидности.",
+        "templates : template_id , версия, канал, язык, тело с переменными, категория. Версионируются, кэшируются.",
+        "provider_health : скользящие показатели успешности и задержки по провайдеру и оператору для маршрутизации."
+      ]
+    },
+    {
+      "destination": "sd-notifications-source-6",
+      "chunks": [
+        "Сервис платежей вызывает POST /notifications с dedup_key вида payment-confirm-{transfer_id} , приоритетом critical и каналами push, затем SMS как резерв.",
+        "Ingest API проверяет схему, наличие шаблона, записывает dedup_key в быстрый key-value с TTL 24 часа (операция «записать, если нет»). При дубле возвращает 202 с исходным notification_id и ничего не отправляет.",
+        "Сообщение публикуется в топик по приоритету. Топики разделены физически: critical, normal, bulk. Это bulkhead, благодаря которому кампания на 30 млн сообщений не задерживает код подтверждения.",
+        "Router читает сообщение, поднимает предпочтения пользователя из кэша, проверяет тихие часы и суточный лимит для маркетинга, выбирает канал: если есть валидный push-токен и push разрешён, ставит в push-queue. Рендерит шаблон на языке пользователя.",
+        "Push Sender отправляет пачками в платформу уведомлений с учётом её лимитов, сохраняет provider_message_id в deliveries, статус SENT .",
+        "Если платформа вернула, что токен невалиден, устройство помечается, а Router выполняет fallback на следующий канал из списка (SMS) для critical сообщений. Для normal и bulk fallback по политике категории.",
+        "SMS Sender выбирает провайдера по маршрутизации: оператор получателя, текущее здоровье провайдера, стоимость. Rate limiter на провайдера не даёт превысить его лимит. Отправка, статус SENT .",
+        "Провайдер присылает статус доставки вебхуком. Status Processor находит delivery по provider_message_id , обновляет статус, публикует событие для отправителя, если он подписан.",
+        "При временной ошибке провайдера Sender ретраит с экспоненциальным backoff и jitter, до 5 попыток или до истечения ttl сообщения. После исчерпания попыток сообщение уходит в DLQ, а для critical запускается fallback на другого провайдера сразу после первой-второй ошибки.",
+        "Bulk-кампания режется Campaign Service на пачки по 10 тысяч и публикуется с контролируемой скоростью, чтобы очередь bulk не превышала заданную глубину и не создавала лавину при переходе к провайдерам."
+      ]
+    },
+    {
+      "destination": "sd-notifications-source-7",
+      "chunks": [
+        "Лимиты провайдеров. Это внешнее ограничение, которое нельзя масштабировать деньгами быстро. Решение: несколько провайдеров, распределённый rate limiter на каждого, приоритетная выдача critical сообщений внутри лимита.",
+        "Чтение предпочтений на каждое сообщение. 10 тысяч чтений в секунду. Кэш с инвалидацией по событию изменения предпочтений, кэш прогрет, hit rate выше 99%.",
+        "Рендеринг шаблонов. CPU-bound операция, масштабируется горизонтально числом инстансов Router. Кэшировать скомпилированные шаблоны.",
+        "Хранилище статусов. 500 млн записей в сутки. Партиционирование по дню, append-only запись, агрегаты для отчётов считаются потоково, сырые данные чистятся по TTL.",
+        "Дедупликация. Key-value с операцией «записать, если нет» и TTL. При росте шардируется по ключу. Отказ дедупликатора: политика fail open (пропускать с риском дубля) для критичных и fail closed (задерживать) для маркетинга.",
+        "Партиционирование Kafka. По user_id , чтобы сообщения одному пользователю шли по порядку и чтобы применять лимит частоты на пользователя в одном потребителе."
+      ]
+    },
+    {
+      "destination": "sd-notifications-source-8",
+      "chunks": [
+        "Отказ Поведение системы Что видит пользователь",
+        "Отказ основного SMS-провайдера Health-метрика падает, маршрутизатор переводит трафик на второго провайдера, circuit breaker к первому. Уже отправленные ретраятся через второго SMS приходят с задержкой в секунды или десятки секунд",
+        "Платформа push недоступна Очередь push растёт, для critical fallback на SMS по таймауту 10–30 секунд, для остальных ожидание с TTL Код подтверждения приходит по SMS, маркетинговые push приходят позже или не приходят вовсе, если истёк TTL",
+        "Отказ кэша предпочтений Чтение из БД с деградацией пропускной способности, при перегрузке БД для bulk применяется «по умолчанию не отправлять», для critical «отправлять» Транзакционные сообщения работают, маркетинг приостанавливается",
+        "Отказ дедупликатора Critical: fail open, возможны редкие дубли. Bulk: пауза приёма Возможный повторный код подтверждения, маркетинг задерживается",
+        "Kafka недоступна Ingest API отвечает 503 с Retry-After, отправители ретраят. Для сервисов с собственным outbox ничего не теряется Задержка уведомлений на время инцидента",
+        "Отправитель прислал 10 млн сообщений в critical по ошибке Квота на отправителя и приоритет на шлюзе: превышение квоты понижает приоритет или отклоняет Реальные критичные сообщения других сервисов не страдают",
+        "Потерянные вебхуки статусов Периодический опрос статусов у провайдера по сообщениям без финального статуса старше N минут Не видит, отчётность сходится позже"
+      ]
+    },
+    {
+      "destination": "sd-case-notifications",
+      "chunks": [
+        "SLI и SLO. Время от приёма до передачи провайдеру по приоритетам (critical p99 до 5 секунд, normal до 60 секунд, bulk в пределах окна кампании). Доля доставленных по каналу и провайдеру (push выше 95% для валидных токенов, SMS выше 98%). Глубина очередей и лаг потребителей по топикам. Размер DLQ. Стоимость SMS в сутки против плана.",
+        "Алерты. Лаг critical выше 10 секунд, падение доли доставки у провайдера более чем на 5 пунктов за 5 минут, рост DLQ, суточный расход SMS выше бюджета, доля дублей по dedup_key выше базовой линии.",
+        "Выкатка. Новые правила маршрутизации и новые провайдеры за флагами с процентом трафика. Canary на одном инстансе Sender с наблюдением за долей ошибок провайдера. Новые шаблоны проходят предпросмотр и тестовую отправку на внутренний сегмент. Смена приоритетной политики только в низкий трафик и с планом отката через флаг."
+      ]
+    },
+    {
+      "destination": "sd-notifications-source-10",
+      "chunks": [
+        "Решение Вариант A Вариант B Выбор и почему",
+        "Разделение приоритетов Одна очередь с полем приоритета Отдельные топики и потребители на приоритет B. Kafka не поддерживает приоритеты внутри топика, а изоляция ресурсов даёт предсказуемую задержку для critical",
+        "Дедупликация при отказе хранилища Fail closed для всех Fail open для critical, fail closed для bulk B. Пропущенный код подтверждения хуже дубля, а дубль маркетинга хуже задержки",
+        "Выбор провайдера Статическая конфигурация Динамическая маршрутизация по здоровью и цене B с ручным переопределением через флаг. Цена: сложность и необходимость метрик по провайдерам",
+        "Гарантия доставки At most once (не ретраим) At least once с дедупликацией на нашей стороне B. Провайдеры сами не гарантируют идемпотентность, поэтому редкие дубли терпимы, потери нет",
+        "Хранение статусов Вечно в реляционной БД 90 дней сырых плюс агрегаты навсегда B. Объём и стоимость, а для расследований 90 дней достаточно"
+      ]
+    },
+    {
+      "destination": "sd-notifications-section-7",
+      "chunks": [
+        "Сервисы-отправители → Ingest API (валидация, дедуп, шаблон) → Kafka: critical → Router Ingest API → Kafka: normal → Router → Предпочтения и устройства (кэш + БД) Campaign Service → Kafka: bulk (с ограничением скорости) → Router Router → push-queue → Push Sender → APNs / FCM / RuStore Router → sms-queue → SMS Sender (rate limit на провайдера) → SMS-провайдер 1 / 2 Router → email-queue → Email Sender → Email-провайдер 1 / 2 Вебхуки провайдеров → status-events → Status Processor → deliveries → DLQ"
+      ]
+    },
+    {
+      "destination": "sd-notifications-experience",
+      "chunks": []
+    },
+    {
+      "destination": "sd-notifications-section-16",
+      "chunks": [
+        "Как гарантировать, что пользователь не получит больше N маркетинговых сообщений в сутки? Счётчик на пользователя в key-value с TTL до конца суток, проверяется в Router, партиционирование по user_id исключает гонки между инстансами.",
+        "Что делать с тихими часами, если сообщение critical? Политика по категории: коды и безопасность игнорируют тихие часы, всё остальное откладывается до утра с проверкой TTL.",
+        "Как обрабатывать смену часового пояса и языка пользователя? Хранить в предпочтениях, определять по устройству при обновлении токена, рендерить в момент отправки, а не в момент приёма.",
+        "Почему статусы приходят не по порядку и как это обрабатывать? Провайдеры шлют вебхуки параллельно и ретраят. Хранить статус как монотонную последовательность (SENT меньше DELIVERED меньше READ) и не откатывать назад.",
+        "Как отправитель узнает, что сообщение не доставлено? Подписка на события доставки через топик или вебхук, плюс запрос статуса по notification_id . Для платежей это позволяет включить резервный канал на стороне бизнес-процесса.",
+        "Как тестировать шаблоны без риска рассылки на прод? Отдельный тестовый сегмент, режим dry-run с рендерингом без отправки, обязательный предпросмотр и лимит на первый час кампании.",
+        "Как считать стоимость и кто её контролирует? Каждая delivery несёт цену провайдера, агрегаты по отправителю и категории, бюджеты на команду-отправителя с алертами. Это позволяет менеджеру видеть, какой сервис тратит SMS.",
+        "Как реализовать «отменить уведомление», если событие уже неактуально? Поле ttl и проверка актуальности перед отправкой через callback к отправителю или через событие отмены по dedup_key . Полная отмена после передачи провайдеру невозможна."
+      ]
+    },
+    {
+      "destination": "sd-gateway-source-0",
+      "chunks": [
+        "Спроектировать единую точку входа для публичного и партнёрского API компании: аутентификация, маршрутизация к десяткам внутренних сервисов, ограничение частоты запросов по клиентам и тарифам, защита внутренних сервисов от перегрузки. Отдельное внимание алгоритму лимитирования и поведению при отказе самого лимитера."
+      ]
+    },
+    {
+      "destination": "sd-gateway-source-1",
+      "chunks": [
+        "Кто клиенты и сколько их? Ожидаемый ответ: мобильные приложения (миллионы устройств), веб, партнёры по API-ключам (сотни), внутренние сервисы не через этот шлюз.",
+        "Какая нагрузка? Ожидаемый ответ: 50 тысяч RPS в среднем, 150 тысяч в пике, p99 добавленной шлюзом задержки не более 10 мс.",
+        "По каким измерениям лимитируем? Ожидаемый ответ: по API-ключу партнёра согласно тарифу, по пользователю, по IP для неавторизованных, по эндпоинту (дорогие операции строже), плюс глобальный лимит на внутренний сервис как защита.",
+        "Насколько точным должен быть лимит? Ожидаемый ответ: превышение на несколько процентов в пике допустимо, важнее задержка и доступность. Для платных тарифов важна справедливость, но не побайтовая точность.",
+        "Сколько дата-центров? Ожидаемый ответ: два или три, трафик клиента может попадать в разные, значит счётчики должны быть либо распределёнными, либо лимит делится по ДЦ.",
+        "Что важнее при отказе лимитера: пропустить или отклонить? Ожидаемый ответ: для внешнего трафика пропустить с локальным грубым лимитом (fail open с защитой), для защиты внутренних сервисов лучше отклонить лишнее (fail closed на защитном лимите).",
+        "Какие ещё функции нужны шлюзу? Ожидаемый ответ: терминация TLS, проверка JWT, маршрутизация по версии API, таймауты и ретраи к бэкендам, сбор метрик. Трансформации и агрегация ответов за скоупом."
+      ]
+    },
+    {
+      "destination": "sd-gateway-source-2",
+      "chunks": [
+        "Пиковый RPS 150 000 Проверок лимита на запрос 2–3 (ключ, пользователь, эндпоинт) ≈ 400 000 операций/с Бюджет задержки шлюза 10 мс p99, из них на лимитер не более 1–2 мс Инстансов шлюза при 5 000 RPS на инстанс ≈ 30 плюс запас = 45–50 на все ДЦ Активных ключей лимита ~10 млн (пользователи за окно) × ~100 байт ≈ 1 ГБ в памяти Логи доступа 150 000 × 500 байт ≈ 75 МБ/с в пике, ≈ 3 ТБ в сутки",
+        "Выводы. 400 тысяч операций с общим счётчиком в секунду через сеть в каждый запрос это слишком дорого и медленно для бюджета в 1–2 мс. Значит, точные центральные счётчики на каждый запрос не подходят; нужна локальная проверка в памяти инстанса с периодической синхронизацией либо централизованное хранилище с батчингом. Логи доступа нужно семплировать или агрегировать."
+      ]
+    },
+    {
+      "destination": "sd-gateway-source-3",
+      "chunks": [
+        "Эндпоинт Назначение Ключевые поля Особенности",
+        "Любой проксируемый запрос Основной трафик Заголовки Authorization , X-Api-Key , X-Request-Id При превышении лимита ответ 429 с заголовками Retry-After , X-RateLimit-Limit , X-RateLimit-Remaining",
+        "PUT /admin/policies/{id} Управление политиками лимитов Измерение (ключ, пользователь, IP, эндпоинт), лимит, окно, burst, действие Версионируется, раскатывается на инстансы через конфиг-сервис за секунды, с возможностью отката",
+        "GET /admin/usage?key= Потребление по клиенту Агрегаты по минутам и часам Читается из аналитического хранилища, не из горячих счётчиков",
+        "GET /health/ready Готовность инстанса Состояние конфигурации, соединений к хранилищу лимитов Инстанс без актуальной конфигурации не получает трафик"
+      ]
+    },
+    {
+      "destination": "sd-gateway-source-4",
+      "chunks": [
+        "policies : policy_id , тип измерения, шаблон ключа (например api_key:{key}:endpoint:{route} ), limit , window , burst , action (reject, delay, log-only), приоритет, версия. Хранится в конфиг-сервисе, кэшируется в памяти каждого инстанса.",
+        "counters : ключ лимита, значение, метка времени. Для token bucket хранятся два числа: количество токенов и время последнего пополнения. Живут в памяти инстанса и в распределённом key-value с TTL равным окну.",
+        "clients : api_key , тариф, статус, привязанные политики. Кэшируется с инвалидацией по событию.",
+        "usage_aggregates : агрегаты по клиенту, эндпоинту и минуте для биллинга и аналитики. Пишутся асинхронно из логов."
+      ]
+    },
+    {
+      "destination": "sd-gateway-source-6",
+      "chunks": [
+        "Запрос приходит на ближайший ДЦ, L4 балансировщик распределяет его на инстанс шлюза.",
+        "Шлюз терминирует TLS, генерирует или принимает X-Request-Id , проверяет JWT локально по публичному ключу (без похода в сеть) либо ищет API-ключ в локальном кэше.",
+        "Определяется маршрут и набор применимых политик лимитов. Обычно их 2–3: тариф ключа, эндпоинт, глобальная защита сервиса.",
+        "Для каждой политики вычисляется ключ счётчика и проверяется лимит. Порядок: сначала самые дешёвые и строгие (локальные), потом распределённые.",
+        "Если хотя бы одна политика превышена, ответ 429 с Retry-After . Запрос к бэкенду не идёт, это защищает внутренние сервисы.",
+        "Иначе запрос проксируется с таймаутом, заданным для маршрута. Ретраи только для идемпотентных методов и только при сетевых ошибках, максимум один повтор, на другой инстанс бэкенда.",
+        "Ответ возвращается клиенту, в лог пишется запись (с семплированием для успешных 2xx и без семплирования для 4xx/5xx), метрики обновляются.",
+        "Token bucket. У каждого ключа есть ведро ёмкостью burst , в которое со скоростью rate токенов в секунду добавляются токены. Запрос забирает токен; если ведро пусто, запрос отклоняется. Хранить нужно два числа: остаток токенов и время последнего обновления, пополнение вычисляется лениво при обращении. Плюсы: разрешает короткие всплески в пределах burst , дёшев по памяти, естественно описывает тарифы «100 запросов в секунду с всплеском до 500». Минусы: при распределённом хранении нужна атомарная операция чтения-обновления (скрипт на стороне хранилища).",
+        "tokens = min(burst, tokens + (now - last) * rate) if tokens >= 1: tokens -= 1; last = now; allow else: reject, Retry-After = (1 - tokens) / rate",
+        "Sliding window. Считаем запросы за последние N секунд. Точный вариант хранит метки времени всех запросов (дорого по памяти). Приближённый (sliding window counter) хранит счётчик текущего и предыдущего фиксированного окна и взвешивает предыдущее по доле перекрытия. Плюсы: нет эффекта двойного лимита на границе фиксированных окон, память константная. Минусы: не описывает burst отдельно от средней скорости.",
+        "Распределённый счётчик. Три подхода. Первый: центральное key-value с атомарными операциями, точный, но каждая проверка это сетевой вызов, для 150 тысяч RPS это 400 тысяч операций в секунду и добавленная задержка около 1 мс. Второй: локальные счётчики на инстансе с периодической синхронизацией (каждые 100–500 мс инстанс отправляет дельту и получает глобальное значение), неточный на несколько процентов, но без сетевого вызова в критическом пути. Третий: делить лимит между инстансами или ДЦ пропорционально трафику, самый простой, неточный при неравномерном распределении. Практичный выбор: гибрид, где строгие лимиты партнёрских тарифов идут через центральный счётчик с батчингом, а массовые лимиты по пользователям и IP через локальные бакеты с синхронизацией."
+      ]
+    },
+    {
+      "destination": "sd-gateway-source-7",
+      "chunks": [
+        "Сам шлюз. Stateless, масштабируется горизонтально. Узкое место обычно CPU на TLS и парсинг JWT. Решения: сессионное возобновление TLS, кэш результатов проверки токена на его время жизни.",
+        "Хранилище счётчиков. Горячие ключи (один партнёр с огромным трафиком) нагружают один шард. Решение: для горячих ключей локальное лимитирование с делением квоты, либо разбиение ключа на подключи с суммированием.",
+        "Раскатка политик. Тысячи инстансов должны получить новую политику за секунды. Push через конфиг-сервис с версией, инстанс подтверждает применение, дашборд показывает долю инстансов на новой версии.",
+        "Логи. 3 ТБ в сутки. Семплирование успешных запросов, полное логирование ошибок и лимитов, агрегация метрик на инстансе перед отправкой.",
+        "Межрегиональная синхронизация. Асинхронная, с признанием неточности. Для глобально точных лимитов клиент привязывается к одному региону."
+      ]
+    },
+    {
+      "destination": "sd-gateway-source-8",
+      "chunks": [
+        "Отказ Поведение системы Что видит пользователь",
+        "Недоступно хранилище счётчиков Fail open для клиентских лимитов: работают только локальные бакеты с квотой, делённой на число инстансов, увеличенной в 1,5–2 раза. Fail closed для защитных лимитов внутренних сервисов: локальный консервативный лимит. Алерт немедленно Ничего, кроме редких лишних 429 для клиентов с трафиком на грани лимита",
+        "Инстанс шлюза без актуальной конфигурации Readiness отдаёт «не готов» до получения конфигурации, трафик не идёт Ничего, если остальных инстансов достаточно",
+        "Некорректная политика (лимит 0 по ошибке) Валидация в админке, обязательный canary политики на 1% инстансов с наблюдением за долей 429, автоматический откат версии политики при скачке Короткий всплеск 429 на малой доле трафика или ничего",
+        "Внутренний сервис медленно отвечает Таймаут маршрута, circuit breaker на маршрут, ответ 503 с Retry-After, остальные маршруты не страдают благодаря отдельным пулам соединений Ошибка конкретной функции, остальное приложение работает",
+        "Отказ провайдера аутентификации JWT проверяется локально по закэшированным ключам, отзыв токенов задерживается на время кэша Ничего",
+        "Потеря ДЦ DNS и anycast уводят трафик, второй ДЦ должен иметь запас мощности не менее 50%. Счётчики другого ДЦ не переносятся, лимиты временно мягче Возможен рост задержки из-за географии",
+        "Ретраи клиентов после 429 без backoff Retry-After в ответе, для злостных клиентов эскалация: временная блокировка ключа на минуты Партнёр видит блокировку и сообщение в личном кабинете"
+      ]
+    },
+    {
+      "destination": "sd-case-gateway",
+      "chunks": [
+        "SLI и SLO. Добавленная задержка шлюза p99 (до 10 мс), доступность шлюза (99,99%), доля 429 по политике и клиенту (мониторится, а не нормируется), доля 5xx, сгенерированных самим шлюзом (менее 0,01%), время раскатки политики до 99% инстансов (до 30 секунд), задержка проверки лимита p99 (до 2 мс).",
+        "Алерты. Скачок доли 429 по конкретной политике после изменения конфигурации, рост доли fail open режима, отставание версии конфигурации на инстансах, насыщение CPU выше 70%, рост ошибок к хранилищу счётчиков.",
+        "Выкатка. Новая версия шлюза canary на 1–2 инстансах в одном ДЦ, затем по ДЦ. Метрики сравниваются с контрольной группой инстансов. Изменения политик проходят режим log-only (считаем, но не отклоняем) на сутки перед включением. Любое изменение лимита для крупного партнёра согласуется и объявляется заранее."
+      ]
+    },
+    {
+      "destination": "sd-gateway-source-10",
+      "chunks": [
+        "Решение Вариант A Вариант B Выбор и почему",
+        "Алгоритм Sliding window counter Token bucket Token bucket для тарифов (burst понятен партнёрам), sliding window для защиты от злоупотреблений по IP",
+        "Где считаем Центральное хранилище на каждый запрос Локальные бакеты с синхронизацией Гибрид: точные центральные счётчики только для платных тарифов с батчингом, остальное локально. Цена: неточность в несколько процентов",
+        "Поведение при отказе лимитера Fail closed Fail open с локальной защитой B для клиентских лимитов, A для защиты внутренних сервисов",
+        "Ответ при превышении Немедленный 429 Задержка запроса (shaping) A. Задержка удерживает соединения и ресурсы шлюза, лучше честно отдать 429 с Retry-After",
+        "Аутентификация Вызов auth-сервиса на каждый запрос Локальная проверка JWT B. Экономит задержку и убирает зависимость. Цена: отзыв токена работает с задержкой в минуты"
+      ]
+    },
+    {
+      "destination": "sd-gateway-section-7",
+      "chunks": [
+        "Клиенты и партнёры → DNS / anycast → L4 балансировщик → Инстансы API Gateway (N штук в каждом ДЦ) API Gateway → Auth (JWT локально, ключи из кэша) → Rate Limiter (локальные бакеты) → Router / таймауты / ретраи → Внутренние сервисы Rate Limiter → Распределённый key-value (счётчики, TTL), кластер в каждом ДЦ → Асинхронная синхронизация между ДЦ Config Service → Push политик на инстансы → API Gateway API Gateway → Логи доступа (семплированные) → Агрегатор → Usage и метрики"
+      ]
+    },
+    {
+      "destination": "sd-gateway-experience",
+      "chunks": []
+    },
+    {
+      "destination": "sd-gateway-section-16",
+      "chunks": [
+        "Чем token bucket отличается от leaky bucket? Token bucket разрешает всплески до ёмкости ведра, leaky bucket выпускает запросы с постоянной скоростью и сглаживает всплески в очередь. Для API-тарифов удобнее token bucket, для защиты бэкенда с фиксированной пропускной способностью подходит leaky bucket.",
+        "Как избежать гонки при обновлении счётчика в распределённом хранилище? Атомарная операция на стороне хранилища (скрипт или compare-and-set), а не чтение и запись двумя командами.",
+        "Почему fixed window плох? На границе окон клиент может сделать двойной лимит за короткий промежуток: всё в конце одного окна и всё в начале следующего.",
+        "Как лимитировать неавторизованных клиентов за NAT, где один IP это тысячи пользователей? Мягкие лимиты по IP, дополнительные сигналы (fingerprint устройства, cookie), приоритет авторизованным, капча или проверка при подозрении.",
+        "Как шлюз не становится единой точкой отказа? Много инстансов в нескольких ДЦ, stateless, health checks, запас мощности, независимость от внешних сервисов в критическом пути.",
+        "Что важнее для партнёра: точность лимита или предсказуемость? Предсказуемость и прозрачность: заголовки с остатком, документация, уведомления при приближении к лимиту, возможность запросить повышение.",
+        "Где хранить лимиты для внутренних сервисов и кто их владелец? Владелец сервиса объявляет ёмкость, шлюз защищает её. Это договор, который меняется при масштабировании сервиса и должен быть частью процесса приёмки.",
+        "Как тестировать новый алгоритм лимитирования на проде? Shadow mode: новый алгоритм считает и логирует решения параллельно старому без влияния на ответ, сравнение расхождений, затем переключение за флагом."
+      ]
+    },
+    {
+      "destination": "sd-migration-source-0",
+      "chunks": [
+        "Есть монолит с одной большой базой данных, который обслуживает критичный бизнес-процесс (например, платежи или заказы) в режиме 24/7. Нужно вынести из него функциональность в отдельные сервисы, разделить базу данных и, возможно, сменить технологический стек, не останавливая обслуживание и сохраняя возможность отката на каждом этапе. Это задача одновременно архитектурная и управленческая, и на секции для TPM её дают часто."
+      ]
+    },
+    {
+      "destination": "sd-migration-source-1",
+      "chunks": [
+        "Зачем мигрируем: какая боль и какой критерий успеха? Ожидаемый ответ: долгие релизы из-за связности, невозможность масштабировать отдельные части, требование сменить стек. Критерии: время выката отдельного модуля, независимое масштабирование, уход с определённых технологий к сроку.",
+        "Какой допустимый даунтайм и окно? Ожидаемый ответ: нулевой плановый даунтайм для основного сценария, короткие технологические окна ночью допустимы для служебных операций.",
+        "Насколько связана база: есть ли общие таблицы, триггеры, хранимые процедуры, отчёты поверх неё? Ожидаемый ответ: да, много. Это главный источник риска.",
+        "Есть ли контрактные тесты, наблюдаемость и автотесты в монолите? Ожидаемый ответ: частично. Значит, первый этап включает подготовку фундамента.",
+        "Какие внешние потребители завязаны на API или на прямой доступ к БД? Ожидаемый ответ: несколько внутренних систем и отчётность читают таблицы напрямую. Их нужно переводить на API или на реплику.",
+        "Сколько команд и какой срок? Ожидаемый ответ: 3–5 команд, 12–18 месяцев, с обязательным промежуточным результатом через квартал.",
+        "Есть ли регуляторные ограничения на данные и стек? Ожидаемый ответ: да, требования по локализации данных и по используемому ПО с дедлайном."
+      ]
+    },
+    {
+      "destination": "sd-migration-source-2",
+      "chunks": [
+        "Монолит ~1 500 RPS в пике, БД ~2 ТБ, ~300 таблиц Модулей-кандидатов на вынос 8–10, приоритизация по связности и бизнес-ценности Первый модуль ~10% трафика, ~20 таблиц, 2 внешних потребителя Двойная запись удваивает нагрузку записи на выбранные таблицы на период миграции Сверка ежесуточно по 20 таблицам, ~50 млн строк, батчами по хешам Синхронизация данных перенос 200 ГБ первого модуля: при 50 МБ/с около часа, плюс догон изменений",
+        "Выводы. Технические объёмы умеренные, основной риск не в производительности, а в корректности данных при двойной записи и в скрытых зависимостях внутри БД. Поэтому план строится вокруг измеримых этапов, сверки и возможности отката, а не вокруг пропускной способности."
+      ]
+    },
+    {
+      "destination": "sd-migration-source-3",
+      "chunks": [
+        "Элемент Назначение Особенности",
+        "Фасад (strangler facade) перед монолитом Единая точка, которая маршрутизирует запросы либо в монолит, либо в новый сервис по правилу Правила маршрутизации управляются флагами: по эндпоинту, по проценту, по сегменту клиентов",
+        "GET /v1/orders/{id} , POST /v1/orders в новом сервисе Публичный контракт нового сервиса, совпадающий с контрактом монолита на первом этапе Контрактные тесты на обе реализации, чтобы фасад мог переключать без изменений клиентов",
+        "Внутренний API монолита для нового сервиса Доступ к данным, которые пока остались в монолите Проходит через anti-corruption layer, чтобы модель монолита не протекла в сервис",
+        "События изменений (CDC или outbox) Синхронизация данных между старой и новой БД Идемпотентные потребители, порядок по ключу сущности",
+        "Read-only API или реплика для отчётности Замена прямого доступа внешних систем к таблицам Переводится до разделения БД, иначе разделение сломает отчёты"
+      ]
+    },
+    {
+      "destination": "sd-migration-source-4",
+      "chunks": [
+        "Инвентаризация. Карта таблиц, кто пишет, кто читает, какие есть внешние ключи, триггеры и процедуры между модулями. Без неё оценивать нельзя.",
+        "Владение. Каждая таблица получает единственного владельца, старый или новый сервис. Чтение чужих данных только через API или через реплику проекции.",
+        "Схема expand/contract на уровне таблиц. Expand: новый сервис получает свою БД со своей схемой, данные переносятся и догоняются событиями. Переключение: запись идёт в новый источник правды, старая таблица заполняется обратной синхронизацией для отката. Contract: после периода стабильности старая таблица переводится в read-only, затем удаляется.",
+        "Двойная запись. На переходном этапе приложение пишет в обе БД. Опасность: неатомарность. Смягчение: одна БД источник правды, вторая заполняется асинхронно по outbox с идемпотентностью, а сверка ловит расхождения. Синхронная двойная запись из кода без outbox не рекомендуется.",
+        "Идентификаторы. Единая схема ID, совместимая между системами, иначе сверка и откат становятся невозможными."
+      ]
+    },
+    {
+      "destination": "sd-migration-source-6",
+      "chunks": [
+        "Этап 0. Фундамент. Поставить фасад перед монолитом без изменения поведения. Ввести trace ID и единый формат логов. Покрыть контрактными тестами эндпоинты первого модуля. Перевести внешних потребителей с прямого доступа к таблицам на read API или реплику. Критерий выхода: фасад держит 100% трафика неделю без инцидентов, покрытие контрактов первого модуля не ниже согласованного порога.",
+        "Этап 1. Выбор первого модуля. Критерии: низкая связность с остальной БД, понятный контракт, заметная бизнес-ценность, но не самый критичный сценарий. Первый модуль это обучение команды и проверка инструментов.",
+        "Этап 2. Новый сервис в режиме shadow. Сервис развёрнут со своей БД, данные перенесены и догоняются по CDC. Фасад дублирует запросы чтения в новый сервис, ответы сравниваются, но клиенту отдаётся ответ монолита. Метрика: доля совпадений ответов. Критерий выхода: совпадение выше 99,9% на протяжении недели.",
+        "Этап 3. Переключение чтения. Флаг переводит чтение на новый сервис постепенно: 1%, 10%, 50%, 100%, по сегментам. Откат мгновенный через флаг. Критерий: SLI не хуже базовой линии на каждом шаге.",
+        "Этап 4. Переключение записи. Самый рискованный шаг. Источником правды становится новая БД, обратная синхронизация заполняет старую таблицу через outbox, чтобы монолит и отчётность продолжали работать и чтобы откат был возможен. Двойная запись с сверкой каждые сутки. Критерий: расхождения на сверке ноль или объяснены и исправлены, два цикла подряд.",
+        "Этап 5. Стабилизация и contract. Период наблюдения 2–4 недели. Затем старая таблица в read-only, обратная синхронизация выключается, откат с этого момента возможен только через восстановление данных, о чём Go/No-Go комитет принимает явное решение. Удаление кода модуля из монолита.",
+        "Этап 6. Повтор для следующих модулей. С каждым модулем инструменты (фасад, CDC, сверка, шаблон сервиса) переиспользуются, и цикл ускоряется. Порядок модулей пересматривается по результатам предыдущего."
+      ]
+    },
+    {
+      "destination": "sd-migration-source-7",
+      "chunks": [
+        "Скрытые зависимости в БД. Триггеры, процедуры, джоины между модулями. Обнаруживаются только инвентаризацией и анализом запросов в проде (логирование обращений к таблицам).",
+        "Двойная запись как источник нагрузки и ошибок. Ограничивать период, автоматизировать сверку, не делать синхронную двойную запись из кода.",
+        "Задержка синхронизации. Пользователь после записи в новом сервисе может прочитать устаревшее из монолита через другой путь. Решение: чтение и запись сущности переключаются вместе, либо чтение после записи идёт в источник правды.",
+        "Anti-corruption layer как проект внутри проекта. Держать его тонким, переводить только нужные операции, планировать его удаление вместе с монолитным модулем.",
+        "Команды и владение. Каждый выносимый модуль должен иметь команду-владельца до начала, иначе сервис становится ничьим.",
+        "Распределённые транзакции. Там, где монолит делал одну транзакцию через несколько таблиц, после разделения нужна saga с компенсациями. Это отдельный дизайн для каждого такого места и главный источник изменений в бизнес-логике."
+      ]
+    },
+    {
+      "destination": "sd-migration-source-8",
+      "chunks": [
+        "Ситуация Действие Что видит пользователь",
+        "Новый сервис отдаёт ошибки на этапе чтения Флаг возвращает чтение в монолит за секунды Кратковременные ошибки у доли пользователей, затем норма",
+        "Расхождения на сверке после переключения записи Стоп дальнейших шагов, разбор причин, исправление данных скриптом, повторная сверка. При системной ошибке откат записи в монолит: новая БД догоняет старую через обратную синхронизацию, флаг переключается Не видит, если откат в пределах периода двойной записи",
+        "Отставание CDC на этапе expand Shadow-сравнение показывает падение совпадений, переключение откладывается, увеличивается параллелизм синхронизатора Не видит",
+        "Падение фасада Фасад избыточен и stateless, при полном отказе DNS переключается на прямой вход в монолит (план Б, проверенный на учениях) Минуты недоступности в худшем сценарии",
+        "Внешняя система продолжает читать старую таблицу после contract Обнаруживается на этапе read-only по ошибкам записи или по мониторингу обращений. Переносится на API, contract откладывается Не видит, страдает отчётность",
+        "Регуляторный дедлайн ближе, чем позволяет план Пересмотр порядка модулей: сначала те, что закрывают требование, снижение скоупа, а не сжатие периодов наблюдения Не видит"
+      ]
+    },
+    {
+      "destination": "sd-case-migration",
+      "chunks": [
+        "Метрики миграции. Доля трафика на новом сервисе по эндпоинтам, доля совпадений в shadow-режиме, число и тип расхождений сверки, отставание синхронизации в секундах, SLI основного сценария в разрезе старого и нового пути, число обращений внешних систем к старым таблицам.",
+        "Метрики результата. Lead time и частота деплоя выносимого модуля до и после, число инцидентов после релизов, время восстановления. Именно эти числа доказывают бизнесу, что миграция дала эффект, а не только сменила технологии.",
+        "Выкатка. Каждый шаг переключения за флагом с процентами и сегментами, canary для новых версий сервиса, expand/contract для схем. Дашборд миграции виден всем стейкхолдерам и обновляется автоматически."
+      ]
+    },
+    {
+      "destination": "sd-migration-source-10",
+      "chunks": [
+        "Решение Вариант A Вариант B Выбор и почему",
+        "Стратегия Переписать целиком и переключить разом Strangler fig по модулям B. Управляемый риск, промежуточные результаты, откат на каждом шаге. Цена: дольше живут две системы и нужен фасад",
+        "Синхронизация данных Синхронная двойная запись из кода Один источник правды и асинхронная синхронизация через outbox/CDC B. Атомарность невозможна в A, а B даёт идемпотентность и воспроизводимость",
+        "Первый модуль Самый критичный (максимальный эффект) Средний по критичности и слабо связанный B. Первый модуль это обучение и обкатка инструментов, риск нужно ограничить",
+        "Доступ новых сервисов к данным монолита Прямое чтение старой БД Через API и anti-corruption layer B. Прямое чтение создаёт новую связность и делает contract невозможным",
+        "Смена стека одновременно с декомпозицией Делать всё сразу Разделять по возможности Зависит от ограничений: если стек менять обязательно, делать в рамках выносимого модуля, а не отдельным проектом поверх монолита"
+      ]
+    },
+    {
+      "destination": "sd-migration-section-7",
+      "chunks": [
+        "Клиенты → Strangler Facade (маршрутизация по флагам) → Монолит → Общая БД монолита Strangler Facade → Новый сервис Orders → Anti-corruption layer → Монолит (внутренний API) Новый сервис Orders → Своя БД Orders → outbox / CDC события → Синхронизатор в старую БД (для отката) Общая БД монолита → CDC поток изменений → Синхронизатор в новую БД (на этапе expand) → Своя БД Orders Reconciliation Job → Обе БД → Отчёт расхождений → Go/No-Go комитет этапа Отчётность и внешние системы → Read API / реплика проекции"
+      ]
+    },
+    {
+      "destination": "sd-migration-experience",
+      "chunks": []
+    },
+    {
+      "destination": "sd-migration-section-16",
+      "chunks": [
+        "Как выбрать границы сервисов? По бизнес-возможностям и владению данными: сервис владеет своими таблицами и меняется по одной причине. Проверка: если два сервиса всегда меняются вместе, граница проведена неверно.",
+        "Что делать с отчётами, которые джоинят таблицы разных будущих сервисов? Строить аналитическое хранилище или проекции по событиям до разделения. Отчётность не должна зависеть от транзакционных таблиц сервисов.",
+        "Как поддерживать транзакцию, которая раньше была одной, а теперь между сервисами? Saga с компенсациями и явными промежуточными статусами. Пользовательский сценарий может измениться: вместо мгновенного результата появится статус «в обработке».",
+        "Как убедиться, что откат реально работает? Учения на стенде и на проде с малой долей трафика: переключить вперёд, затем назад, сверить данные. Откат, который не тренировали, не существует.",
+        "Когда останавливать миграцию? Когда достигнуты критерии успеха, а оставшиеся модули не дают ценности, оправдывающей затраты. Монолит может остаться в уменьшенном виде, это нормальный результат.",
+        "Как не потерять производительность из-за сетевых вызовов вместо локальных? Мерить бюджет задержки сценария до и после, агрегировать вызовы, кэшировать справочные данные, избегать цепочек синхронных вызовов длиннее 2–3.",
+        "Как управлять версиями контрактов при многих потребителях? Только обратно совместимые изменения, версионирование, контрактные тесты на стороне потребителя, дедлайны на удаление старых версий с метрикой использования.",
+        "Как объяснить бизнесу, что первый квартал уйдёт на фундамент? Через риск и деньги: без фасада, наблюдаемости и сверки каждая последующая ошибка стоит инцидента в платежах. Показать план с первым видимым результатом в конце квартала."
+      ]
+    },
+    {
+      "destination": "sd-taxi-source-0",
+      "chunks": [
+        "Спроектировать ядро сервиса заказа такси: водители передают координаты, пассажир создаёт заказ, система находит подходящих водителей поблизости, предлагает заказ и назначает исполнителя. Нужно выдерживать пики (утро, вечер, дождь, праздники), учитывать динамическое ценообразование как сигнал дисбаланса спроса и предложения и обеспечивать быстрый отклик. Формулировки ниже опираются на общеизвестные принципы работы таких сервисов, а не на внутреннее устройство конкретной компании."
+      ]
+    },
+    {
+      "destination": "sd-taxi-source-1",
+      "chunks": [
+        "Масштаб: сколько водителей онлайн и заказов в сутки? Ожидаемый ответ: в крупном городе до 100 тысяч водителей онлайн одновременно, 2 млн заказов в сутки в стране, пики в 3–5 раз выше среднего.",
+        "Что считаем «ближайшим»: расстояние по прямой или время подачи по дорогам? Ожидаемый ответ: сначала грубый отбор по прямой в радиусе, затем уточнение временем в пути через сервис маршрутов для короткого списка кандидатов.",
+        "Как часто водители обновляют координаты? Ожидаемый ответ: каждые 3–5 секунд в движении, реже на стоянке.",
+        "Как назначается заказ: первому согласившемуся, лучшему по скору, или системой без подтверждения? Ожидаемый ответ: система предлагает заказ одному или нескольким кандидатам последовательно с таймаутом на ответ, назначение по скору (время подачи, рейтинг, класс автомобиля).",
+        "Требования к задержке? Ожидаемый ответ: пассажир видит примерное время подачи и цену за секунду, назначение водителя в пределах 10–30 секунд, обновление положения машины на карте с задержкой не более 2–3 секунд.",
+        "Какова роль динамической цены? Ожидаемый ответ: коэффициент повышения при дефиците предложения в зоне, считается по зонам и обновляется каждые минуты. Для нас это сигнал дисбаланса, который влияет на радиус поиска и приоритеты.",
+        "Что в скоупе кроме подбора: оплата, маршруты, рейтинги, поддержка? Ожидаемый ответ: только подбор и жизненный цикл заказа до посадки, остальное как внешние сервисы."
+      ]
+    },
+    {
+      "destination": "sd-taxi-source-2",
+      "chunks": [
+        "Водителей онлайн в пике 300 000 по стране, 100 000 в крупнейшем городе Обновление координат каждые 4 секунды → 300 000 / 4 = 75 000 записей/с Размер обновления ~100 байт (id, lat, lon, heading, status, ts) Поток координат ≈ 7,5 МБ/с, ≈ 650 ГБ в сутки сырых данных Заказов в сутки 2 млн, средний ≈ 23/с, пиковый ≈ 100–150/с Поисков на заказ 1 при создании + оценки цены до заказа (×5) ≈ 750 поисков/с в пике Кандидатов на поиск 50–100 после гео-фильтра, 5–10 после расчёта ETA Запросов ETA к маршрутизатору 750 × 10 ≈ 7 500/с в пике Хранение позиций только текущая позиция в памяти: 300 000 × 100 байт = 30 МБ, история в холодном хранилище",
+        "Выводы. Основная нагрузка это не заказы, а поток координат: 75 тысяч записей в секунду, которые нельзя писать в реляционную БД построчно. Текущие позиции живут в памяти с геоиндексом, история пишется потоком в хранилище для аналитики. Поиск должен быть локальным по ячейкам, а не сканом по всем водителям. Расчёт ETA по дорогам дорогой, поэтому применяется только к короткому списку."
+      ]
+    },
+    {
+      "destination": "sd-taxi-source-3",
+      "chunks": [
+        "Эндпоинт Назначение Ключевые поля Особенности",
+        "POST /drivers/{id}/location (или поток по WebSocket) Обновление координат водителя lat , lon , heading , speed , status , ts Высокочастотный, ответ минимальный, устаревшие по ts отбрасываются",
+        "POST /estimates Оценка цены и времени подачи pickup , dropoff , class Читает геоиндекс и коэффициент зоны, кэшируется на секунды по ячейке",
+        "POST /orders Создать заказ Idempotency-Key , pickup , dropoff , class , estimate_id Возвращает order_id и статус SEARCHING , дальнейшие события по push или подписке",
+        "POST /offers/{id}/accept и /decline Ответ водителя на предложение offer_id , driver_id Идемпотентен, принимает только первый валидный ответ до истечения таймаута предложения",
+        "GET /orders/{id} Статус заказа и позиция назначенной машины status , driver , eta , location Позиция берётся из геоиндекса, статус из БД заказов"
+      ]
+    },
+    {
+      "destination": "sd-taxi-source-4",
+      "chunks": [
+        "driver_locations (в памяти) : driver_id , cell_id (geohash или H3), lat , lon , status (свободен, занят, оффлайн), class , updated_at . Индекс по ячейке: множество водителей на ячейку. Шардируется по городу или региону ячеек.",
+        "orders (реляционная БД) : order_id , idempotency_key , rider_id , pickup , dropoff , class , status , driver_id , price , surge_multiplier , метки времени. Партиционирование по времени, шардирование по региону.",
+        "offers : offer_id , order_id , driver_id , expires_at , result . Короткоживущие, могут храниться в key-value с TTL.",
+        "zone_state : по ячейкам крупного уровня: число свободных водителей, число активных запросов, коэффициент цены, обновляется каждые 30–60 секунд.",
+        "location_history (холодное хранилище) : поток координат для аналитики, тепловых карт, расследований. Колоночное хранилище, партиционирование по дню."
+      ]
+    },
+    {
+      "destination": "sd-taxi-source-6",
+      "chunks": [
+        "Водитель в сети держит WebSocket с Location Gateway и раз в 4 секунды отправляет координаты. Шлюз валидирует, отбрасывает устаревшие по времени и публикует в Kafka в партицию региона.",
+        "Location Service читает поток и обновляет геоиндекс в памяти: вычисляет ячейку, переносит водителя из старой ячейки в новую, обновляет статус. Архиватор параллельно пишет поток в холодное хранилище.",
+        "Пассажир запрашивает оценку. Estimates считает ячейку точки подачи, читает число свободных водителей в ячейке и соседях, коэффициент зоны, запрашивает ETA для нескольких ближайших и возвращает цену и время. Результат кэшируется на несколько секунд по ячейке и классу.",
+        "Пассажир создаёт заказ с ключом идемпотентности. Order Service сохраняет заказ в статусе SEARCHING и публикует событие.",
+        "Dispatch Service получает событие, запрашивает у геоиндекса свободных водителей нужного класса в ячейке подачи и её соседях. Если кандидатов меньше порога, расширяет радиус на уровень ячеек, максимум до предельного радиуса, зависящего от зоны и коэффициента.",
+        "Для 50–100 кандидатов запрашивается ETA по дорогам батчем у сервиса маршрутов. Считается скор: время подачи, рейтинг, направление движения, чтобы не разворачивать водителя, признаки завершения текущей поездки. Формируется ранжированный список.",
+        "Offer Service отправляет предложение первому кандидату с таймаутом 10–15 секунд. Водитель принимает или отклоняет; при таймауте предложение уходит следующему. Возможен вариант параллельного предложения 2–3 водителям, где выигрывает первый принявший, а остальным отправляется отмена.",
+        "При принятии Order Service атомарно проверяет, что заказ ещё в SEARCHING (оптимистичная блокировка по версии), назначает водителя, статус ASSIGNED , водитель в геоиндексе помечается занятым. Пассажир получает push с данными машины и ETA.",
+        "До посадки пассажир видит движение машины: приложение читает позицию из геоиндекса по driver_id с задержкой в секунды.",
+        "Surge Service раз в 30–60 секунд агрегирует по зонам число запросов оценки, созданных заказов, свободных водителей и время подбора, вычисляет коэффициент и записывает в zone_state. Dispatch использует его как сигнал: при высоком коэффициенте радиус поиска расширяется агрессивнее, а Estimates показывает пассажиру повышенную цену."
+      ]
+    },
+    {
+      "destination": "sd-taxi-source-7",
+      "chunks": [
+        "Поток координат. 75 тысяч записей в секунду. Решения: WebSocket вместо HTTP-запросов, батчинг на клиенте, партиционирование Kafka по региону, геоиндекс в памяти вместо БД, адаптивная частота (реже на стоянке и в пробке).",
+        "Горячие ячейки. Вокзал или стадион после матча: тысячи водителей и заказов в одной ячейке. Решение: динамическое разрешение ячеек (более мелкие ячейки в плотных зонах) и ограничение числа кандидатов на поиск.",
+        "Сервис маршрутов. 7 500 запросов ETA в секунду это дорого. Решения: батчевые запросы, грубая оценка ETA по прямой с коэффициентом извилистости для первичной фильтрации, точный расчёт только для 10 лучших, кэш ETA между ячейками.",
+        "Гонки при назначении. Два заказа претендуют на одного водителя. Решение: назначение через атомарную операцию на записи водителя (compare-and-set статуса) и на заказе (версия), при проигрыше гонки переход к следующему кандидату.",
+        "Шардирование геоиндекса. По региону или крупной ячейке. Запросы на границе шардов идут в два шарда и объединяются. Балансировка шардов при неравномерности городов.",
+        "Пики. Автомасштабирование Dispatch и Location Service по лагу Kafka, предпрогрев перед известными событиями (праздники, погода), приоритизация обработки заказов над обновлением карты пассажира."
+      ]
+    },
+    {
+      "destination": "sd-taxi-source-8",
+      "chunks": [
+        "Отказ Поведение системы Что видит пользователь",
+        "Недоступен сервис маршрутов Circuit breaker, ранжирование по расстоянию по прямой с коэффициентом, ETA пассажиру показывается как диапазон Менее точное время подачи, заказы назначаются",
+        "Потеря шарда геоиндекса Реплика шарда в памяти поднимается, индекс восстанавливается из Kafka за десятки секунд (пересчёт последних позиций), на это время поиск в регионе деградирует В одном регионе поиск занимает дольше, возможно сообщение «Ищем машину дольше обычного»",
+        "Отставание потока координат Dispatch учитывает возраст позиции: водителей с позицией старше 30 секунд исключает или понижает скор. Автомасштабирование потребителей Машина на карте двигается рывками, назначение работает",
+        "Недоступен Surge Service Используется последний известный коэффициент с затуханием к единице через N минут, радиус поиска по умолчанию Цена может быть занижена в дефиците, бизнес принимает этот риск на короткий период",
+        "Водитель не отвечает на предложение Таймаут, следующий кандидат, водителю снижается приоритет на время Поиск на 10–15 секунд дольше",
+        "Kafka заказов недоступна Order Service сохраняет заказ и ставит его в локальный outbox, Dispatch не получает события. При отказе дольше минуты приём заказов ограничивается флагом «Ищем машину» дольше обычного, затем сообщение о временной недоступности",
+        "Массовое отключение водителей (сбой приложения водителя) Резкое падение предложения видно на дашборде, автоматический рост коэффициента ограничивается верхним потолком, оповещение дежурных Длительный поиск, высокая цена, сообщение о повышенном спросе"
+      ]
+    },
+    {
+      "destination": "sd-case-taxi",
+      "chunks": [
+        "SLI и SLO. Время от создания заказа до назначения водителя p90 (до 30 секунд), доля заказов без назначения (менее 3% в норме, отдельно по зонам), возраст позиций в геоиндексе p99 (до 10 секунд), лаг потребителей потока координат, точность ETA (разница обещанного и фактического времени подачи), задержка оценки цены p99 (до 500 мс), доля принятых предложений водителями.",
+        "Алерты. Рост доли заказов без назначения в зоне, лаг координат выше 15 секунд, падение числа водителей онлайн быстрее порога, рост ошибок к сервису маршрутов, коэффициент цены у потолка в большом числе зон.",
+        "Выкатка. Новый алгоритм ранжирования кандидатов за флагом по городам, начиная с малого города, A/B по зонам со сравнением времени подачи и доли отмен. Изменения в геоиндексе с shadow-режимом: старый и новый индекс отвечают параллельно, сравнивается пересечение списков кандидатов. Canary для Location Service с наблюдением за лагом. Выкатки не в час пик."
+      ]
+    },
+    {
+      "destination": "sd-taxi-source-10",
+      "chunks": [
+        "Решение Вариант A Вариант B Выбор и почему",
+        "Хранение позиций Реляционная БД с геоиндексом Память с ячейками и восстановлением из потока B. 75 тысяч записей в секунду и поиск за миллисекунды. Цена: восстановление после падения и отсутствие долговечности, компенсируется потоком в Kafka",
+        "Ближайший По прямой По времени в пути Двухступенчато: прямая для отбора, время для ранжирования. Цена: зависимость от сервиса маршрутов с деградацией",
+        "Назначение Последовательные предложения Параллельные предложения нескольким Последовательные по умолчанию, параллельные в дефиците. Параллельные быстрее, но раздражают водителей отменами",
+        "Частота координат Фиксированная 1–2 секунды Адаптивная 3–10 секунд по состоянию B. В разы меньше трафика при сопоставимой точности для подбора",
+        "Коэффициент цены Считать в реальном времени на каждый запрос Пересчёт по зонам раз в 30–60 секунд B. Стабильность цены для пользователя и низкая нагрузка. Цена: запаздывание реакции на резкий дисбаланс"
+      ]
+    },
+    {
+      "destination": "sd-taxi-section-7",
+      "chunks": [
+        "Приложение водителя → Location Gateway (WebSocket) → Kafka: locations (партиции по региону) → Location Service → Геоиндекс в памяти (шарды по региону) Kafka: locations → Архиватор → История координат (холодное хранилище) Приложение пассажира → API Gateway → Order Service → БД заказов Order Service → Kafka: order-events → Dispatch Service → Геоиндекс → Routing / ETA Dispatch Service → Offer Service (предложения с таймаутом) → Push водителю → Ответ водителя → Order Service Surge Service → zone_state → Dispatch и Estimates"
+      ]
+    },
+    {
+      "destination": "sd-taxi-experience",
+      "chunks": []
+    },
+    {
+      "destination": "sd-taxi-section-16",
+      "chunks": [
+        "Почему не искать ближайшего водителя простым перебором? 100 тысяч водителей на каждый из 750 поисков в секунду это 75 млн сравнений в секунду на один город, и растёт квадратично с масштабом. Ячейки сводят поиск к сотням записей.",
+        "Что если пассажир на границе ячейки? Всегда ищем в ячейке и соседних (8 для geohash, 6 для H3), при необходимости расширяем кольцами.",
+        "Как избежать назначения водителя, который едет в противоположную сторону по шоссе? Учитывать направление движения и ETA по дорогам, а не только расстояние. Это одна из причин двухступенчатого отбора.",
+        "Как обрабатывать отмену пассажиром во время поиска? Событие отмены, Dispatch проверяет статус перед каждым предложением, активное предложение отзывается у водителя, компенсация водителю по правилам.",
+        "Как быть с водителями, у которых плохая связь и координаты приходят пачками с задержкой? Использовать метку времени устройства, отбрасывать устаревшие, снижать скор при большом возрасте позиции, не назначать при возрасте выше порога.",
+        "Как коэффициент цены влияет на систему кроме цены? Расширяет радиус поиска, включает параллельные предложения, приоритизирует заказы с высоким коэффициентом при дефиците, служит сигналом для уведомлений водителям о зонах спроса.",
+        "Как тестировать алгоритм назначения без риска для прода? Симуляция на исторических данных координат и заказов, shadow-режим на проде, A/B по городам с метриками времени подачи, доли отмен и заработка водителей.",
+        "Что хранить долго и зачем? Историю заказов для поддержки и финансов, историю координат для расследований и аналитики спроса, агрегаты по зонам для планирования. Сырые координаты чистить через месяцы с учётом требований по персональным данным."
+      ]
+    },
+    {
+      "destination": "sd-preparation-0",
+      "chunks": [
+        "Каждый день 1,5–2 часа. Половина времени на чтение и конспект, половина на проговаривание вслух с таймером. Без проговаривания вслух подготовка к секции не работает: на интервью оценивают речь и структуру, а не прочитанное. К концу недели у вас должно быть пять разборов, которые вы можете рассказать за 40 минут каждый, и десять фраз, которые вы говорите естественно."
+      ]
+    },
+    {
+      "destination": "sd-preparation-1",
+      "chunks": [
+        "День Фокус Задания Результат дня",
+        "День 1 Формат и рамка ответа Выучить девять этапов и тайминг. Выучить типовые числа back-of-envelope. Провести оценку нагрузки для трёх воображаемых систем (мессенджер, интернет-магазин, сервис доставки) за 5 минут каждая с выводом. Лист с этапами и таймингом, который вы можете воспроизвести по памяти. Три оценки нагрузки с выводами.",
+        "День 2 Глоссарий Пройти таблицу понятий, для каждого сформулировать своё объяснение за 30 секунд и один пример из вашей практики. Сложные понятия (outbox, saga, CAP, expand/contract) нарисовать на бумаге. Конспект из 30 понятий своими словами с привязкой к опыту.",
+        "День 3 Разбор A: платежи Прочитать разбор, затем закрыть и рассказать вслух за 40 минут с таймером по этапам. Записать на диктофон, прослушать, отметить паузы и места без вывода. Ответить на вопросы из блока интервьюера письменно. Один полный устный разбор с записью и списком слабых мест.",
+        "День 4 Разборы B и C: нотификации и шлюз Рассказать оба за 35 минут каждый. Отдельно проработать алгоритмы лимитирования: объяснить token bucket и sliding window другу или на бумаге. Продумать деградацию при отказе каждого компонента без подсказок. Два устных разбора. Уверенное объяснение rate limiting и fail open / fail closed.",
+        "День 5 Разбор D: миграция Рассказать с упором на свой опыт СБП. Подготовить историю в формате: контекст, риск, решение, результат в цифрах. Отрепетировать критерии Go/No-Go и план отката. Составить список того, что не будете раскрывать (внутренние детали банка). Разбор миграции, связанный с личным кейсом, и заготовка истории на 3 минуты.",
+        "День 6 Разбор E и импровизация Рассказать разбор такси. Затем взять две новые задачи (например, лента новостей и сервис коротких ссылок) и пройти их по рамке за 30 минут каждая без подготовки. Цель: проверить, что рамка работает на незнакомой задаче. Опыт импровизации по рамке. Понимание, где рамка провисает.",
+        "День 7 Мок-интервью и фразы Провести мок-интервью с коллегой или записать себя на полный формат 45 минут с одной из задач по выбору. Проработать десять фраз из следующего раздела до естественности. Подготовить три вопроса интервьюеру о команде и системах. Отдохнуть вечером. Готовность к секции, список вопросов интервьюеру, спокойствие."
+      ]
+    },
+    {
+      "destination": "sd-mature-phrases",
+      "chunks": [
+        "Эти фразы не заклинания, а маркеры мышления. Их стоит произносить только тогда, когда они уместны, и подкреплять содержанием. Интервьюер узнаёт по ним человека, который работал с реальными системами.",
+        "«Прежде чем рисовать, зафиксирую требования: кто пользователь, какая нагрузка, какая консистентность и какой SLA. Иначе мы будем спорить о решении, не договорившись о задаче». Показывает дисциплину и уважение к постановке.",
+        "«Прикину порядок величины: столько-то событий в сутки, значит около N RPS в среднем и примерно 5N в пике. Из этого следует, что нам нужно X и не нужно Y». Оценка нагрузки с выводом, а не ради оценки.",
+        "«Эта операция имеет побочный эффект, поэтому она должна быть идемпотентной: клиент передаёт ключ, мы храним результат и при повторе возвращаем его же». Базовый маркер зрелости в разговоре про платежи и заказы.",
+        "«Exactly-once здесь это эффект, а не гарантия транспорта: доставка at least once плюс идемпотентная обработка на каждом шаге». Отличает человека, который понимает распределённые системы, от того, кто повторяет термин.",
+        "«Строгая консистентность нужна вот в этом месте, а вот здесь достаточно итоговой, и это позволяет нам развязать компоненты через очередь». Показывает, что вы применяете CAP точечно, а не как лозунг.",
+        "«Пройдусь по каждому компоненту: что будет, если он недоступен, что увидит пользователь, как мы восстановимся. Ни одно состояние не должно быть вечным». Систематический разбор отказов вместо надежды.",
+        "«При отказе этой зависимости я предпочту деградацию функции, а не отказ сервиса: circuit breaker, ответ из кэша или упрощённый сценарий с явным сообщением пользователю». Мышление в терминах пользовательского опыта при сбое.",
+        "«Выкатываем за флагом: сначала внутренние пользователи, потом 1% через canary с автоматическим откатом по росту ошибок и p99, потом по сегментам. Критерии Go/No-Go на каждом шаге, изменения схемы через expand/contract». Ваша сильная сторона, произносите уверенно.",
+        "«Определим SLI и SLO заранее: доля успешных запросов, p99 задержки, лаг очереди. Бюджет ошибок это наш инструмент договорённости с бизнесом о темпе изменений». Язык надёжности, понятный и инженерам, и руководству.",
+        "«Это решение стоит вот столько: сложность, задержка, эксплуатация. Если бы требования были другими, например нагрузка в 100 раз меньше или срок в месяц, я бы выбрал более простой вариант». Явные компромиссы и готовность упрощать, а не усложнять."
+      ]
+    }
+  ],
+  "legacy_details": {
+    "t-1-1": 0,
+    "t-1-2": 6,
+    "t-1-3": 12,
+    "t-1-4": 18,
+    "t-1-5": 24,
+    "t-1-6": 30,
+    "t-2-1": 36,
+    "t-2-2": 42,
+    "t-2-3": 48,
+    "t-2-4": 54,
+    "t-2-5": 60,
+    "t-2-6": 66,
+    "t-2-7": 72,
+    "t-2-8": 78,
+    "t-3-1": 84,
+    "t-3-2": 90,
+    "t-3-3": 96,
+    "t-3-4": 102,
+    "t-3-5": 108,
+    "t-3-6": 114,
+    "t-3-7": 120,
+    "t-3-8": 126,
+    "t-3-9": 132,
+    "t-3-10": 138,
+    "t-4-1": 144,
+    "t-4-2": 150,
+    "t-4-3": 156,
+    "t-4-4": 162,
+    "t-4-5": 168,
+    "t-4-6": 174,
+    "t-4-7": 180,
+    "t-5-1": 186,
+    "t-5-2": 192,
+    "t-5-3": 198,
+    "t-5-4": 204,
+    "t-5-5": 210,
+    "t-5-6": 216,
+    "t-5-7": 222,
+    "t-5-8": 228,
+    "t-5-9": 234,
+    "t-5-10": 240,
+    "t-6-1": 246,
+    "t-6-2": 252,
+    "t-6-3": 258,
+    "t-6-4": 264,
+    "t-6-5": 270,
+    "t-6-6": 276,
+    "t-6-7": 282,
+    "t-6-8": 288,
+    "t-7-1": 294,
+    "t-7-2": 300,
+    "t-7-3": 306,
+    "t-7-4": 312,
+    "t-7-5": 318,
+    "t-7-6": 324,
+    "t-7-7": 330,
+    "t-7-8": 336,
+    "t-7-9": 342,
+    "t-7-10": 348,
+    "t-8-1": 354,
+    "t-8-2": 360,
+    "t-8-3": 366,
+    "t-8-4": 372,
+    "t-8-5": 378,
+    "t-9-1": 384,
+    "t-9-2": 390,
+    "t-9-3": 396,
+    "t-9-4": 402,
+    "t-9-5": 408,
+    "t-9-6": 414,
+    "t-10-1": 420,
+    "t-10-2": 426,
+    "t-10-3": 430,
+    "t-10-4": 436,
+    "t-10-5": 442,
+    "t-10-6": 448,
+    "t-10-7": 454,
+    "t-10-8": 460,
+    "t-10-9": 466,
+    "t-10-10": 472,
+    "t-11-1": 478,
+    "t-11-2": 482,
+    "t-11-3": 486,
+    "t-11-4": 492,
+    "t-11-5": 502,
+    "t-12-1": 508,
+    "t-12-2": 528,
+    "t-12-3": 548,
+    "t-12-4": 568,
+    "t-13-1": 574,
+    "t-13-2": 580,
+    "t-13-3": 586,
+    "t-13-4": 592,
+    "t-13-5": 598,
+    "t-13-6": 604,
+    "t-14-1": 610,
+    "t-14-2": 616,
+    "t-14-3": 622,
+    "t-14-4": 638,
+    "t-14-5": 654,
+    "t-14-6": 660,
+    "t-15-1": 672,
+    "t-15-2": 678,
+    "t-15-3": 686,
+    "t-15-4": 694,
+    "t-15-5": 702,
+    "t-15-6": 710,
+    "t-15-7": 718,
+    "t-15-8": 726,
+    "t-15-9": 734,
+    "t-a-4": 742
+  },
+  "topics": 129,
+  "case_ids": [
+    "sd-case-payments",
+    "sd-case-notifications",
+    "sd-case-gateway",
+    "sd-case-migration",
+    "sd-case-taxi",
+    "sd-case-flags",
+    "sd-case-dora"
+  ],
+  "baseline_sha256": "9f194e8ab74abc7757039099e2b2e36669e4eb5bc37ad00a46e95127c31a0e47"
+}

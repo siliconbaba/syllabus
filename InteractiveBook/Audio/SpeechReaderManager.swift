@@ -249,6 +249,14 @@ final class SpeechReaderManager: NSObject, ObservableObject, AVSpeechSynthesizer
         }
     }
 
+    // Cancel a pending WebView extraction as well as pausing an active engine.
+    // A delayed extraction must not start audio behind the trainer.
+    func pauseForTrainer() {
+        if state == .loading, loadID != nil {
+            loadID = nil; state = .paused; resumeAfterInterruption = false
+        } else { pause() }
+    }
+
     func pause() {
         resumeAfterInterruption = false
         pauseInternal()

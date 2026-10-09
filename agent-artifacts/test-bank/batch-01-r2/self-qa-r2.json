@@ -1,0 +1,797 @@
+{
+  "verdict": "READY FOR WORK IMPORT",
+  "readyForImport": true,
+  "remainingUnresolvedIDs": [],
+  "issueStatuses": [
+    {
+      "issueId": "QA-01",
+      "caseIDs": "TC-030",
+      "severity": "BLOCKER",
+      "field": "options.B.text; options.B.explanation; options.B.whyNotBest",
+      "originalProblem": "B допускает ноль fixed-price пакетов и T&M для всего изменчивого объёма. Поэтому D не доказанно сильнее B. Explanation приписывает B формальную нарезку нестабильного scope, которой в тексте нет.",
+      "status": "FIXED",
+      "evidence": "Одинаковый B в 029/030 требует фиксировать две трети на старте; D в 030 сравнивается с реальной альтернативой. Reader check D > A/B/C, confidence high.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    },
+    {
+      "issueId": "QA-02",
+      "caseIDs": "TC-035, TC-036, TC-039, TC-040, TC-041, TC-042, TC-043, TC-044, TC-046, TC-048, TC-049, TC-050",
+      "severity": "MAJOR",
+      "field": "options.text — batch surface leakage",
+      "originalProblem": "Все 12 standalone с различающимся числом , ; : имеют strongest среди максимумов; 6 из них имеют единственный максимум.",
+      "status": "FIXED",
+      "evidence": "Исходная эвристика воспроизведена 17/25; тот же rule после 7/25. Лучший deterministic из расширенного набора 9/25; максимум expected random tie 9.5833/25. Frozen восемь не менялись.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    },
+    {
+      "issueId": "QA-03",
+      "caseIDs": "TC-036",
+      "severity": "MAJOR",
+      "field": "requiredLevel / implemented reasoning",
+      "originalProblem": "Выбрать известный дешёвый валидный тест заявок до необратимого запуска: тот же уровень рассуждения, что Middle gold TC-025; размер инвестиций не добавляет сложности.",
+      "status": "FIXED",
+      "evidence": "036: неизвестности спроса и исполнения разделены; учитывается смещение льготного канала и этапность обязательств после неполного evidence. Senior rationale и сравнения A/C/D записаны.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    },
+    {
+      "issueId": "QA-04",
+      "caseIDs": "TC-038",
+      "severity": "MAJOR",
+      "field": "requiredLevel / implemented reasoning",
+      "originalProblem": "Готовая поддержка двух API и независимые клиенты требуют управляемой миграции; рассуждение не сложнее Middle gold TC-011. Новой системной развилки нет.",
+      "status": "FIXED",
+      "evidence": "038: синтаксическая двухверсионность отделена от поведения потребителя; спроектированы проверка семантики и выход при редких обращениях. Senior rationale записан.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    },
+    {
+      "issueId": "QA-05",
+      "caseIDs": "TC-043",
+      "severity": "MAJOR",
+      "field": "requiredLevel / implemented reasoning",
+      "originalProblem": "Применить явно заданную policy и исключения; это применение готового правила, как Middle gold TC-022, а не проектирование reliability governance.",
+      "status": "FIXED",
+      "evidence": "043: расхождение локального HTTP и общего SLI требует изменить go/no-go нескольких pipeline с сохранением независимой поставки, без нового исключения.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    },
+    {
+      "issueId": "QA-06",
+      "caseIDs": "TC-045",
+      "severity": "MAJOR",
+      "field": "requiredLevel / implemented reasoning",
+      "originalProblem": "В условии уже выделены три независимых дня и пять зависимых. Требуется переставить известную работу, как Middle gold TC-001, а число команд не повышает уровень.",
+      "status": "FIXED",
+      "evidence": "045: техническая независимость не равна ресурсной; промежуточная приёмка переносит bottleneck на миграцию. Изменён механизм взаимодействия ветвей, итог 15 вместо 16 или 18, а не просто вычитание трёх дней.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    },
+    {
+      "issueId": "QA-07",
+      "caseIDs": "TC-037",
+      "severity": "MAJOR",
+      "field": "options.D.decisionQuality",
+      "originalProblem": "D=0.70 — сильная альтернатива, хотя наблюдение новой версии используется как основание для непроверенного rollback старой; ключевой пробел вообще не проверяется.",
+      "status": "FIXED",
+      "evidence": "037 D: 0.70 → 0.40, ниже A=0.55. Значение соответствует неверному типу evidence; strongest C сохранён.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    },
+    {
+      "issueId": "QA-08",
+      "caseIDs": "TC-048",
+      "severity": "MAJOR",
+      "field": "options.B.decisionQuality",
+      "originalProblem": "B=0.78 несмотря на одноразовый cutover вместо обязательных четырёх недель сосуществования.",
+      "status": "FIXED",
+      "evidence": "048 B: 0.78 → 0.35 за нарушение обязательного сосуществования. Strongest C сохранён.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    },
+    {
+      "issueId": "QA-09",
+      "caseIDs": "TC-036",
+      "severity": "MAJOR",
+      "field": "options.C.whenItWouldBeBest",
+      "originalProblem": "Условие «проблему ещё нельзя сформулировать» делает полезными интервью, но не последующее подписание аренды и найм только по заявленному интересу.",
+      "status": "FIXED",
+      "evidence": "036 C больше не предписывает аренду после интервью. Аренда отложена до поведенческих данных; весь when соответствует действию, quality=0.60.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    },
+    {
+      "issueId": "QA-10",
+      "caseIDs": "TC-042",
+      "severity": "MINOR",
+      "field": "options.A.whenItWouldBeBest",
+      "originalProblem": "WHEN говорит только о предварительном фильтре ликвидности и отдельном полном сравнении, а option уже предписывает выбрать проект по быстрой окупаемости.",
+      "status": "FIXED",
+      "evidence": "042 A when теперь требует решающего ограничения ликвидности, постоянных подтверждённых потоков и равенства остальных факторов. Оно покрывает окончательный выбор, не только shortlist.",
+      "reviewAuthority": "author self-assessment; pending focused independent QA"
+    }
+  ],
+  "familyIssueStatus": {
+    "family": "F-BV-P01",
+    "status": "FIXED",
+    "duplicateOf": "QA-01"
+  },
+  "seniorRealization": {
+    "TC-036": {
+      "status": "PASS — author assessment",
+      "whyThisNowRequiresSeniorReasoning": "Senior: нужно выявить смещение имеющегося evidence, отделить спрос от способности исполнить и спроектировать последовательность условных обязательств. Недостаточно выбрать самый дешёвый тест: его аудитория и допустимый вывод определяют риск последующего коммита.",
+      "frozenBoundary": "Учиться через полный build ↔ купить ключевое знание более дешёвым тестом."
+    },
+    "TC-038": {
+      "status": "PASS — author assessment",
+      "whyThisNowRequiresSeniorReasoning": "Senior: требуется обнаружить семантическую несовместимость за одинаковой схемой, изменить механизм проверки контракта и выбрать критерий выхода при неполной телеметрии редких клиентов. Это больше, чем календарно включить готовую поддержку двух версий.",
+      "frozenBoundary": "Calendar cutover ↔ backward-compatible migration с deprecation по фактическому переходу."
+    },
+    "TC-043": {
+      "status": "PASS — author assessment",
+      "whyThisNowRequiresSeniorReasoning": "Senior: нужно объяснить расхождение локального и пользовательского сигналов, определить область действия общего ограничения и изменить механизм go/no-go нескольких pipeline. Простое «отказать по policy» не закрывает повторяемую причину и риск избыточной заморозки независимых релизов.",
+      "frozenBoundary": "Переговорить policy под важную фичу ↔ применить заранее согласованное reliability governance."
+    },
+    "TC-045": {
+      "status": "PASS — author assessment",
+      "whyThisNowRequiresSeniorReasoning": "Senior: надо обнаружить скрытую ресурсную связь через промежуточную приёмку и изменить взаимодействие клиентской и миграционной ветвей. Простое перемещение трёх дней ухудшает срок до 18; правильная развязка приёмки сохраняет данные на дне 13 и финиш на дне 15. Нужно одновременно сохранить достаточное evidence и избежать локальной оптимизации за счёт другой команды.",
+      "frozenBoundary": "Сохранять последовательность ↔ использовать безопасную параллельность и пересчитать реальную цепочку."
+    }
+  },
+  "readerCheck": {
+    "method": "Reader pass on key-hidden-review.json (context/question/option text only); predictions recorded before programmatic key comparison. Same author has prior context, so this is not an independent blinded agent review.",
+    "cases": [
+      {
+        "id": "TC-029",
+        "predictedStrongest": "B",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Неопределённая треть не подходит для фиксации всего результата.",
+          "C": "Две трети уже готовы к формализованной приёмке, старт нужен на следующей неделе.",
+          "D": "Цена стабильных пакетов без премии, поэтому риск их перерасхода можно передать без дополнительной цены."
+        },
+        "productionStrongest": "B",
+        "matches": true
+      },
+      {
+        "id": "TC-030",
+        "predictedStrongest": "D",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Нестабильный scope всего объёма ведёт к премии и платным изменениям.",
+          "B": "Текст B обязывает зафиксировать две трети на старте; устойчивые пакеты выделить нельзя.",
+          "C": "Требования продолжают меняться, а не просто нуждаются в дописывании; старт нужен на следующей неделе и управление T&M обеспечено."
+        },
+        "productionStrongest": "D",
+        "matches": true
+      },
+      {
+        "id": "TC-035",
+        "predictedStrongest": "D",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Ожидание всей спецификации съедает резерв несмотря на стабильные 70%.",
+          "B": "Спорное можно изолировать, но реализация предположений не заменяет trigger резервного пути.",
+          "C": "До перехода ещё можно уточнить два пункта; обход имеет известное время подготовки и не требуется безусловно сейчас."
+        },
+        "productionStrongest": "D",
+        "matches": true
+      },
+      {
+        "id": "TC-036",
+        "predictedStrongest": "B",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "База не повышает точность первой проверки спроса и требует невозвратных вложений.",
+          "C": "Поведенческий тест целевого платного канала уже доступен; интервью с льготными заявителями не отвечают на этот вопрос.",
+          "D": "Смешанный спрос несопоставим с порогом платного привлечения; готовность исполнения отдельно не подтверждена."
+        },
+        "productionStrongest": "B",
+        "matches": true
+      },
+      {
+        "id": "TC-037",
+        "predictedStrongest": "C",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Откат бинарника проверен до новых записей и может не восстановить работу.",
+          "B": "Безопасность удаления новых данных не подтверждена.",
+          "D": "Стабильная новая версия не доказывает чтение этих данных старой."
+        },
+        "productionStrongest": "C",
+        "matches": true
+      },
+      {
+        "id": "TC-038",
+        "predictedStrongest": "A",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "B": "Два клиента не могут гарантировать дату внешнего согласования.",
+          "C": "Старый клиент выдаёт билет только после оплаты, а новый статус появляется раньше.",
+          "D": "Клиенты бывают неактивны сутки, поэтому отсутствие трафика не доказывает переход."
+        },
+        "productionStrongest": "A",
+        "matches": true
+      },
+      {
+        "id": "TC-039",
+        "predictedStrongest": "D",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Новые роли уже увеличили overhead, но не уменьшили зависимость от платформы.",
+          "B": "Общие платформенные узкие места реальны и требуют координации.",
+          "C": "Изменение длительности встреч не меняет подтверждённые границы зависимости."
+        },
+        "productionStrongest": "D",
+        "matches": true
+      },
+      {
+        "id": "TC-040",
+        "predictedStrongest": "B",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Личные договорённости уже не переживают очередной цикл.",
+          "C": "Каждый спор вновь уходит спонсору при неизменных правах сторон.",
+          "D": "Конфликт прав и обязательных ограничений не равен задаче деления ресурса поровну."
+        },
+        "productionStrongest": "B",
+        "matches": true
+      },
+      {
+        "id": "TC-041",
+        "predictedStrongest": "C",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Задержка вызвана монополией Head на решение, а не расписанием вопросов.",
+          "B": "Менеджеры компетентны, автономия пропала после отмен решений.",
+          "D": "Дополнительный фильтр сохраняет финальную монополию и право отмены."
+        },
+        "productionStrongest": "C",
+        "matches": true
+      },
+      {
+        "id": "TC-042",
+        "predictedStrongest": "D",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Потоки за пределами первого года меняются; payback не учитывает весь горизонт.",
+          "B": "Альтернатива рассчитана на три года, качественные выгоды не выравнивают горизонты.",
+          "C": "Лицензии и поддержка меняют потоки, поэтому простое умножение скрывает известное допущение."
+        },
+        "productionStrongest": "D",
+        "matches": true
+      },
+      {
+        "id": "TC-043",
+        "predictedStrongest": "A",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "B": "Подсказка нагружает ту же очередь, где просроченный результат уже расходует общий бюджет.",
+          "C": "Справочник явно независим и его заморозка не защищает этот SLI.",
+          "D": "Локальные панели продолжают создавать тот же конфликт между pipeline, хотя общий критерий можно закрепить."
+        },
+        "productionStrongest": "A",
+        "matches": true
+      },
+      {
+        "id": "TC-044",
+        "predictedStrongest": "C",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Подтверждённого массового ущерба нет; откат создаёт час остановки.",
+          "B": "Данные для сегментации доступны за 15 минут, сутки ждать незачем.",
+          "D": "Ещё полчаса того же агрегата не разделяют версии и регионы."
+        },
+        "productionStrongest": "C",
+        "matches": true
+      },
+      {
+        "id": "TC-045",
+        "predictedStrongest": "B",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Локальная фиксация допустима и снимает лишнюю последовательность без захвата стенда.",
+          "C": "Ранняя демонстрация отнимает стенд у миграции и отодвигает общую проверку до дня 16.",
+          "D": "Клиентская готовность на 11 не заменяет данные на 13; финальная проверка занимает ещё два дня."
+        },
+        "productionStrongest": "B",
+        "matches": true
+      },
+      {
+        "id": "TC-046",
+        "predictedStrongest": "D",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Реестр не снимает факт, который можно узнать сегодня, и не создаёт plan B.",
+          "B": "Месячное исследование не должно задерживать звонок и подготовку переключения.",
+          "C": "План по вероятному режиму не использует дешёвую доступную информацию и не задаёт границу переключения."
+        },
+        "productionStrongest": "D",
+        "matches": true
+      },
+      {
+        "id": "TC-048",
+        "predictedStrongest": "C",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Общий релиз не обеспечивает чтение несовместимых форматов в четыре недели сосуществования.",
+          "B": "Одноразовый переход противоречит обязательному сосуществованию.",
+          "D": "Преобразователь не проверен до смены формата, а совместимый промежуточный вариант подтверждён."
+        },
+        "productionStrongest": "C",
+        "matches": true
+      },
+      {
+        "id": "TC-049",
+        "predictedStrongest": "D",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Титул CTO не разделяет управление, техническую работу и коммуникацию устойчивой модели.",
+          "B": "Переговоры о полномочиях опять откладываются до самого инцидента.",
+          "C": "Секретарь собирает команды, но не получает права разрешать их противоречия."
+        },
+        "productionStrongest": "D",
+        "matches": true
+      },
+      {
+        "id": "TC-050",
+        "predictedStrongest": "B",
+        "confidence": "high",
+        "decisiveFactVsEachAlternative": {
+          "A": "Даже малая доля запросов остаётся недиагностируемой, а исправление укладывается до запуска.",
+          "C": "Локальные записи по времени не связывают асинхронный запрос надёжно.",
+          "D": "Конкретный разрыв закрывается за день, полная унификация не необходима для readiness."
+        },
+        "productionStrongest": "B",
+        "matches": true
+      }
+    ],
+    "allMatch": true
+  },
+  "surfaceGate": {
+    "status": "PASS",
+    "bestDeterministicHits": 9,
+    "bestRandomTieExpectedHits": 9.5833,
+    "originalRuleAfterHits": 7,
+    "scope": "Declared rules in batch-statistics-r2.json; conditional on implemented proxies",
+    "testedRuleCount": 62
+  },
+  "families": [
+    {
+      "familyId": "F-PM-T01",
+      "memberIDs": [
+        "TC-026",
+        "TC-027",
+        "TC-028"
+      ],
+      "status": "PASS",
+      "singleVariable": "Прогнозируемый сдвиг критического пути в днях",
+      "contextUnchangedFromR1": true,
+      "contextDiffsBetweenSiblings": [
+        {
+          "a": "TC-026",
+          "b": "TC-027",
+          "changes": [
+            {
+              "before": "1",
+              "after": "4"
+            }
+          ]
+        },
+        {
+          "a": "TC-026",
+          "b": "TC-028",
+          "changes": [
+            {
+              "before": "1",
+              "after": "8"
+            }
+          ]
+        }
+      ],
+      "questionDiff": [],
+      "optionTextDiffBetweenSiblings": [],
+      "optionOrderDiff": [],
+      "changedOptionTextsFromR1": {
+        "TC-026": [],
+        "TC-027": [],
+        "TC-028": []
+      },
+      "constantsPreserved": true,
+      "strongestPositions": [
+        "C",
+        "A",
+        "D"
+      ]
+    },
+    {
+      "familyId": "F-BV-P01",
+      "memberIDs": [
+        "TC-029",
+        "TC-030"
+      ],
+      "status": "PASS",
+      "singleVariable": "Стабильность scope и приёмочных критериев после discovery",
+      "contextUnchangedFromR1": true,
+      "contextDiffsBetweenSiblings": [
+        {
+          "a": "TC-029",
+          "b": "TC-030",
+          "changes": [
+            {
+              "before": "две трети объ",
+              "after": "ключевые требования меняются еженедельно; над"
+            },
+            {
+              "before": "ма образуют",
+              "after": "жно выделить"
+            },
+            {
+              "before": "с измеримой",
+              "after": "и их"
+            },
+            {
+              "before": "ой; оставшаяся треть ещё меняетс",
+              "after": "у пока нельз"
+            }
+          ]
+        }
+      ],
+      "questionDiff": [],
+      "optionTextDiffBetweenSiblings": [],
+      "optionOrderDiff": [],
+      "changedOptionTextsFromR1": {
+        "TC-029": [
+          "B"
+        ],
+        "TC-030": [
+          "B"
+        ]
+      },
+      "constantsPreserved": true,
+      "strongestPositions": [
+        "B",
+        "D"
+      ]
+    },
+    {
+      "familyId": "F-PA-P01",
+      "memberIDs": [
+        "TC-031",
+        "TC-032"
+      ],
+      "status": "PASS",
+      "singleVariable": "Выполнение заранее утверждённого критерия успеха",
+      "contextUnchangedFromR1": true,
+      "contextDiffsBetweenSiblings": [
+        {
+          "a": "TC-031",
+          "b": "TC-032",
+          "changes": [
+            {
+              "before": "",
+              "after": "1,"
+            },
+            {
+              "before": ",6",
+              "after": ""
+            }
+          ]
+        }
+      ],
+      "questionDiff": [],
+      "optionTextDiffBetweenSiblings": [],
+      "optionOrderDiff": [],
+      "changedOptionTextsFromR1": {
+        "TC-031": [],
+        "TC-032": []
+      },
+      "constantsPreserved": true,
+      "strongestPositions": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "familyId": "F-DM-P01",
+      "memberIDs": [
+        "TC-033",
+        "TC-034"
+      ],
+      "status": "PASS",
+      "singleVariable": "Стоимость и обратимость немедленного пилота",
+      "contextUnchangedFromR1": true,
+      "contextDiffsBetweenSiblings": [
+        {
+          "a": "TC-033",
+          "b": "TC-034",
+          "changes": [
+            {
+              "before": "стоимост",
+              "after": "нужен невозвратный контракт на 2 млн рублей и публичное обязател"
+            },
+            {
+              "before": " 30 тыс",
+              "after": "ство обслуживать школы весь семестр"
+            },
+            {
+              "before": "рубле",
+              "after": "Полны"
+            },
+            {
+              "before": "",
+              "after": " запуск существенно дороже; бюджет не истекает"
+            },
+            {
+              "before": "полная отмена без потерь сверх",
+              "after": "отраслевой статистики по"
+            },
+            {
+              "before": "й суммы и без внешних обязательств",
+              "after": "му сегменту пока нет"
+            },
+            {
+              "before": " Полный запуск существенно дороже; бюджет не истекает, отраслевой статистики по этому сегменту пока нет.",
+              "after": ""
+            }
+          ]
+        }
+      ],
+      "questionDiff": [],
+      "optionTextDiffBetweenSiblings": [],
+      "optionOrderDiff": [],
+      "changedOptionTextsFromR1": {
+        "TC-033": [],
+        "TC-034": []
+      },
+      "constantsPreserved": true,
+      "strongestPositions": [
+        "B",
+        "A"
+      ]
+    }
+  ],
+  "regression": {
+    "casesChanged": 17,
+    "casesByteIdentical": 8,
+    "byteIdenticalCaseIDs": [
+      "TC-026",
+      "TC-027",
+      "TC-028",
+      "TC-031",
+      "TC-032",
+      "TC-033",
+      "TC-034",
+      "TC-047"
+    ],
+    "frozenMetadataChanges": [],
+    "revisionChanges": [
+      {
+        "id": "TC-029",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-030",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-035",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-036",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-037",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-038",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-039",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-040",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-041",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-042",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-043",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-044",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-045",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-046",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-048",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-049",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "id": "TC-050",
+        "before": 1,
+        "after": 2
+      }
+    ],
+    "strongestChanges": [],
+    "decisionQualityChanges": [
+      {
+        "id": "TC-030",
+        "option": "B",
+        "before": 0.65,
+        "after": 0.4,
+        "explanation": "B обязывает зафиксировать две трети на старте, но ни один существенный пакет ещё нельзя надёжно определить. Возникают премия и платные изменения, которых избегает управляемый T&M."
+      },
+      {
+        "id": "TC-036",
+        "option": "A",
+        "before": 0.76,
+        "after": 0.72,
+        "explanation": "Пилот даёт знания и об исполнении, но требует частично необратимых вложений до проверки спроса. Для выделенной первой неизвестности база точности не добавляет."
+      },
+      {
+        "id": "TC-036",
+        "option": "C",
+        "before": 0.5,
+        "after": 0.6,
+        "explanation": "Коммит отложен корректно, однако мотивы льготных заявителей не отвечают на уже сформулированный вопрос о поведении платной аудитории; прямой тест доступен сейчас."
+      },
+      {
+        "id": "TC-036",
+        "option": "D",
+        "before": 0.4,
+        "after": 0.35,
+        "explanation": "Общий результат смешает немасштабируемый льготный канал с платным. Даже корректный спрос не подтверждает способность подрядчика выполнить заказы, поэтому аренда остаётся преждевременной."
+      },
+      {
+        "id": "TC-037",
+        "option": "D",
+        "before": 0.7,
+        "after": 0.4,
+        "explanation": "Наблюдение полезно для стабильности новой версии, но не показывает, прочитает ли её данные старый бинарник. Эти проверки отвечают на разные вопросы."
+      },
+      {
+        "id": "TC-038",
+        "option": "B",
+        "before": 0.72,
+        "after": 0.55,
+        "explanation": "Общий регресс полезен, но два клиента не контролируют дату внешнего согласования. Жёсткая общая точка переносит эту неопределённость на всю необходимую функцию."
+      },
+      {
+        "id": "TC-038",
+        "option": "C",
+        "before": 0.6,
+        "after": 0.3,
+        "explanation": "Переименование заставит старых клиентов выдавать билет до оплаты. Откат после инцидента не заменяет доступную до релиза проверку поведения."
+      },
+      {
+        "id": "TC-038",
+        "option": "D",
+        "before": 0.4,
+        "after": 0.75,
+        "explanation": "Семантика сохранена, но тихие сутки не означают переход редких клиентов. Удаление может сломать их следующее обращение, хотя уведомление уже отправлено."
+      },
+      {
+        "id": "TC-043",
+        "option": "B",
+        "before": 0.72,
+        "after": 0.4,
+        "explanation": "Зелёный HTTP не учитывает уже просроченный результат очереди. Малый rollout добавляет нагрузку в тот же путь после trigger и не является разрешённым исключением."
+      },
+      {
+        "id": "TC-043",
+        "option": "C",
+        "before": 0.5,
+        "after": 0.6,
+        "explanation": "Freeze остановит обход, но заблокирует и справочник, чья независимость явно установлена. Цена ограничения растёт без выигрыша в защищаемом SLI."
+      },
+      {
+        "id": "TC-043",
+        "option": "D",
+        "before": 0.35,
+        "after": 0.8,
+        "explanation": "Текущий ответ верен, но разные локальные сигналы сохраняют причину следующего конфликта. Доступный технический механизм опять подменяется ручной встречей."
+      },
+      {
+        "id": "TC-045",
+        "option": "A",
+        "before": 0.45,
+        "after": 0.75,
+        "explanation": "Последовательность не конфликтует за стенд, но сохраняет лишнюю техническую зависимость. Разрешённая локальная фиксация позволяет безопасно перенести три дня и выиграть день общего срока."
+      },
+      {
+        "id": "TC-045",
+        "option": "C",
+        "before": 0.6,
+        "after": 0.4,
+        "explanation": "Перенесённая демонстрация вытеснит подготовку данных до дня 16; ещё два дня проверки дадут 18. Ускорение клиентской команды ухудшает общий срок по сравнению даже с baseline."
+      },
+      {
+        "id": "TC-045",
+        "option": "D",
+        "before": 0.75,
+        "after": 0.6,
+        "explanation": "Ресурсная развязка правильна, но день 13 игнорирует ожидание мигрированных данных. Локальное подтверждение экранов не заменяет проверку реального совместного пути."
+      },
+      {
+        "id": "TC-048",
+        "option": "B",
+        "before": 0.78,
+        "after": 0.35,
+        "explanation": "Откладывание уменьшает число промежуточных состояний, но откладывает и независимую поставку, хотя совместимый этап проверен и нужен период сосуществования."
+      }
+    ],
+    "familiesWithImplementationChanges": [
+      "F-BV-P01"
+    ],
+    "manifestFamilyChanges": [],
+    "otherFamiliesByteIdentical": true,
+    "sourceBankAndBlueprintUnchanged": true
+  },
+  "strictProductionLoader": "PASS",
+  "sourceGrounding": "Local textbook topic excerpts and new author rationale in source-trace-r2.csv; no external frameworks",
+  "protectedInputHashes": {
+    "agent-artifacts/test-bank/batch-01/cases_TC026_TC050.json": "6d93c23f91262d73a5cef5e39a9bb208f6893745875d5dd482b9eba0785d276d",
+    "InteractiveBook/TrainerContent/cases.json": "19954c13f6bb6e298631a5c873c1ed8dedee23aa349e2b3f9d50b10f70662fbb",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "agent-artifacts/manifests/v2.2/production_manifest_masterplan_v2_2.json": "f8824c2e98819a4f2a97e26f67a2d27291a8e10ddb1c37bee1d950ffda7d732b"
+  },
+  "qaInputHashes": {
+    "QA-report.md": "82986955609c8ce2796d9de197a98ef82d1d91f61cb471c460457335f16c552e",
+    "case-fixes.csv": "25b6dcab7c2cea726c2c1d22034b7e10686697722edc2f14c3aa01b204e330cb",
+    "family-fixes.csv": "2c39c67907f19fdb10e47db7855333e198866dcb169491c178a54237b5477ee1",
+    "batch-statistics-independent.json": "e814bd66feddbd06b785653c7841c741609d0be026ebc381316da8b8bc1907b3",
+    "QA-verdict.json": "84e35d14cafff7ef66c745856af67f0e543a775f477f34e5932d40a931f04397"
+  },
+  "candidateSHA256": "61483afc2868ef762cc652ef845e7b4d78a9144d9ec6d9211a6801c59f657d2c",
+  "focusedQALocalFix": {
+    "issueId": "R2-01",
+    "field": "TC-045/C.whenItWouldBeBest",
+    "status": "FIXED",
+    "date": "2026-10-07",
+    "before": "Если данные не зависят от занятого стенда либо ранняя демонстрация имеет обязательную ценность выше потери срока.",
+    "after": "Если ранняя демонстрация необходима для принятия решения и её ценность оправдывает перенос завершения проверки на день 18.",
+    "unexpectedDiff": 0,
+    "schemaValidation": "PASS",
+    "correctPositions": {
+      "A": 6,
+      "B": 6,
+      "C": 6,
+      "D": 7
+    },
+    "remainingQAIssues": 0,
+    "focusedQAReportSHA256": "8e214cb0c38654c84285df79c4a27aa6a4e02a22b2062f5e20f6b9fa1ffaebf2"
+  }
+}

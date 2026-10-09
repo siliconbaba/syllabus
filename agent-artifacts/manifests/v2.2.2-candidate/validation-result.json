@@ -1,0 +1,98 @@
+{
+  "status": "READY FOR MANIFEST QA",
+  "baseline": "v2.2.1",
+  "fixedOriginalBlockers": 6,
+  "remainingOriginalBlockers": 0,
+  "changedRows": [
+    "TC-076",
+    "TC-077",
+    "TC-078",
+    "TC-079",
+    "TC-080",
+    "TC-087",
+    "TC-088",
+    "TC-091",
+    "TC-093"
+  ],
+  "unchangedRows": 266,
+  "changedFamilies": [
+    "F-DR-T01",
+    "F-TD-P01"
+  ],
+  "unchangedFamilies": 41,
+  "unchangedTopicLevelDomainEligibility": true,
+  "unexpectedRegression": 0,
+  "runtimeVocabulary": "PASS: compiled production Swift mapping",
+  "runtimeEngineWeights": "PASS: all 300 impulse responses",
+  "headFeasibility": {
+    "breadthDomains": [
+      "project",
+      "processes",
+      "stakeholders",
+      "people",
+      "finance",
+      "portfolio",
+      "technical",
+      "product"
+    ],
+    "breadthMet": true,
+    "eligibleCount": 200,
+    "excludedMetadataCount": 0,
+    "headDomainEvidence": 3,
+    "maximumSyntheticLevel": "head",
+    "minimumLevelEvidence": 5,
+    "note": "Synthetic perfect responses test structural feasibility only, not learner proficiency.",
+    "result": "PASS",
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 1,
+      "delivery": 2,
+      "finance": 5,
+      "people": 7,
+      "portfolio": 7,
+      "processes": 14,
+      "product": 4,
+      "project": 6,
+      "stakeholders": 6,
+      "technical": 17
+    }
+  },
+  "familyConsistency": "PASS",
+  "structuralInvariants": "PASS",
+  "planned": {
+    "newCases": 275,
+    "standalone": 181,
+    "linked": 94,
+    "pairs": 35,
+    "triplets": 8,
+    "batches": 11,
+    "casesPerBatch": 25
+  },
+  "batch03": {
+    "cases": 25,
+    "standalone": 16,
+    "linked": 9,
+    "families": 4,
+    "levels": {
+      "head": 3,
+      "junior": 5,
+      "middle": 12,
+      "senior": 5
+    }
+  },
+  "crossBankNearest": {
+    "NO_CLOSE_ANALOG": 0,
+    "ALLOWED_REINFORCEMENT": 9,
+    "NEAR_DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "internalBatch03": {
+    "pairs": 300,
+    "duplicates": 0,
+    "nearDuplicates": 0
+  },
+  "unresolvedIDs": [],
+  "readyForManifestQA": true,
+  "authoringStarted": false,
+  "productionChanged": false,
+  "scopeNote": "Only nine rows, two contracts and their redundant summaries, version/provenance and derived thinking coverage changed. Semantic judgments are author self-review; independent manifest QA remains required."
+}

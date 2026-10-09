@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "changedRows": [
+    "TC-075"
+  ],
+  "changedFields": [
+    "oneSentenceScenarioConcept",
+    "decisiveFactsConcept",
+    "oneSentenceDecisionBoundary",
+    "secondaryPatterns",
+    "whyLevel",
+    "derivedRuntimeSecondaryThinking"
+  ],
+  "unchangedRows": 274,
+  "unexpectedManifestChanges": 0,
+  "newCases": 275,
+  "standalone": 181,
+  "linked": 94,
+  "pairs": 35,
+  "triplets": 8,
+  "batches": 11,
+  "casesPerBatch": 25,
+  "eligibility": "PASS",
+  "familyConsistency": "PASS",
+  "batchMembership": "PASS",
+  "topicMembershipUnchanged": true,
+  "vocabulary": "PASS: compiled authoritative Swift mapping",
+  "runtimeWeights": "PASS: all 300 impulse responses",
+  "headFeasibility": {
+    "breadthDomains": [
+      "project",
+      "processes",
+      "stakeholders",
+      "people",
+      "finance",
+      "portfolio",
+      "technical",
+      "product"
+    ],
+    "breadthMet": true,
+    "eligibleCount": 200,
+    "excludedMetadataCount": 0,
+    "headDomainEvidence": 3,
+    "maximumSyntheticLevel": "head",
+    "minimumLevelEvidence": 5,
+    "note": "Synthetic perfect responses test structural feasibility only, not learner proficiency.",
+    "result": "PASS",
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 1,
+      "delivery": 2,
+      "finance": 5,
+      "people": 7,
+      "portfolio": 7,
+      "processes": 14,
+      "product": 4,
+      "project": 6,
+      "stakeholders": 6,
+      "technical": 17
+    }
+  },
+  "levels": {
+    "head": 35,
+    "junior": 42,
+    "middle": 122,
+    "senior": 76
+  },
+  "goldScope": "Original TC-001..TC-025; imported TC-026..TC-050 are already in new275 and must not be counted twice.",
+  "remainingBlockers": [],
+  "verdict": "READY FOR FOCUSED QA; not import approval",
+  "validPartTopic": "PASS: all 275 checked against production topics.json"
+}

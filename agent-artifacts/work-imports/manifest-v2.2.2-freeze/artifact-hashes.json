@@ -1,0 +1,21 @@
+{
+  "agent-artifacts/manifests/v2.2.2/artifact-hashes.json": "c74c124b9ea5ca0417e5530e1836134c11a8f73f22b2547f6a87c50827cebe2b",
+  "agent-artifacts/manifests/v2.2.2/change-log-v2_2_1-to-v2_2_2.csv": "43fc81500cb74a043e4cfb9af466fc0454c38caeec56506d0701d5ba1130926b",
+  "agent-artifacts/manifests/v2.2.2/duplication-audit-v2_2_2.csv": "f1499a0ea99118e2b2ae427ba97ecc2d4f140d36f8a2835399c8ba411e8e57a2",
+  "agent-artifacts/manifests/v2.2.2/linked_family_manifest_v2_2_2.csv": "0e574baf695dda48e4e75d89e3503bf7b3e8f27dc1250ec5cb801983c9b675c3",
+  "agent-artifacts/manifests/v2.2.2/manifest-review-v2_2_2.md": "ee5aff71f92132409f802d4c46c3ae70046e825248195f9d95976fe28f1f3e85",
+  "agent-artifacts/manifests/v2.2.2/production_manifest_TC026_TC300_v2_2_2.csv": "7ec914f56a526eb0345e3ef3a934c8c2f67c36860ddef6c20775dd55ceeb0f60",
+  "agent-artifacts/manifests/v2.2.2/production_manifest_masterplan_v2_2_2.json": "c4f8600132a4099a655c31c4c97356c52265da7c0895e04d9a99f04503821e41",
+  "agent-artifacts/manifests/v2.2.2/runtime_coverage_v2_2_2.json": "406335352fc68ac086a1dd64b66de9dea34f3cbb23ff00d093828edaa4ea3600",
+  "agent-artifacts/manifests/v2.2.2/validation-result.json": "9c85d9b9939e2ddf9dbc548502f932984246ffb6e02b0cc1fe1b715c889ef753",
+  "agent-artifacts/work-imports/manifest-v2.2.2-freeze/RuntimeAudit.swift": "19d0c899cc886c67bdd3e040763aa524ba0b7211173b968071d51db19682e02e",
+  "agent-artifacts/work-imports/manifest-v2.2.2-freeze/freeze-report.md": "ee5aff71f92132409f802d4c46c3ae70046e825248195f9d95976fe28f1f3e85",
+  "agent-artifacts/work-imports/manifest-v2.2.2-freeze/freeze.py": "81a42cd760f8bae55a5bfdb6d45bc0b9fb731635ed9a8a5d68078e0de6e3834d",
+  "agent-artifacts/work-imports/manifest-v2.2.2-freeze/git-status-before.txt": "7c614a940d2e9c020056cc4b514a7dfa9dd3f809f425e8b5c7af3597fc22b0c4",
+  "agent-artifacts/work-imports/manifest-v2.2.2-freeze/protected-input-hashes.json": "c9a3d93eb60a4c3fda9d352ffa2a2c872f948b59108a20b3eb519d467ee75ec7",
+  "agent-artifacts/work-imports/manifest-v2.2.2-freeze/regression-evidence.json": "602080495e0531e876029e00ac8243947198755b0fe5c872115f22b90a8f2234",
+  "agent-artifacts/work-imports/manifest-v2.2.2-freeze/runtime-input.json": "2d94d6e9befb65f3760b85aca7027e6f48b0cc39a66942324d6f2b580c0bddfb",
+  "agent-artifacts/work-imports/manifest-v2.2.2-freeze/runtime-output.json": "b30c56bc96d4374ae9827918eb4ee06e7f7d26fdebaf7d2f94ff8083e13924ba",
+  "agent-artifacts/work-imports/manifest-v2.2.2-freeze/validation-result.json": "9c85d9b9939e2ddf9dbc548502f932984246ffb6e02b0cc1fe1b715c889ef753",
+  "agent-artifacts/manifests/CURRENT.md": "58a7462b1493c314f4fde92985a95f9ec6c4e84e364e2a109655b9cea74f3f4e"
+}

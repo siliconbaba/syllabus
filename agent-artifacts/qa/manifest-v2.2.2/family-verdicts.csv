@@ -1,0 +1,3 @@
+scenarioFamilyId,verdict,severity,singleLogicalVariable,controlledMutation,stateCount,boundaryCount,distinctStrategyCount,hiddenSecondMutation,siblingMetadata,memberContractConsistency,requiredFix
+F-DR-T01,PASS,none,Доказанная предотвращаемая потеря L от дополнительного ручного ревью за месяц при одинаковых остальных условиях,PASS,3,2,3,False,PASS,PASS,
+F-TD-P01,PASS,none,Требует ли заранее согласованный смысл положительного ответа API завершённой проверки реестра,PASS,2,1,2,False,PASS,PASS,

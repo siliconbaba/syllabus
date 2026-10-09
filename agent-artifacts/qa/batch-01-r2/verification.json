@@ -1,0 +1,8 @@
+{
+  "candidateUnchanged": true,
+  "candidateSHA256": "66e542695a2774fe2676d3e315281a1a051fb3b2cdd24c447a3b3c7bd8cc04a9",
+  "catalogByteEqualProduction": true,
+  "strictLoader": "PASS",
+  "loaderCommand": "/tmp/qa-batch01-r2-loader syllabus/agent-artifacts/test-bank/batch-01-r2/cases_TC026_TC050_r2.json",
+  "outputFilesReadable": true
+}

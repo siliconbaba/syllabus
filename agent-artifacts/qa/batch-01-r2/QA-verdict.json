@@ -1,0 +1,70 @@
+{
+  "verdict": "READY WITH LOCAL FIXES",
+  "reviewDate": "2026-10-07",
+  "candidateSHA256": "66e542695a2774fe2676d3e315281a1a051fb3b2cdd24c447a3b3c7bd8cc04a9",
+  "priorIssues": {
+    "BLOCKER": {
+      "fixed": 1,
+      "remaining": 0
+    },
+    "MAJOR": {
+      "fixed": 8,
+      "remaining": 0
+    },
+    "MINOR": {
+      "fixed": 1,
+      "remaining": 0
+    }
+  },
+  "changedCasesChecked": 17,
+  "changedCasesTotal": 17,
+  "frozenRegression": 0,
+  "TC030UniqueStrongest": "PASS",
+  "F-BV-P01": "PASS",
+  "seniorRealization": {
+    "TC-036": "PASS",
+    "TC-038": "PASS",
+    "TC-043": "PASS",
+    "TC-045": "PASS"
+  },
+  "leakage": {
+    "beforeBestSimpleHits": 17,
+    "afterBestSimpleHits": 9,
+    "sameFormerRuleAfterHits": 7,
+    "testedRules": 78,
+    "status": "PASS"
+  },
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "schemaRuntime": "PASS",
+  "newIssues": {
+    "BLOCKER": 0,
+    "MAJOR": 0,
+    "MINOR": 1
+  },
+  "remainingIds": [
+    "TC-045"
+  ],
+  "fixes": [
+    {
+      "issueId": "R2-01",
+      "caseId": "TC-045",
+      "severity": "MINOR",
+      "field": "options.C.whenItWouldBeBest",
+      "problem": "Первая ветка WHEN («Если данные не зависят от занятого стенда») не делает весь C лучшим: исчезает сдвиг данных на день 16, но C сохраняет финиш на день 18 и необязательную демонстрацию. При прежней готовности данных на день 13 финал возможен на 15; вариант B остаётся сильнее. Вторая ветка про обязательную ценность демонстрации согласована с C.",
+      "minimalFix": "Удалить первую ветку и союз «либо»; оставить условие, что ранняя демонстрация имеет обязательную ценность выше потери срока. Текст варианта, context, key, score и frozen metadata менять не требуется.",
+      "strongestChanges": false,
+      "verification": "Локальная проверка WHEN C против всего C и неизменности остальных полей; повтор полного QA и surface-check не требуется."
+    }
+  ],
+  "workImportNow": "NO",
+  "workImportAfterLocalFixAndCheck": "YES",
+  "fullQARequiredAfterFix": false,
+  "candidateModified": false,
+  "productionImported": false,
+  "batch02Started": false
+}

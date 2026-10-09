@@ -1,0 +1,32 @@
+{
+  "import": "PASS",
+  "goldRegression": "PASS",
+  "batchR2ExactContentAndOptionOrder": "PASS",
+  "linkedAssessmentMigration": "PASS",
+  "schemaContentValidation": "PASS",
+  "familyValidation": "PASS",
+  "unknownDomains": 0,
+  "unknownPatterns": 0,
+  "trainerScoringTests": "PASS",
+  "exactPreImportSnapshotRegression": "PASS",
+  "build": "PASS",
+  "scriptsCheck": {
+    "status": "PASS",
+    "exitCode": 0,
+    "webKitSizes": [
+      "390x760",
+      "320x568",
+      "1280x900"
+    ],
+    "log": "check.log"
+  },
+  "unexpectedChanges": [],
+  "changedExistingFiles": [
+    "InteractiveBook/TrainerContent/cases.json",
+    "Tests/TrainerTests.swift",
+    "Tests/TrainerSchemaTests.swift"
+  ],
+  "casesSha256": "a16c00b2be4d2d841b401ce15a076320b6a7c33f91a0b7a077b7d80d86800dcc",
+  "commitPushPerformed": false,
+  "integration": "COMPLETE"
+}

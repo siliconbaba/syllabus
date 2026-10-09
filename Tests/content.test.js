@@ -57,6 +57,10 @@
   const diagramSpeech=window.bookAudio.extractTopic('t-11-4').blocks.map(b=>b.text).join(' ');
   assert(diagramSpeech.includes('Клиент входит через шлюз'),'diagram has spoken text description');
   assert(!diagramSpeech.includes('Сервис — скруглённый блок'),'visual legends excluded from speech');
+  const beforeTrainer=document.querySelector('main').scrollTop;
+  assert(document.querySelector('#sidebar #trainer-entry'),'trainer entry in sidebar');
+  document.getElementById('trainer-entry').click();await wait();
+  assert(Math.abs(document.querySelector('main').scrollTop-beforeTrainer)<2,'trainer entry preserves reader position');
   window.webkit.messageHandlers.result.postMessage({ok:true,checks});
  } catch(e){window.webkit.messageHandlers.result.postMessage({ok:false,error:String(e),checks});}
 })();

@@ -1,0 +1,95 @@
+{
+  "caseCount": 75,
+  "standaloneCount": 51,
+  "linkedCount": 24,
+  "trainingEligibleCount": 75,
+  "assessmentEligibleCount": 51,
+  "levels": {
+    "middle": 41,
+    "junior": 11,
+    "senior": 16,
+    "head": 7
+  },
+  "familyCount": 11,
+  "newFamilyCount": 4,
+  "families": {
+    "api-dependency-01": [
+      "TC-001",
+      "TC-002"
+    ],
+    "hotfix-evidence-01": [
+      "TC-003",
+      "TC-004"
+    ],
+    "performance-01": [
+      "TC-017",
+      "TC-018"
+    ],
+    "F-PM-T01": [
+      "TC-026",
+      "TC-027",
+      "TC-028"
+    ],
+    "F-BV-P01": [
+      "TC-029",
+      "TC-030"
+    ],
+    "F-PA-P01": [
+      "TC-031",
+      "TC-032"
+    ],
+    "F-DM-P01": [
+      "TC-033",
+      "TC-034"
+    ],
+    "F-DM-T01": [
+      "TC-051",
+      "TC-052",
+      "TC-053"
+    ],
+    "F-DR-P01": [
+      "TC-054",
+      "TC-055"
+    ],
+    "F-ST-P01": [
+      "TC-056",
+      "TC-057"
+    ],
+    "F-PO-P01": [
+      "TC-058",
+      "TC-059"
+    ]
+  },
+  "manifestFamilyPositions": {
+    "F-DR-P01": {
+      "TC-054": 1,
+      "TC-055": 2
+    },
+    "F-ST-P01": {
+      "TC-056": 1,
+      "TC-057": 2
+    },
+    "F-DM-T01": {
+      "TC-051": 1,
+      "TC-052": 2,
+      "TC-053": 3
+    },
+    "F-PO-P01": {
+      "TC-058": 1,
+      "TC-059": 2
+    }
+  },
+  "positionNote": "Production schema has no familyPosition field; positions validated against authoritative manifest v2.2.1, not imported as auxiliary metadata. Gold families validated by membership/topic/distinct mutations.",
+  "correctPositionDistributionBatch02": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "sha256": "2540570c2b907ea0e48cb9752e715486126e006a6100bd27e2f9f170d2c99689",
+  "candidateSha256": "45848ecbf016b348c275037d08c2adfc552c7b15594600d309aa1cbe6476c081",
+  "existingProductionRegression": "PASS",
+  "authoritativeManifest": "v2.2.1",
+  "batchExactSemanticEquality": "PASS",
+  "tc075HotfixIntegrity": "PASS"
+}

@@ -1,0 +1,2407 @@
+{
+  "scope": "300 pairwise concept-level comparisons; no new editorial audit of unchanged rows",
+  "comparisons": [
+    {
+      "left": "TC-076",
+      "right": "TC-077",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Controlled siblings: state and strongest differ within declared family; not an accidental duplicate.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-078",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Controlled siblings: state and strongest differ within declared family; not an accidental duplicate.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-079",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-080",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Продолжить инвестицию, контролируя ключевые допущения."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-085",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Цена и частичная защита постоянного необязательного шага vs достаточность targeted regression для конкретного изменения комиссии.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-078",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Controlled siblings: state and strongest differ within declared family; not an accidental duplicate.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-079",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-080",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Продолжить инвестицию, контролируя ключевые допущения."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-085",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Цена и частичная защита постоянного необязательного шага vs достаточность targeted regression для конкретного изменения комиссии.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-079",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-080",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Продолжить инвестицию, контролируя ключевые допущения."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-085",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Цена и частичная защита постоянного необязательного шага vs достаточность targeted regression для конкретного изменения комиссии.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-080",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Controlled siblings: state and strongest differ within declared family; not an accidental duplicate.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Продолжить инвестицию, контролируя ключевые допущения."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Продолжить инвестицию, контролируя ключевые допущения."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-082",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Controlled siblings: state and strongest differ within declared family; not an accidental duplicate.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Продолжить инвестицию, контролируя ключевые допущения."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Продолжить инвестицию, контролируя ключевые допущения."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-084",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Controlled siblings: state and strongest differ within declared family; not an accidental duplicate.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-095",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Локальная очередь на review vs внешне заблокированная работа; общая логика ограничения WIP, разные причины и действия с ограничением.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-089",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Подтверждённое сознательное сокрытие при работающей безопасности vs подавление near-miss reporting публичными обвинениями. Противоположные ошибки применения blameless/accountability.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-096",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Момент готовой эскалации после повторного нарушения vs влияние без authority через сопоставимый trade-off.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-098",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Сокращение постоянных обязательств/портфеля vs сохранение отдельного полномочия на управленческий резерв.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "rightBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-095",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Передача capability и выход enabling vs видимость blocked WIP и управление запуском.",
+      "leftBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "rightBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "rightBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-098",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "Выбор меры до реализации конкретного риска vs authority и централизованное бюджетирование management reserve.",
+      "leftBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "rightBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "rightBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-096",
+      "right": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "rightBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления."
+    },
+    {
+      "left": "TC-096",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-096",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-096",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-097",
+      "right": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "rightBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования."
+    },
+    {
+      "left": "TC-097",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-097",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-098",
+      "right": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "rightBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью."
+    },
+    {
+      "left": "TC-098",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    },
+    {
+      "left": "TC-099",
+      "right": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Distinct decision objects/decisive facts and required interventions; compared boundaries recorded below.",
+      "leftBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "rightBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO."
+    }
+  ],
+  "nearDuplicates": 0,
+  "duplicates": 0
+}

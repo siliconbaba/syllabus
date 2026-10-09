@@ -1,0 +1,18 @@
+{
+  "ValidateBatch.swift": "2eacba3143383cd3a84c0410eeb61031cef055f8c068aeb46388cab71a50f0bc",
+  "batch-statistics-r2.json": "6411f480cb2011ce1e6efc878a65811d7c83957d17c66631441e088586923443",
+  "cases_TC026_TC050_r2.json": "61483afc2868ef762cc652ef845e7b4d78a9144d9ec6d9211a6801c59f657d2c",
+  "change-log.csv": "8c17dfe236757ffdcb1d21675e7299b4227749ad9685f79a2211adbb774182fb",
+  "key-hidden-review.json": "b89a2447210b3267498322ff68354bd92ef8bece324e9428d73a6f11ad74e021",
+  "reader-check.json": "0b7038543f6401b30c3ed30a65fdfca95df84eaf4acc0ca20c3a4530f082597e",
+  "revise.py": "f14918f30e9a1e895bbe58ff61a58cd65e4c9b3762f1c5fea039138d7317973e",
+  "revision-report.md": "ac1328eb8badc7f4328393b00f04c0a1f5a0083df198ecdd1a1ac46d953a4973",
+  "schema-validation.log": "61bbbed3a4acb5cb4288152f780fb5243494ff1aa0af00b07ac1f8c52bdf2d90",
+  "self-qa-r2.json": "b72c0622aa0a72a52182ccbd6c8ead395530786cba85a0cd72976d4f976a15df",
+  "source-trace-r2.csv": "465b485a0602cab1fced282fd4da33cdd1c8520d86c00e306799b3e8d49d867b",
+  "surface-results.json": "1884b47f433900f794da9d3f1bbf180e8526b33e78b799e096c359e7fe3e0707",
+  "surface.py": "c72bd68d79945dd136624e7f7d0ebfc60488d138fad62a9669ec83e247241c94",
+  "topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+  "validate-batch": "b1ff1e84fdad9722e6279090d21a489907399732de069eaa77a4fa0e046cf7c5",
+  "validate_and_report.py": "f79ff5d07626b511e2f1ef658be570b093989ecc908b247b61db4661849024d7"
+}

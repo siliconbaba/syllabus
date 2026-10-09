@@ -35,6 +35,13 @@ FB0000000000000000000003 = {isa = PBXBuildFile; fileRef = FA00000000000000000000
 		C78032AE8E41AA071F407301 /* InteractiveBook/Audio/AppleSpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D1A02C977D6F080DAE4BC4 /* InteractiveBook/Audio/AppleSpeechEngine.swift */; };
 		C92CC0506835B2FB5F7B305A /* InteractiveBook/Audio/SpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42815BFE9291536B66BC1BAA /* InteractiveBook/Audio/SpeechEngine.swift */; };
 		CD518B937C624FF900D499F5 /* InteractiveBook/Audio/Silero/ORTBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7513EE54E3F1CB029ED38 /* InteractiveBook/Audio/Silero/ORTBridge.mm */; };
+AA7722000000000000000000 = {isa = PBXBuildFile; fileRef = AA7711000000000000000000; };
+AA7722000000000000000001 = {isa = PBXBuildFile; fileRef = AA7711000000000000000001; };
+AA7722000000000000000002 = {isa = PBXBuildFile; fileRef = AA7711000000000000000002; };
+AA7722000000000000000003 = {isa = PBXBuildFile; fileRef = AA7711000000000000000003; };
+AD4400000000000000000000 = {isa = PBXBuildFile; fileRef = AC4400000000000000000000; };
+AD4400000000000000000001 = {isa = PBXBuildFile; fileRef = AC4400000000000000000001; };
+AD4400000000000000000002 = {isa = PBXBuildFile; fileRef = AC4400000000000000000002; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +75,13 @@ FA0000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourceco
 		DB5CE947C75514FDC5D89989 /* InteractiveBook/Audio/Silero/SileroWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroWorker.swift; sourceTree = SOURCE_ROOT; };
 		E8310F0FE7CA9F6446BD1697 /* InteractiveBook/Audio/Silero/SileroAuxiliary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroAuxiliary.swift; sourceTree = SOURCE_ROOT; };
 		F6D1A02C977D6F080DAE4BC4 /* InteractiveBook/Audio/AppleSpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/AppleSpeechEngine.swift; sourceTree = SOURCE_ROOT; };
+AA7711000000000000000000 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerModels.swift; sourceTree = SOURCE_ROOT; };
+AA7711000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerStore.swift; sourceTree = SOURCE_ROOT; };
+AA7711000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerView.swift; sourceTree = SOURCE_ROOT; };
+AA7711000000000000000003 = {isa = PBXFileReference; lastKnownFileType = folder; path = InteractiveBook/TrainerContent; sourceTree = SOURCE_ROOT; };
+AC4400000000000000000000 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerScoringEngine.swift; sourceTree = SOURCE_ROOT; };
+AC4400000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerScoringMapping.swift; sourceTree = SOURCE_ROOT; };
+AC4400000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerProfileView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,13 @@ FA0000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourceco
 		D00000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
+AA7711000000000000000003,
+AA7711000000000000000002,
+AA7711000000000000000001,
+AC4400000000000000000000,
+AC4400000000000000000001,
+AC4400000000000000000002,
+AA7711000000000000000000,
 FA0000000000000000000003,
 				FA0000000000000000000001 /* SavedExcerptStore.swift */,
 				FA0000000000000000000002 /* SavedExcerptsView.swift */,
@@ -204,6 +225,7 @@ FA0000000000000000000003,
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+AA7722000000000000000003,
 				7867E2997973F8EF53634CF5 /* InteractiveBook/SileroResources in Resources */,
 				A00000000000000000000003 /* Assets.xcassets in Resources */,
 				A00000000000000000000004 /* WebContent in Resources */,
@@ -217,6 +239,12 @@ FA0000000000000000000003,
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+AD4400000000000000000002,
+AD4400000000000000000001,
+AD4400000000000000000000,
+AA7722000000000000000002,
+AA7722000000000000000001,
+AA7722000000000000000000,
 FB0000000000000000000003,
 				FB0000000000000000000002,
 				FB0000000000000000000001,

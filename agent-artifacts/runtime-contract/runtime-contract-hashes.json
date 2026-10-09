@@ -1,0 +1,14 @@
+{
+  "authoritativeDirectory": "InteractiveBook/Trainer",
+  "referenceOnly": true,
+  "files": {
+    "TrainerScoringMapping.swift": {
+      "source": "InteractiveBook/Trainer/TrainerScoringMapping.swift",
+      "sha256": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad"
+    },
+    "TrainerScoringEngine.swift": {
+      "source": "InteractiveBook/Trainer/TrainerScoringEngine.swift",
+      "sha256": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+    }
+  }
+}

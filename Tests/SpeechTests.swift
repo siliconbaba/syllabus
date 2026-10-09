@@ -129,6 +129,13 @@ struct SpeechTests {
             check(defaults.string(forKey: "speech.voiceIdentifier") == nil, "automatic voice clears preference")
             reader.play()
         }
+        reader.finishLoading(topic, request: reader.beginLoading(id: topic.id, title: topic.title))
+        reader.pauseForTrainer()
+        check(reader.state == .paused, "trainer pauses active speech")
+        let trainerLoad = reader.beginLoading(id: topic.id, title: topic.title)
+        reader.pauseForTrainer()
+        reader.finishLoading(topic, request: trainerLoad)
+        check(reader.state == .paused && reader.fragments.isEmpty, "trainer prevents delayed extraction autoplay")
         defaults.set("missing.voice", forKey: "speech.voiceIdentifier")
         let fallback = SpeechReaderManager(defaults: defaults, session: session, makeSynthesizer: { FakeSpeech() }, observeSystem: false)
         check(fallback.preferredVoiceID == nil && !fallback.voiceName.isEmpty, "missing saved voice falls back automatically")

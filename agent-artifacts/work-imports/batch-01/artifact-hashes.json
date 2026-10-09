@@ -1,0 +1,17 @@
+{
+  "agent-artifacts/work-imports/batch-01/SnapshotRegression.swift": "9c40c5f40258a284fcb42a63330371dca2342b2f4b3a36eaa92597aefb72dfee",
+  "agent-artifacts/work-imports/batch-01/cases-before-import.json": "19954c13f6bb6e298631a5c873c1ed8dedee23aa349e2b3f9d50b10f70662fbb",
+  "agent-artifacts/work-imports/batch-01/check.log": "1f76b9d3e075d43d0fb9ca515c711db4c6127d7dabe309a3434fbf6eae9fdae7",
+  "agent-artifacts/work-imports/batch-01/git-status-before.txt": "7c614a940d2e9c020056cc4b514a7dfa9dd3f809f425e8b5c7af3597fc22b0c4",
+  "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+  "agent-artifacts/work-imports/batch-01/production-bank-stats.json": "064ad5345dddeb54a9aebb575cb05af002d85c3cf7ee92cd26e5c70e2d414197",
+  "agent-artifacts/work-imports/batch-01/snapshot-regression.log": "fc22711507772c513d1a41b3372cfa5f7ffcf63d7c4cb06da4c0a5d146a8a3d8",
+  "agent-artifacts/work-imports/batch-01/validate_import.py": "676f09ed1a5c8f68267c6088361a7f431608bebf112f0fea53b7c0c5bf681a2d",
+  "agent-artifacts/work-imports/batch-01/validation-result.json": "1a625babfdddc1c856453fea0300be31a63b2619b6487dd71c3be121ecf2fe72",
+  "agent-artifacts/work-imports/batch-01/workspace-before-hashes.json": "eb5769630c7cd915f8c54f56b1f8b2c40b780f1b0fbb00e812d3c35eac1c4f4c",
+  "InteractiveBook/TrainerContent/cases.json": "a16c00b2be4d2d841b401ce15a076320b6a7c33f91a0b7a077b7d80d86800dcc",
+  "Tests/TrainerTests.swift": "f5b5acbc4ed9f66596848b6375a38bd30f9c0169a0916064c838185ec493f4d3",
+  "Tests/TrainerSchemaTests.swift": "f6439b2fcb2ec21e883d860afc94dae784b4e723e2c54577dbd47196f46153c9",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+}

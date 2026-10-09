@@ -1,0 +1,15 @@
+{
+  "method": "Raw JSONDecoder byte-span comparison, independent of replacement formatting.",
+  "casesChanged": [
+    "TC-075"
+  ],
+  "byteIdenticalCases": 24,
+  "unexpectedChanges": 0,
+  "caseRevision": 2,
+  "correctPositions": {
+    "C": 6,
+    "A": 6,
+    "D": 7,
+    "B": 6
+  }
+}

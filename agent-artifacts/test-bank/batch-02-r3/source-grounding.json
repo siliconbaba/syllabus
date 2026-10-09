@@ -1,0 +1,12 @@
+{
+  "source": "InteractiveBook/WebContent/index.html#t-13-3",
+  "sha256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "exactExcerpts": [
+    "Критерии остановки — только по достижении запланированной выборки, кроме резкого ухудшения guardrail.",
+    "guardrail-метрики — несколько (не должны ухудшиться)"
+  ],
+  "caseFacts": "Day, percentages, cancellations and flag are authored scenario facts, not textbook quotations.",
+  "primaryPattern": "precommitted-stop-criteria → evidence: distinguish ordinary completion from the safety exception.",
+  "secondaryPatterns": "guardrails → risk. p-value and peeking removed because neither is required to solve the new case.",
+  "level": "junior preserved: recognize explicit exception; measurement checks are given."
+}

@@ -1,0 +1,76 @@
+{
+  "caseCount": 50,
+  "standaloneCount": 35,
+  "linkedCount": 15,
+  "trainingEligibleCount": 50,
+  "assessmentEligibleCount": 35,
+  "levels": {
+    "middle": 30,
+    "junior": 6,
+    "senior": 10,
+    "head": 4
+  },
+  "familyCount": 7,
+  "newFamilyCount": 4,
+  "families": {
+    "api-dependency-01": [
+      "TC-001",
+      "TC-002"
+    ],
+    "hotfix-evidence-01": [
+      "TC-003",
+      "TC-004"
+    ],
+    "performance-01": [
+      "TC-017",
+      "TC-018"
+    ],
+    "F-PM-T01": [
+      "TC-026",
+      "TC-027",
+      "TC-028"
+    ],
+    "F-BV-P01": [
+      "TC-029",
+      "TC-030"
+    ],
+    "F-PA-P01": [
+      "TC-031",
+      "TC-032"
+    ],
+    "F-DM-P01": [
+      "TC-033",
+      "TC-034"
+    ]
+  },
+  "manifestFamilyPositions": {
+    "F-PA-P01": {
+      "TC-031": 1,
+      "TC-032": 2
+    },
+    "F-DM-P01": {
+      "TC-033": 1,
+      "TC-034": 2
+    },
+    "F-PM-T01": {
+      "TC-026": 1,
+      "TC-027": 2,
+      "TC-028": 3
+    },
+    "F-BV-P01": {
+      "TC-029": 1,
+      "TC-030": 2
+    }
+  },
+  "positionNote": "Production schema has no familyPosition field; positions validated against authoritative manifest v2.2, not imported as auxiliary metadata. Gold families validated by membership/topic/distinct mutations.",
+  "correctPositionDistributionBatch01": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "sha256": "a16c00b2be4d2d841b401ce15a076320b6a7c33f91a0b7a077b7d80d86800dcc",
+  "candidateSha256": "61483afc2868ef762cc652ef845e7b4d78a9144d9ec6d9211a6801c59f657d2c",
+  "goldRegression": "PASS",
+  "batchExactSemanticEquality": "PASS"
+}

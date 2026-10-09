@@ -1,0 +1,2 @@
+﻿familyId,caseIds,priorSeverity,status,evidence,remainingCorrection
+F-BV-P01,TC-029 TC-030,BLOCKER (same issue QA-01),FIXED,Contexts unchanged from r1; identical questions and A/B/C/D text/order; only scope stability changes; B now commits two thirds at start; B→D independently confirmed.,

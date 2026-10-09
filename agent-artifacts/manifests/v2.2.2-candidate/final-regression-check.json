@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "method": "Separate structural/CSV/coverage assertions; not independent semantic QA.",
+  "changedRows": [
+    "TC-076",
+    "TC-077",
+    "TC-078",
+    "TC-079",
+    "TC-080",
+    "TC-087",
+    "TC-088",
+    "TC-091",
+    "TC-093"
+  ],
+  "unchangedRows": 266,
+  "changedFamilies": [
+    "F-DR-T01",
+    "F-TD-P01"
+  ],
+  "unchangedFamilies": 41,
+  "csvJsonConsistency": "PASS",
+  "unexpectedRegression": 0,
+  "coverageRecomputedIndependently": true,
+  "tripletUniqueMaxima": true,
+  "protectedInputsUnchanged": true,
+  "authoringStarted": false
+}

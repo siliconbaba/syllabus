@@ -1,0 +1,143 @@
+{
+  "changedIds": [
+    "TC-029",
+    "TC-030",
+    "TC-035",
+    "TC-036",
+    "TC-037",
+    "TC-038",
+    "TC-039",
+    "TC-040",
+    "TC-041",
+    "TC-042",
+    "TC-043",
+    "TC-044",
+    "TC-045",
+    "TC-046",
+    "TC-048",
+    "TC-049",
+    "TC-050"
+  ],
+  "unchangedIds": [
+    "TC-026",
+    "TC-027",
+    "TC-028",
+    "TC-031",
+    "TC-032",
+    "TC-033",
+    "TC-034",
+    "TC-047"
+  ],
+  "byteIdenticalIds": [
+    "TC-026",
+    "TC-027",
+    "TC-028",
+    "TC-031",
+    "TC-032",
+    "TC-033",
+    "TC-034",
+    "TC-047"
+  ],
+  "frozenMetadataChanges": [],
+  "keyChanges": [],
+  "changedFields": {
+    "TC-029": [
+      "revision",
+      "options",
+      "authorRationale"
+    ],
+    "TC-030": [
+      "revision",
+      "options",
+      "authorRationale"
+    ],
+    "TC-035": [
+      "revision",
+      "options"
+    ],
+    "TC-036": [
+      "revision",
+      "sourceTopicExplanation",
+      "context",
+      "question",
+      "options",
+      "keyInsight",
+      "mentalModel",
+      "decisiveFacts",
+      "authorRationale"
+    ],
+    "TC-037": [
+      "revision",
+      "options"
+    ],
+    "TC-038": [
+      "revision",
+      "sourceTopicExplanation",
+      "context",
+      "question",
+      "options",
+      "keyInsight",
+      "mentalModel",
+      "decisiveFacts",
+      "authorRationale"
+    ],
+    "TC-039": [
+      "revision",
+      "options"
+    ],
+    "TC-040": [
+      "revision",
+      "options"
+    ],
+    "TC-041": [
+      "revision",
+      "options"
+    ],
+    "TC-042": [
+      "revision",
+      "options"
+    ],
+    "TC-043": [
+      "revision",
+      "sourceTopicExplanation",
+      "context",
+      "question",
+      "options",
+      "keyInsight",
+      "mentalModel",
+      "decisiveFacts",
+      "authorRationale"
+    ],
+    "TC-044": [
+      "revision",
+      "options"
+    ],
+    "TC-045": [
+      "revision",
+      "sourceTopicExplanation",
+      "context",
+      "question",
+      "options",
+      "keyInsight",
+      "mentalModel",
+      "decisiveFacts",
+      "authorRationale"
+    ],
+    "TC-046": [
+      "revision",
+      "options"
+    ],
+    "TC-048": [
+      "revision",
+      "options"
+    ],
+    "TC-049": [
+      "revision",
+      "options"
+    ],
+    "TC-050": [
+      "revision",
+      "options"
+    ]
+  }
+}

@@ -4,13 +4,15 @@ import WebKit
 struct BookView: UIViewRepresentable {
     let reader: SpeechReaderManager
     let excerpts: SavedExcerptStore
-    func makeCoordinator() -> Coordinator { Coordinator(reader: reader, excerpts: excerpts) }
+    var openTrainer: () -> Void = {}
+    func makeCoordinator() -> Coordinator { Coordinator(reader: reader, excerpts: excerpts, openTrainer: openTrainer) }
 
     func makeUIView(context: Context) -> WKWebView {
         let controller = WKUserContentController()
         controller.add(context.coordinator, name: "setting")
         controller.add(context.coordinator, name: "speech")
         controller.add(context.coordinator, name: "saved")
+        controller.add(context.coordinator, name: "trainer")
         let saved = UserDefaults.standard.dictionary(forKey: "bookState") as? [String: String] ?? [:]
         let encoded = (try? JSONSerialization.data(withJSONObject: saved)) ?? Data("{}".utf8)
         let json = String(data: encoded, encoding: .utf8) ?? "{}"
@@ -48,6 +50,7 @@ struct BookView: UIViewRepresentable {
 
     static func dismantleUIView(_ uiView: WKWebView, coordinator: Coordinator) {
         coordinator.excerpts.openSource = nil
+        uiView.configuration.userContentController.removeScriptMessageHandler(forName: "trainer")
         uiView.configuration.userContentController.removeScriptMessageHandler(forName: "saved")
         coordinator.reader.reset()
         coordinator.reader.onHighlight = nil
@@ -66,7 +69,10 @@ struct BookView: UIViewRepresentable {
 
         let excerpts: SavedExcerptStore
 
-        init(reader: SpeechReaderManager, excerpts: SavedExcerptStore) {
+        let openTrainer: () -> Void
+
+        init(reader: SpeechReaderManager, excerpts: SavedExcerptStore, openTrainer: @escaping () -> Void) {
+            self.openTrainer = openTrainer
             self.excerpts = excerpts
             self.reader = reader
             super.init()
@@ -83,6 +89,10 @@ struct BookView: UIViewRepresentable {
         func userContentController(_ userContentController: WKUserContentController,
                                    didReceive message: WKScriptMessage) {
             guard BookMessageTrust.accepts(message, controller: userContentController, webView: webView, folder: contentFolder) else { return }
+            if message.name == "trainer" {
+                if let payload = message.body as? [String: String], payload == ["action": "open"] { openTrainer() }
+                return
+            }
             if message.name == "saved", let payload = message.body as? [String: Any] {
                 if payload["action"] as? String == "open" { excerpts.isPresented = true }
                 else if payload["action"] as? String == "listenFrom", let item = SavedExcerpt.from(payload: payload), let block = item.anchor, block.hasPrefix(item.topicID + "-block-") {

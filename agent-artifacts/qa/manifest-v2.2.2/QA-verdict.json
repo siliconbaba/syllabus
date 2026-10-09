@@ -1,0 +1,40 @@
+{
+  "verdict": "READY TO FREEZE",
+  "originalBlockersFixed": 6,
+  "originalBlockersTotal": 6,
+  "remainingOriginalBlockers": 0,
+  "changedRowsChecked": 9,
+  "sourceGrounded": 9,
+  "levelFeasible": 9,
+  "crossBankNearest": {
+    "NO CLOSE ANALOG": 0,
+    "ALLOWED REINFORCEMENT": 9,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "internalBatch03": {
+    "pairComparisons": 300,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "families": {
+    "F-DR-T01": "PASS",
+    "F-TD-P01": "PASS"
+  },
+  "runtimeVocabulary": "PASS",
+  "derivedRuntimeFields": "PASS",
+  "structuralInvariants": "PASS",
+  "unexpectedManifestRegression": 0,
+  "blocker": 0,
+  "major": 0,
+  "minor": 0,
+  "rowsOrFamiliesRequiringFixes": [],
+  "mayBeginBatch03AuthoringAfterFreeze": true,
+  "candidateModified": false,
+  "authoritativeDirectoryCreated": false,
+  "productionModified": false,
+  "authoringStarted": false,
+  "commitOrPushPerformed": false,
+  "scope": "Focused manifest feasibility/semantic QA, not QA approval of future authored questions/options.",
+  "inputHashVerification": "PASS: all snapshotted candidate/baseline/source/runtime/production files unchanged"
+}

@@ -1,0 +1,4235 @@
+{
+  "domainTitles" : {
+    "analytics" : "Аналитика",
+    "delivery" : "Delivery и релизы",
+    "finance" : "Финансы и подрядчики",
+    "people" : "Люди",
+    "portfolio" : "Портфель и стратегия",
+    "processes" : "Процессы",
+    "product" : "Продукт",
+    "project" : "Управление проектами",
+    "stakeholders" : "Стейкхолдеры",
+    "technical" : "Технический TPM"
+  },
+  "engineWeightVerification" : "PASS: all 300 impulse responses",
+  "headFeasibility" : {
+    "breadthDomains" : [
+      "project",
+      "processes",
+      "stakeholders",
+      "people",
+      "finance",
+      "portfolio",
+      "technical",
+      "product"
+    ],
+    "breadthMet" : true,
+    "eligibleCount" : 200,
+    "excludedMetadataCount" : 0,
+    "headDomainEvidence" : 3,
+    "maximumSyntheticLevel" : "head",
+    "minimumLevelEvidence" : 5,
+    "note" : "Synthetic perfect responses test structural feasibility only, not learner proficiency."
+  },
+  "rows" : [
+    {
+      "id" : "TC-001",
+      "normalizedWeights" : {
+        "dependencies" : 1
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-002",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "risk" : 0.25,
+        "uncertainty" : 0.5
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "dependencies",
+        "risk",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-003",
+      "normalizedWeights" : {
+        "risk" : 0.66666666666666663,
+        "systems" : 0.33333333333333331
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-004",
+      "normalizedWeights" : {
+        "evidence" : 0.5,
+        "risk" : 0.25,
+        "systems" : 0.25
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "risk",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-005",
+      "normalizedWeights" : {
+        "dependencies" : 0.5,
+        "risk" : 0.25,
+        "systems" : 0.25
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "risk",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-006",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-007",
+      "normalizedWeights" : {
+        "evidence" : 0.25,
+        "organization" : 0.25,
+        "risk" : 0.5
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "evidence",
+        "organization"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-008",
+      "normalizedWeights" : {
+        "evidence" : 0.5,
+        "prioritization" : 0.25,
+        "proportionality" : 0.25
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "prioritization",
+        "evidence",
+        "proportionality"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-009",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "risk" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "risk",
+        "risk",
+        "organization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-010",
+      "normalizedWeights" : {
+        "systems" : 1
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-011",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "dependencies",
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-012",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization",
+        "stakeholders"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-013",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "organization" : 0.66666666666666663
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "organization",
+        "dependencies"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-014",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "evidence" : 0.25,
+        "uncertainty" : 0.5
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "evidence",
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-015",
+      "normalizedWeights" : {
+        "evidence" : 0.25,
+        "stakeholders" : 0.5,
+        "uncertainty" : 0.25
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "evidence",
+        "stakeholders",
+        "uncertainty"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-016",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-017",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "organization",
+        "stakeholders",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-018",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-019",
+      "normalizedWeights" : {
+        "risk" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "risk",
+        "systems"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-020",
+      "normalizedWeights" : {
+        "proportionality" : 0.66666666666666663,
+        "uncertainty" : 0.33333333333333331
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "proportionality",
+        "proportionality",
+        "uncertainty"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-021",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-022",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "prioritization",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-023",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "organization",
+        "stakeholders"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-024",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-025",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-026",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "evidence"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-027",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "evidence"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-028",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "evidence"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-029",
+      "normalizedWeights" : {
+        "proportionality" : 1
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "proportionality",
+        "proportionality"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-030",
+      "normalizedWeights" : {
+        "proportionality" : 1
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "proportionality",
+        "proportionality"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-031",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-032",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-033",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-034",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-035",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "evidence" : 0.25,
+        "uncertainty" : 0.5
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "evidence",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-036",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-037",
+      "normalizedWeights" : {
+        "risk" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-038",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "dependencies",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-039",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "proportionality" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "proportionality"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-040",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-041",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-042",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "prioritization" : 0.66666666666666663
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "evidence"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-043",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "prioritization"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-044",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "systems" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-045",
+      "normalizedWeights" : {
+        "dependencies" : 1
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-046",
+      "normalizedWeights" : {
+        "evidence" : 0.25,
+        "risk" : 0.25,
+        "uncertainty" : 0.5
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-047",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-048",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "dependencies"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-049",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "stakeholders"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-050",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "evidence"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-051",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-052",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-053",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-054",
+      "normalizedWeights" : {
+        "risk" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "risk",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-055",
+      "normalizedWeights" : {
+        "risk" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "risk",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-056",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "evidence",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-057",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "evidence",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-058",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-059",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-060",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-061",
+      "normalizedWeights" : {
+        "risk" : 0.66666666666666663,
+        "systems" : 0.33333333333333331
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-062",
+      "normalizedWeights" : {
+        "systems" : 1
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-063",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "risk" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "risk"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-064",
+      "normalizedWeights" : {
+        "stakeholders" : 1
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-065",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-066",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-067",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-068",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-069",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.25,
+        "risk" : 0.5
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "dependencies",
+        "organization"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-070",
+      "normalizedWeights" : {
+        "risk" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-071",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "stakeholders",
+        "prioritization"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-072",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-073",
+      "normalizedWeights" : {
+        "proportionality" : 0.5,
+        "risk" : 0.25,
+        "systems" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-074",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "stakeholders"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-075",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-076",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "proportionality" : 0.66666666666666663
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-077",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "proportionality" : 0.66666666666666663
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-078",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "proportionality" : 0.66666666666666663
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-079",
+      "normalizedWeights" : {
+        "dependencies" : 1
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-080",
+      "normalizedWeights" : {
+        "dependencies" : 1
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-081",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-082",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-083",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-084",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-085",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-086",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "prioritization" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "prioritization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-087",
+      "normalizedWeights" : {
+        "organization" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "organization",
+        "systems"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-088",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "dependencies",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-089",
+      "normalizedWeights" : {
+        "organization" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "organization",
+        "systems"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-090",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-091",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "organization" : 0.66666666666666663
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "dependencies"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-092",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "systems" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-093",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-094",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "evidence"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-095",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "organization" : 0.66666666666666663
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-096",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-097",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-098",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "risk" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "risk",
+        "prioritization"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-099",
+      "normalizedWeights" : {
+        "proportionality" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "proportionality"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-100",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-101",
+      "normalizedWeights" : {
+        "systems" : 1
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-102",
+      "normalizedWeights" : {
+        "systems" : 1
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-103",
+      "normalizedWeights" : {
+        "systems" : 1
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-104",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-105",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-106",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "prioritization" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "prioritization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-107",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "prioritization" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "prioritization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-108",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "systems" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-109",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "systems" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-110",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "systems" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-111",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "prioritization" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "organization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-112",
+      "normalizedWeights" : {
+        "stakeholders" : 1
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-113",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-114",
+      "normalizedWeights" : {
+        "evidence" : 1
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "evidence"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-115",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "stakeholders"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-116",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "evidence"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-117",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-118",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-119",
+      "normalizedWeights" : {
+        "proportionality" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-120",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "evidence" : 0.5,
+        "proportionality" : 0.25
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "proportionality",
+        "dependencies"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-121",
+      "normalizedWeights" : {
+        "stakeholders" : 1
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-122",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-123",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-124",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-125",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-126",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "proportionality" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "proportionality",
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-127",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "proportionality" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "proportionality",
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-128",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "proportionality" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "proportionality",
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-129",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-130",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-131",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-132",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-133",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "stakeholders"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-134",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "stakeholders"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-135",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "prioritization" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "prioritization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-136",
+      "normalizedWeights" : {
+        "evidence" : 0.5,
+        "organization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-137",
+      "normalizedWeights" : {
+        "organization" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-138",
+      "normalizedWeights" : {
+        "proportionality" : 1
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "proportionality",
+        "proportionality"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-139",
+      "normalizedWeights" : {
+        "dependencies" : 1
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-140",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "risk",
+        "organization"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-141",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "evidence",
+        "uncertainty"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-142",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-143",
+      "normalizedWeights" : {
+        "risk" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-144",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-145",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-146",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "dependencies",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-147",
+      "normalizedWeights" : {
+        "organization" : 1
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-148",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "proportionality" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "proportionality"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-149",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "risk" : 0.25,
+        "systems" : 0.5
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "risk",
+        "organization"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-150",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "proportionality" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "proportionality"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-151",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "dependencies",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-152",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "dependencies",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-153",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "dependencies",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-154",
+      "normalizedWeights" : {
+        "dependencies" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-155",
+      "normalizedWeights" : {
+        "dependencies" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-156",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-157",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-158",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "prioritization" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-159",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "stakeholders",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-160",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "prioritization" : 0.66666666666666663
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "evidence"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-161",
+      "normalizedWeights" : {
+        "organization" : 1
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "organization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-162",
+      "normalizedWeights" : {
+        "evidence" : 0.5,
+        "proportionality" : 0.25,
+        "systems" : 0.25
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "systems",
+        "proportionality"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-163",
+      "normalizedWeights" : {
+        "dependencies" : 1
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-164",
+      "normalizedWeights" : {
+        "evidence" : 0.5,
+        "risk" : 0.25,
+        "uncertainty" : 0.25
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "uncertainty",
+        "risk"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-165",
+      "normalizedWeights" : {
+        "proportionality" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-166",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "dependencies"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-167",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "organization" : 0.66666666666666663
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "organization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-168",
+      "normalizedWeights" : {
+        "stakeholders" : 1
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-169",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "stakeholders",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-170",
+      "normalizedWeights" : {
+        "evidence" : 0.25,
+        "prioritization" : 0.5,
+        "proportionality" : 0.25
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "proportionality",
+        "evidence"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-171",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "risk" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "risk",
+        "dependencies"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-172",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-173",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-174",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "evidence" : 0.5,
+        "prioritization" : 0.25
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "prioritization",
+        "dependencies"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-175",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "evidence" : 0.25,
+        "organization" : 0.5
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-176",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "organization",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-177",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "organization",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-178",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "proportionality" : 0.5,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "organization",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-179",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "stakeholders",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-180",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "stakeholders",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-181",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-182",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-183",
+      "normalizedWeights" : {
+        "organization" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "organization",
+        "systems"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-184",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-185",
+      "normalizedWeights" : {
+        "risk" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-186",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-187",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-188",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-189",
+      "normalizedWeights" : {
+        "systems" : 1
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-190",
+      "normalizedWeights" : {
+        "systems" : 1
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-191",
+      "normalizedWeights" : {
+        "proportionality" : 0.25,
+        "risk" : 0.25,
+        "systems" : 0.5
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "risk",
+        "proportionality"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-192",
+      "normalizedWeights" : {
+        "stakeholders" : 1
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-193",
+      "normalizedWeights" : {
+        "proportionality" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "stakeholders",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-194",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "prioritization"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-195",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-196",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "prioritization" : 0.66666666666666663
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "dependencies",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-197",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-198",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "prioritization" : 0.25,
+        "systems" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "systems",
+        "prioritization"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-199",
+      "normalizedWeights" : {
+        "dependencies" : 1
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-200",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "evidence",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-201",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "prioritization"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-202",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "prioritization"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-203",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "prioritization"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-204",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "risk" : 0.25,
+        "uncertainty" : 0.5
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "organization",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-205",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "risk" : 0.25,
+        "uncertainty" : 0.5
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "organization",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-206",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-207",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-208",
+      "normalizedWeights" : {
+        "evidence" : 0.25,
+        "prioritization" : 0.5,
+        "proportionality" : 0.25
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "proportionality",
+        "evidence"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-209",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-210",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-211",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-212",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-213",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-214",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-215",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "proportionality" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "proportionality",
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-216",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "dependencies"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-217",
+      "normalizedWeights" : {
+        "organization" : 1
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-218",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "evidence",
+        "uncertainty"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-219",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-220",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "evidence",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-221",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "evidence"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-222",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "prioritization" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "prioritization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-223",
+      "normalizedWeights" : {
+        "proportionality" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "risk",
+        "proportionality"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-224",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "dependencies"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-225",
+      "normalizedWeights" : {
+        "organization" : 0.5,
+        "risk" : 0.25,
+        "stakeholders" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "risk",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-226",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "prioritization" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-227",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "prioritization" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-228",
+      "normalizedWeights" : {
+        "risk" : 0.66666666666666663,
+        "systems" : 0.33333333333333331
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-229",
+      "normalizedWeights" : {
+        "risk" : 0.66666666666666663,
+        "systems" : 0.33333333333333331
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-230",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "risk" : 0.25,
+        "systems" : 0.5
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "organization",
+        "risk"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-231",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "risk" : 0.25,
+        "systems" : 0.5
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "organization",
+        "risk"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-232",
+      "normalizedWeights" : {
+        "proportionality" : 0.5,
+        "risk" : 0.25,
+        "systems" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-233",
+      "normalizedWeights" : {
+        "proportionality" : 0.5,
+        "risk" : 0.25,
+        "systems" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "systems",
+        "risk"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-234",
+      "normalizedWeights" : {
+        "organization" : 1
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "organization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-235",
+      "normalizedWeights" : {
+        "organization" : 1
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "organization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-236",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "prioritization" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-237",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "organization" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "organization"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-238",
+      "normalizedWeights" : {
+        "dependencies" : 1
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-239",
+      "normalizedWeights" : {
+        "systems" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "systems"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-240",
+      "normalizedWeights" : {
+        "dependencies" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-241",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "organization" : 0.5,
+        "risk" : 0.25
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-242",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "uncertainty" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "uncertainty"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-243",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "evidence",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-244",
+      "normalizedWeights" : {
+        "organization" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-245",
+      "normalizedWeights" : {
+        "prioritization" : 0.66666666666666663,
+        "proportionality" : 0.33333333333333331
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "proportionality",
+        "prioritization"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-246",
+      "normalizedWeights" : {
+        "prioritization" : 0.66666666666666663,
+        "uncertainty" : 0.33333333333333331
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-247",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "evidence"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-248",
+      "normalizedWeights" : {
+        "evidence" : 1
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "evidence"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-249",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "evidence" : 0.5,
+        "proportionality" : 0.25
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "dependencies",
+        "proportionality"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-250",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "uncertainty" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "uncertainty"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-251",
+      "normalizedWeights" : {
+        "dependencies" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-252",
+      "normalizedWeights" : {
+        "dependencies" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "risk"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-253",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "prioritization" : 0.25,
+        "proportionality" : 0.5
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "dependencies",
+        "prioritization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-254",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "prioritization" : 0.25,
+        "proportionality" : 0.5
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "dependencies",
+        "prioritization"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-255",
+      "normalizedWeights" : {
+        "stakeholders" : 1
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-256",
+      "normalizedWeights" : {
+        "stakeholders" : 1
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-257",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "risk" : 0.25,
+        "systems" : 0.5
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "organization",
+        "risk"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-258",
+      "normalizedWeights" : {
+        "organization" : 0.25,
+        "risk" : 0.25,
+        "systems" : 0.5
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "organization",
+        "risk"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-259",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "prioritization"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-260",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "prioritization"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-261",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "uncertainty" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "uncertainty"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-262",
+      "normalizedWeights" : {
+        "dependencies" : 1
+      },
+      "primaryThinking" : "dependencies",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-263",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "risk" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-264",
+      "normalizedWeights" : {
+        "systems" : 1
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-265",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "evidence"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-266",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "systems" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "systems",
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-267",
+      "normalizedWeights" : {
+        "stakeholders" : 0.66666666666666663,
+        "uncertainty" : 0.33333333333333331
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "stakeholders",
+        "uncertainty"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-268",
+      "normalizedWeights" : {
+        "stakeholders" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-269",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-270",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "organization" : 0.66666666666666663
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "dependencies",
+        "dependencies"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-271",
+      "normalizedWeights" : {
+        "dependencies" : 0.25,
+        "risk" : 0.25,
+        "uncertainty" : 0.5
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "risk",
+        "dependencies"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-272",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "prioritization" : 0.66666666666666663
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "dependencies"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-273",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-274",
+      "normalizedWeights" : {
+        "organization" : 1
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-275",
+      "normalizedWeights" : {
+        "evidence" : 0.25,
+        "proportionality" : 0.5,
+        "risk" : 0.25
+      },
+      "primaryThinking" : "proportionality",
+      "secondaryThinking" : [
+        "evidence",
+        "risk"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    },
+    {
+      "id" : "TC-276",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-277",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-278",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-279",
+      "normalizedWeights" : {
+        "risk" : 1
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "risk"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-280",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "organization" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "organization",
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-281",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "organization" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "organization",
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-282",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "stakeholders"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-283",
+      "normalizedWeights" : {
+        "organization" : 0.66666666666666663,
+        "stakeholders" : 0.33333333333333331
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "stakeholders"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-284",
+      "normalizedWeights" : {
+        "risk" : 0.33333333333333331,
+        "uncertainty" : 0.66666666666666663
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "risk",
+        "uncertainty"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-285",
+      "normalizedWeights" : {
+        "uncertainty" : 1
+      },
+      "primaryThinking" : "uncertainty",
+      "secondaryThinking" : [
+        "uncertainty",
+        "uncertainty"
+      ],
+      "uiDomain" : "product",
+      "uiDomainTitle" : "Продукт"
+    },
+    {
+      "id" : "TC-286",
+      "normalizedWeights" : {
+        "evidence" : 0.5,
+        "proportionality" : 0.25,
+        "risk" : 0.25
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "risk",
+        "proportionality"
+      ],
+      "uiDomain" : "delivery",
+      "uiDomainTitle" : "Delivery и релизы"
+    },
+    {
+      "id" : "TC-287",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "prioritization" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "prioritization",
+        "evidence"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-288",
+      "normalizedWeights" : {
+        "stakeholders" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "stakeholders"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-289",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "dependencies",
+        "stakeholders"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-290",
+      "normalizedWeights" : {
+        "organization" : 0.33333333333333331,
+        "systems" : 0.66666666666666663
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "organization",
+        "organization"
+      ],
+      "uiDomain" : "people",
+      "uiDomainTitle" : "Люди"
+    },
+    {
+      "id" : "TC-291",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-292",
+      "normalizedWeights" : {
+        "prioritization" : 1
+      },
+      "primaryThinking" : "prioritization",
+      "secondaryThinking" : [
+        "prioritization",
+        "prioritization"
+      ],
+      "uiDomain" : "portfolio",
+      "uiDomainTitle" : "Портфель и стратегия"
+    },
+    {
+      "id" : "TC-293",
+      "normalizedWeights" : {
+        "organization" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "organization",
+        "risk"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-294",
+      "normalizedWeights" : {
+        "evidence" : 0.33333333333333331,
+        "risk" : 0.66666666666666663
+      },
+      "primaryThinking" : "risk",
+      "secondaryThinking" : [
+        "risk",
+        "evidence"
+      ],
+      "uiDomain" : "project",
+      "uiDomainTitle" : "Управление проектами"
+    },
+    {
+      "id" : "TC-295",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "uncertainty" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "uncertainty"
+      ],
+      "uiDomain" : "analytics",
+      "uiDomainTitle" : "Аналитика"
+    },
+    {
+      "id" : "TC-296",
+      "normalizedWeights" : {
+        "evidence" : 0.66666666666666663,
+        "proportionality" : 0.33333333333333331
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "proportionality"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-297",
+      "normalizedWeights" : {
+        "systems" : 1
+      },
+      "primaryThinking" : "systems",
+      "secondaryThinking" : [
+        "systems",
+        "systems"
+      ],
+      "uiDomain" : "technical",
+      "uiDomainTitle" : "Технический TPM"
+    },
+    {
+      "id" : "TC-298",
+      "normalizedWeights" : {
+        "dependencies" : 0.33333333333333331,
+        "organization" : 0.66666666666666663
+      },
+      "primaryThinking" : "organization",
+      "secondaryThinking" : [
+        "organization",
+        "dependencies"
+      ],
+      "uiDomain" : "processes",
+      "uiDomainTitle" : "Процессы"
+    },
+    {
+      "id" : "TC-299",
+      "normalizedWeights" : {
+        "prioritization" : 0.33333333333333331,
+        "stakeholders" : 0.66666666666666663
+      },
+      "primaryThinking" : "stakeholders",
+      "secondaryThinking" : [
+        "stakeholders",
+        "prioritization"
+      ],
+      "uiDomain" : "stakeholders",
+      "uiDomainTitle" : "Стейкхолдеры"
+    },
+    {
+      "id" : "TC-300",
+      "normalizedWeights" : {
+        "evidence" : 1
+      },
+      "primaryThinking" : "evidence",
+      "secondaryThinking" : [
+        "evidence",
+        "evidence"
+      ],
+      "uiDomain" : "finance",
+      "uiDomainTitle" : "Финансы и подрядчики"
+    }
+  ],
+  "thinkingTitles" : {
+    "context" : "Контекстная чувствительность",
+    "dependencies" : "Работа с зависимостями",
+    "evidence" : "Доказательность",
+    "organization" : "Организационное мышление",
+    "prioritization" : "Приоритизация",
+    "proportionality" : "Соразмерность решений",
+    "risk" : "Работа с риском",
+    "stakeholders" : "Работа со стейкхолдерами",
+    "systems" : "Системное мышление",
+    "uncertainty" : "Снижение неопределённости"
+  },
+  "unknownVocabularyRejected" : true
+}

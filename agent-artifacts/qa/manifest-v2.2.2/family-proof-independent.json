@@ -1,0 +1,99 @@
+[
+  {
+    "familyId": "F-DR-T01",
+    "status": "PASS",
+    "checks": {
+      "topicId": true,
+      "domain": true,
+      "requiredLevel": true,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "positions": true,
+      "stateMatches": true,
+      "boundaryMatches": true,
+      "sameOtherFacts": true,
+      "sameContextExceptState": true
+    },
+    "singleLogicalVariable": "Доказанная предотвращаемая потеря L от дополнительного ручного ревью за месяц при одинаковых остальных условиях",
+    "factsThatMustRemainConstant": [
+      "Обязательные gates и критерии безопасности неизменны; дополнительное ревью не является регуляторным требованием.",
+      "Стоимость ручного шага 6 в месяц, включая труд и задержку поставки; автоматического — 2; удаления — 0.",
+      "Автоматический вариант уже проверен, предотвращает половину денежной потери, предотвращаемой ручным; переход не имеет дополнительных затрат.",
+      "Оценки эффекта получены на сопоставимом материале с контролем иных изменений; L — не неподтверждённое before/after.",
+      "Категория риска, цена отдельного дефекта, горизонт и риск-аппетит одинаковы; остаточный риск всех трёх стратегий допустим, иных обязательных ограничений нет."
+    ],
+    "hiddenSecondMutation": false,
+    "proof": {
+      "variable": "L",
+      "strategies": [
+        "remove",
+        "automate",
+        "retain manual"
+      ],
+      "netBenefitByState": {
+        "0": [
+          0,
+          -2.0,
+          -6
+        ],
+        "6": [
+          0,
+          1.0,
+          0
+        ],
+        "18": [
+          0,
+          7.0,
+          12
+        ]
+      },
+      "effectiveBoundaries": [
+        4,
+        8
+      ],
+      "winners": [
+        "remove",
+        "automate",
+        "retain manual"
+      ],
+      "boundaryTieStatesUsed": false,
+      "proof": "Remove wins for L<4; automation for 4<L<8; manual for L>8. The manual/remove intersection at L=6 is not an optimal-strategy boundary because automation dominates both."
+    }
+  },
+  {
+    "familyId": "F-TD-P01",
+    "status": "PASS",
+    "checks": {
+      "topicId": true,
+      "domain": true,
+      "requiredLevel": true,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "positions": true,
+      "stateMatches": true,
+      "boundaryMatches": true,
+      "sameOtherFacts": true,
+      "sameContextExceptState": true
+    },
+    "singleLogicalVariable": "Требует ли заранее согласованный смысл положительного ответа API завершённой проверки реестра",
+    "factsThatMustRemainConstant": [
+      "Те же актор, заявка, проверка, две секунды обработки и цель корректного ответа.",
+      "Оба технических пути доступны; миграции версий API нет.",
+      "Очередь уже имеет обработку дублей, мониторинг лага и отдельный статус; при ошибке статус не выдаётся за успех.",
+      "Никакого обязательного субсекундного SLO и скрытых затрат внедрения; стратегия пространства — синхронный результат либо асинхронное получение."
+    ],
+    "hiddenSecondMutation": false,
+    "proof": {
+      "variable": "Does agreed positive API response require completed registry verification?",
+      "states": [
+        "yes",
+        "no; only receipt promised"
+      ],
+      "strategies": [
+        "wait for result before response",
+        "acknowledge receipt then process asynchronously"
+      ],
+      "proof": "Validation latency and queue readiness stay fixed. A completed-result promise makes immediate async acknowledgement insufficient; a receipt-only promise allows the preferred faster response. Internal use of a queue followed by waiting is still the wait-for-result response strategy, not a third strongest."
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "method": "Same-author self-review of context/question/options with quality labels and explanations omitted. Not independent blind QA.",
+  "comparisons": [
+    {
+      "option": "A",
+      "strongest": "B",
+      "fact": "Three days at 8% versus control 2%, preset guardrail ceiling 3%, verified real cancellations.",
+      "why": "Completing the ordinary horizon continues confirmed harm."
+    },
+    {
+      "option": "B",
+      "strongest": "B",
+      "fact": "Exposure can be switched off safely now; no efficacy claim is necessary.",
+      "why": "Only option ends all avoidable test exposure now and separates safety from efficacy."
+    },
+    {
+      "option": "C",
+      "strongest": "B",
+      "fact": "Harm is confirmed for treated users; safe full shutdown is available.",
+      "why": "Lower exposure preserves harm for remaining participants."
+    },
+    {
+      "option": "D",
+      "strongest": "B",
+      "fact": "Analyst has already checked measurement and stability; support confirms real returns.",
+      "why": "Another day repeats completed verification while exposure continues."
+    }
+  ],
+  "uniqueStrongest": "B",
+  "status": "PASS"
+}

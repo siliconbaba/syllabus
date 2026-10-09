@@ -1,0 +1,38 @@
+{
+  "F_DR_T01": {
+    "strategyNetValues": {
+      "0": {
+        "remove": 0,
+        "automate": -2.0,
+        "manual": -6
+      },
+      "6": {
+        "remove": 0,
+        "automate": 1.0,
+        "manual": 0
+      },
+      "18": {
+        "remove": 0,
+        "automate": 7.0,
+        "manual": 12
+      }
+    },
+    "boundaries": [
+      4,
+      8
+    ],
+    "tiesNotSampled": true,
+    "singleVariable": "L",
+    "selectedStrategies": {
+      "TC-076": "remove",
+      "TC-077": "automate",
+      "TC-078": "manual"
+    }
+  },
+  "F_TD_P01": {
+    "singleVariable": "Meaning of positive API response",
+    "TC079": "Receipt is not sufficient proof of admissibility: sync is required.",
+    "TC080": "Receipt itself is the promised result: tested queue provides faster honest acknowledgment.",
+    "technicalReadinessHeldConstant": true
+  }
+}

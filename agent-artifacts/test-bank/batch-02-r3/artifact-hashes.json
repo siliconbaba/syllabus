@@ -1,0 +1,14 @@
+{
+  "TC075-key-hidden-self-check.json": "7ca7a6d172501a854bd9003f3a48ab9cb3fc6719ae19cbae557488bb075b3097",
+  "batch-statistics-r3.json": "978c1cffe57db8156f1697111fe4d0aea65cee0d09d41e26b0c5ca66f2a6ecab",
+  "cases_TC051_TC075_r3.json": "45848ecbf016b348c275037d08c2adfc552c7b15594600d309aa1cbe6476c081",
+  "change-log.csv": "e0dbad8042327ff9de00360ea7479f89d273b42cd1a1b356f3b03e3452b901ed",
+  "duplication-audit-r3.csv": "fc851d1dfb2e6bae87060c086e51b40bb35c1d7cfe873a40d980838726a3eb81",
+  "independent-regression-check.json": "7f41c3b8935629b69b2e4649d5712f7888d425f76ffbb2a64264a21f98c11482",
+  "revision-report.md": "88e99ed1adf780a65d1ab9b03a382e1f29b8cc98c56026e6f5cd32f88f8d85fa",
+  "schema-validation.log": "61bbbed3a4acb5cb4288152f780fb5243494ff1aa0af00b07ac1f8c52bdf2d90",
+  "self-qa-r3.json": "cf160c76634cfbccd8fe949391b5d246cf05195a03bc0fe0d06242dd03f4416e",
+  "source-grounding.json": "225a4fc6ad50ddc14b4fd7b502e93eebe8f46b08d76fdc508e5d22ec19893fa1",
+  "surface-scan.json": "554ee0501561646981db01dc42a606e02b71bf7a351bd92fb64ddf49306ed319",
+  "topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc"
+}

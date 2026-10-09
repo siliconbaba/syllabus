@@ -1,0 +1,33 @@
+{
+  "manifestHotfix": "PASS",
+  "manifestRowsChanged": 1,
+  "unexpectedManifestRegression": 0,
+  "TC075Rewritten": true,
+  "TC075vsTC024": "ALLOWED REINFORCEMENT",
+  "TC075UniqueStrongest": "PASS",
+  "TC075SourceGrounding": "PASS",
+  "TC075LevelRealization": "PASS: junior",
+  "otherBatchCasesChangedUnexpectedly": 0,
+  "byteIdenticalCases": 24,
+  "F_DM_T01": "PASS: complete family byte-identical to r2",
+  "seniorRealizationPreserved": "PASS: TC-051/052/053/068 byte-identical",
+  "TC074vsTC012Preserved": "PASS: TC-074 byte-identical",
+  "allFamiliesPreserved": true,
+  "uniqueStrongestBatch": "25/25: TC-075 current self-review plus unchanged 24 with inherited r2 self-QA",
+  "bestCombinedSurfaceHeuristic": 11,
+  "bestSingleSurfaceHeuristic": 9,
+  "surface": "PASS",
+  "schema": "PASS: strict TrainerBank.load",
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "crossBankCompared": 74,
+  "remainingBlockers": [],
+  "readyForFocusedQA": true,
+  "readyForImport": false,
+  "productionBankChanged": false,
+  "protectedInputHashes": "../../manifests/v2.2.1/protected-input-hashes.json"
+}

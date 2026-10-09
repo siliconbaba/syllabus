@@ -1,0 +1,202 @@
+{
+  "productionTC024": {
+    "id": "TC-024",
+    "revision": 3,
+    "topicId": "t-13-3",
+    "domain": "experimentation",
+    "requiredLevel": "junior",
+    "primaryPattern": "precommitted-stop-criteria",
+    "secondaryPatterns": [
+      "peeking",
+      "p-value",
+      "guardrails"
+    ],
+    "type": "single-best",
+    "context": "Перед A/B-тестом команда письменно зафиксировала два обязательных условия финального чтения: не меньше 14 дней и достижение рассчитанного размера выборки; early-stop правила для успеха не предусмотрены. Отдельно заранее записано продуктовое правило: решение о rollout по результатам этого эксперимента принимается только после финального чтения по утверждённому протоколу. На девятый день выборка почти набрана, эффект +1,6%, p = 0,03, guardrails чистые.",
+    "question": "Что делать с экспериментом?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Остановить тест сейчас и раскатить изменение, считая текущую значимость и чистые защитные метрики достаточным финальным результатом эксперимента.",
+        "decisionQuality": 0.2,
+        "isBest": false,
+        "reasoningPattern": "significance-stop",
+        "failurePattern": "peeking",
+        "explanation": "Это нарушает статистический протокол: и 14 дней, и финальное чтение были заданы заранее.",
+        "whyTempting": "Текущие числа выглядят привлекательным успехом.",
+        "whyNotBest": "Промежуточный p-value не заменяет заранее выбранный fixed horizon.",
+        "whenItWouldBeBest": "Если sequential design заранее задаёт текущую границу ранней остановки, она достигнута и продуктовое правило разрешает rollout после такого финального чтения."
+      },
+      {
+        "id": "B",
+        "text": "Продолжить ещё два дня и остановить тест при устойчивой значимости, считая повторный порог новым достаточным правилом финального чтения.",
+        "decisionQuality": 0.3,
+        "isBest": false,
+        "reasoningPattern": "post-hoc-rule",
+        "failurePattern": "peeking-with-extra-rule",
+        "explanation": "Правило придумано после просмотра данных и остаётся post-hoc stopping.",
+        "whyTempting": "Несколько значимых дней интуитивно кажутся защитой от случайного скачка.",
+        "whyNotBest": "Критерий должен быть рассчитан до старта, а не после удобного результата.",
+        "whenItWouldBeBest": "Если именно такая последовательная граница заранее рассчитана и записана, текущие данные её достигли и это считается финальным чтением по протоколу."
+      },
+      {
+        "id": "C",
+        "text": "Продолжить тест до финального чтения и не начинать раскатку, сохраняя статистический протокол и заранее утверждённое продуктовое правило решения.",
+        "decisionQuality": 1.0,
+        "isBest": true,
+        "reasoningPattern": "precommitment",
+        "explanation": "Вариант соблюдает две разные договорённости: статистический дизайн и отдельное правило продуктового rollout.",
+        "whyTempting": "Команда откладывает потенциальную выгоду, несмотря на привлекательный промежуточный результат.",
+        "whyNotBest": "Не применимо: оба precommitted rules прямо заданы в context.",
+        "whenItWouldBeBest": "Когда fixed-horizon эксперимент и rollout decision rule заранее требуют финального чтения."
+      },
+      {
+        "id": "D",
+        "text": "Начать ограниченную раскатку вне тестовых групп и продолжить эксперимент, сохраняя исходные группы и финальное статистическое чтение по протоколу.",
+        "decisionQuality": 0.7,
+        "isBest": false,
+        "reasoningPattern": "business-bet-before-final",
+        "failurePattern": "decision-rule-violation",
+        "explanation": "Статистический протокол исходных групп может оставаться валидным; слабость D здесь не статистическая, а продуктовая — rollout нарушает заранее утверждённое правило принятия решения.",
+        "whyTempting": "Бизнес иногда сознательно принимает обратимую ставку до окончательного доказательства.",
+        "whyNotBest": "Context отдельно запрещает rollout по результатам этого теста до финального чтения.",
+        "whenItWouldBeBest": "Если заранее утверждённое продуктовое правило разрешает ограниченную обратимую ставку до финального чтения, а экспериментальные группы и анализ остаются валидными."
+      }
+    ],
+    "keyInsight": "Статистическая валидность эксперимента и правило продуктового rollout — разные вещи; оба должны соблюдаться, если были precommitted.",
+    "mentalModel": "Design before data: заранее фиксируй и statistical stopping rule, и правило, когда результат разрешает продуктовое решение.",
+    "decisiveFacts": [
+      "14 дней и размер выборки — обязательные условия финального чтения.",
+      "Early-stop rule для успеха отсутствует.",
+      "Rollout по этому тесту заранее разрешён только после финального чтения."
+    ],
+    "authorRationale": "C strongest. D больше не обвиняется в гипотетическом изменении среды: его statistical validity отделена от продуктового governance. Он проигрывает только потому, что нарушает явно заданное precommitted rollout rule.",
+    "partId": "part-13",
+    "title": "Промежуточный результат продуктового эксперимента",
+    "sourceTopicExplanation": "Тема 13.3 требует заранее задавать длительность, объём выборки и критерии остановки A/B-теста. Решение по итогам эксперимента должно учитывать утверждённый дизайн и guardrail-метрики, а не только промежуточную значимость.",
+    "trainingEligible": true,
+    "assessmentEligible": true
+  },
+  "baselineManifestTC075": {
+    "plannedId": "TC-075",
+    "batch": "Batch 02",
+    "block": "B10 — Product / Analytics / Technical Strategy",
+    "partId": "part-13",
+    "topicId": "t-13-3",
+    "oneSentenceScenarioConcept": "Senior product manager видит p=0.03 на девятый день из заранее запланированных 14 и почти набранную выборку; stop-rule ранней победы не задан; нужно решить, останавливать ли эксперимент.",
+    "decisiveFactsConcept": [
+      "Длительность 14 дней precommitted",
+      "p=0.03 на дне 9",
+      "Early-stop rule нет"
+    ],
+    "oneSentenceDecisionBoundary": "Первая значимость ↔ соблюдение заранее утверждённого протокола.",
+    "domain": "experimentation",
+    "requiredLevel": "junior",
+    "primaryPattern": "precommitted-stop-criteria",
+    "secondaryPatterns": [
+      "p-value",
+      "peeking"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Соблюсти явное ограничение протокола: ранняя значимость не разрешает остановку до 14 дней без early-stop rule.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Аналитика",
+    "derivedRuntimePrimaryThinking": "evidence",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence",
+      "evidence"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  "baselineBatchTC075": {
+    "partId": "part-13",
+    "topicId": "t-13-3",
+    "domain": "experimentation",
+    "requiredLevel": "junior",
+    "primaryPattern": "precommitted-stop-criteria",
+    "secondaryPatterns": [
+      "p-value",
+      "peeking"
+    ],
+    "scenarioFamilyId": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "id": "TC-075",
+    "revision": 1,
+    "type": "single-best",
+    "title": "Значимость до конца эксперимента",
+    "sourceTopicExplanation": "§13.3 требует заранее задавать длительность, выборку и критерии остановки; объясняет, почему остановка при первой значимости создаёт peeking.",
+    "context": "Вы отвечаете за продуктовый эксперимент. Протокол до старта зафиксировал 14 дней и целевой размер выборки, чтобы охватить два недельных цикла. На девятый день p=0,03, выборка почти набрана. Правила ранней остановки по успеху нет; guardrail-метрики в норме, технических нарушений теста не обнаружено. Команда предлагает закончить сегодня и освободить трафик.",
+    "question": "Как поступить с экспериментом?",
+    "options": [
+      {
+        "text": "Закончить тест сегодня и зафиксировать победу; использовать значимость p=0,03 как основание для следующего продуктового решения.",
+        "decisionQuality": 0.35,
+        "isBest": false,
+        "reasoningPattern": "incomplete-tradeoff",
+        "failurePattern": "incomplete-tradeoff",
+        "explanation": "Порог пересечён до заранее выбранного срока; остановка по текущему результату подменяет протокол подглядыванием.",
+        "whyTempting": "Результат выглядит убедительным, а трафик можно освободить.",
+        "whyNotBest": "Порог пересечён до заранее выбранного срока; остановка по текущему результату подменяет протокол подглядыванием.",
+        "whenItWouldBeBest": "Если заранее утверждённый последовательный метод допускает остановку и именно его граница успеха достигнута.",
+        "id": "A"
+      },
+      {
+        "text": "Продолжить до выполнения запланированных срока и выборки; оценить результат один раз по исходному протоколу.",
+        "decisionQuality": 1,
+        "isBest": true,
+        "reasoningPattern": "precommitted-stop-criteria",
+        "failurePattern": null,
+        "explanation": "Ни guardrail, ни технический сбой не требуют остановки; отдельного early-stop правила нет, поэтому девятый день не заменяет четырнадцать.",
+        "whyTempting": "Сохраняется корректность заранее выбранного решения.",
+        "whyNotBest": "Ни guardrail, ни технический сбой не требуют остановки; отдельного early-stop правила нет, поэтому девятый день не заменяет четырнадцать.",
+        "whenItWouldBeBest": "Если условия валидности теста сохраняются, а протокол не разрешает досрочную победу.",
+        "id": "B"
+      },
+      {
+        "text": "Подождать ещё один день для подтверждения значимости; остановить тест, если p останется ниже 0,05.",
+        "decisionQuality": 0.55,
+        "isBest": false,
+        "reasoningPattern": "incomplete-tradeoff",
+        "failurePattern": "incomplete-tradeoff",
+        "explanation": "Второй просмотр не превращает придуманное после старта правило в запланированный критерий; два недельных цикла ещё не завершены.",
+        "whyTempting": "Повторный сигнал кажется защитой от случайного колебания.",
+        "whyNotBest": "Второй просмотр не превращает придуманное после старта правило в запланированный критерий; два недельных цикла ещё не завершены.",
+        "whenItWouldBeBest": "Если такое двухэтапное правило с нужной длительностью и поправками было корректно утверждено до начала теста.",
+        "id": "C"
+      },
+      {
+        "text": "Набрать оставшуюся выборку ускоренным трафиком; завершить раньше 14 дней при сохранении статистически значимого эффекта.",
+        "decisionQuality": 0.7,
+        "isBest": false,
+        "reasoningPattern": "incomplete-tradeoff",
+        "failurePattern": "incomplete-tradeoff",
+        "explanation": "Размер выборки важен, но не заменяет отдельно запланированные два недельных цикла; условие значимости вновь выбирает момент остановки.",
+        "whyTempting": "Полная выборка выглядит главным требованием статистики.",
+        "whyNotBest": "Размер выборки важен, но не заменяет отдельно запланированные два недельных цикла; условие значимости вновь выбирает момент остановки.",
+        "whenItWouldBeBest": "Если до старта утверждён только размер выборки, временные циклы несущественны и правило анализа допускает такой момент решения.",
+        "id": "D"
+      }
+    ],
+    "decisiveFacts": [
+      "До старта назначены 14 дней и размер выборки.",
+      "Идёт девятый день, раннего правила победы нет.",
+      "Guardrails и валидность теста не нарушены."
+    ],
+    "keyInsight": "Результат, увиденный по дороге, не меняет правила остановки задним числом.",
+    "mentalModel": "Отделяйте наблюдение от решения: завершайте по заранее заданному протоколу, кроме предусмотренных защитных остановок.",
+    "decisiveMutation": null,
+    "authorRationale": "Junior — по финальному v2.2: соблюсти явное ограничение протокола; p=0,03 на девятый день не даёт права закончить до четырнадцати без early-stop rule."
+  },
+  "conclusion": "CONFIRMED: same diagnostic boundary of intermediate significance versus planned horizon; authorized redesign resolves it."
+}

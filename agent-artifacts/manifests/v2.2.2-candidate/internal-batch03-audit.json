@@ -1,0 +1,2408 @@
+{
+  "pairCount": 300,
+  "nearDuplicate": 0,
+  "duplicate": 0,
+  "comparisons": [
+    {
+      "a": "TC-076",
+      "b": "TC-077",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "reason": "Controlled family states require different strongest strategies; inspect full family contract and family-proof.json."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-078",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "reason": "Controlled family states require different strongest strategies; inspect full family contract and family-proof.json."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-079",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-080",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-085",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "reason": "Удаление доказанно бесполезного дополнительного gate не отмена достаточных impact-based проверок перед релизом."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-076",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-078",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "reason": "Controlled family states require different strongest strategies; inspect full family contract and family-proof.json."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-079",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-080",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-085",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "reason": "077 сравнивает цену необязательного gate и потерю половины пользы при допустимом остаточном риске; 085 выбирает достаточный targeted regression по локализованному impact вместо избыточного полного."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-077",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-079",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-080",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-085",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "reason": "Сохранение дорогой, но окупающейся дополнительной защиты не выбор полного regression без дополнительного покрытия."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-078",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-080",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "reason": "Controlled family states require different strongest strategies; inspect full family contract and family-proof.json."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-079",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-080",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-082",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "reason": "Controlled family states require different strongest strategies; inspect full family contract and family-proof.json."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-081",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-082",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-084",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "reason": "Controlled family states require different strongest strategies; inspect full family contract and family-proof.json."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-083",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-085",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-084",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-086",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-085",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-086",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-089",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "087 отдельно оценивает доказанное сознательное сокрытие при доступном безопасном сообщении; 089 меняет публичные разборы, из-за которых люди перестали сообщать near-miss. Противоположные ошибки — blanket immunity и подавление сообщений страхом."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-087",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-096",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "088 выбирает момент уже подготовленной эскалации по второму нарушению; 096 формирует влияние через интересы и trade-off с workaround без authority."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-088",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-089",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-091",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-090",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-091",
+      "b": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "bBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-091",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-091",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-091",
+      "b": "TC-095",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "091 меняет постоянную исполняющую enabling-группу в передачу capability; 095 управляет blocked WIP и внешними зависимостями в потоке."
+    },
+    {
+      "a": "TC-091",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-091",
+      "b": "TC-097",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Enabling передаёт практику stream-командам; manager-of-managers оценивается за создание следующего слоя управления."
+    },
+    {
+      "a": "TC-091",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-091",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-091",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-092",
+      "b": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "bBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-092",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-092",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-092",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-092",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-092",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-092",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-092",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-093",
+      "b": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "bBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-093",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-093",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-093",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-093",
+      "b": "TC-098",
+      "classification": "ALLOWED REINFORCEMENT",
+      "aBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "093 выбирает конкретную меру для остаточного простоя при заданном риск-аппетите; 098 меняет бюджетную authority management reserve."
+    },
+    {
+      "a": "TC-093",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-093",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-094",
+      "b": "TC-095",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "bBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-094",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-094",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-094",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-094",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-094",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-095",
+      "b": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "bBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-095",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-095",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-095",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-095",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-096",
+      "b": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "bBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-096",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-096",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-096",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-097",
+      "b": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "bBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-097",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-097",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-098",
+      "b": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "bBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-098",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    },
+    {
+      "a": "TC-099",
+      "b": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "aBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "bBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "reason": "Different decision boundary and decisive facts; no duplicated diagnostic task found at blueprint stage."
+    }
+  ],
+  "limitation": "Concept-stage semantic review only; future options must preserve the distinctions."
+}

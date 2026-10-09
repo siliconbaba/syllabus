@@ -30,3 +30,11 @@ InteractiveBook/SileroResources/*
 __pycache__/
 Packages/
 /reports/production-integration/
+
+# Local release packaging and generated audit executables/logs
+.build/
+*.app/
+*.xcarchive/
+agent-artifacts/releases/
+agent-artifacts/**/*.log
+agent-artifacts/**/validate-batch

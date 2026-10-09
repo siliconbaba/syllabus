@@ -1,0 +1,10 @@
+{
+  "agent-artifacts/test-bank/batch-02-r2/cases_TC051_TC075_r2.json": "c8a0dd3dc064b1f4f30b85ae1e8cb32a57d7329d54e7074a27bde3cfaa2f30e3",
+  "agent-artifacts/test-bank/batch-02-r3/cases_TC051_TC075_r3.json": "45848ecbf016b348c275037d08c2adfc552c7b15594600d309aa1cbe6476c081",
+  "agent-artifacts/manifests/v2.2/production_manifest_masterplan_v2_2.json": "f8824c2e98819a4f2a97e26f67a2d27291a8e10ddb1c37bee1d950ffda7d732b",
+  "agent-artifacts/manifests/v2.2.1/production_manifest_masterplan_v2_2_1.json": "908e0075a76dc3fc018b7d5a11d230090eb274f27edbe81050548d256829b109",
+  "InteractiveBook/TrainerContent/cases.json": "a16c00b2be4d2d841b401ce15a076320b6a7c33f91a0b7a077b7d80d86800dcc",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+}

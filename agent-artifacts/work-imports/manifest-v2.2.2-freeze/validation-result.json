@@ -1,0 +1,57 @@
+{
+  "freeze": "PASS",
+  "authoritativeManifest": "v2.2.2",
+  "plannedRows": 275,
+  "standalone": 181,
+  "linked": 94,
+  "pairFamilies": 35,
+  "tripletFamilies": 8,
+  "batches": 11,
+  "batch03": {
+    "cases": 25,
+    "standalone": 16,
+    "linked": 9,
+    "families": 4,
+    "levels": {
+      "junior": 5,
+      "middle": 12,
+      "senior": 5,
+      "head": 3
+    }
+  },
+  "changedRows": [
+    "TC-076",
+    "TC-077",
+    "TC-078",
+    "TC-079",
+    "TC-080",
+    "TC-087",
+    "TC-088",
+    "TC-091",
+    "TC-093"
+  ],
+  "changedFamilies": [
+    "F-DR-T01",
+    "F-TD-P01"
+  ],
+  "unchangedRows": 266,
+  "unchangedFamilies": 41,
+  "unexpectedSemanticChanges": 0,
+  "candidateFrozenEquality": "PASS except manifestVersion and added freezeProvenance",
+  "runtimeVocabulary": "PASS",
+  "derivedRuntimeMetadata": "PASS: exact candidate equality",
+  "engineWeightVerification": "PASS: all 300 impulse responses",
+  "unknownDomains": 0,
+  "unknownPrimaryPatterns": 0,
+  "unknownSecondaryPatterns": 0,
+  "structuralValidation": "PASS",
+  "csvConsistency": "PASS",
+  "familyValidation": "PASS",
+  "productionUnchanged": true,
+  "productionSha256": "2540570c2b907ea0e48cb9752e715486126e006a6100bd27e2f9f170d2c99689",
+  "candidateHashRecordsVerified": 22,
+  "unexpectedChanges": 0,
+  "batch03AuthoringMayStart": true,
+  "authoringStarted": false,
+  "commitPushPerformed": false
+}

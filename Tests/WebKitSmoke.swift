@@ -7,6 +7,7 @@ import WebKit
     var window: NSWindow!
     let excerpts = SavedExcerptStore(defaults: UserDefaults(suiteName: "WebKitSavedTests." + UUID().uuidString)!)
     var listenedBlock: String?
+    var trainerOpened = false
     var phase = 0
     var state: [String:String] = [:]
     let root: URL
@@ -17,6 +18,7 @@ import WebKit
         config.userContentController.add(self, name: "setting")
         config.userContentController.add(self, name: "result")
         config.userContentController.add(self, name: "saved")
+        config.userContentController.add(self, name: "trainer")
         web = WKWebView(frame: NSRect(x:0,y:0,width:Double(CommandLine.arguments.count > 3 ? CommandLine.arguments[3] : "390") ?? 390,height:Double(CommandLine.arguments.count > 4 ? CommandLine.arguments[4] : "760") ?? 760), configuration:config)
         web.navigationDelegate = self
         window = NSWindow(contentRect: web.frame, styleMask: [.titled], backing:.buffered, defer:false)
@@ -43,6 +45,11 @@ import WebKit
         } catch { print(error); exit(1) }
     }
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+        if message.name == "trainer" {
+            guard BookMessageTrust.accepts(message, controller:userContentController, webView:web, folder:root),
+                  let payload = message.body as? [String:String], payload == ["action":"open"] else { print("FAIL: trainer bridge"); exit(1) }
+            trainerOpened = true; return
+        }
         if message.name == "setting", let p = message.body as? [String:String], let k=p["key"],let v=p["value"] { state[k]=v; return }
         if message.name == "saved", let payload = message.body as? [String: Any], ["save","listenFrom"].contains(payload["action"] as? String ?? "") {
             guard BookMessageTrust.accepts(message, controller:userContentController, webView:web, folder:root) else { print("FAIL: production bridge rejected local saved action");exit(1) }
@@ -55,7 +62,7 @@ import WebKit
         guard let result=message.body as? [String:Any] else { return }
         print(result)
         if result["ok"] as? Bool != true { exit(1) }
-        if phase == 4 { print("PASS: integrated content, answer tabs, search, diagram layout and speech"); exit(0) }
+        if phase == 4 { guard trainerOpened else {print("FAIL: trainer entry");exit(1)}; print("PASS: integrated content, answer tabs, search, diagram layout and speech"); exit(0) }
         if phase == 3 { print("PASS: edge navigation and menu gestures, cancellation and conflict guards"); phase=4; self.webView(web, didFinish:nil); return }
         if phase == 2 {
             guard excerpts.excerpts.count == 1 && listenedBlock == excerpts.excerpts[0].anchor else { print("FAIL: native saved store"); exit(1) }

@@ -1,0 +1,20 @@
+{
+  "agent-artifacts/work-imports/batch-02/SnapshotRegression.swift": "95fae61d8bfb60833ef1d8c9da1a93e5d1d71826e70ebc48c5a1bce978f08246",
+  "agent-artifacts/work-imports/batch-02/cases-before-import.json": "a16c00b2be4d2d841b401ce15a076320b6a7c33f91a0b7a077b7d80d86800dcc",
+  "agent-artifacts/work-imports/batch-02/check.log": "f347262dea7666e355a19bcb7669b19c165c9ab47c416a05f48a08d2cbc5d3b5",
+  "agent-artifacts/work-imports/batch-02/git-status-before.txt": "7c614a940d2e9c020056cc4b514a7dfa9dd3f809f425e8b5c7af3597fc22b0c4",
+  "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+  "agent-artifacts/work-imports/batch-02/production-bank-stats.json": "4bf956d28f768d9a66b6f7d1f8e46aef36d43e48f5699ed54f80574b96b74ade",
+  "agent-artifacts/work-imports/batch-02/regression-evidence.json": "8d6b119eac61fe34bdb0b55c83ad40146b48903d9be6ac8da809109cd471e387",
+  "agent-artifacts/work-imports/batch-02/snapshot-regression.log": "c62d934cbf43fb6c641022eff28bc8adb1b505af65f7c644cc8d20b7c84e5857",
+  "agent-artifacts/work-imports/batch-02/validate_import.py": "58ab503222617d9d57e1b3b8004691a451d4a4972ab49950f9c0f81af387cf8c",
+  "agent-artifacts/work-imports/batch-02/validation-result.json": "0047a002f2475a1eafceb848d8e4b9584d6f5177883447e1df41a59e073a9fe8",
+  "agent-artifacts/work-imports/batch-02/workspace-before-hashes.json": "8699b613020a21abf3b0f3c9a2630c2d806efc0bd2b92408307f1450824c92d5",
+  "InteractiveBook/TrainerContent/cases.json": "2540570c2b907ea0e48cb9752e715486126e006a6100bd27e2f9f170d2c99689",
+  "Tests/TrainerSchemaTests.swift": "b9734695b96955c2e24d37f38d9997ee6f3758c6070d23ef11e38c652d366991",
+  "Tests/TrainerTests.swift": "553e522b04cd78b82a2c7fff64e7bb199edb47b2d694b05a90105179262a0e62",
+  "agent-artifacts/manifests/CURRENT.md": "456e60f30b299afef55b3ef8ca3bdcb1baaa7c275b579162c891f0551099eede",
+  "agent-artifacts/manifests/v2.2.1/production_manifest_masterplan_v2_2_1.json": "908e0075a76dc3fc018b7d5a11d230090eb274f27edbe81050548d256829b109",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+}

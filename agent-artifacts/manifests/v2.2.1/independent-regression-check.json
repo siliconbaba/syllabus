@@ -1,0 +1,12 @@
+{
+  "method": "Separate verification using raw JSONDecoder object spans and independent contribution recomputation; same agent, not independent content QA.",
+  "manifestRowsChanged": [
+    "TC-075"
+  ],
+  "frozenRowsUnchanged": 274,
+  "unexpectedChanges": 0,
+  "allPartTopicsValid": true,
+  "normalizedCoverageVerified": true,
+  "unchangedCopiedFamiliesAndHeadAudit": true,
+  "protectedInputsUnchanged": true
+}

@@ -1,0 +1,59 @@
+{
+  "verdict": "READY FOR IMPORT",
+  "scope": "Focused QA TC-075 manifest hotfix and Batch 02 r3 regression gates; no full repeat audit of unchanged 24 cases",
+  "manifestHotfix": "PASS",
+  "differentiation": "VALID DIFFERENTIATION",
+  "manifestChangedRows": 1,
+  "manifestUnchangedRows": 274,
+  "unexpectedManifestRegression": 0,
+  "sourceGrounding": "SUPPORTED",
+  "TC075": {
+    "blindStrongest": "B",
+    "productionStrongest": "B",
+    "uniqueStrongest": "PASS",
+    "level": "junior",
+    "levelRealization": "PASS",
+    "explanationFields": "PASS",
+    "vsTC024": "ALLOWED REINFORCEMENT",
+    "crossBankComparisons": 74,
+    "nearDuplicates": 0,
+    "duplicates": 0
+  },
+  "batchChangedCases": 1,
+  "batchUnchangedCases": 24,
+  "unexpectedBatchRegression": 0,
+  "preservedR2Results": {
+    "TC-051 Senior": "PASS",
+    "TC-052 Senior": "PASS",
+    "TC-053 Senior": "PASS",
+    "TC-068 Senior": "PASS",
+    "TC-053 decisionQuality": "PASS",
+    "TC-074 vs TC-012": "ALLOWED REINFORCEMENT",
+    "F-DM-T01": "PASS"
+  },
+  "preservationBasis": "Full JSON object and raw UTF-8 object equality; approved r2 results inherited as authorized by the user.",
+  "surfaceLeakage": "PASS",
+  "bestSimpleHeuristic": {
+    "combinedHits": 11,
+    "singleHits": 9,
+    "denominator": 25,
+    "baselineCombinedHits": 11,
+    "baselineSingleHits": 9,
+    "bestRandomTieExpectedHits": 10.5
+  },
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "schemaRuntime": "PASS",
+  "blocker": 0,
+  "major": 0,
+  "minor": 0,
+  "remainingIds": [],
+  "mayHandOffToWorkImport": true,
+  "importPerformed": false,
+  "batch03Started": false,
+  "inputFilesUnchanged": true
+}

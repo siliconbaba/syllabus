@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "method": "Compiled current production TrainerScoringMapping.swift. Independently derived metadata for 275 rows and recomputed five aggregate pools with current engine max-dedup and normalization semantics. No author runtime-output used for derivation.",
+  "unknownVocabulary": 0,
+  "errors": [],
+  "aggregateErrors": [],
+  "changedRows": {
+    "TC-076": {
+      "uiDomain": "processes",
+      "primaryThinking": "proportionality",
+      "secondaryThinking": [
+        "evidence"
+      ],
+      "weights": {
+        "proportionality": 0.6666666666666666,
+        "evidence": 0.3333333333333333
+      }
+    },
+    "TC-077": {
+      "uiDomain": "processes",
+      "primaryThinking": "proportionality",
+      "secondaryThinking": [
+        "evidence"
+      ],
+      "weights": {
+        "proportionality": 0.6666666666666666,
+        "evidence": 0.3333333333333333
+      }
+    },
+    "TC-078": {
+      "uiDomain": "processes",
+      "primaryThinking": "proportionality",
+      "secondaryThinking": [
+        "evidence"
+      ],
+      "weights": {
+        "proportionality": 0.6666666666666666,
+        "evidence": 0.3333333333333333
+      }
+    },
+    "TC-079": {
+      "uiDomain": "technical",
+      "primaryThinking": "dependencies",
+      "secondaryThinking": [
+        "dependencies"
+      ],
+      "weights": {
+        "dependencies": 1.0
+      }
+    },
+    "TC-080": {
+      "uiDomain": "technical",
+      "primaryThinking": "dependencies",
+      "secondaryThinking": [
+        "dependencies"
+      ],
+      "weights": {
+        "dependencies": 1.0
+      }
+    },
+    "TC-087": {
+      "uiDomain": "people",
+      "primaryThinking": "systems",
+      "secondaryThinking": [
+        "organization",
+        "systems"
+      ],
+      "weights": {
+        "systems": 0.6666666666666666,
+        "organization": 0.3333333333333333
+      }
+    },
+    "TC-088": {
+      "uiDomain": "stakeholders",
+      "primaryThinking": "stakeholders",
+      "secondaryThinking": [
+        "dependencies",
+        "stakeholders"
+      ],
+      "weights": {
+        "stakeholders": 0.6666666666666666,
+        "dependencies": 0.3333333333333333
+      }
+    },
+    "TC-091": {
+      "uiDomain": "processes",
+      "primaryThinking": "organization",
+      "secondaryThinking": [
+        "organization",
+        "dependencies"
+      ],
+      "weights": {
+        "organization": 0.6666666666666666,
+        "dependencies": 0.3333333333333333
+      }
+    },
+    "TC-093": {
+      "uiDomain": "project",
+      "primaryThinking": "risk",
+      "secondaryThinking": [
+        "risk",
+        "risk"
+      ],
+      "weights": {
+        "risk": 1.0
+      }
+    }
+  },
+  "poolsChecked": {
+    "gold": 25,
+    "new": 275,
+    "all300": 300,
+    "newAssessment": 181,
+    "assessment200": 200
+  },
+  "contextScoredEvidence": 0,
+  "candidateArtifactHashes": "PASS",
+  "sourceHashes": {
+    "TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+  }
+}

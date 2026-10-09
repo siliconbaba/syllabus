@@ -2,8 +2,16 @@
 set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/common.sh"
 prepare_xcode
+python3 "$BOOK_ROOT/scripts/sync_runtime_contract.py" --check
 python3 "$BOOK_ROOT/scripts/check_content.py"
+python3 "$BOOK_ROOT/scripts/build_trainer_catalog.py" --check
 mkdir -p "$BOOK_ROOT/build/checks"
+/usr/bin/xcrun swiftc "$BOOK_ROOT/InteractiveBook/Trainer/TrainerModels.swift" "$BOOK_ROOT/InteractiveBook/Trainer/TrainerStore.swift" "$BOOK_ROOT/Tests/TrainerTests.swift" -o "$BOOK_ROOT/build/checks/trainer-tests" -framework Combine
+"$BOOK_ROOT/build/checks/trainer-tests" "$BOOK_ROOT/InteractiveBook/TrainerContent/cases.json"
+/usr/bin/xcrun swiftc "$BOOK_ROOT/InteractiveBook/Trainer/TrainerModels.swift" "$BOOK_ROOT/InteractiveBook/Trainer/TrainerStore.swift" "$BOOK_ROOT/InteractiveBook/Trainer/TrainerScoringMapping.swift" "$BOOK_ROOT/InteractiveBook/Trainer/TrainerScoringEngine.swift" "$BOOK_ROOT/Tests/ScoringFixtures.swift" "$BOOK_ROOT/Tests/ScoringTests.swift" -o "$BOOK_ROOT/build/checks/scoring-tests" -framework Combine
+"$BOOK_ROOT/build/checks/scoring-tests" "$BOOK_ROOT/InteractiveBook/TrainerContent/cases.json" "$BOOK_ROOT/build/scoring-fixtures"
+/usr/bin/xcrun swiftc "$BOOK_ROOT/InteractiveBook/Trainer/TrainerModels.swift" "$BOOK_ROOT/InteractiveBook/Trainer/TrainerStore.swift" "$BOOK_ROOT/InteractiveBook/Trainer/TrainerScoringMapping.swift" "$BOOK_ROOT/InteractiveBook/Trainer/TrainerScoringEngine.swift" "$BOOK_ROOT/Tests/TrainerSchemaTests.swift" -o "$BOOK_ROOT/build/checks/trainer-schema-tests" -framework Combine
+"$BOOK_ROOT/build/checks/trainer-schema-tests" "$BOOK_ROOT/InteractiveBook/TrainerContent/cases.json"
 /usr/bin/xcodebuild -project "$BOOK_ROOT/InteractiveBook.xcodeproj" -scheme InteractiveBook \
   -configuration Debug -destination 'generic/platform=iOS Simulator' \
   -derivedDataPath "$BOOK_ROOT/build/simulator" CODE_SIGNING_ALLOWED=NO build

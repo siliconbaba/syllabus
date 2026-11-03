@@ -1,0 +1,15 @@
+{
+  "authoritative-runtime-mapping.json": "bcee01dcecc36eaea05e4f967f4b1980c68f0e04c27f90627bee4c42cc7208ae",
+  "change-log-v2_2_4-to-v2_2_4-r2.csv": "2d79e018012925fc89a18892d309633e1266046392551899e2482bb2cb43086e",
+  "input-hashes.json": "7844c38cc01f755f55056b4edbadf4c02b608fdff0c4fcbfff63e4388c2bb328",
+  "internal-scoped-audit.csv": "9ddd2f9251cadc4b773bef12095608178f0f73eb9ff96f8172b0647d625d4de3",
+  "linked_family_manifest_v2_2_4_r2_candidate.csv": "b8a0bc6e681b0e5e18de8d0e74e4d5b22585f1504d05138125824c8b6d3946ac",
+  "manifest-change-report.md": "57c86e536f859c8cf3c0ba9d7b243346159454ca9a1d2e831e525218f55c281d",
+  "production-comparison-evidence.csv": "f9509b1a793ce7e79754cb52694da6790968b1f9998ecf3ec9a5e64bf7061487",
+  "production_manifest_TC026_TC300_v2_2_4_r2_candidate.csv": "0dcd0e4c7f23f1ca92e3dbdeab31ce8021449993e62582b918550402883036d9",
+  "production_manifest_masterplan_v2_2_4_r2_candidate.json": "29331b68dee75ddcbe3feaf748814dfa2345ba2f1404e2873166c916c8d5ee39",
+  "runtime_coverage_v2_2_4_r2_candidate.json": "58e0d963611d5f52bd986c53d4891048f4321ededfcfc1eb852e8a96345a6933",
+  "source-and-level-evidence.json": "9a621dce9c3fc16822bcc4b1f50e35a281d681372fc285c43736e17a3d58695d",
+  "validation-result.json": "80b4d13bb74bb195d2863bd6fa9e5e293c87b7a74484ac54c96b7f7acaf54621",
+  "validation-summary.json": "6eaba0ab6279a164f204a1eb4dbf738306a33f0a72341dac9b5c650666a31fa3"
+}

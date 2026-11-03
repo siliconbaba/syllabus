@@ -1,0 +1,15 @@
+{
+  "algorithm": "SHA-256",
+  "selfExcluded": true,
+  "files": {
+    "planning-confidence-update.md": "10b5297e47e4f01232c058871477cb7e0da26833336ab750e3aac4d8c3493606",
+    "input-hashes.json": "b4b7fa50299abfe664bf3c8553f2272982d4e63acf3e65d11e25bf94b9ec08ae",
+    "plan-overlay.json": "4715ade7c661f5178abd37c4d414ad50837ada49fcf2774575751e61bcbe8f5a",
+    "validation-result.json": "e0a6befe532c354094f8bd978dc3f42e47e48b26bd73b8f64b4e58a29c5f0b63",
+    "affected-units.json": "c865fa4d1add57c780b89bd8cd2f66f9340b22c1b9cfb01c3d64ffc8c9b3f2be",
+    "next-unit-recommendation.md": "d879ad553d08e621131d7f3b4c553bb07893936f02edaa2b1eafcf5024f2b673",
+    "u-exp-failure-analysis.md": "3c562396e8556a1cb7caa8b6c894e55513d922fa90b2c749f27ac310d579ad80",
+    "routing-delta.csv": "daeddbda2cbab41fbca7c6bb12183acc7474c0e719ad9ed86f59b2747b99788a",
+    "remaining-unit-confidence.csv": "ba163b67548eaac6b903f14fd67397843a3f038162829dc3616e0b05f91fb82b"
+  }
+}

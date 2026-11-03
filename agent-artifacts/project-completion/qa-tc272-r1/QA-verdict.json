@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "independent manifest blueprint QA only",
+  "candidate": "TC-272 R1",
+  "candidateSHA256": "697ce1d99358b8d50e9264c9a75e234e462fc3ae1f82335f470dda6bb0b92ef1",
+  "baseSHA256": "24adbe7421c5df1d29c3ae0a6836d8a046bf81dd015854062efb1a5b49c4675c",
+  "candidateAccepted": true,
+  "readyForFullCaseAuthoring": true,
+  "readyForFreeze": false,
+  "importEligible": false,
+  "critical": [],
+  "major": [],
+  "minor": [],
+  "fullCaseBlindQA": "NOT_APPLICABLE: options do not exist",
+  "productionChanged": false
+}

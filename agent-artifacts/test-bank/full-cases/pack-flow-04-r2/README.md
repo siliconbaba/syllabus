@@ -1,0 +1,1 @@
+Targeted R2 from reviewer findings: TC287 C specifies3daysA+2daysB and updates dependent rationale/WHEN; 253/254 both expose original blueprint first-weekbaseline and2daysperweek facts. Keys, DQ, metadata unchanged. TC222 object unchanged. R1 remains immutable. Fullcase source/analog inheritance subject to independent focused review. No production/import.

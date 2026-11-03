@@ -1,0 +1,31 @@
+{
+  "rowChanges": [
+    "TC-108",
+    "TC-109"
+  ],
+  "changedFields": [
+    "decisiveFactsConcept[3]"
+  ],
+  "unchangedRows": 273,
+  "changedFamily": "F-PA-P02",
+  "unchangedFamilies": 42,
+  "sourceContentQAPinned": true,
+  "exactProposedContracts": true,
+  "sharedMutationRemainsFrequencyOnly": true,
+  "runtimeProjection300ExactlyEqual": true,
+  "runtimeSourcesUnchanged": true,
+  "sevenPoolCoverageInherited": true,
+  "newRuntimeRuns": 0,
+  "remainingUnresolved": 68,
+  "headBreadth": "PASS inherited unchanged",
+  "csvExact": true,
+  "coveragePointerValid": true,
+  "topChangedKeys": [
+    "contractClarificationRevision",
+    "manifest",
+    "manifestVersion",
+    "coverageSummary",
+    "familyManifest"
+  ],
+  "candidateSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40"
+}

@@ -1,0 +1,70 @@
+{
+  "TC-253": {
+    "throughputPerWeek": {
+      "keep": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "internal": [
+        10,
+        8,
+        8,
+        8
+      ],
+      "external": [
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    "totalCostThousands": {
+      "keep": 160,
+      "internal": 320,
+      "external": 120
+    },
+    "strongest": "external",
+    "pairwiseMargins": {
+      "keep": 40,
+      "internal": 200
+    },
+    "hybridCostAtLeast": 160,
+    "counterfactual": "Only swap shared/independent resource relation: winner flips with every numeric input unchanged."
+  },
+  "TC-254": {
+    "throughputPerWeek": {
+      "keep": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "internal": [
+        10,
+        12,
+        12,
+        12
+      ],
+      "external": [
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    "totalCostThousands": {
+      "keep": 160,
+      "internal": 80,
+      "external": 120
+    },
+    "strongest": "internal",
+    "pairwiseMargins": {
+      "keep": 80,
+      "external": 40
+    },
+    "hybridCostAtLeast": 160,
+    "counterfactual": "Only swap shared/independent resource relation: winner flips with every numeric input unchanged."
+  }
+}

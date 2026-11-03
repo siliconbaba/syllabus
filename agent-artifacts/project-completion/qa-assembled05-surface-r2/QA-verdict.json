@@ -1,0 +1,104 @@
+{
+  "status": "PASS — batch-specific surface and position retest",
+  "scope": "Text/position/duplicate surface only",
+  "candidatePath": "agent-artifacts/test-bank/batch-05-completion05-r2/cases.json",
+  "candidateSHA256": "8152ee72ad2c00a85cdedd13b75d18c71c92f74e33a7a8828e76c32a9e0466db",
+  "production125SHA256": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+  "corpora": {
+    "batch05": {
+      "positions": {
+        "C": 6,
+        "D": 6,
+        "A": 6,
+        "B": 7
+      },
+      "bestFirstTieHits": 11,
+      "bestRandomTieExpectedHits": 9.666666666666666,
+      "familyPreservingPermutation": {
+        "maxStatisticAdjustedP": 0.543728135932034,
+        "seed": 20261008,
+        "draws": 2000,
+        "groups": 20,
+        "rules": 78
+      }
+    },
+    "production125": {
+      "positions": {
+        "B": 31,
+        "D": 33,
+        "C": 31,
+        "A": 30
+      },
+      "bestFirstTieHits": 44,
+      "bestRandomTieExpectedHits": 42.0,
+      "familyPreservingPermutation": {
+        "maxStatisticAdjustedP": 0.11744127936031984,
+        "seed": 20261008,
+        "draws": 2000,
+        "groups": 102,
+        "rules": 78
+      }
+    },
+    "combined150": {
+      "positions": {
+        "B": 38,
+        "D": 39,
+        "C": 37,
+        "A": 36
+      },
+      "bestFirstTieHits": 55,
+      "bestRandomTieExpectedHits": 50.666666666666664,
+      "familyPreservingPermutation": {
+        "maxStatisticAdjustedP": 0.04447776111944028,
+        "seed": 20261008,
+        "draws": 2000,
+        "groups": 122,
+        "rules": 78
+      }
+    }
+  },
+  "familyKeys": {
+    "F-PR-T01": [
+      "C",
+      "D",
+      "A"
+    ],
+    "F-DM-P02": [
+      "B",
+      "A"
+    ],
+    "F-DR-P02": [
+      "A",
+      "C"
+    ],
+    "F-PO-P02": [
+      "D",
+      "B"
+    ]
+  },
+  "ordinalMatchesOfNine": 2,
+  "ordinalExploratoryExactTail": 0.6786265432098766,
+  "ordinalNull": "Independent uniformly random within-family permutation of letters; post-hoc positional rule, not jointly adjusted with the 78.",
+  "byFamilyMemberPosition": [
+    {
+      "C": 1,
+      "B": 1,
+      "A": 1,
+      "D": 1
+    },
+    {
+      "D": 1,
+      "A": 1,
+      "C": 1,
+      "B": 1
+    },
+    {
+      "A": 1
+    }
+  ],
+  "normalizedCrossFamilyDuplicateFields": [],
+  "familyAndStandalone": "4 families containing 9 training members, 16 standalone. Cross-checked 3125 production-to-new pairs and 294 within-batch different-family pairs.",
+  "ruleAdditivity": "PASS across all 78; historical features and tie handling unchanged.",
+  "interpretation": "Shuffled family option objects, old ordinal shortcut drops 8/9 to 2/9. Standalone target reforms remove punctuation rhythm; batch omnibus p=.544. Combined150 still has residual specificity association (omnibus p=.0445), no local uniform rule. No new batch-level surface fix indicated.",
+  "separateContentNote": "TC-141 “после назначения дежурства” presupposes an assignment. In final content QA check both staffing outcomes; wording “после выбора режима” would explicitly cover both. Outside this scoped surface verdict."
+}

@@ -1,0 +1,14 @@
+{
+  "candidateSHA256": "687f0b35e3c1064135425d99b2ecfbc42a2962fb31f1701b640eb129c0fd3cff",
+  "swift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  },
+  "inputHashes": {
+    "agent-artifacts/context-packs/batch-04/source-topics/t-8-2.md": "5582c4345030f08210b76928f4ac1ce86cae6f426732261a384240d767b956bb",
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f"
+  }
+}

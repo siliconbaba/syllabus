@@ -1,0 +1,9 @@
+[
+  {
+    "issueId": "HT1-261-M01",
+    "unit": "TC-261",
+    "status": "OPEN",
+    "action": "Remove unsupported irreversibility from whyLevel; focused independent retest before freeze",
+    "source": "agent-artifacts/qa/manifest-v2.3-hardtail-r1/issues.json"
+  }
+]

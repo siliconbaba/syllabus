@@ -1,0 +1,11 @@
+{
+  "QA-report.md": "c0ff263bc331a7a74b62eb5c236b0bbcea2af6e572190d232eed9188d5a0615e",
+  "QA-verdict.json": "b5bd91dd781ae535b994818aa3fc40e5a242729e0701688b231fafeed37ac59a",
+  "blind-choices.json": "dbb16406d645737e65a0c0ad4b1346fed24c8cc980ec5db8aefd8baab1e9e379",
+  "case-findings.json": "35b99f1134279bf757dfe94c17d3e8a2cba2e12b1aabcde6424692ee949ec67d",
+  "exact-diff.json": "be3d1a6b69de0ba352f8bdaaf020f19e4db64f4960a4f2f1bf997becfd37f1e1",
+  "input-hashes.json": "8ad790fcb6ad0ba6d0fa0ec3d3ee71283cba2579134865e1a9b48cb824384d3d",
+  "issues.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "source-verification.json": "835d7a2172a39e2e8a89f10eee7785ee64b98dec2cc3e41e21e67ba01c79bd18",
+  "surface-evidence.json": "3c12c3740f81edd2bf210fe095d6b0e6bb7997633e66724efe13038ad3bfb3c3"
+}

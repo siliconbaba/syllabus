@@ -1,0 +1,191 @@
+[
+  {
+    "plannedId": "TC-146",
+    "topN": 10,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-088",
+        "retrievalScore": 9.624701,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "варианты",
+          "вопрос",
+          "его",
+          "ещё",
+          "лид",
+          "лидом",
+          "новую",
+          "окно",
+          "повторно",
+          "после",
+          "разговора",
+          "решение",
+          "решения",
+          "согласовали",
+          "согласованы",
+          "уже",
+          "факты"
+        ]
+      },
+      {
+        "id": "TC-016",
+        "retrievalScore": 9.22549,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "было",
+          "ещё",
+          "нет",
+          "разговора",
+          "решение",
+          "руководителю",
+          "шаг"
+        ]
+      },
+      {
+        "id": "TC-071",
+        "retrievalScore": 5.213349,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "вправе",
+          "его",
+          "конфликт",
+          "работы",
+          "решение",
+          "требуется",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-040",
+        "retrievalScore": 5.163099,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "конфликта",
+          "право",
+          "решения",
+          "спор"
+        ]
+      },
+      {
+        "id": "TC-056",
+        "retrievalScore": 3.259958,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "для",
+          "ещё",
+          "или",
+          "личного",
+          "нет",
+          "нужно",
+          "после",
+          "работы",
+          "решение",
+          "решения"
+        ]
+      },
+      {
+        "id": "TC-057",
+        "retrievalScore": 3.259958,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "для",
+          "ещё",
+          "или",
+          "личного",
+          "нет",
+          "нужно",
+          "после",
+          "работы",
+          "решение",
+          "решения"
+        ]
+      },
+      {
+        "id": "TC-096",
+        "retrievalScore": 3.215299,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "для",
+          "доступен",
+          "ещё",
+          "исполнения",
+          "лид",
+          "работы",
+          "решения"
+        ]
+      },
+      {
+        "id": "TC-064",
+        "retrievalScore": 3.057388,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "нет",
+          "после",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-015",
+        "retrievalScore": 3.0395,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "ещё",
+          "нет"
+        ]
+      },
+      {
+        "id": "TC-023",
+        "retrievalScore": 2.182154,
+        "reasons": [],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "нет",
+          "нужно",
+          "полномочия",
+          "право",
+          "роли",
+          "уже"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

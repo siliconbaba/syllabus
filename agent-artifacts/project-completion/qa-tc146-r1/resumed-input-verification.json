@@ -1,0 +1,14 @@
+{
+  "agent-artifacts/test-bank/reconstruction/tc146-r1/proposed-manifest-row.json": true,
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/production_manifest_masterplan_v2_3_completion_01_candidate.json": true,
+  "agent-artifacts/test-bank/reconstruction/tc146-r1/source-t-6-3.txt": true,
+  "agent-artifacts/test-bank/reconstruction/tc146-r1/README.md": true,
+  "agent-artifacts/test-bank/reconstruction/tc272-r1/proposed-manifest-row.json": true,
+  "agent-artifacts/test-bank/full-cases/tc200-r2/cases.json": true,
+  "agent-artifacts/project-completion/qa-manifest-completion01/QA-verdict.json": true,
+  "InteractiveBook/WebContent/index.html": true,
+  "InteractiveBook/TrainerContent/cases.json": true,
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": true,
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": true,
+  "InteractiveBook/Trainer/TrainerModels.swift": true
+}

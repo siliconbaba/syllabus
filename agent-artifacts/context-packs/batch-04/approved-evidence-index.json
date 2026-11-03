@@ -1,0 +1,1996 @@
+{
+  "productionSha256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "cases": [
+    {
+      "id": "TC-003",
+      "contentHash": "c52945fb2e323c1674f594a9bb49c42f248053cd4ea3c3257ace388b3bd0dba0",
+      "rawObjectSha256": "ccca331c7920aaf9f404b9c80b0a7e69e5c1be6cc0cd477d9021dbdcc76047c3",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-3-9",
+      "domain": "release_and_quality",
+      "patterns": [
+        "risk-based-hotfix",
+        "rollback",
+        "feature-flags",
+        "regression-evidence"
+      ],
+      "familyId": "hotfix-evidence-01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-006",
+      "contentHash": "833d33c8be7ab44ea1b9566f773a52ca58c8959c64890d2a1d8a698b521f1f1e",
+      "rawObjectSha256": "cede6584d54161fc19a8394aca3345dac7213d9fb9d99019c06b90ede73d73fb",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-2-6",
+      "domain": "risk_management",
+      "patterns": [
+        "risk-to-issue-transition",
+        "mitigation",
+        "risk-register"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-007",
+      "contentHash": "c1de27d3aa78d488f3a14db97fd81ca398c9d9d86525b6709be53f804dc1172c",
+      "rawObjectSha256": "67ec1dcc6a141cb37c560ab815929213f4666f1a14d94184a91156d4d6f5f5f8",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-2-6",
+      "domain": "risk_management",
+      "patterns": [
+        "early-warning-response",
+        "buffer-consumption",
+        "forecasting",
+        "proactive-management"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-008",
+      "contentHash": "fd72a3c32b1b365c130d06cd3079c07c602adff85db165e176e0d522c5dfbf8a",
+      "rawObjectSha256": "54e32b306529c80f67b407a3b4394153faf8b25bf0465e3dec3e0ec50a7eb136",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-3-2",
+      "domain": "delivery_quality",
+      "patterns": [
+        "gate-effect-diagnosis",
+        "lead-time",
+        "quality-metrics",
+        "process-economics"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-009",
+      "contentHash": "e6c780a0ac3a914beb454053e0c3d834005df74aad4107e5f94c4d503d62eb5c",
+      "rawObjectSha256": "183dfda9400773499a02c2d9d39ea925872cbc4372ef5b4de9157847ed199535",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-3-2",
+      "domain": "delivery_quality",
+      "patterns": [
+        "progressive-quality-gates",
+        "warning-mode",
+        "risk-differentiation",
+        "change-management"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-010",
+      "contentHash": "6fb7163988a304c5c60d8c4cf2d6913cb4ded8cac6154ef3b046186c34556f78",
+      "rawObjectSha256": "da88e992f0632ff288250238a7c66e668f6e74ce97331918f3943cce2ed16fb3",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-3-3",
+      "domain": "release_engineering",
+      "patterns": [
+        "rollback-data-awareness",
+        "feature-flags",
+        "data-migration",
+        "expand-contract"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-011",
+      "contentHash": "2231fda09f34d8e9cba80268136ddae8d4ff2647385a9b76ba5e29a3f8aec7b2",
+      "rawObjectSha256": "cb840b0a20d3f045febd7917332627dbcf2f1f8c002a395f29bc3f7c7f3fe7a1",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-10-1",
+      "domain": "technical_delivery",
+      "patterns": [
+        "backward-compatible-change",
+        "api-contracts",
+        "versioning",
+        "migration-strategy"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-012",
+      "contentHash": "aae07d4373ed802c93608af04e386321c067f4afe760c575647bb9c327f71363",
+      "rawObjectSha256": "5a41d9e25d4988e492754c4326ce40399b17d4f8eed268a15297f5d2a6ad3c08",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-9-4",
+      "domain": "program_and_portfolio",
+      "patterns": [
+        "decision-at-right-level",
+        "cost-of-delay",
+        "resource-conflict",
+        "escalation"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-013",
+      "contentHash": "94c6f576da7d5b8458de1e59773c3d974e38ea745e59fb00db7755b1e8246e32",
+      "rawObjectSha256": "5fad4e6da8f799c9f3858f7377177bf28a3fe0777d794e48e2b9b3a87f6d2d09",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-9-6",
+      "domain": "organizational_design",
+      "patterns": [
+        "structural-dependency-reduction",
+        "platform-self-service",
+        "team-topologies",
+        "bottleneck"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-015",
+      "contentHash": "4593d1cbca4399d8fb285afbf68c5b25eedd109addc530d654f9b38b525ced0f",
+      "rawObjectSha256": "46b9892d6101697eb933fa7145d54d417baa7b0f3caf8945dfb36f51cac33802",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-6-2",
+      "domain": "stakeholder_communication",
+      "patterns": [
+        "early-bad-news",
+        "forecast",
+        "expectation-management",
+        "options"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-016",
+      "contentHash": "53b82b7e794606ac6fd2614570c254bebf58a84a00f43df07d0d6b685d23138e",
+      "rawObjectSha256": "fe869cb68a769ad6e9a5c5215bd88ece65b6ddb2032cc55a211becfc9b7535f9",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-6-3",
+      "domain": "stakeholder_communication",
+      "patterns": [
+        "escalation-readiness",
+        "dependency",
+        "required-date",
+        "critical-path"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-017",
+      "contentHash": "09233f99d935f1376c7f25fe284d56d7b0145818dd4452d7a4b8f5a18a4ccba5",
+      "rawObjectSha256": "e478ca10578e2ea4d26ebc87658de8f7d6b529e10d9844d0c7a7fe2a795fc649",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-7-6",
+      "domain": "people_management",
+      "patterns": [
+        "diagnosis-before-intervention",
+        "performance",
+        "one-on-one",
+        "support"
+      ],
+      "familyId": "performance-01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-018",
+      "contentHash": "16925d4163c694353f9ab667759d9836ef10cd5bbd5025f21c9c10b4ad1dabf1",
+      "rawObjectSha256": "53bcbcaf106eacee7b36b90cc3055d29b085f8decf65a46458efac8988e57783",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-7-6",
+      "domain": "people_management",
+      "patterns": [
+        "formal-performance-management",
+        "feedback",
+        "pip",
+        "accountability"
+      ],
+      "familyId": "performance-01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-021",
+      "contentHash": "e8af826e1689877bed3c3fdcdd28f35dc22f865751636f513158c3311d675701",
+      "rawObjectSha256": "eed428ec7092e9bc975e26f89600b34c96bab6e0b51e33bdd61907257c1a4eb6",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-15-8",
+      "domain": "portfolio_management",
+      "patterns": [
+        "portfolio-reprioritization",
+        "cost-of-delay",
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-023",
+      "contentHash": "ad51b4f033a8959689e783e2e5ada10d87909cd08ba529e1280d113520aaac05",
+      "rawObjectSha256": "5a30ecdebb5c9964edba43efe670d65dc20b97a2a1574e22085ccc1195ae92a1",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-10-6",
+      "domain": "incident_management",
+      "patterns": [
+        "incident-command",
+        "roles",
+        "change-control",
+        "communications"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-025",
+      "contentHash": "94f5d435a9d27d2c8f638d5d7c53016aa7f54ab9e83b8b1f0a9b3a8e96b1442b",
+      "rawObjectSha256": "828f90de37dbf84e5963176fcf62ffa3e9b9353f14487003f24512da98ac99cb",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": null,
+      "approvalBasis": "User-confirmed GOLD-STANDARD READY; original full independent QA verdict is not available in repository. Gold fixture + import regression prove preservation, not a new semantic audit.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "Tests/Fixtures/trainer-gold-v1.json": "363e16f4f6dcd4f50f7b09fd6b55e9c4018c69a4d3671bd61e812ca031b43f51"
+      },
+      "manifestVersion": "gold precedes planned manifest",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-13-2",
+      "domain": "product_and_uncertainty",
+      "patterns": [
+        "cheap-learning-before-build",
+        "mvp",
+        "hypothesis",
+        "reversible-investment"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-026",
+      "contentHash": "3fa81cd8931b47532ef224eeeeb17a77b4a29d4fd325a7e5fb635a63b46ed3a0",
+      "rawObjectSha256": "868048c29429ca8a63c7866c68f90051a0c46bf98c8bf9ba7cf8ac282030992e",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-2-4",
+      "domain": "planning_and_dependencies",
+      "patterns": [
+        "early-warning-response",
+        "buffer-consumption",
+        "forecasting"
+      ],
+      "familyId": "F-PM-T01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-027",
+      "contentHash": "c2295e5d1fcbafbd45df8fed287e74356e90c09f18e1f8433dbf708c49eed1fc",
+      "rawObjectSha256": "d96d60074c54488c82ea87fd7a92e6f7be37a372fbefa9a461fe9115835e8eda",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-2-4",
+      "domain": "planning_and_dependencies",
+      "patterns": [
+        "early-warning-response",
+        "buffer-consumption",
+        "forecasting"
+      ],
+      "familyId": "F-PM-T01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-028",
+      "contentHash": "ccdc6ba86161ec786d3e8f1160ea1802423257573fe94d245128e2de3c2ca5b4",
+      "rawObjectSha256": "4188b32de3366e78f5699af751c49886890c4a0749eb5d895c885d2f18536972",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-2-4",
+      "domain": "planning_and_dependencies",
+      "patterns": [
+        "early-warning-response",
+        "buffer-consumption",
+        "forecasting"
+      ],
+      "familyId": "F-PM-T01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-033",
+      "contentHash": "d987b0809574e58aa8e39c76568ef6a9e8561f33cd7910ea3ae72752bd0a9a8d",
+      "rawObjectSha256": "0a56cc6c4d686ec28ec3c3b35a2d4e17608ae2aa2bd6b5d3388533c35901d9e2",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-5-6",
+      "domain": "product_and_uncertainty",
+      "patterns": [
+        "cheap-learning-before-build",
+        "reversible-investment",
+        "hypothesis"
+      ],
+      "familyId": "F-DM-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-034",
+      "contentHash": "d754f91df7deb0fbba0791f2bc99c213ba3477b58607622e931fd1a577051d3d",
+      "rawObjectSha256": "95d98683306eb6134a1d09793aec6572550df8d77569185794b9f013bb560bc5",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-5-6",
+      "domain": "product_and_uncertainty",
+      "patterns": [
+        "cheap-learning-before-build",
+        "reversible-investment",
+        "hypothesis"
+      ],
+      "familyId": "F-DM-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-036",
+      "contentHash": "d71f1a2e9936050666503517501e975f32e1d3a8b57a5b5227d3bf84079ff23c",
+      "rawObjectSha256": "898b512ab8fd36e941b3733d1b6e670cfe3d74b083f444bfcd84f2f6abe69f19",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-5-6",
+      "domain": "product_and_uncertainty",
+      "patterns": [
+        "cheap-learning-before-build",
+        "hypothesis",
+        "reversible-investment"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-037",
+      "contentHash": "0abbe5993d89603eccc4743a077d9c2e70c9b2b846762121ccecb2f2ed8a4c9c",
+      "rawObjectSha256": "7f148f3fea421faa0b42cedd7a319ba9ed33300c8c3393f76d51777fa0b4ed14",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-3-3",
+      "domain": "release_engineering",
+      "patterns": [
+        "rollback-data-awareness",
+        "data-migration",
+        "rollback"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-038",
+      "contentHash": "ae53d7f5fb5eb0a25597431fc18fc6cdac1841b3faf5c04572a12077a8215b79",
+      "rawObjectSha256": "4890e678bf958a8860522589531020edbfa262f74d939c762ad6e4cb637bd826",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-10-1",
+      "domain": "technical_delivery",
+      "patterns": [
+        "backward-compatible-change",
+        "api-contracts",
+        "versioning"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-039",
+      "contentHash": "1cc910461c6bb57ac0249f35b0787ebe9f0517ab646d86fd28e03c896d97b623",
+      "rawObjectSha256": "c48f9be5ca1396436fbc32261a090a95d788188fc5f1bd9bee85e52ec7c273f8",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "head",
+      "topic": "t-4-3",
+      "domain": "organizational_design",
+      "patterns": [
+        "structural-dependency-reduction",
+        "team-topologies",
+        "process-economics"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-040",
+      "contentHash": "a51b74db2ea9da7d992fd461b82f4ee2a869a63d5d39df2cf57765ff72689d5b",
+      "rawObjectSha256": "3a5053e65e062a952b2081f8956e57529e3a33906e9bc66f84a83f1f67769a69",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "head",
+      "topic": "t-6-1",
+      "domain": "stakeholder_communication",
+      "patterns": [
+        "decision-at-right-level",
+        "resource-conflict",
+        "communications"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-041",
+      "contentHash": "acea170b577976618806d4fb0a9f7751aa5a1175d7036ce856a7c7c5547ac08e",
+      "rawObjectSha256": "d902c9cabeebfa80f793cafd04a9b4d471f1a04eda652fd51269b4270e85bd3b",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "head",
+      "topic": "t-7-7",
+      "domain": "people_management",
+      "patterns": [
+        "decision-at-right-level",
+        "roles",
+        "support"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-042",
+      "contentHash": "5da8cc4d5c2135a6f1a6b6eaf242798f41862211892aee7c9775841defc0fccd",
+      "rawObjectSha256": "ec5fe5cf85b270d5519e4f15adb46a34394d66cd76064719ea218f6987a17f74",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-8-1",
+      "domain": "vendors_and_finance",
+      "patterns": [
+        "portfolio-reprioritization",
+        "strategic-fit",
+        "forecast"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-044",
+      "contentHash": "303a4dfcd5880896a395dbd6e404fa8655f728c04c8f0f33801fa5f5734c1302",
+      "rawObjectSha256": "46f8b6faac5f883619a566c4fe1086a026cbd5dc083798bb24364bc7ea5e60b5",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-10-4",
+      "domain": "technical_delivery",
+      "patterns": [
+        "gate-effect-diagnosis",
+        "quality-metrics",
+        "root-cause"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-046",
+      "contentHash": "4b921489f47ef9ea6d1f003206f43f135837c32e35d1166bb2341972eb5d176b",
+      "rawObjectSha256": "a764026567f8b8ef35843c1b637a8691c92434e7af2e2eb3e162a06646d63ab1",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-5-6",
+      "domain": "product_and_uncertainty",
+      "patterns": [
+        "uncertainty-impact-plan-b",
+        "impact-analysis",
+        "risk-register"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-047",
+      "contentHash": "2b24f3074e1e52b2debcd39e9d8557a2b58b01911df7ba5d35655e0e9323296d",
+      "rawObjectSha256": "82e1e4fba69914a2378a97c84a4917fe161ef392afdb4d8b5b3efeea47b00b4a",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-3-2",
+      "domain": "delivery_quality",
+      "patterns": [
+        "gate-effect-diagnosis",
+        "quality-metrics",
+        "warning-mode"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-049",
+      "contentHash": "76a1f988b6ff09a5df4d0b8d0ad273e54664b3f90b4ae9b2f3cc164fb1c27498",
+      "rawObjectSha256": "b14242be57fe742fb47d0379e58ffe1e9f3022f9e4c1e1e7b3f86c7e5dbbf4c7",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "head",
+      "topic": "t-10-6",
+      "domain": "incident_management",
+      "patterns": [
+        "incident-command",
+        "roles",
+        "communications"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-050",
+      "contentHash": "e7d80da11a898714c4ca6209797d1de2f4d8bdeb2310516c8a3d2111d2aa86f5",
+      "rawObjectSha256": "f5c6734f3b9cb7a7bd90b530da7bd5e87da6a43e733a52ffa481835519b23d49",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-01-r2/QA-verdict.json",
+      "approvalBasis": "Conditional independent QA followed by authorized local TC-045 fix and successful import. The QA verdict predates that local fix; do not describe it as unconditional final QA.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-01/import-report.md": "601b914509b9c9f02f5814b952743ad84b6699712a3335e0777ebcf3b80a282a",
+        "agent-artifacts/qa/batch-01-r2/QA-verdict.json": "fcf8d6ab2ef53ddc62e359b8a1185c99cb09a3193376f1b9812930f1ecfc3a1c"
+      },
+      "manifestVersion": "v2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-10-4",
+      "domain": "technical_delivery",
+      "patterns": [
+        "evidence-before-release",
+        "safeguards",
+        "quality-metrics"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-051",
+      "contentHash": "ec7ff688b879b3e18dd0bef890a470ed121b19bb3ddfe75a3172dff0b63add31",
+      "rawObjectSha256": "d8ac419b28230341cf191acd1c138965486598a998a19a0bdc078439dde5b4ac",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-9-3",
+      "domain": "portfolio_management",
+      "patterns": [
+        "portfolio-reprioritization",
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "familyId": "F-DM-T01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-052",
+      "contentHash": "3fe6389bc985c254e374849fc3f4b9fa04b3ad9ff11bc93107398765ddbb28c2",
+      "rawObjectSha256": "34d2d440f63bb1222ff05474cd4e68ce4fa981356bd8345cf6edf247da5a4851",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-9-3",
+      "domain": "portfolio_management",
+      "patterns": [
+        "portfolio-reprioritization",
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "familyId": "F-DM-T01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-053",
+      "contentHash": "8f020178f8f0e821e3c2dfe3e5cdfee8f2e31fd86ed55524264dfe9a0cbae1b8",
+      "rawObjectSha256": "7adf0844f972e07f7140ca11f97520cc6a6012455f5f399dbf8aaea2a252acbc",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-9-3",
+      "domain": "portfolio_management",
+      "patterns": [
+        "portfolio-reprioritization",
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "familyId": "F-DM-T01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-054",
+      "contentHash": "45885514c7d448b1caf4cab60654f353fea1e20e3aa9dac1cc91996ba2fb6d92",
+      "rawObjectSha256": "805fcafeac90cd9fbb767d56ae65d1d261f280df0f6e5bf4cfd219bd46c9e777",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-3-3",
+      "domain": "release_engineering",
+      "patterns": [
+        "rollback-data-awareness",
+        "rollback",
+        "feature-flags"
+      ],
+      "familyId": "F-DR-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-055",
+      "contentHash": "62ed2697e04ef2abbd03b1cbc21a8626b46df6a1bf2bced1bd12c466200a2c0b",
+      "rawObjectSha256": "8de6116ad1483a2dbec3f2747f9123a25090e1dc1b354176768d8774cc439ccd",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-3-3",
+      "domain": "release_engineering",
+      "patterns": [
+        "rollback-data-awareness",
+        "rollback",
+        "feature-flags"
+      ],
+      "familyId": "F-DR-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-056",
+      "contentHash": "b533282b0800644e81c9b714ca36d64472a7c9bbd4cd7046efe612207ff172e3",
+      "rawObjectSha256": "6bad496751078508f100343bc31b9ed3d0257ba3fcbee9931f137fe656b4d26a",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-6-2",
+      "domain": "stakeholder_communication",
+      "patterns": [
+        "early-bad-news",
+        "forecast",
+        "expectation-management"
+      ],
+      "familyId": "F-ST-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-057",
+      "contentHash": "7458079498754f80d6d77de066d96d0efc5eca3b4a1a6422f0512025d04912f0",
+      "rawObjectSha256": "d5369faf3c92bebfdbd364f43c62ba4aed29fab332707c4c81ecffaad36a528e",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-6-2",
+      "domain": "stakeholder_communication",
+      "patterns": [
+        "early-bad-news",
+        "forecast",
+        "expectation-management"
+      ],
+      "familyId": "F-ST-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-058",
+      "contentHash": "8ea419bb022d2d54ab49ee41ac3948e2de4ed61c0bb06f4504c30dbd484a6945",
+      "rawObjectSha256": "55d547fcda2c8fad7a44a0a4a5181f9eeb2c1053a98cd4a730e9993bbcd8b133",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-9-3",
+      "domain": "portfolio_management",
+      "patterns": [
+        "portfolio-reprioritization",
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "familyId": "F-PO-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-059",
+      "contentHash": "67828d99a6ba399857e97318c4fed9c2f74f7259ea6e5d8afffca53b89b8d6c9",
+      "rawObjectSha256": "ab3fb6badcd9320f2db172907dfb61b5c6f348df8053fc725dd48ce1c23ef650",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-9-3",
+      "domain": "portfolio_management",
+      "patterns": [
+        "portfolio-reprioritization",
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "familyId": "F-PO-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-060",
+      "contentHash": "27ac6e9d3758c99f2cd0b5fbda6f19e0c0d0f2400f770dea9da241b3ca318d62",
+      "rawObjectSha256": "0e99ec5f893ed2a48b5bd64091c2665750760c3c3868fb00561a331e9f4db2ee",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-13-2",
+      "domain": "product_and_uncertainty",
+      "patterns": [
+        "cheap-learning-before-build",
+        "hypothesis",
+        "reversible-investment"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-061",
+      "contentHash": "dc669f31d1bc5761e1d78b7117b26dffd4fa0b1af6debce5989410db6b1344e1",
+      "rawObjectSha256": "a8d0310b1bf324a120ccdddbb60913539722f1a49206e70fc720d9cc14d5ee4b",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-3-3",
+      "domain": "release_engineering",
+      "patterns": [
+        "risk-based-hotfix",
+        "feature-flags",
+        "rollback"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-062",
+      "contentHash": "fbf22a69025e9d91cf95d28f759ede026b2c5f5b756245e4a781bdf8a52c4f8f",
+      "rawObjectSha256": "e1cfb5b2b02ce84d7d7d75cf38e36ebb3812c5d3fab0eb54733ce1e0e56bdac2",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-10-1",
+      "domain": "technical_delivery",
+      "patterns": [
+        "backward-compatible-change",
+        "expand-contract",
+        "data-migration"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-063",
+      "contentHash": "954a57b8545d18ce359212eb12c0b7c5180b0abfb08785654e41d37c22299806",
+      "rawObjectSha256": "0801ac1f6282227da54fdeceb0b0d79469c388de7fd5977482e69a09d8cc0aa1",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-4-2",
+      "domain": "delivery_quality",
+      "patterns": [
+        "structural-dependency-reduction",
+        "bottleneck",
+        "risk-differentiation"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-064",
+      "contentHash": "4c8657237941ead961773dddbc5c8383fd14ff4ddc2d26b66a97602316e090a4",
+      "rawObjectSha256": "b5ff974331052f179ba1b7385efa32cbffea96b9fe18328966b73f88c0a762ef",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-6-6",
+      "domain": "stakeholder_communication",
+      "patterns": [
+        "negotiation-batna"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-065",
+      "contentHash": "24411370182a6037d57c4a543f6c1d6c3deaac5ad0f2b78cb4ff75962d873724",
+      "rawObjectSha256": "9c3c9600d708ad49bea5e22ab0f045efa791b9958a4e67f6416328ac7fefd307",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-7-3",
+      "domain": "people_management",
+      "patterns": [
+        "diagnosis-before-intervention",
+        "support",
+        "performance"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-066",
+      "contentHash": "60712a666375a66ae5a15d0631dd823c67f6d5367720efe996e2e6d2192fd82b",
+      "rawObjectSha256": "6d1b651d7102f90b57252e6cb6aa588bf95535b50552e07ff60c7ca481dcf830",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "head",
+      "topic": "t-8-2",
+      "domain": "vendors_and_finance",
+      "patterns": [
+        "portfolio-reprioritization",
+        "strategic-fit",
+        "resource-conflict"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-067",
+      "contentHash": "a04d9c4e88b5304737e97d0bdea071e7becee9a60e51cf3bca02f15d9aaa9c75",
+      "rawObjectSha256": "908bfcf382885aebc654ced4e9f31965bbc50592687fb33dd6c7201b69e2d5f8",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-9-3",
+      "domain": "portfolio_management",
+      "patterns": [
+        "portfolio-reprioritization",
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-068",
+      "contentHash": "d0777e33ccdf679dfe8bf31ff8e98f0a00b51fd6e87f473b6880100049580978",
+      "rawObjectSha256": "8d1c6fba1d40ee28178de9258d1961ed96cc5be0586c4543133318b4f67986cb",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-10-4",
+      "domain": "technical_delivery",
+      "patterns": [
+        "gate-effect-diagnosis",
+        "quality-metrics",
+        "slo"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-069",
+      "contentHash": "55db2841f3a5aa711632546678690a0a034b0bfcf17f04196f513ff7f4c68bb4",
+      "rawObjectSha256": "77f5fb2d4baed57af2b2f7884b23096bac87554c5a9dc5a753686b98056e36f0",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-2-4",
+      "domain": "planning_and_dependencies",
+      "patterns": [
+        "early-warning-response",
+        "critical-path",
+        "change-control"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-071",
+      "contentHash": "15c23af3d64f33a3534a9157e947f1a30732f3d5705100eeb9a3f00ffffd70e5",
+      "rawObjectSha256": "e88a34d25d87e0fede0bf2e125ee13517e1abbdf2183294522b352061f48e236",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "head",
+      "topic": "t-6-1",
+      "domain": "stakeholder_communication",
+      "patterns": [
+        "decision-at-right-level",
+        "communications",
+        "strategic-fit"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-072",
+      "contentHash": "4a11bd06683ea7316d587e993af5efdded4a18f0e12df99e4d813f530488711c",
+      "rawObjectSha256": "09284e1c2792efb0b7c864f3091871d208d7d8860f41d3675fd9d5b863ace032",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-7-6",
+      "domain": "people_management",
+      "patterns": [
+        "formal-performance-management",
+        "feedback",
+        "pip"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-074",
+      "contentHash": "936d62965f3cdfc27e702a8ac128c70b9efb77b4399784103f8e36f51c6bb089",
+      "rawObjectSha256": "2f16a63a8658c72327a4cbd63fb5a067ad51bc36cd6a2f82acd0ff993c33d588",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-9-4",
+      "domain": "program_and_portfolio",
+      "patterns": [
+        "decision-at-right-level",
+        "resource-conflict",
+        "escalation"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-075",
+      "contentHash": "13617688bc532143743eaf4648e4551c636eab3a390cd805b25670861ff9dd1e",
+      "rawObjectSha256": "75e57cb722eeea0b9f66f1f0b678932c8c6a090dbe81ca369d86d4deb46eae0d",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-02-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-02/import-report.md": "8e4adbf366e00b13210fd34adac9e1f9b8ed46cd59626a4f43f25bc21ef815e0",
+        "agent-artifacts/qa/batch-02-r3/QA-verdict.json": "c9c86d342fdc64df52ed7ccf5d99896043770631e52325eeaacf96d38b6a24e5"
+      },
+      "manifestVersion": "v2.2.2",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-13-3",
+      "domain": "experimentation",
+      "patterns": [
+        "precommitted-stop-criteria",
+        "guardrails"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-076",
+      "contentHash": "44cbe2c5a0d0f62a92c6103ed95b1ce2dad2f9e5877c8ea9075b2526af3c9091",
+      "rawObjectSha256": "738cb9290ad70a4f4f7a93b442a54d9f910295b8ff09c73906bfcd009739c6cd",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-3-2",
+      "domain": "delivery_quality",
+      "patterns": [
+        "process-economics",
+        "quality-metrics"
+      ],
+      "familyId": "F-DR-T01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-077",
+      "contentHash": "bcdb03536258bdfb49067840a1314bb1c023e92ec7c9d92ac4eb126cc40e202c",
+      "rawObjectSha256": "2d52324409356f87e44c9baae7f4532dccec32b3bd9eb840419d2c7d1b29fab8",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-3-2",
+      "domain": "delivery_quality",
+      "patterns": [
+        "process-economics",
+        "quality-metrics"
+      ],
+      "familyId": "F-DR-T01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-078",
+      "contentHash": "95d0afec9e500afffdd87c58779b96ba932e469f1ed09d5b19b748e5fac649a6",
+      "rawObjectSha256": "e96d65a785ab61d599376fd6b32574889d5e29d62fc117c1f8c5650bbd854a4f",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-3-2",
+      "domain": "delivery_quality",
+      "patterns": [
+        "process-economics",
+        "quality-metrics"
+      ],
+      "familyId": "F-DR-T01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-079",
+      "contentHash": "d5d9986c93e4518b8aad2b9fa615d28be2d1fda88c57750baebf5c013025a019",
+      "rawObjectSha256": "e23ce9423ec7294188936128b991e03ad7522d39ec3eda5ae6c255994e24f4e5",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-10-1",
+      "domain": "technical_delivery",
+      "patterns": [
+        "dependency-decoupling",
+        "api-contracts"
+      ],
+      "familyId": "F-TD-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-080",
+      "contentHash": "78e83389380104c6fc0e99f651f06ab2e2c358753581e6a1b28730170dfb4d0e",
+      "rawObjectSha256": "9310a325adc860343edcc8a0d2c1afe7434d54f5f19ae19daa49e579aac8c6e3",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-10-1",
+      "domain": "technical_delivery",
+      "patterns": [
+        "dependency-decoupling",
+        "api-contracts"
+      ],
+      "familyId": "F-TD-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-081",
+      "contentHash": "39dc1b63978ca21181a065b881643d6804b8050cc6d832ee58f3aac704bc48ea",
+      "rawObjectSha256": "9157795ad66ca3a8b05b88d04877ff37c00d2cb902caadae75d8210d18f5a45e",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-7-4",
+      "domain": "people_management",
+      "patterns": [
+        "diagnosis-before-intervention",
+        "one-on-one",
+        "performance"
+      ],
+      "familyId": "F-PE-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-082",
+      "contentHash": "f197fda9db4cc8ea27921b3b087e348ae1185ffac75bcdd216d4f778dcc10e32",
+      "rawObjectSha256": "6ac983e0b4ebbbeb8aa5355b3a3283bdcc74cd569e972936a68c72ec8ec64c0a",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-7-4",
+      "domain": "people_management",
+      "patterns": [
+        "diagnosis-before-intervention",
+        "one-on-one",
+        "performance"
+      ],
+      "familyId": "F-PE-P01",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-083",
+      "contentHash": "adc94c8011de22d180fd8e68f694277ec259215a72fc69b74dbabe2a1932ce90",
+      "rawObjectSha256": "43037e62cdf27e0106db9141bdc4b06392f9225291a7b2f90882c335c080bd6c",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-8-1",
+      "domain": "vendors_and_finance",
+      "patterns": [
+        "portfolio-reprioritization",
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "familyId": "F-BV-P02",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-084",
+      "contentHash": "ee809b9e4f558d5d0ba05aaa33a59bac960511ecb9442ca41a10f25be53604d8",
+      "rawObjectSha256": "bf1d31148ab5c82a0b1bbfc9de31b6d1db6380094a36e8528fd2ae1ad7eadd03",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-8-1",
+      "domain": "vendors_and_finance",
+      "patterns": [
+        "portfolio-reprioritization",
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "familyId": "F-BV-P02",
+      "assessmentEligible": false,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-086",
+      "contentHash": "9e94263b9e0254283dedfade2727e319dd1e72543aad7f40b0ce04f50ab6eb7d",
+      "rawObjectSha256": "3fc5609afd7fd9017096a0f6487c010f0f9e15d28823d2f8218eb1be04d01aa3",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "junior",
+      "topic": "t-3-7",
+      "domain": "delivery_quality",
+      "patterns": [
+        "structural-dependency-reduction",
+        "bottleneck",
+        "lead-time"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-088",
+      "contentHash": "dc725c56a38b063cfeb973129d4ccfb80379a4ae589ba0db34f6d28a411f8f52",
+      "rawObjectSha256": "6795057b1eb6529b56e1238ca30356737ac5c743eebd486d1ce7d9cd80784739",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-6-3",
+      "domain": "stakeholder_communication",
+      "patterns": [
+        "escalation-readiness",
+        "required-date",
+        "escalation"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-090",
+      "contentHash": "305ce75dfccd2ef4e261f171de4a3268680b17783aa3b625429755742ba7ac95",
+      "rawObjectSha256": "6db85753cae3883344360854cc9a4f3d144f5c12aff6c851c3d2b487d5e6481e",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "head",
+      "topic": "t-15-8",
+      "domain": "portfolio_management",
+      "patterns": [
+        "portfolio-reprioritization",
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-091",
+      "contentHash": "ae1f3f909daee1cd967fbe5935bca8557454afcf7c8b84d19d806e00f4571d97",
+      "rawObjectSha256": "f0fb394a730a4b7819b63ff34c38b6054a124cb32cf9a255181613e33912e39b",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-9-6",
+      "domain": "organizational_design",
+      "patterns": [
+        "structural-dependency-reduction",
+        "team-topologies",
+        "dependency-management"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-092",
+      "contentHash": "a046a77c7df07a5368b42e6e417dd0381be45a4fce58e2f2b64e3bcd95181b43",
+      "rawObjectSha256": "120735d7deeb4a826444f8a3a8e4293cb2fb70071a9ff8ff088d4673d90f48fe",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-10-4",
+      "domain": "technical_delivery",
+      "patterns": [
+        "gate-effect-diagnosis",
+        "quality-metrics",
+        "root-cause"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-093",
+      "contentHash": "323b7748cfd23f6ff58a540871e0441f5bbb5e15c50ca366fd296b88558f3d7c",
+      "rawObjectSha256": "40ef636554b7ff34afd57fea1c1fcf35ee8a2813c85b75eb4db042e740aa9e72",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-2-6",
+      "domain": "risk_management",
+      "patterns": [
+        "risk-differentiation",
+        "mitigation",
+        "risk-register"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-095",
+      "contentHash": "dd3890f87910f3962cca2d648d2ee22956632f857c1422524d9973c96bd78741",
+      "rawObjectSha256": "dc48ba825b09f19c16a047b7608e8939b04b0dd2294813c12c78327d8ef58fb1",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-4-2",
+      "domain": "delivery_quality",
+      "patterns": [
+        "structural-dependency-reduction",
+        "bottleneck",
+        "dependency-management"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-096",
+      "contentHash": "8e916a8f8a3a749c8016ea0f08b9daa3fe55060e2263f694e4c7b20e47e0fdeb",
+      "rawObjectSha256": "62340866c9029ffae31e70085d719211b4b297f47cda671fb03ec1281ae0680e",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "senior",
+      "topic": "t-5-7",
+      "domain": "stakeholder_communication",
+      "patterns": [
+        "decision-at-right-level",
+        "resource-conflict",
+        "escalation"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-097",
+      "contentHash": "beece5e06f05aa331fd1c2c2ba2ab08ec5dcdfc3a54ac8b3ecd132223135a4f8",
+      "rawObjectSha256": "6ebceddadca5c13c135ac3aed495d568619282a86ecde7bbbc5ab233c0be05db",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "head",
+      "topic": "t-7-7",
+      "domain": "people_management",
+      "patterns": [
+        "formal-performance-management",
+        "feedback",
+        "roles"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-098",
+      "contentHash": "3f8241eb9e43b21f045362fc6439b5af1e0529eeecc71a50664b1bc75faf87a1",
+      "rawObjectSha256": "489b0e059301ca93c7eb73497ecbf59497fefaea240090a36afbbbf1e4f3d6a4",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "head",
+      "topic": "t-8-2",
+      "domain": "vendors_and_finance",
+      "patterns": [
+        "decision-at-right-level",
+        "risk-register",
+        "resource-conflict"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    },
+    {
+      "id": "TC-100",
+      "contentHash": "119440e6f856849f77e20c5ce5ff15d432d974da7ad24cb4dded131f757df582",
+      "rawObjectSha256": "e44542fb4a18c73d12d771aacec006cafe33a9c0f7dbc74ea0c96db6c69b96af",
+      "hashMethod": "canonical sorted JSON UTF-8; rawObjectSha256 is exact object span",
+      "productionStatus": "APPROVED_PRODUCTION_BASELINE",
+      "lastApprovedQAArtifact": "agent-artifacts/qa/batch-03-r3/QA-verdict.json",
+      "approvalBasis": "Focused independent QA plus inherited unchanged-case approvals and successful import.",
+      "evidenceHashes": {
+        "agent-artifacts/work-imports/batch-03/import-report.md": "579fade7f98d3db272c6063017ad85931c88d375bf90ed69e974e76c1d0e5fae",
+        "agent-artifacts/qa/batch-03-r3/QA-verdict.json": "2776275a1d30a98c72e38a17733e595be257322d137f00ed2ea6da898b4d57f4"
+      },
+      "manifestVersion": "v2.2.3",
+      "currentAuthoritativeManifest": "v2.2.3",
+      "level": "middle",
+      "topic": "t-10-4",
+      "domain": "technical_delivery",
+      "patterns": [
+        "gate-effect-diagnosis",
+        "quality-metrics",
+        "slo"
+      ],
+      "familyId": null,
+      "assessmentEligible": true,
+      "inheritanceRule": "Exact content hash match + unchanged source/runtime/manifest semantics + verified evidence. New cross-bank duplication relationships still require QA."
+    }
+  ],
+  "contextHashes": {
+    "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+    "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+    "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+  },
+  "scope": "Historical accepted production lineage, not a new independent QA verdict; null QA artifact is intentional."
+}

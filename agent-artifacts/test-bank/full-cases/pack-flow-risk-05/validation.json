@@ -1,0 +1,27 @@
+{
+  "actualSwift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  },
+  "candidateSHA256": "e015efb80bb0350b2333e4c0868a61038b207f8f6260270d3676a994ba1c9d76",
+  "numericChecks": {
+    "174": [
+      260,
+      145,
+      250,
+      202.5
+    ],
+    "211": [
+      30,
+      20,
+      40,
+      25
+    ],
+    "237IncrementalCosts": [
+      80,
+      20
+    ]
+  },
+  "independentQA": "PENDING"
+}

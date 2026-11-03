@@ -1,0 +1,14 @@
+# WORK import runbook
+
+Read PIPELINE-CONTRACT and exact request. Do not start authoring or fix content during import.
+
+1. Read independent QA verdict + report; verify exact candidate hash and approval scope, zero remaining issues, provenance for inherited results. Conditional historical approvals require evidence that each authorized local fix was applied. Otherwise stop.
+2. Verify exact current production SHA, IDs/counts/eligibility/levels against last accepted import report. Unknown baseline: STOP with diff. Verify authoritative manifest CURRENT and candidate metadata. Freeze separately approved manifest hotfix only, retaining historical inputs and recording row/family diffs.
+3. Run validate_batch.py; review deviations, source/schema/runtime hash sync and family completeness. No guessed codes, schema coercion or content rewriting. Store before bank and protected input hashes.
+4. Append only approved IDs and fields; preserve all old objects and option order, preferably exact UTF-8 spans. Recount actual production; verify new cases equal approved candidate and old cases unchanged. No TC beyond approved range. Diff allowlist is new IDs only; family exclusions include linked Gold TC-001/002/003/004/017/018.
+5. Validate full bank through actual TrainerBank.load; verify all families and linked training=true/assessment=false. Actual mapping must cover every domain/primary/secondary. No scoring/threshold/UI/persistence edits. Numeric test expectations may be updated only after demonstrating why counts changed; never refresh snapshots to mask failures.
+6. Run all native trainer/scoring/content/schema/snapshot tests and **bash scripts/check.sh**, including Simulator build and the existing three WebKit sizes. No shortened gate relative to Batch 01–03. Any substantive mismatch blocks completion.
+7. Exact pre-import snapshot regression: restore old attempt/review, immutable DiagnosticHistory/profile and persisted bytes; new training/diagnostic use current content, diagnostic excludes linked and follows unchanged unseen logic. Extend/reuse existing work-import SnapshotRegression.swift only for legitimate new counts; no automatic golden regeneration.
+8. Save work-imports/batch-XX/import-report.md, validation-result.json, regression-evidence.json, artifact-hashes.json, baseline backup and logs. Include old/new SHA, manifest/candidate/QA lineage, actual totals, all gates, changed files and unexpected changes. Only COMPLETE if every required gate passed. No IPA/commit/push unless separately requested.
+
+Update accepted evidence index with exact QA/import lineage **after** acceptance; never allow arbitrary new bank hashes to self-certify. Current build_evidence_index.py intentionally recognizes only the pinned 100-case baseline; extend its approval registry explicitly for subsequent successful imports.

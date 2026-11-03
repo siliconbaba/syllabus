@@ -1,0 +1,488 @@
+{
+  "scope": "Independent batch QA six full candidates as three atomic pairs; no production edits/freeze/import",
+  "verdict": "FIX REQUIRED",
+  "importEligible": false,
+  "candidateSHA256": "6935ee8ee5ab51f78c87bc44b79d30e1edcc3924e35476980471339b7c8b2db1",
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-3-7.txt": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/input-hashes.json": "9f153201e58f00e7ee091ab77a7308470dec13d437ee130206cf8b9c93a058ac",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/families.json": "279b77de61d93b067b6b7a752e667b3580c0647ffbcadae7d8d705b931a5c69c",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-2-6.txt": "bf8090d91def4ebe4b6494ea9724fe29e296ee0d8c3e65ea6e1f2536eb8f3b42",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/numeric-checks.json": "eabc3a3e7918e5d87fae217a2d80f38e4b4dbb6f78512e0a49ef2d72b17eb7d7",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/author.py": "867c84f893f8d32c8bf2c17c143ed27a723b32ccbebe4a26b2fdf519acac1a80",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/mandatory-production-analogs.json": "9839c76d38a0a5293fdc3c6bf95380990eafdd511481fc5a786ab7f252a3d6d8",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-10-4.txt": "bce771ddc6f30526d9134fa803a81cd631ebb25aa30808733ef0ddce1bf31109",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/approved-blueprints.json": "ec85443ad83540d70fa1e34e917873f58f0386fa1b4f12363c02f488e0604301",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/README.md": "a70fb1f6708465ac98f47dbbd68251b3097952fbe74517bb2290a7522fba09c4",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/mandatory-planned-analogs.json": "7eefa3c611382b2fd35e32c903b86bfdeb2acfd5b5a30c2af919a07238b96dee",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/blind-cases.json": "a540ab41ce334e6ff44e174a319d1ed2c4c8ea7ea77771b1e359e14efb91d09a",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/cases.json": "6935ee8ee5ab51f78c87bc44b79d30e1edcc3924e35476980471339b7c8b2db1",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/validation.json": "77f93e608e8b208fdd59dca6b5f2b21a8539bab962bb8d5e92aa4fbe52f764be",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/status.json": "efd6378948ca80c5f26d3b93be52e6db86630e5511366da4030de838afb01c64"
+  },
+  "external_hash_checks": {
+    "agent-artifacts/manifests/v2.3-completion-02-candidate/production_manifest_masterplan_v2_3_completion_02_candidate.json": {
+      "expected": "2aad3f13350f675ccf2e7ec6753621f184128480598851b8711c1df400cbbb89",
+      "actual": "2aad3f13350f675ccf2e7ec6753621f184128480598851b8711c1df400cbbb89",
+      "pass": true
+    },
+    "agent-artifacts/project-completion/qa-manifest-completion02/QA-verdict.json": {
+      "expected": "62766701eb11835e075f875b06c543115137ecea97eb802eb5897d482926aa88",
+      "actual": "62766701eb11835e075f875b06c543115137ecea97eb802eb5897d482926aa88",
+      "pass": true
+    },
+    "InteractiveBook/WebContent/index.html": {
+      "expected": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+      "actual": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+      "pass": true
+    },
+    "InteractiveBook/TrainerContent/cases.json": {
+      "expected": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+      "actual": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+      "pass": true
+    },
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": {
+      "expected": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+      "actual": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+      "pass": true
+    },
+    "InteractiveBook/Trainer/TrainerScoringEngine.swift": {
+      "expected": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+      "actual": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+      "pass": true
+    }
+  },
+  "sources": {
+    "t-2-6": {
+      "complete_text_read": true,
+      "exact_extraction_matches": true,
+      "sha256": "bf8090d91def4ebe4b6494ea9724fe29e296ee0d8c3e65ea6e1f2536eb8f3b42"
+    },
+    "t-3-7": {
+      "complete_text_read": true,
+      "exact_extraction_matches": true,
+      "sha256": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0"
+    },
+    "t-10-4": {
+      "complete_text_read": true,
+      "exact_extraction_matches": true,
+      "sha256": "bce771ddc6f30526d9134fa803a81cd631ebb25aa30808733ef0ddce1bf31109"
+    }
+  },
+  "schema_runtime": {
+    "status": "PASS inherited verified",
+    "basis": "agent-artifacts/test-bank/full-cases/pack-104-109/validation.json",
+    "candidate_hash_matches": true,
+    "runtime_source_hashes_match": true,
+    "note": "Batch-author validation actualSwift schema/runtime PASS reused by authorization; no repeated compile."
+  },
+  "gates": {
+    "blind": "PASS",
+    "unique_best": "PASS",
+    "source": "PASS",
+    "level": "PASS",
+    "DQ": "PASS",
+    "whole_WHEN": "FIX REQUIRED",
+    "plausibility": "FIX REQUIRED",
+    "families": "PASS invariants",
+    "duplication": "PASS at reviewed evidence scope",
+    "surface": "FIX REQUIRED semantic fillers; statistical scan no standalone flag"
+  },
+  "severity_counts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "issues": [
+    {
+      "id": "QA104-109-01",
+      "severity": "major",
+      "cases": [
+        "TC-108",
+        "TC-109"
+      ],
+      "fields": [
+        "options.C.text",
+        "options.D.text",
+        "context"
+      ],
+      "evidence": "C asks for a current-period limit increase explicitly unavailable in context. D expressly leaves the current week without an approved detail-retention plan although that week needs details. Both can be eliminated without testing frequency, storage or evidence sufficiency. Their remote WHEN conditions do not make these plausible contenders in this stem. Four schema slots are populated but only A/B are substantive strategies.",
+      "minimal_fix": "Redesign shared C/D and, if needed, shared constraints so all four express plausible distinct retention decisions. Preserve frequency as sole sibling mutation and A/B boundary. Do not replace fillers with another expressly forbidden action. Blueprint/family implications must be reviewed if action-space constraints change.",
+      "retest": "Both siblings blind; unique best and strongest alternative; all four whole-WHEN/DQ; source and middle realization; pair invariants, analog boundary and batch surface."
+    },
+    {
+      "id": "QA104-109-02",
+      "severity": "major",
+      "cases": [
+        "TC-106",
+        "TC-107"
+      ],
+      "fields": [
+        "options.C.whenItWouldBeBest"
+      ],
+      "evidence": "WHEN says four weeks of help clear the queue, normal capacity covers subsequent arrival, and automation is unavailable or more expensive. It omits that two-week B must be insufficient. Counterexample: TC106 arrival 12,8,8,8 with automation unavailable. C satisfies its entire WHEN, but B clears by week2 for20 and C costs100. Thus the stated conditions do not make the whole C action best.",
+      "minimal_fix": "Require that the extension is necessary for constraints (short help cannot meet them), retain adequacy after help and comparison with automation. Apply identically to both siblings.",
+      "retest": "Focused whole-WHEN evaluation on C both siblings; raw-object diff allowlist; unchanged keys/context/options/DQ may inherit this review."
+    }
+  ],
+  "cases": [
+    {
+      "id": "TC-104",
+      "verdict": "PASS",
+      "best": "A",
+      "unique_best": "PASS",
+      "blind_key_match": true,
+      "source": "PASS",
+      "level": "PASS",
+      "DQ_ordering": "PASS",
+      "whole_WHEN": "PASS",
+      "plausible_four_options": "PASS",
+      "issue_ids": []
+    },
+    {
+      "id": "TC-105",
+      "verdict": "PASS",
+      "best": "B",
+      "unique_best": "PASS",
+      "blind_key_match": true,
+      "source": "PASS",
+      "level": "PASS",
+      "DQ_ordering": "PASS",
+      "whole_WHEN": "PASS",
+      "plausible_four_options": "PASS",
+      "issue_ids": []
+    },
+    {
+      "id": "TC-106",
+      "verdict": "FIX REQUIRED",
+      "best": "B",
+      "unique_best": "PASS",
+      "blind_key_match": true,
+      "source": "PASS",
+      "level": "PASS",
+      "DQ_ordering": "PASS",
+      "whole_WHEN": "FIX REQUIRED",
+      "plausible_four_options": "PASS",
+      "issue_ids": [
+        "QA104-109-02"
+      ]
+    },
+    {
+      "id": "TC-107",
+      "verdict": "FIX REQUIRED",
+      "best": "D",
+      "unique_best": "PASS",
+      "blind_key_match": true,
+      "source": "PASS",
+      "level": "PASS",
+      "DQ_ordering": "PASS",
+      "whole_WHEN": "FIX REQUIRED",
+      "plausible_four_options": "PASS",
+      "issue_ids": [
+        "QA104-109-02"
+      ]
+    },
+    {
+      "id": "TC-108",
+      "verdict": "FIX REQUIRED",
+      "best": "B",
+      "unique_best": "PASS",
+      "blind_key_match": true,
+      "source": "PASS",
+      "level": "PASS",
+      "DQ_ordering": "PASS",
+      "whole_WHEN": "PASS",
+      "plausible_four_options": "FIX REQUIRED",
+      "issue_ids": [
+        "QA104-109-01"
+      ]
+    },
+    {
+      "id": "TC-109",
+      "verdict": "FIX REQUIRED",
+      "best": "A",
+      "unique_best": "PASS",
+      "blind_key_match": true,
+      "source": "PASS",
+      "level": "PASS",
+      "DQ_ordering": "PASS",
+      "whole_WHEN": "PASS",
+      "plausible_four_options": "FIX REQUIRED",
+      "issue_ids": [
+        "QA104-109-01"
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "ids": [
+        "TC-104",
+        "TC-105"
+      ],
+      "family": "F-PM-P01",
+      "same_question": true,
+      "same_option_texts": true,
+      "context_diff": [
+        "  Вы обновляете запись риска отказа внешнего канала",
+        "  Отказ ещё не произошёл; владелец риска и резервный план уже утверждены",
+        "  Поздний наблюдаемый сигнал оставляет 3 рабочих дня до возможного отказа, ранний проверенный индикатор — 7",
+        "  Ранний индикатор признан достаточным основанием для подготовки резерва",
+        "- Подготовка резервного канала занимает 1 рабочий день; ускорить её дополнительными людьми нельзя",
+        "?                                       ^        -----\n",
+        "+ Подготовка резервного канала занимает 5 рабочих дней; ускорить её дополнительными людьми нельзя",
+        "?                                       ^       +++++\n",
+        "  Резерв доступен при обоих сигналах",
+        "  Его ранняя подготовка дольше связывает ресурс, поэтому согласованное правило — начинать по позднему сигналу, если времени хватает, иначе по раннему",
+        "  Стоимость и допустимость этих действий согласованы."
+      ],
+      "key_flip": [
+        "A",
+        "B"
+      ],
+      "training_only": true,
+      "single_logical_mutation": "PASS"
+    },
+    {
+      "ids": [
+        "TC-106",
+        "TC-107"
+      ],
+      "family": "F-PR-P01",
+      "same_question": true,
+      "same_option_texts": true,
+      "context_diff": [
+        "  Вы отвечаете за поток работ перед ревью",
+        "  Сейчас в очереди 8 сопоставимых задач, обычная мощность — 10 задач в неделю",
+        "- В первую неделю поступит 12 задач; затем подтверждённый вход возвращается к 8 задачам в неделю",
+        "+ Подтверждённый вход остаётся 12 задач в неделю весь четырёхнедельный период и далее",
+        "  Очередь на конец каждой недели не должна превышать 14 задач и должна быть снята к концу четвёртой недели",
+        "  WIP-лимит и приоритеты не меняются, качество мер одинаково",
+        "  Взаимоисключающие способы усиления: помощь ревьюера добавляет 4 задачи в неделю на первые две недели, её цена — 20 единиц упущенной работы; продление ещё на две недели стоит дополнительно 80",
+        "  Автоматизация типовой проверки стоит 40 единиц, на первой неделе снижает мощность до 8, затем даёт 16 задач в неделю",
+        "  Эффект проверен, возврат после настройки бесплатен",
+        "  Сократить подтверждённый вход нельзя; других мер в этом цикле нет",
+        "  Сравниваете полные планы на четыре недели по выполнимости и цене; после горизонта нельзя оставлять устойчивый дефицит мощности."
+      ],
+      "key_flip": [
+        "B",
+        "D"
+      ],
+      "training_only": true,
+      "single_logical_mutation": "PASS"
+    },
+    {
+      "ids": [
+        "TC-108",
+        "TC-109"
+      ],
+      "family": "F-PA-P02",
+      "same_question": true,
+      "same_option_texts": true,
+      "context_diff": [
+        "  Вы вместе с SRE выбираете режим хранения диагностических записей одного класса за неделю",
+        "- За неделю возникает 10 000 000 событий этого класса",
+        "?                     ^^^  -----\n",
+        "+ За неделю возникает 500 событий этого класса",
+        "?                     ^\n",
+        "  Одна запись занимает 1 КБ; используйте десятичные единицы",
+        "  Записи структурированы, без персональных данных и связаны trace ID, другого источника подробностей нет",
+        "  Для расследования нужны не менее 100 полных репрезентативных примеров за неделю; достаточность этого количества проверена",
+        "  Лимит на класс — 1 ГБ, увеличить его сейчас нельзя; остальные потоки уже оптимизированы",
+        "  Инструмент поддерживает два режима: все записи или равномерно каждый сотый экземпляр",
+        "  Другие настройки недоступны до следующего периода",
+        "  Полный точный счётчик в метриках сохраняется при любом режиме; распределение подтипов одинаковое, систематического смещения выборки нет."
+      ],
+      "key_flip": [
+        "B",
+        "A"
+      ],
+      "training_only": true,
+      "single_logical_mutation": "PASS"
+    }
+  ],
+  "pair_acceptance": {
+    "F-PM-P01": "PASS content QA",
+    "F-PR-P01": "FIX REQUIRED QA104-109-02",
+    "F-PA-P02": "FIX REQUIRED QA104-109-01"
+  },
+  "review_notes": {
+    "risk": "Junior directly compares response duration1/5 with lead3/7 under approved policy. A/B sufficient-versus-early boundary unique; C is reactive acceptance and D permanent reserve, each has a coherent counterfactual. TC105 blind runner A recorded before reveal was policy inertia; D>A DQ is defensible because D preserves readiness while A misses deadline. No retrospective rewrite of blind evidence.",
+    "flow": "Middle compares trajectories, four-week deadline, temporary transition loss, price and post-horizon adequacy. TC106 A=10,8,6,4; B=6,0,0,0; C=6,0,0,0; D=12,4,0,0. TC107 A=10,12,14,16; B=6,4,6,8; C=6,4,2,0; D=12,8,4,0. TC107 C is a meaningful attractive immediate-capacity plan, but loses on price and post-horizon deficit. DQ0.65 is defensible partial credit for meeting deadline despite failing sustainability. Only WHEN C needs local repair.",
+    "logs": "Middle intended operation is joint storage/evidence constraint, not maximising telemetry. High: all10GB exceeds1GB; 1/100=100000 records=100MB >=100. Low: all500=0.5MB; 1/100=5<100. Keys and DQ order correct, source principle supported. Level not independently failed, but filler elimination weakens realization and requires rereview after revision.",
+    "surface": "Historical 78-rule implementation reused on six cases, family-preserving permutation2000 draws seed20261008. Best deterministic/random-tie rule3/6; adjusted p0.7566. Keys A2 B3 D1 C0 on just3 paired units: screening only, no positional inference. Shared wording within siblings is intentional. Semantic surface FAIL only for obvious log C/D eliminators.",
+    "source": "Full topics read once, exact HTML extraction matched and parent HTML hash verified. Principles are risk trigger-response feasibility, capacity/queue versus structural correction, and metrics versus detailed logs with sampling cost. Numbers/policies are authored scenario givens, not textbook standards."
+  },
+  "analog_evidence": {
+    "reviewed_production_ids": [
+      "TC-006",
+      "TC-007",
+      "TC-008",
+      "TC-013",
+      "TC-026",
+      "TC-027",
+      "TC-028",
+      "TC-039",
+      "TC-044",
+      "TC-046",
+      "TC-047",
+      "TC-050",
+      "TC-063",
+      "TC-068",
+      "TC-069",
+      "TC-076",
+      "TC-077",
+      "TC-078",
+      "TC-085",
+      "TC-086",
+      "TC-092",
+      "TC-093",
+      "TC-095",
+      "TC-098",
+      "TC-099",
+      "TC-100"
+    ],
+    "reviewed_planned_ids": [
+      "TC-026",
+      "TC-027",
+      "TC-028",
+      "TC-039",
+      "TC-044",
+      "TC-046",
+      "TC-047",
+      "TC-050",
+      "TC-063",
+      "TC-068",
+      "TC-069",
+      "TC-076",
+      "TC-077",
+      "TC-078",
+      "TC-085",
+      "TC-086",
+      "TC-092",
+      "TC-093",
+      "TC-095",
+      "TC-098",
+      "TC-099",
+      "TC-100",
+      "TC-110",
+      "TC-114",
+      "TC-116",
+      "TC-117",
+      "TC-120",
+      "TC-126",
+      "TC-127",
+      "TC-128",
+      "TC-131",
+      "TC-132",
+      "TC-135",
+      "TC-138",
+      "TC-148",
+      "TC-154",
+      "TC-155",
+      "TC-160",
+      "TC-162",
+      "TC-166",
+      "TC-170",
+      "TC-174",
+      "TC-175",
+      "TC-184",
+      "TC-187",
+      "TC-189",
+      "TC-190",
+      "TC-191",
+      "TC-194",
+      "TC-195",
+      "TC-201",
+      "TC-202",
+      "TC-203",
+      "TC-208",
+      "TC-210",
+      "TC-211",
+      "TC-213",
+      "TC-218",
+      "TC-222",
+      "TC-223",
+      "TC-237",
+      "TC-241",
+      "TC-242",
+      "TC-245",
+      "TC-247",
+      "TC-249",
+      "TC-250",
+      "TC-253",
+      "TC-254",
+      "TC-265",
+      "TC-266",
+      "TC-269",
+      "TC-275",
+      "TC-284",
+      "TC-285",
+      "TC-287",
+      "TC-290",
+      "TC-291",
+      "TC-293",
+      "TC-294",
+      "TC-296",
+      "TC-298"
+    ],
+    "planned_depth": "All82 scenario/boundary screened; expanded full rows117,162,174,211,253,254,284,298 for close semantics. Production26 contexts/options reviewed. Planned rows are blueprint evidence, not authored full-case clearance.",
+    "comparisons": [
+      {
+        "target": "TC104/105",
+        "analogs": [
+          "TC006",
+          "TC007",
+          "TC026",
+          "TC027",
+          "TC028",
+          "TC093",
+          "TC117",
+          "TC211",
+          "TC247",
+          "TC284",
+          "TC294"
+        ],
+        "classification": "ALLOWED REINFORCEMENT",
+        "boundary": "Known lead-versus-response duration under approved policy differs from realized issue, forecast updating, paid acceleration with buffer, downtime appetite, uncertain EWI mitigation economics, purchased option before availability expires, or isolatable uncertainty."
+      },
+      {
+        "target": "TC106/107",
+        "analogs": [
+          "TC008",
+          "TC013",
+          "TC076",
+          "TC077",
+          "TC078",
+          "TC085",
+          "TC086",
+          "TC095",
+          "TC174",
+          "TC222",
+          "TC253",
+          "TC254",
+          "TC298"
+        ],
+        "classification": "ALLOWED REINFORCEMENT",
+        "boundary": "Temporal persistence of one-stage demand with explicit transition and deadline differs from locating queue/WIP, causality, prevention-loss economics, repeated test preparation, blocked return, batching cost, demand-reduction model, or sharing scarce worker with downstream stage. Especially253/254 share review/four weeks but hinge on coupled downstream capacity and deferral economics, not duration of overload."
+      },
+      {
+        "target": "TC108/109",
+        "analogs": [
+          "TC044",
+          "TC050",
+          "TC068",
+          "TC092",
+          "TC100",
+          "TC116",
+          "TC162",
+          "TC210",
+          "TC237"
+        ],
+        "classification": "ALLOWED REINFORCEMENT",
+        "boundary": "Absolute sample count versus storage budget under fixed two-mode tool differs from diagnosis, trace propagation, PII, segmentation, alert noise/response timing, feedback overload of collector, or business SLI.162 preserves aggregates/detail distinction but central mechanism is measurement-induced load and causal replay."
+      }
+    ],
+    "intrabatch": "Only intentional sibling overlap; three other families have distinct boundaries. No new duplicate/near-duplicate found at reviewed full-case/blueprint level."
+  },
+  "inheritance_limits": "Risk pair content approval bound to hashes here. Unchanged source/runtime/blind/key/DQ/analogs can be inherited only with matching relevant hashes and allowlisted diff. Cumulative coverage, freeze, import and production regression are separate NOT RUN gates."
+}

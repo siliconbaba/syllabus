@@ -1,0 +1,856 @@
+{
+  "production": 150,
+  "acceptedNotImported": 24,
+  "remainingFullCases": 126,
+  "acceptedWorkingManifest": "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json",
+  "manifestSHA256": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+  "countsByStatus": {
+    "BLUEPRINT_REPAIR": 60,
+    "READY_TO_AUTHOR": 66
+  },
+  "units": [
+    {
+      "ids": [
+        "TC-151",
+        "TC-152",
+        "TC-153"
+      ],
+      "topicId": "t-6-3",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-ST-T01"
+    },
+    {
+      "ids": [
+        "TC-156",
+        "TC-157"
+      ],
+      "topicId": "t-5-7",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-ST-P02"
+    },
+    {
+      "ids": [
+        "TC-159"
+      ],
+      "topicId": "t-7-4",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-161"
+      ],
+      "topicId": "t-9-6",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-164"
+      ],
+      "topicId": "t-13-2",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-165"
+      ],
+      "topicId": "t-3-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-166"
+      ],
+      "topicId": "t-10-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-167"
+      ],
+      "topicId": "t-4-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-168"
+      ],
+      "topicId": "t-6-6",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-169"
+      ],
+      "topicId": "t-7-6",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-171"
+      ],
+      "topicId": "t-10-7",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-172"
+      ],
+      "topicId": "t-13-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-173"
+      ],
+      "topicId": "t-3-9",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-175"
+      ],
+      "topicId": "t-4-7",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-176",
+        "TC-177",
+        "TC-178"
+      ],
+      "topicId": "t-7-9",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-PE-T01"
+    },
+    {
+      "ids": [
+        "TC-179",
+        "TC-180"
+      ],
+      "topicId": "t-7-7",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-PE-P02"
+    },
+    {
+      "ids": [
+        "TC-181",
+        "TC-182"
+      ],
+      "topicId": "t-8-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": "F-BV-P03"
+    },
+    {
+      "ids": [
+        "TC-183"
+      ],
+      "topicId": "t-7-10",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-184"
+      ],
+      "topicId": "t-8-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-186"
+      ],
+      "topicId": "t-13-2",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-187"
+      ],
+      "topicId": "t-2-4",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-188"
+      ],
+      "topicId": "t-5-5",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-190"
+      ],
+      "topicId": "t-10-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-191"
+      ],
+      "topicId": "t-7-10",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-192"
+      ],
+      "topicId": "t-6-6",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-194"
+      ],
+      "topicId": "t-8-4",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-195"
+      ],
+      "topicId": "t-13-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-196"
+      ],
+      "topicId": "t-5-5",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-197"
+      ],
+      "topicId": "t-3-2",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-198"
+      ],
+      "topicId": "t-3-5",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-199"
+      ],
+      "topicId": "t-4-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-201",
+        "TC-202",
+        "TC-203"
+      ],
+      "topicId": "t-10-5",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": "F-PO-T01"
+    },
+    {
+      "ids": [
+        "TC-204",
+        "TC-205"
+      ],
+      "topicId": "t-2-7",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-PM-P02"
+    },
+    {
+      "ids": [
+        "TC-206",
+        "TC-207"
+      ],
+      "topicId": "t-10-7",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-PA-P03"
+    },
+    {
+      "ids": [
+        "TC-208"
+      ],
+      "topicId": "t-8-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-209"
+      ],
+      "topicId": "t-9-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-210"
+      ],
+      "topicId": "t-10-4",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-212"
+      ],
+      "topicId": "t-14-2",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-213"
+      ],
+      "topicId": "t-3-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-214"
+      ],
+      "topicId": "t-10-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-215"
+      ],
+      "topicId": "t-4-5",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-217"
+      ],
+      "topicId": "t-7-6",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-218"
+      ],
+      "topicId": "t-8-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-219"
+      ],
+      "topicId": "t-13-2",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-220"
+      ],
+      "topicId": "t-5-6",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-221"
+      ],
+      "topicId": "t-13-3",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-223"
+      ],
+      "topicId": "t-4-5",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-224"
+      ],
+      "topicId": "t-6-5",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-225"
+      ],
+      "topicId": "t-7-7",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-226",
+        "TC-227"
+      ],
+      "topicId": "t-5-5",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-DM-P03"
+    },
+    {
+      "ids": [
+        "TC-228",
+        "TC-229"
+      ],
+      "topicId": "t-3-3",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-DR-P03"
+    },
+    {
+      "ids": [
+        "TC-230",
+        "TC-231"
+      ],
+      "topicId": "t-7-10",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-PR-P02"
+    },
+    {
+      "ids": [
+        "TC-232",
+        "TC-233"
+      ],
+      "topicId": "t-8-4",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-BV-P04"
+    },
+    {
+      "ids": [
+        "TC-234",
+        "TC-235"
+      ],
+      "topicId": "t-9-6",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-PO-P03"
+    },
+    {
+      "ids": [
+        "TC-236"
+      ],
+      "topicId": "t-9-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-238"
+      ],
+      "topicId": "t-2-4",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-239"
+      ],
+      "topicId": "t-5-6",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-240"
+      ],
+      "topicId": "t-3-4",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-242"
+      ],
+      "topicId": "t-4-5",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-243"
+      ],
+      "topicId": "t-6-2",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-244"
+      ],
+      "topicId": "t-7-7",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-245"
+      ],
+      "topicId": "t-8-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-246"
+      ],
+      "topicId": "t-14-2",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-247"
+      ],
+      "topicId": "t-2-4",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-248"
+      ],
+      "topicId": "t-13-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-250"
+      ],
+      "topicId": "t-8-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-251",
+        "TC-252"
+      ],
+      "topicId": "t-2-4",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-PM-P03"
+    },
+    {
+      "ids": [
+        "TC-255",
+        "TC-256"
+      ],
+      "topicId": "t-6-6",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-ST-P03"
+    },
+    {
+      "ids": [
+        "TC-257",
+        "TC-258"
+      ],
+      "topicId": "t-7-10",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": "F-PE-P03"
+    },
+    {
+      "ids": [
+        "TC-259",
+        "TC-260"
+      ],
+      "topicId": "t-13-1",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-PA-P04"
+    },
+    {
+      "ids": [
+        "TC-261"
+      ],
+      "topicId": "t-13-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-262"
+      ],
+      "topicId": "t-2-4",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-263"
+      ],
+      "topicId": "t-13-3",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-264"
+      ],
+      "topicId": "t-3-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-265"
+      ],
+      "topicId": "t-10-1",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-266"
+      ],
+      "topicId": "t-4-7",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-267"
+      ],
+      "topicId": "t-6-2",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-268"
+      ],
+      "topicId": "t-7-4",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-270"
+      ],
+      "topicId": "t-9-4",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-271"
+      ],
+      "topicId": "t-2-4",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-273"
+      ],
+      "topicId": "t-10-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-274"
+      ],
+      "topicId": "t-7-6",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-275"
+      ],
+      "topicId": "t-8-4",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-276",
+        "TC-277"
+      ],
+      "topicId": "t-9-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": "F-DM-P04"
+    },
+    {
+      "ids": [
+        "TC-278",
+        "TC-279"
+      ],
+      "topicId": "t-3-3",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-DR-P04"
+    },
+    {
+      "ids": [
+        "TC-280",
+        "TC-281"
+      ],
+      "topicId": "t-4-6",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": "F-PR-P03"
+    },
+    {
+      "ids": [
+        "TC-282",
+        "TC-283"
+      ],
+      "topicId": "t-10-6",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": "F-PO-P04"
+    },
+    {
+      "ids": [
+        "TC-284"
+      ],
+      "topicId": "t-2-6",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-285"
+      ],
+      "topicId": "t-13-2",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-286"
+      ],
+      "topicId": "t-3-9",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-288"
+      ],
+      "topicId": "t-7-9",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-289"
+      ],
+      "topicId": "t-6-3",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-290"
+      ],
+      "topicId": "t-7-10",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-291"
+      ],
+      "topicId": "t-8-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-292"
+      ],
+      "topicId": "t-9-2",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-293"
+      ],
+      "topicId": "t-10-7",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-294"
+      ],
+      "topicId": "t-2-4",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-295"
+      ],
+      "topicId": "t-13-3",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-296"
+      ],
+      "topicId": "t-3-1",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-297"
+      ],
+      "topicId": "t-10-1",
+      "status": "READY_TO_AUTHOR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-298"
+      ],
+      "topicId": "t-3-7",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    },
+    {
+      "ids": [
+        "TC-299"
+      ],
+      "topicId": "t-6-1",
+      "status": "BLUEPRINT_REPAIR",
+      "atomicFamily": null
+    }
+  ],
+  "statusNotes": {
+    "BLUEPRINT_REPAIR": "68 unresolved IDs plus1 accepted sibling retained in its atomic family; status count69 does not mean69 unresolved blueprints."
+  }
+}

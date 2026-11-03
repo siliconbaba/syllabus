@@ -1,0 +1,2594 @@
+{
+  "production": [
+    {
+      "plannedId": "TC-126",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-008",
+          "retrievalScore": 15.111863,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "процесса"
+          ]
+        },
+        {
+          "id": "TC-047",
+          "retrievalScore": 13.0,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-092",
+          "retrievalScore": 10.191211,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "версии",
+            "для",
+            "общий"
+          ]
+        },
+        {
+          "id": "TC-044",
+          "retrievalScore": 10.176466,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "версии",
+            "общей"
+          ]
+        },
+        {
+          "id": "TC-100",
+          "retrievalScore": 10.09611,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "поток"
+          ]
+        },
+        {
+          "id": "TC-068",
+          "retrievalScore": 9.187148,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "поток",
+            "способ"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "TC-127",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-008",
+          "retrievalScore": 15.22679,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "есть",
+            "метрики",
+            "процесса"
+          ]
+        },
+        {
+          "id": "TC-047",
+          "retrievalScore": 13.049346,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "есть"
+          ]
+        },
+        {
+          "id": "TC-092",
+          "retrievalScore": 10.318328,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "версии",
+            "для",
+            "общий",
+            "разные",
+            "часть"
+          ]
+        },
+        {
+          "id": "TC-044",
+          "retrievalScore": 10.165202,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "версии",
+            "общей"
+          ]
+        },
+        {
+          "id": "TC-100",
+          "retrievalScore": 10.089975,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "поток"
+          ]
+        },
+        {
+          "id": "TC-068",
+          "retrievalScore": 9.305897,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "есть",
+            "имеет",
+            "поток",
+            "способ"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "TC-128",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-008",
+          "retrievalScore": 15.142157,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "процесса",
+            "только"
+          ]
+        },
+        {
+          "id": "TC-047",
+          "retrievalScore": 13.0,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-092",
+          "retrievalScore": 10.178488,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "версии",
+            "для",
+            "разные"
+          ]
+        },
+        {
+          "id": "TC-044",
+          "retrievalScore": 10.161761,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "версии",
+            "общей"
+          ]
+        },
+        {
+          "id": "TC-100",
+          "retrievalScore": 10.0,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-068",
+          "retrievalScore": 9.083452,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "способ"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "TC-234",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-013",
+          "retrievalScore": 20.351778,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "platform-self-service",
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "self",
+            "service",
+            "запросов",
+            "платформа"
+          ]
+        },
+        {
+          "id": "TC-091",
+          "retrievalScore": 18.365226,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "self",
+            "service",
+            "команды",
+            "можно",
+            "продуктовых"
+          ]
+        },
+        {
+          "id": "TC-039",
+          "retrievalScore": 13.426723,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "model",
+            "operating",
+            "можно",
+            "несколько",
+            "продуктовых"
+          ]
+        },
+        {
+          "id": "TC-063",
+          "retrievalScore": 7.093928,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "команды",
+            "можно"
+          ]
+        },
+        {
+          "id": "TC-095",
+          "retrievalScore": 7.093928,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "команды",
+            "можно"
+          ]
+        },
+        {
+          "id": "TC-086",
+          "retrievalScore": 7.051852,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "команды"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "TC-235",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-013",
+          "retrievalScore": 20.151158,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "platform-self-service",
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "запросов",
+            "платформа"
+          ]
+        },
+        {
+          "id": "TC-091",
+          "retrievalScore": 18.227572,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "команды",
+            "можно",
+            "продуктовых",
+            "работу"
+          ]
+        },
+        {
+          "id": "TC-039",
+          "retrievalScore": 13.450554,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "model",
+            "operating",
+            "границы",
+            "можно",
+            "несколько",
+            "продуктовых"
+          ]
+        },
+        {
+          "id": "TC-063",
+          "retrievalScore": 7.147783,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "команды",
+            "можно",
+            "работу"
+          ]
+        },
+        {
+          "id": "TC-086",
+          "retrievalScore": 7.110471,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "команды",
+            "работу"
+          ]
+        },
+        {
+          "id": "TC-095",
+          "retrievalScore": 7.083294,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "команды",
+            "можно"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "DRAFT-TC-234",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-091",
+          "retrievalScore": 18.41142,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "lead",
+            "self",
+            "service",
+            "stream",
+            "без",
+            "вместо",
+            "всех",
+            "есть",
+            "зависимость",
+            "как",
+            "команды",
+            "написания",
+            "общий",
+            "одной",
+            "очередь",
+            "передача",
+            "передачи",
+            "превысит",
+            "продуктового",
+            "продуктовые",
+            "продуктовых",
+            "релиз",
+            "уже",
+            "ёмкость"
+          ]
+        },
+        {
+          "id": "TC-013",
+          "retrievalScore": 18.12789,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "self",
+            "service",
+            "зависимость",
+            "изменений",
+            "как",
+            "команда",
+            "платформа",
+            "только",
+            "уже"
+          ]
+        },
+        {
+          "id": "TC-039",
+          "retrievalScore": 13.241253,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "время",
+            "границы",
+            "есть",
+            "изменение",
+            "менять",
+            "общее",
+            "общие",
+            "обязательные",
+            "платформе",
+            "платформы",
+            "проверки",
+            "продуктовых",
+            "ролей",
+            "роли"
+          ]
+        },
+        {
+          "id": "TC-063",
+          "retrievalScore": 7.118674,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "без",
+            "владельца",
+            "готовы",
+            "как",
+            "команда",
+            "команды",
+            "общий",
+            "одного",
+            "проверки"
+          ]
+        },
+        {
+          "id": "TC-095",
+          "retrievalScore": 7.081784,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "владельцев",
+            "как",
+            "команда",
+            "команды",
+            "остаются",
+            "согласования"
+          ]
+        },
+        {
+          "id": "TC-086",
+          "retrievalScore": 7.081054,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "вместо",
+            "всего",
+            "всех",
+            "команды",
+            "только",
+            "уже"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "DRAFT-TC-235",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-091",
+          "retrievalScore": 18.427592,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "lead",
+            "self",
+            "service",
+            "stream",
+            "без",
+            "вместо",
+            "всех",
+            "готовность",
+            "есть",
+            "зависимость",
+            "команд",
+            "команды",
+            "написания",
+            "общий",
+            "одной",
+            "очередь",
+            "передача",
+            "передачи",
+            "превысит",
+            "продуктового",
+            "продуктовые",
+            "продуктовых",
+            "релиз",
+            "уже",
+            "ёмкость"
+          ]
+        },
+        {
+          "id": "TC-013",
+          "retrievalScore": 18.116335,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "self",
+            "service",
+            "зависимость",
+            "изменений",
+            "команда",
+            "платформа",
+            "только",
+            "уже"
+          ]
+        },
+        {
+          "id": "TC-039",
+          "retrievalScore": 13.208286,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "время",
+            "границы",
+            "есть",
+            "изменение",
+            "команд",
+            "менять",
+            "общие",
+            "обязательные",
+            "платформы",
+            "проверки",
+            "продуктовых",
+            "ролей",
+            "роли"
+          ]
+        },
+        {
+          "id": "TC-063",
+          "retrievalScore": 7.093902,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "без",
+            "владельца",
+            "готовы",
+            "команда",
+            "команды",
+            "общий",
+            "проверки"
+          ]
+        },
+        {
+          "id": "TC-086",
+          "retrievalScore": 7.078854,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "вместо",
+            "всего",
+            "всех",
+            "команды",
+            "только",
+            "уже"
+          ]
+        },
+        {
+          "id": "TC-095",
+          "retrievalScore": 7.07148,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "владельцев",
+            "команда",
+            "команды",
+            "остаются",
+            "согласования"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  ],
+  "planned": [
+    {
+      "plannedId": "TC-126",
+      "topN": 8,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-127",
+          "retrievalScore": 23.619622,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "бизнес",
+            "версии",
+            "видимости",
+            "выбором",
+            "для",
+            "должен",
+            "задать",
+            "команд",
+            "командами",
+            "между",
+            "нескольких",
+            "общей",
+            "общий",
+            "ограничений",
+            "одинаковая",
+            "одной",
+            "однородности",
+            "отчётностью",
+            "под",
+            "поток",
+            "потребность",
+            "процесса",
+            "работы",
+            "решающий",
+            "руководитель",
+            "способ",
+            "степень",
+            "типа",
+            "факт",
+            "цель",
+            "целью",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-128",
+          "retrievalScore": 23.523626,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "бизнес",
+            "версии",
+            "видимости",
+            "выбором",
+            "для",
+            "должен",
+            "задать",
+            "команд",
+            "командами",
+            "команды",
+            "между",
+            "нескольких",
+            "общей",
+            "ограничений",
+            "одинаковая",
+            "одной",
+            "однородности",
+            "отчётностью",
+            "под",
+            "потребность",
+            "процесса",
+            "работы",
+            "решающий",
+            "руководитель",
+            "способ",
+            "степень",
+            "типа",
+            "факт",
+            "цель",
+            "целью",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-242",
+          "retrievalScore": 19.21653,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "команды",
+            "одной",
+            "поток"
+          ]
+        },
+        {
+          "id": "TC-215",
+          "retrievalScore": 16.112495,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis"
+          ],
+          "sharedTerms": [
+            "версии",
+            "команды"
+          ]
+        },
+        {
+          "id": "TC-296",
+          "retrievalScore": 14.102535,
+          "reasons": [
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "процесс"
+          ]
+        },
+        {
+          "id": "TC-266",
+          "retrievalScore": 13.099032,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "набор"
+          ]
+        },
+        {
+          "id": "TC-223",
+          "retrievalScore": 11.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "process-economics"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-114",
+          "retrievalScore": 10.267374,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "между",
+            "общий",
+            "одной",
+            "факт"
+          ]
+        },
+        {
+          "id": "TC-249",
+          "retrievalScore": 9.045746,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics"
+          ],
+          "sharedTerms": [
+            "для"
+          ]
+        },
+        {
+          "id": "TC-250",
+          "retrievalScore": 9.0,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": []
+        }
+      ],
+      "safetyAdded": [
+        "TC-114",
+        "TC-249",
+        "TC-250"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "TC-127",
+      "topN": 8,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-126",
+          "retrievalScore": 23.452412,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "бизнес",
+            "версии",
+            "видимости",
+            "выбором",
+            "для",
+            "должен",
+            "задать",
+            "команд",
+            "командами",
+            "между",
+            "нескольких",
+            "общей",
+            "общий",
+            "ограничений",
+            "одинаковая",
+            "одной",
+            "однородности",
+            "отчётностью",
+            "под",
+            "поток",
+            "потребность",
+            "процесса",
+            "работы",
+            "решающий",
+            "руководитель",
+            "способ",
+            "степень",
+            "типа",
+            "факт",
+            "цель",
+            "целью",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-128",
+          "retrievalScore": 23.399292,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "бизнес",
+            "версии",
+            "видимости",
+            "выбором",
+            "для",
+            "должен",
+            "задать",
+            "команд",
+            "командами",
+            "между",
+            "нескольких",
+            "общей",
+            "ограничений",
+            "одинаковая",
+            "одной",
+            "однородности",
+            "отчётностью",
+            "под",
+            "потребность",
+            "процесса",
+            "работы",
+            "разные",
+            "решающий",
+            "руководитель",
+            "способ",
+            "степень",
+            "типа",
+            "факт",
+            "цель",
+            "целью",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-242",
+          "retrievalScore": 19.149589,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "одной",
+            "поток"
+          ]
+        },
+        {
+          "id": "TC-215",
+          "retrievalScore": 16.11869,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis"
+          ],
+          "sharedTerms": [
+            "версии",
+            "часть"
+          ]
+        },
+        {
+          "id": "TC-296",
+          "retrievalScore": 14.126214,
+          "reasons": [
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "есть",
+            "часть"
+          ]
+        },
+        {
+          "id": "TC-266",
+          "retrievalScore": 13.075122,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "получает"
+          ]
+        },
+        {
+          "id": "TC-223",
+          "retrievalScore": 11.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "process-economics"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-114",
+          "retrievalScore": 10.250307,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "между",
+            "общий",
+            "одной",
+            "факт"
+          ]
+        },
+        {
+          "id": "TC-249",
+          "retrievalScore": 9.177667,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics"
+          ],
+          "sharedTerms": [
+            "для",
+            "есть",
+            "получает"
+          ]
+        },
+        {
+          "id": "TC-250",
+          "retrievalScore": 9.0,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": []
+        }
+      ],
+      "safetyAdded": [
+        "TC-114",
+        "TC-249",
+        "TC-250"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "TC-128",
+      "topN": 8,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-127",
+          "retrievalScore": 23.349307,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "бизнес",
+            "версии",
+            "видимости",
+            "выбором",
+            "для",
+            "должен",
+            "задать",
+            "команд",
+            "командами",
+            "между",
+            "нескольких",
+            "общей",
+            "ограничений",
+            "одинаковая",
+            "одной",
+            "однородности",
+            "отчётностью",
+            "под",
+            "потребность",
+            "процесса",
+            "работы",
+            "разные",
+            "решающий",
+            "руководитель",
+            "способ",
+            "степень",
+            "типа",
+            "факт",
+            "цель",
+            "целью",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-126",
+          "retrievalScore": 23.313323,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "бизнес",
+            "версии",
+            "видимости",
+            "выбором",
+            "для",
+            "должен",
+            "задать",
+            "команд",
+            "командами",
+            "команды",
+            "между",
+            "нескольких",
+            "общей",
+            "ограничений",
+            "одинаковая",
+            "одной",
+            "однородности",
+            "отчётностью",
+            "под",
+            "потребность",
+            "процесса",
+            "работы",
+            "решающий",
+            "руководитель",
+            "способ",
+            "степень",
+            "типа",
+            "факт",
+            "цель",
+            "целью",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-242",
+          "retrievalScore": 19.164956,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "команды",
+            "одной",
+            "только"
+          ]
+        },
+        {
+          "id": "TC-215",
+          "retrievalScore": 16.215137,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis"
+          ],
+          "sharedTerms": [
+            "версии",
+            "команды",
+            "отдельно",
+            "только"
+          ]
+        },
+        {
+          "id": "TC-296",
+          "retrievalScore": 14.0,
+          "reasons": [
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics",
+            "quality-metrics"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-266",
+          "retrievalScore": 13.04602,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "только"
+          ]
+        },
+        {
+          "id": "TC-223",
+          "retrievalScore": 11.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "process-economics"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-114",
+          "retrievalScore": 10.230652,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "между",
+            "одной",
+            "только",
+            "факт"
+          ]
+        },
+        {
+          "id": "TC-250",
+          "retrievalScore": 9.04602,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "только"
+          ]
+        },
+        {
+          "id": "TC-249",
+          "retrievalScore": 9.041934,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "gate-effect-diagnosis",
+            "process-economics"
+          ],
+          "sharedTerms": [
+            "для"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-114",
+        "TC-249",
+        "TC-250"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "TC-234",
+      "topN": 8,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-235",
+          "retrievalScore": 24.184277,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "platform-self-service",
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "constraints",
+            "guardrails",
+            "model",
+            "operating",
+            "security",
+            "автоматическими",
+            "безопасность",
+            "большинство",
+            "версии",
+            "взаимодействия",
+            "выбором",
+            "выразить",
+            "доля",
+            "запросов",
+            "команды",
+            "которые",
+            "можно",
+            "направлений",
+            "несколько",
+            "обслуживает",
+            "общая",
+            "одинаковы",
+            "одинаковые",
+            "платформа",
+            "платформой",
+            "повторяемых",
+            "под",
+            "правилами",
+            "продуктовых",
+            "решает",
+            "решающий",
+            "руководство",
+            "стандарты",
+            "типовых",
+            "факт",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-161",
+          "retrievalScore": 19.05312,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "команды"
+          ]
+        },
+        {
+          "id": "TC-199",
+          "retrievalScore": 12.229497,
+          "reasons": [
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "для",
+            "команды",
+            "можно",
+            "спроса"
+          ]
+        },
+        {
+          "id": "TC-147",
+          "retrievalScore": 10.042826,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "для"
+          ]
+        },
+        {
+          "id": "TC-298",
+          "retrievalScore": 9.391934,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "platform-self-service",
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "self",
+            "service",
+            "запросов",
+            "спроса"
+          ]
+        },
+        {
+          "id": "TC-158",
+          "retrievalScore": 8.231527,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "для",
+            "направлений",
+            "продуктовых"
+          ]
+        },
+        {
+          "id": "TC-150",
+          "retrievalScore": 7.205531,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "можно",
+            "правилами",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-198",
+          "retrievalScore": 7.1317,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "можно",
+            "несколько"
+          ]
+        },
+        {
+          "id": "TC-110",
+          "retrievalScore": 7.050457,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "можно"
+          ]
+        },
+        {
+          "id": "TC-135",
+          "retrievalScore": 7.0,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": []
+        }
+      ],
+      "safetyAdded": [
+        "TC-110",
+        "TC-135",
+        "TC-198"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "TC-235",
+      "topN": 8,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-234",
+          "retrievalScore": 23.823793,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "platform-self-service",
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "constraints",
+            "guardrails",
+            "model",
+            "operating",
+            "security",
+            "автоматическими",
+            "безопасность",
+            "большинство",
+            "версии",
+            "взаимодействия",
+            "выбором",
+            "выразить",
+            "доля",
+            "запросов",
+            "команды",
+            "которые",
+            "можно",
+            "направлений",
+            "несколько",
+            "обслуживает",
+            "общая",
+            "одинаковы",
+            "одинаковые",
+            "платформа",
+            "платформой",
+            "повторяемых",
+            "под",
+            "правилами",
+            "продуктовых",
+            "решает",
+            "решающий",
+            "руководство",
+            "стандарты",
+            "типовых",
+            "факт",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-161",
+          "retrievalScore": 19.047106,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "команды"
+          ]
+        },
+        {
+          "id": "TC-199",
+          "retrievalScore": 12.157325,
+          "reasons": [
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "команды",
+            "можно",
+            "работу"
+          ]
+        },
+        {
+          "id": "TC-147",
+          "retrievalScore": 10.0,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-298",
+          "retrievalScore": 9.149518,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "platform-self-service",
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "запросов",
+            "модель"
+          ]
+        },
+        {
+          "id": "TC-158",
+          "retrievalScore": 8.255902,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "направлений",
+            "продуктовых",
+            "экспертную"
+          ]
+        },
+        {
+          "id": "TC-150",
+          "retrievalScore": 7.332494,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "границы",
+            "можно",
+            "правилами",
+            "требуют",
+            "этой"
+          ]
+        },
+        {
+          "id": "TC-198",
+          "retrievalScore": 7.11679,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "можно",
+            "несколько"
+          ]
+        },
+        {
+          "id": "TC-135",
+          "retrievalScore": 7.065473,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "работу"
+          ]
+        },
+        {
+          "id": "TC-110",
+          "retrievalScore": 7.044745,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "можно"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-110",
+        "TC-135",
+        "TC-198"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "DRAFT-TC-234",
+      "topN": 8,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-161",
+          "retrievalScore": 21.186818,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "change-management",
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "head",
+            "без",
+            "зависимости",
+            "инициативу",
+            "команды",
+            "лидов",
+            "нужно",
+            "оргсхему",
+            "продуктовую",
+            "роли",
+            "только"
+          ]
+        },
+        {
+          "id": "TC-235",
+          "retrievalScore": 19.239257,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "security",
+            "безопасность",
+            "границы",
+            "заявок",
+            "команды",
+            "которые",
+            "модель",
+            "направлений",
+            "одинаковы",
+            "платформа",
+            "платформой",
+            "продуктовых"
+          ]
+        },
+        {
+          "id": "TC-234",
+          "retrievalScore": 19.226059,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "security",
+            "self",
+            "service",
+            "безопасность",
+            "команды",
+            "которые",
+            "направлений",
+            "одинаковы",
+            "платформа",
+            "платформой",
+            "продуктовых"
+          ]
+        },
+        {
+          "id": "TC-199",
+          "retrievalScore": 12.318008,
+          "reasons": [
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "вместе",
+            "всех",
+            "зависимости",
+            "изменение",
+            "команды",
+            "общего",
+            "общий",
+            "одного",
+            "оставить",
+            "очередь",
+            "передать",
+            "правил",
+            "расширением",
+            "редкая",
+            "решения",
+            "сервис",
+            "уже",
+            "ядра"
+          ]
+        },
+        {
+          "id": "TC-147",
+          "retrievalScore": 10.06292,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "head",
+            "или",
+            "как",
+            "нужно",
+            "руководитель"
+          ]
+        },
+        {
+          "id": "TC-158",
+          "retrievalScore": 8.426427,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "head",
+            "без",
+            "бюджетом",
+            "владельцев",
+            "вправе",
+            "всех",
+            "готовы",
+            "должен",
+            "его",
+            "есть",
+            "зависимости",
+            "изменений",
+            "как",
+            "назначить",
+            "направлений",
+            "общего",
+            "одного",
+            "одной",
+            "оставить",
+            "передачи",
+            "передачу",
+            "принимать",
+            "продуктовых",
+            "только",
+            "эту"
+          ]
+        },
+        {
+          "id": "TC-111",
+          "retrievalScore": 8.223387,
+          "reasons": [
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "change-management",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "head",
+            "без",
+            "бюджет",
+            "бюджеты",
+            "модель",
+            "общего",
+            "перехода",
+            "продуктового",
+            "решения",
+            "сейчас",
+            "сохранив",
+            "уже",
+            "финансировать"
+          ]
+        },
+        {
+          "id": "TC-150",
+          "retrievalScore": 7.326511,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "без",
+            "владения",
+            "вместо",
+            "внутри",
+            "границы",
+            "его",
+            "есть",
+            "зависимости",
+            "изменение",
+            "изменений",
+            "как",
+            "контракт",
+            "общей",
+            "показывают",
+            "правил",
+            "сервис",
+            "сначала",
+            "этап"
+          ]
+        },
+        {
+          "id": "TC-298",
+          "retrievalScore": 7.186146,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "self",
+            "service",
+            "или",
+            "команда",
+            "менять",
+            "модель",
+            "нужно",
+            "одного",
+            "очередь",
+            "устойчивую",
+            "через"
+          ]
+        },
+        {
+          "id": "TC-135",
+          "retrievalScore": 7.077749,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "есть",
+            "или",
+            "команда",
+            "нужно",
+            "очередь",
+            "сначала"
+          ]
+        },
+        {
+          "id": "TC-110",
+          "retrievalScore": 7.038743,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "или",
+            "нужно",
+            "сервис"
+          ]
+        },
+        {
+          "id": "TC-198",
+          "retrievalScore": 7.028033,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "без",
+            "или",
+            "нужно"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-110",
+        "TC-135",
+        "TC-198",
+        "TC-298"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    {
+      "plannedId": "DRAFT-TC-235",
+      "topN": 8,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-161",
+          "retrievalScore": 21.175473,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "change-management",
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "head",
+            "без",
+            "зависимости",
+            "инициативу",
+            "команд",
+            "команды",
+            "нужно",
+            "оргсхему",
+            "продуктовую",
+            "роли",
+            "только"
+          ]
+        },
+        {
+          "id": "TC-235",
+          "retrievalScore": 19.293096,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "collaboration",
+            "security",
+            "безопасность",
+            "границы",
+            "заявок",
+            "команды",
+            "которые",
+            "меняют",
+            "модель",
+            "направлений",
+            "одинаковы",
+            "платформа",
+            "платформой",
+            "продуктовых",
+            "сохранить"
+          ]
+        },
+        {
+          "id": "TC-234",
+          "retrievalScore": 19.219922,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "security",
+            "self",
+            "service",
+            "безопасность",
+            "команды",
+            "которые",
+            "направлений",
+            "одинаковы",
+            "платформа",
+            "платформой",
+            "продуктовых"
+          ]
+        },
+        {
+          "id": "TC-199",
+          "retrievalScore": 12.297573,
+          "reasons": [
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "вместе",
+            "всех",
+            "зависимости",
+            "изменение",
+            "команд",
+            "команды",
+            "общего",
+            "общий",
+            "очередь",
+            "передать",
+            "правил",
+            "расширением",
+            "редкая",
+            "решения",
+            "согласованного",
+            "уже",
+            "ядра"
+          ]
+        },
+        {
+          "id": "TC-147",
+          "retrievalScore": 10.048778,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "head",
+            "или",
+            "нужно",
+            "руководитель"
+          ]
+        },
+        {
+          "id": "TC-158",
+          "retrievalScore": 8.369909,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "head",
+            "без",
+            "владельцев",
+            "вправе",
+            "всех",
+            "выделить",
+            "готовы",
+            "делить",
+            "должен",
+            "его",
+            "есть",
+            "зависимости",
+            "изменений",
+            "команд",
+            "назначить",
+            "направлений",
+            "общего",
+            "одной",
+            "передачи",
+            "принимать",
+            "продуктовых",
+            "только"
+          ]
+        },
+        {
+          "id": "TC-111",
+          "retrievalScore": 8.215011,
+          "reasons": [
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "change-management",
+            "team-topologies"
+          ],
+          "sharedTerms": [
+            "head",
+            "без",
+            "бюджет",
+            "бюджеты",
+            "временную",
+            "модель",
+            "общего",
+            "перехода",
+            "продуктового",
+            "решения",
+            "сейчас",
+            "сохранив",
+            "уже"
+          ]
+        },
+        {
+          "id": "TC-150",
+          "retrievalScore": 7.281582,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "без",
+            "владения",
+            "вместо",
+            "внутри",
+            "границы",
+            "его",
+            "есть",
+            "зависимости",
+            "изменение",
+            "изменений",
+            "изменения",
+            "общей",
+            "показывают",
+            "правил",
+            "сначала",
+            "этап"
+          ]
+        },
+        {
+          "id": "TC-298",
+          "retrievalScore": 7.166126,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "self",
+            "service",
+            "или",
+            "команда",
+            "менять",
+            "модель",
+            "нужно",
+            "очередь",
+            "устойчивую",
+            "через"
+          ]
+        },
+        {
+          "id": "TC-135",
+          "retrievalScore": 7.075638,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "есть",
+            "или",
+            "команда",
+            "нужно",
+            "очередь",
+            "сначала"
+          ]
+        },
+        {
+          "id": "TC-198",
+          "retrievalScore": 7.027272,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "без",
+            "или",
+            "нужно"
+          ]
+        },
+        {
+          "id": "TC-110",
+          "retrievalScore": 7.017974,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "structural-dependency-reduction"
+          ],
+          "sharedTerms": [
+            "или",
+            "нужно"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-110",
+        "TC-135",
+        "TC-198",
+        "TC-298"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  ]
+}

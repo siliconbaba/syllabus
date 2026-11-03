@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "scope": "Independent assembled Batch 05 content QA only, scoped projection checked for future freeze.",
+  "candidatePath": "agent-artifacts/test-bank/batch-05-completion05-r3/cases.json",
+  "candidateSHA256": "64db730d627c6c557cb20118b8f2160b5d7ec96ba5f99a653f7cbad848f48557",
+  "acceptedCaseIDs": [
+    "TC-126",
+    "TC-127",
+    "TC-128",
+    "TC-129",
+    "TC-130",
+    "TC-131",
+    "TC-132",
+    "TC-133",
+    "TC-134",
+    "TC-135",
+    "TC-136",
+    "TC-137",
+    "TC-138",
+    "TC-139",
+    "TC-140",
+    "TC-141",
+    "TC-142",
+    "TC-143",
+    "TC-144",
+    "TC-145",
+    "TC-146",
+    "TC-147",
+    "TC-148",
+    "TC-149",
+    "TC-150"
+  ],
+  "remainingCaseIDs": [],
+  "remainingIssueIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "closedIssues": {
+    "ASSEMBLED05-141-A": "TC-141 now selects final forecast once staffing regime is chosen. Works both when dedicated (6–8 weeks) and when on duty (11–14); conditional reserves remain actionable today."
+  },
+  "gates": {
+    "R3Delta": "Restoring exactly three revisions and three full-credit option texts recovers entire R2 JSON. No new key-position, score, counterfactual, frame or explanation changes.",
+    "TC148": "All freed time from small package is 40 hours, less than 60 supported. Net 40−20=20 versus 60−45=15. No loss of allocation condition.",
+    "TC150": "Direct writes are closed behind an internal contract; actual subsequent rule changes test that boundary before service extraction. A/C retain direct dependency, D measures irrelevant computation speed.",
+    "sourceManifest": "All 25 source topics, eligibility and classifications inherited from exact R2. Live scoped projection explicitly rechecked: exact 25 ordered C05 rows, four whole families, four compact designs and scoped Head rows. Both scoped baseline and C05 hashes verified.",
+    "lineageAndSemanticDuplication": "R2 audit covers all 25 original candidate/QA hashes, 87 rewritten whyNotBest in 22 cases, nine permuted family members and six R2 keyed paraphrases. Unchanged source, level, scoring, family and semantic analog findings apply; final three texts preserve distinct reasoning and there are no repeated contexts/questions/options outside families.",
+    "runtime": "Actual R3 validation hash, C05 hash and runtime/schema PASS verified. Surface statistics are separate."
+  },
+  "inputs": {
+    "agent-artifacts/project-completion/qa-assembled05-content-r2/QA-verdict.json": "3f805e71941aea2f7eea73427edec2697a0c1a215d4035bf38672685c13ed164",
+    "agent-artifacts/test-bank/batch-05-completion05-r2/cases.json": "8152ee72ad2c00a85cdedd13b75d18c71c92f74e33a7a8828e76c32a9e0466db",
+    "agent-artifacts/test-bank/batch-05-completion05-r3/validation/batch-metrics.json": "3f9023242f87a40b06c996d718e15aa79a4e17848aa50b082c86f06f2565f2ba",
+    "agent-artifacts/test-bank/batch-05-completion05-r3/validation/validation-summary.json": "e9c007dfda2a06cae0e3280f0dae21142cac684a0418aa7c564e2d0a7a4fe6a7",
+    "agent-artifacts/manifests/batch-05-scoped-candidate/batch05-projection.json": "34ce9ac63224be5c9cafd15ddd0aa275ad438b07f0e4415b039bcf6753671ea7",
+    "agent-artifacts/manifests/v2.2.3/production_manifest_masterplan_v2_2_3.json": "a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143"
+  },
+  "scopedProjectionSHA256": "34ce9ac63224be5c9cafd15ddd0aa275ad438b07f0e4415b039bcf6753671ea7",
+  "contentAccepted": true,
+  "readyForScopedFreezeContentGate": true,
+  "importEligible": false,
+  "freezePerformed": false,
+  "limitations": [
+    "This is the content gate only. Independent surface gate, actual scoped freeze and production regression are separate. No authorization for global freeze."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "agent-artifacts/manifests/v2.3-wave7-r2-candidate/production_manifest_masterplan_v2_3_wave7_r2_candidate.json": "779fe25b0dd8921106f867618da2d130c4422e3401aec0254486a8192472a228",
+  "agent-artifacts/manifests/v2.3-hardtail-r1-candidate/production_manifest_masterplan_v2_3_hardtail_r1_candidate.json": "5498924e75926d6c315ea54aa4b9456ada0ac9237fe143c8f7404b24c1461d75",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+  "agent-artifacts/qa/manifest-v2.3-wave7-r2-tc183/tc183-verdict.json": "97d63914aade730fa8d70da25b7bd2ee8ff78bfeb53a14e0f2a091d6b7880c56",
+  "agent-artifacts/manifests/v2.3-hardtail-r1-candidate/rejected-drafts.json": "ce7f2a0791a9b596067023fbaab164ce4da161836a0dd1f59a69c60f82d9e26a",
+  "agent-artifacts/test-bank/hard-tail-triage/hard-tail-triage.csv": "ca0832c886b31c64267148f8d8ddc4421d00b20fcb3cbd809f6e2cfa5ee3fd50"
+}

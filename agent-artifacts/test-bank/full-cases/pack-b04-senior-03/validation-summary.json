@@ -1,0 +1,16 @@
+{
+  "candidateSHA256": "71b7c5569699a252b9baa9bdbdfa987933e5f9b294a48fd48f2fa9917d9e0d14",
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-2-6.txt": "bf8090d91def4ebe4b6494ea9724fe29e296ee0d8c3e65ea6e1f2536eb8f3b42",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-3-2.md": "f5d19c6177cdb028c9f7af26db8d9deb4d7cd37d69ba8bc55d7f8f6fc2013087",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-9-3.md": "b5551928222247e6b0bbeb964df29dc7867997d3153d42f3f617b81e41ab61b2",
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f"
+  },
+  "swift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  }
+}

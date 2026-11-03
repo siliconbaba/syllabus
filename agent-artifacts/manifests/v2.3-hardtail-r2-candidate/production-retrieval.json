@@ -1,0 +1,305 @@
+[
+  {
+    "plannedId": "TC-270",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-074",
+        "retrievalScore": 10.311434,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "готов",
+          "для",
+          "занимает",
+          "или",
+          "любом",
+          "между",
+          "обе",
+          "общий",
+          "первый",
+          "платформы",
+          "подтверждённой",
+          "при",
+          "программы",
+          "работ",
+          "работы",
+          "слот",
+          "слота",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-012",
+        "retrievalScore": 10.152787,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "все",
+          "занимает",
+          "может",
+          "общий",
+          "платформы",
+          "подготовить",
+          "полномочия",
+          "сдвиг",
+          "четырёх"
+        ]
+      },
+      {
+        "id": "TC-002",
+        "retrievalScore": 5.219084,
+        "reasons": [
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "dependency-management",
+          "rework-risk"
+        ],
+        "sharedTerms": [
+          "api",
+          "mock",
+          "два",
+          "дней",
+          "дня",
+          "если",
+          "есть",
+          "любом",
+          "остаётся",
+          "проверка",
+          "работы",
+          "реального",
+          "случае"
+        ]
+      },
+      {
+        "id": "TC-095",
+        "retrievalScore": 3.102985,
+        "reasons": [
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "dependency-management"
+        ],
+        "sharedTerms": [
+          "два",
+          "дня",
+          "может",
+          "можно",
+          "нет",
+          "правила",
+          "работы",
+          "четыре"
+        ]
+      },
+      {
+        "id": "TC-091",
+        "retrievalScore": 2.205518,
+        "reasons": [],
+        "patternOverlap": [
+          "dependency-management"
+        ],
+        "sharedTerms": [
+          "всех",
+          "есть",
+          "исправление",
+          "команд",
+          "можно",
+          "общий",
+          "обязательного",
+          "правила",
+          "программы",
+          "работает",
+          "тесты",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-048",
+        "retrievalScore": 2.124138,
+        "reasons": [],
+        "patternOverlap": [
+          "dependency-management"
+        ],
+        "sharedTerms": [
+          "затем",
+          "можно",
+          "оба",
+          "обе",
+          "подтвердили",
+          "сервис",
+          "четыре"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-275",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-020",
+        "retrievalScore": 10.298748,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "вести",
+          "выбирает",
+          "двух",
+          "ещё",
+          "заказчика",
+          "купить",
+          "может",
+          "отдельно",
+          "оценке",
+          "подрядчика",
+          "после",
+          "предлагает",
+          "приёмки",
+          "приёмку",
+          "стороны",
+          "уже",
+          "часы"
+        ]
+      },
+      {
+        "id": "TC-029",
+        "retrievalScore": 10.241986,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "без",
+          "возможность",
+          "выбрать",
+          "двух",
+          "ещё",
+          "заказчика",
+          "изменения",
+          "качество",
+          "менять",
+          "один",
+          "приёмку",
+          "разработки",
+          "сохраняет",
+          "стоит",
+          "только",
+          "цену"
+        ]
+      },
+      {
+        "id": "TC-030",
+        "retrievalScore": 10.203221,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "без",
+          "выбрать",
+          "заказчика",
+          "изменения",
+          "качество",
+          "контроль",
+          "менять",
+          "один",
+          "приёмку",
+          "разработки",
+          "стоит",
+          "только",
+          "цену"
+        ]
+      },
+      {
+        "id": "TC-073",
+        "retrievalScore": 9.123695,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "sla",
+          "двух",
+          "его",
+          "один",
+          "подрядчик",
+          "разработки",
+          "только",
+          "цену"
+        ]
+      },
+      {
+        "id": "TC-066",
+        "retrievalScore": 5.240361,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "внутренних",
+          "вправе",
+          "двух",
+          "или",
+          "команда",
+          "менять",
+          "отдельно",
+          "поддержки",
+          "подрядчик",
+          "следующий",
+          "сохранить",
+          "стоимость",
+          "только",
+          "требует",
+          "уже",
+          "что"
+        ]
+      },
+      {
+        "id": "TC-098",
+        "retrievalScore": 5.0841,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "его",
+          "один",
+          "отдельно",
+          "при",
+          "суммы",
+          "уже"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

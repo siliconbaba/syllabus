@@ -1,0 +1,2 @@
+wave,familyId,members,singleLogicalVariable,constants,strongestShift,hiddenCoMutations,eligibility,verdict
+6,F-PE-P03,TC-257;TC-258,Подтверждённый эффект одинакового feedback/support: устойчивое исправление vs продолжение вреда,PASS literal scenario/facts2/3; same topic/domain/level/batch/authority/capacity,"Сохранить mandate и поддержать исправление vs передать mandate, освободить capacity преемника и ограничить экспертную роль; в обоих изменить признание",0,training-only,PASS

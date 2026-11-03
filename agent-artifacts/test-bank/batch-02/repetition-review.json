@@ -1,0 +1,520 @@
+{
+  "exactUnexpectedWordingDuplicates": [],
+  "topCrossBankLexicalMatches": [
+    {
+      "id": "TC-051",
+      "topLexicalMatches": [
+        [
+          0.0629,
+          "TC-012"
+        ],
+        [
+          0.0602,
+          "TC-042"
+        ],
+        [
+          0.0559,
+          "TC-005"
+        ]
+      ]
+    },
+    {
+      "id": "TC-052",
+      "topLexicalMatches": [
+        [
+          0.0629,
+          "TC-012"
+        ],
+        [
+          0.0602,
+          "TC-042"
+        ],
+        [
+          0.053,
+          "TC-033"
+        ]
+      ]
+    },
+    {
+      "id": "TC-053",
+      "topLexicalMatches": [
+        [
+          0.0629,
+          "TC-012"
+        ],
+        [
+          0.0602,
+          "TC-042"
+        ],
+        [
+          0.053,
+          "TC-033"
+        ]
+      ]
+    },
+    {
+      "id": "TC-054",
+      "topLexicalMatches": [
+        [
+          0.1009,
+          "TC-044"
+        ],
+        [
+          0.0762,
+          "TC-037"
+        ],
+        [
+          0.0566,
+          "TC-023"
+        ]
+      ]
+    },
+    {
+      "id": "TC-055",
+      "topLexicalMatches": [
+        [
+          0.1,
+          "TC-044"
+        ],
+        [
+          0.0755,
+          "TC-037"
+        ],
+        [
+          0.0561,
+          "TC-023"
+        ]
+      ]
+    },
+    {
+      "id": "TC-056",
+      "topLexicalMatches": [
+        [
+          0.1215,
+          "TC-035"
+        ],
+        [
+          0.0968,
+          "TC-015"
+        ],
+        [
+          0.0909,
+          "TC-012"
+        ]
+      ]
+    },
+    {
+      "id": "TC-057",
+      "topLexicalMatches": [
+        [
+          0.1064,
+          "TC-015"
+        ],
+        [
+          0.0991,
+          "TC-035"
+        ],
+        [
+          0.0609,
+          "TC-012"
+        ]
+      ]
+    },
+    {
+      "id": "TC-058",
+      "topLexicalMatches": [
+        [
+          0.0632,
+          "TC-007"
+        ],
+        [
+          0.0538,
+          "TC-026"
+        ],
+        [
+          0.0481,
+          "TC-042"
+        ]
+      ]
+    },
+    {
+      "id": "TC-059",
+      "topLexicalMatches": [
+        [
+          0.0632,
+          "TC-007"
+        ],
+        [
+          0.0583,
+          "TC-042"
+        ],
+        [
+          0.0538,
+          "TC-028"
+        ]
+      ]
+    },
+    {
+      "id": "TC-060",
+      "topLexicalMatches": [
+        [
+          0.0629,
+          "TC-036"
+        ],
+        [
+          0.0451,
+          "TC-034"
+        ],
+        [
+          0.0451,
+          "TC-033"
+        ]
+      ]
+    },
+    {
+      "id": "TC-061",
+      "topLexicalMatches": [
+        [
+          0.0808,
+          "TC-044"
+        ],
+        [
+          0.0794,
+          "TC-003"
+        ],
+        [
+          0.0708,
+          "TC-010"
+        ]
+      ]
+    },
+    {
+      "id": "TC-062",
+      "topLexicalMatches": [
+        [
+          0.1667,
+          "TC-048"
+        ],
+        [
+          0.1024,
+          "TC-038"
+        ],
+        [
+          0.0625,
+          "TC-035"
+        ]
+      ]
+    },
+    {
+      "id": "TC-063",
+      "topLexicalMatches": [
+        [
+          0.0566,
+          "TC-012"
+        ],
+        [
+          0.0521,
+          "TC-047"
+        ],
+        [
+          0.0485,
+          "TC-044"
+        ]
+      ]
+    },
+    {
+      "id": "TC-064",
+      "topLexicalMatches": [
+        [
+          0.0583,
+          "TC-042"
+        ],
+        [
+          0.0538,
+          "TC-027"
+        ],
+        [
+          0.0496,
+          "TC-034"
+        ]
+      ]
+    },
+    {
+      "id": "TC-065",
+      "topLexicalMatches": [
+        [
+          0.0476,
+          "TC-028"
+        ],
+        [
+          0.0476,
+          "TC-027"
+        ],
+        [
+          0.0476,
+          "TC-026"
+        ]
+      ]
+    },
+    {
+      "id": "TC-066",
+      "topLexicalMatches": [
+        [
+          0.0714,
+          "TC-049"
+        ],
+        [
+          0.0625,
+          "TC-042"
+        ],
+        [
+          0.05,
+          "TC-040"
+        ]
+      ]
+    },
+    {
+      "id": "TC-067",
+      "topLexicalMatches": [
+        [
+          0.0472,
+          "TC-012"
+        ],
+        [
+          0.0381,
+          "TC-001"
+        ],
+        [
+          0.036,
+          "TC-002"
+        ]
+      ]
+    },
+    {
+      "id": "TC-068",
+      "topLexicalMatches": [
+        [
+          0.0467,
+          "TC-044"
+        ],
+        [
+          0.0424,
+          "TC-033"
+        ],
+        [
+          0.041,
+          "TC-011"
+        ]
+      ]
+    },
+    {
+      "id": "TC-069",
+      "topLexicalMatches": [
+        [
+          0.0946,
+          "TC-015"
+        ],
+        [
+          0.0696,
+          "TC-004"
+        ],
+        [
+          0.0645,
+          "TC-035"
+        ]
+      ]
+    },
+    {
+      "id": "TC-070",
+      "topLexicalMatches": [
+        [
+          0.0581,
+          "TC-006"
+        ],
+        [
+          0.0575,
+          "TC-047"
+        ],
+        [
+          0.0575,
+          "TC-037"
+        ]
+      ]
+    },
+    {
+      "id": "TC-071",
+      "topLexicalMatches": [
+        [
+          0.0561,
+          "TC-049"
+        ],
+        [
+          0.0541,
+          "TC-039"
+        ],
+        [
+          0.0513,
+          "TC-012"
+        ]
+      ]
+    },
+    {
+      "id": "TC-072",
+      "topLexicalMatches": [
+        [
+          0.0984,
+          "TC-018"
+        ],
+        [
+          0.0427,
+          "TC-039"
+        ],
+        [
+          0.0407,
+          "TC-035"
+        ]
+      ]
+    },
+    {
+      "id": "TC-073",
+      "topLexicalMatches": [
+        [
+          0.0698,
+          "TC-030"
+        ],
+        [
+          0.0583,
+          "TC-042"
+        ],
+        [
+          0.0556,
+          "TC-039"
+        ]
+      ]
+    },
+    {
+      "id": "TC-074",
+      "topLexicalMatches": [
+        [
+          0.1193,
+          "TC-012"
+        ],
+        [
+          0.0545,
+          "TC-046"
+        ],
+        [
+          0.053,
+          "TC-045"
+        ]
+      ]
+    },
+    {
+      "id": "TC-075",
+      "topLexicalMatches": [
+        [
+          0.1707,
+          "TC-024"
+        ],
+        [
+          0.1124,
+          "TC-032"
+        ],
+        [
+          0.1124,
+          "TC-031"
+        ]
+      ]
+    }
+  ],
+  "manualConceptReview": [
+    {
+      "new": [
+        "TC-054",
+        "TC-055"
+      ],
+      "existing": [
+        "TC-037"
+      ],
+      "review": "Shared rollback readiness boundary is frozen. Pair changes only demonstrated recovery, not defect urgency; novice release decision rather than hotfix diagnosis. Expected curricular overlap, explicitly retained."
+    },
+    {
+      "new": [
+        "TC-056",
+        "TC-057"
+      ],
+      "existing": [
+        "TC-015"
+      ],
+      "review": "Shared early communication principle. New controlled pair contrasts evidence confidence with constant sponsor authority; original has one deteriorating forecast."
+    },
+    {
+      "new": [
+        "TC-060"
+      ],
+      "existing": [
+        "TC-025",
+        "TC-036"
+      ],
+      "review": "Same cheap-learning principle; new case separates proxy interest and repeated usage with precommitted thresholds, rather than choosing an already validated demand test."
+    },
+    {
+      "new": [
+        "TC-062"
+      ],
+      "existing": [
+        "TC-010",
+        "TC-048"
+      ],
+      "review": "Same compatibility family of decisions, but new diagnostic tradeoff is ongoing writes invalidating one-off backfill and the exit criteria, not merely coexistence of two readers."
+    },
+    {
+      "new": [
+        "TC-072"
+      ],
+      "existing": [
+        "TC-018"
+      ],
+      "review": "Frozen support-to-PIP boundary repeats. New distractor also proposes formal PIP but uses an outcome outside employee control, so choosing PIP by name is insufficient."
+    },
+    {
+      "new": [
+        "TC-074"
+      ],
+      "existing": [
+        "TC-012"
+      ],
+      "review": "Frozen shared-capacity/authority boundary repeats. New input adds incommensurate annual/monthly estimates and contrasts arithmetic ranking without common authority; no claim of a novel learning objective."
+    },
+    {
+      "new": [
+        "TC-058",
+        "TC-059",
+        "TC-067"
+      ],
+      "existing": [],
+      "review": "Same topic intentionally. Pair compares equal-duration monthly losses with one mutation; 067 requires converting annual stream versus deadline loss. Triplet adds preemption and dependent costs."
+    }
+  ],
+  "repeatedOpenings": {
+    "Вы готовите решение портфельного": [
+      "TC-051",
+      "TC-052",
+      "TC-053"
+    ],
+    "Вы отвечаете за включение": [
+      "TC-054",
+      "TC-055"
+    ],
+    "Вы ведёте запуск личного": [
+      "TC-056",
+      "TC-057"
+    ],
+    "Вы готовите месячную очередь": [
+      "TC-058",
+      "TC-059"
+    ]
+  },
+  "status": "PASS with explicit frozen-blueprint learning-objective overlaps; no identical option sets outside linked families",
+  "limitation": "Text similarity is a screen, not a semantic proof. Independent QA should review the listed overlaps; concepts were not silently replaced."
+}

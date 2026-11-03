@@ -1,0 +1,83 @@
+{
+  "status": "FIX REQUIRED",
+  "scope": "Three original standalone Senior cases. Independent content acceptance only.",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-b04-senior-03/cases.json",
+  "candidateSHA256": "71b7c5569699a252b9baa9bdbdfa987933e5f9b294a48fd48f2fa9917d9e0d14",
+  "acceptedCaseIDs": [
+    "TC-119"
+  ],
+  "remainingCaseIDs": [
+    "TC-117",
+    "TC-118"
+  ],
+  "perCase": {
+    "TC-117": "FIX REQUIRED",
+    "TC-118": "FIX REQUIRED",
+    "TC-119": "PASS"
+  },
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-2-6.txt": "bf8090d91def4ebe4b6494ea9724fe29e296ee0d8c3e65ea6e1f2536eb8f3b42",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-3-2.md": "f5d19c6177cdb028c9f7af26db8d9deb4d7cd37d69ba8bc55d7f8f6fc2013087",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-9-3.md": "b5551928222247e6b0bbeb964df29dc7867997d3153d42f3f617b81e41ab61b2",
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f"
+  },
+  "blindChoicesSHA256": "157b3482664be6f3a54a0aee967953668fd50bb5414533ac5970124cedc24e0f",
+  "inheritanceBases": [
+    "Swift schema/runtime validation from validation-summary.json for matching SHA. Approved rows match working completion03 manifest exactly."
+  ],
+  "gates": {
+    "blindStrongest": "PASS D/C/D",
+    "uniqueStrongest": "PASS",
+    "source": "PASS",
+    "level": "PASS",
+    "duplication": "PASS",
+    "family": "N/A, all standalone",
+    "eligibility": "PASS",
+    "surface": "PASS",
+    "decisionQuality": "PASS",
+    "wholeWhen": "FIX REQUIRED",
+    "arithmetic": "PASS on actual scenario",
+    "runtime": "PASS inherited"
+  },
+  "severityCounts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "remainingIssueIDs": [
+    "B04S-01",
+    "B04S-02"
+  ],
+  "importEligible": false,
+  "productionChanged": false,
+  "freezePerformed": false,
+  "issues": [
+    {
+      "id": "B04S-01",
+      "caseID": "TC-117",
+      "field": "options.B.whenItWouldBeBest",
+      "severity": "major",
+      "evidence": "Capacity not guaranteed and 8 below expected waiting loss do not establish B. If reserve can handle failure 99% of the time, p=.5, and in the other 1% the order is lost, D costs 3+.5*(.99*4+.01*30)=5.13 versus B=8 and A=15.",
+      "minimalFix": "Make reserved capacity unavailable for the required order, or explicitly compare total expected cost including residual damage against both reservation and waiting.",
+      "retest": "Whole-option B counterfactual and unchanged A/C/D."
+    },
+    {
+      "id": "B04S-02",
+      "caseID": "TC-118",
+      "field": "options.B.whenItWouldBeBest",
+      "severity": "major",
+      "evidence": "Suppose the first technical layer alone releases all 36 in 7 weeks. Its 36/7 beats 20/4, yet the existing catalog/neighbor/extension plan remains available. Weighted completion cost B→neighbor = 36*7+20*11=472, compared with C = 24*4+20*8+12*16=448. The condition omits the actual competing vertical path.",
+      "minimalFix": "Specify, for example, that a first independently releasable layer brings all 36 within four weeks, followed by portfolio reranking. Then direct layer is at least as fast as catalog and brings greater value.",
+      "retest": "Check changed WHEN against both alternative integrations and competing work."
+    }
+  ],
+  "caseEvidence": {
+    "TC-117": "A=30p, B=8, C=3+30p because withdrawing the oldest batch always greens dashboard, D=3+4p. D is uniquely cheapest throughout [.4,.6]. Senior must separate signals before vs after a mitigation that changes the sample, and buy time to use fresh independent evidence. §2.6 supports EWI, staged mitigation and expected-loss economics. ALLOWED REINFORCEMENT with TC-211 (unchanged informative early signal; late proof unavailable), TC-294 (forecast revision), TC-104/105 (reaction lead time) and TC-008 (causal attribution rather than evidence for withdrawing a live protection).",
+    "TC-118": "Catalog 24/(3+1)=6, neighbor 20/4=5, extension (36-24)/8=1.5. A ranks indivisible original; B double counts unavailable value; D delays higher marginal value. Senior restructures the investment while charging prerequisite once and separating independently realizable benefits. §9.3 marketplace example directly links scope and ranking. ALLOWED REINFORCEMENT with TC-051–053, which merge inseparable P/K with duplicate orders and change insertion/preemption across a fixed acceptance bottleneck. TC-118 instead decomposes a single opportunity and interposes other work.",
+    "TC-119": "K7/P1 green fails after semantic change in P2. B races new artifacts between retest and release; C preserves pair identity but takes four hours versus 30 minutes and blocks unrelated consumer. D checks semantic behavior and actual pair before admission in eight minutes. The blind runner-up B privileges throughput; scoring C .7 versus B .6 defensible because C preserves safety. §3.2 explicitly requires tests on the current API and notification on contract changes. Senior designs evidence validity across independent pipelines. ALLOWED REINFORCEMENT with TC-047 (flaky checker/manual confirmation) and TC-197 (missing criterion/unaudited exception). A/B/C WHEN alternatives respectively guarantee semantic invariance, fix both builds until release, or remove scope knowledge and permit full regression. No significant teaching defect."
+  },
+  "surface": "Option lengths A–D: 120/122/121/135, 106/137/107/116, 139/142/124/160. Longest wins 2/3, positions D/C/D. No repeated options or deterministic length cue. TC-117 C/D have identical openings, TC-118 C/D share first action; TC-119 requires distinguishing safe overbroad C from targeted D. Three-item distribution is descriptive.",
+  "scopeNotes": "No intra-pack shared decision boundary. Reviewed production/planned shortlist, same-topic/primary expansion and accepted TC-211. No mandate change, no family. Re-review only affected explanations and verify unchanged cases/fields by hash on revised handoff."
+}

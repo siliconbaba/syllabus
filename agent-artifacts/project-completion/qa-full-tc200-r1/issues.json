@@ -1,0 +1,14 @@
+[
+  {
+    "id": "TC200-FULL-R1-01",
+    "severity": "Major",
+    "fields": [
+      "options.A.decisionQuality",
+      "options.B.decisionQuality"
+    ],
+    "evidence": "A=.55, B=.70. A broadcasts prepared facts now and adds the sponsor decision after the 15-minute conversation. B obtains the decision at 15 minutes but withholds required shared written facts/action until tomorrow, after marketing starts in two hours.",
+    "reason": "B is materially less complete against the explicit operational deadline; rewarding B above A prioritizes recipient etiquette over timely actionable communication without a scenario fact justifying that trade-off. Blind runner-up was A.",
+    "minimalFix": "Recalibrate partial scores so C > A > B > D; exact values remain author judgment. Preserve the unique best and accepted boundary.",
+    "requiredRetest": "Exact revision/score allowlist, DQ and explanation consistency, blind payload identity, source/boundary preservation and real Swift loader. No need to reopen unrelated content."
+  }
+]

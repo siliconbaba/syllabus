@@ -1,0 +1,6 @@
+{
+  "method": "exact article t-5-5 through closing article; HTMLParser all text nodes; whitespace removed",
+  "completeTextMatchIgnoringWhitespace": true,
+  "htmlTextCharacters": 17363,
+  "extractedCharacters": 17536
+}

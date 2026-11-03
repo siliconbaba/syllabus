@@ -1,0 +1,42 @@
+{
+  "reviewer": "independent qa_next_five",
+  "stage": "blind-before-key-disclosure",
+  "blind_sha256": "55dbde397fc3cad90120280a81a7719269fc76f0ce1d9a02482cc5781fa6c471",
+  "choices": [
+    {
+      "id": "TC-101",
+      "choice": "A",
+      "runner_up": "B",
+      "confidence": 0.99,
+      "reason": "Already verified complete isolation; adapter adds delay without benefit."
+    },
+    {
+      "id": "TC-102",
+      "choice": "B",
+      "runner_up": "C",
+      "confidence": 0.99,
+      "reason": "Existing complete boundary can be isolated in two weeks; new boundary adds unnecessary delay."
+    },
+    {
+      "id": "TC-103",
+      "choice": "C",
+      "runner_up": "B",
+      "confidence": 0.99,
+      "reason": "Only new boundary covers bypass effects; current adapter cannot satisfy safety condition."
+    },
+    {
+      "id": "TC-110",
+      "choice": "C",
+      "runner_up": "B",
+      "confidence": 0.99,
+      "reason": "External sessions uniquely meet process-loss preservation and six-week capacity."
+    },
+    {
+      "id": "TC-111",
+      "choice": "D",
+      "runner_up": "C",
+      "confidence": 0.99,
+      "reason": "Stage investment behind required PO authority; existing coordination bridges reform."
+    }
+  ]
+}

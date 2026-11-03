@@ -1,0 +1,44 @@
+{
+  "status": "TECHNICAL PASS",
+  "changedRows": [
+    "TC-146",
+    "TC-272"
+  ],
+  "unchangedRows": 273,
+  "familiesUnchanged": true,
+  "structure": {
+    "new": 275,
+    "standalone": 181,
+    "linked": 94,
+    "familySizes": {
+      "3": 8,
+      "2": 35
+    },
+    "batchSizes": {
+      "Batch 01": 25,
+      "Batch 02": 25,
+      "Batch 03": 25,
+      "Batch 04": 25,
+      "Batch 05": 25,
+      "Batch 06": 25,
+      "Batch 07": 25,
+      "Batch 08": 25,
+      "Batch 09": 25,
+      "Batch 10": 25,
+      "Batch 11": 25
+    },
+    "levels": {
+      "middle": 122,
+      "junior": 42,
+      "senior": 76,
+      "head": 35
+    }
+  },
+  "individualRowQAPass": true,
+  "cumulativeQAPass": false,
+  "remainingUnresolved": 68,
+  "headBreadth": true,
+  "productionUnchanged": true,
+  "frozen": false,
+  "importEligible": false
+}

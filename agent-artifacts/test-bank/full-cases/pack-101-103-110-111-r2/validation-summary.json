@@ -1,0 +1,47 @@
+{
+  "sha256": "3dff839ecac6cd50b86ed3762c1316f5466925c17eb940949d2e5b6016014b32",
+  "inheritedInputs": "agent-artifacts/test-bank/full-cases/pack-101-103-110-111/input-hashes.json",
+  "baseCasesSHA256": "700396bf04d84a03dcb4b176479a0683a035aeaf2d7693d38179c9c6f01fb39f",
+  "baseQASHA256": "0f5a4b90b1665bca17ab5177bc6f41054c242a0725bf193db4959de6521a3900",
+  "changes": {
+    "TC-101": [
+      "revision",
+      "context",
+      "decisiveFacts",
+      "authorRationale",
+      "options"
+    ],
+    "TC-102": [
+      "revision",
+      "context",
+      "decisiveFacts",
+      "authorRationale",
+      "options"
+    ],
+    "TC-103": [
+      "revision",
+      "context",
+      "decisiveFacts",
+      "authorRationale",
+      "options"
+    ],
+    "TC-110": [],
+    "TC-111": [
+      "revision",
+      "context",
+      "keyInsight",
+      "decisiveFacts",
+      "options"
+    ]
+  },
+  "swift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  },
+  "family": {
+    "constantContextExceptRouteTable": true,
+    "identicalOptionTexts": true
+  },
+  "acceptedTC110Unchanged": true
+}

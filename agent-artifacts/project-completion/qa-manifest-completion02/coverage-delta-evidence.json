@@ -1,0 +1,374 @@
+{
+  "onlyRuntimeChangedIDs": [
+    "TC-146",
+    "TC-272"
+  ],
+  "headFeasibilityUnchanged": true,
+  "headSeniorPlusEvidence": {
+    "analytics": 1,
+    "delivery": 2,
+    "finance": 6,
+    "people": 7,
+    "portfolio": 6,
+    "processes": 14,
+    "product": 4,
+    "project": 6,
+    "stakeholders": 6,
+    "technical": 17
+  },
+  "newEmptyThinkingLevelCells": [],
+  "deltas": {
+    "gold": {},
+    "new": {
+      "dependencies/all": {
+        "countBefore": 51,
+        "countAfter": 49,
+        "weightBefore": 25.25,
+        "weightAfter": 24.583333333333332,
+        "weightDelta": -0.6666666666666679,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/all": {
+        "countBefore": 64,
+        "countAfter": 63,
+        "weightBefore": 35.916666666666664,
+        "weightAfter": 35.25,
+        "weightDelta": -0.6666666666666643,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/all": {
+        "countBefore": 51,
+        "countAfter": 52,
+        "weightBefore": 26.083333333333332,
+        "weightAfter": 27.416666666666664,
+        "weightDelta": 1.3333333333333321,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      },
+      "dependencies/junior": {
+        "countBefore": 14,
+        "countAfter": 12,
+        "weightBefore": 7.583333333333333,
+        "weightAfter": 6.916666666666667,
+        "weightDelta": -0.6666666666666661,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/junior": {
+        "countBefore": 4,
+        "countAfter": 3,
+        "weightBefore": 1.8333333333333333,
+        "weightAfter": 1.1666666666666665,
+        "weightDelta": -0.6666666666666667,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/junior": {
+        "countBefore": 8,
+        "countAfter": 9,
+        "weightBefore": 4.75,
+        "weightAfter": 6.083333333333333,
+        "weightDelta": 1.333333333333333,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      }
+    },
+    "all300": {
+      "dependencies/all": {
+        "countBefore": 58,
+        "countAfter": 56,
+        "weightBefore": 28.25,
+        "weightAfter": 27.583333333333332,
+        "weightDelta": -0.6666666666666679,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/all": {
+        "countBefore": 68,
+        "countAfter": 67,
+        "weightBefore": 37.75,
+        "weightAfter": 37.083333333333336,
+        "weightDelta": -0.6666666666666643,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/all": {
+        "countBefore": 57,
+        "countAfter": 58,
+        "weightBefore": 28.416666666666664,
+        "weightAfter": 29.75,
+        "weightDelta": 1.3333333333333357,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      },
+      "dependencies/junior": {
+        "countBefore": 14,
+        "countAfter": 12,
+        "weightBefore": 7.583333333333333,
+        "weightAfter": 6.916666666666667,
+        "weightDelta": -0.6666666666666661,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/junior": {
+        "countBefore": 4,
+        "countAfter": 3,
+        "weightBefore": 1.8333333333333333,
+        "weightAfter": 1.1666666666666665,
+        "weightDelta": -0.6666666666666667,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/junior": {
+        "countBefore": 8,
+        "countAfter": 9,
+        "weightBefore": 4.75,
+        "weightAfter": 6.083333333333333,
+        "weightDelta": 1.333333333333333,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      }
+    },
+    "newAssessment": {
+      "dependencies/all": {
+        "countBefore": 38,
+        "countAfter": 36,
+        "weightBefore": 16.916666666666668,
+        "weightAfter": 16.25,
+        "weightDelta": -0.6666666666666679,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/all": {
+        "countBefore": 45,
+        "countAfter": 44,
+        "weightBefore": 23.916666666666668,
+        "weightAfter": 23.25,
+        "weightDelta": -0.6666666666666679,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/all": {
+        "countBefore": 31,
+        "countAfter": 32,
+        "weightBefore": 17.166666666666668,
+        "weightAfter": 18.5,
+        "weightDelta": 1.3333333333333321,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      },
+      "dependencies/junior": {
+        "countBefore": 12,
+        "countAfter": 10,
+        "weightBefore": 5.583333333333333,
+        "weightAfter": 4.916666666666667,
+        "weightDelta": -0.6666666666666661,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/junior": {
+        "countBefore": 4,
+        "countAfter": 3,
+        "weightBefore": 1.8333333333333333,
+        "weightAfter": 1.1666666666666665,
+        "weightDelta": -0.6666666666666667,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/junior": {
+        "countBefore": 6,
+        "countAfter": 7,
+        "weightBefore": 4.25,
+        "weightAfter": 5.583333333333333,
+        "weightDelta": 1.333333333333333,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      }
+    },
+    "assessment200": {
+      "dependencies/all": {
+        "countBefore": 43,
+        "countAfter": 41,
+        "weightBefore": 18.666666666666668,
+        "weightAfter": 18.0,
+        "weightDelta": -0.6666666666666679,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/all": {
+        "countBefore": 49,
+        "countAfter": 48,
+        "weightBefore": 25.75,
+        "weightAfter": 25.083333333333332,
+        "weightDelta": -0.6666666666666679,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/all": {
+        "countBefore": 35,
+        "countAfter": 36,
+        "weightBefore": 18.916666666666668,
+        "weightAfter": 20.25,
+        "weightDelta": 1.3333333333333321,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      },
+      "dependencies/junior": {
+        "countBefore": 12,
+        "countAfter": 10,
+        "weightBefore": 5.583333333333333,
+        "weightAfter": 4.916666666666667,
+        "weightDelta": -0.6666666666666661,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/junior": {
+        "countBefore": 4,
+        "countAfter": 3,
+        "weightBefore": 1.8333333333333333,
+        "weightAfter": 1.1666666666666665,
+        "weightDelta": -0.6666666666666667,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/junior": {
+        "countBefore": 6,
+        "countAfter": 7,
+        "weightBefore": 4.25,
+        "weightAfter": 5.583333333333333,
+        "weightDelta": 1.333333333333333,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      }
+    },
+    "currentProduction100": {},
+    "remaining200": {
+      "dependencies/all": {
+        "countBefore": 38,
+        "countAfter": 36,
+        "weightBefore": 19.25,
+        "weightAfter": 18.583333333333332,
+        "weightDelta": -0.6666666666666679,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/all": {
+        "countBefore": 46,
+        "countAfter": 45,
+        "weightBefore": 23.416666666666664,
+        "weightAfter": 22.75,
+        "weightDelta": -0.6666666666666643,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/all": {
+        "countBefore": 36,
+        "countAfter": 37,
+        "weightBefore": 20.0,
+        "weightAfter": 21.333333333333332,
+        "weightDelta": 1.3333333333333321,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      },
+      "dependencies/junior": {
+        "countBefore": 10,
+        "countAfter": 8,
+        "weightBefore": 5.083333333333333,
+        "weightAfter": 4.416666666666667,
+        "weightDelta": -0.6666666666666661,
+        "removedIDs": [
+          "TC-146",
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "prioritization/junior": {
+        "countBefore": 3,
+        "countAfter": 2,
+        "weightBefore": 1.5833333333333333,
+        "weightAfter": 0.9166666666666666,
+        "weightDelta": -0.6666666666666666,
+        "removedIDs": [
+          "TC-272"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/junior": {
+        "countBefore": 6,
+        "countAfter": 7,
+        "weightBefore": 4.25,
+        "weightAfter": 5.583333333333333,
+        "weightDelta": 1.333333333333333,
+        "removedIDs": [],
+        "addedIDs": [
+          "TC-272"
+        ]
+      }
+    }
+  }
+}

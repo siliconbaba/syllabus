@@ -1,0 +1,76 @@
+{
+  "status": "FIX REQUIRED",
+  "scope": "Full case pair, first submission",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/junior-135-145/cases.json",
+  "candidateSHA256": "51056c285eddc54bcb658105c62ac575af38aa95c567eb592ba20a0828b06d2a",
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/junior-135-145/blind-cases.json": "9027e042707e143deb19fab9900128253877f2ab8e08bc4745abf8afed2b4778",
+    "agent-artifacts/test-bank/reconstruction/junior-135-145-c05-r2/proposed-projection.json": "67aec7c1e6e795a9d814ab905ae3e7b530c7c7d82f7421bdf7bba3b724395df2",
+    "agent-artifacts/project-completion/qa-blueprint-junior135145-r2/QA-verdict.json": "ed7b797127d42443d60547078fc502ae7f3799817ac9bd4ac189cc8edf5564bf",
+    "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+    "InteractiveBook/Trainer/TrainerView.swift": "5d7d9264e34766e7f07e142fb020958c15f63f342e48da0a34657a21e86b9b90",
+    "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc"
+  },
+  "acceptedCaseIDs": [],
+  "remainingCaseIDs": [
+    "TC-135",
+    "TC-145"
+  ],
+  "remainingIssueIDs": [
+    "JF-F01",
+    "JF-F02",
+    "JF-F03"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 1
+  },
+  "gates": {
+    "blind": "C and D independently selected before inspecting authored scores; exact learner-view parity confirmed. Prior blueprint review known.",
+    "loader": "PASS, compiled actual TrainerModels.swift and called TrainerBank.load with canonical adjacent topics.json, allowLegacy default false. Both IDs returned.",
+    "blueprintAndSource": "PASS against SHA-pinned R2 facts, decision boundaries, §4.2 interpretation and tags. Both standalone, junior, training and assessment.",
+    "individualAlternativesAndWHEN": {
+      "TC-135": {
+        "A": "Impossible without ID. WHEN provides alternative preassignment; useful if that is the supported attachment route.",
+        "B": "Changing ownership preserves cycle. WHEN makes early attachment feasible and handoff the sole delay, plausibly favoring single ownership.",
+        "C": "Only path meeting both ID and access requirements. WHEN matches.",
+        "D": "Bypasses hard control. WHEN permits action but does not justify preferring it."
+      },
+      "TC-145": {
+        "A": "Ends by minute 5 but causes duplicate; safe, time-critical early preemption can make it right.",
+        "B": "Discards confirmed urgent class; WHEN omits ordinary-review timing relative to commitment.",
+        "C": "Same preemption and consequence as A. Its WHEN also makes immediate A viable.",
+        "D": "Minute 9 meets obligation and preserves nonduplicated debit. WHEN matches."
+      }
+    }
+  },
+  "issues": [
+    {
+      "id": "JF-F01",
+      "caseID": "TC-135",
+      "severity": "major",
+      "scope": "D score and WHEN",
+      "finding": "D gets the highest partial credit (.35) despite bypassing mandatory access control. A (.20) and B (.30) fail to release a record but preserve the hard access gate. No time penalty or impact makes that breach the better runner-up. D WHEN allows opening an empty record but gives no reason to prefer it over C, which also meets that permission.",
+      "fix": "Price the hard gate consistently. Prefer a viable partial action which preserves access control while incompletely addressing the cycle; give it the runner-up position. For D WHEN, establish a positive requirement to provide immediate client access before attachment and explicit permission to do so."
+    },
+    {
+      "id": "JF-F02",
+      "caseID": "TC-145",
+      "severity": "major",
+      "scope": "A versus C as diagnostic options and DQ; B counterfactual",
+      "finding": "A and C both start immediately, trigger the same automatic retry, finish refund at minute 5 and expose the same double debit. A plans to return later, but the retry happens before then; C delegates precisely what the system does anyway. The consequences provide no basis for .25 versus .20, and C WHEN with safe automated reconciliation also makes A defensible. B WHEN revokes urgency but does not specify whether the ordinary queue / planned review can honor or replace the agreed deadline.",
+      "fix": "Give C a distinct decision with meaningful advantage, limitation and counterfactual, then set partial credit from demonstrated trade-offs. In B WHEN specify changed/agreed deadline and a feasible ordinary queue/review. Justify relative cost of B versus inducing a repeated debit (B currently scores lowest)."
+    },
+    {
+      "id": "JF-F03",
+      "caseID": "both",
+      "severity": "minor",
+      "scope": "learner feedback, options A–D",
+      "finding": "All eight whyNotBest strings duplicate explanation verbatim. The actual disclosure renders both, including for winners; the limitations block for both winners instead repeats why they win.",
+      "fix": "Use explanation for outcome and whyNotBest for the limiting assumption or omission. For a winner name the boundary beyond which the action ceases to work."
+    }
+  ],
+  "readyToFreeze": false,
+  "importEligible": false
+}

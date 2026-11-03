@@ -1,0 +1,44 @@
+{
+  "status": "CONTENT ACCEPTED",
+  "verdict": "PASS",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json",
+  "candidateSHA256": "70d135da2bb882353eaab68ed371baccd7543a688a73ab81d509110ef39b1a66",
+  "baselineCandidateSHA256": "f1debb57894c76fd202091f07def8a6f0568b565967884c4ca25bd94029e5933",
+  "baseQA": "agent-artifacts/project-completion/qa-136-139/QA-verdict.json",
+  "baseQASHA256": "674878a63776367aae7d57d9610749c5fcb381d72009df55911f39a942123268",
+  "manifestSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "acceptedCaseIDs": [
+    "TC-136",
+    "TC-137",
+    "TC-138",
+    "TC-139"
+  ],
+  "remainingCaseIDs": [],
+  "remainingIssueIDs": [],
+  "closedIssues": [
+    "QA136-139-01",
+    "QA136-139-02"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "gates": {
+    "diff": "Exact raw identity 136 and 139. Only 137C WHEN, 138 context and two revisions changed.",
+    "137C": "A time-limited campaign to register independently confirmed near misses from a backlog counts unique verified entries with explicit value above plan. This changes precisely the conditions that made target gaming possible. Ordinary incident reporting retains A as best.",
+    "138": "Expedited 100 bundle explicitly provides training AND acceleration. Existing 60 limit, postponed release if exceeded, time to normal vendor training and acceptable current speed retain D as uniquely timely feasible path.",
+    "blind": "R1 independent C/A/D/B choices inherited. Only visible delta in 138 resolves bundle ambiguity without changing the D/A comparison.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "inheritance": "Individual source, alternatives, duplications, levels, manifest classification and remaining option texts and scores bound to R1 SHA."
+  },
+  "scope": "Content of four standalone cases for Batch 05 assembly",
+  "contentEligibleForBatchAssembly": true,
+  "importEligible": false,
+  "readyToFreeze": false,
+  "productionChanged": false
+}

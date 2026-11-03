@@ -1,0 +1,69 @@
+{
+  "candidatePath": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/test-bank/full-cases/pack-budget-04/cases.json",
+  "candidateSHA256": "687f0b35e3c1064135425d99b2ecfbc42a2962fb31f1701b640eb129c0fd3cff",
+  "verdict": "FIX REQUIRED",
+  "scope": "Independent full review of all four standalone cases on supplied exact bytes.",
+  "acceptedCaseIDs": [
+    "TC-170",
+    "TC-269"
+  ],
+  "caseVerdicts": {
+    "TC-114": "FIX REQUIRED",
+    "TC-170": "PASS",
+    "TC-269": "PASS",
+    "TC-300": "FIX REQUIRED"
+  },
+  "defects": [
+    {
+      "id": "BUD04-114-B-WHEN",
+      "caseID": "TC-114",
+      "field": "options.B.whenItWouldBeBest",
+      "severity": "major",
+      "evidence": "The action explicitly preserves both hard line limits. Unavailable infrastructure savings and an additional 0.6 at project level still cannot fund the next contractor shift under the unchanged cap.",
+      "minimalScope": "Align the entire B action with its counterfactual. Specify how the additional 0.6 becomes spendable on the contractor and address the still-required variance explanation if applicable.",
+      "retest": "Blind ranking if visible B changes, B explanation/WHEN, DQ and surface."
+    },
+    {
+      "id": "BUD04-300-C-WHEN",
+      "caseID": "TC-300",
+      "field": "options.C.whenItWouldBeBest",
+      "severity": "major",
+      "evidence": "The action explicitly defers calculating an exit charge until an invoice arrives. Contractually confirmed free cancellation establishes the amount now and removes the future payment. This validates 11.5 but does not justify that deferral.",
+      "minimalScope": "Align the whole C action with a realistic counterfactual, e.g. an option relying on a genuinely fee-free cancellation clause rather than postponing calculation until invoice.",
+      "retest": "Blind ranking if visible C changes, trigger for recognition, recalculation of budget, C explanations and surface."
+    }
+  ],
+  "remainingIssueIds": [
+    "BUD04-114-B-WHEN",
+    "BUD04-300-C-WHEN"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "importEligible": false,
+  "productionChanged": false,
+  "inheritanceBases": [
+    "Exact-byte Swift schema/runtime PASS supplied by validation-summary; no content decisions inherited."
+  ],
+  "gates": {
+    "identity": "PASS; all four pinned input hashes verified, four blueprint objects exactly match manifest, blind view matches texts.",
+    "blind": "PASS 4/4",
+    "pairwise": "PASS",
+    "source": "PASS §8.2",
+    "level": "PASS",
+    "metadata": "PASS scope, domain, patterns, eligibility and levels match blueprint",
+    "family": "NOT_APPLICABLE; four standalone",
+    "duplication": "PASS; allowed reinforcement only",
+    "decisionQuality": "PASS",
+    "wholeOptionWhen": "FIX REQUIRED TC-114/B TC-300/C",
+    "surface": "Reviewed. Four keys A C B D. A punctuation-then-length heuristic finds 4/4; monitoring signal for delta retest. Individual cases remain solvable on evidence.",
+    "swift": "PASS on candidate SHA, supplied independent runtime execution"
+  },
+  "support": [
+    "blind-choices.json",
+    "report.md",
+    "surface-evidence.json"
+  ]
+}

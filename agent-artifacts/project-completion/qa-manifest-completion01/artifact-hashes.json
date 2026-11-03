@@ -1,0 +1,13 @@
+{
+  "QA-report.md": "144ad98d59c88c1225c4763bf2da0c65fc49dfb493acdceb557eca37ee494280",
+  "QA-verdict.json": "6f3d10b258851bf5f47fea4bda57e138c66cdf8ae9fe02f0a8b7686ce0020111",
+  "audit-structural.py": "3a3ac9afe302fba50f113e1c0664fb828b95dfe969d41a772f0bcef527627651",
+  "baseline-runtime-input.json": "80c630f2e5cd3415d82743475c0bf0ba7861cbf109a5a80ed8a7ad4dd3a45335",
+  "baseline-runtime-output.json": "edca7687a6da5b0fb8564174e8a6e3e9556de3d1fcd8c633452305eef8f0450f",
+  "coverage-delta-evidence.json": "8c078d7dc1e5b3fdbe228e5c79de017695df2dae02c570684ffb5c7d618a7c84",
+  "coverage-reproduced.json": "efee3fa7c1f5d6aaea2355caa99a95d36b374fb0207bca70afd60492adcb9cbd",
+  "review-input-hashes.json": "02424156aa2184bdcdf0d77da75154e54735abb5519986c8a7c9b5799dc6a04c",
+  "runtime-reproduced.json": "583c539b48d1f28bfef8d77efe1d24af8c36c8e1846a852af5d6f7d6f3312780",
+  "structural-evidence.json": "f12bd3ecd67b0252c2204773586e34f2d36177072b1411c14d91ed6e760ecc4f",
+  "xcode-check.txt": "9fec9509a0037736274232072cadc58613fa6ddcafd55fa0915151df641590d3"
+}

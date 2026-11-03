@@ -1,0 +1,68 @@
+{
+  "queuePaths": {
+    "106": {
+      "help2": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "help4": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "automation": [
+        12,
+        4,
+        0,
+        0
+      ],
+      "ordinary": [
+        10,
+        8,
+        6,
+        4
+      ]
+    },
+    "107": {
+      "help2": [
+        6,
+        4,
+        6,
+        8
+      ],
+      "help4": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "automation": [
+        12,
+        8,
+        4,
+        0
+      ],
+      "ordinary": [
+        10,
+        12,
+        14,
+        16
+      ]
+    }
+  },
+  "budgetTC300": {
+    "beforeWithReserve": 13,
+    "afterWithReserve": 11.8
+  },
+  "vendorTC194": {
+    "B": 140,
+    "C": 110
+  },
+  "scopeTC237": {
+    "extraWaitLoss": 20,
+    "fullRollbackLoss": 80
+  }
+}

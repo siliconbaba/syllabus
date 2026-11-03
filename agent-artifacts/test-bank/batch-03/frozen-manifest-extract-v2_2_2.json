@@ -1,0 +1,1146 @@
+{
+  "rows": [
+    {
+      "plannedId": "TC-076",
+      "batch": "Batch 03",
+      "block": "B03 — Delivery & Release",
+      "partId": "part-3",
+      "topicId": "t-3-2",
+      "oneSentenceScenarioConcept": "Delivery manager пересматривает дополнительное ручное ревью сверх неизменных обязательных quality/security gates: оно стоит 6 условных единиц в месяц; проверенный автоматический вариант стоит 2 и сохраняет половину доказанной предотвращаемой потери ручного ревью; удаление только дополнительного шага ничего не стоит. В рассматриваемом состоянии L = 0 условных единиц предотвращённой потери за месяц; нужно выбрать судьбу дополнительного шага по его чистому эффекту.",
+      "decisiveFactsConcept": [
+        "L = 0 условных единиц предотвращённой потери за месяц",
+        "Ручной шаг стоит 6; автоматический стоит 2 и сохраняет половину предотвращаемой потери; дополнительных расходов перехода нет.",
+        "Обязательные gates сохранены, эффект проверен, остаточный риск всех решений допустим."
+      ],
+      "oneSentenceDecisionBoundary": "Удалить дополнительное ревью; обязательные gates сохранить.",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "structure": "triplet",
+      "scenarioFamilyId": "F-DR-T01",
+      "familyPosition": 1,
+      "decisiveMutationConcept": "L = 0 условных единиц предотвращённой потери за месяц",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Middle: сопоставить доказанную пользу, стоимость ожидания/труда и частичную потерю защиты при автоматизации; выбрать один из трёх рабочих вариантов без исследования причин или организационного redesign.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "proportionality",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-077",
+      "batch": "Batch 03",
+      "block": "B03 — Delivery & Release",
+      "partId": "part-3",
+      "topicId": "t-3-2",
+      "oneSentenceScenarioConcept": "Delivery manager пересматривает дополнительное ручное ревью сверх неизменных обязательных quality/security gates: оно стоит 6 условных единиц в месяц; проверенный автоматический вариант стоит 2 и сохраняет половину доказанной предотвращаемой потери ручного ревью; удаление только дополнительного шага ничего не стоит. В рассматриваемом состоянии L = 6 условных единиц предотвращённой потери за месяц; нужно выбрать судьбу дополнительного шага по его чистому эффекту.",
+      "decisiveFactsConcept": [
+        "L = 6 условных единиц предотвращённой потери за месяц",
+        "Ручной шаг стоит 6; автоматический стоит 2 и сохраняет половину предотвращаемой потери; дополнительных расходов перехода нет.",
+        "Обязательные gates сохранены, эффект проверен, остаточный риск всех решений допустим."
+      ],
+      "oneSentenceDecisionBoundary": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "structure": "triplet",
+      "scenarioFamilyId": "F-DR-T01",
+      "familyPosition": 2,
+      "decisiveMutationConcept": "L = 6 условных единиц предотвращённой потери за месяц",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Middle: сопоставить доказанную пользу, стоимость ожидания/труда и частичную потерю защиты при автоматизации; выбрать один из трёх рабочих вариантов без исследования причин или организационного redesign.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "proportionality",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-078",
+      "batch": "Batch 03",
+      "block": "B03 — Delivery & Release",
+      "partId": "part-3",
+      "topicId": "t-3-2",
+      "oneSentenceScenarioConcept": "Delivery manager пересматривает дополнительное ручное ревью сверх неизменных обязательных quality/security gates: оно стоит 6 условных единиц в месяц; проверенный автоматический вариант стоит 2 и сохраняет половину доказанной предотвращаемой потери ручного ревью; удаление только дополнительного шага ничего не стоит. В рассматриваемом состоянии L = 18 условных единиц предотвращённой потери за месяц; нужно выбрать судьбу дополнительного шага по его чистому эффекту.",
+      "decisiveFactsConcept": [
+        "L = 18 условных единиц предотвращённой потери за месяц",
+        "Ручной шаг стоит 6; автоматический стоит 2 и сохраняет половину предотвращаемой потери; дополнительных расходов перехода нет.",
+        "Обязательные gates сохранены, эффект проверен, остаточный риск всех решений допустим."
+      ],
+      "oneSentenceDecisionBoundary": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд.",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "structure": "triplet",
+      "scenarioFamilyId": "F-DR-T01",
+      "familyPosition": 3,
+      "decisiveMutationConcept": "L = 18 условных единиц предотвращённой потери за месяц",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Middle: сопоставить доказанную пользу, стоимость ожидания/труда и частичную потерю защиты при автоматизации; выбрать один из трёх рабочих вариантов без исследования причин или организационного redesign.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "proportionality",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-079",
+      "batch": "Batch 03",
+      "block": "B04 — Technical Delivery",
+      "partId": "part-10",
+      "topicId": "t-10-1",
+      "oneSentenceScenarioConcept": "Координатор планирует вызов проверки реестра в API приёма заявки: проверка занимает две секунды; доступны прямой вызов и готовая очередь с идемпотентным обработчиком, контролем лага и отдельным статусом результата; быстрый ответ желателен, но обязательного субсекундного SLO нет. Положительный ответ подтверждает допустимость заявки; без завершённой проверки реестра такую допустимость подтверждать нельзя. Нужно выбрать синхронную или асинхронную связь без ложного обещания пользователю.",
+      "decisiveFactsConcept": [
+        "Положительный ответ подтверждает допустимость заявки; без завершённой проверки реестра такую допустимость подтверждать нельзя.",
+        "Прямая проверка занимает две секунды; быстрее отвечать желательно, но не ценой ложного подтверждения.",
+        "Очередь, идемпотентность, мониторинг лага и отдельный итоговый статус уже готовы; скрытых работ для асинхронного пути нет."
+      ],
+      "oneSentenceDecisionBoundary": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+      "domain": "technical_delivery",
+      "requiredLevel": "junior",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "api-contracts"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-TD-P01",
+      "familyPosition": 1,
+      "decisiveMutationConcept": "Положительный ответ подтверждает допустимость заявки; без завершённой проверки реестра такую допустимость подтверждать нельзя.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Junior: распознать явное требование к смыслу ответа API; если результат нужен для подтверждения, его нельзя заменить фактом постановки в очередь. Проектировать брокер или миграцию контрактов не требуется.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "dependencies",
+      "derivedRuntimeSecondaryThinking": [
+        "dependencies"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-080",
+      "batch": "Batch 03",
+      "block": "B04 — Technical Delivery",
+      "partId": "part-10",
+      "topicId": "t-10-1",
+      "oneSentenceScenarioConcept": "Координатор планирует вызов проверки реестра в API приёма заявки: проверка занимает две секунды; доступны прямой вызов и готовая очередь с идемпотентным обработчиком, контролем лага и отдельным статусом результата; быстрый ответ желателен, но обязательного субсекундного SLO нет. Положительный ответ подтверждает только получение заявки; окончательная допустимость определяется позже и отображается отдельным статусом, что заранее принято продуктом. Нужно выбрать синхронную или асинхронную связь без ложного обещания пользователю.",
+      "decisiveFactsConcept": [
+        "Положительный ответ подтверждает только получение заявки; окончательная допустимость определяется позже и отображается отдельным статусом, что заранее принято продуктом.",
+        "Прямая проверка занимает две секунды; быстрее отвечать желательно, но не ценой ложного подтверждения.",
+        "Очередь, идемпотентность, мониторинг лага и отдельный итоговый статус уже готовы; скрытых работ для асинхронного пути нет."
+      ],
+      "oneSentenceDecisionBoundary": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата.",
+      "domain": "technical_delivery",
+      "requiredLevel": "junior",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "api-contracts"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-TD-P01",
+      "familyPosition": 2,
+      "decisiveMutationConcept": "Положительный ответ подтверждает только получение заявки; окончательная допустимость определяется позже и отображается отдельным статусом, что заранее принято продуктом.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Junior: распознать явное требование к смыслу ответа API; если результат нужен для подтверждения, его нельзя заменить фактом постановки в очередь. Проектировать брокер или миграцию контрактов не требуется.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "dependencies",
+      "derivedRuntimeSecondaryThinking": [
+        "dependencies"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-081",
+      "batch": "Batch 03",
+      "block": "B07 — People",
+      "partId": "part-7",
+      "topicId": "t-7-4",
+      "oneSentenceScenarioConcept": "Сильный сотрудник стал менее вовлечён и говорит, что думает об уходе; компенсационный диапазон и доступные карьерные возможности одинаковы. В этой версии решающий факт: Наличие подтверждённой причины неудовлетворённости: причина не обсуждалась и руководитель располагает только косвенными сигналами. Под выбором — Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "decisiveFactsConcept": [
+        "Наличие подтверждённой причины неудовлетворённости: причина не обсуждалась и руководитель располагает только косвенными сигналами",
+        "Одинаковые доступные карьерные возможности",
+        "Одинаковая компенсация"
+      ],
+      "oneSentenceDecisionBoundary": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+      "domain": "people_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "one-on-one",
+        "performance"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-PE-P01",
+      "familyPosition": 1,
+      "decisiveMutationConcept": "Наличие подтверждённой причины неудовлетворённости: причина не обсуждалась и руководитель располагает только косвенными сигналами",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Люди",
+      "derivedRuntimePrimaryThinking": "proportionality",
+      "derivedRuntimeSecondaryThinking": [
+        "stakeholders",
+        "organization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-082",
+      "batch": "Batch 03",
+      "block": "B07 — People",
+      "partId": "part-7",
+      "topicId": "t-7-4",
+      "oneSentenceScenarioConcept": "Сильный сотрудник стал менее вовлечён и говорит, что думает об уходе; компенсационный диапазон и доступные карьерные возможности одинаковы. В этой версии решающий факт: Наличие подтверждённой причины неудовлетворённости: на 1:1 сотрудник прямо назвал отсутствие автономии главным фактором и подтвердил, что деньги не причина. Под выбором — Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "decisiveFactsConcept": [
+        "Наличие подтверждённой причины неудовлетворённости: на 1:1 сотрудник прямо назвал отсутствие автономии главным фактором и подтвердил, что деньги не причина",
+        "Одинаковые доступные карьерные возможности",
+        "Одинаковая компенсация"
+      ],
+      "oneSentenceDecisionBoundary": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта.",
+      "domain": "people_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "one-on-one",
+        "performance"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-PE-P01",
+      "familyPosition": 2,
+      "decisiveMutationConcept": "Наличие подтверждённой причины неудовлетворённости: на 1:1 сотрудник прямо назвал отсутствие автономии главным фактором и подтвердил, что деньги не причина",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Люди",
+      "derivedRuntimePrimaryThinking": "proportionality",
+      "derivedRuntimeSecondaryThinking": [
+        "stakeholders",
+        "organization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-083",
+      "batch": "Batch 03",
+      "block": "B08 — Business & Vendors",
+      "partId": "part-8",
+      "topicId": "t-8-1",
+      "oneSentenceScenarioConcept": "Инвестиционный комитет пересматривает начатую инициативу после обновления финансовых предпосылок; оставшаяся стоимость, стратегическая роль и уже потраченные деньги известны. В этой версии решающий факт: NPV оставшихся денежных потоков при обновлённых предпосылках: устойчиво положительный и выше альтернативного использования капитала. Под выбором — Продолжить инвестицию, контролируя ключевые допущения.",
+      "decisiveFactsConcept": [
+        "NPV оставшихся денежных потоков при обновлённых предпосылках: устойчиво положительный и выше альтернативного использования капитала",
+        "Одинаковая оставшаяся стоимость",
+        "Одинаковый sunk cost"
+      ],
+      "oneSentenceDecisionBoundary": "Продолжить инвестицию, контролируя ключевые допущения.",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-BV-P02",
+      "familyPosition": 1,
+      "decisiveMutationConcept": "NPV оставшихся денежных потоков при обновлённых предпосылках: устойчиво положительный и выше альтернативного использования капитала",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Нужно работать с системной причиной или существенной неопределённостью, учитывать вторичные последствия и сохранять несколько вариантов решения.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Финансы и подрядчики",
+      "derivedRuntimePrimaryThinking": "prioritization",
+      "derivedRuntimeSecondaryThinking": [
+        "prioritization",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-084",
+      "batch": "Batch 03",
+      "block": "B08 — Business & Vendors",
+      "partId": "part-8",
+      "topicId": "t-8-1",
+      "oneSentenceScenarioConcept": "Инвестиционный комитет пересматривает начатую инициативу после обновления финансовых предпосылок; оставшаяся стоимость, стратегическая роль и уже потраченные деньги известны. В этой версии решающий факт: NPV оставшихся денежных потоков при обновлённых предпосылках: отрицательный даже без учёта уже понесённых затрат. Под выбором — Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "decisiveFactsConcept": [
+        "NPV оставшихся денежных потоков при обновлённых предпосылках: отрицательный даже без учёта уже понесённых затрат",
+        "Одинаковая оставшаяся стоимость",
+        "Одинаковый sunk cost"
+      ],
+      "oneSentenceDecisionBoundary": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы.",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-BV-P02",
+      "familyPosition": 2,
+      "decisiveMutationConcept": "NPV оставшихся денежных потоков при обновлённых предпосылках: отрицательный даже без учёта уже понесённых затрат",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Нужно работать с системной причиной или существенной неопределённостью, учитывать вторичные последствия и сохранять несколько вариантов решения.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Финансы и подрядчики",
+      "derivedRuntimePrimaryThinking": "prioritization",
+      "derivedRuntimeSecondaryThinking": [
+        "prioritization",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-085",
+      "batch": "Batch 03",
+      "block": "B03 — Delivery & Release",
+      "partId": "part-3",
+      "topicId": "t-3-9",
+      "oneSentenceScenarioConcept": "Middle release manager выпускает изменение расчёта комиссии: impact analysis показывает затронутый один класс сценариев, полный ручной регресс занимает день, targeted набор — час; нужно решить объём проверки по риску.",
+      "decisiveFactsConcept": [
+        "Затронутый класс риска локализован",
+        "Targeted набор покрывает его",
+        "Полный регресс значительно дороже"
+      ],
+      "oneSentenceDecisionBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+      "domain": "release_and_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "evidence-before-release",
+      "secondaryPatterns": [
+        "risk-based-testing",
+        "regression-evidence"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Delivery и релизы",
+      "derivedRuntimePrimaryThinking": "evidence",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-086",
+      "batch": "Batch 03",
+      "block": "B05 — Processes",
+      "partId": "part-3",
+      "topicId": "t-3-7",
+      "oneSentenceScenarioConcept": "Junior delivery coordinator видит CFD с растущей колонкой «review» при стабильном входе и выпуске; нужно решить, увеличивать ли WIP во всех стадиях или сначала признать review ограничением потока.",
+      "decisiveFactsConcept": [
+        "Очередь растёт только перед review",
+        "Вход стабильный",
+        "Throughput не растёт"
+      ],
+      "oneSentenceDecisionBoundary": "Добавлять незавершённую работу ↔ работать с bottleneck и ограничивать запуск новой работы.",
+      "domain": "delivery_quality",
+      "requiredLevel": "junior",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "bottleneck",
+        "lead-time"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "dependencies",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-087",
+      "batch": "Batch 03",
+      "block": "B07 — People",
+      "partId": "part-7",
+      "topicId": "t-7-10",
+      "oneSentenceScenarioConcept": "Менеджер разбирает восстановленный инцидент: ошибка при штатной работе была добросовестной, но тот же участник затем сознательно скрывал известную проблему и давал неверные статусы вопреки понятной договорённости; нужно отделить обучение на ошибке от ответственности за подтверждённое сокрытие.",
+      "decisiveFactsConcept": [
+        "Факты добросовестной ошибки и последующего сознательного сокрытия установлены раздельно; сотрудник выслушан, ошибку и ложные статусы нельзя смешивать.",
+        "Правило раннего сообщения было понятно и выполнимо; технических препятствий и страха наказания за сообщение при проверке не выявлено.",
+        "Системный разбор и исправления нужны независимо от индивидуального разговора; публичное объявление виновного не требуется."
+      ],
+      "oneSentenceDecisionBoundary": "Освободить от любой ответственности под лозунгом blameless ↔ сохранить системный разбор ошибки и отдельно разобрать подтверждённое сознательное сокрытие как нарушение договорённости.",
+      "domain": "incident_and_culture",
+      "requiredLevel": "middle",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "accountability",
+        "postmortem"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Middle: разделить два разных действия одного участника, удержать стандарты честного сообщения и безопасность обучения; выбрать отдельные форматы системного разбора и индивидуальной ответственности, не подменяя одно другим.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Люди",
+      "derivedRuntimePrimaryThinking": "systems",
+      "derivedRuntimeSecondaryThinking": [
+        "organization",
+        "systems"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-088",
+      "batch": "Batch 03",
+      "block": "B06 — Stakeholders",
+      "partId": "part-6",
+      "topicId": "t-6-3",
+      "oneSentenceScenarioConcept": "PM после второго нарушения письменно согласованной даты смежной командой располагает готовыми вариантами и их ценой: ещё один локальный круг переговоров займёт три дня, а возможность сменить приоритет на уровне владельца закрывается через два; нужно выбрать момент эскалации, не дожидаясь фактического срыва вехи.",
+      "decisiveFactsConcept": [
+        "После первого нарушения были прямой разговор и новая письменная договорённость; второе нарушение уже произошло, веха под угрозой.",
+        "Impact, required date, варианты и decision ask полностью подготовлены и согласованы по фактам; дополнительного расчёта не нужно.",
+        "Следующий локальный круг займёт три дня; владелец может решить вопрос в ближайшие два дня, после чего исполнимый альтернативный план исчезнет."
+      ],
+      "oneSentenceDecisionBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "escalation-readiness",
+      "secondaryPatterns": [
+        "required-date",
+        "escalation"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Middle: сопоставить время локальных попыток с окном решения и последствиями для вехи; своевременно задействовать известного владельца, сохранив рабочие отношения и согласованные факты.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Стейкхолдеры",
+      "derivedRuntimePrimaryThinking": "stakeholders",
+      "derivedRuntimeSecondaryThinking": [
+        "dependencies",
+        "stakeholders"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-089",
+      "batch": "Batch 03",
+      "block": "B07 — People",
+      "partId": "part-7",
+      "topicId": "t-7-10",
+      "oneSentenceScenarioConcept": "Middle manager видит, что сотрудники перестали сообщать о near-miss после двух публичных разборов с именами виновных; нужно решить, усиливать ли персональную ответственность публичностью или изменить формат разборов.",
+      "decisiveFactsConcept": [
+        "Near-miss reporting упал",
+        "Имена публично разбирались",
+        "Фактические нарушения правил не отделялись от системных ошибок"
+      ],
+      "oneSentenceDecisionBoundary": "Страх как контроль ↔ psychological safety для раннего обнаружения при сохранении accountability.",
+      "domain": "incident_and_culture",
+      "requiredLevel": "middle",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "accountability",
+        "postmortem"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Люди",
+      "derivedRuntimePrimaryThinking": "systems",
+      "derivedRuntimeSecondaryThinking": [
+        "organization",
+        "systems"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-090",
+      "batch": "Batch 03",
+      "block": "B09 — Portfolio & Organization",
+      "partId": "part-15",
+      "topicId": "t-15-8",
+      "oneSentenceScenarioConcept": "Head направления получает постоянное сокращение бюджета на 30% при шести активных инициативах и двух внешних обязательствах; подрядчики держат знания по одной миграции, а часть продуктов год не растёт; нужно решить, размазывать ли сокращение по всем или пересобрать портфель и operating model.",
+      "decisiveFactsConcept": [
+        "Сокращение постоянное",
+        "Есть юридические обязательства",
+        "Есть низкоценные направления и knowledge risk"
+      ],
+      "oneSentenceDecisionBoundary": "Равномерно урезать всё ↔ остановить целые инициативы и изменить структуру capacity с учётом скрытых издержек.",
+      "domain": "portfolio_management",
+      "requiredLevel": "head",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно принять решение об operating model, распределении полномочий/ёмкости или организационной конструкции с долгосрочными последствиями.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Портфель и стратегия",
+      "derivedRuntimePrimaryThinking": "prioritization",
+      "derivedRuntimeSecondaryThinking": [
+        "prioritization",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": "Нужно изменить бюджетную/capacity/sourcing архитектуру, а не оптимизировать одну статью или один контракт.",
+      "authorityScope": "Authority распределять бюджет/capacity между направлениями, менять sourcing model и останавливать обязательства.",
+      "secondaryEffect": "Решение меняет долгосрочную capability, knowledge retention, lock-in и способность выполнять будущие обязательства.",
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-091",
+      "batch": "Batch 03",
+      "block": "B09 — Portfolio & Organization",
+      "partId": "part-9",
+      "topicId": "t-9-6",
+      "oneSentenceScenarioConcept": "Senior lead пересматривает работу enabling-группы: она постоянно пишет продуктовые автотесты вместо команд, хотя CI уже self-service; контекст тестов различается по продуктам, одновременная передача превысит учебную ёмкость команд, а ограниченные когорты могут освоить практику без остановки поставки.",
+      "decisiveFactsConcept": [
+        "Общий pipeline уже самообслуживаемый; ожидание возникает в очереди на продуктовые тесты, где нужна доменная экспертиза stream-команд, а не новая общая платформа.",
+        "Enabling-группа закрепилась как постоянный исполнитель; команды потеряли навык, поэтому немедленный выход группы перенесёт bottleneck и риск качества внутрь команд.",
+        "Доступна ограниченная ёмкость совместного обучения по когортам; самостоятельный выпуск и обслуживание тестов можно проверить перед выходом enabling из каждой когорты."
+      ],
+      "oneSentenceDecisionBoundary": "Закрепить enabling как постоянную сервисную очередь либо одномоментно передать обязанности ↔ ограничить facilitation по времени, передавать capability когортами и выходить по доказанной самостоятельности.",
+      "domain": "organizational_design",
+      "requiredLevel": "senior",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "team-topologies",
+        "dependency-management"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Senior: диагностировать самовоспроизводящуюся зависимость от помощи, отличить платформенный сервис от продуктовой capability и перестроить взаимодействие с учётом когнитивной нагрузки и риска перехода; больший масштаб сам по себе уровень не обосновывает.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "organization",
+        "dependencies"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-092",
+      "batch": "Batch 03",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-10",
+      "topicId": "t-10-4",
+      "oneSentenceScenarioConcept": "Senior TPM видит, что после серии релизов p95 latency выросла на 20%, но средняя почти не изменилась и жалобы приходят только от одного региона; нужно решить, смотреть ли на average или сегментировать хвост распределения.",
+      "decisiveFactsConcept": [
+        "p95 ухудшился",
+        "Average стабилен",
+        "Проблема региональная"
+      ],
+      "oneSentenceDecisionBoundary": "Среднее как достаточная картина ↔ метрика, соответствующая пользовательскому tail-risk и сегменту.",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "root-cause"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Сегментировать p95 и среднее, чтобы локализовать ухудшение пользовательского опыта по данным дашборда.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "evidence",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence",
+        "systems"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-093",
+      "batch": "Batch 03",
+      "block": "B01 — Project Management",
+      "partId": "part-2",
+      "topicId": "t-2-6",
+      "oneSentenceScenarioConcept": "PM выбирает реакцию на ещё не реализовавшийся отказ оборудования: ожидаемый денежный ущерб невелик, страхование дешевле резервирования, но установленный спонсором предел непрерывного простоя нельзя покрыть денежной компенсацией; нужно выбрать допустимую стратегию до наступления риска.",
+      "decisiveFactsConcept": [
+        "Отказ остаётся вероятностным; максимальный простой пять дней превышает согласованный предел одного дня.",
+        "Страхование компенсирует деньги, но не ускоряет восстановление; резервирование обеспечивает восстановление за день и стоит дороже ожидаемого денежного ущерба.",
+        "Резерв доступен и укладывается в бюджет; риск-аппетит не пересмотрен, ожидаемые деньги и допустимый простой — разные ограничения."
+      ],
+      "oneSentenceDecisionBoundary": "Выбрать минимальную ожидаемую денежную стоимость или страхование как полное решение ↔ обеспечить допустимый остаточный простой резервом, сравнив стоимость реагирования с отдельным ограничением риск-аппетита.",
+      "domain": "risk_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "risk-differentiation",
+      "secondaryPatterns": [
+        "mitigation",
+        "risk-register"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Middle: сопоставить стоимость мер, ожидаемый ущерб и остаточное влияние на план; понять, какую часть риска передаёт страховка, и выбрать меру в границах утверждённого риск-аппетита.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Управление проектами",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-094",
+      "batch": "Batch 03",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-13",
+      "topicId": "t-13-3",
+      "oneSentenceScenarioConcept": "Middle PM получил статистически значимый рост conversion, но guardrail по отменам ухудшился сильнее заранее допустимого порога; нужно решить, объявлять ли тест успешным.",
+      "decisiveFactsConcept": [
+        "Целевая метрика выросла",
+        "Guardrail нарушен",
+        "Порог guardrail задан заранее"
+      ],
+      "oneSentenceDecisionBoundary": "Локальный uplift ↔ решение по целевой и guardrail-метрикам вместе.",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "guardrails",
+        "p-value"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Аналитика",
+      "derivedRuntimePrimaryThinking": "evidence",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-095",
+      "batch": "Batch 03",
+      "block": "B05 — Processes",
+      "partId": "part-4",
+      "topicId": "t-4-2",
+      "oneSentenceScenarioConcept": "Middle manager видит, что команда держит WIP-limit 8, но половина карточек заблокирована внешними зависимостями и занимает лимит неделями; под выбором — повысить limit или отделить blocked work и работать с зависимостями.",
+      "decisiveFactsConcept": [
+        "Половина WIP заблокирована",
+        "Блокировки внешние",
+        "Throughput не растёт"
+      ],
+      "oneSentenceDecisionBoundary": "Повысить WIP ради занятости ↔ сделать blockages видимыми и ограничить новый запуск.",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "bottleneck",
+        "dependency-management"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "dependencies",
+        "dependencies"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-096",
+      "batch": "Batch 03",
+      "block": "B06 — Stakeholders",
+      "partId": "part-5",
+      "topicId": "t-5-7",
+      "oneSentenceScenarioConcept": "Senior TPM без формальных полномочий над платформенной командой должен добиться места в её очереди: у него есть CoD, влияние на общий milestone и альтернативный workaround; нужно решить, давить статусом спонсора или влиять через сопоставимый trade-off.",
+      "decisiveFactsConcept": [
+        "Нет authority над очередью",
+        "CoD и impact посчитаны",
+        "Есть workaround"
+      ],
+      "oneSentenceDecisionBoundary": "Имитация полномочий ↔ влияние через данные, интересы и явный decision ask.",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "escalation"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно работать с системной причиной или существенной неопределённостью, учитывать вторичные последствия и сохранять несколько вариантов решения.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Стейкхолдеры",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "prioritization",
+        "stakeholders"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-097",
+      "batch": "Batch 03",
+      "block": "B07 — People",
+      "partId": "part-7",
+      "topicId": "t-7-7",
+      "oneSentenceScenarioConcept": "Head группы видит устойчиво слабого manager-of-managers: команды выполняют план, но два его менеджера не развиваются и все сложные решения он забирает себе; нужно решить, коучить стиль управления или менять scope роли.",
+      "decisiveFactsConcept": [
+        "Бизнес-результат пока приемлем",
+        "Менеджеры под ним не получают authority",
+        "Паттерн устойчив несколько кварталов"
+      ],
+      "oneSentenceDecisionBoundary": "Оценивать руководителя только по delivery ↔ учитывать способность строить следующий слой управления.",
+      "domain": "people_management",
+      "requiredLevel": "head",
+      "primaryPattern": "formal-performance-management",
+      "secondaryPatterns": [
+        "feedback",
+        "roles"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно принять решение об operating model, распределении полномочий/ёмкости или организационной конструкции с долгосрочными последствиями.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Люди",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "stakeholders",
+        "organization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": "Решение меняет систему управления через менеджеров, а не отдельную задачу сотрудника.",
+      "authorityScope": "Полномочия над менеджерами/manager-of-managers, их decision rights, span и ролью.",
+      "secondaryEffect": "Неверная конструкция создаёт организационный bottleneck, деградацию автономии и слабый succession layer на горизонте кварталов.",
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-098",
+      "batch": "Batch 03",
+      "block": "B08 — Business & Vendors",
+      "partId": "part-8",
+      "topicId": "t-8-2",
+      "oneSentenceScenarioConcept": "Head направления видит, что management reserve ежегодно заранее «размазывают» по проектам, поэтому при реальном неизвестном риске резерва нет; нужно решить, оставить практику или изменить budget governance.",
+      "decisiveFactsConcept": [
+        "Reserve распределяется до наступления неизвестных рисков",
+        "Новые риски потом требуют emergency funding",
+        "Спонсор может держать централизованный reserve"
+      ],
+      "oneSentenceDecisionBoundary": "Резерв как скрытый запас проектов ↔ управленческий резерв с отдельной authority и правилами использования.",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "head",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "risk-register",
+        "resource-conflict"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно принять решение об operating model, распределении полномочий/ёмкости или организационной конструкции с долгосрочными последствиями.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Финансы и подрядчики",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": "Нужно изменить бюджетную/capacity/sourcing архитектуру, а не оптимизировать одну статью или один контракт.",
+      "authorityScope": "Authority распределять бюджет/capacity между направлениями, менять sourcing model и останавливать обязательства.",
+      "secondaryEffect": "Решение меняет долгосрочную capability, knowledge retention, lock-in и способность выполнять будущие обязательства.",
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-099",
+      "batch": "Batch 03",
+      "block": "B09 — Portfolio & Organization",
+      "partId": "part-10",
+      "topicId": "t-10-5",
+      "oneSentenceScenarioConcept": "Senior TPM после крупного инцидента предлагает ужесточить SLO с 99.9 до 99.99 «чтобы такого больше не было», но архитектура и стоимость дополнительной надёжности не оценены; нужно решить, считать ли более высокий SLO бесплатной целью.",
+      "decisiveFactsConcept": [
+        "Новый SLO на порядок строже",
+        "Стоимость архитектурных изменений не оценена",
+        "Бизнес-потребность не изменилась"
+      ],
+      "oneSentenceDecisionBoundary": "Больше девяток как качество ↔ SLO как бизнес-технический контракт со стоимостью.",
+      "domain": "reliability",
+      "requiredLevel": "senior",
+      "primaryPattern": "error-budget-governance",
+      "secondaryPatterns": [
+        "slo",
+        "process-economics"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно работать с системной причиной или существенной неопределённостью, учитывать вторичные последствия и сохранять несколько вариантов решения.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "proportionality"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-100",
+      "batch": "Batch 03",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-10",
+      "topicId": "t-10-4",
+      "oneSentenceScenarioConcept": "Middle TPM проектирует alerting: команда хочет алерт на каждую одиночную ошибку, хотя baseline содержит небольшой шум; нужно решить порог так, чтобы сигнал приводил к действию, а не к alert fatigue.",
+      "decisiveFactsConcept": [
+        "Есть стабильный baseline шума",
+        "Одиночные ошибки не требуют действия",
+        "On-call уже получает много alerts"
+      ],
+      "oneSentenceDecisionBoundary": "Максимальная чувствительность ↔ actionable threshold относительно baseline и SLO.",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "slo"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Отличить одиночный шум от устойчивого actionable-сигнала и выбрать рабочий порог реакции.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "evidence",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence",
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    }
+  ],
+  "families": [
+    {
+      "scenarioFamilyId": "F-DR-T01",
+      "type": "triplet",
+      "memberIds": [
+        "TC-076",
+        "TC-077",
+        "TC-078"
+      ],
+      "topicId": "t-3-2",
+      "requiredLevel": "middle",
+      "baseSituation": "Delivery manager пересматривает дополнительное ручное ревью сверх неизменных обязательных quality/security gates: оно стоит 6 условных единиц в месяц; проверенный автоматический вариант стоит 2 и сохраняет половину доказанной предотвращаемой потери ручного ревью; удаление только дополнительного шага ничего не стоит.",
+      "singleLogicalVariable": "Доказанная предотвращаемая потеря L от дополнительного ручного ревью за месяц при одинаковых остальных условиях",
+      "stateByMember": {
+        "TC-076": "L = 0 условных единиц предотвращённой потери за месяц",
+        "TC-077": "L = 6 условных единиц предотвращённой потери за месяц",
+        "TC-078": "L = 18 условных единиц предотвращённой потери за месяц"
+      },
+      "decisionBoundaryByState": {
+        "TC-076": "Удалить дополнительное ревью; обязательные gates сохранить.",
+        "TC-077": "Заменить дополнительное ручное ревью проверенной автоматической проверкой.",
+        "TC-078": "Сохранить дополнительное ручное ревью, поскольку его дополнительная защита окупает задержки и труд."
+      },
+      "expectedStrongestShiftConcept": "Удалить избыточный шаг → автоматизировать с частичной защитой → сохранить ручную защиту.",
+      "factsThatMustRemainConstant": [
+        "Обязательные gates и критерии безопасности неизменны; дополнительное ревью не является регуляторным требованием.",
+        "Стоимость ручного шага 6 в месяц, включая труд и задержку поставки; автоматического — 2; удаления — 0.",
+        "Автоматический вариант уже проверен, предотвращает половину денежной потери, предотвращаемой ручным; переход не имеет дополнительных затрат.",
+        "Оценки эффекта получены на сопоставимом материале с контролем иных изменений; L — не неподтверждённое before/after.",
+        "Категория риска, цена отдельного дефекта, горизонт и риск-аппетит одинаковы; остаточный риск всех трёх стратегий допустим, иных обязательных ограничений нет."
+      ],
+      "whyMutationIsControlled": "Меняется только L. Стоимости, относительное покрытие, допустимость риска и обязательные gates постоянны. Три стратегии сравниваются на одном горизонте.",
+      "assessmentEligible": false,
+      "boundary1": "L=4: 0.5L−2 сравнивается с 0; состояния L=0 и L=6 лежат строго по разные стороны.",
+      "boundary2": "L=8: L−6 сравнивается с 0.5L−2; состояния L=6 и L=18 лежат строго по разные стороны.",
+      "threeDistinctStrategies": [
+        "remove-optional-step",
+        "replace-with-tested-automation",
+        "retain-manual-step"
+      ]
+    },
+    {
+      "scenarioFamilyId": "F-TD-P01",
+      "type": "pair",
+      "memberIds": [
+        "TC-079",
+        "TC-080"
+      ],
+      "topicId": "t-10-1",
+      "requiredLevel": "junior",
+      "baseSituation": "Координатор планирует вызов проверки реестра в API приёма заявки: проверка занимает две секунды; доступны прямой вызов и готовая очередь с идемпотентным обработчиком, контролем лага и отдельным статусом результата; быстрый ответ желателен, но обязательного субсекундного SLO нет.",
+      "singleLogicalVariable": "Требует ли заранее согласованный смысл положительного ответа API завершённой проверки реестра",
+      "stateByMember": {
+        "TC-079": "Положительный ответ подтверждает допустимость заявки; без завершённой проверки реестра такую допустимость подтверждать нельзя.",
+        "TC-080": "Положительный ответ подтверждает только получение заявки; окончательная допустимость определяется позже и отображается отдельным статусом, что заранее принято продуктом."
+      },
+      "decisionBoundaryByState": {
+        "TC-079": "Оставить проверку в синхронном пути перед положительным подтверждением допустимости.",
+        "TC-080": "Принять заявку и передать проверку в готовую очередь, явно отделив подтверждение получения от окончательного результата."
+      },
+      "expectedStrongestShiftConcept": "Дождаться результата до подтверждения → подтвердить только получение и обработать позже.",
+      "factsThatMustRemainConstant": [
+        "Те же актор, заявка, проверка, две секунды обработки и цель корректного ответа.",
+        "Оба технических пути доступны; миграции версий API нет.",
+        "Очередь уже имеет обработку дублей, мониторинг лага и отдельный статус; при ошибке статус не выдаётся за успех.",
+        "Никакого обязательного субсекундного SLO и скрытых затрат внедрения; стратегия пространства — синхронный результат либо асинхронное получение."
+      ],
+      "whyMutationIsControlled": "Меняется только обязательная семантика положительного ответа — нужна ли завершённая проверка. Техническая готовность и стоимость путей не меняются; это определяет допустимость асинхронности.",
+      "assessmentEligible": false,
+      "boundary1": "Можно ли честно подтвердить заявленный пользователю результат до завершения проверки реестра."
+    },
+    {
+      "scenarioFamilyId": "F-PE-P01",
+      "type": "pair",
+      "memberIds": [
+        "TC-081",
+        "TC-082"
+      ],
+      "topicId": "t-7-4",
+      "requiredLevel": "junior",
+      "baseSituation": "Сильный сотрудник стал менее вовлечён и говорит, что думает об уходе; компенсационный диапазон и доступные карьерные возможности одинаковы.",
+      "singleLogicalVariable": "Наличие подтверждённой причины неудовлетворённости",
+      "stateByMember": {
+        "TC-081": "причина не обсуждалась и руководитель располагает только косвенными сигналами",
+        "TC-082": "на 1:1 сотрудник прямо назвал отсутствие автономии главным фактором и подтвердил, что деньги не причина"
+      },
+      "decisionBoundaryByState": {
+        "TC-081": "Сначала провести содержательный 1:1 и установить реальный драйвер.",
+        "TC-082": "Дать больше автономии в подходящем масштабе и договориться о проверке эффекта."
+      },
+      "expectedStrongestShiftConcept": "Диагностика мотива → действие по подтверждённому мотиву.",
+      "factsThatMustRemainConstant": [
+        "Одинаковые доступные карьерные возможности",
+        "Одинаковая компенсация"
+      ],
+      "whyMutationIsControlled": "Меняется только знание причины; нельзя одинаково обоснованно выбирать интервенцию до и после диагностики.",
+      "assessmentEligible": false
+    },
+    {
+      "scenarioFamilyId": "F-BV-P02",
+      "type": "pair",
+      "memberIds": [
+        "TC-083",
+        "TC-084"
+      ],
+      "topicId": "t-8-1",
+      "requiredLevel": "senior",
+      "baseSituation": "Инвестиционный комитет пересматривает начатую инициативу после обновления финансовых предпосылок; оставшаяся стоимость, стратегическая роль и уже потраченные деньги известны.",
+      "singleLogicalVariable": "NPV оставшихся денежных потоков при обновлённых предпосылках",
+      "stateByMember": {
+        "TC-083": "устойчиво положительный и выше альтернативного использования капитала",
+        "TC-084": "отрицательный даже без учёта уже понесённых затрат"
+      },
+      "decisionBoundaryByState": {
+        "TC-083": "Продолжить инвестицию, контролируя ключевые допущения.",
+        "TC-084": "Остановить или радикально пересобрать инициативу; sunk cost не оправдывает дальнейшие расходы."
+      },
+      "expectedStrongestShiftConcept": "Продолжать ↔ остановить/пересобрать.",
+      "factsThatMustRemainConstant": [
+        "Одинаковая оставшаяся стоимость",
+        "Одинаковый sunk cost",
+        "Одинаковая стратегическая роль"
+      ],
+      "whyMutationIsControlled": "Меняется только ожидаемая ценность будущих потоков; прошлые затраты намеренно остаются неизменными.",
+      "assessmentEligible": false
+    }
+  ]
+}

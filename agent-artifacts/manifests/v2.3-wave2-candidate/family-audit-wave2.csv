@@ -1,0 +1,3 @@
+﻿familyId,memberIDs,verdict,singleLogicalVariable,sameTopicDomainLevel,sameActorObjectiveBaseSituation,constantsPreserved,meaningfulStrongestShift,hiddenExtraMutations,evidence
+F-PR-P01,"[""TC-106"", ""TC-107""]",PASS,Устойчивость bottleneck во времени,PASS,PASS,"Original WIP, priority, team + identical facts 2/3",help2 at 20 vs automation at 40 instead of help4 at 100,0,boundary-checks.json
+F-PE-P03,"[""TC-257"", ""TC-258""]",UNRESOLVED,Характер проблемного поведения после прямого feedback и поддержки,UNCHANGED,,All rows and contract exactly identical to seed,Not independently distinct from TC-097 in proposed redesign; draft rejected,0,rejected-drafts-wave2.json

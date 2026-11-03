@@ -1,0 +1,1219 @@
+[
+  {
+    "trial": "221-PROXY",
+    "corpus": "production",
+    "retrieval": {
+      "plannedId": "TC-221",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-094",
+          "retrievalScore": 10.30692,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "две",
+            "для",
+            "доступно",
+            "недели",
+            "следующей",
+            "тест"
+          ]
+        },
+        {
+          "id": "TC-024",
+          "retrievalScore": 9.18671,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "для",
+            "размер",
+            "тестом"
+          ]
+        },
+        {
+          "id": "TC-075",
+          "retrievalScore": 9.13184,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "поддержки",
+            "тест"
+          ]
+        },
+        {
+          "id": "TC-031",
+          "retrievalScore": 9.047964,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "решения"
+          ]
+        },
+        {
+          "id": "TC-032",
+          "retrievalScore": 9.047964,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "решения"
+          ]
+        },
+        {
+          "id": "TC-025",
+          "retrievalScore": 5.55194,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis",
+            "reversible-investment"
+          ],
+          "sharedTerms": [
+            "две",
+            "действия",
+            "для",
+            "квартал",
+            "первой",
+            "поведения",
+            "проверить",
+            "следующей",
+            "тест"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    "sameTopicAndPrimarySafetyIncluded": true,
+    "reviewStatus": "Counterexample search; no exhaustive uniqueness PASS claimed for rejected drafts."
+  },
+  {
+    "trial": "221-PROXY",
+    "corpus": "planned",
+    "retrieval": {
+      "plannedId": "TC-221",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-261",
+          "retrievalScore": 17.423179,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "выбирает",
+            "две",
+            "для",
+            "недели",
+            "результата",
+            "решения",
+            "тест",
+            "через"
+          ]
+        },
+        {
+          "id": "TC-248",
+          "retrievalScore": 16.264928,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "между",
+            "проверить",
+            "проверки",
+            "считать",
+            "через"
+          ]
+        },
+        {
+          "id": "TC-164",
+          "retrievalScore": 13.077,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis",
+            "reversible-investment"
+          ],
+          "sharedTerms": [
+            "выбирает",
+            "для"
+          ]
+        },
+        {
+          "id": "TC-295",
+          "retrievalScore": 11.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-195",
+          "retrievalScore": 10.42696,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "выбирает",
+            "для",
+            "недели",
+            "ограничить",
+            "проверки",
+            "решения",
+            "тест",
+            "через"
+          ]
+        },
+        {
+          "id": "TC-263",
+          "retrievalScore": 10.137956,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "полной",
+            "считать"
+          ]
+        },
+        {
+          "id": "TC-172",
+          "retrievalScore": 9.128307,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "размер",
+            "считать"
+          ]
+        },
+        {
+          "id": "TC-186",
+          "retrievalScore": 8.424152,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "выбирает",
+            "новой",
+            "первой",
+            "поддержки",
+            "проверить",
+            "тест",
+            "через"
+          ]
+        },
+        {
+          "id": "TC-285",
+          "retrievalScore": 7.263285,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "доказательством",
+            "завершение",
+            "решения",
+            "считать"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-172",
+        "TC-186",
+        "TC-221",
+        "TC-285"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    "sameTopicAndPrimarySafetyIncluded": true,
+    "reviewStatus": "Counterexample search; no exhaustive uniqueness PASS claimed for rejected drafts."
+  },
+  {
+    "trial": "221-COHORT",
+    "corpus": "production",
+    "retrieval": {
+      "plannedId": "TC-221",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-094",
+          "retrievalScore": 10.530286,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "все",
+            "доступное",
+            "его",
+            "займёт",
+            "зафиксировать",
+            "окно",
+            "подготовить",
+            "сейчас",
+            "только"
+          ]
+        },
+        {
+          "id": "TC-075",
+          "retrievalScore": 9.305604,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "все",
+            "изменения",
+            "поддержки",
+            "сейчас",
+            "эффект"
+          ]
+        },
+        {
+          "id": "TC-031",
+          "retrievalScore": 9.126781,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "все",
+            "зафиксировать"
+          ]
+        },
+        {
+          "id": "TC-024",
+          "retrievalScore": 9.105109,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "только",
+            "эффект"
+          ]
+        },
+        {
+          "id": "TC-032",
+          "retrievalScore": 9.06923,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "зафиксировать"
+          ]
+        },
+        {
+          "id": "TC-100",
+          "retrievalScore": 3.300385,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "baseline",
+            "более",
+            "его",
+            "нужно",
+            "окно"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    "sameTopicAndPrimarySafetyIncluded": true,
+    "reviewStatus": "Counterexample search; no exhaustive uniqueness PASS claimed for rejected drafts."
+  },
+  {
+    "trial": "221-COHORT",
+    "corpus": "planned",
+    "retrieval": {
+      "plannedId": "TC-221",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-195",
+          "retrievalScore": 17.446334,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "внедрения",
+            "выбирает",
+            "менеджер",
+            "потребует",
+            "сейчас",
+            "только",
+            "эффект"
+          ]
+        },
+        {
+          "id": "TC-261",
+          "retrievalScore": 10.683399,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "выбирает",
+            "доступное",
+            "его",
+            "зафиксировать",
+            "команды",
+            "нужно",
+            "окно",
+            "потребует",
+            "результата",
+            "сейчас",
+            "эффект"
+          ]
+        },
+        {
+          "id": "TC-263",
+          "retrievalScore": 10.037978,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "нужно"
+          ]
+        },
+        {
+          "id": "TC-248",
+          "retrievalScore": 9.343588,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "между",
+            "оценить",
+            "переноса",
+            "подбор"
+          ]
+        },
+        {
+          "id": "TC-172",
+          "retrievalScore": 9.037978,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "нужно"
+          ]
+        },
+        {
+          "id": "TC-295",
+          "retrievalScore": 9.037978,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "нужно"
+          ]
+        },
+        {
+          "id": "TC-275",
+          "retrievalScore": 8.46391,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "возможность",
+            "выбирает",
+            "его",
+            "изменения",
+            "команды",
+            "менеджер",
+            "поддержки",
+            "только"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-275",
+        "TC-295"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    "sameTopicAndPrimarySafetyIncluded": true,
+    "reviewStatus": "Counterexample search; no exhaustive uniqueness PASS claimed for rejected drafts."
+  },
+  {
+    "trial": "263-SEGMENT",
+    "corpus": "production",
+    "retrieval": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-094",
+          "retrievalScore": 12.399819,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "гипотезы",
+            "данных",
+            "для",
+            "окно",
+            "пользователей",
+            "тест",
+            "теста"
+          ]
+        },
+        {
+          "id": "TC-032",
+          "retrievalScore": 11.239013,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "заранее",
+            "продуктовое",
+            "результат",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-031",
+          "retrievalScore": 11.210906,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "есть",
+            "заранее",
+            "продуктовое",
+            "результат"
+          ]
+        },
+        {
+          "id": "TC-075",
+          "retrievalScore": 11.210005,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "данных",
+            "заранее",
+            "изменения",
+            "тест"
+          ]
+        },
+        {
+          "id": "TC-024",
+          "retrievalScore": 11.181549,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "для",
+            "заранее",
+            "после",
+            "продуктовое"
+          ]
+        },
+        {
+          "id": "TC-025",
+          "retrievalScore": 3.34461,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "данных",
+            "для",
+            "отдельную",
+            "пользователей",
+            "тест",
+            "эту"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    "sameTopicAndPrimarySafetyIncluded": true,
+    "reviewStatus": "Counterexample search; no exhaustive uniqueness PASS claimed for rejected drafts."
+  },
+  {
+    "trial": "263-SEGMENT",
+    "corpus": "planned",
+    "retrieval": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-261",
+          "retrievalScore": 19.625713,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis",
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "выбирает",
+            "для",
+            "заранее",
+            "или",
+            "новый",
+            "окно",
+            "пользователей",
+            "после",
+            "сохранить",
+            "тест",
+            "теста",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-248",
+          "retrievalScore": 16.388544,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "данных",
+            "или",
+            "пользователей",
+            "после",
+            "проверку",
+            "теста",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-164",
+          "retrievalScore": 14.21727,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis",
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "вместо",
+            "выбирает",
+            "действует",
+            "дизайна",
+            "для",
+            "заранее",
+            "или",
+            "механизм",
+            "общего",
+            "ограниченное",
+            "окно",
+            "отдельную",
+            "повтор",
+            "после",
+            "прежнего",
+            "проверку",
+            "сегмента",
+            "сохранить",
+            "теста"
+          ]
+        },
+        {
+          "id": "TC-295",
+          "retrievalScore": 13.200632,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "hypothesis",
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "заранее",
+            "после",
+            "сохранить",
+            "теста"
+          ]
+        },
+        {
+          "id": "TC-221",
+          "retrievalScore": 12.168585,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "заранее",
+            "сохранить",
+            "тест"
+          ]
+        },
+        {
+          "id": "TC-172",
+          "retrievalScore": 11.211456,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "большой",
+            "пользователей",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-195",
+          "retrievalScore": 10.522288,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "выбирает",
+            "вывод",
+            "для",
+            "есть",
+            "общего",
+            "общий",
+            "после",
+            "работы",
+            "тест",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-186",
+          "retrievalScore": 8.522306,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "выбирает",
+            "гипотезы",
+            "заранее",
+            "механизм",
+            "проверку",
+            "сегмента",
+            "тест",
+            "теста"
+          ]
+        },
+        {
+          "id": "TC-285",
+          "retrievalScore": 7.112718,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "новый",
+            "результат"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-172",
+        "TC-186",
+        "TC-195",
+        "TC-285"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    "sameTopicAndPrimarySafetyIncluded": true,
+    "reviewStatus": "Counterexample search; no exhaustive uniqueness PASS claimed for rejected drafts."
+  },
+  {
+    "trial": "263-REVERSE",
+    "corpus": "production",
+    "retrieval": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-094",
+          "retrievalScore": 12.556316,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "rollout",
+            "двух",
+            "для",
+            "конверсия",
+            "метрике",
+            "метрики",
+            "нет",
+            "пользователей",
+            "тест",
+            "теста"
+          ]
+        },
+        {
+          "id": "TC-075",
+          "retrievalScore": 11.469739,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "вывода",
+            "заранее",
+            "изменения",
+            "метрики",
+            "можно",
+            "нет",
+            "поддержки",
+            "тест",
+            "эффект"
+          ]
+        },
+        {
+          "id": "TC-024",
+          "retrievalScore": 11.340871,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "rollout",
+            "для",
+            "заранее",
+            "после",
+            "рассчитанного",
+            "решение",
+            "эффект"
+          ]
+        },
+        {
+          "id": "TC-032",
+          "retrievalScore": 11.203109,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "заранее",
+            "метрики",
+            "решение",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-031",
+          "retrievalScore": 11.139527,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "заранее",
+            "метрики",
+            "решение"
+          ]
+        },
+        {
+          "id": "TC-025",
+          "retrievalScore": 3.178383,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "для",
+            "можно",
+            "пользователей",
+            "тест"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    "sameTopicAndPrimarySafetyIncluded": true,
+    "reviewStatus": "Counterexample search; no exhaustive uniqueness PASS claimed for rejected drafts."
+  },
+  {
+    "trial": "263-REVERSE",
+    "corpus": "planned",
+    "retrieval": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-261",
+          "retrievalScore": 20.547223,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis",
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "rollout",
+            "выбирает",
+            "для",
+            "заранее",
+            "или",
+            "исходного",
+            "контроля",
+            "метрики",
+            "можно",
+            "наблюдение",
+            "общая",
+            "общей",
+            "одновременно",
+            "оплатить",
+            "откат",
+            "полный",
+            "пользователей",
+            "после",
+            "потребует",
+            "решение",
+            "сезона",
+            "старой",
+            "тест",
+            "теста",
+            "эффект",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-248",
+          "retrievalScore": 16.528623,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "rollout",
+            "больше",
+            "двух",
+            "или",
+            "общей",
+            "полный",
+            "пользователей",
+            "после",
+            "теста",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-164",
+          "retrievalScore": 13.540982,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis",
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "rollout",
+            "вместо",
+            "выбирает",
+            "для",
+            "заранее",
+            "или",
+            "исходного",
+            "можно",
+            "после",
+            "теста",
+            "эффект"
+          ]
+        },
+        {
+          "id": "TC-295",
+          "retrievalScore": 13.184168,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "hypothesis",
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "заранее",
+            "можно",
+            "после",
+            "теста"
+          ]
+        },
+        {
+          "id": "TC-221",
+          "retrievalScore": 12.263216,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "rollout",
+            "заранее",
+            "можно",
+            "решение",
+            "тест"
+          ]
+        },
+        {
+          "id": "TC-172",
+          "retrievalScore": 11.129774,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "precommitted-stop-criteria"
+          ],
+          "sharedTerms": [
+            "пользователей",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-195",
+          "retrievalScore": 10.540326,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "выбирает",
+            "для",
+            "можно",
+            "общей",
+            "полный",
+            "после",
+            "потребует",
+            "решение",
+            "тест",
+            "эффект",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-186",
+          "retrievalScore": 8.582326,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "больше",
+            "выбирает",
+            "заранее",
+            "конверсия",
+            "можно",
+            "новой",
+            "одновременно",
+            "поддержки",
+            "тест",
+            "теста"
+          ]
+        },
+        {
+          "id": "TC-285",
+          "retrievalScore": 7.08905,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "доли"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-172",
+        "TC-186",
+        "TC-195",
+        "TC-285"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    },
+    "sameTopicAndPrimarySafetyIncluded": true,
+    "reviewStatus": "Counterexample search; no exhaustive uniqueness PASS claimed for rejected drafts."
+  }
+]

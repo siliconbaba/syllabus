@@ -1,0 +1,34 @@
+{
+  "status": "LOCKED BEFORE EDITS",
+  "base": "v2.3-hardtail-r2-candidate",
+  "selectedFamilies": [
+    "F-PE-T01",
+    "F-TD-P03"
+  ],
+  "selectedMembers": [
+    "TC-176",
+    "TC-177",
+    "TC-178",
+    "TC-253",
+    "TC-254"
+  ],
+  "memberStatuses": {
+    "TC-176": "UNRESOLVED",
+    "TC-177": "UNRESOLVED",
+    "TC-178": "UNRESOLVED",
+    "TC-253": "UNRESOLVED",
+    "TC-254": "UNRESOLVED"
+  },
+  "additionalSiblings": [],
+  "reopenedAcceptedMembers": [],
+  "scopeExpansionAllowed": false,
+  "whySelected": "Strong source; Middle feasible; whole-family operational axis repair rather than quota/level changes. Includes harder triplet and pair, not all B.",
+  "expectedRepair": {
+    "F-PE-T01": "Replace ready workload thresholds with three distinct admissible workload responses driven by one source-supported variable; reject whole family if third strategy/uniqueness cannot be proven.",
+    "F-TD-P03": "Replace CoD-number flip with structural dependency of candidate review capacity on adjacent flow stage; evaluate whole-flow throughput and opportunity cost under constant methods/costs."
+  },
+  "triageDiagnosis": {
+    "F-PE-T01": "Готовые лимиты 42/50 часов вместе с бесплатным снятием2 и разрешённым переносом8 заранее выбирают стратегию. Нужен единый operational trade-off во всех состояниях, а не исправление только последнего.",
+    "F-TD-P03": "Вся экономика уже свёрнута в40/160 против100; остаётся сравнение двух сумм. Одностороннее добавление новых ограничений разрушит единственную logical variable и symmetric evidence."
+  }
+}

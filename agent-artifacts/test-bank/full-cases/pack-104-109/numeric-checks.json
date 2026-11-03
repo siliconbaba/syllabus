@@ -1,0 +1,70 @@
+{
+  "scope": "Author deterministic verification, not independent content QA",
+  "flowWeeklyRemainders": {
+    "106": {
+      "ordinary": [
+        10,
+        8,
+        6,
+        4
+      ],
+      "twoWeekHelp": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "fourWeekHelp": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "automation": [
+        12,
+        4,
+        0,
+        0
+      ]
+    },
+    "107": {
+      "ordinary": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "twoWeekHelp": [
+        6,
+        4,
+        6,
+        8
+      ],
+      "fourWeekHelp": [
+        6,
+        4,
+        2,
+        0
+      ],
+      "automation": [
+        12,
+        8,
+        4,
+        0
+      ]
+    }
+  },
+  "logs": {
+    "TC-108": {
+      "allBytes": 10000000000,
+      "sampleCount": 100000,
+      "sampleBytes": 100000000
+    },
+    "TC-109": {
+      "allBytes": 500000,
+      "sampleCount": 5,
+      "sampleBytes": 5000
+    }
+  },
+  "candidateSHA256": "6935ee8ee5ab51f78c87bc44b79d30e1edcc3924e35476980471339b7c8b2db1"
+}

@@ -1,0 +1,1246 @@
+{
+  "scope": "TC-101…TC-125 only; no authority over other rows or global completion candidate",
+  "baseline": {
+    "path": "agent-artifacts/manifests/v2.2.3/production_manifest_masterplan_v2_2_3.json",
+    "sha256": "a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1"
+  },
+  "approvedBlueprintSource": {
+    "path": "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json",
+    "sha256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40"
+  },
+  "manifest": [
+    {
+      "plannedId": "TC-101",
+      "batch": "Batch 04",
+      "block": "B04 — Technical Delivery",
+      "partId": "part-3",
+      "topicId": "t-3-3",
+      "oneSentenceScenarioConcept": "Lead TPM выбирает доказательную схему замены движка комиссий: редкие тарифы не набираются в малой canary за доступное окно, а неверные списания недопустимы; скрытый результат сам по себе не блокирует публикацию платёжных команд. Состояние границы эффектов: Проверенный shadow-режим перехватывает все внешние эффекты и сохраняет сравнимость расчёта.",
+      "decisiveFactsConcept": [
+        "Проверенный shadow-режим перехватывает все внешние эффекты и сохраняет сравнимость расчёта.",
+        "Один Lead TPM, одна цель — проверить редкую финансовую логику без повторных списаний; прежний движок остаётся единственным источником клиентского результата.",
+        "Входной поток, тарифы и правила расчёта одинаковы; сравнение расчётов доступно, миграции данных нет; новая версия не получает право реально списывать деньги до завершения доказательства.",
+        "Резерв мощности для двойного вычисления подтверждён; 1% canary не набирает редкие тарифы в отведённый срок; полный пользовательский запуск до сравнения запрещён.",
+        "Есть бюджет двух недель на ограниченную изоляцию имеющегося интерфейса; выделение нового архитектурного интерфейса займёт шесть недель и требует переноса замены. Перенос разрешён; цена задержки одинакова."
+      ],
+      "oneSentenceDecisionBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-testing",
+      "secondaryPatterns": [
+        "safeguards",
+        "feature-flags"
+      ],
+      "structure": "triplet",
+      "scenarioFamilyId": "F-TD-T01",
+      "familyPosition": 1,
+      "decisiveMutationConcept": "Доступная и проверенная граница изоляции внешних эффектов: Проверенный shadow-режим перехватывает все внешние эффекты и сохраняет сравнимость расчёта.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Senior: требуется совместить редкую финансовую логику, полноту побочных эффектов, ограниченную наблюдаемость canary и цену архитектурного перехода. Простого выбора малого процента или проверки rollback недостаточно: скрытый результат может всё равно создать второе списание.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Delivery и релизы",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "systems"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§3.3: dark launch проверяет расчёт на реальном входе без выдачи результата клиенту, но внешние эффекты и двойная нагрузка требуют отдельной защиты; canary может не обнаружить редкий финансовый сценарий."
+    },
+    {
+      "plannedId": "TC-102",
+      "batch": "Batch 04",
+      "block": "B04 — Technical Delivery",
+      "partId": "part-3",
+      "topicId": "t-3-3",
+      "oneSentenceScenarioConcept": "Lead TPM выбирает доказательную схему замены движка комиссий: редкие тарифы не набираются в малой canary за доступное окно, а неверные списания недопустимы; скрытый результат сам по себе не блокирует публикацию платёжных команд. Состояние границы эффектов: Готового shadow-режима нет, но все внешние эффекты проходят через один существующий интерфейс, который можно изолировать за две недели без изменения расчёта.",
+      "decisiveFactsConcept": [
+        "Готового shadow-режима нет, но все внешние эффекты проходят через один существующий интерфейс, который можно изолировать за две недели без изменения расчёта.",
+        "Один Lead TPM, одна цель — проверить редкую финансовую логику без повторных списаний; прежний движок остаётся единственным источником клиентского результата.",
+        "Входной поток, тарифы и правила расчёта одинаковы; сравнение расчётов доступно, миграции данных нет; новая версия не получает право реально списывать деньги до завершения доказательства.",
+        "Резерв мощности для двойного вычисления подтверждён; 1% canary не набирает редкие тарифы в отведённый срок; полный пользовательский запуск до сравнения запрещён.",
+        "Есть бюджет двух недель на ограниченную изоляцию имеющегося интерфейса; выделение нового архитектурного интерфейса займёт шесть недель и требует переноса замены. Перенос разрешён; цена задержки одинакова."
+      ],
+      "oneSentenceDecisionBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-testing",
+      "secondaryPatterns": [
+        "safeguards",
+        "feature-flags"
+      ],
+      "structure": "triplet",
+      "scenarioFamilyId": "F-TD-T01",
+      "familyPosition": 2,
+      "decisiveMutationConcept": "Доступная и проверенная граница изоляции внешних эффектов: Готового shadow-режима нет, но все внешние эффекты проходят через один существующий интерфейс, который можно изолировать за две недели без изменения расчёта.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Senior: требуется совместить редкую финансовую логику, полноту побочных эффектов, ограниченную наблюдаемость canary и цену архитектурного перехода. Простого выбора малого процента или проверки rollback недостаточно: скрытый результат может всё равно создать второе списание.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Delivery и релизы",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "systems"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§3.3: dark launch проверяет расчёт на реальном входе без выдачи результата клиенту, но внешние эффекты и двойная нагрузка требуют отдельной защиты; canary может не обнаружить редкий финансовый сценарий."
+    },
+    {
+      "plannedId": "TC-103",
+      "batch": "Batch 04",
+      "block": "B04 — Technical Delivery",
+      "partId": "part-3",
+      "topicId": "t-3-3",
+      "oneSentenceScenarioConcept": "Lead TPM выбирает доказательную схему замены движка комиссий: редкие тарифы не набираются в малой canary за доступное окно, а неверные списания недопустимы; скрытый результат сам по себе не блокирует публикацию платёжных команд. Состояние границы эффектов: Часть внешних эффектов идёт в обход доступного интерфейса; их нельзя изолировать конфигурацией или существующим адаптером, сначала нужен новый архитектурный шов.",
+      "decisiveFactsConcept": [
+        "Часть внешних эффектов идёт в обход доступного интерфейса; их нельзя изолировать конфигурацией или существующим адаптером, сначала нужен новый архитектурный шов.",
+        "Один Lead TPM, одна цель — проверить редкую финансовую логику без повторных списаний; прежний движок остаётся единственным источником клиентского результата.",
+        "Входной поток, тарифы и правила расчёта одинаковы; сравнение расчётов доступно, миграции данных нет; новая версия не получает право реально списывать деньги до завершения доказательства.",
+        "Резерв мощности для двойного вычисления подтверждён; 1% canary не набирает редкие тарифы в отведённый срок; полный пользовательский запуск до сравнения запрещён.",
+        "Есть бюджет двух недель на ограниченную изоляцию имеющегося интерфейса; выделение нового архитектурного интерфейса займёт шесть недель и требует переноса замены. Перенос разрешён; цена задержки одинакова."
+      ],
+      "oneSentenceDecisionBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-testing",
+      "secondaryPatterns": [
+        "safeguards",
+        "feature-flags"
+      ],
+      "structure": "triplet",
+      "scenarioFamilyId": "F-TD-T01",
+      "familyPosition": 3,
+      "decisiveMutationConcept": "Доступная и проверенная граница изоляции внешних эффектов: Часть внешних эффектов идёт в обход доступного интерфейса; их нельзя изолировать конфигурацией или существующим адаптером, сначала нужен новый архитектурный шов.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Senior: требуется совместить редкую финансовую логику, полноту побочных эффектов, ограниченную наблюдаемость canary и цену архитектурного перехода. Простого выбора малого процента или проверки rollback недостаточно: скрытый результат может всё равно создать второе списание.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Delivery и релизы",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "systems"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§3.3: dark launch проверяет расчёт на реальном входе без выдачи результата клиенту, но внешние эффекты и двойная нагрузка требуют отдельной защиты; canary может не обнаружить редкий финансовый сценарий."
+    },
+    {
+      "plannedId": "TC-104",
+      "batch": "Batch 04",
+      "block": "B01 — Project Management",
+      "partId": "part-2",
+      "topicId": "t-2-6",
+      "oneSentenceScenarioConcept": "Junior PM обновляет запись риска отказа внешнего канала до следующего запуска: сигнал резервирования появляется за 3 рабочих дня до возможного отказа, ранний проверенный индикатор — за 7; владелец просит проверить, успеет ли подготовленный fallback. Подготовка fallback занимает 1 рабочий день.",
+      "decisiveFactsConcept": [
+        "Подготовка fallback занимает 1 рабочий день.",
+        "Один Junior PM, один owner, одно событие ещё не наступило; задача — проверить время запуска заранее утверждённого response, а не переоценивать вероятность.",
+        "Поздний сигнал даёт 3 рабочих дня, ранний — 7; оба источника наблюдаемы, ранний признан достаточным для подготовки резерва.",
+        "Ранний запуск связывает резерв раньше и потому применяется только если позднего сигнала недостаточно; стоимость и допустимость раннего резервирования уже согласованы."
+      ],
+      "oneSentenceDecisionBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+      "domain": "risk_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "risk-register",
+      "secondaryPatterns": [
+        "early-warning-response"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-PM-P01",
+      "familyPosition": 1,
+      "decisiveMutationConcept": "Длительность подготовки одного и того же fallback: Подготовка fallback занимает 1 рабочий день.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Junior: дано явное время до события и длительность готовой меры; требуется сравнить 1/5 с 3/7 и выбрать предусмотренный сигнал. Не нужно моделировать вероятность, бюджет или несколько зависимостей.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Управление проектами",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§2.6: реестр должен содержать наблюдаемый trigger и исполнимый response; опережающие индикаторы полезны тем, что дают время отреагировать до события."
+    },
+    {
+      "plannedId": "TC-105",
+      "batch": "Batch 04",
+      "block": "B01 — Project Management",
+      "partId": "part-2",
+      "topicId": "t-2-6",
+      "oneSentenceScenarioConcept": "Junior PM обновляет запись риска отказа внешнего канала до следующего запуска: сигнал резервирования появляется за 3 рабочих дня до возможного отказа, ранний проверенный индикатор — за 7; владелец просит проверить, успеет ли подготовленный fallback. Подготовка fallback занимает 5 рабочих дней.",
+      "decisiveFactsConcept": [
+        "Подготовка fallback занимает 5 рабочих дней.",
+        "Один Junior PM, один owner, одно событие ещё не наступило; задача — проверить время запуска заранее утверждённого response, а не переоценивать вероятность.",
+        "Поздний сигнал даёт 3 рабочих дня, ранний — 7; оба источника наблюдаемы, ранний признан достаточным для подготовки резерва.",
+        "Ранний запуск связывает резерв раньше и потому применяется только если позднего сигнала недостаточно; стоимость и допустимость раннего резервирования уже согласованы."
+      ],
+      "oneSentenceDecisionBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+      "domain": "risk_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "risk-register",
+      "secondaryPatterns": [
+        "early-warning-response"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-PM-P01",
+      "familyPosition": 2,
+      "decisiveMutationConcept": "Длительность подготовки одного и того же fallback: Подготовка fallback занимает 5 рабочих дней.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Junior: дано явное время до события и длительность готовой меры; требуется сравнить 1/5 с 3/7 и выбрать предусмотренный сигнал. Не нужно моделировать вероятность, бюджет или несколько зависимостей.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Управление проектами",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§2.6: реестр должен содержать наблюдаемый trigger и исполнимый response; опережающие индикаторы полезны тем, что дают время отреагировать до события."
+    },
+    {
+      "plannedId": "TC-106",
+      "batch": "Batch 04",
+      "block": "B05 — Processes",
+      "partId": "part-3",
+      "topicId": "t-3-7",
+      "oneSentenceScenarioConcept": "Delivery manager выбирает временную помощь или изменение мощности стадии ревью при одинаковой очереди и обязательствах.",
+      "decisiveFactsConcept": [
+        "Дисбаланс временный: после разового пика поступит 12 задач в первую неделю, затем подтверждённый вход возвращается к 8 задачам в неделю.",
+        "Перед ревью стоит 8 сопоставимых задач, обычная мощность — 10 в неделю; WIP-limit и приоритеты сохраняются. Очередь не должна превысить 14 и должна быть снята к концу четвёртой недели; качество всех мер одинаково.",
+        "Доступны два взаимоисключающих плана. Помощь reviewer даёт +4 задачи/неделю на первые две недели и стоит 20 единиц упущенной работы; продление ещё на две стоит дополнительно 80. Автоматизация типовой проверки стоит 40 единиц, снижает мощность до 8 в первую неделю, затем повышает её до 16. Эффект проверен, возврат после настройки бесплатен; ограничить приём ниже подтверждённого спроса нельзя, иных мер в этом цикле нет."
+      ],
+      "oneSentenceDecisionBoundary": "Взять помощь reviewer на две недели без продления: очередь уйдёт к концу второй недели, дальнейший обычный режим устойчив. Не оплачивать постоянное расширение ради уже заканчивающегося пика.",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "bottleneck",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-PR-P01",
+      "familyPosition": 1,
+      "decisiveMutationConcept": "Дисбаланс временный: после разового пика поступит 12 задач в первую неделю, затем подтверждённый вход возвращается к 8 задачам в неделю.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Middle: сопоставить динамику очереди на четырёх неделях, временную потерю мощности при настройке и цену отвлечения reviewer; выбрать выполнимый план под длительность дисбаланса.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "dependencies",
+      "derivedRuntimeSecondaryThinking": [
+        "proportionality"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "t-3-7: если причина структурная. Middle: сопоставить динамику очереди на четырёх неделях, временную потерю мощности при настройке и цену отвлечения reviewer; выбрать выполнимый план под длительность дисбаланса. Конкретные условия, величины и доступные действия — авторские, не утверждения учебника."
+    },
+    {
+      "plannedId": "TC-107",
+      "batch": "Batch 04",
+      "block": "B05 — Processes",
+      "partId": "part-3",
+      "topicId": "t-3-7",
+      "oneSentenceScenarioConcept": "Delivery manager выбирает временную помощь или изменение мощности стадии ревью при одинаковой очереди и обязательствах.",
+      "decisiveFactsConcept": [
+        "Дисбаланс устойчивый: подтверждённый вход остаётся 12 задач в неделю весь четырёхнедельный период и далее.",
+        "Перед ревью стоит 8 сопоставимых задач, обычная мощность — 10 в неделю; WIP-limit и приоритеты сохраняются. Очередь не должна превысить 14 и должна быть снята к концу четвёртой недели; качество всех мер одинаково.",
+        "Доступны два взаимоисключающих плана. Помощь reviewer даёт +4 задачи/неделю на первые две недели и стоит 20 единиц упущенной работы; продление ещё на две стоит дополнительно 80. Автоматизация типовой проверки стоит 40 единиц, снижает мощность до 8 в первую неделю, затем повышает её до 16. Эффект проверен, возврат после настройки бесплатен; ограничить приём ниже подтверждённого спроса нельзя, иных мер в этом цикле нет."
+      ],
+      "oneSentenceDecisionBoundary": "Выделить первую неделю на автоматизацию типовой проверки: временно принять очередь 12, затем снять её за три недели. Не покупать повторяющуюся помощь, суммарная цена которой 100 при цене устойчивой меры 40.",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "bottleneck",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-PR-P01",
+      "familyPosition": 2,
+      "decisiveMutationConcept": "Дисбаланс устойчивый: подтверждённый вход остаётся 12 задач в неделю весь четырёхнедельный период и далее.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Middle: сопоставить динамику очереди на четырёх неделях, временную потерю мощности при настройке и цену отвлечения reviewer; выбрать выполнимый план под длительность дисбаланса.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "dependencies",
+      "derivedRuntimeSecondaryThinking": [
+        "proportionality"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "t-3-7: если причина структурная. Middle: сопоставить динамику очереди на четырёх неделях, временную потерю мощности при настройке и цену отвлечения reviewer; выбрать выполнимый план под длительность дисбаланса. Конкретные условия, величины и доступные действия — авторские, не утверждения учебника."
+    },
+    {
+      "plannedId": "TC-108",
+      "batch": "Batch 04",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-10",
+      "topicId": "t-10-4",
+      "oneSentenceScenarioConcept": "Delivery Manager с SRE выбирает режим хранения диагностических записей одного класса за неделю при лимите 1 ГБ: нужен не только счётчик, но и не менее 100 полных примеров для разбора, если события произошли; остальные потоки уже оптимизированы. За неделю возникает 10 000 000 событий этого класса.",
+      "decisiveFactsConcept": [
+        "За неделю возникает 10 000 000 событий этого класса.",
+        "Те же DM и SRE, класс события, недельное окно расследования и размер записи 1 КБ; записи структурированы, без ПДн, связаны trace ID, другой источник подробностей отсутствует.",
+        "Лимит 1 ГБ на этот класс фиксирован; увеличить его в текущем периоде нельзя; агрегированные метрики сохраняют точный счётчик при любом режиме.",
+        "Доступны сохранение всех записей или каждого сотого экземпляра, настройка срока хранения и отключение подробностей с сохранением метрик. Расследование по итогам недели требует не менее100 репрезентативных полных примеров с охватом всей недели; восстановить удалённые записи нельзя. Поток равномерный по времени."
+      ],
+      "oneSentenceDecisionBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-PA-P02",
+      "familyPosition": 1,
+      "decisiveMutationConcept": "Частота событий одного диагностического класса за неделю: За неделю возникает 10 000 000 событий этого класса.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Middle: выбрать режим между расходом ограниченного хранения и достаточностью расследования; одновременно проверить размер потока и число сохраняемых примеров. Нельзя сокращать телеметрию одним процентом независимо от частоты.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "proportionality",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§10.4: подробные логи нужны для разбора отдельных событий, но требуют sampling и ограниченного хранения; объём телеметрии не равен качеству расследования."
+    },
+    {
+      "plannedId": "TC-109",
+      "batch": "Batch 04",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-10",
+      "topicId": "t-10-4",
+      "oneSentenceScenarioConcept": "Delivery Manager с SRE выбирает режим хранения диагностических записей одного класса за неделю при лимите 1 ГБ: нужен не только счётчик, но и не менее 100 полных примеров для разбора, если события произошли; остальные потоки уже оптимизированы. За неделю возникает 500 событий этого класса.",
+      "decisiveFactsConcept": [
+        "За неделю возникает 500 событий этого класса.",
+        "Те же DM и SRE, класс события, недельное окно расследования и размер записи 1 КБ; записи структурированы, без ПДн, связаны trace ID, другой источник подробностей отсутствует.",
+        "Лимит 1 ГБ на этот класс фиксирован; увеличить его в текущем периоде нельзя; агрегированные метрики сохраняют точный счётчик при любом режиме.",
+        "Доступны сохранение всех записей или каждого сотого экземпляра, настройка срока хранения и отключение подробностей с сохранением метрик. Расследование по итогам недели требует не менее100 репрезентативных полных примеров с охватом всей недели; восстановить удалённые записи нельзя. Поток равномерный по времени."
+      ],
+      "oneSentenceDecisionBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "structure": "pair",
+      "scenarioFamilyId": "F-PA-P02",
+      "familyPosition": 2,
+      "decisiveMutationConcept": "Частота событий одного диагностического класса за неделю: За неделю возникает 500 событий этого класса.",
+      "trainingEligible": true,
+      "assessmentEligible": false,
+      "whyLevel": "Middle: выбрать режим между расходом ограниченного хранения и достаточностью расследования; одновременно проверить размер потока и число сохраняемых примеров. Нельзя сокращать телеметрию одним процентом независимо от частоты.",
+      "futureContextSensitivityCandidate": true,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "proportionality",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§10.4: подробные логи нужны для разбора отдельных событий, но требуют sampling и ограниченного хранения; объём телеметрии не равен качеству расследования."
+    },
+    {
+      "plannedId": "TC-110",
+      "batch": "Batch 04",
+      "block": "B04 — Technical Delivery",
+      "partId": "part-10",
+      "topicId": "t-10-1",
+      "oneSentenceScenarioConcept": "Middle TPM видит сервис с локальной памятью сессий, который не масштабируется простым добавлением копий; нагрузка растёт, а состояние можно вынести во внешнее хранилище; нужно решить, покупать ли ещё большие серверы или убрать stateful bottleneck.",
+      "decisiveFactsConcept": [
+        "Состояние хранится локально",
+        "Горизонтальное масштабирование ограничено",
+        "Внешнее хранилище доступно"
+      ],
+      "oneSentenceDecisionBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "bottleneck",
+        "migration-strategy"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "dependencies",
+        "systems"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-111",
+      "batch": "Batch 04",
+      "block": "B05 — Processes",
+      "partId": "part-4",
+      "topicId": "t-4-3",
+      "oneSentenceScenarioConcept": "Head выбирает последовательность перехода трёх продуктов на LeSS: бюджеты принадлежат шести департаментам, полномочный единый PO не может появиться без решения CFO; ограниченная координация ART уже позволяет выполнить ближайшие квартальные обязательства.",
+      "decisiveFactsConcept": [
+        "LeSS требует общего продуктового backlog и PO с правом отклонять запросы; нынешняя бюджетная модель такого права не даёт.",
+        "Реформа продуктового финансирования требует двух кварталов; запуск обучения LeSS сейчас не меняет права департаментов.",
+        "Head может предложить CFO этапы финансирования трансформации; ближайшие обязательства обеспечиваются текущей облегчённой координацией, её стоимость известна."
+      ],
+      "oneSentenceDecisionBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "team-topologies",
+      "secondaryPatterns": [
+        "change-management",
+        "resource-conflict"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Head: выбор последовательности бюджетной и организационной реформы с условием следующей инвестиции; Senior может настроить координацию, но не устранит автономные бюджеты и не утвердит права продуктового владельца.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "organization",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": "Head: выбор последовательности бюджетной и организационной реформы с условием следующей инвестиции; Senior может настроить координацию, но не устранит автономные бюджеты и не утвердит права продуктового владельца.",
+      "authorityScope": "Мандат Head на предложение CFO/правлению продуктового финансирования и этапов инвестиции в трансформацию; бюджеты департаментов не отменяются единолично.",
+      "secondaryEffect": "Сохранить поставку на переходе и не потратить обучение/реорганизацию на конструкцию без реальных полномочий.",
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§4.3 связывает реализуемость LeSS с единым продуктовым бюджетом и полномочным PO; организационные предпосылки должны предшествовать масштабированию фреймворка."
+    },
+    {
+      "plannedId": "TC-112",
+      "batch": "Batch 04",
+      "block": "B06 — Stakeholders",
+      "partId": "part-6",
+      "topicId": "t-6-1",
+      "oneSentenceScenarioConcept": "Middle PM обнаруживает, что бизнес-заказчик ждёт «полный запуск» в дату, а команда считает датой только техническую готовность backend; до обещания клиентам пять дней; нужно решить, продолжать работу или сначала синхронизировать определение milestone.",
+      "decisiveFactsConcept": [
+        "Две стороны по-разному понимают milestone",
+        "Внешнее обещание ещё не дано",
+        "Разница влияет на scope запуска"
+      ],
+      "oneSentenceDecisionBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "expectation-management",
+      "secondaryPatterns": [
+        "communications"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Стейкхолдеры",
+      "derivedRuntimePrimaryThinking": "stakeholders",
+      "derivedRuntimeSecondaryThinking": [
+        "stakeholders"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§6.1 задаёт стороны коммуникации; проверяемая граница — согласование ожиданий до обещания по §6.2, а не сообщение о срыве."
+    },
+    {
+      "plannedId": "TC-113",
+      "batch": "Batch 04",
+      "block": "B07 — People",
+      "partId": "part-7",
+      "topicId": "t-7-4",
+      "oneSentenceScenarioConcept": "Руководитель команды согласует удержание сильного PM после stay interview: человек доказал готовность к следующему масштабу, но в команде год не будет ни позиции, ни подходящей программы; соседний продукт предлагает такой scope и готов дать четыре недели на передачу.",
+      "decisiveFactsConcept": [
+        "Причина — подтверждённый карьерный потолок, не неизвестная мотивация; готовность к следующему scope доказана.",
+        "Внутренних задач роста и вакансий на год нет; повышение оплаты не меняет этот факт.",
+        "Есть согласованный принимающий руководитель и четырёхнедельная передача с доступным заместителем; бессрочное удержание может потерять сотрудника для компании."
+      ],
+      "oneSentenceDecisionBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "expectation-management",
+      "secondaryPatterns": [
+        "one-on-one",
+        "support"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Middle: совместить честное карьерное ограничение с непрерывностью delivery через конкретный handover; диагноз уже известен, повторный разговор о мотивации не снимает потолок.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Люди",
+      "derivedRuntimePrimaryThinking": "stakeholders",
+      "derivedRuntimeSecondaryThinking": [
+        "stakeholders",
+        "stakeholders"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§7.4 допускает честное отпускание сильного сотрудника и помощь с переходом при реальном потолке; удержание любой ценой не заменяет доступного роста."
+    },
+    {
+      "plannedId": "TC-114",
+      "batch": "Batch 04",
+      "block": "B08 — Business & Vendors",
+      "partId": "part-8",
+      "topicId": "t-8-2",
+      "oneSentenceScenarioConcept": "Middle PM видит отклонение +12% по статье подрядчика, но общий EAC пока в бюджете благодаря недорасходу инфраструктуры; нужно решить, считать ли проект «красным» только по одной статье или управлять план-фактом и прогнозом до завершения.",
+      "decisiveFactsConcept": [
+        "Одна статья +12%",
+        "Общий EAC в пределах бюджета",
+        "Перераспределение между статьями допустимо по правилам"
+      ],
+      "oneSentenceDecisionBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "forecast",
+        "quality-metrics"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Финансы и подрядчики",
+      "derivedRuntimePrimaryThinking": "evidence",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence",
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-115",
+      "batch": "Batch 04",
+      "block": "B09 — Portfolio & Organization",
+      "partId": "part-10",
+      "topicId": "t-10-6",
+      "oneSentenceScenarioConcept": "Incident manager выбирает план восстановления двух потоков на одном сервисе: вернуть платежи и выписки одновременно за 20 минут либо запустить платежи на 8-й минуте, отложив полное восстановление выписок до 40-й; ранний частичный запуск занимает общего инженера и удлиняет оставшуюся работу.",
+      "decisiveFactsConcept": [
+        "Для обоих потоков действуют RTO 60 минут и RPO 0; оба плана испытаны, не теряют записи и укладываются в ограничения. Incident command и коммуникации уже организованы.",
+        "Цельный план возвращает оба потока на 20-й минуте; поэтапный — платежи на 8-й, выписки на 40-й. Один квалифицированный инженер выполняет восстановление и сверку: планы нельзя совместить или распараллелить; указанные сроки включают сверку и одинаковые проверки безопасности.",
+        "До восстановления платежей подтверждённый ущерб составляет 10 тыс. ₽/мин, до восстановления выписок — 2 тыс. ₽/мин; потоки ущерба независимы, ставки сохраняются в пределах часа, иных различающихся последствий у планов нет."
+      ],
+      "oneSentenceDecisionBoundary": "Выбрать поэтапное восстановление: выигрыш от возврата платежей на 12 минут раньше перевешивает ущерб от задержки выписок на 20 минут (160 против 240 тыс. ₽ суммарно); оставить инженера на завершении и сверке выписок, отдельно сообщая частичное и полное восстановление. Минимальный срок возврата всего сервиса здесь не минимизирует ущерб.",
+      "domain": "incident_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "cost-of-delay",
+      "secondaryPatterns": [
+        "mitigation",
+        "resource-conflict"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Middle: сопоставить последствия двух исполнимых планов по времени восстановления каждого потока и суммарному ущербу, приняв осознанное удлинение полного восстановления при общей исполнительской мощности. Проверки RTO/RPO и выбора минимального общего срока недостаточно: оба плана допустимы, но более быстрый целиком обходится дороже.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "prioritization",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§10.6 ставит остановку ущерба перед полным восстановлением и отдельно рассматривает TTM и TTR; это поддерживает выбор плана по снижению влияния, а не только сроку полного возврата. RTO/RPO сохраняются обязательными ограничениями; конкретные сроки и ставки ущерба — факты учебного сценария."
+    },
+    {
+      "plannedId": "TC-116",
+      "batch": "Batch 04",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-10",
+      "topicId": "t-10-4",
+      "oneSentenceScenarioConcept": "Senior TPM обнаруживает персональные данные в логах, которые помогают расследовать инциденты, но нарушают принцип минимизации; нужно решить, сохранять ли raw payload ради observability.",
+      "decisiveFactsConcept": [
+        "Логи полезны для диагностики",
+        "Содержат персональные данные",
+        "Trace ID позволяет коррелировать без raw payload"
+      ],
+      "oneSentenceDecisionBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "safeguards",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§10.4: диагностическая корреляция через trace ID сохраняется при минимизации и маскировании payload; safeguards относится к защите данных, не к распределению полномочий."
+    },
+    {
+      "plannedId": "TC-117",
+      "batch": "Batch 04",
+      "block": "B01 — Project Management",
+      "partId": "part-2",
+      "topicId": "t-2-6",
+      "oneSentenceScenarioConcept": "Senior PM наблюдает, что три early-warning indicator по одному риску ухудшаются две недели, хотя сам risk event ещё не наступил; response plan дорог и частично обратим; нужно решить, запускать ли mitigation до триггера.",
+      "decisiveFactsConcept": [
+        "Три сигнала устойчиво ухудшаются",
+        "Событие ещё не произошло",
+        "Mitigation частично обратим"
+      ],
+      "oneSentenceDecisionBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+      "domain": "risk_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "mitigation",
+        "risk-register"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно работать с системной причиной или существенной неопределённостью, учитывать вторичные последствия и сохранять несколько вариантов решения.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Управление проектами",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-118",
+      "batch": "Batch 04",
+      "block": "B09 — Portfolio & Organization",
+      "partId": "part-9",
+      "topicId": "t-9-3",
+      "oneSentenceScenarioConcept": "Lead TPM пересобирает scope крупной партнёрской интеграции, которая третий квартал не проходит WSJF по размеру: деление на UI/API/данные создаёт маленькие карточки без самостоятельной ценности, но каталог с существующей оплатой уже позволяет реальные продажи.",
+      "decisiveFactsConcept": [
+        "Ценность инициативы и спрос подтверждены; это не проверка продуктовой гипотезы.",
+        "Технические слои по отдельности не дают продаж и зависят друг от друга; вертикальный каталог+оплата даёт самостоятельную часть эффекта.",
+        "Общий обязательный интерфейс и его стоимость включены в первую вертикаль; остаток можно отложить без нарушения её работы, но переучесть ценность дважды нельзя."
+      ],
+      "oneSentenceDecisionBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+      "domain": "portfolio_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "dependency-management",
+        "cost-of-delay"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Senior: нужно изменить единицу инвестиционного решения, удержать общие зависимости и не задвоить выгоды; расчёт готовых баллов уровня Middle не определяет, какая часть реально самостоятельна и как остаток меняет портфель.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Портфель и стратегия",
+      "derivedRuntimePrimaryThinking": "prioritization",
+      "derivedRuntimeSecondaryThinking": [
+        "dependencies",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§9.3 предлагает разбиение крупной интеграции на части, которые дают ценность раньше; рейтинг служит переговорам о scope, а не только очереди."
+    },
+    {
+      "plannedId": "TC-119",
+      "batch": "Batch 04",
+      "block": "B03 — Delivery & Release",
+      "partId": "part-3",
+      "topicId": "t-3-2",
+      "oneSentenceScenarioConcept": "Lead TPM проектирует межкомандный contract gate: проверки приложения зелёные, но backend после них изменил API; бессрочный статус passed позволяет выпустить непроверенную пару версий, а полный регресс всех продуктов на каждое изменение слишком дорог.",
+      "decisiveFactsConcept": [
+        "Проверка выполнилась на прежней версии API; provider изменился после неё, изменение затрагивает используемый consumer contract.",
+        "Есть версия артефакта provider и каталог затронутых consumers; автоматический targeted contract suite помещается в релизное окно.",
+        "Команды уже умеют проходить gate; проблема не в rollout readiness и не в проценте покрытия, а во времени жизни доказательства."
+      ],
+      "oneSentenceDecisionBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+      "domain": "delivery_quality",
+      "requiredLevel": "senior",
+      "primaryPattern": "api-contracts",
+      "secondaryPatterns": [
+        "versioning",
+        "evidence-before-release"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Senior: нужен механизм согласования жизни доказательств между независимыми релизами; одиночная ручная перепроверка не закрывает повторение гонки, а глобальный регресс создаёт лишнюю связность и задержку.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "dependencies",
+      "derivedRuntimeSecondaryThinking": [
+        "systems",
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§3.2 требует contract checks на актуальном API и уведомление consumers при изменении; зелёная проверка прежней версии не доказывает готовность новой связки."
+    },
+    {
+      "plannedId": "TC-120",
+      "batch": "Batch 04",
+      "block": "B05 — Processes",
+      "partId": "part-4",
+      "topicId": "t-4-3",
+      "oneSentenceScenarioConcept": "Head пересматривает operating model ART после трёх PI: в продуктовые обязательства каждый раз включают 100% номинальной capacity, а IP-итерация уходит на доделки; обучение и интеграционные улучшения вытесняются, хотя связи между командами уже выявляются вовремя.",
+      "decisiveFactsConcept": [
+        "Зависимости известны и отслеживаются; расширять PI Planning или уменьшать число команд не требуется.",
+        "IP-итерация числится в календаре, но те же люди на неё обещаны в feature commitments; KPI лидов по утилизации закрепляет двойное бронирование.",
+        "Head владеет политикой расчёта commitment capacity и системой целей лидов; защищаемые IP outcomes и их стоимость можно показывать отдельно."
+      ],
+      "oneSentenceDecisionBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "resource-conflict",
+      "secondaryPatterns": [
+        "change-management",
+        "process-economics"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Head: меняется общая модель обязательств и стимулы руководителей ART, а не расписание одной команды; Senior не устранит двойное бронирование без authority на capacity policy и оценку лидов.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "prioritization",
+      "derivedRuntimeSecondaryThinking": [
+        "organization",
+        "proportionality"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": "Head: меняется общая модель обязательств и стимулы руководителей ART, а не расписание одной команды; Senior не устранит двойное бронирование без authority на capacity policy и оценку лидов.",
+      "authorityScope": "Head устанавливает правила определения доступной capacity и цели руководителей ART; изменения внешних обязательств согласуются с их владельцами.",
+      "secondaryEffect": "Меньше номинальных feature promises сейчас, но восстановление способности обучаться и улучшать интеграцию; IP оценивается по результату, а не по свободным часам.",
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§4.3 описывает IP как пространство инноваций/планирования и называет её поглощение доделками провалом SAFe; framework не заменяет решений об организационной ёмкости."
+    },
+    {
+      "plannedId": "TC-121",
+      "batch": "Batch 04",
+      "block": "B06 — Stakeholders",
+      "partId": "part-6",
+      "topicId": "t-6-6",
+      "oneSentenceScenarioConcept": "Middle PM договаривается с внутренним заказчиком о scope: обе стороны называют позиции, но интерес бизнеса — успеть к кампании, а интерес команды — не менять горячий платёжный путь; нужно решить, торговаться пунктами или искать обмен интересами.",
+      "decisiveFactsConcept": [
+        "Позиции конфликтуют",
+        "Глубинные интересы различимы",
+        "Есть несколько способов сохранить дату"
+      ],
+      "oneSentenceDecisionBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "interest-based-negotiation",
+      "secondaryPatterns": [],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Стейкхолдеры",
+      "derivedRuntimePrimaryThinking": "stakeholders",
+      "derivedRuntimeSecondaryThinking": [],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-122",
+      "batch": "Batch 04",
+      "block": "B07 — People",
+      "partId": "part-7",
+      "topicId": "t-7-6",
+      "oneSentenceScenarioConcept": "DM закрывает успешно выполненный PIP и планирует следующую неделю сотрудника: сохранить самостоятельное ведение освоенного проекта и подключить его к новой межкомандной передаче, распределив два часа наставника между привычным сплошным ревью и поддержкой новой ответственности.",
+      "decisiveFactsConcept": [
+        "Все согласованные цели PIP выполнены; последние четыре недели сотрудник самостоятельно и без исправлений ведёт текущий проект. План закрывается по согласованному правилу; обязательные проверки проекта остаются, сплошное ревью наставником было дополнительной поддержкой.",
+        "На следующей неделе нужно сохранить текущие обязательства и провести первую передачу во второй проект. На репетиции сотрудник верно подготовил результат, но пропустил подтверждение готовности принимающей команды; перенести передачу без сдвига обязательства нельзя.",
+        "Наставник располагает только двумя часами: столько требует либо дополнительное ревью всей текущей работы, либо совместная подготовка и наблюдение первой межкомандной передачи с обратной связью. Сотрудник успевает выполнить оба обязательства, но наставник не может подхватить за него ведение проектов или предоставить оба вида поддержки."
+      ],
+      "oneSentenceDecisionBoundary": "Закрыть PIP, сохранить самостоятельное ведение освоенного проекта со штатными проверками и перенаправить два часа наставника на подготовку и первую передачу во второй проект; подтвердить самостоятельность на следующей передаче по готовности принимающей команды. Не тратить весь ресурс на уже освоенную работу и не считать успешный PIP доказательством готовности к любой новой ответственности.",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "formal-performance-management",
+      "secondaryPatterns": [
+        "performance",
+        "expectation-management",
+        "resource-conflict"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Middle: развести доказанный результат завершённого PIP и наблюдаемый пробел в новой ответственности; распределить ограниченную поддержку так, чтобы сохранить самостоятельную производительность и выполнить ближайшую передачу. Junior-правило «выполнен — закрыть» определяет статус, но не решает, от какого дополнительного контроля отказаться и куда направить наставника при двух обязательствах.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Люди",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "organization",
+        "stakeholders",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§7.6 требует закрывать выполненный PIP, различать причины затруднения и давать поддержку по реальному пробелу навыка (обучение, менторство). Здесь успех в освоенной работе и пропуск на новой передаче требуют разной поддержки; объём доступного времени и два обязательства являются авторскими условиями, а не нормой учебника."
+    },
+    {
+      "plannedId": "TC-123",
+      "batch": "Batch 04",
+      "block": "B08 — Business & Vendors",
+      "partId": "part-8",
+      "topicId": "t-8-1",
+      "oneSentenceScenarioConcept": "Middle PM сравнивает две инициативы: одна окупается за шесть месяцев, но затем почти не даёт выгоды; другая окупается за два года и имеет больший положительный NPV; нужно решить, использовать ли payback как единственный критерий.",
+      "decisiveFactsConcept": [
+        "Payback различается",
+        "NPV второй выше",
+        "Горизонт инвестиций одинаков"
+      ],
+      "oneSentenceDecisionBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "cost-of-delay"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Финансы и подрядчики",
+      "derivedRuntimePrimaryThinking": "prioritization",
+      "derivedRuntimeSecondaryThinking": [
+        "prioritization",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-124",
+      "batch": "Batch 04",
+      "block": "B09 — Portfolio & Organization",
+      "partId": "part-10",
+      "topicId": "t-10-6",
+      "oneSentenceScenarioConcept": "Junior duty manager видит инцидент после релиза, но причина ещё неизвестна; один инженер хочет час дебажить, хотя безопасный rollback занимает пять минут; нужно решить, что важнее в первые минуты.",
+      "decisiveFactsConcept": [
+        "Impact продолжается",
+        "Rollback безопасен и быстрый",
+        "Root cause неизвестен"
+      ],
+      "oneSentenceDecisionBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+      "domain": "incident_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "risk-based-hotfix",
+      "secondaryPatterns": [
+        "rollback",
+        "mitigation"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    {
+      "plannedId": "TC-125",
+      "batch": "Batch 04",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-10",
+      "topicId": "t-10-7",
+      "oneSentenceScenarioConcept": "Head согласует с руководителем ИБ новую модель assurance: security champions уже встроены в команды, низкорисковые изменения автоматизированы, но авторы высокорисковых изменений сами подтверждают соблюдение требований под давлением продуктовых KPI; выборочный независимый аудит обнаружил пропуски.",
+      "decisiveFactsConcept": [
+        "Узкого места массовых типовых reviews уже нет; дефицит — независимость решения по high-risk changes, а не скорость очереди.",
+        "Champions компетентны и полезны для раннего design review, но подчинены тем же delivery целям, что авторы изменений.",
+        "Есть бюджет на ограниченную независимую функцию проверки high-risk и аудита; возвращать все low-risk изменения в центральную очередь не требуется."
+      ],
+      "oneSentenceDecisionBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+      "domain": "technical_delivery",
+      "requiredLevel": "head",
+      "primaryPattern": "roles",
+      "secondaryPatterns": [
+        "accountability",
+        "safeguards"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Head: проектируется разделение delivery и независимого контроля соседней функции, включая бюджет и отчётность; технический checklist или локальное делегирование Senior не устраняют институциональный конфликт интересов.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Технический TPM",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "organization",
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": "Head: проектируется разделение delivery и независимого контроля соседней функции, включая бюджет и отчётность; технический checklist или локальное делегирование Senior не устраняют институциональный конфликт интересов.",
+      "authorityScope": "Совместное решение Head, руководителя ИБ и общего спонсора о защищённой capacity, независимости оценки и модели отчётности; Head не присваивает полномочия ИБ.",
+      "secondaryEffect": "Не потерять независимость ради скорости и не вернуть low-risk поток в ручную очередь; измерять пропущенные critical findings и время high-risk release.",
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§10.7 связывает Head-решения с балансом embedded ИБ и независимого контроля; разделение обязанностей и аудит дополняют least privilege и автоматизацию."
+    }
+  ],
+  "familyManifest": [
+    {
+      "scenarioFamilyId": "F-TD-T01",
+      "type": "triplet",
+      "memberIds": [
+        "TC-101",
+        "TC-102",
+        "TC-103"
+      ],
+      "topicId": "t-3-3",
+      "requiredLevel": "senior",
+      "baseSituation": "Lead TPM выбирает доказательную схему замены движка комиссий: редкие тарифы не набираются в малой canary за доступное окно, а неверные списания недопустимы; скрытый результат сам по себе не блокирует публикацию платёжных команд.",
+      "singleLogicalVariable": "Доступная и проверенная граница изоляции внешних эффектов",
+      "stateByMember": {
+        "TC-101": "Проверенный shadow-режим перехватывает все внешние эффекты и сохраняет сравнимость расчёта.",
+        "TC-102": "Готового shadow-режима нет, но все внешние эффекты проходят через один существующий интерфейс, который можно изолировать за две недели без изменения расчёта.",
+        "TC-103": "Часть внешних эффектов идёт в обход доступного интерфейса; их нельзя изолировать конфигурацией или существующим адаптером, сначала нужен новый архитектурный шов."
+      },
+      "decisionBoundaryByState": {
+        "TC-101": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+        "TC-102": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+        "TC-103": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным."
+      },
+      "expectedStrongestShiftConcept": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор. ↔ До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе. ↔ Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+      "factsThatMustRemainConstant": [
+        "Один Lead TPM, одна цель — проверить редкую финансовую логику без повторных списаний; прежний движок остаётся единственным источником клиентского результата.",
+        "Входной поток, тарифы и правила расчёта одинаковы; сравнение расчётов доступно, миграции данных нет; новая версия не получает право реально списывать деньги до завершения доказательства.",
+        "Резерв мощности для двойного вычисления подтверждён; 1% canary не набирает редкие тарифы в отведённый срок; полный пользовательский запуск до сравнения запрещён.",
+        "Есть бюджет двух недель на ограниченную изоляцию имеющегося интерфейса; выделение нового архитектурного интерфейса займёт шесть недель и требует переноса замены. Перенос разрешён; цена задержки одинакова.",
+        "Общий набор стратегий: использовать проверенную изоляцию и shadow; достроить изоляцию существующей границы и затем shadow; сначала архитектурно отделить внешние эффекты и перенести shadow."
+      ],
+      "whyMutationIsControlled": "Меняется только состояние границы изоляции. Сроки и бюджеты каждого способа фиксированы для всех siblings; деньги, трафик, роль, задача и стратегия сравнения не меняются.",
+      "assessmentEligible": false,
+      "boundary1": "Граница уже изолирована и проверена ↔ существует, но требует адаптера.",
+      "boundary2": "Все эффекты доступны на существующей границе ↔ часть обходит её и требует архитектурного разделения.",
+      "threeDistinctStrategies": [
+        "use-proven-shadow-isolation",
+        "build-adapter-at-existing-boundary",
+        "separate-effects-before-shadow"
+      ]
+    },
+    {
+      "scenarioFamilyId": "F-PM-P01",
+      "type": "pair",
+      "memberIds": [
+        "TC-104",
+        "TC-105"
+      ],
+      "topicId": "t-2-6",
+      "requiredLevel": "junior",
+      "baseSituation": "Junior PM обновляет запись риска отказа внешнего канала до следующего запуска: сигнал резервирования появляется за 3 рабочих дня до возможного отказа, ранний проверенный индикатор — за 7; владелец просит проверить, успеет ли подготовленный fallback.",
+      "singleLogicalVariable": "Длительность подготовки одного и того же fallback",
+      "stateByMember": {
+        "TC-104": "Подготовка fallback занимает 1 рабочий день.",
+        "TC-105": "Подготовка fallback занимает 5 рабочих дней."
+      },
+      "decisionBoundaryByState": {
+        "TC-104": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+        "TC-105": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно."
+      },
+      "expectedStrongestShiftConcept": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно. ↔ Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+      "factsThatMustRemainConstant": [
+        "Один Junior PM, один owner, одно событие ещё не наступило; задача — проверить время запуска заранее утверждённого response, а не переоценивать вероятность.",
+        "Поздний сигнал даёт 3 рабочих дня, ранний — 7; оба источника наблюдаемы, ранний признан достаточным для подготовки резерва.",
+        "Ранний запуск связывает резерв раньше и потому применяется только если позднего сигнала недостаточно; стоимость и допустимость раннего резервирования уже согласованы.",
+        "Одни и те же варианты: оставить поздний trigger; перенести trigger подготовки на ранний индикатор. Нельзя ускорить сам response дополнительными людьми."
+      ],
+      "whyMutationIsControlled": "Меняется только время подготовки fallback — 1 или 5 дней; сроки сигналов, риск, владелец, доступность резерва и policy выбора сигнала фиксированы.",
+      "assessmentEligible": false,
+      "boundary1": "Response помещается в 3 дня после позднего сигнала ↔ требует раннего 7-дневного индикатора."
+    },
+    {
+      "scenarioFamilyId": "F-PR-P01",
+      "type": "pair",
+      "memberIds": [
+        "TC-106",
+        "TC-107"
+      ],
+      "topicId": "t-3-7",
+      "requiredLevel": "middle",
+      "baseSituation": "На одной стадии потока выросла очередь; WIP-лимиты, приоритеты и состав команды известны.",
+      "singleLogicalVariable": "Устойчивость bottleneck во времени",
+      "stateByMember": {
+        "TC-106": "Дисбаланс временный: после разового пика поступит 12 задач в первую неделю, затем подтверждённый вход возвращается к 8 задачам в неделю.",
+        "TC-107": "Дисбаланс устойчивый: подтверждённый вход остаётся 12 задач в неделю весь четырёхнедельный период и далее."
+      },
+      "decisionBoundaryByState": {
+        "TC-106": "Взять помощь reviewer на две недели без продления: очередь уйдёт к концу второй недели, дальнейший обычный режим устойчив. Не оплачивать постоянное расширение ради уже заканчивающегося пика.",
+        "TC-107": "Выделить первую неделю на автоматизацию типовой проверки: временно принять очередь 12, затем снять её за три недели. Не покупать повторяющуюся помощь, суммарная цена которой 100 при цене устойчивой меры 40."
+      },
+      "expectedStrongestShiftConcept": "Временный дисбаланс: двухнедельная помощь 20 без продления; устойчивый: настройка постоянной мощности 40 с допустимым переходным ростом очереди вместо помощи 100.",
+      "factsThatMustRemainConstant": [
+        "Одинаковый WIP-limit",
+        "Одинаковая приоритизация",
+        "Одинаковая команда",
+        "Перед ревью стоит 8 сопоставимых задач, обычная мощность — 10 в неделю; WIP-limit и приоритеты сохраняются. Очередь не должна превысить 14 и должна быть снята к концу четвёртой недели; качество всех мер одинаково.",
+        "Доступны два взаимоисключающих плана. Помощь reviewer даёт +4 задачи/неделю на первые две недели и стоит 20 единиц упущенной работы; продление ещё на две стоит дополнительно 80. Автоматизация типовой проверки стоит 40 единиц, снижает мощность до 8 в первую неделю, затем повышает её до 16. Эффект проверен, возврат после настройки бесплатен; ограничить приём ниже подтверждённого спроса нельзя, иных мер в этом цикле нет."
+      ],
+      "whyMutationIsControlled": "Меняется только длительность дисбаланса входа и обычной мощности: одна неделя либо весь горизонт. Начальная очередь, первая неделя, команда, WIP, приоритеты, меры, цена и переходная мощность одинаковы.",
+      "assessmentEligible": false,
+      "boundary1": "Возвращается ли вход к 8 после первой недели либо сохраняет 12 на всём горизонте.",
+      "strategySpace": [
+        "Двухнедельная помощь с возможным платным продлением",
+        "Настройка постоянной мощности с потерей части первой недели",
+        "Обычная мощность без изменения"
+      ]
+    },
+    {
+      "scenarioFamilyId": "F-PA-P02",
+      "type": "pair",
+      "memberIds": [
+        "TC-108",
+        "TC-109"
+      ],
+      "topicId": "t-10-4",
+      "requiredLevel": "middle",
+      "baseSituation": "Delivery Manager с SRE выбирает режим хранения диагностических записей одного класса за неделю при лимите 1 ГБ: нужен не только счётчик, но и не менее 100 полных примеров для разбора, если события произошли; остальные потоки уже оптимизированы.",
+      "singleLogicalVariable": "Частота событий одного диагностического класса за неделю",
+      "stateByMember": {
+        "TC-108": "За неделю возникает 10 000 000 событий этого класса.",
+        "TC-109": "За неделю возникает 500 событий этого класса."
+      },
+      "decisionBoundaryByState": {
+        "TC-108": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+        "TC-109": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство."
+      },
+      "expectedStrongestShiftConcept": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит. ↔ Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+      "factsThatMustRemainConstant": [
+        "Те же DM и SRE, класс события, недельное окно расследования и размер записи 1 КБ; записи структурированы, без ПДн, связаны trace ID, другой источник подробностей отсутствует.",
+        "Лимит 1 ГБ на этот класс фиксирован; увеличить его в текущем периоде нельзя; агрегированные метрики сохраняют точный счётчик при любом режиме.",
+        "Доступны сохранение всех записей или каждого сотого экземпляра, настройка срока хранения и отключение подробностей с сохранением метрик. Расследование по итогам недели требует не менее100 репрезентативных полных примеров с охватом всей недели; восстановить удалённые записи нельзя. Поток равномерный по времени.",
+        "Распределение подтипов одинаковое; систематического смещения выборки нет; меняется только частота событий."
+      ],
+      "whyMutationIsControlled": "Меняется только число событий; объём хранения и размер выборки — вычисляемые следствия, а не дополнительные mutations. Одинаковы инструмент, лимит, размер записи, diagnostic minimum, actor и доступные режимы.",
+      "assessmentEligible": false,
+      "boundary1": "Полный поток превышает лимит, а выборка достаточна ↔ полный поток помещается, а выборка недостаточна."
+    }
+  ],
+  "changedFamilyDesigns": [
+    {
+      "scenarioFamilyId": "F-TD-T01",
+      "status": "surgical-blocker-redesign-v2.2.4-candidate",
+      "singleLogicalVariable": "Доступная и проверенная граница изоляции внешних эффектов",
+      "expectedStrongestShiftConcept": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор. ↔ До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе. ↔ Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным."
+    },
+    {
+      "scenarioFamilyId": "F-PM-P01",
+      "status": "surgical-blocker-redesign-v2.2.4-candidate",
+      "singleLogicalVariable": "Длительность подготовки одного и того же fallback",
+      "expectedStrongestShiftConcept": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно. ↔ Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно."
+    },
+    {
+      "scenarioFamilyId": "F-PR-P01",
+      "status": "redesigned",
+      "singleLogicalVariable": "Устойчивость bottleneck во времени",
+      "expectedStrongestShiftConcept": "Локальное снятие временного пика ↔ структурное изменение ограничения."
+    },
+    {
+      "scenarioFamilyId": "F-PA-P02",
+      "status": "surgical-blocker-redesign-v2.2.4-candidate",
+      "singleLogicalVariable": "Частота событий одного диагностического класса за неделю",
+      "expectedStrongestShiftConcept": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит. ↔ Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство."
+    }
+  ],
+  "headAudit": [
+    {
+      "plannedId": "TC-111",
+      "topicId": "t-4-3",
+      "block": "B05 — Processes",
+      "domain": "organizational_design",
+      "oneSentenceScenarioConcept": "Head выбирает последовательность перехода трёх продуктов на LeSS: бюджеты принадлежат шести департаментам, полномочный единый PO не может появиться без решения CFO; ограниченная координация ART уже позволяет выполнить ближайшие квартальные обязательства.",
+      "whyHead": "Head: выбор последовательности бюджетной и организационной реформы с условием следующей инвестиции; Senior может настроить координацию, но не устранит автономные бюджеты и не утвердит права продуктового владельца.",
+      "authorityScope": "Мандат Head на предложение CFO/правлению продуктового финансирования и этапов инвестиции в трансформацию; бюджеты департаментов не отменяются единолично.",
+      "secondaryEffect": "Сохранить поставку на переходе и не потратить обучение/реорганизацию на конструкцию без реальных полномочий.",
+      "globalAuditLevelVerdict": "PASS — author blueprint audit"
+    },
+    {
+      "plannedId": "TC-120",
+      "topicId": "t-4-3",
+      "block": "B05 — Processes",
+      "domain": "organizational_design",
+      "oneSentenceScenarioConcept": "Head пересматривает operating model ART после трёх PI: в продуктовые обязательства каждый раз включают 100% номинальной capacity, а IP-итерация уходит на доделки; обучение и интеграционные улучшения вытесняются, хотя связи между командами уже выявляются вовремя.",
+      "whyHead": "Head: меняется общая модель обязательств и стимулы руководителей ART, а не расписание одной команды; Senior не устранит двойное бронирование без authority на capacity policy и оценку лидов.",
+      "authorityScope": "Head устанавливает правила определения доступной capacity и цели руководителей ART; изменения внешних обязательств согласуются с их владельцами.",
+      "secondaryEffect": "Меньше номинальных feature promises сейчас, но восстановление способности обучаться и улучшать интеграцию; IP оценивается по результату, а не по свободным часам.",
+      "globalAuditLevelVerdict": "PASS — author blueprint audit"
+    },
+    {
+      "plannedId": "TC-125",
+      "topicId": "t-10-7",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "domain": "technical_delivery",
+      "oneSentenceScenarioConcept": "Head согласует с руководителем ИБ новую модель assurance: security champions уже встроены в команды, низкорисковые изменения автоматизированы, но авторы высокорисковых изменений сами подтверждают соблюдение требований под давлением продуктовых KPI; выборочный независимый аудит обнаружил пропуски.",
+      "whyHead": "Head: проектируется разделение delivery и независимого контроля соседней функции, включая бюджет и отчётность; технический checklist или локальное делегирование Senior не устраняют институциональный конфликт интересов.",
+      "authorityScope": "Совместное решение Head, руководителя ИБ и общего спонсора о защищённой capacity, независимости оценки и модели отчётности; Head не присваивает полномочия ИБ.",
+      "secondaryEffect": "Не потерять независимость ради скорости и не вернуть low-risk поток в ручную очередь; измерять пропущенные critical findings и время high-risk release.",
+      "globalAuditLevelVerdict": "PASS — author blueprint audit"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "status": "FIX REQUIRED",
+  "scope": "Independent assembled content and scoped projection. Surface heuristics separately reviewed.",
+  "candidatePath": "agent-artifacts/test-bank/batch-05-completion05-r2/cases.json",
+  "candidateSHA256": "8152ee72ad2c00a85cdedd13b75d18c71c92f74e33a7a8828e76c32a9e0466db",
+  "acceptedCaseIDs": [
+    "TC-126",
+    "TC-127",
+    "TC-128",
+    "TC-129",
+    "TC-130",
+    "TC-131",
+    "TC-132",
+    "TC-133",
+    "TC-134",
+    "TC-135",
+    "TC-136",
+    "TC-137",
+    "TC-138",
+    "TC-139",
+    "TC-140",
+    "TC-142",
+    "TC-143",
+    "TC-144",
+    "TC-145",
+    "TC-146",
+    "TC-147",
+    "TC-148",
+    "TC-149",
+    "TC-150"
+  ],
+  "remainingCaseIDs": [
+    "TC-141"
+  ],
+  "remainingIssueIDs": [
+    "ASSEMBLED05-141-A"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 0
+  },
+  "inputs": {
+    "agent-artifacts/manifests/batch-05-scoped-candidate/batch05-projection.json": "34ce9ac63224be5c9cafd15ddd0aa275ad438b07f0e4415b039bcf6753671ea7",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+    "agent-artifacts/manifests/v2.2.3/production_manifest_masterplan_v2_2_3.json": "a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1",
+    "agent-artifacts/test-bank/batch-05-completion05/cases.json": "71a10a8d213a12322f52ec3a21311bee826333e9e50115a085b7ea944ff5f634",
+    "agent-artifacts/test-bank/batch-05-completion05/lineage.json": "cab45d96e05f7a89ec5601d11153bd7f9ea2ea62f68c73894b0a3f93d41258ae",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+    "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/project-completion/qa-assembled05-content-r2/lineage-evidence.json": "b79a21e1e797ccbfc2d4bc22232c3b0f32c9efceafbc95f6244356beec6330ec"
+  },
+  "gates": {
+    "lineage": "All 25 accepted original case and verdict hashes confirmed. Original→R1: 87 whyNotBest fields in 22 cases and only their revision increments. TC-135/145/146 unchanged. Inherited blind choices by action identity. R2→R1: 9 cases consistently permuted within four families, six new keyed texts in standalones, revision +1 for each affected case. No scoring, WHEN, trace or manifest identity changes.",
+    "whyNotBest": "All 87 reviewed against option and scenario. TC126–128: total-cost lines cross at 2.5,32,48; 126.A comparative refers to duty versus weekly, not perpetual optimum. 129–130: break-even cancellation 20; 131–132: queue, ready suite, equivalent manual coverage and hourly bypass. 133–134: conditional authority and indivisible intervals. 136–140: data boundary, incentives, launch horizon and budget, same-order acceptance, access exception capacity. 141–144: whole-period staffing regime, indivisible quarterly portfolio, launch authority, transactional durability. 147–150: leadership capacity, bounded useful hours, precollection necessity, ownership/contract versus deployment. No changed whyNotBest overturns its best, score, or source evidence.",
+    "R2VisibleAnswers": "TC-138 preserves acceptance, internal training and separate acceleration. TC-139 gives one owner for acceptance of one end-to-end order after local checks. TC-142 protects mandatory work and selects incident remediation. TC-143 keeps flag off pending owner decision using readiness report. TC-149 keeps owner justification before collection, exceptions and sampling. TC-141 needs local fix below.",
+    "sourceAndBlueprint": "Part/topic, classification, eligibility and families matched all 25 C05 rows and source catalogue/article IDs. Unchanged approved source traces inherited; new field explanations draw on conditions supplied by each case.",
+    "scopedProjection": "Exact ordered C05 subsets for all 25 rows, 4 families, 4 compact designs and scoped Head audit. Frozen base and working source references/hash match. No actual freeze performed.",
+    "duplication": "No repeated exact context, question or option across unrelated cases. Semantic cross-check: 126–128 routing vs 131–132 test readiness vs 148 useful capacity; 133/134 dependency-conditioned approval vs 140 risk delegation vs 143 explicit launch ownership; 135 precedence cycle vs 139 end-to-end verification vs 144 durable send intent vs 150 module ownership. 136 institutionalizes an evidence path; 137 corrects incident incentives, 149 corrects data collection before launch. No new duplicate decision. Previous source/analog QA retained.",
+    "runtime": "R2 exact candidate Swift/schema PASS. Surface statistics outside this review."
+  },
+  "issues": [
+    {
+      "id": "ASSEMBLED05-141-A",
+      "caseID": "TC-141",
+      "field": "options.A.text",
+      "evidence": "The full-credit action now chooses the forecast after duty is assigned. In the 6–8 week dedicated-team branch duty will not be assigned. The original accepted action was triggered by a decision ABOUT duty, which covers both outcomes.",
+      "minimalFix": "Use «после решения о дежурстве» or «когда станет известен режим команды»; retain two conditional reserves and one final plan.",
+      "requiredRetest": "Both staffing outcomes produce a final forecast; exact delta and revised candidate hash."
+    }
+  ],
+  "importEligible": false,
+  "freezePerformed": false
+}

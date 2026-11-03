@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "caseId": "TC-211",
+      "characters": {
+        "A": 83,
+        "B": 125,
+        "C": 93,
+        "D": 104
+      },
+      "key": "B",
+      "keyLongest": true
+    },
+    {
+      "caseId": "TC-237",
+      "characters": {
+        "A": 90,
+        "B": 96,
+        "C": 115,
+        "D": 110
+      },
+      "key": "C",
+      "keyLongest": true
+    },
+    {
+      "caseId": "TC-174",
+      "characters": {
+        "A": 70,
+        "B": 75,
+        "C": 81,
+        "D": 91
+      },
+      "key": "B",
+      "keyLongest": false
+    },
+    {
+      "caseId": "TC-116",
+      "characters": {
+        "A": 117,
+        "B": 115,
+        "C": 154,
+        "D": 141
+      },
+      "key": "C",
+      "keyLongest": true
+    },
+    {
+      "caseId": "TC-162",
+      "characters": {
+        "A": 128,
+        "B": 111,
+        "C": 119,
+        "D": 152
+      },
+      "key": "D",
+      "keyLongest": true
+    }
+  ],
+  "keys": [
+    "B",
+    "C",
+    "B",
+    "C",
+    "D"
+  ],
+  "longestHeuristicCorrect": 4,
+  "interpretation": "4/5 longest keys persists; diagnostic only. Revised116 C154 versus D141 both specify operational plan and endpoint; no uniquely nuanced answer. Stated facts enumerate both compliant plans but require capacity feasibility and full-loss choice; no answer-label leakage. Distinct distractor errors. No stronger 78-rule claim than R1.",
+  "intraBatch": "All four changed116 relationships reviewed:211 two-stage risk policy;237 recovery impact by segment;174 recurring batching costs;162 telemetry observer feedback. No duplicate boundary."
+}

@@ -1,0 +1,41 @@
+{
+  "status": "CONTENT ACCEPTED",
+  "verdict": "PASS",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pair-runner-131-132-r2/cases.json",
+  "candidateSHA256": "d0ca90bc810be5ba43f2f213f9150b1b20612db993b07fa275ae0869c76c3f3f",
+  "baselineCandidateSHA256": "2f0b00710599b25a53ec93df508c9435e42d10cf63ae97ca4a8f424fd61da45f",
+  "baseQA": "agent-artifacts/project-completion/qa-runner131/QA-verdict.json",
+  "baseQASHA256": "b9cbb3302009a6bd7294e75b2faf363647e0bdcaa404819455d38680788845e7",
+  "manifestSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "acceptedCaseIDs": [
+    "TC-131",
+    "TC-132"
+  ],
+  "remainingCaseIDs": [],
+  "remainingIssueIDs": [],
+  "closedIssues": [
+    "FDRP02-01"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Focused review of both members F-DR-P02 against C03. Isolated training content eligibility, before all Batch 05 gates.",
+  "gates": {
+    "diff": "TC-132 raw object identical; TC-131 only revision and D option.",
+    "keys": "Blind C/B retained. In 131 revised D pays QA12 + CI2 + 4.5 hours at 10 = 59. C27 < B32 < A47 < D59; DQ 1 > .8 > .55 > .4. 132 unchanged B32 < A107 < C117, smoke insufficient.",
+    "manifest": "Approved third distractor of 131 realized. QA and shared CI both required with only shared CI authorized makes whole revised D best. All C03 member strategies match.",
+    "singleMutation": "Only automation coverage differs in context; question and comparable A/B/C unchanged; D varies exactly as required by per-member strategySpace, never threatens the winner.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "inheritance": "Source t-3-9, level, duplicate review, remainder of both items and original blind evidence inherited from hash-bound R1."
+  },
+  "importEligible": false,
+  "contentEligibleForBatchAssembly": true,
+  "productionImported": false,
+  "readyToFreeze": false
+}

@@ -1,0 +1,74 @@
+{
+  "status": "TECHNICAL PASS — candidate, pending joint independent QA",
+  "manifestDefectConfirmed": true,
+  "changedPlannedRows": 1,
+  "changedIDs": [
+    "TC-085"
+  ],
+  "unchangedPlannedRows": 274,
+  "changedFamilyContracts": 0,
+  "unchangedFamilyContracts": 43,
+  "unexpectedSemanticDiff": 0,
+  "allowedOtherChanges": [
+    "manifestVersion label",
+    "thinking coverage caused solely by TC-085"
+  ],
+  "historicalProvenanceNote": "Inherited freezeProvenance and earlier revision records describe baseline v2.2.2 only; this candidate is not frozen.",
+  "structure": {
+    "planned": 275,
+    "standalone": 181,
+    "linked": 94,
+    "pairs": 35,
+    "triplets": 8,
+    "batches": 11,
+    "batchSize": 25
+  },
+  "batch03": {
+    "cases": 25,
+    "standalone": 16,
+    "linked": 9,
+    "families": 4,
+    "levels": {
+      "head": 3,
+      "junior": 5,
+      "middle": 12,
+      "senior": 5
+    }
+  },
+  "eligibilityUnchanged": true,
+  "validPartTopic": true,
+  "familyConsistency": true,
+  "noSplitFamily": true,
+  "runtime": "PASS compiled actual production Swift",
+  "unknownCodes": 0,
+  "engineWeightVerification": "PASS: all 300 impulse responses",
+  "headFeasibility": {
+    "breadthDomains": [
+      "project",
+      "processes",
+      "stakeholders",
+      "people",
+      "finance",
+      "portfolio",
+      "technical",
+      "product"
+    ],
+    "breadthMet": true,
+    "eligibleCount": 200,
+    "excludedMetadataCount": 0,
+    "headDomainEvidence": 3,
+    "maximumSyntheticLevel": "head",
+    "minimumLevelEvidence": 5,
+    "note": "Synthetic perfect responses test structural feasibility only, not learner proficiency."
+  },
+  "productionUnchanged": true,
+  "candidateFrozen": false,
+  "sourceGrounding": "SUPPORTED",
+  "middleRealization": "PASS (author self-check)",
+  "TC085vsTC004": "ALLOWED REINFORCEMENT",
+  "crossBankNearDuplicates": 0,
+  "crossBankDuplicates": 0,
+  "comparisonScope": 299,
+  "readyForFocusedQA": true,
+  "unresolvedIDs": []
+}

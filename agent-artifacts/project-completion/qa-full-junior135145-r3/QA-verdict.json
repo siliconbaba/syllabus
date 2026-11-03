@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/junior-135-145-r3/cases.json",
+  "candidateSHA256": "d1623dd70f8c50524cedc3afdba66f8ebc8af54f660a1e4c514d921135aad886",
+  "acceptedCaseIDs": [
+    "TC-135",
+    "TC-145"
+  ],
+  "remainingCaseIDs": [],
+  "remainingIssueIDs": [],
+  "closedIssueIDs": [
+    "JF-F02-DQ"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/junior-135-145-r2/cases.json": "3bfefa3adc348630e74557edb46f171681a00f2cfbf633027b7fb68941dd51ee",
+    "agent-artifacts/project-completion/qa-full-junior135145-r2/QA-verdict.json": "03972148ca11faf2f6626e7d4525ab057ada3896dbdec3589f468b2a3b4d7243",
+    "agent-artifacts/project-completion/qa-full-junior135145/QA-verdict.json": "105da308de11787f278aeed6730bea97da116c5a444e5d59920d383b570b4ee3",
+    "agent-artifacts/test-bank/reconstruction/junior-135-145-c05-r2/proposed-projection.json": "67aec7c1e6e795a9d814ab905ae3e7b530c7c7d82f7421bdf7bba3b724395df2",
+    "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+    "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc"
+  },
+  "gates": {
+    "exactDelta": "Deep equality after updating TC-145 revision 2 to 3 and A decisionQuality .25 to .05. Entire TC-135 unchanged. Previously checked blind texts, options, WHEN, keys and mapping unchanged.",
+    "TC-145": "D (1) meets deadline and prevents repeat. C (.40) pursues confirmation but cannot use it on time. B (.15) abandons confirmed priority while avoiding duplicate exposure. A (.05) induces a repeated debit to gain four minutes of no added benefit. JF-F02-DQ closed.",
+    "loader": "Re-ran compiled actual TrainerBank.load with shipped topics.json against R3. Strict production loader returned both IDs.",
+    "scope": "Exact pair cleared for assembly. Whole-bank coverage and integrated app checks separate."
+  },
+  "issues": [],
+  "importEligible": true,
+  "readyToFreeze": true
+}

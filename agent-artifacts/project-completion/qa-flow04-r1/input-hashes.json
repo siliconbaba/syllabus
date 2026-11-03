@@ -1,0 +1,16 @@
+{
+  "agent-artifacts/test-bank/full-cases/pack-flow-04/input-hashes.json": "876577211c381f2e6f561e355abeaf663e13c8d57e66b657a6c04e53a909e81a",
+  "agent-artifacts/test-bank/full-cases/pack-flow-04/families.json": "fe3e255f5a3d6bcfc10a070adc3df010e3690f8f67eacc7b2522c3a4070046c7",
+  "agent-artifacts/test-bank/full-cases/pack-flow-04/approved-blueprints.json": "2276e35301346825fe18e5ed716aeffed28982a564b13e405e37ba34fa407104",
+  "agent-artifacts/test-bank/full-cases/pack-flow-04/blind-cases.json": "01b0ab966724385754c7af4bea98f7d61c1c34d67c9a4f547a9ee4acef4e388f",
+  "agent-artifacts/test-bank/full-cases/pack-flow-04/cases.json": "894b42abf4c430e6bc53f3469baa553890d2d0340f94039627ef825404082dc7",
+  "agent-artifacts/test-bank/full-cases/pack-flow-04/validation.json": "498f0fb5c296b3508f7ae9888ba1f43fdd0ff263a8114da557d84e07a0180f5b",
+  "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-3-7.txt": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0",
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+  "agent-artifacts/contracts/TEST-BANK-RUNBOOK.md": "2de41e61c536839ba028a21e91b1ae7dbfb0210dfa1f3ae0802f0516c9aaffa0",
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+  "agent-artifacts/project-completion/qa-manifest-completion03/QA-verdict.json": "b9b9245ade80cdd748f00b2ec847a12273a721c3e93b52e0ce3ae6b971203601"
+}

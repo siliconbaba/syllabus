@@ -1,0 +1,22 @@
+{
+  "candidateSHA256": "d1ed53930e2f49b1b1e6bacf52d6ec79a9e35af4e704825f23a962fb433ad33b",
+  "parentSHA256": "e01f221445cb51a82edb6a534c26265069140783925386ca79962d3c57aa6e0c",
+  "baseQA": "agent-artifacts/project-completion/qa-contact03/QA-verdict.json",
+  "baseQASHA256": "34953c0d0ff2a3fb663b80e6c6b93ee6ca314a6b99a9a9aa687e62ff1447e29b",
+  "fields": {
+    "TC-113": [
+      "B.whenItWouldBeBest",
+      "revision"
+    ],
+    "TC-216": [
+      "C.text",
+      "D.decisionQuality",
+      "revision"
+    ]
+  },
+  "swift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  }
+}

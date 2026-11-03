@@ -1,0 +1,127 @@
+[
+  {
+    "plannedId": "TC-146",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-088",
+        "retrievalScore": 9.552129,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "варианта",
+          "варианты",
+          "его",
+          "как",
+          "лид",
+          "лидом",
+          "окно",
+          "повторно",
+          "после",
+          "ради",
+          "разговора",
+          "решение",
+          "решения",
+          "согласованы",
+          "уже",
+          "факты"
+        ]
+      },
+      {
+        "id": "TC-016",
+        "retrievalScore": 9.145369,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "было",
+          "нет",
+          "разговора",
+          "решение",
+          "шаг"
+        ]
+      },
+      {
+        "id": "TC-071",
+        "retrievalScore": 5.160125,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "его",
+          "как",
+          "конфликт",
+          "решение",
+          "требуется",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-040",
+        "retrievalScore": 5.12821,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "право",
+          "решения",
+          "спор",
+          "только"
+        ]
+      },
+      {
+        "id": "TC-056",
+        "retrievalScore": 3.238431,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "или",
+          "как",
+          "личного",
+          "нет",
+          "нужно",
+          "обсудить",
+          "после",
+          "решение",
+          "решения"
+        ]
+      },
+      {
+        "id": "TC-057",
+        "retrievalScore": 3.238431,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "или",
+          "как",
+          "личного",
+          "нет",
+          "нужно",
+          "обсудить",
+          "после",
+          "решение",
+          "решения"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

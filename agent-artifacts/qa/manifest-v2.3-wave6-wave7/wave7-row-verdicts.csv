@@ -1,0 +1,2 @@
+plannedId,wave,verdict,sourceGrounding,decisionBoundary,requiredLevel,levelRealization,runtimeSemantics,semanticUniqueness,family,sourceEvidence,independentDecision,severity,issueID
+TC-248,7,PASS,PASS,PASS,senior,PASS,PASS,ALLOWED REINFORCEMENT,NOT_APPLICABLE,"t-13-3: сетевой эффект через общих водителей, регионы/switchback, единица рандомизации и анализа, работа с аналитиком.","Не объявлять пользовательский uplift общим приростом. С аналитиком проверить движение исполнителей и carryover, выбрать единицу/временные блоки и оценивать суммарные завершения+ожидание пула.",,

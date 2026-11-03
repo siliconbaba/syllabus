@@ -1,0 +1,13 @@
+{
+  "agent-artifacts/test-bank/full-cases/tc146-r1/cases.json": "21f0cfe0591de80578107a0f5bafd0b1b680b0be7b00264a911bef522868ca33",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/production_manifest_masterplan_v2_3_completion_01_candidate.json": "24adbe7421c5df1d29c3ae0a6836d8a046bf81dd015854062efb1a5b49c4675c",
+  "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "agent-artifacts/test-bank/full-cases/tc193-r2/cases.json": "1aefbe44e3cb73660bb8139988aebae0398afce3ad8f9c67dfef76e3cef73c11",
+  "agent-artifacts/test-bank/full-cases/tc200-r2/cases.json": "e7a886403846d60d415710c94f0a4ea6a325414d6e1598cd472d698b313bc034",
+  "agent-artifacts/test-bank/full-cases/tc272-r1/cases.json": "b26510a43a42219b14d1b90448d2e37ccddfc95c838aedaeb37dd5458a04ffeb",
+  "agent-artifacts/test-bank/reconstruction/tc146-r1/proposed-manifest-row.json": "07dc33b70fcaa611cd2af15fd22d8b8c4c0131ce199ead89275a3f1778add806"
+}

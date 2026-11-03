@@ -1,0 +1,730 @@
+{
+  "changedRows": {
+    "TC-026": [
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept"
+    ],
+    "TC-027": [
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept"
+    ],
+    "TC-028": [
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept"
+    ],
+    "TC-064": [
+      "authorityScope",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-072": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-075": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-088": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-092": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-100": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-106": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-107": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-112": [
+      "derivedRuntimeSecondaryThinking",
+      "primaryPattern",
+      "secondaryPatterns",
+      "sourceTopicExplanation"
+    ],
+    "TC-113": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-116": [
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "primaryPattern",
+      "secondaryPatterns",
+      "sourceTopicExplanation"
+    ],
+    "TC-122": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-144": [
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "primaryPattern",
+      "requiredLevel",
+      "secondaryPatterns",
+      "whyLevel"
+    ],
+    "TC-145": [
+      "derivedRuntimeSecondaryThinking",
+      "primaryPattern",
+      "secondaryPatterns"
+    ],
+    "TC-168": [
+      "authorityScope",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-176": [
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept"
+    ],
+    "TC-177": [
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept"
+    ],
+    "TC-178": [
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept"
+    ],
+    "TC-194": [
+      "authorityScope",
+      "derivedRuntimePrimaryThinking",
+      "primaryPattern",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-201": [
+      "authorityScope",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-202": [
+      "authorityScope",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-203": [
+      "authorityScope",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-214": [
+      "derivedRuntimeSecondaryThinking",
+      "primaryPattern",
+      "secondaryPatterns"
+    ],
+    "TC-216": [
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "primaryPattern",
+      "secondaryPatterns"
+    ],
+    "TC-217": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-224": [
+      "derivedRuntimeSecondaryThinking",
+      "primaryPattern",
+      "secondaryPatterns",
+      "topicId"
+    ],
+    "TC-253": [
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "derivedRuntimePrimaryThinking",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept",
+      "primaryPattern",
+      "requiredLevel",
+      "secondaryPatterns",
+      "whyLevel"
+    ],
+    "TC-254": [
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "derivedRuntimePrimaryThinking",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept",
+      "primaryPattern",
+      "requiredLevel",
+      "secondaryPatterns",
+      "whyLevel"
+    ],
+    "TC-255": [
+      "authorityScope",
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-256": [
+      "authorityScope",
+      "decisiveFactsConcept",
+      "decisiveMutationConcept",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-261": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-273": [
+      "decisiveFactsConcept",
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "oneSentenceDecisionBoundary",
+      "oneSentenceScenarioConcept",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel"
+    ],
+    "TC-275": [
+      "requiredLevel",
+      "whyLevel"
+    ],
+    "TC-282": [
+      "authorityScope",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-283": [
+      "authorityScope",
+      "requiredLevel",
+      "secondaryEffect",
+      "whyHead",
+      "whyLevel"
+    ],
+    "TC-288": [
+      "derivedRuntimeSecondaryThinking",
+      "primaryPattern",
+      "secondaryPatterns",
+      "topicId"
+    ],
+    "TC-300": [
+      "requiredLevel",
+      "whyLevel"
+    ]
+  },
+  "frozenRows": [
+    "TC-029",
+    "TC-030",
+    "TC-031",
+    "TC-032",
+    "TC-033",
+    "TC-034",
+    "TC-035",
+    "TC-036",
+    "TC-037",
+    "TC-038",
+    "TC-039",
+    "TC-040",
+    "TC-041",
+    "TC-042",
+    "TC-043",
+    "TC-044",
+    "TC-045",
+    "TC-046",
+    "TC-047",
+    "TC-048",
+    "TC-049",
+    "TC-050",
+    "TC-051",
+    "TC-052",
+    "TC-053",
+    "TC-054",
+    "TC-055",
+    "TC-056",
+    "TC-057",
+    "TC-058",
+    "TC-059",
+    "TC-060",
+    "TC-061",
+    "TC-062",
+    "TC-063",
+    "TC-065",
+    "TC-066",
+    "TC-067",
+    "TC-068",
+    "TC-069",
+    "TC-070",
+    "TC-071",
+    "TC-073",
+    "TC-074",
+    "TC-076",
+    "TC-077",
+    "TC-078",
+    "TC-079",
+    "TC-080",
+    "TC-081",
+    "TC-082",
+    "TC-083",
+    "TC-084",
+    "TC-085",
+    "TC-086",
+    "TC-087",
+    "TC-089",
+    "TC-090",
+    "TC-091",
+    "TC-093",
+    "TC-094",
+    "TC-095",
+    "TC-096",
+    "TC-097",
+    "TC-098",
+    "TC-099",
+    "TC-101",
+    "TC-102",
+    "TC-103",
+    "TC-104",
+    "TC-105",
+    "TC-108",
+    "TC-109",
+    "TC-110",
+    "TC-111",
+    "TC-114",
+    "TC-115",
+    "TC-117",
+    "TC-118",
+    "TC-119",
+    "TC-120",
+    "TC-121",
+    "TC-123",
+    "TC-124",
+    "TC-125",
+    "TC-126",
+    "TC-127",
+    "TC-128",
+    "TC-129",
+    "TC-130",
+    "TC-131",
+    "TC-132",
+    "TC-133",
+    "TC-134",
+    "TC-135",
+    "TC-136",
+    "TC-137",
+    "TC-138",
+    "TC-139",
+    "TC-140",
+    "TC-141",
+    "TC-142",
+    "TC-143",
+    "TC-146",
+    "TC-147",
+    "TC-148",
+    "TC-149",
+    "TC-150",
+    "TC-151",
+    "TC-152",
+    "TC-153",
+    "TC-154",
+    "TC-155",
+    "TC-156",
+    "TC-157",
+    "TC-158",
+    "TC-159",
+    "TC-160",
+    "TC-161",
+    "TC-162",
+    "TC-163",
+    "TC-164",
+    "TC-165",
+    "TC-166",
+    "TC-167",
+    "TC-169",
+    "TC-170",
+    "TC-171",
+    "TC-172",
+    "TC-173",
+    "TC-174",
+    "TC-175",
+    "TC-179",
+    "TC-180",
+    "TC-181",
+    "TC-182",
+    "TC-183",
+    "TC-184",
+    "TC-185",
+    "TC-186",
+    "TC-187",
+    "TC-188",
+    "TC-189",
+    "TC-190",
+    "TC-191",
+    "TC-192",
+    "TC-193",
+    "TC-195",
+    "TC-196",
+    "TC-197",
+    "TC-198",
+    "TC-199",
+    "TC-200",
+    "TC-204",
+    "TC-205",
+    "TC-206",
+    "TC-207",
+    "TC-208",
+    "TC-209",
+    "TC-210",
+    "TC-211",
+    "TC-212",
+    "TC-213",
+    "TC-215",
+    "TC-218",
+    "TC-219",
+    "TC-220",
+    "TC-221",
+    "TC-222",
+    "TC-223",
+    "TC-225",
+    "TC-226",
+    "TC-227",
+    "TC-228",
+    "TC-229",
+    "TC-230",
+    "TC-231",
+    "TC-232",
+    "TC-233",
+    "TC-234",
+    "TC-235",
+    "TC-236",
+    "TC-237",
+    "TC-238",
+    "TC-239",
+    "TC-240",
+    "TC-241",
+    "TC-242",
+    "TC-243",
+    "TC-244",
+    "TC-245",
+    "TC-246",
+    "TC-247",
+    "TC-248",
+    "TC-249",
+    "TC-250",
+    "TC-251",
+    "TC-252",
+    "TC-257",
+    "TC-258",
+    "TC-259",
+    "TC-260",
+    "TC-262",
+    "TC-263",
+    "TC-264",
+    "TC-265",
+    "TC-266",
+    "TC-267",
+    "TC-268",
+    "TC-269",
+    "TC-270",
+    "TC-271",
+    "TC-272",
+    "TC-274",
+    "TC-276",
+    "TC-277",
+    "TC-278",
+    "TC-279",
+    "TC-280",
+    "TC-281",
+    "TC-284",
+    "TC-285",
+    "TC-286",
+    "TC-287",
+    "TC-289",
+    "TC-290",
+    "TC-291",
+    "TC-292",
+    "TC-293",
+    "TC-294",
+    "TC-295",
+    "TC-296",
+    "TC-297",
+    "TC-298",
+    "TC-299"
+  ],
+  "familyChangedFields": {
+    "F-PM-T01": [
+      "baseSituation",
+      "boundary1",
+      "boundary2",
+      "decisionBoundaryByState",
+      "expectedStrongestShiftConcept",
+      "factsThatMustRemainConstant",
+      "singleLogicalVariable",
+      "stateByMember",
+      "whyMutationIsControlled"
+    ],
+    "F-PR-P01": [
+      "requiredLevel"
+    ],
+    "F-PE-T01": [
+      "baseSituation",
+      "boundary1",
+      "boundary2",
+      "decisionBoundaryByState",
+      "expectedStrongestShiftConcept",
+      "factsThatMustRemainConstant",
+      "singleLogicalVariable",
+      "stateByMember",
+      "threeDistinctStrategies",
+      "whyMutationIsControlled"
+    ],
+    "F-PO-T01": [
+      "requiredLevel"
+    ],
+    "F-TD-P03": [
+      "baseSituation",
+      "decisionBoundaryByState",
+      "expectedStrongestShiftConcept",
+      "factsThatMustRemainConstant",
+      "requiredLevel",
+      "singleLogicalVariable",
+      "stateByMember",
+      "whyMutationIsControlled"
+    ],
+    "F-ST-P03": [
+      "baseSituation",
+      "decisionBoundaryByState",
+      "expectedStrongestShiftConcept",
+      "factsThatMustRemainConstant",
+      "requiredLevel",
+      "singleLogicalVariable",
+      "stateByMember",
+      "whyMutationIsControlled"
+    ],
+    "F-PO-P04": [
+      "requiredLevel"
+    ]
+  },
+  "exactlyUnchangedFamilies": 36,
+  "constructionUnchangedFamilies": 39,
+  "levelTransitions": [
+    {
+      "plannedId": "TC-064",
+      "from": "head",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сопоставить известную экономику сделки с проверенной альтернативой и определить допустимые уступки; governance не проектируется."
+    },
+    {
+      "plannedId": "TC-072",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сопоставить завершённую поддержку и отсутствие улучшения с условиями перехода к формальному PIP одного сотрудника."
+    },
+    {
+      "plannedId": "TC-075",
+      "from": "senior",
+      "to": "junior",
+      "status": "PASS",
+      "reason": "Соблюсти явное ограничение протокола: ранняя значимость не разрешает остановку до 14 дней без early-stop rule."
+    },
+    {
+      "plannedId": "TC-088",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Подготовить влияние проблемы и варианты решения для рабочей эскалации; уровень адресата не усложняет reasoning."
+    },
+    {
+      "plannedId": "TC-092",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сегментировать p95 и среднее, чтобы локализовать ухудшение пользовательского опыта по данным дашборда."
+    },
+    {
+      "plannedId": "TC-100",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Отличить одиночный шум от устойчивого actionable-сигнала и выбрать рабочий порог реакции."
+    },
+    {
+      "plannedId": "TC-106",
+      "from": "junior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сопоставить временность очереди с устойчивой пропускной способностью и выбрать управление потоком без лишней перестройки."
+    },
+    {
+      "plannedId": "TC-107",
+      "from": "junior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сопоставить устойчивый входящий поток с capacity и выбрать рабочее изменение WIP или мощности."
+    },
+    {
+      "plannedId": "TC-113",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Проверить неизвестную причину снижения мотивации через 1:1 до выбора бонуса или другой интервенции."
+    },
+    {
+      "plannedId": "TC-122",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Выбрать диагностику и обратную связь до формального PIP, поскольку причина внезапной просадки ещё не установлена."
+    },
+    {
+      "plannedId": "TC-144",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сопоставить гарантии доставки и последствия повторного списания; потребовать защиту бизнес-обработки от дубликатов."
+    },
+    {
+      "plannedId": "TC-168",
+      "from": "head",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Рассчитать экономику своей альтернативы до уступок и обещаний; организационная модель не меняется."
+    },
+    {
+      "plannedId": "TC-194",
+      "from": "head",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сначала применить обязательные security/audit ограничения, затем сравнить цену допущенных поставщиков."
+    },
+    {
+      "plannedId": "TC-201",
+      "from": "head",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сопоставить расход error budget с утверждённым warning-порогом и сохранить обычный темп в рамках policy."
+    },
+    {
+      "plannedId": "TC-202",
+      "from": "head",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Применить утверждённый warning-порог и выделить предусмотренную policy capacity на стабилизацию."
+    },
+    {
+      "plannedId": "TC-203",
+      "from": "head",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Применить утверждённый freeze-порог и остановить изменения согласно готовому правилу."
+    },
+    {
+      "plannedId": "TC-217",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Согласовать работу с результативностью сотрудника с HR-процедурой до необратимых кадровых действий."
+    },
+    {
+      "plannedId": "TC-253",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сравнить измеренную цену отсрочки входящего потока со стоимостью дополнительной capacity на одном горизонте."
+    },
+    {
+      "plannedId": "TC-254",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Выбрать между снижением входа и увеличением мощности по полным сопоставимым затратам, без перепроектирования нескольких потоков."
+    },
+    {
+      "plannedId": "TC-255",
+      "from": "head",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сопоставить конкретную сделку с более выгодной доступной BATNA и отказаться от уступки ниже reservation point."
+    },
+    {
+      "plannedId": "TC-256",
+      "from": "head",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сопоставить ту же сделку с менее выгодной BATNA и принять предложение, превышающее reservation point."
+    },
+    {
+      "plannedId": "TC-261",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Распознать изменение цены только в B как смешение факторов и не приписывать весь эффект фиче."
+    },
+    {
+      "plannedId": "TC-275",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Различить SLA поддержки и критерии приёмки разработки при ведении одного подрядчика."
+    },
+    {
+      "plannedId": "TC-282",
+      "from": "head",
+      "to": "senior",
+      "status": "PASS",
+      "reason": "Оценить организационный blast radius и последствия расширения command structure; единый Senior семьи учитывает межкомандную альтернативу, локальная ветвь сама по себе не является самостоятельным Head evidence."
+    },
+    {
+      "plannedId": "TC-283",
+      "from": "head",
+      "to": "senior",
+      "status": "PASS",
+      "reason": "Согласовать конфликтующие действия нескольких доменов, восстановление общего клиентского пути и коммуникации через единую incident command structure."
+    },
+    {
+      "plannedId": "TC-300",
+      "from": "senior",
+      "to": "middle",
+      "status": "PASS",
+      "reason": "Сопоставить paid-to-date с законтрактованными обязательствами и прогнозом EAC, чтобы получить корректный план-факт."
+    }
+  ]
+}

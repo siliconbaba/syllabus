@@ -1,0 +1,318 @@
+[
+  {
+    "plannedId": "TC-214",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-011",
+        "retrievalScore": 10.110788,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "два",
+          "для",
+          "дня",
+          "изменение",
+          "нужно",
+          "требует",
+          "уже",
+          "чтение"
+        ]
+      },
+      {
+        "id": "TC-038",
+        "retrievalScore": 9.169459,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "два",
+          "две",
+          "для",
+          "изменение",
+          "можно",
+          "нельзя",
+          "новую",
+          "проверка",
+          "сейчас",
+          "сохранить",
+          "старую",
+          "только"
+        ]
+      },
+      {
+        "id": "TC-079",
+        "retrievalScore": 9.134784,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "даёт",
+          "две",
+          "для",
+          "дополнительных",
+          "занимает",
+          "можно",
+          "нельзя",
+          "нет",
+          "проверка",
+          "это"
+        ]
+      },
+      {
+        "id": "TC-080",
+        "retrievalScore": 9.126076,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "даёт",
+          "две",
+          "для",
+          "дополнительных",
+          "занимает",
+          "можно",
+          "нельзя",
+          "нет",
+          "проверка",
+          "только"
+        ]
+      },
+      {
+        "id": "TC-062",
+        "retrievalScore": 9.111839,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "две",
+          "команды",
+          "можно",
+          "недели",
+          "нет",
+          "расхождений",
+          "схемы",
+          "только"
+        ]
+      },
+      {
+        "id": "TC-093",
+        "retrievalScore": 8.086164,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "risk-differentiation"
+        ],
+        "sharedTerms": [
+          "все",
+          "дня",
+          "нет",
+          "отказ",
+          "при",
+          "этот"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-261",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-094",
+        "retrievalScore": 12.46937,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "precommitted-stop-criteria"
+        ],
+        "sharedTerms": [
+          "rollout",
+          "выборка",
+          "две",
+          "для",
+          "дня",
+          "доступное",
+          "его",
+          "ещё",
+          "зафиксировать",
+          "итог",
+          "как",
+          "метрики",
+          "недели",
+          "неделю",
+          "нового",
+          "окно",
+          "пользователей",
+          "при",
+          "проверены",
+          "сейчас",
+          "срок",
+          "ставка",
+          "тест",
+          "теста",
+          "три",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-075",
+        "retrievalScore": 11.339995,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "precommitted-stop-criteria"
+        ],
+        "sharedTerms": [
+          "аналитик",
+          "без",
+          "выборка",
+          "дня",
+          "ещё",
+          "заранее",
+          "как",
+          "метрика",
+          "метрики",
+          "можно",
+          "набрана",
+          "нового",
+          "сейчас",
+          "срок",
+          "тест",
+          "три",
+          "уже",
+          "это",
+          "эффект"
+        ]
+      },
+      {
+        "id": "TC-032",
+        "retrievalScore": 11.315289,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "precommitted-stop-criteria"
+        ],
+        "sharedTerms": [
+          "guardrails",
+          "без",
+          "выборка",
+          "заранее",
+          "зафиксировать",
+          "защитные",
+          "итог",
+          "как",
+          "метрики",
+          "при",
+          "протоколу",
+          "рандомизация",
+          "решение",
+          "решения",
+          "ставка",
+          "эффекта"
+        ]
+      },
+      {
+        "id": "TC-031",
+        "retrievalScore": 11.270668,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "precommitted-stop-criteria"
+        ],
+        "sharedTerms": [
+          "guardrails",
+          "без",
+          "выборка",
+          "заранее",
+          "зафиксировать",
+          "защитные",
+          "как",
+          "метрики",
+          "при",
+          "протоколу",
+          "рандомизация",
+          "решение",
+          "решения",
+          "ставка"
+        ]
+      },
+      {
+        "id": "TC-024",
+        "retrievalScore": 11.248773,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "precommitted-stop-criteria"
+        ],
+        "sharedTerms": [
+          "guardrails",
+          "rollout",
+          "выборка",
+          "для",
+          "заранее",
+          "набрана",
+          "после",
+          "протоколу",
+          "разрешён",
+          "решение",
+          "чистые",
+          "эффект"
+        ]
+      },
+      {
+        "id": "TC-025",
+        "retrievalScore": 3.146699,
+        "reasons": [
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "две",
+          "дешёвый",
+          "для",
+          "команды",
+          "можно",
+          "первую",
+          "пользователей",
+          "тест"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

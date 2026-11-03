@@ -1,0 +1,12 @@
+{
+  "QA-report.md": "6c1a7f560a589510668eeda36fc410a53bd3e683692c3aecea00fab3b79af6df",
+  "QA-verdict.json": "a1c748287ed2e872a1c72120e042ebf64c6257b1b540a205f405b36ca05cfaf0",
+  "duplication-audit-independent.csv": "1c38dd30bb83196c84a96b137e4e3a37c45fa8b3f643405d44ec7276a0f9194e",
+  "input-hashes-independent.json": "07ad17ced43bddb2983c5cd3de6290b6b0012a36b2c8b1d4946fce882b9cee3d",
+  "manifest-diff-evidence.json": "60280b9caa6edc4d23ee769da1a377d5e1fda0c7876e014c0293ca6460e7ef56",
+  "retrieval-independent.json": "a9309422900eb45bcd18fbf473ccd68a87a17c0c0cdcf4498ac4505cb2a0dec7",
+  "row-verdicts.csv": "84910b3c99fbbef224b5e41f014ced2fdb59ef8ee76c1af0d84608b6e3f7a683",
+  "runtime-check-independent.json": "c990cf780b0a598b5e39332dc3c9685458b03e2c8c6e85a58e5eef68242422ad",
+  "runtime-mapping-independent.json": "bcee01dcecc36eaea05e4f967f4b1980c68f0e04c27f90627bee4c42cc7208ae",
+  "runtime-semantic-evidence.csv": "0b343d0d5022b02f77f0a1b133dbe14397feb9127587351e8427669543d1770b"
+}

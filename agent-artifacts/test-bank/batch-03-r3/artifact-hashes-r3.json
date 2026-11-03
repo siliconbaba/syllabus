@@ -1,0 +1,20 @@
+{
+  "author-tc085.py": "5aa7d48e1757cdb16b5366fc855b8ab70cda027748ab48ddd3c4778d4b82ee35",
+  "batch-statistics-r3.json": "47a9fe6881d942c6f6c76b323d3e394deecc948da48876c70a7a8def062728e5",
+  "cases_TC076_TC100_r3.json": "77e465c3b9a5e0ac26eb7bdf756d20d2416d18fb57cd74f225575d0e6f202f21",
+  "change-log.csv": "f240d32d2009504660f30620398c520e8e52eb8660592ae0190529f854ca5ffb",
+  "duplication-audit-r3.csv": "8508ad4b479aaa50bb4baf92b861165f703a3aa8398d50794e6a4e0e1bf95500",
+  "family-diff-analysis-r3.json": "28ac7431429613d66d636bc98ee91375deeaf15b97b990d916d450c4079e70ba",
+  "frozen-regression-r3.json": "35e2ba465d397709d3293f37f4d18218c59281e1b6f0d432dcec96878eeea0c2",
+  "internal-duplication-r3.json": "b6d083d6620e43f57ac36fc5d184fefc2fa8d8c02e0790b74b98045bd44688d7",
+  "report-hotfix.py": "8265a4abce6a6eac624f6f9c13d7cfb5fa83572be2ad65a6aa93a88bf9cc4b28",
+  "revision-report.md": "c187ede75783a06fe12f8e042a9ab080778fc596a3376415d61317f18b641ab8",
+  "schema-validation-r3.log": "61bbbed3a4acb5cb4288152f780fb5243494ff1aa0af00b07ac1f8c52bdf2d90",
+  "self-qa-r3.json": "4f23b6241d83243e693f8a689be537baf4f2dad76457cfe65d4c4ed981166928",
+  "source-trace-TC085.json": "dc99f948fd9dfefdb8bc2b5945813918dcec6820770916153a9577a7c083e069",
+  "surface-leakage-analysis-r3.json": "72f7d259341b3503928ccb5e532bcbcbdd0c141c56711acdfd465ae90a386c8b",
+  "tc085-key-masked-review.json": "084ff9b3e8152906e89cdb2e61bc0ef6d4abe387b8c4f508f885e0a20bcb1cde",
+  "tc085-pairwise-self-check.json": "dc4dff66513b92ccc4bb04f70d4245c317228a1ad5f51f3d8be39e11dcb7d169",
+  "topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+  "validate-r3.py": "a26590e8e76cc9d69d7768e424301b589fbe0b5b600c5e05a668d4886ec47f22"
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "plannedId": "TC-248",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-094",
+        "retrievalScore": 9.293738,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "rollout",
+          "воздействия",
+          "гипотезу",
+          "групп",
+          "данных",
+          "двух",
+          "пользователей",
+          "проверены",
+          "теста",
+          "чтобы"
+        ]
+      },
+      {
+        "id": "TC-032",
+        "retrievalScore": 9.207522,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "без",
+          "длительность",
+          "завершённых",
+          "прирост",
+          "ухудшения",
+          "эксперимент",
+          "эффекта"
+        ]
+      },
+      {
+        "id": "TC-075",
+        "retrievalScore": 9.192844,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "без",
+          "воздействия",
+          "групп",
+          "данных",
+          "заказов",
+          "заказы",
+          "чтобы"
+        ]
+      },
+      {
+        "id": "TC-031",
+        "retrievalScore": 9.176944,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "без",
+          "длительность",
+          "завершённых",
+          "прирост",
+          "ухудшения",
+          "эксперимент"
+        ]
+      },
+      {
+        "id": "TC-024",
+        "retrievalScore": 9.042823,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "rollout",
+          "после"
+        ]
+      },
+      {
+        "id": "TC-060",
+        "retrievalScore": 3.203886,
+        "reasons": [
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "без",
+          "контроль",
+          "может",
+          "пока",
+          "полный",
+          "проверить",
+          "теста",
+          "число"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

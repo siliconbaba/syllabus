@@ -1,0 +1,152 @@
+[
+  {
+    "id": "TC-026",
+    "blindStrongest": "C",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-027",
+    "blindStrongest": "A",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-028",
+    "blindStrongest": "D",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-029",
+    "blindStrongest": "B",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-030",
+    "blindStrongest": "D",
+    "blindStatus": "AMBIGUOUS",
+    "note": "B фиксирует только устойчивые пакеты; при их отсутствии вся работа остаётся T&M, как D. B не требует ожидать или создавать пакеты."
+  },
+  {
+    "id": "TC-031",
+    "blindStrongest": "A",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-032",
+    "blindStrongest": "C",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-033",
+    "blindStrongest": "B",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-034",
+    "blindStrongest": "A",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-035",
+    "blindStrongest": "D",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-036",
+    "blindStrongest": "B",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-037",
+    "blindStrongest": "C",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-038",
+    "blindStrongest": "A",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-039",
+    "blindStrongest": "D",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-040",
+    "blindStrongest": "B",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-041",
+    "blindStrongest": "C",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-042",
+    "blindStrongest": "D",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-043",
+    "blindStrongest": "A",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-044",
+    "blindStrongest": "C",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-045",
+    "blindStrongest": "B",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-046",
+    "blindStrongest": "D",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-047",
+    "blindStrongest": "A",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-048",
+    "blindStrongest": "C",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-049",
+    "blindStrongest": "D",
+    "blindStatus": "YES",
+    "note": ""
+  },
+  {
+    "id": "TC-050",
+    "blindStrongest": "B",
+    "blindStatus": "YES",
+    "note": ""
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "verdict": "MANIFEST DEFECT CONFIRMED",
+  "compared": [
+    "production TC-004",
+    "frozen v2.2.2 TC-085",
+    "batch-03/r2 TC-085"
+  ],
+  "oldManifestRow": {
+    "plannedId": "TC-085",
+    "batch": "Batch 03",
+    "block": "B03 — Delivery & Release",
+    "partId": "part-3",
+    "topicId": "t-3-9",
+    "oneSentenceScenarioConcept": "Middle release manager выпускает изменение расчёта комиссии: impact analysis показывает затронутый один класс сценариев, полный ручной регресс занимает день, targeted набор — час; нужно решить объём проверки по риску.",
+    "decisiveFactsConcept": [
+      "Затронутый класс риска локализован",
+      "Targeted набор покрывает его",
+      "Полный регресс значительно дороже"
+    ],
+    "oneSentenceDecisionBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+    "domain": "release_and_quality",
+    "requiredLevel": "middle",
+    "primaryPattern": "evidence-before-release",
+    "secondaryPatterns": [
+      "risk-based-testing",
+      "regression-evidence"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Delivery и релизы",
+    "derivedRuntimePrimaryThinking": "evidence",
+    "derivedRuntimeSecondaryThinking": [
+      "risk",
+      "risk"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  "candidateMistake": "Полный дорогой регресс либо недостаточная быстрая проверка вместо достаточного targeted.",
+  "decisiveFacts": "Локальный impact, достаточный целевой набор, существенная цена задержки полного регресса.",
+  "actualDecision": "Выполнить targeted evidence и решать о выпуске.",
+  "strongestReasoning": "Достаточное evidence за меньшую цену, без полного регресса.",
+  "thinkingModel": "Сопоставить конкретный риск и достаточность проверок; сюжет/сроки не дают новой диагностики.",
+  "oldClassification": "NEAR DUPLICATE",
+  "newClassificationAgainst004": "ALLOWED REINFORCEMENT",
+  "newCandidateMistake": "Вложить ёмкость в ускорение выполнения/добавление стенда, не уменьшив повторную подготовку состояния, либо недооценить накопленный ручной труд.",
+  "newDecisiveFact": "Согласованные данные расходуются каждым циклом; известна разовая/повторная стоимость способов восстановления и выполнения.",
+  "newActualDecision": "Выбрать инвестицию в подготовку данных шести неизменных регрессов, а не размер тестового evidence конкретного релиза.",
+  "newStrongestReasoning": "Сохранить тот же набор и сопоставить полную ёмкость всех циклов с техническим состоянием данных и сроком первой готовности."
+}

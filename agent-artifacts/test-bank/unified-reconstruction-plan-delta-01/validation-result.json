@@ -1,0 +1,25 @@
+{
+  "status": "PASS — planning delta only",
+  "uExpApplied": "0/2 CONFIRMED",
+  "changedManifestRows": 0,
+  "contentEqualsAcceptedBase": true,
+  "remainingUnresolved": 72,
+  "failedCandidateNotAccepted": true,
+  "nearDuplicateRejectedDirections": 3,
+  "appliedDrafts": 0,
+  "otherUnitsAffected": 9,
+  "confidenceOther42": {
+    "HIGH": 0,
+    "MEDIUM": 16,
+    "LOW": 26
+  },
+  "acceptedManifestBaseUnchanged": true,
+  "originalPlanUnchanged": true,
+  "failedArtifactsUnchanged": true,
+  "productionUnchanged": true,
+  "newManifestCandidateCreated": false,
+  "noAuthoring": true,
+  "noIndependentQAStarted": true,
+  "readyForNextReconstructionUnit": false,
+  "inputHashesVerified": 944
+}

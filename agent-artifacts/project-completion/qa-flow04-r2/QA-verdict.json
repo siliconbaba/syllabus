@@ -1,0 +1,46 @@
+{
+  "status": "PASS — READY FOR IMPORT (QA CONTENT GATE)",
+  "candidateSHA256": "e0df03cbb0a672c54d822ed4ba625c54d8868e9357eb6f4497c377159decac6e",
+  "perCase": {
+    "TC-222": "PASS",
+    "TC-287": "PASS",
+    "TC-253": "PASS",
+    "TC-254": "PASS"
+  },
+  "familyVerdict": {
+    "F-TD-P03": "PASS ATOMIC"
+  },
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "remainingIssueIDs": [],
+  "closedIssueIDs": [
+    "FLOW04-01",
+    "FLOW04-02"
+  ],
+  "gates": {
+    "exactAllowedDiff": "PASS",
+    "changedReasoningAndDQ": "PASS",
+    "wholeWhen": "PASS",
+    "visibleArithmetic": "PASS",
+    "familyConstants": "PASS",
+    "sourceLevelDuplication": "PASS INHERITED MATCHING SOURCE/MANIFEST AND UNCHANGED DECISION BOUNDARIES",
+    "surface": "PASS FOCUSED",
+    "schemaRuntime": "PASS INHERITED R2 EXACT HASH"
+  },
+  "importEligible": true,
+  "importScopeRestriction": "QA readiness only; no import/freeze performed or authorized by this artifact. TC253/254 must be handled atomically. Operational integration gates remain separate.",
+  "productionChanged": false,
+  "freezePerformed": false,
+  "newRuntimeCompilations": 0,
+  "inheritanceBases": {
+    "R1Candidate": "894b42abf4c430e6bc53f3469baa553890d2d0340f94039627ef825404082dc7",
+    "R1Verdict": "78dfbe7406bec23c10bec755f3515f3ff58463a56ceb7011d5c8be0e88144b41",
+    "source": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0",
+    "production": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "acceptedWorkingManifestCompletion03": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "R2RuntimeValidation": "8581cf25ac46e3ea3deb4dae130d56edc117a7f05ea2ce5038aec102b041736d"
+  }
+}

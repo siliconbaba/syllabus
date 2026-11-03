@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "compiledAuthoritativeSwift": true,
+  "errors": [],
+  "recomputedCoveragePools": [
+    "gold",
+    "new",
+    "all300",
+    "newAssessment",
+    "assessment200",
+    "currentProduction100",
+    "auditedRemaining200",
+    "wave1Redesigned",
+    "wave1R2Redesigned",
+    "wave2Redesigned"
+  ],
+  "normalizedWeights": {
+    "TC-106": {
+      "dependencies": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-107": {
+      "dependencies": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-138": {
+      "proportionality": 1.0
+    },
+    "TC-162": {
+      "systems": 0.6666666666666666,
+      "evidence": 0.3333333333333333
+    },
+    "TC-167": {
+      "dependencies": 0.6666666666666666,
+      "organization": 0.3333333333333333
+    },
+    "TC-175": {
+      "systems": 0.6666666666666666,
+      "evidence": 0.3333333333333333
+    },
+    "TC-194": {
+      "proportionality": 1.0
+    },
+    "TC-237": {
+      "evidence": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-244": {
+      "organization": 1.0
+    },
+    "TC-286": {
+      "systems": 0.6666666666666666,
+      "risk": 0.3333333333333333
+    },
+    "TC-300": {
+      "evidence": 0.6666666666666666,
+      "organization": 0.3333333333333333
+    }
+  },
+  "contextScoredEvidence": 0,
+  "scope": "Mechanical coverage reconciliation only outside changed eleven; no new substantive approval."
+}

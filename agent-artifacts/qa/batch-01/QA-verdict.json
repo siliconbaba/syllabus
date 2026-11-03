@@ -1,0 +1,60 @@
+{
+  "verdict": "NOT READY",
+  "casesChecked": 25,
+  "blockerCount": 1,
+  "majorCount": 8,
+  "minorCount": 1,
+  "countingRule": "Считаются уникальные записи case-fixes; один batch leakage = один MAJOR; family запись дублирует TC-030 и отдельно не суммируется.",
+  "uniqueStrongest": 24,
+  "sourceGrounded": 25,
+  "sourcePartiallySupported": [],
+  "sourceUnsupported": 0,
+  "manifestAligned": 25,
+  "manifestAlignmentMeaning": "Concept/decision intent and exact metadata. Does not certify actual reasoning level or uniquely strongest options.",
+  "linkedFamiliesPass": 3,
+  "surfaceLeakage": "FAIL",
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "levelCalibration": "FAIL",
+  "levelFixIds": [
+    "TC-036",
+    "TC-038",
+    "TC-043",
+    "TC-045"
+  ],
+  "casesRequiringFixes": [
+    "TC-029",
+    "TC-030",
+    "TC-035",
+    "TC-036",
+    "TC-037",
+    "TC-038",
+    "TC-039",
+    "TC-040",
+    "TC-041",
+    "TC-042",
+    "TC-043",
+    "TC-044",
+    "TC-045",
+    "TC-046",
+    "TC-048",
+    "TC-049",
+    "TC-050"
+  ],
+  "familiesRequiringFixes": [
+    "F-BV-P01"
+  ],
+  "canImportIntoWork": false,
+  "productionModified": false,
+  "notReadyReason": "Системная surface leakage затрагивает 12 из 16 standalone, сверх локальной ambiguity TC-030.",
+  "inputHashes": {
+    "agent-artifacts/test-bank/batch-01/cases_TC026_TC050.json": "6d93c23f91262d73a5cef5e39a9bb208f6893745875d5dd482b9eba0785d276d",
+    "InteractiveBook/TrainerContent/cases.json": "19954c13f6bb6e298631a5c873c1ed8dedee23aa349e2b3f9d50b10f70662fbb",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "agent-artifacts/manifests/v2.2/production_manifest_masterplan_v2_2.json": "f8824c2e98819a4f2a97e26f67a2d27291a8e10ddb1c37bee1d950ffda7d732b"
+  }
+}

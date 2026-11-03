@@ -1,0 +1,85 @@
+{
+  "base": "agent-artifacts/manifests/v2.3-completion-04-candidate/production_manifest_masterplan_v2_3_completion_04_candidate.json",
+  "baseSHA256": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+  "manifest": [
+    {
+      "plannedId": "TC-135",
+      "batch": "Batch 05",
+      "block": "B05 — Processes",
+      "partId": "part-4",
+      "topicId": "t-4-2",
+      "oneSentenceScenarioConcept": "Две карточки подключения ссылаются друг на друга как на предшественника. В потоке пустая очередь, обе команды свободны. Менеджер разбирает, какую зависимость можно убрать без потери контроля.",
+      "decisiveFactsConcept": [
+        "А создаёт пустой контейнер, Б прикрепляет к нему файл. Б действительно нужен номер уже созданного контейнера.",
+        "Карточка А ждёт вложения Б перед созданием контейнера. По регламенту файл нужен перед открытием контейнера клиенту, создавать пустую закрытую запись разрешено.",
+        "Шаблон команды позволяет отдельно отметить создание закрытой записи и готовность к открытию; контроль открытия остаётся обязательным."
+      ],
+      "oneSentenceDecisionBoundary": "Разделить создание закрытого контейнера и открытие клиенту. Передать номер Б после создания, дождаться вложения перед открытием. Это разрывает цикл ожидания, сохраняя реальную зависимость и контроль доступа.",
+      "domain": "delivery_quality",
+      "requiredLevel": "junior",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "bottleneck",
+        "lead-time"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Junior восстанавливает порядок трёх простых действий и отличает реальную потребность во входе от слишком рано назначенного условия. Не требуются смена владельца или анализ экономики мощности.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "organization",
+      "derivedRuntimeSecondaryThinking": [
+        "dependencies",
+        "prioritization"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§4.2 — явные правила движения работы, ограничения незавершённой работы и классы обслуживания. Конкретные шаги, полномочия и сроки заданы в ситуации."
+    },
+    {
+      "plannedId": "TC-145",
+      "batch": "Batch 05",
+      "block": "B05 — Processes",
+      "partId": "part-4",
+      "topicId": "t-4-2",
+      "oneSentenceScenarioConcept": "Дежурный выбирает момент переключения единственного исполнителя на уже обоснованную срочную заявку. Класс заявки подтверждён; решать надо, прерывать ли текущий неделимый шаг.",
+      "decisiveFactsConcept": [
+        "До безопасной точки текущей работы осталось 4 минуты. При прерывании до этой точки исполнитель обязан закончить восстановление за 12 минут, прежде чем взять срочную заявку.",
+        "Срочный возврат после старта занимает 5 минут, его согласованный срок истекает через 10 минут. Дежурный уже проверил приоритет.",
+        "После безопасной точки работу можно передать без восстановления. Второго исполнителя нет, обычная работа может продолжиться после возврата."
+      ],
+      "oneSentenceDecisionBoundary": "Назначить срочную заявку следующей и переключиться через четыре минуты в безопасной точке. Она закончится на девятой минуте. Немедленное прерывание завершило бы её лишь на семнадцатой.",
+      "domain": "delivery_quality",
+      "requiredLevel": "junior",
+      "primaryPattern": "risk-differentiation",
+      "secondaryPatterns": [],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Junior отличает приоритет в очереди от физической возможности немедленного прерывания, сопоставляя две короткие последовательности со сроком.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Процессы",
+      "derivedRuntimePrimaryThinking": "risk",
+      "derivedRuntimeSecondaryThinking": [],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping",
+      "sourceTopicExplanation": "§4.2 — явные правила движения работы, ограничения незавершённой работы и классы обслуживания. Конкретные шаги, полномочия и сроки заданы в ситуации."
+    }
+  ],
+  "familyManifest": []
+}

@@ -1,0 +1,46 @@
+{
+  "phase": "blind-before-key",
+  "input_sha256": "a540ab41ce334e6ff44e174a319d1ed2c4c8ea7ea77771b1e359e14efb91d09a",
+  "choices": [
+    {
+      "id": "TC-104",
+      "strongest": "A",
+      "runner_up": "B",
+      "reasons": "Поздние 3 дня покрывают 1 день подготовки, ранний запуск напрасно связывает резерв."
+    },
+    {
+      "id": "TC-105",
+      "strongest": "B",
+      "runner_up": "A",
+      "reasons": "Поздние 3 дня не покрывают 5 дней подготовки; ранние 7 покрывают. A сохраняет привычный триггер, но опаздывает."
+    },
+    {
+      "id": "TC-106",
+      "strongest": "B",
+      "runner_up": "D",
+      "reasons": "A оставляет 4 задачи к концу недели 4. B снимает очередь за 20, D тоже снимает за 40; C дороже."
+    },
+    {
+      "id": "TC-107",
+      "strongest": "D",
+      "runner_up": "C",
+      "reasons": "D даёт очередь 12,8,4,0 и устойчивую мощность. C снимает очередь за 100, но помощь заканчивается и оставляет постоянный дефицит."
+    },
+    {
+      "id": "TC-108",
+      "strongest": "B",
+      "runner_up": "A",
+      "reasons": "Все записи занимают 10 ГБ; выборка 100000 примеров занимает 100 МБ и достаточна. C прямо запрещён лимитом, D не решает текущую задачу."
+    },
+    {
+      "id": "TC-109",
+      "strongest": "A",
+      "runner_up": "B",
+      "reasons": "500 полных примеров занимают 500 КБ и достаточны. Выборка оставляет 5, ниже минимума 100. C и D явно негодны."
+    }
+  ],
+  "initial_concerns": [
+    "TC-108/109 options C and D appear trivial eliminated fillers, leaving only two actual strategies.",
+    "TC-107 C runner-up fails explicit sustained-capacity requirement after week 4."
+  ]
+}

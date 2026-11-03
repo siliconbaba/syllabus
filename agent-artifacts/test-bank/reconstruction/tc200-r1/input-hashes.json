@@ -1,0 +1,6 @@
+{
+  "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/production_manifest_masterplan_v2_3_hardtail_b2_candidate.json": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad"
+}

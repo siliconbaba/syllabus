@@ -1,0 +1,86 @@
+{
+  "status": "FIX REQUIRED",
+  "verdict": "FIX REQUIRED",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-140-142/cases.json",
+  "candidateSHA256": "1d07b7c0b6a1ef498438c54b5b65142a1077ca745371dbf2ef694057d99c5a40",
+  "manifestSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "inputs": {
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "agent-artifacts/test-bank/full-cases/pack-140-142/cases.json": "1d07b7c0b6a1ef498438c54b5b65142a1077ca745371dbf2ef694057d99c5a40",
+    "agent-artifacts/test-bank/full-cases/pack-140-142/blind-cases.json": "8187b9c3cf1b2fa72edb28146ee0a50c79c963ba2c7eea58bdcbf5ea4ef2170c",
+    "agent-artifacts/project-completion/qa-140-142/blind-verdict.json": "8d87ffe9a46d9460b003ebb962f8756ece48aefbbdb1a791f9261bbb1ce4c520",
+    "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-10-7.md": "f90c87bdc194ba5ae412d414b510532fe9b5a2d0dcef1ecde91f863925181f7d",
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-2-3.md": "8b3033aca1240756d82547b9a29de410362b18a5f169cf3925ff2891f62e9b73",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-9-3.md": "b5551928222247e6b0bbeb964df29dc7867997d3153d42f3f617b81e41ab61b2"
+  },
+  "acceptedCaseIDs": [],
+  "remainingCaseIDs": [
+    "TC-140",
+    "TC-141",
+    "TC-142"
+  ],
+  "remainingIssueIDs": [
+    "Q140-01",
+    "Q141-01",
+    "Q141-02",
+    "Q142-01",
+    "Q142-02"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 3
+  },
+  "issues": [
+    {
+      "id": "Q140-01",
+      "case": "TC-140",
+      "severity": "minor",
+      "field": "context vs explanation C",
+      "reason": "18 is an average; six referrals fit eight slots on average, not necessarily every month. Bound monthly referrals or explicitly frame the capacity claim as typical."
+    },
+    {
+      "id": "Q141-01",
+      "case": "TC-141",
+      "severity": "major",
+      "field": "C.whenItWouldBeBest",
+      "reason": "Confirmed duty justifies using 11–14 for that single regime, not choosing it for both. Give a coherent case requiring a single precommitted reserve across both possible regimes with costly shortfall."
+    },
+    {
+      "id": "Q141-02",
+      "case": "TC-141",
+      "severity": "minor",
+      "field": "context vs decisiveFacts",
+      "reason": "50/50 split is asserted as a fact in feedback and C03 but absent from the English-free visible stem. Add it to the stem."
+    },
+    {
+      "id": "Q142-01",
+      "case": "TC-142",
+      "severity": "major",
+      "field": "D.whenItWouldBeBest",
+      "reason": "Already approved transfer does not justify requesting it as part of the action. Specify a permissible request path, sufficient capacity for both works, and authority to begin without violating the old deadline."
+    },
+    {
+      "id": "Q142-02",
+      "case": "TC-142",
+      "severity": "minor",
+      "field": "keyInsight / B explanation and whyNotBest",
+      "reason": "Both feasible portfolios implies exactly two; A (obligation plus idle capacity) also fits. Qualify as both portfolios that add one discretionary work."
+    }
+  ],
+  "gates": {
+    "blind": "C/A/B, independently selected runners-up A/C/C all matched score order.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "topics": "10.7 bounded residual-risk authority and measures; 2.3 comparable history and simulations; 9.3 feasibility and portfolio opportunity costs. Rates, capacities and intervals are scenario assumptions.",
+    "levels": "Head delegating cross-line authority/finite review capacity; Senior conditioning on repeatable regimes and organizational decision; Senior protecting a fixed obligation while trading two portfolio outcomes on shared capacity and horizon.",
+    "duplication": "TC125 focuses independence of high-risk sign-off, 140 delegates residual risk. No same-topic/primary in production for 141. TC067 prices delayed fine against time-shifted revenue, 021 protects obligations in budget cuts; 142 first excludes infeasible schedules and then contrasts indivisible impacts on equal horizon.",
+    "surface": "Longest selects C/A but fails B in 142. No packet-wide unique key marker; assembled Batch 05 gate separate."
+  },
+  "importEligible": false,
+  "readyToFreeze": false
+}

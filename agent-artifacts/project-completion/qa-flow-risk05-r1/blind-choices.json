@@ -1,0 +1,42 @@
+{
+  "stage": "blind-before-key",
+  "blind_sha256": "4350061006ad31aa24925bf17cecdf7dbe574721daf144e63683ef9cc27d4c92",
+  "confidence_scale": "1-5",
+  "choices": [
+    {
+      "id": "TC-211",
+      "strongest": "B",
+      "runner_up": "D",
+      "confidence": 5,
+      "reason": "Expected costs: B20, D25, A30, C40; early option remains timely."
+    },
+    {
+      "id": "TC-237",
+      "strongest": "C",
+      "runner_up": "A",
+      "confidence": 5,
+      "reason": "Localized rollback incremental loss20 versus full rollback80; cause already sufficiently confirmed."
+    },
+    {
+      "id": "TC-174",
+      "strongest": "B",
+      "runner_up": "D",
+      "confidence": 5,
+      "reason": "Weekly cost one260, two145, five250. Alternating has mean202.5 under stable free-transition assumptions."
+    },
+    {
+      "id": "TC-116",
+      "strongest": "B",
+      "runner_up": "C",
+      "confidence": 5,
+      "reason": "Minimize before export while preserving validated diagnostic fields; retention alone retains excess collection."
+    },
+    {
+      "id": "TC-162",
+      "strongest": "D",
+      "runner_up": "C",
+      "confidence": 5,
+      "reason": "Bound telemetry overhead/cardinality and missingness; equal-load comparison tests observer effect without asserting initial cause."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "status": "PASS",
+  "baseSHA256": "779fe25b0dd8921106f867618da2d130c4422e3401aec0254486a8192472a228",
+  "scope": [
+    "TC-214",
+    "TC-261",
+    "TC-292"
+  ],
+  "changedRows": [
+    "TC-214",
+    "TC-261"
+  ],
+  "unchangedRows": 273,
+  "unexpectedChangedRows": 0,
+  "changedFamilies": [],
+  "unexpectedFamilyChanges": 0,
+  "otherUnresolvedUnchanged": true,
+  "previouslyAcceptedUnchanged": true,
+  "TC292Unchanged": true,
+  "productionUnchanged": true,
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "changes": [
+    {
+      "id": "TC-214",
+      "fieldsChanged": [
+        "oneSentenceScenarioConcept",
+        "decisiveFactsConcept",
+        "oneSentenceDecisionBoundary",
+        "primaryPattern",
+        "secondaryPatterns",
+        "whyLevel",
+        "derivedRuntimeSecondaryThinking",
+        "sourceTopicExplanation"
+      ],
+      "before": {
+        "plannedId": "TC-214",
+        "batch": "Batch 08",
+        "block": "B04 — Technical Delivery",
+        "partId": "part-10",
+        "topicId": "t-10-1",
+        "oneSentenceScenarioConcept": "Middle TPM обсуждает cache для справочника: данные меняются редко, latency критична, но бизнес не допускает устаревание более пяти минут; нужно решить, добавлять ли cache без стратегии invalidation.",
+        "decisiveFactsConcept": [
+          "Данные меняются редко",
+          "Latency критична",
+          "Staleness >5 минут недопустима"
+        ],
+        "oneSentenceDecisionBoundary": "Cache как бесплатное ускорение ↔ cache только с явной consistency/invalidation policy.",
+        "domain": "technical_delivery",
+        "requiredLevel": "middle",
+        "primaryPattern": "safeguards",
+        "secondaryPatterns": [
+          "reliability"
+        ],
+        "structure": "standalone",
+        "scenarioFamilyId": null,
+        "familyPosition": null,
+        "decisiveMutationConcept": null,
+        "trainingEligible": true,
+        "assessmentEligible": true,
+        "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+        "futureContextSensitivityCandidate": false,
+        "vocabularyReviewRef": null,
+        "derivedRuntimeUiDomain": "Технический TPM",
+        "derivedRuntimePrimaryThinking": "risk",
+        "derivedRuntimeSecondaryThinking": [
+          "risk"
+        ],
+        "runtimeDerivationStatus": "authoritative-swift-mapping",
+        "whyHead": null,
+        "authorityScope": null,
+        "secondaryEffect": null,
+        "runtimeClassificationSource": "authoritative-swift-mapping"
+      },
+      "after": {
+        "plannedId": "TC-214",
+        "batch": "Batch 08",
+        "block": "B04 — Technical Delivery",
+        "partId": "part-10",
+        "topicId": "t-10-1",
+        "oneSentenceScenarioConcept": "Middle TPM выбирает объём первого внедрения кэша каталога: ускорить весь просмотр цен вместе с карточками сейчас или сначала кэшировать только описания, сохранив прямое чтение цены при показе карточки и подтверждении заказа.",
+        "decisiveFactsConcept": [
+          "На ближайшие две недели выделены четыре дня backend-разработчика. Кэш описаний с TTL занимает два дня и убирает большую часть ожидания при просмотре; цена при показе карточки и подтверждении читается напрямую. Полный кэш карточки по TTL также занимает два дня, но до пяти минут показывает прежнюю цену. Обе схемы испытаны на штатной нагрузке; отказ кэша и лавина промахов уже защищены одинаково.",
+          "Устаревшее описание до пяти минут продукт принимает без дополнительных действий. Устаревшая цена в просмотре тоже допустима, но при изменении к подтверждению нужно показать пользователю новую цену и повторно получить согласие. Изменения редки; проверка на истории показывает концентрацию таких возвратов в коротком окне ежедневного обновления цен, когда поддержка уже загружена. Скрывать изменение или подтверждать старую цену нельзя; при прямом чтении цены дополнительного шага нет. За две недели продукт оценивает вклад частичного ускорения в60 единиц маржи; полное ускорение даёт100, но дополнительные отказы при повторном согласии и обслуживание ценовых расхождений стоят70. Это сопоставимые, консервативно подтверждённые оценки, не лимиты допустимости.",
+          "Два оставшихся дня можно сохранить для уже запланированной работы по доступности поиска; её перенос не блокирует релиз, но имеет самостоятельную пользу. Событийная инвалидация цен снимает это окно, но требует все четыре дня и участия команды источника через две недели. Менеджер вправе выпустить частичное ускорение сейчас или отложить всё до событийной схемы; обязательной даты полного ускорения нет. Прямое чтение цены сохраняет часть задержки, которую продукт готов принять на этот период; полное ожидание до событийного решения не даёт выигрыша в ближайшие две недели. Частичный кэш затем используется без переделки."
+        ],
+        "oneSentenceDecisionBoundary": "Выпустить TTL-кэш описаний, сохранив прямое чтение цены при подтверждении; оставшуюся мощность сохранить для работы по доступности поиска, а расширение кэша цен привязать к готовности событийной инвалидации. Принять меньший немедленный выигрыш скорости, чтобы не добавлять клиентские возвраты в уже напряжённое окно; не откладывать независимое ускорение описаний на две недели.",
+        "domain": "technical_delivery",
+        "requiredLevel": "middle",
+        "primaryPattern": "risk-differentiation",
+        "secondaryPatterns": [
+          "resource-conflict"
+        ],
+        "structure": "standalone",
+        "scenarioFamilyId": null,
+        "familyPosition": null,
+        "decisiveMutationConcept": null,
+        "trainingEligible": true,
+        "assessmentEligible": true,
+        "whyLevel": "Middle: разделить технически похожие данные по цене устаревания и выбрать границу поставки при общей мощности. Нужно сопоставить немедленное ускорение, повторное согласие в пиковом окне и цену ожидания внешней команды; все три маршрута технически допустимы, но последствия различаются.",
+        "futureContextSensitivityCandidate": false,
+        "vocabularyReviewRef": null,
+        "derivedRuntimeUiDomain": "Технический TPM",
+        "derivedRuntimePrimaryThinking": "risk",
+        "derivedRuntimeSecondaryThinking": [
+          "prioritization"
+        ],
+        "runtimeDerivationStatus": "authoritative-swift-mapping",
+        "whyHead": null,
+        "authorityScope": null,
+        "secondaryEffect": null,
+        "runtimeClassificationSource": "authoritative-swift-mapping",
+        "sourceTopicExplanation": "t-10-1: кэш обменивает скорость на свежесть, инвалидация возможна по TTL и событию записи; продукт должен явно принять устаревание. Здесь этот принцип определяет разный объём кэширования описания и цены и цену последующего согласия. Сроки, мощность, оценки эффекта, стоимость и продуктовые ограничения — авторские условия, не нормы учебника."
+      },
+      "whyFixed": "Middle: разделить технически похожие данные по цене устаревания и выбрать границу поставки при общей мощности. Нужно сопоставить немедленное ускорение, повторное согласие в пиковом окне и цену ожидания внешней команды; все три маршрута технически допустимы, но последствия различаются."
+    },
+    {
+      "id": "TC-261",
+      "fieldsChanged": [
+        "oneSentenceScenarioConcept",
+        "decisiveFactsConcept",
+        "oneSentenceDecisionBoundary",
+        "primaryPattern",
+        "secondaryPatterns",
+        "whyLevel",
+        "derivedRuntimePrimaryThinking",
+        "derivedRuntimeSecondaryThinking",
+        "sourceTopicExplanation"
+      ],
+      "before": {
+        "plannedId": "TC-261",
+        "batch": "Batch 10",
+        "block": "B10 — Product / Analytics / Technical Strategy",
+        "partId": "part-13",
+        "topicId": "t-13-3",
+        "oneSentenceScenarioConcept": "Senior PM запускает эксперимент, но одновременно маркетинг меняет цену только для варианта B; нужно решить, можно ли приписать разницу продуктовой фиче.",
+        "decisiveFactsConcept": [
+          "Цена меняется только в B",
+          "Рандомизация исходно корректна",
+          "Цель — эффект фичи"
+        ],
+        "oneSentenceDecisionBoundary": "Любая A/B-форма как причинность ↔ чистота вмешательства и одинаковые сопутствующие условия.",
+        "domain": "experimentation",
+        "requiredLevel": "middle",
+        "primaryPattern": "gate-effect-diagnosis",
+        "secondaryPatterns": [
+          "quality-metrics",
+          "hypothesis"
+        ],
+        "structure": "standalone",
+        "scenarioFamilyId": null,
+        "familyPosition": null,
+        "decisiveMutationConcept": null,
+        "trainingEligible": true,
+        "assessmentEligible": true,
+        "whyLevel": "Распознать изменение цены только в B как смешение факторов и не приписывать весь эффект фиче.",
+        "futureContextSensitivityCandidate": false,
+        "vocabularyReviewRef": null,
+        "derivedRuntimeUiDomain": "Аналитика",
+        "derivedRuntimePrimaryThinking": "evidence",
+        "derivedRuntimeSecondaryThinking": [
+          "evidence",
+          "uncertainty"
+        ],
+        "runtimeDerivationStatus": "authoritative-swift-mapping",
+        "whyHead": null,
+        "authorityScope": null,
+        "secondaryEffect": null,
+        "runtimeClassificationSource": "authoritative-swift-mapping"
+      },
+      "after": {
+        "plannedId": "TC-261",
+        "batch": "Batch 10",
+        "block": "B10 — Product / Analytics / Technical Strategy",
+        "partId": "part-13",
+        "topicId": "t-13-3",
+        "oneSentenceScenarioConcept": "Middle PM после завершённого A/B выбирает, сохранить ли исходную контрольную когорту на время расширения или закрыть экспериментальную конфигурацию и позже провести новый тест, когда средний выигрыш скрывает затухание эффекта по времени знакомства с интерфейсом.",
+        "decisiveFactsConcept": [
+          "Четырёхнедельный A/B завершён по протоколу, выборка набрана, рандомизация и guardrails проверены. Средний эффект превышает заданный минимум, но у одной и той же когорты пользователей выигрыш велик в первую неделю знакомства и близок к нулю к четвёртой. На пятой и шестой неделях поведение пока неизвестно; решение касается устойчивого эффекта, а не пересмотра уже зафиксированного результата теста.",
+          "Через две недели нужно решить, оплачивать ли длительное сопровождение нового интерфейса. PM может расширить доступ и сохранить исходные 10% контроля ещё на две недели: аналитик подтверждает достаточность этой когорты для заранее заданного сравнения устойчивого эффекта. Это потребует три дня инженера для сохранения старой ветки и отложит полезную, но необязательную чистку интерфейсного кода. Новый независимый тест на ещё не видевших изменение пользователях тоже валиден, но для наблюдения шестой недели знакомства потребует шести недель; решение о сопровождении можно отложить, потеряв ближайшее окно команды.",
+          "Полный rollout сейчас с мониторингом общей метрики также разрешён как продуктовая ставка: откат дешёвый, защитные метрики чистые. Но одновременно начинается сезонная кампания; общая метрика не различит её вклад и устойчивость эффекта интерфейса. Срок и анализ продлённого наблюдения можно зафиксировать до его начала; ежедневное продление до значимости не предлагается."
+        ],
+        "oneSentenceDecisionBoundary": "Сохранить исходную случайно выделенную контрольную когорту при расширении и заранее зафиксировать двухнедельное наблюдение устойчивого эффекта для решения о сопровождении; оплатить три дня сохранения старой ветки. Итог исходного теста не переписывать. Не заменять доступное наблюдение шестой недели общей метрикой сезона и не начинать заново шестинедельный цикл без необходимости.",
+        "domain": "experimentation",
+        "requiredLevel": "middle",
+        "primaryPattern": "hypothesis",
+        "secondaryPatterns": [
+          "precommitted-stop-criteria"
+        ],
+        "structure": "standalone",
+        "scenarioFamilyId": null,
+        "familyPosition": null,
+        "decisiveMutationConcept": null,
+        "trainingEligible": true,
+        "assessmentEligible": true,
+        "whyLevel": "Middle: выбрать между расходом на сохранение сравнимой когорты, задержкой нового валидного теста и разрешённой ставкой без причинного вывода. Нужно учесть длительность знакомства пользователей и близкое необратимое обязательство по сопровождению, а не применить p-value или готовый stop threshold.",
+        "futureContextSensitivityCandidate": false,
+        "vocabularyReviewRef": null,
+        "derivedRuntimeUiDomain": "Аналитика",
+        "derivedRuntimePrimaryThinking": "uncertainty",
+        "derivedRuntimeSecondaryThinking": [
+          "evidence"
+        ],
+        "runtimeDerivationStatus": "authoritative-swift-mapping",
+        "whyHead": null,
+        "authorityScope": null,
+        "secondaryEffect": null,
+        "runtimeClassificationSource": "authoritative-swift-mapping",
+        "sourceTopicExplanation": "t-13-3: эффект новизны проверяют по динамике в одной когорте; при расширении можно сохранить holdout, чтобы отличить эффект интерфейса от изменения среды. Менеджер выбирает дизайн и решение, аналитик подтверждает выборку и метод. Сроки, мощность, оценки эффекта, стоимость и продуктовые ограничения — авторские условия, не нормы учебника."
+      },
+      "whyFixed": "Middle: выбрать между расходом на сохранение сравнимой когорты, задержкой нового валидного теста и разрешённой ставкой без причинного вывода. Нужно учесть длительность знакомства пользователей и близкое необратимое обязательство по сопровождению, а не применить p-value или готовый stop threshold."
+    }
+  ],
+  "immutableFields": [
+    "plannedId",
+    "topicId",
+    "partId",
+    "domain",
+    "requiredLevel",
+    "batch",
+    "block",
+    "structure",
+    "scenarioFamilyId",
+    "familyPosition",
+    "decisiveMutationConcept",
+    "trainingEligible",
+    "assessmentEligible",
+    "whyHead",
+    "authorityScope",
+    "secondaryEffect"
+  ],
+  "historicalRevisionSectionsUnchanged": true
+}

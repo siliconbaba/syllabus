@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-25T19:20:21.485272+00:00",
+  "preexistingFilesChecked": 37552,
+  "productionContentChanged": false,
+  "dryRunTests": 18,
+  "dryRunStatus": "PASS",
+  "nativeWorkerEndToEnd": "NOT_RUN",
+  "scheduleActivated": false,
+  "launchdInstalled": false,
+  "commitPush": "NOT_PERFORMED",
+  "manifestContentChanges": [],
+  "concurrentWorkspaceChanges": [
+    "InteractiveBook.xcodeproj/project.pbxproj",
+    "InteractiveBook.xcodeproj/project.xcworkspace/xcuserdata/denis.xcuserdatad/UserInterfaceState.xcuserstate"
+  ],
+  "concurrentChangesNote": "Two Xcode files changed during bootstrap; bootstrap commands wrote only orchestration and temporary files. Not reverted.",
+  "bootstrapWritesOutsideOrchestration": false
+}

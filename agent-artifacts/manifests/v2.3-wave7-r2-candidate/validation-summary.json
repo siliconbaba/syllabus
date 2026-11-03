@@ -1,0 +1,22 @@
+{
+  "status": "PASS — scoped author self-QA",
+  "scope": [
+    "TC-183"
+  ],
+  "source": "PASS",
+  "middle": "PASS",
+  "realTradeOff": "PASS",
+  "semanticUniqueness": "ALLOWED REINFORCEMENT",
+  "nearDuplicate": 0,
+  "duplicate": 0,
+  "runtime": "PASS",
+  "structuralRegression": "PASS",
+  "unknownCodes": 0,
+  "unexpectedChanges": 0,
+  "productionUnchanged": true,
+  "readyForFocusedIndependentRetest": true,
+  "independentRetest": "NOT RUN",
+  "fullCaseLoader": "NOT_APPLICABLE — manifest only",
+  "freeze": false,
+  "import": false
+}

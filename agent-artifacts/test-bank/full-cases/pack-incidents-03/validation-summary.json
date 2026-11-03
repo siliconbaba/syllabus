@@ -1,0 +1,17 @@
+{
+  "sha256": "c06de5e0b99be92c8156a349bd9a01e11893b9b48f925b253bb446bc2b704da0",
+  "swift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  },
+  "inputSHA256": {
+    "agent-artifacts/context-packs/batch-04/source-topics/t-10-6.md": "0d38cd1469d215f4f55ae6a322dc3cffeb90c28988ff86ea8c06090f2a4fdae9",
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f"
+  },
+  "metadata": true,
+  "caseCount": 3,
+  "options": 12
+}

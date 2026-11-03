@@ -1,0 +1,48 @@
+{
+  "status": "FIX REQUIRED — focused mandate clarification",
+  "scope": "Blueprint pair only",
+  "candidatePath": "agent-artifacts/test-bank/reconstruction/f-po-p02-completion05/proposed-projection.json",
+  "candidateSHA256": "b994fc828d06c712e1f2b286b51a3eeed5a4fd358a266e114124da3f08adac0c",
+  "acceptedBlueprintIDs": [],
+  "remainingCaseIDs": [
+    "TC-133",
+    "TC-134"
+  ],
+  "remainingIssueIDs": [
+    "PO02-01"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 0
+  },
+  "inputs": {
+    "agent-artifacts/manifests/v2.3-completion-04-candidate/production_manifest_masterplan_v2_3_completion_04_candidate.json": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-9-4.md": "930f2a5aa24ff29e8ba5d2fa03e0107c4c8d581b11593af4c5e1a808cf870c85",
+    "agent-artifacts/test-bank/unified-reconstruction-plan/unresolved-72-inventory.csv": "25a5b6c2a9843a2ad737739efe0ee35bf552ddc4cfc62dacefb80b74f704d213",
+    "InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad"
+  },
+  "gates": {
+    "dependencyAndMath": "PASS. Catalogue already transferred: B can use day 5 and meet day 6; V starts on day 3; exchange loses 0 vs retaining B loses 50. Certificate needed: B on day 1 supplies V before day 3; B on day 5 misses handoff, loses 90. Keep B costs 50 and dominates swapping by 40. No third source, splitting forbidden.",
+    "family": "PASS on single mutation. One signed input to day-3 transition changes. Same timelines, values, roles and mandate. One intended action executes exchange locally; the other seeks a portfolio decision recommending preservation of B. Distinct actions.",
+    "authorityUniqueness": "FIX REQUIRED. Preferred allocation is unique in both. The mandate gives the portfolio owner exclusive authority to CHANGE the day-3 milestone. Keeping B requires no change to it. The only quantified loss on unchanged plan belongs to A, the focal program, and the stated bar addresses external losses. A can reasonably decline the exchange and retain the existing plan without asking the portfolio owner. Conversely, if the separate sentence «Ему нужно представить сопоставимые последствия и рекомендацию» is an unconditional submission requirement, it also applies when swapping is harmless in TC-133. Merely dropping the preserve-plan-locally alternative from the distractors does not settle the authority question.",
+    "levelAndSource": "Senior mechanism present: follow specific producer artifact into downstream consumer milestone, distinguish local reservation reshuffle from impact on third party, then judge authority and recommend with both opportunity costs. §9.4 supports dependency and integration milestone management and escalation of real interprogram trade-offs to a mandate holder. The local exception and escalation trigger require an explicit scenario mandate.",
+    "duplication": "ALLOWED REINFORCEMENT. TC-012 sole portfolio mandate and indivisible resource established up front. TC-156/157 and TC-226/227 change decision authority or queue ownership. Here same mandate is applied after deriving impact via catalogue vs certificate; this meets the inventory requirement if the mandate is clarified. TC-074 one shared dependency decision, TC-139 end-to-end acceptance, TC-096 influence without authority; none uses the artifact swap. TC-040/041 governance/delegation design; TC-098 reserve authority.",
+    "mapping": "Classification and eligibility copied identically from C04. Both training-only. No change to runtime mappings."
+  },
+  "issues": [
+    {
+      "id": "PO02-01",
+      "severity": "major",
+      "fields": [
+        "both decisiveFactsConcept[1]",
+        "familyManifest.factsThatMustRemainConstant[0]"
+      ],
+      "fix": "State the shared rule once: when a feasible exchange preserves all three programs’ obligations, A and B approve it locally; if neither allocation can preserve all three, portfolio owner must choose which program bears the loss, even if the recommendation is to leave the original reservation in place. Qualify the comparison/report requirement with that trigger. Preserve the same rule in both states.",
+      "retest": "Re-run local-retain counterexample in TC-134 and mandatory-submission counterexample in TC-133; confirm only the common mandate changed and both winners remain distinct."
+    }
+  ],
+  "importEligible": false,
+  "readyToFreeze": false
+}

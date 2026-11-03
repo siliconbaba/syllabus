@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "unresolvedInput": 78,
+  "triaged": 78,
+  "missing": [],
+  "duplicateRows": 0,
+  "categoryTotals": {
+    "A": 6,
+    "B": 9,
+    "C": 25,
+    "D": 28,
+    "E": 0,
+    "F": 10
+  },
+  "categoryTotal": 78,
+  "retrySameMethod": {
+    "YES": 6,
+    "NO": 72
+  },
+  "treatmentGroupCoverage": 78,
+  "wave7Selected": 13,
+  "wave7Remaining": 12,
+  "wave7RemainingCategories": {
+    "D": 7,
+    "C": 4,
+    "A": 1
+  },
+  "candidateChanged": false,
+  "productionChanged": false,
+  "inputFilesChecked": 674,
+  "changedInputFiles": [],
+  "unresolvedStatusesChanged": false,
+  "sourceTopicCount": 34,
+  "readyForTargetedRemediationPlanning": true,
+  "contentAcceptanceGranted": false
+}

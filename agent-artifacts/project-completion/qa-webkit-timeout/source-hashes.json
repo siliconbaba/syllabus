@@ -1,0 +1,9 @@
+{
+  "Tests/WebKitSmoke.swift": "4cc56aecc97393ec8efb64164325e4267fcfc69d84ca3d9b2096b001a78f87ab",
+  "Tests/reader.test.js": "7189f8fecd56fe00a526d3007ce3ab727cd49c698c3899d213968fcecb0322ca",
+  "Tests/restore.test.js": "6d32e737c78edcc77acfc89c4238178f7ed8cb5af7a685b8c76814be281c7b98",
+  "Tests/audio-extraction.test.js": "d22d891e8941ccc6b07a9804d01d5deba39a9b75721120b42ac8a682bc1793ed",
+  "InteractiveBook/WebContent/reader.js": "50bd1842ce6628d88c60ea3f34accfc0a327cd8f3062d5963b217194a86cac8c",
+  "agent-artifacts/project-audit/2026-10-25/check.log": "cbb8f692e582a4182320f4289ae1ad4b0b2640159f9005d9a2e2f8232aa888ee",
+  "agent-artifacts/project-completion/build-check/full-check-2026-10-26.log": "d2819728834cef1f76d94d35368f735f738ee41ca39300306902b0dc4ce0b268"
+}

@@ -1,0 +1,3804 @@
+{
+  "rows": [
+    {
+      "id": "TC-001",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "middle",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "critical-path",
+        "contract-first",
+        "parallel-work"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-002",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "middle",
+      "primaryPattern": "contract-volatility",
+      "secondaryPatterns": [
+        "critical-path",
+        "rework-risk",
+        "dependency-management"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-003",
+      "domain": "release_and_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "risk-based-hotfix",
+      "secondaryPatterns": [
+        "rollback",
+        "feature-flags",
+        "regression-evidence"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-004",
+      "domain": "release_and_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "evidence-before-release",
+      "secondaryPatterns": [
+        "risk-based-testing",
+        "rollback",
+        "feature-flags"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-005",
+      "domain": "mobile_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "external-critical-path",
+      "secondaryPatterns": [
+        "app-store-review",
+        "buffer",
+        "feature-flags"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-006",
+      "domain": "risk_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "risk-to-issue-transition",
+      "secondaryPatterns": [
+        "mitigation",
+        "risk-register"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-007",
+      "domain": "risk_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "buffer-consumption",
+        "forecasting",
+        "proactive-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-008",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "lead-time",
+        "quality-metrics",
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-009",
+      "domain": "delivery_quality",
+      "requiredLevel": "senior",
+      "primaryPattern": "progressive-quality-gates",
+      "secondaryPatterns": [
+        "warning-mode",
+        "risk-differentiation",
+        "change-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-010",
+      "domain": "release_engineering",
+      "requiredLevel": "middle",
+      "primaryPattern": "rollback-data-awareness",
+      "secondaryPatterns": [
+        "feature-flags",
+        "data-migration",
+        "expand-contract"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-011",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "backward-compatible-change",
+      "secondaryPatterns": [
+        "api-contracts",
+        "versioning",
+        "migration-strategy"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-012",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "middle",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "resource-conflict",
+        "escalation"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-013",
+      "domain": "organizational_design",
+      "requiredLevel": "middle",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "platform-self-service",
+        "team-topologies",
+        "bottleneck"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-014",
+      "domain": "uncertainty_and_external_dependencies",
+      "requiredLevel": "senior",
+      "primaryPattern": "uncertainty-impact-plan-b",
+      "secondaryPatterns": [
+        "impact-analysis",
+        "parallel-work",
+        "external-contact"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-015",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-bad-news",
+      "secondaryPatterns": [
+        "forecast",
+        "expectation-management",
+        "options"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-016",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "escalation-readiness",
+      "secondaryPatterns": [
+        "dependency",
+        "required-date",
+        "critical-path"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-017",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "performance",
+        "one-on-one",
+        "support"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-018",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "formal-performance-management",
+      "secondaryPatterns": [
+        "feedback",
+        "pip",
+        "accountability"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-019",
+      "domain": "incident_and_culture",
+      "requiredLevel": "middle",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "root-cause",
+        "safeguards",
+        "postmortem"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-020",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "contract-risk-allocation",
+      "secondaryPatterns": [
+        "fixed-price",
+        "time-and-materials",
+        "scope-uncertainty"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-021",
+      "domain": "portfolio_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-022",
+      "domain": "reliability",
+      "requiredLevel": "middle",
+      "primaryPattern": "error-budget-governance",
+      "secondaryPatterns": [
+        "slo",
+        "feature-velocity",
+        "reliability"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-023",
+      "domain": "incident_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "incident-command",
+      "secondaryPatterns": [
+        "roles",
+        "change-control",
+        "communications"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-024",
+      "domain": "experimentation",
+      "requiredLevel": "junior",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "peeking",
+        "p-value",
+        "guardrails"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-025",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "middle",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "mvp",
+        "hypothesis",
+        "reversible-investment"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-026",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "buffer-consumption",
+        "forecasting"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-027",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "buffer-consumption",
+        "forecasting"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-028",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "buffer-consumption",
+        "forecasting"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-029",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "contract-risk-allocation",
+      "secondaryPatterns": [
+        "fixed-price",
+        "time-and-materials"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-030",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "contract-risk-allocation",
+      "secondaryPatterns": [
+        "fixed-price",
+        "time-and-materials"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-031",
+      "domain": "experimentation",
+      "requiredLevel": "junior",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "p-value",
+        "guardrails"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-032",
+      "domain": "experimentation",
+      "requiredLevel": "junior",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "p-value",
+        "guardrails"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-033",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "junior",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "reversible-investment",
+        "hypothesis"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-034",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "junior",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "reversible-investment",
+        "hypothesis"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-035",
+      "domain": "uncertainty_and_external_dependencies",
+      "requiredLevel": "senior",
+      "primaryPattern": "uncertainty-impact-plan-b",
+      "secondaryPatterns": [
+        "impact-analysis",
+        "external-contact"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-036",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "senior",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "hypothesis",
+        "reversible-investment"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-037",
+      "domain": "release_engineering",
+      "requiredLevel": "middle",
+      "primaryPattern": "rollback-data-awareness",
+      "secondaryPatterns": [
+        "data-migration",
+        "rollback"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-038",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "backward-compatible-change",
+      "secondaryPatterns": [
+        "api-contracts",
+        "versioning"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-039",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "team-topologies",
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-040",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "head",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "communications"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-041",
+      "domain": "people_management",
+      "requiredLevel": "head",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "roles",
+        "support"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-042",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "forecast"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-043",
+      "domain": "reliability",
+      "requiredLevel": "senior",
+      "primaryPattern": "error-budget-governance",
+      "secondaryPatterns": [
+        "slo",
+        "feature-velocity"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-044",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "root-cause"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-045",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "senior",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "critical-path",
+        "parallel-work"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-046",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "senior",
+      "primaryPattern": "uncertainty-impact-plan-b",
+      "secondaryPatterns": [
+        "impact-analysis",
+        "risk-register"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-047",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "warning-mode"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-048",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "backward-compatible-change",
+      "secondaryPatterns": [
+        "data-migration",
+        "dependency-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-049",
+      "domain": "incident_management",
+      "requiredLevel": "head",
+      "primaryPattern": "incident-command",
+      "secondaryPatterns": [
+        "roles",
+        "communications"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-050",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "evidence-before-release",
+      "secondaryPatterns": [
+        "safeguards",
+        "quality-metrics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-051",
+      "domain": "portfolio_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-052",
+      "domain": "portfolio_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-053",
+      "domain": "portfolio_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-054",
+      "domain": "release_engineering",
+      "requiredLevel": "junior",
+      "primaryPattern": "rollback-data-awareness",
+      "secondaryPatterns": [
+        "rollback",
+        "feature-flags"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-055",
+      "domain": "release_engineering",
+      "requiredLevel": "junior",
+      "primaryPattern": "rollback-data-awareness",
+      "secondaryPatterns": [
+        "rollback",
+        "feature-flags"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-056",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-bad-news",
+      "secondaryPatterns": [
+        "forecast",
+        "expectation-management"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-057",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-bad-news",
+      "secondaryPatterns": [
+        "forecast",
+        "expectation-management"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-058",
+      "domain": "portfolio_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-059",
+      "domain": "portfolio_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-060",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "senior",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "hypothesis",
+        "reversible-investment"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-061",
+      "domain": "release_engineering",
+      "requiredLevel": "middle",
+      "primaryPattern": "risk-based-hotfix",
+      "secondaryPatterns": [
+        "feature-flags",
+        "rollback"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-062",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "backward-compatible-change",
+      "secondaryPatterns": [
+        "expand-contract",
+        "data-migration"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-063",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "bottleneck",
+        "risk-differentiation"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-064",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "negotiation-batna",
+      "secondaryPatterns": [],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-065",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "support",
+        "performance"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-066",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "head",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-067",
+      "domain": "portfolio_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-068",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "slo"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-069",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "junior",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "critical-path",
+        "change-control"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-070",
+      "domain": "delivery_quality",
+      "requiredLevel": "junior",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "root-cause",
+        "safeguards"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-071",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "head",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "communications",
+        "strategic-fit"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-072",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "formal-performance-management",
+      "secondaryPatterns": [
+        "feedback",
+        "pip"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-073",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "head",
+      "primaryPattern": "contract-risk-allocation",
+      "secondaryPatterns": [
+        "migration-strategy",
+        "safeguards"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-074",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "middle",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "escalation"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-075",
+      "domain": "experimentation",
+      "requiredLevel": "junior",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "guardrails"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-076",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-077",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-078",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-079",
+      "domain": "technical_delivery",
+      "requiredLevel": "junior",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "api-contracts"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-080",
+      "domain": "technical_delivery",
+      "requiredLevel": "junior",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "api-contracts"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-081",
+      "domain": "people_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "one-on-one",
+        "performance"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-082",
+      "domain": "people_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "one-on-one",
+        "performance"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-083",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-084",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-085",
+      "domain": "release_and_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "bottleneck"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-086",
+      "domain": "delivery_quality",
+      "requiredLevel": "junior",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "bottleneck",
+        "lead-time"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-087",
+      "domain": "incident_and_culture",
+      "requiredLevel": "middle",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "accountability",
+        "postmortem"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-088",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "escalation-readiness",
+      "secondaryPatterns": [
+        "required-date",
+        "escalation"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-089",
+      "domain": "incident_and_culture",
+      "requiredLevel": "middle",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "accountability",
+        "postmortem"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-090",
+      "domain": "portfolio_management",
+      "requiredLevel": "head",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "sunk-cost"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-091",
+      "domain": "organizational_design",
+      "requiredLevel": "senior",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "team-topologies",
+        "dependency-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-092",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "root-cause"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-093",
+      "domain": "risk_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "risk-differentiation",
+      "secondaryPatterns": [
+        "mitigation",
+        "risk-register"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-094",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "guardrails",
+        "p-value"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-095",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "bottleneck",
+        "dependency-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-096",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "escalation"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-097",
+      "domain": "people_management",
+      "requiredLevel": "head",
+      "primaryPattern": "formal-performance-management",
+      "secondaryPatterns": [
+        "feedback",
+        "roles"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-098",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "head",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "risk-register",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-099",
+      "domain": "reliability",
+      "requiredLevel": "senior",
+      "primaryPattern": "error-budget-governance",
+      "secondaryPatterns": [
+        "slo",
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-100",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "slo"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-101",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-testing",
+      "secondaryPatterns": [
+        "safeguards",
+        "feature-flags"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-102",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-testing",
+      "secondaryPatterns": [
+        "safeguards",
+        "feature-flags"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-103",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-testing",
+      "secondaryPatterns": [
+        "safeguards",
+        "feature-flags"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-104",
+      "domain": "risk_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "risk-register",
+      "secondaryPatterns": [
+        "early-warning-response"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-105",
+      "domain": "risk_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "risk-register",
+      "secondaryPatterns": [
+        "early-warning-response"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-106",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "bottleneck",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-107",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "bottleneck",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-108",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-109",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-110",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "bottleneck",
+        "migration-strategy"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-111",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "team-topologies",
+      "secondaryPatterns": [
+        "change-management",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-112",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "expectation-management",
+      "secondaryPatterns": [
+        "communications"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-113",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "expectation-management",
+      "secondaryPatterns": [
+        "one-on-one",
+        "support"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-114",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "forecast",
+        "quality-metrics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-115",
+      "domain": "incident_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "cost-of-delay",
+      "secondaryPatterns": [
+        "mitigation",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-116",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "safeguards",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-117",
+      "domain": "risk_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "mitigation",
+        "risk-register"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-118",
+      "domain": "portfolio_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "dependency-management",
+        "cost-of-delay"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-119",
+      "domain": "delivery_quality",
+      "requiredLevel": "senior",
+      "primaryPattern": "api-contracts",
+      "secondaryPatterns": [
+        "versioning",
+        "evidence-before-release"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-120",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "resource-conflict",
+      "secondaryPatterns": [
+        "change-management",
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-121",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "interest-based-negotiation",
+      "secondaryPatterns": [],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-122",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "formal-performance-management",
+      "secondaryPatterns": [
+        "performance",
+        "expectation-management",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-123",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "cost-of-delay"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-124",
+      "domain": "incident_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "risk-based-hotfix",
+      "secondaryPatterns": [
+        "rollback",
+        "mitigation"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-125",
+      "domain": "technical_delivery",
+      "requiredLevel": "head",
+      "primaryPattern": "roles",
+      "secondaryPatterns": [
+        "accountability",
+        "safeguards"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-126",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "process-economics",
+        "quality-metrics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-127",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "process-economics",
+        "quality-metrics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-128",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "process-economics",
+        "quality-metrics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-129",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "middle",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "hypothesis",
+        "reversible-investment"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-130",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "middle",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "hypothesis",
+        "reversible-investment"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-131",
+      "domain": "release_and_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-132",
+      "domain": "release_and_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-133",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "escalation"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-134",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "escalation"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-135",
+      "domain": "delivery_quality",
+      "requiredLevel": "junior",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "bottleneck",
+        "lead-time"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-136",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "senior",
+      "primaryPattern": "change-management",
+      "secondaryPatterns": [
+        "communications",
+        "safeguards"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-137",
+      "domain": "incident_and_culture",
+      "requiredLevel": "head",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "root-cause",
+        "accountability"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-138",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "contract-risk-allocation",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-139",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "senior",
+      "primaryPattern": "dependency-management",
+      "secondaryPatterns": [
+        "root-cause",
+        "evidence-before-release"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-140",
+      "domain": "technical_delivery",
+      "requiredLevel": "head",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "safeguards",
+        "roles"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-141",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "senior",
+      "primaryPattern": "forecasting",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "scope-uncertainty"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-142",
+      "domain": "portfolio_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-143",
+      "domain": "release_engineering",
+      "requiredLevel": "junior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "feature-flags"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-144",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "reliability",
+        "safeguards"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-145",
+      "domain": "delivery_quality",
+      "requiredLevel": "junior",
+      "primaryPattern": "risk-differentiation",
+      "secondaryPatterns": [],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-146",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "junior",
+      "primaryPattern": "escalation-readiness",
+      "secondaryPatterns": [
+        "required-date",
+        "escalation"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-147",
+      "domain": "people_management",
+      "requiredLevel": "head",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "roles",
+        "team-topologies"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-148",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-149",
+      "domain": "technical_delivery",
+      "requiredLevel": "head",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "safeguards",
+        "roles"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-150",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "api-contracts",
+        "rework-risk"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-151",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "escalation-readiness",
+      "secondaryPatterns": [
+        "required-date",
+        "escalation"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-152",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "escalation-readiness",
+      "secondaryPatterns": [
+        "required-date",
+        "escalation"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-153",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "escalation-readiness",
+      "secondaryPatterns": [
+        "required-date",
+        "escalation"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-154",
+      "domain": "mobile_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "app-store-review",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-155",
+      "domain": "mobile_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "app-store-review",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-156",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "escalation"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-157",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "escalation"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-158",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "head",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "roles"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-159",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "one-on-one",
+        "support"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-160",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "senior",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "impact-analysis",
+        "options"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-161",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "team-topologies",
+        "change-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-162",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "root-cause",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-163",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "junior",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "critical-path",
+        "dependency-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-164",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "hypothesis",
+      "secondaryPatterns": [
+        "precommitted-stop-criteria",
+        "reversible-investment"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-165",
+      "domain": "delivery_quality",
+      "requiredLevel": "senior",
+      "primaryPattern": "progressive-quality-gates",
+      "secondaryPatterns": [
+        "risk-differentiation",
+        "warning-mode"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-166",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-167",
+      "domain": "organizational_design",
+      "requiredLevel": "senior",
+      "primaryPattern": "dependency-management",
+      "secondaryPatterns": [
+        "change-control"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-168",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "negotiation-batna",
+      "secondaryPatterns": [
+        "required-date",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-169",
+      "domain": "people_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "feedback",
+        "performance"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-170",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "head",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "decision-at-right-level",
+        "portfolio-reprioritization"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-171",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "risk-differentiation",
+        "required-date"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-172",
+      "domain": "experimentation",
+      "requiredLevel": "junior",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "p-value",
+        "guardrails"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-173",
+      "domain": "release_and_quality",
+      "requiredLevel": "junior",
+      "primaryPattern": "evidence-before-release",
+      "secondaryPatterns": [
+        "regression-evidence",
+        "risk-based-testing"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-174",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "lead-time",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-175",
+      "domain": "delivery_quality",
+      "requiredLevel": "senior",
+      "primaryPattern": "root-cause",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-176",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "performance",
+        "support"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-177",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "performance",
+        "support"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-178",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "diagnosis-before-intervention",
+      "secondaryPatterns": [
+        "performance",
+        "support"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-179",
+      "domain": "people_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "feedback",
+        "support"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-180",
+      "domain": "people_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "feedback",
+        "support"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-181",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "head",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "proactive-management"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-182",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "head",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "proactive-management"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-183",
+      "domain": "incident_and_culture",
+      "requiredLevel": "middle",
+      "primaryPattern": "resource-conflict",
+      "secondaryPatterns": [
+        "accountability"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-184",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "senior",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "hypothesis",
+        "impact-analysis"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-185",
+      "domain": "incident_management",
+      "requiredLevel": "head",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "postmortem",
+        "safeguards"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-186",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "middle",
+      "primaryPattern": "hypothesis",
+      "secondaryPatterns": [
+        "guardrails",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-187",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "middle",
+      "primaryPattern": "critical-path",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-188",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "strategic-fit"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-189",
+      "domain": "release_engineering",
+      "requiredLevel": "junior",
+      "primaryPattern": "feature-flags",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-190",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "root-cause",
+      "secondaryPatterns": [
+        "bottleneck"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-191",
+      "domain": "incident_and_culture",
+      "requiredLevel": "senior",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "safeguards",
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-192",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "senior",
+      "primaryPattern": "interest-based-negotiation",
+      "secondaryPatterns": [
+        "uncertainty-impact-plan-b"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-193",
+      "domain": "people_management",
+      "requiredLevel": "junior",
+      "primaryPattern": "expectation-management",
+      "secondaryPatterns": [
+        "support"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-194",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-195",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "quality-metrics",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-196",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "dependency-management",
+        "cost-of-delay"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-197",
+      "domain": "delivery_quality",
+      "requiredLevel": "junior",
+      "primaryPattern": "evidence-before-release",
+      "secondaryPatterns": [
+        "guardrails",
+        "warning-mode"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-198",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "migration-strategy",
+        "feature-velocity"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-199",
+      "domain": "organizational_design",
+      "requiredLevel": "senior",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "team-topologies"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-200",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "junior",
+      "primaryPattern": "communications",
+      "secondaryPatterns": [
+        "expectation-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-201",
+      "domain": "reliability",
+      "requiredLevel": "middle",
+      "primaryPattern": "error-budget-governance",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-202",
+      "domain": "reliability",
+      "requiredLevel": "middle",
+      "primaryPattern": "error-budget-governance",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-203",
+      "domain": "reliability",
+      "requiredLevel": "middle",
+      "primaryPattern": "error-budget-governance",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-204",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "senior",
+      "primaryPattern": "uncertainty-impact-plan-b",
+      "secondaryPatterns": [
+        "change-control",
+        "buffer"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-205",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "senior",
+      "primaryPattern": "uncertainty-impact-plan-b",
+      "secondaryPatterns": [
+        "change-control",
+        "buffer"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-206",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "risk-differentiation",
+        "safeguards"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-207",
+      "domain": "technical_delivery",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "risk-differentiation",
+        "safeguards"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-208",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "process-economics",
+      "secondaryPatterns": [
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-209",
+      "domain": "portfolio_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "root-cause",
+      "secondaryPatterns": [
+        "portfolio-reprioritization"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-210",
+      "domain": "technical_delivery",
+      "requiredLevel": "junior",
+      "primaryPattern": "evidence-before-release",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "safeguards"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-211",
+      "domain": "risk_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-212",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "middle",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "mvp",
+        "hypothesis"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-213",
+      "domain": "release_engineering",
+      "requiredLevel": "middle",
+      "primaryPattern": "risk-differentiation",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-214",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "risk-differentiation",
+      "secondaryPatterns": [
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-215",
+      "domain": "delivery_quality",
+      "requiredLevel": "senior",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "change-control"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-216",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "junior",
+      "primaryPattern": "communications",
+      "secondaryPatterns": [
+        "external-contact"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-217",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "formal-performance-management",
+      "secondaryPatterns": [
+        "pip",
+        "accountability"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-218",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "uncertainty-impact-plan-b",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-219",
+      "domain": "experimentation",
+      "requiredLevel": "junior",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "hypothesis",
+        "reversible-investment"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-220",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "middle",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "forecast",
+        "reversible-investment"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-221",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "guardrails",
+        "p-value"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-222",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "resource-conflict",
+      "secondaryPatterns": [
+        "lead-time"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-223",
+      "domain": "delivery_quality",
+      "requiredLevel": "senior",
+      "primaryPattern": "progressive-quality-gates",
+      "secondaryPatterns": [
+        "risk-differentiation",
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-224",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "junior",
+      "primaryPattern": "communications",
+      "secondaryPatterns": [
+        "dependency-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-225",
+      "domain": "people_management",
+      "requiredLevel": "head",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "roles"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-226",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "cost-of-delay"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-227",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "senior",
+      "primaryPattern": "decision-at-right-level",
+      "secondaryPatterns": [
+        "resource-conflict",
+        "cost-of-delay"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-228",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-hotfix",
+      "secondaryPatterns": [
+        "feature-flags",
+        "rollback"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-229",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-hotfix",
+      "secondaryPatterns": [
+        "feature-flags",
+        "rollback"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-230",
+      "domain": "incident_and_culture",
+      "requiredLevel": "senior",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "accountability",
+        "safeguards"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-231",
+      "domain": "incident_and_culture",
+      "requiredLevel": "senior",
+      "primaryPattern": "blameless-system-thinking",
+      "secondaryPatterns": [
+        "accountability",
+        "safeguards"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-232",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "senior",
+      "primaryPattern": "contract-risk-allocation",
+      "secondaryPatterns": [
+        "migration-strategy",
+        "safeguards"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-233",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "senior",
+      "primaryPattern": "contract-risk-allocation",
+      "secondaryPatterns": [
+        "migration-strategy",
+        "safeguards"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-234",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "platform-self-service",
+        "team-topologies"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-235",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "platform-self-service",
+        "team-topologies"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-236",
+      "domain": "portfolio_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "cost-of-delay",
+      "secondaryPatterns": [],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-237",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "impact-analysis",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-238",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "middle",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "contract-first",
+        "parallel-work"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-239",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "middle",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "reversible-investment",
+        "data-migration"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-240",
+      "domain": "mobile_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "risk-differentiation",
+      "secondaryPatterns": [
+        "versioning",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-241",
+      "domain": "technical_delivery",
+      "requiredLevel": "junior",
+      "primaryPattern": "bottleneck",
+      "secondaryPatterns": [
+        "dependency"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-242",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "hypothesis"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-243",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-bad-news",
+      "secondaryPatterns": [
+        "forecast",
+        "expectation-management"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-244",
+      "domain": "people_management",
+      "requiredLevel": "head",
+      "primaryPattern": "roles",
+      "secondaryPatterns": [
+        "decision-at-right-level"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-245",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "junior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "process-economics",
+        "strategic-fit"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-246",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "hypothesis"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-247",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "buffer",
+        "forecasting"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-248",
+      "domain": "experimentation",
+      "requiredLevel": "senior",
+      "primaryPattern": "hypothesis",
+      "secondaryPatterns": [
+        "root-cause"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-249",
+      "domain": "technical_delivery",
+      "requiredLevel": "junior",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "bottleneck",
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-250",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "junior",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "hypothesis"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-251",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "senior",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "contract-first",
+        "rework-risk"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-252",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "senior",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "contract-first",
+        "rework-risk"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-253",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "bottleneck",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-254",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "bottleneck",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-255",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "negotiation-batna",
+      "secondaryPatterns": [],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-256",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "negotiation-batna",
+      "secondaryPatterns": [],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-257",
+      "domain": "incident_and_culture",
+      "requiredLevel": "head",
+      "primaryPattern": "accountability",
+      "secondaryPatterns": [
+        "roles"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-258",
+      "domain": "incident_and_culture",
+      "requiredLevel": "head",
+      "primaryPattern": "accountability",
+      "secondaryPatterns": [
+        "roles"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-259",
+      "domain": "experimentation",
+      "requiredLevel": "head",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "hypothesis",
+        "strategic-fit"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-260",
+      "domain": "experimentation",
+      "requiredLevel": "head",
+      "primaryPattern": "cheap-learning-before-build",
+      "secondaryPatterns": [
+        "hypothesis",
+        "strategic-fit"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-261",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "hypothesis",
+      "secondaryPatterns": [
+        "precommitted-stop-criteria"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-262",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "junior",
+      "primaryPattern": "dependency-decoupling",
+      "secondaryPatterns": [
+        "critical-path",
+        "parallel-work"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-263",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "p-value",
+        "guardrails"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-264",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "rollback-data-awareness",
+      "secondaryPatterns": [
+        "versioning"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-265",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "backward-compatible-change",
+      "secondaryPatterns": [
+        "versioning",
+        "quality-metrics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-266",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "root-cause",
+        "quality-metrics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-267",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "early-bad-news",
+      "secondaryPatterns": [
+        "expectation-management",
+        "options"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-268",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "roles",
+      "secondaryPatterns": [
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-269",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "risk-register",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-270",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "middle",
+      "primaryPattern": "dependency-management",
+      "secondaryPatterns": [
+        "rework-risk"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-271",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "junior",
+      "primaryPattern": "contract-volatility",
+      "secondaryPatterns": [
+        "rework-risk",
+        "critical-path"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-272",
+      "domain": "program_and_portfolio",
+      "requiredLevel": "junior",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "cost-of-delay",
+        "required-date"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-273",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "safeguards",
+      "secondaryPatterns": [
+        "reliability"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-274",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "formal-performance-management",
+      "secondaryPatterns": [],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-275",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "quality-metrics",
+      "secondaryPatterns": [
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-276",
+      "domain": "portfolio_management",
+      "requiredLevel": "head",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "accountability"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-277",
+      "domain": "portfolio_management",
+      "requiredLevel": "head",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "accountability"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-278",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-hotfix",
+      "secondaryPatterns": [
+        "risk-differentiation",
+        "rollback"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-279",
+      "domain": "release_engineering",
+      "requiredLevel": "senior",
+      "primaryPattern": "risk-based-hotfix",
+      "secondaryPatterns": [
+        "risk-differentiation",
+        "rollback"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-280",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "change-management",
+      "secondaryPatterns": [
+        "roles"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-281",
+      "domain": "organizational_design",
+      "requiredLevel": "head",
+      "primaryPattern": "change-management",
+      "secondaryPatterns": [
+        "roles"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-282",
+      "domain": "incident_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "incident-command",
+      "secondaryPatterns": [
+        "roles",
+        "communications"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-283",
+      "domain": "incident_management",
+      "requiredLevel": "senior",
+      "primaryPattern": "incident-command",
+      "secondaryPatterns": [
+        "roles",
+        "communications"
+      ],
+      "assessmentEligible": false,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-284",
+      "domain": "risk_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "uncertainty-impact-plan-b",
+      "secondaryPatterns": [
+        "mitigation",
+        "scope-uncertainty"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-285",
+      "domain": "product_and_uncertainty",
+      "requiredLevel": "junior",
+      "primaryPattern": "hypothesis",
+      "secondaryPatterns": [
+        "quality-metrics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-286",
+      "domain": "release_and_quality",
+      "requiredLevel": "senior",
+      "primaryPattern": "root-cause",
+      "secondaryPatterns": [
+        "regression-evidence"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-287",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "lead-time",
+      "secondaryPatterns": [
+        "cost-of-delay"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-288",
+      "domain": "people_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "resource-conflict",
+      "secondaryPatterns": [
+        "support"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-289",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "middle",
+      "primaryPattern": "escalation-readiness",
+      "secondaryPatterns": [
+        "required-date",
+        "escalation"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-290",
+      "domain": "incident_and_culture",
+      "requiredLevel": "middle",
+      "primaryPattern": "support",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-291",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "senior",
+      "primaryPattern": "options",
+      "secondaryPatterns": [
+        "process-economics",
+        "impact-analysis"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-292",
+      "domain": "portfolio_management",
+      "requiredLevel": "middle",
+      "primaryPattern": "portfolio-reprioritization",
+      "secondaryPatterns": [
+        "strategic-fit",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-293",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "safeguards",
+      "secondaryPatterns": [
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-294",
+      "domain": "planning_and_dependencies",
+      "requiredLevel": "senior",
+      "primaryPattern": "early-warning-response",
+      "secondaryPatterns": [
+        "buffer-consumption",
+        "forecasting"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-295",
+      "domain": "experimentation",
+      "requiredLevel": "junior",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "p-value",
+        "hypothesis"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-296",
+      "domain": "delivery_quality",
+      "requiredLevel": "senior",
+      "primaryPattern": "gate-effect-diagnosis",
+      "secondaryPatterns": [
+        "quality-metrics",
+        "process-economics"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-297",
+      "domain": "technical_delivery",
+      "requiredLevel": "middle",
+      "primaryPattern": "dependency-management",
+      "secondaryPatterns": [
+        "mitigation",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-298",
+      "domain": "delivery_quality",
+      "requiredLevel": "middle",
+      "primaryPattern": "structural-dependency-reduction",
+      "secondaryPatterns": [
+        "platform-self-service",
+        "bottleneck"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-299",
+      "domain": "stakeholder_communication",
+      "requiredLevel": "senior",
+      "primaryPattern": "escalation-readiness",
+      "secondaryPatterns": [
+        "escalation",
+        "resource-conflict"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    },
+    {
+      "id": "TC-300",
+      "domain": "vendors_and_finance",
+      "requiredLevel": "middle",
+      "primaryPattern": "forecast",
+      "secondaryPatterns": [
+        "change-control"
+      ],
+      "assessmentEligible": true,
+      "trainingEligible": true
+    }
+  ],
+  "template": {
+    "id": "TC-001",
+    "revision": 3,
+    "topicId": "t-2-4",
+    "domain": "planning_and_dependencies",
+    "requiredLevel": "middle",
+    "primaryPattern": "dependency-decoupling",
+    "secondaryPatterns": [
+      "critical-path",
+      "contract-first",
+      "parallel-work"
+    ],
+    "type": "single-best",
+    "context": "Мобильная команда делает экран кредитного предложения. Реальный backend API команды рисков задерживается примерно на две недели и лежит на critical path. Из оставшихся восьми дней мобильной работы три дня — UI, локальная валидация и аналитика, не зависящие от API. Команда рисков через два дня даст качественный mock. После появления реального API в любом случае нужна финальная контрактная проверка. Состояние контракта: он согласован, последние изменения обратно совместимы, и команда подтверждает сохранение сигнатур до выпуска.",
+    "question": "Как лучше перестроить план?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Переключить команду на другой набор задач, после готовности сервиса вернуть её и завершить оставшиеся клиентские работы.",
+        "decisionQuality": 0.45,
+        "isBest": false,
+        "reasoningPattern": "capacity-reallocation",
+        "failurePattern": "local-optimization",
+        "explanation": "Команда не простаивает, но откладываются даже три дня независимой работы и появляется цена переключения.",
+        "whyTempting": "Переключение на готовую работу выглядит лучше ожидания внешней зависимости.",
+        "whyNotBest": "Здесь уже есть безопасная независимая работа, а при стабильном контракте есть ещё и полезная интеграционная работа.",
+        "whenItWouldBeBest": "Если независимой работы нет, другой backlog заметно важнее и стоимость переключения мала."
+      },
+      {
+        "id": "B",
+        "text": "Сделать независимые задачи и интеграцию по заглушке, после появления сервиса провести проверку и небольшую адаптацию.",
+        "decisionQuality": 1.0,
+        "isBest": true,
+        "reasoningPattern": "dependency-decoupling",
+        "explanation": "Стабильный контракт делает mock рабочей опорой, а финальная проверка сохраняет контроль реального сервиса.",
+        "whyTempting": "Так команда сокращает ожидание критической зависимости, не объявляя её исчезнувшей.",
+        "whyNotBest": "При данных условиях это наиболее сильное использование доступной параллельности.",
+        "whenItWouldBeBest": "Когда контракт стабилен, mock ему соответствует и финальная проверка с реальным сервисом остаётся в плане."
+      },
+      {
+        "id": "C",
+        "text": "Сделать независимые задачи и эскалировать задержку, добиваясь более раннего сервиса и сохраняя текущую схему интеграции.",
+        "decisionQuality": 0.6,
+        "isBest": false,
+        "reasoningPattern": "schedule-protection",
+        "failurePattern": "premature-escalation",
+        "explanation": "Полезная работа продолжается, но менеджер пытается ускорить поставщика вместо доступного снижения зависимости.",
+        "whyTempting": "API действительно влияет на финальный срок, поэтому эскалация выглядит прямым способом защитить дату.",
+        "whyNotBest": "При стабильном контракте часть зависимости можно снять технически без дополнительного организационного давления.",
+        "whenItWouldBeBest": "Если mock недоступен, задержка вызвана конфликтом приоритетов и общий руководитель может реально перераспределить capacity."
+      },
+      {
+        "id": "D",
+        "text": "Сделать независимые задачи и ждать реальный сервис, обновив прогноз и оставив отдельное окно на интеграцию.",
+        "decisionQuality": 0.8,
+        "isBest": false,
+        "reasoningPattern": "controlled-replanning",
+        "failurePattern": "overly-conservative",
+        "explanation": "Подход профессионален и честен по сроку, но при стабильном контракте оставляет на critical path работу, которую можно начать раньше.",
+        "whyTempting": "Он минимизирует rework и не создаёт ложного прогресса.",
+        "whyNotBest": "Decisive fact — стабильность контракта — делает дополнительное ожидание дороже управляемого риска.",
+        "whenItWouldBeBest": "Если контракт нестабилен, breaking changes вероятны и интеграция по mock создаёт значимый rework."
+      }
+    ],
+    "keyInsight": "Mock снимает зависимость только настолько, насколько надёжен контракт, который он имитирует.",
+    "mentalModel": "Сначала меняй форму зависимости: при стабильном контракте часть finish-start работы можно безопасно превратить в параллельную.",
+    "decisiveFacts": [
+      "API находится на critical path.",
+      "Есть три дня независимой мобильной работы.",
+      "Контракт стабилен и есть качественный mock."
+    ],
+    "scenarioFamilyId": "api-dependency-01",
+    "decisiveMutation": "Стабильность API-контракта: здесь контракт согласован и дальнейшие изменения до выпуска будут обратно совместимыми.",
+    "authorRationale": "Внутри пары меняется только состояние контракта. При стабильном контракте B ограничивает rework и снимает часть critical path; D остаётся сильной, но избыточно осторожной. В TC-002 та же интеграция по mock становится слишком рискованной, поэтому strongest меняется на D.",
+    "partId": "part-2",
+    "title": "Задержка API кредитного предложения",
+    "sourceTopicExplanation": "Тема 2.4 рассматривает развязку внешней зависимости через заглушку и параллельную разработку при стабильном контракте. После появления реального API остаётся проверка интеграции; риск изменения спецификации влияет на выбор плана.",
+    "trainingEligible": true,
+    "assessmentEligible": false
+  },
+  "assessmentIDs": [
+    "TC-005",
+    "TC-006",
+    "TC-007",
+    "TC-008",
+    "TC-009",
+    "TC-010",
+    "TC-011",
+    "TC-012",
+    "TC-013",
+    "TC-014",
+    "TC-015",
+    "TC-016",
+    "TC-019",
+    "TC-020",
+    "TC-021",
+    "TC-022",
+    "TC-023",
+    "TC-024",
+    "TC-025",
+    "TC-035",
+    "TC-036",
+    "TC-037",
+    "TC-038",
+    "TC-039",
+    "TC-040",
+    "TC-041",
+    "TC-042",
+    "TC-043",
+    "TC-044",
+    "TC-045",
+    "TC-046",
+    "TC-047",
+    "TC-048",
+    "TC-049",
+    "TC-050",
+    "TC-060",
+    "TC-061",
+    "TC-062",
+    "TC-063",
+    "TC-064",
+    "TC-065",
+    "TC-066",
+    "TC-067",
+    "TC-068",
+    "TC-069",
+    "TC-070",
+    "TC-071",
+    "TC-072",
+    "TC-073",
+    "TC-074",
+    "TC-075",
+    "TC-085",
+    "TC-086",
+    "TC-087",
+    "TC-088",
+    "TC-089",
+    "TC-090",
+    "TC-091",
+    "TC-092",
+    "TC-093",
+    "TC-094",
+    "TC-095",
+    "TC-096",
+    "TC-097",
+    "TC-098",
+    "TC-099",
+    "TC-100",
+    "TC-110",
+    "TC-111",
+    "TC-112",
+    "TC-113",
+    "TC-114",
+    "TC-115",
+    "TC-116",
+    "TC-117",
+    "TC-118",
+    "TC-119",
+    "TC-120",
+    "TC-121",
+    "TC-122",
+    "TC-123",
+    "TC-124",
+    "TC-125",
+    "TC-135",
+    "TC-136",
+    "TC-137",
+    "TC-138",
+    "TC-139",
+    "TC-140",
+    "TC-141",
+    "TC-142",
+    "TC-143",
+    "TC-144",
+    "TC-145",
+    "TC-146",
+    "TC-147",
+    "TC-148",
+    "TC-149",
+    "TC-150",
+    "TC-158",
+    "TC-159",
+    "TC-160",
+    "TC-161",
+    "TC-162",
+    "TC-163",
+    "TC-164",
+    "TC-165",
+    "TC-166",
+    "TC-167",
+    "TC-168",
+    "TC-169",
+    "TC-170",
+    "TC-171",
+    "TC-172",
+    "TC-173",
+    "TC-174",
+    "TC-175",
+    "TC-183",
+    "TC-184",
+    "TC-185",
+    "TC-186",
+    "TC-187",
+    "TC-188",
+    "TC-189",
+    "TC-190",
+    "TC-191",
+    "TC-192",
+    "TC-193",
+    "TC-194",
+    "TC-195",
+    "TC-196",
+    "TC-197",
+    "TC-198",
+    "TC-199",
+    "TC-200",
+    "TC-208",
+    "TC-209",
+    "TC-210",
+    "TC-211",
+    "TC-212",
+    "TC-213",
+    "TC-214",
+    "TC-215",
+    "TC-216",
+    "TC-217",
+    "TC-218",
+    "TC-219",
+    "TC-220",
+    "TC-221",
+    "TC-222",
+    "TC-223",
+    "TC-224",
+    "TC-225",
+    "TC-236",
+    "TC-237",
+    "TC-238",
+    "TC-239",
+    "TC-240",
+    "TC-241",
+    "TC-242",
+    "TC-243",
+    "TC-244",
+    "TC-245",
+    "TC-246",
+    "TC-247",
+    "TC-248",
+    "TC-249",
+    "TC-250",
+    "TC-261",
+    "TC-262",
+    "TC-263",
+    "TC-264",
+    "TC-265",
+    "TC-266",
+    "TC-267",
+    "TC-268",
+    "TC-269",
+    "TC-270",
+    "TC-271",
+    "TC-272",
+    "TC-273",
+    "TC-274",
+    "TC-275",
+    "TC-284",
+    "TC-285",
+    "TC-286",
+    "TC-287",
+    "TC-288",
+    "TC-289",
+    "TC-290",
+    "TC-291",
+    "TC-292",
+    "TC-293",
+    "TC-294",
+    "TC-295",
+    "TC-296",
+    "TC-297",
+    "TC-298",
+    "TC-299",
+    "TC-300"
+  ]
+}

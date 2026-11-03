@@ -1,0 +1,20 @@
+plannedId,role,pattern,runtimeCategory,concreteDecisionEvidence,semanticVerdict,derivedMappingVerdict
+TC-154,primary,app-store-review,dependencies,Заменить одобренный бинарник только при покрытии review2/5 доступными6 днями; сохранить включение в дату.,PASS,PASS
+TC-154,secondary,process-economics,proportionality,Предпочесть net30 новой сборки net15 серверной настройки среди выполняющих дату планов.,PASS,PASS
+TC-155,primary,app-store-review,dependencies,"Сохранить действующий approval при3 днях, когда resubmit5 не покрыт; применить доступный путь без новой подачи.",PASS,PASS
+TC-155,secondary,process-economics,proportionality,Выбрать net15 серверной настройки вместо минимального запуска с нулевой дополнительной ценностью.,PASS,PASS
+TC-166,primary,process-economics,proportionality,"Сравнить квартальные10 дней SQL с7 документного пути и ценой вытесненной функции20, не только initial2/6.",PASS,PASS
+TC-190,primary,root-cause,systems,Проверить гипотезу синхронного refill нескольких replicas на одном входе до объявления причины доказанной.,PASS,PASS
+TC-190,secondary,bottleneck,dependencies,"Защитить общий origin совокупным лимитом и объединением восстановлений, а не добавлять мощность свободному stateless-слою.",PASS,PASS
+TC-195,primary,quality-metrics,evidence,"Выбрать стабильный user ID и заранее ограниченный сегмент с достаточной выборкой, не смешивая варианты сессиями.",PASS,PASS
+TC-195,secondary,process-economics,proportionality,Отказаться от дополнительной цены20 и потери50 ради полного охвата вне текущего решения.,PASS,PASS
+TC-209,primary,root-cause,systems,Проверить источники потерь и механизм влияния рейтинга на будущую capacity вместо произвольной прибавки к платформенному баллу.,PASS,PASS
+TC-209,secondary,portfolio-reprioritization,prioritization,Пересобрать сравнимый смешанный пакет и пересчитать продуктовые оценки по реальной мощности с единственным учётом эффекта.,PASS,PASS
+TC-215,primary,gate-effect-diagnosis,evidence,Восстановить предварительные версии и решения до регистрации; не считать ноль финальных отказов эффектом всей цепочки gate.,PASS,PASS
+TC-215,secondary,change-control,organization,"Согласовать с владельцем контролируемый переход в явный async-путь, сохранив проверки и evidence до подтверждения замены.",PASS,PASS
+TC-225,primary,decision-at-right-level,organization,Разделить локальные решения и общие обязательства; право общей смены передать соответствующему владельцу без тотального подъёма на Head.,PASS,PASS
+TC-225,secondary,roles,organization,Изменить мандаты групп и владельца общей capacity; задать руководителям групп ответственность за применение границ и рост автономии.,PASS,PASS
+TC-269,primary,risk-register,risk,"Пересчитать известный риск после выбранной меры, оставить отдельный contingency6 и проверку результата меры.",PASS,PASS
+TC-269,secondary,process-economics,proportionality,"Сопоставить100+20 с100+8+6, учитывая и цену предотвращения, и оставшийся риск.",PASS,PASS
+TC-293,primary,safeguards,risk,Выбрать минимальный необходимый объём данных и сохранить подтверждённые обязательные проверки в плане.,PASS,PASS
+TC-293,secondary,process-economics,proportionality,Сравнить полные сроки18/9 и цену задержки40 с дополнительной работой/отложенной ценностью16.,PASS,PASS

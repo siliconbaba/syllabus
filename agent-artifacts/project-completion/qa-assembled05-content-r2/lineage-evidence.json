@@ -1,0 +1,318 @@
+{
+  "caseLineage": {
+    "TC-126": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/triplet-126-128/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-triplet126/QA-verdict.json",
+      "topic": "t-4-5",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "C"
+    },
+    "TC-127": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/triplet-126-128/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-triplet126/QA-verdict.json",
+      "topic": "t-4-5",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "D"
+    },
+    "TC-128": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/triplet-126-128/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-triplet126/QA-verdict.json",
+      "topic": "t-4-5",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "A"
+    },
+    "TC-129": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pair-129-130-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-pair129-r2/QA-verdict.json",
+      "topic": "t-13-2",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "B"
+    },
+    "TC-130": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pair-129-130-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-pair129-r2/QA-verdict.json",
+      "topic": "t-13-2",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "A"
+    },
+    "TC-131": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pair-runner-131-132-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-runner131-r2/QA-verdict.json",
+      "topic": "t-3-9",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C"
+      ],
+      "best": "A"
+    },
+    "TC-132": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pair-runner-131-132-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-runner131-r2/QA-verdict.json",
+      "topic": "t-3-9",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "C"
+    },
+    "TC-133": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pair-133-134/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-pair133/QA-verdict.json",
+      "topic": "t-9-4",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "D"
+    },
+    "TC-134": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pair-133-134/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-pair133/QA-verdict.json",
+      "topic": "t-9-4",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "B"
+    },
+    "TC-135": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/junior-135-145-r3/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-junior135145-r3/QA-verdict.json",
+      "topic": "t-4-2",
+      "changedWhyNotBestOriginalIDs": [],
+      "best": "C"
+    },
+    "TC-136": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-136-139-r2/QA-verdict.json",
+      "topic": "t-5-7",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "C"
+    },
+    "TC-137": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-136-139-r2/QA-verdict.json",
+      "topic": "t-7-10",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "A"
+    },
+    "TC-138": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-136-139-r2/QA-verdict.json",
+      "topic": "t-8-4",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "D"
+    },
+    "TC-139": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-136-139-r2/QA-verdict.json",
+      "topic": "t-9-4",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "B"
+    },
+    "TC-140": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-140-142-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-140-142-r2/QA-verdict.json",
+      "topic": "t-10-7",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "C"
+    },
+    "TC-141": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-140-142-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-140-142-r2/QA-verdict.json",
+      "topic": "t-2-3",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "A"
+    },
+    "TC-142": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-140-142-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-140-142-r2/QA-verdict.json",
+      "topic": "t-9-3",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "B"
+    },
+    "TC-143": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-systems-05/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-systems05/QA-verdict.json",
+      "topic": "t-3-3",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "D"
+    },
+    "TC-144": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "topic": "t-10-1",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "B"
+    },
+    "TC-145": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/junior-135-145-r3/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-junior135145-r3/QA-verdict.json",
+      "topic": "t-4-2",
+      "changedWhyNotBestOriginalIDs": [],
+      "best": "D"
+    },
+    "TC-146": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/tc146-r1/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-full-tc146-r1/QA-verdict.json",
+      "topic": "t-6-3",
+      "changedWhyNotBestOriginalIDs": [],
+      "best": "B"
+    },
+    "TC-147": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "topic": "t-7-7",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "D"
+    },
+    "TC-148": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "topic": "t-8-1",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "A"
+    },
+    "TC-149": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "topic": "t-10-7",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "C"
+    },
+    "TC-150": {
+      "acceptedLineage": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "topic": "t-3-5",
+      "changedWhyNotBestOriginalIDs": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "best": "B"
+    }
+  },
+  "hashes": {
+    "agent-artifacts/test-bank/full-cases/triplet-126-128/cases.json": "6aba79b7ddbf059d0877d1ed59b3936139fc822019be06da0cb9ebf56a0aef62",
+    "agent-artifacts/project-completion/qa-full-triplet126/QA-verdict.json": "73f48a5127d91f7ff1f3ebdb42b266a2fbd94200dba8afb813c045c5919dff17",
+    "agent-artifacts/test-bank/full-cases/pair-129-130-r2/cases.json": "d7554d453712e5548387891b31ffe858fb9aa16a13aa21f70c7f867adfbd3203",
+    "agent-artifacts/project-completion/qa-full-pair129-r2/QA-verdict.json": "83edd1f37beef6eb50752dc45a4f5c0e05ef021a2be7c10aec63ef0e0cb59550",
+    "agent-artifacts/test-bank/full-cases/pair-runner-131-132-r2/cases.json": "d0ca90bc810be5ba43f2f213f9150b1b20612db993b07fa275ae0869c76c3f3f",
+    "agent-artifacts/project-completion/qa-runner131-r2/QA-verdict.json": "006ec74e07a3c7a2240f3b66623b821e6afbab32267e7f860e8c108b3b24d6d3",
+    "agent-artifacts/test-bank/full-cases/pair-133-134/cases.json": "5183bf959c71ed601afcff8a6e8069f544977230c49301c31bb66eea59d74af6",
+    "agent-artifacts/project-completion/qa-full-pair133/QA-verdict.json": "eff76d33fbd6e337bc8ee1e8e5832997c04cfe356a93fbc8e0fbd5e4c42a183c",
+    "agent-artifacts/test-bank/full-cases/junior-135-145-r3/cases.json": "d1623dd70f8c50524cedc3afdba66f8ebc8af54f660a1e4c514d921135aad886",
+    "agent-artifacts/project-completion/qa-full-junior135145-r3/QA-verdict.json": "43da83031f5d14e1aeaab4c47d15f4670732e2d237863f7b6b0160e4c98bf506",
+    "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json": "70d135da2bb882353eaab68ed371baccd7543a688a73ab81d509110ef39b1a66",
+    "agent-artifacts/project-completion/qa-136-139-r2/QA-verdict.json": "3eee06ba52dafc4fa6d128966d83d6709239f785deda5faeca1e1d1bd7310d70",
+    "agent-artifacts/test-bank/full-cases/pack-140-142-r2/cases.json": "64c880364870fd3471ca3db2df913cd09f8fcb2bc682ebdcff3f5588deb20514",
+    "agent-artifacts/project-completion/qa-140-142-r2/QA-verdict.json": "a285373ef760d32521d1490052bce3190e975934f24b77121c39f54110794bf1",
+    "agent-artifacts/test-bank/full-cases/pack-systems-05/cases.json": "349a2c73fabfdbdd111b248aeb9cc57d292c777d5b6e81d9d892bba7e905d37a",
+    "agent-artifacts/project-completion/qa-systems05/QA-verdict.json": "34d3472ad7d733abed19a7f9bc28025b3eddfbb0db18687dc230ad61a2988818",
+    "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json": "611779a56b740371f21655056b0e87deb538af1836fe8bd7c9651e8c450885cf",
+    "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json": "cd67fb16b7519e08c2b8c2a79f491f454ec19ab678572f3f0044805cf5876bbd",
+    "agent-artifacts/test-bank/full-cases/tc146-r1/cases.json": "21f0cfe0591de80578107a0f5bafd0b1b680b0be7b00264a911bef522868ca33",
+    "agent-artifacts/project-completion/qa-full-tc146-r1/QA-verdict.json": "b6120b6250cf5f33de01d7050f4cb9ae22bd258e568886d31c668fcc72021453"
+  },
+  "R2TextChanges": {
+    "TC-138": "D",
+    "TC-139": "B",
+    "TC-141": "A",
+    "TC-142": "B",
+    "TC-143": "D",
+    "TC-149": "C"
+  }
+}

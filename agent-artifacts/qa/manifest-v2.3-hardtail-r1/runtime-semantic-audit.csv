@@ -1,0 +1,5 @@
+plannedId,role,pattern,category,concreteDecisionEvidence,semanticVerdict,derivedMapping
+TC-214,primary,risk-differentiation,risk,"Оставить TTL описаниям, но прямое чтение цене: последствия одинакового возраста данных различаются; полный TTL не запрещён, но хуже по цене повторного согласия.",PASS,PASS
+TC-214,secondary,resource-conflict,prioritization,"Распределить4 backend-дня:2 на независимое ускорение,2 на полезную доступность поиска; не связывать всю поставку с4-дневной событийной схемой и внешней командой через2 недели.",PASS,PASS
+TC-261,primary,hypothesis,uncertainty,Выбрать проверку устойчивости эффекта с доступной зрелой когортой вместо сезонной общей метрики или сброса возраста новой когортой.,PASS,PASS
+TC-261,secondary,precommitted-stop-criteria,evidence,До начала нового2-недельного наблюдения закрепить горизонт/анализ; не менять conclusion исходного теста и не продлевать ежедневно до значимости.,PASS,PASS

@@ -1,0 +1,11 @@
+{
+  "allowlist": [
+    "revision",
+    "options[C].text",
+    "options[C].whenItWouldBeBest"
+  ],
+  "unexpectedChanges": 0,
+  "rawCaseIdentical": false,
+  "rawObjectExactlyIdenticalAfterThreeAllowlistedSubstitutions": true,
+  "newProductionOptionCopies": []
+}

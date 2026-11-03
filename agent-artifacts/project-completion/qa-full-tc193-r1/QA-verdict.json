@@ -1,0 +1,60 @@
+{
+  "status": "FIX REQUIRED",
+  "verdict": "FULL CASE QA FIX REQUIRED; independent strongest B confirmed",
+  "scope": [
+    "TC-193 isolated full-case r1"
+  ],
+  "candidate": "agent-artifacts/test-bank/full-cases/tc193-r1/cases.json",
+  "candidateSHA256": "d7593d34b5a3ffc1704e0a8f519a92cd3091864e83664cc280b39cde7b537304",
+  "blindChoice": "B",
+  "runnerUp": "A",
+  "confidence": 0.99,
+  "gates": {
+    "blindStrongest": "PASS",
+    "pairwiseUniqueness": "PASS",
+    "sourceCompleteAndGrounding": "PASS",
+    "JuniorRealization": "PASS",
+    "blueprintAlignment": "PASS",
+    "productionAndPlannedDuplication": "PASS",
+    "family": "NOT_APPLICABLE standalone",
+    "decisionQuality": "PASS",
+    "wholeOptionExplanations": "FAIL",
+    "individualSurface": "PASS",
+    "batchSurfaceStatistics": "NOT_APPLICABLE isolated n=1",
+    "actualSwiftLoader": "PASS",
+    "authoritativeMetadataMapping": "PASS",
+    "cumulativeManifestFreeze": "NOT_RUN required before import"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 1,
+    "Minor": 0
+  },
+  "issues": [
+    {
+      "id": "TC193-FULL-R1-01",
+      "severity": "Major",
+      "field": "options[C].whenItWouldBeBest",
+      "evidence": "C text: «границы ответственности согласовать после возвращения руководителя». WHEN: «руководитель заранее ... определил границы ... после возвращения нужно лишь обсудить дальнейшую адаптацию».",
+      "problem": "WHEN silently substitutes already-agreed responsibility boundaries and a different future discussion for the literal option that defers agreement of those boundaries. It justifies the useful coordination fragment, not the whole option.",
+      "minimalScope": "New revision of C option/WHEN and dependent explanation fields as necessary, preserving the authorized-release-vs-self-assigned-responsibility contrast and B key. Do not merely assert existing text is valid.",
+      "requiredRetest": [
+        "exact allowlisted delta",
+        "whole-option counterfactual C",
+        "blind uniqueness if option text changes",
+        "DQ and dependent explanations",
+        "surface and actual Swift loader"
+      ]
+    }
+  ],
+  "remainingIssueIDs": [
+    "TC193-FULL-R1-01"
+  ],
+  "inheritanceBases": [],
+  "candidateAccepted": false,
+  "importEligible": false,
+  "readyForFreeze": false,
+  "eligibilityReason": "Content issue unresolved; accepted blueprint also remains outside cumulative scoped merge/freeze. A future content PASS alone cannot authorize import.",
+  "productionChanged": false,
+  "manifestChanged": false
+}

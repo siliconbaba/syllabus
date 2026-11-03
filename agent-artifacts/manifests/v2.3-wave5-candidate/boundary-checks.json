@@ -1,0 +1,52 @@
+{
+  "TC131": {
+    "express": 27.0,
+    "manual": 32,
+    "shared": 47.0
+  },
+  "TC132": {
+    "buildExpress": 117.0,
+    "buildShared": 107.0,
+    "manual": 32
+  },
+  "TC174": {
+    "1": 260.0,
+    "2": 145.0,
+    "5": 250.0
+  },
+  "TC213": {
+    "onePercentHours": 4,
+    "fivePercentHours": 0.8,
+    "staffWindow": 2,
+    "extraStaffCost": 60,
+    "riskCeiling": 60,
+    "onePercentWorstHarm": 42,
+    "fivePercentWorstHarm": 50
+  },
+  "TC222": {
+    "idle": 0,
+    "short": 50,
+    "long": -10
+  },
+  "TC236": {
+    "AthenB": 360,
+    "BthenA": 170
+  },
+  "TC287": {
+    "AplusTwo": 110,
+    "eightShort": 40
+  },
+  "F-DM-P04": {
+    "capacity": 6,
+    "sizeA": 4,
+    "sizeB": 4,
+    "discretionaryBest": "A",
+    "mandatoryBest": "B",
+    "bothFit": false,
+    "constantGovernance": "Independent mandatory admission and realized-benefit accountability; only verified status of B changes."
+  },
+  "TC264": {
+    "counterfactual": "With no in-flight work after cutover, schema-compatible HTTP rollback would suffice. With concurrent ownership, a smaller canary only limits exposure and cannot prove correctness.",
+    "requiredInvariant": "One authorized owner/version per operation through stop-admission, drain or recover, and worker shutdown."
+  }
+}

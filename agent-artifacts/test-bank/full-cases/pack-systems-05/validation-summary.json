@@ -1,0 +1,10 @@
+{
+  "schema": "PASS",
+  "runtime": "PASS",
+  "count": 5,
+  "options": 20,
+  "exactMetadata": "PASS",
+  "allStandalone": true,
+  "independentContentQA": "NOT_RUN",
+  "candidateSHA256": "349a2c73fabfdbdd111b248aeb9cc57d292c777d5b6e81d9d892bba7e905d37a"
+}

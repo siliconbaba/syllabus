@@ -1,0 +1,28 @@
+{
+  "status": "CLOSED",
+  "originalCategoryACount": 6,
+  "originalCategoryAIDs": [
+    "TC-214",
+    "TC-217",
+    "TC-261",
+    "TC-270",
+    "TC-275",
+    "TC-292"
+  ],
+  "acceptedStraightRedesign": [
+    "TC-214",
+    "TC-261",
+    "TC-270",
+    "TC-275"
+  ],
+  "rerouted": [
+    "TC-217",
+    "TC-292"
+  ],
+  "retrySameMethodRowsRemaining": 0,
+  "TC217Reason": "Отклонённый draft повторяет TC274: самостоятельное наблюдение на некритичном проекте без подсказок при защите критичной поставки. Начало вместо завершения PIP не меняет решающую логику. Нужен routing-review, не слепой retry.",
+  "TC292Reason": "Сохраняется вывод hardtail-r1 independent QA: rejected draft повторял timely limited-scope evidence TC195.",
+  "meaning": "Закрыт исходный straight-redesign treatment track, а не приняты все6 строк;217/292 всё ещё unresolved. Это QA routing recommendation; triage-файлы не менялись.",
+  "triageModified": false,
+  "nextTrackStarted": false
+}

@@ -1,0 +1,2 @@
+
+Ошибка: Использование: bash scripts/check.sh [--headless]

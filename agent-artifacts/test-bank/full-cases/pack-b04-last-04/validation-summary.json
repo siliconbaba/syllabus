@@ -1,0 +1,17 @@
+{
+  "candidateSHA256": "7d6a6c12c8501cd50bfbf13cb259d4b6e5a596cadb80f872da69650be487450e",
+  "swift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  },
+  "inputHashes": {
+    "agent-artifacts/context-packs/batch-04/source-topics/t-6-6.md": "980aab1327645cfd4b91cd200074b7b03a8dce72f61accf8a5a9d372471ef9eb",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-7-6.md": "a0170a4d75f285750f0c959656a67ea35139b16466bb94704f4698bd4c5fe018",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-8-1.md": "2b256e1d75804e99968dea421fd85e383af9b45f6cc54969765f8a25b8789738",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-10-7.md": "170a9dbdb8cca0dd1823598e4d153a9ab1a00568527e2580b56916109041830b",
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "verdict": "PASS",
+  "changedFamily": "F-TD-P02",
+  "members": [
+    "TC-154",
+    "TC-155"
+  ],
+  "singleLogicalVariable": "Остаток времени до той же публичной даты:6 или3 дня.",
+  "constantFactsLiteralEquality": true,
+  "sameTopicDomainLevelBatch": true,
+  "hiddenCoMutations": 0,
+  "calculations": {
+    "TC-154": {
+      "daysRemaining": 6,
+      "newBuild": {
+        "normalReview": 2,
+        "resubmitTotal": 5,
+        "netValue": 30,
+        "guaranteedDate": true
+      },
+      "serverConfiguration": {
+        "duration": 2,
+        "netValue": 15,
+        "guaranteedDate": true
+      },
+      "minimumUnchanged": {
+        "netValue": 0,
+        "guaranteedDate": true
+      },
+      "strongest": "newBuild"
+    },
+    "TC-155": {
+      "daysRemaining": 3,
+      "newBuild": {
+        "normalReview": 2,
+        "resubmitTotal": 5,
+        "netValue": 30,
+        "guaranteedDate": false
+      },
+      "serverConfiguration": {
+        "duration": 2,
+        "netValue": 15,
+        "guaranteedDate": true
+      },
+      "minimumUnchanged": {
+        "netValue": 0,
+        "guaranteedDate": true
+      },
+      "strongest": "serverConfiguration"
+    }
+  },
+  "meaningfulStrongestShift": true,
+  "scopeNote": "Из двух selected families изменена только F-TD-P02. F-PA-P04=TC259/260 намеренно UNRESOLVED, raw/semantic unchanged; TC191 standalone также unchanged/unresolved.",
+  "other42FamiliesUnchanged": true,
+  "trainingOnly": true
+}

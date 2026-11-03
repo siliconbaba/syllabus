@@ -1,0 +1,19 @@
+{
+  "agent-artifacts/manifests/v2.3-hardtail-b1-candidate/production_manifest_masterplan_v2_3_hardtail_b1_candidate.json": "e33426000f6cdd4bfc638278432fafc4c6989c778c587609f21a8b40f7c3e2c6",
+  "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/production_manifest_masterplan_v2_3_hardtail_b2_candidate.json": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+  "agent-artifacts/qa/manifest-v2.3-hardtail-b1/QA-verdict.json": "197f5af2f09988f0dcab53a1744836124524a2228857940975770d092180542e",
+  "agent-artifacts/qa/manifest-v2.3-hardtail-b1/family-verdict.json": "313d2bb996a55446a99942b9b132d81eb7210b890e14fc3697548591e93aba1c",
+  "agent-artifacts/test-bank/hard-tail-triage/hard-tail-triage.csv": "ca0832c886b31c64267148f8d8ddc4421d00b20fcb3cbd809f6e2cfa5ee3fd50",
+  "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/rejected-family-drafts.json": "ae70522bd9d8ae5530161594932574e9212855402d3ab6ab4bf291ea46b1089d",
+  "agent-artifacts/manifests/v2.3-hardtail-b1-candidate/artifact-hashes.json": "3d4da61b0b680da5892ed945c1d5fd0144ac3f1ae4a9b51e095c68db0155bdcd",
+  "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/artifact-hashes.json": "c8a0debedc7d238932a746acf12fb9719f587772539be348c6d33c859d1dbdbb",
+  "agent-artifacts/qa/manifest-v2.3-hardtail-b1/artifact-hashes.json": "b4c0a2d622a97471a0e045c646dd9b0db6e4105a488e1f79a7794a684b87d4d7"
+}

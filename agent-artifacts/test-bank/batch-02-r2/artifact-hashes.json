@@ -1,0 +1,23 @@
+{
+  "batch-statistics-r2.json": "496a2ca23e69d856aa77ec0baa623f724bb277cbd00d730aeebaad978a216081",
+  "cases_TC051_TC075_r2.json": "c8a0dd3dc064b1f4f30b85ae1e8cb32a57d7329d54e7074a27bde3cfaa2f30e3",
+  "change-log.csv": "eeb30372b45ea5df98054c34bfe3b821a8c9ee0d2dfc797445473f8560a79a54",
+  "checks.py": "1c996f7c8d41ebe46626197fc6a5ca9adbfd68d8b52187a98409fdd804ba4370",
+  "cross-bank-screen.json": "b963be9c7ffb0db1c1d282fb016d80b0a5d2b95a1f94ef981124c511eca62db5",
+  "diagnostic-comparisons.json": "c8cfeba1e017459362e7d13c009222aef81d4f08d63b19e9f2357141529865f1",
+  "duplication-audit-r2.csv": "8ac97439acd55c2c581bee1500e00500178d7b44840dbb91d9300edda90849d0",
+  "family-diff-analysis-r2.json": "c645931176bf24115cb34d5ebb038974dc2266a21761441075ab979f2ab1930b",
+  "finalize.py": "33235af813fe608c0f49bf3b35efa274566d869cd96143a426c4172f8e918ac7",
+  "key-hidden-review.json": "58ebf99fb1ab3cb405cdbd34a7ec5ff2e8bf690d97a4e538b86071832e69b44c",
+  "manifest-duplicate-blocker.json": "1cee13a218beebff0eb6e3d796137a57067ab41e5bf7af91a651fe634db9a826",
+  "protected-input-hashes.json": "57d186783d37d4330eabf336427c5980cd8c378b95ede4f975887744eae3c913",
+  "qa-baseline-reproduced.json": "943ef8e42472324f6343e773cb26a51f771f314273b008851b02ecf2572a4a99",
+  "reader-check-r2.json": "bc57ce19b37eeb51a8386f95722e9437730e6ece215b6025fea0df48d0adc21c",
+  "regression.json": "127ea4a5e3e3bab592f10bf337e3b01363e83e1015145391ce1edb011084acec",
+  "revise.py": "cc6578fd899d4f497e27da1ba801822f831d81ce238fd07b391927c6549a66b7",
+  "revision-report.md": "fc75989a051a2e5f7a16eadc97147ecbcf72205bcd6e3211494f6484c3ff8340",
+  "schema-validation.log": "61bbbed3a4acb5cb4288152f780fb5243494ff1aa0af00b07ac1f8c52bdf2d90",
+  "self-qa-r2.json": "218e03b800ec528a24d4108fb0f2262ee37c7583dc38a45facac20474308dc08",
+  "source-evidence-r2.json": "118d2c0bea50c132ec5f9cf7b605757618a3b9cfdd3dfdf94626112a2dc87145",
+  "topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc"
+}

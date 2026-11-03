@@ -1,0 +1,248 @@
+{
+  "scope": "Only independently accepted full cases not yet imported. Prior batch provenance: agent-artifacts/work-imports/.",
+  "cases": [
+    {
+      "id": "TC-193",
+      "candidate": "agent-artifacts/test-bank/full-cases/tc193-r2/cases.json",
+      "sha256": "1aefbe44e3cb73660bb8139988aebae0398afce3ad8f9c67dfef76e3cef73c11",
+      "qa": "agent-artifacts/project-completion/qa-full-tc193-r2/QA-verdict.json",
+      "qaSHA256": "cd7801dfb83b1d1ab0f2a867d0e1ecd8fda30ec1c3049325dbdb95db17cab442",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-200",
+      "candidate": "agent-artifacts/test-bank/full-cases/tc200-r2/cases.json",
+      "sha256": "e7a886403846d60d415710c94f0a4ea6a325414d6e1598cd472d698b313bc034",
+      "qa": "agent-artifacts/project-completion/qa-full-tc200-r2/QA-verdict.json",
+      "qaSHA256": "77f1945ae31e0d222e994d1ad0814a9ffabab6193ba9ec8869eb086acf784a08",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-272",
+      "candidate": "agent-artifacts/test-bank/full-cases/tc272-r1/cases.json",
+      "sha256": "b26510a43a42219b14d1b90448d2e37ccddfc95c838aedaeb37dd5458a04ffeb",
+      "qa": "agent-artifacts/project-completion/qa-full-tc272-r1/QA-verdict.json",
+      "qaSHA256": "4ceab1e63519cea731d9c8f0561285c52ddfd000711c16b03750cb15324d1602",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-237",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/cases.json",
+      "sha256": "e015efb80bb0350b2333e4c0868a61038b207f8f6260270d3676a994ba1c9d76",
+      "qa": "agent-artifacts/project-completion/qa-flow-risk05-r1/QA-verdict.json",
+      "qaSHA256": "af451d64b683a7f0a25697270feae10f860828b68838843363740bba783cb672",
+      "qaScope": "Individual case verdict only; batch116/211 require fixes",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-174",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/cases.json",
+      "sha256": "e015efb80bb0350b2333e4c0868a61038b207f8f6260270d3676a994ba1c9d76",
+      "qa": "agent-artifacts/project-completion/qa-flow-risk05-r1/QA-verdict.json",
+      "qaSHA256": "af451d64b683a7f0a25697270feae10f860828b68838843363740bba783cb672",
+      "qaScope": "Individual case verdict only; batch116/211 require fixes",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-162",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/cases.json",
+      "sha256": "e015efb80bb0350b2333e4c0868a61038b207f8f6260270d3676a994ba1c9d76",
+      "qa": "agent-artifacts/project-completion/qa-flow-risk05-r1/QA-verdict.json",
+      "qaSHA256": "af451d64b683a7f0a25697270feae10f860828b68838843363740bba783cb672",
+      "qaScope": "Individual case verdict only; batch116/211 require fixes",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-211",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-flow-risk-05-r2/cases.json",
+      "sha256": "b0995abd07137801a8527eedfc28f1e763df9546169144da8e2461742799bc78",
+      "qa": "agent-artifacts/project-completion/qa-flow-risk05-r2/QA-verdict.json",
+      "qaSHA256": "b5bd91dd781ae535b994818aa3fc40e5a242729e0701688b231fafeed37ac59a",
+      "qaScope": "Content PASS; separate assembly/freeze/import remaining",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-222",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-flow-04-r2/cases.json",
+      "sha256": "e0df03cbb0a672c54d822ed4ba625c54d8868e9357eb6f4497c377159decac6e",
+      "qa": "agent-artifacts/project-completion/qa-flow04-r2/QA-verdict.json",
+      "qaSHA256": "619b63081f467bdd9469b54a369dcb426ff2f627433ed2a943727c367402cfd3",
+      "qaScope": "Content gate only;253/254 atomic",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-287",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-flow-04-r2/cases.json",
+      "sha256": "e0df03cbb0a672c54d822ed4ba625c54d8868e9357eb6f4497c377159decac6e",
+      "qa": "agent-artifacts/project-completion/qa-flow04-r2/QA-verdict.json",
+      "qaSHA256": "619b63081f467bdd9469b54a369dcb426ff2f627433ed2a943727c367402cfd3",
+      "qaScope": "Content gate only;253/254 atomic",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-253",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-flow-04-r2/cases.json",
+      "sha256": "e0df03cbb0a672c54d822ed4ba625c54d8868e9357eb6f4497c377159decac6e",
+      "qa": "agent-artifacts/project-completion/qa-flow04-r2/QA-verdict.json",
+      "qaSHA256": "619b63081f467bdd9469b54a369dcb426ff2f627433ed2a943727c367402cfd3",
+      "qaScope": "Content gate only;253/254 atomic",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-254",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-flow-04-r2/cases.json",
+      "sha256": "e0df03cbb0a672c54d822ed4ba625c54d8868e9357eb6f4497c377159decac6e",
+      "qa": "agent-artifacts/project-completion/qa-flow04-r2/QA-verdict.json",
+      "qaSHA256": "619b63081f467bdd9469b54a369dcb426ff2f627433ed2a943727c367402cfd3",
+      "qaScope": "Content gate only;253/254 atomic",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-189",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-systems-05/cases.json",
+      "sha256": "349a2c73fabfdbdd111b248aeb9cc57d292c777d5b6e81d9d892bba7e905d37a",
+      "qa": "agent-artifacts/project-completion/qa-systems05/QA-verdict.json",
+      "qaSHA256": "34d3472ad7d733abed19a7f9bc28025b3eddfbb0db18687dc230ad61a2988818",
+      "qaScope": "Five standalone cases passed independent content review, no integration or freeze.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-241",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-systems-05/cases.json",
+      "sha256": "349a2c73fabfdbdd111b248aeb9cc57d292c777d5b6e81d9d892bba7e905d37a",
+      "qa": "agent-artifacts/project-completion/qa-systems05/QA-verdict.json",
+      "qaSHA256": "34d3472ad7d733abed19a7f9bc28025b3eddfbb0db18687dc230ad61a2988818",
+      "qaScope": "Five standalone cases passed independent content review, no integration or freeze.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-249",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-systems-05/cases.json",
+      "sha256": "349a2c73fabfdbdd111b248aeb9cc57d292c777d5b6e81d9d892bba7e905d37a",
+      "qa": "agent-artifacts/project-completion/qa-systems05/QA-verdict.json",
+      "qaSHA256": "34d3472ad7d733abed19a7f9bc28025b3eddfbb0db18687dc230ad61a2988818",
+      "qaScope": "Five standalone cases passed independent content review, no integration or freeze.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-185",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-incidents-03-r2/cases.json",
+      "sha256": "b45726444e2936f7c75b8b7d6a4b1c75b9c047bb3276e0a23c08ec3c43cf77a4",
+      "qa": "agent-artifacts/project-completion/qa-incidents03-r2/QA-verdict.json",
+      "qaSHA256": "180ae26f9a0a031b94dbc1ee6933343e3ccfaf5a8479b35cea4587b07cb0c8db",
+      "qaScope": "Independent incident packet R2. TC115/124 inherited; TC185 scoped correction reviewed. Content approval only.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-216",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-stakeholders-02-r2/cases.json",
+      "sha256": "d1ed53930e2f49b1b1e6bacf52d6ec79a9e35af4e704825f23a962fb433ad33b",
+      "qa": "agent-artifacts/project-completion/qa-contact03-r2/QA-verdict.json",
+      "qaSHA256": "75dd6ac2c5a46812155f52954b10e999bfe8f094bc8cf4b4538d85c945a7ca56",
+      "qaScope": "Content gate only, scoped independent R2 verdict including inherited unchanged cases.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-170",
+      "candidate": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/test-bank/full-cases/pack-budget-04-r2/cases.json",
+      "sha256": "50b0dddc892c46aa0e99cf709534e6e4f63a16a8e1d467d095f8347aeed5c3ce",
+      "qa": "agent-artifacts/project-completion/qa-budget04-r2/QA-verdict.json",
+      "qaSHA256": "b1cae20d9778655fc44d81015dd9cc8a1c60fac520ce964e551b6b916ac03a20",
+      "qaScope": "Content gate only, scoped independent R2 verdict including inherited unchanged cases.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-269",
+      "candidate": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/test-bank/full-cases/pack-budget-04-r2/cases.json",
+      "sha256": "50b0dddc892c46aa0e99cf709534e6e4f63a16a8e1d467d095f8347aeed5c3ce",
+      "qa": "agent-artifacts/project-completion/qa-budget04-r2/QA-verdict.json",
+      "qaSHA256": "b1cae20d9778655fc44d81015dd9cc8a1c60fac520ce964e551b6b916ac03a20",
+      "qaScope": "Content gate only, scoped independent R2 verdict including inherited unchanged cases.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-300",
+      "candidate": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/test-bank/full-cases/pack-budget-04-r2/cases.json",
+      "sha256": "50b0dddc892c46aa0e99cf709534e6e4f63a16a8e1d467d095f8347aeed5c3ce",
+      "qa": "agent-artifacts/project-completion/qa-budget04-r2/QA-verdict.json",
+      "qaSHA256": "b1cae20d9778655fc44d81015dd9cc8a1c60fac520ce964e551b6b916ac03a20",
+      "qaScope": "Content gate only, scoped independent R2 verdict including inherited unchanged cases.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-154",
+      "candidate": "agent-artifacts/test-bank/full-cases/pair-mobile-154-155-r2/cases.json",
+      "sha256": "17ea29a240163045b13c0dbbf06fbb2c80760b54e62f2774930100be844e6e70",
+      "qa": "agent-artifacts/project-completion/qa-mobile154-r2/QA-verdict.json",
+      "qaSHA256": "8d99f46b13146cc37ddbc5f27ff87ebbed7d6ce954ce6bfade4b4558d25d9cfa",
+      "qaScope": "Pair accepted as training-only; WHEN D tested.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-155",
+      "candidate": "agent-artifacts/test-bank/full-cases/pair-mobile-154-155-r2/cases.json",
+      "sha256": "17ea29a240163045b13c0dbbf06fbb2c80760b54e62f2774930100be844e6e70",
+      "qa": "agent-artifacts/project-completion/qa-mobile154-r2/QA-verdict.json",
+      "qaSHA256": "8d99f46b13146cc37ddbc5f27ff87ebbed7d6ce954ce6bfade4b4558d25d9cfa",
+      "qaScope": "Pair accepted as training-only; WHEN D tested.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-158",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-158-160-r3/cases.json",
+      "sha256": "dc7f8980738626816a22b382b41f4935f49cc7e03aa9eef52600ff90dbbac221",
+      "qa": "agent-artifacts/project-completion/qa-158-160-r3/QA-verdict.json",
+      "qaSHA256": "c6b68e5c4698916504d0c623ad6c75beec49a4f5a8affb51471436469e04de25",
+      "qaScope": "Final full-case independent QA, eligible for Batch 06 assembly.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-160",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-158-160-r3/cases.json",
+      "sha256": "dc7f8980738626816a22b382b41f4935f49cc7e03aa9eef52600ff90dbbac221",
+      "qa": "agent-artifacts/project-completion/qa-158-160-r3/QA-verdict.json",
+      "qaSHA256": "c6b68e5c4698916504d0c623ad6c75beec49a4f5a8affb51471436469e04de25",
+      "qaScope": "Final full-case independent QA, eligible for Batch 06 assembly.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-163",
+      "candidate": "agent-artifacts/test-bank/full-cases/tc163-r2/cases.json",
+      "sha256": "4ed91ff0c6b00b2a6b805837e5be22a0a8b41d6c876227b56f00b52c38b8be94",
+      "qa": "agent-artifacts/project-completion/qa-full-tc163-r2/QA-verdict.json",
+      "qaSHA256": "95f9fb8f6f409a43f29e1950cd11b46e4e91452f68fe0df8b0f0ffee79bfe6d7",
+      "qaScope": "Final full-case independent QA, eligible for Batch 06 assembly.",
+      "contentAccepted": true,
+      "productionImported": false
+    }
+  ],
+  "integrationGatesRemaining": [
+    "assembled batch surface and duplication QA",
+    "approved manifest freeze",
+    "snapshot and application regression"
+  ],
+  "productionSHA256": "8f50c50908484ef7a83c2179e51b4688b1c3907acab5d493d4766003ac554bd2"
+}

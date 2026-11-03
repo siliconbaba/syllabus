@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Focused manifest QA TC270/275",
+  "inputHashesFinalRecheck": "PASS",
+  "candidateArtifactHashes": "PASS",
+  "parsedRawAndCsvDiff": "PASS",
+  "sameTopicPrimaryCoverage": "PASS",
+  "authoritativeSwiftProbe": "PASS",
+  "semanticGates": "Independent human-like reasoning recorded in report/CSVs; not inferred from validation scripts",
+  "fullAppSuite": "NOT_RUN",
+  "candidateModified": false,
+  "productionModified": false,
+  "triageModified": false
+}

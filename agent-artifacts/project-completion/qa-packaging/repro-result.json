@@ -1,0 +1,14 @@
+{
+  "reportFailure": {
+    "packagerExit": 1,
+    "sourceModifiedByWrapperReport": true,
+    "emptyReportBytes": 0,
+    "retryBlockedByExistingReport": true,
+    "pythonError": "ValueError: Output must be outside the source app"
+  },
+  "localization": {
+    "originalRussianDisplayName": "Русское локализованное имя",
+    "afterRussianDisplayName": "Назва базова",
+    "otherKey": "Сохранить"
+  }
+}

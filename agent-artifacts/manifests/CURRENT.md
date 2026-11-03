@@ -1,9 +1,11 @@
 # Authoritative frozen blueprint
 
-CURRENT AUTHORITATIVE MANIFEST = **v2.2.2**.
+Базовый замороженный манифест — **v2.2.3**. Для партий 04 и 05 действуют перечисленные ниже проекции.
 
-Batch 03+ source of truth: [v2.2.2](v2.2.2/manifest-review-v2_2_2.md).
+Для TC-101…125 действует [замороженная проекция Batch 04](batch-04-frozen/batch04-projection.json); [решение о приёмке](batch-04-frozen/freeze.json). Для строк вне двух проекций источник: [v2.2.3](v2.2.3/manifest-review-v2_2_3.md).
 
-v2.2, v2.2.1 and v2.2.2-candidate are historical/audit only and must not be used as authoring baselines.
+v2.2, v2.2.2 and v2.2.3-candidate are historical/audit only and must not be used as authoring baselines.
 
-Masterplan SHA-256: `c4f8600132a4099a655c31c4c97356c52265da7c0895e04d9a99f04503821e41`.
+Masterplan SHA-256: `a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1`.
+
+Для TC-126…150 действует [проекция Batch 05](batch-05-frozen/batch05-projection.json). [Приёмка и контрольные суммы](batch-05-frozen/freeze.json).

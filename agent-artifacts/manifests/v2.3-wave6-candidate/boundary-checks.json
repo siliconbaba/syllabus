@@ -1,0 +1,51 @@
+{
+  "TC148": {
+    "small": 20,
+    "large": 15,
+    "none": 0,
+    "capacityBreakEvenForLarge": 65
+  },
+  "TC208": {
+    "buy": 105,
+    "financedBuild": 115,
+    "deferredBuild": 120,
+    "liquidityGap": 20
+  },
+  "TC218": {
+    "largeExpected": 44.0,
+    "smallExpected": 23.0,
+    "pilotExpected": 32.0,
+    "pilotWorst": -25,
+    "smallWorst": 5,
+    "lossFloor": -10
+  },
+  "TC183": {
+    "verificationPlusReport": 4,
+    "meetingPlusVerificationPlusReport": 6,
+    "available": 4,
+    "delayLoss": 40
+  },
+  "TC290": {
+    "takeover": 90,
+    "supported": 60,
+    "alone": 80
+  },
+  "TC288": {
+    "capacityAfterRecovery": 32,
+    "essentialPlusA": 32,
+    "deferB": 15,
+    "cover": 25,
+    "deferA": 50
+  },
+  "TC199": {
+    "systemCause": "Component handoffs recur despite stable API and correct tracking.",
+    "secondaryConsequence": "Distributing all rare core specialists removes a shared service used by other scenarios.",
+    "falsification": "If the pilot only renames squads or transfers the same queue into a scarce specialist, end-to-end completion and other-stream service do not improve; do not expand."
+  },
+  "F-PE-P03": {
+    "onlyVariable": "Observed behavior after equal feedback/support",
+    "improved": "Retain people-mandate; change organizational recognition",
+    "persistent": "Transfer people-mandate, free successor capacity, keep bounded expert handover",
+    "constant": "Same delivery, succession capacity price, expert dependency, Head authority and block-wide norm change"
+  }
+}

@@ -1,0 +1,22 @@
+plannedId,role,pattern,runtimeCategory,concreteDecisionEvidence,semanticVerdict,derivedMappingVerdict
+TC-106,primary,bottleneck,dependencies,Увеличить мощность именно review и проверить очередь на общем горизонте.,PASS,PASS
+TC-106,secondary,process-economics,proportionality,"Выбрать помощь20 вместо настройки40, учитывая длительность дисбаланса.",PASS,PASS
+TC-107,primary,bottleneck,dependencies,Устранить устойчивый дефицит мощности review с допустимым переходом.,PASS,PASS
+TC-107,secondary,process-economics,proportionality,"Выбрать настройку40 вместо повторной помощи100, включая цену настройки и отвлечения.",PASS,PASS
+TC-138,primary,contract-risk-allocation,proportionality,"Признать выполненное fixed-price обязательство и вынести отсутствовавшее требование в отдельную платную доработку, не переложив незаконтрактованный риск на vendor.",PASS,PASS
+TC-138,secondary,process-economics,proportionality,Выбрать внутреннее обучение30 в срок вместо дешёвого позднего20 или избыточного срочного100.,PASS,PASS
+TC-162,primary,root-cause,systems,Проверить причинный вклад телеметрии на одинаковой нагрузке и разорвать петлю усиления без предположения о доказанной первопричине.,PASS,PASS
+TC-162,secondary,quality-metrics,evidence,Сохранить полные агрегаты бизнес-здоровья и наблюдаемость потерь при ограничении детализации.,PASS,PASS
+TC-167,primary,dependency-management,dependencies,"Связать обязательства upstream/downstream и повторно подтвердить затронутые связи, а независимое продолжить.",PASS,PASS
+TC-167,secondary,change-control,organization,"Превратить изменение общей вехи в явное пересогласование обещаний и внешнего окна, а не простое обновление статуса.",PASS,PASS
+TC-175,primary,root-cause,systems,Перейти от отдельных actions к проверке взаимодействия правил передачи и причин возврата.,PASS,PASS
+TC-175,secondary,quality-metrics,evidence,"Оценивать совместный lead time/возвраты, не проценты закрытых задач и локальные улучшения без соседнего ожидания.",PASS,PASS
+TC-194,primary,process-economics,proportionality,Включить60 вытесненной внутренней работы в стоимость B и предпочесть полную110 вместо140.,PASS,PASS
+TC-237,primary,impact-analysis,evidence,Выбрать границу воздействия меры по подтверждённому сегменту и последствиям полного отката для остальных операций.,PASS,PASS
+TC-237,secondary,process-economics,proportionality,Сравнить дополнительный ущерб20 с утратой улучшения80 при равных прочих рисках.,PASS,PASS
+TC-244,primary,roles,organization,"Развести личную программу, управление менеджерами, наставничество и исключения Head; изменить критерии назначения.",PASS,PASS
+TC-244,secondary,decision-at-right-level,organization,"Передать группам явные классы решений вместо постоянного утверждения Head, чтобы самостоятельность была реально наблюдаемой.",PASS,PASS
+TC-286,primary,root-cause,systems,"Разделить влияние совместного состояния и реального дефекта, изменить механизм прогонов вместо роста тестов/сред.",PASS,PASS
+TC-286,secondary,regression-evidence,risk,Сохранять первое падение и классифицировать причину до признания регресса достаточным; обязательный общий интеграционный контур остаётся.,PASS,PASS
+TC-300,primary,forecast,evidence,"Собрать прогноз с неоплаченными обязательствами и действующим резервом, пересчитать его после реальной отмены.",PASS,PASS
+TC-300,secondary,change-control,organization,"Вынести снятие отчёта и потерю ценности на согласование спонсору, изменить baseline обязательств вместо сдвига счетов.",PASS,PASS

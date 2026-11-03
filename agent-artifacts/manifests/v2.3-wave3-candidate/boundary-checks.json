@@ -1,0 +1,42 @@
+{
+  "mobilePair": {
+    "154": {
+      "window": 6,
+      "newBuildFeasibleWorstCase": true,
+      "newBuildNetValue": 30,
+      "serverFeasible": true,
+      "serverNetValue": 15,
+      "strongest": "newBuild"
+    },
+    "155": {
+      "window": 3,
+      "newBuildFeasibleWorstCase": false,
+      "newBuildNetValue": 30,
+      "serverFeasible": true,
+      "serverNetValue": 15,
+      "strongest": "server"
+    }
+  },
+  "TC166": {
+    "sqlTotalDays": 10,
+    "documentTotalDays": 7,
+    "capacity": 8,
+    "documentBeforeLaunch": 6,
+    "launchWindow": 8
+  },
+  "TC269": {
+    "base": 100,
+    "originalContingency": 20.0,
+    "mitigation": 8,
+    "residualContingency": 6.0,
+    "totalWithMitigation": 114.0,
+    "limit": 116
+  },
+  "TC293": {
+    "fullDays": 18,
+    "minimalDays": 9,
+    "fullDelayLoss": 40,
+    "minimalCost": 16
+  },
+  "structural": "No level/eligibility/batch/family membership mutation"
+}

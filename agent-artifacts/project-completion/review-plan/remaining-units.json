@@ -1,0 +1,1292 @@
+[
+  {
+    "unitId": "U-EXP",
+    "unresolvedMemberIDs": [
+      "TC-221",
+      "TC-263"
+    ],
+    "memberIDs": [
+      "TC-221",
+      "TC-263"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R5",
+    "dependencies": [],
+    "semanticReservations": [
+      "G-LEARNING"
+    ],
+    "sharedSourceTopics": [
+      "t-13-3"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-024",
+      "TC-031",
+      "TC-032",
+      "TC-094",
+      "TC-164",
+      "TC-195",
+      "TC-248",
+      "TC-261"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true,
+    "latestStatus": "TC263 architecture selected but authored R1 failed self-review; TC221 has no viable selected replacement"
+  },
+  {
+    "unitId": "U-SECURITY",
+    "unresolvedMemberIDs": [
+      "TC-171"
+    ],
+    "memberIDs": [
+      "TC-171"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R1",
+    "dependencies": [],
+    "semanticReservations": [
+      "G-SECURITY"
+    ],
+    "sharedSourceTopics": [
+      "t-10-7"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-125",
+      "TC-140",
+      "TC-293"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-ONBOARD",
+    "unresolvedMemberIDs": [
+      "TC-193"
+    ],
+    "memberIDs": [
+      "TC-193"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R2",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-7-3"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-065",
+      "TC-081",
+      "TC-082",
+      "TC-122",
+      "TC-268"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-MOTIVATION",
+    "unresolvedMemberIDs": [
+      "TC-159"
+    ],
+    "memberIDs": [
+      "TC-159"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [
+      "U-ONBOARD"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-7-4"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-065",
+      "TC-081",
+      "TC-082",
+      "TC-122",
+      "TC-268"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-PERFORMANCE",
+    "unresolvedMemberIDs": [
+      "TC-217"
+    ],
+    "memberIDs": [
+      "TC-217"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-7-6"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-018",
+      "TC-072",
+      "TC-122",
+      "TC-274"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-ROADMAP",
+    "unresolvedMemberIDs": [
+      "TC-292"
+    ],
+    "memberIDs": [
+      "TC-292"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-9-2"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-021",
+      "TC-195",
+      "TC-209",
+      "TC-276",
+      "TC-277"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-COMMS-J",
+    "unresolvedMemberIDs": [
+      "TC-200"
+    ],
+    "memberIDs": [
+      "TC-200"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R2",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-6-2"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-015",
+      "TC-056",
+      "TC-057",
+      "TC-141"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-COMMS-M",
+    "unresolvedMemberIDs": [
+      "TC-243",
+      "TC-267"
+    ],
+    "memberIDs": [
+      "TC-243",
+      "TC-267"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [
+      "U-COMMS-J"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-6-2"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-015",
+      "TC-056",
+      "TC-057",
+      "TC-141"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-CAUSAL",
+    "unresolvedMemberIDs": [
+      "TC-242",
+      "TC-266"
+    ],
+    "memberIDs": [
+      "TC-242",
+      "TC-266"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [],
+    "semanticReservations": [
+      "G-PROCESS"
+    ],
+    "sharedSourceTopics": [
+      "t-4-5",
+      "t-4-7"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-008",
+      "TC-070",
+      "TC-076",
+      "TC-077",
+      "TC-136",
+      "TC-175",
+      "TC-215"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-LEARNING",
+    "unresolvedMemberIDs": [
+      "TC-212",
+      "TC-220",
+      "TC-284"
+    ],
+    "memberIDs": [
+      "TC-212",
+      "TC-220",
+      "TC-284"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [],
+    "semanticReservations": [
+      "G-LEARNING"
+    ],
+    "sharedSourceTopics": [
+      "t-14-2",
+      "t-2-6",
+      "t-5-6"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-014",
+      "TC-025",
+      "TC-033",
+      "TC-034",
+      "TC-035",
+      "TC-060",
+      "TC-141",
+      "TC-186",
+      "TC-218"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-REVERSIBLE",
+    "unresolvedMemberIDs": [
+      "TC-239"
+    ],
+    "memberIDs": [
+      "TC-239"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R2",
+    "dependencies": [
+      "U-LEARNING"
+    ],
+    "semanticReservations": [
+      "G-LEARNING"
+    ],
+    "sharedSourceTopics": [
+      "t-5-6"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-014",
+      "TC-025",
+      "TC-033",
+      "TC-034",
+      "TC-035",
+      "TC-060",
+      "TC-141",
+      "TC-186",
+      "TC-218"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-OBSERVABILITY",
+    "unresolvedMemberIDs": [
+      "TC-210"
+    ],
+    "memberIDs": [
+      "TC-210"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R2",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-10-4"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-050",
+      "TC-068",
+      "TC-100"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-FLOW-J",
+    "unresolvedMemberIDs": [
+      "TC-135",
+      "TC-145"
+    ],
+    "memberIDs": [
+      "TC-135",
+      "TC-145"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R2",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-4-2"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-063",
+      "TC-086",
+      "TC-095",
+      "TC-106",
+      "TC-107",
+      "TC-222",
+      "TC-234",
+      "TC-287"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-FLOW-M",
+    "unresolvedMemberIDs": [
+      "TC-298"
+    ],
+    "memberIDs": [
+      "TC-298"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [
+      "U-FLOW-J"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-3-7"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-063",
+      "TC-086",
+      "TC-095",
+      "TC-106",
+      "TC-107",
+      "TC-222",
+      "TC-234",
+      "TC-287"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-PRIORITY-J",
+    "unresolvedMemberIDs": [
+      "TC-272"
+    ],
+    "memberIDs": [
+      "TC-272"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R2",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-5-5"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-058",
+      "TC-059",
+      "TC-067",
+      "TC-236"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-PRIORITY-M",
+    "unresolvedMemberIDs": [
+      "TC-188"
+    ],
+    "memberIDs": [
+      "TC-188"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [
+      "U-PRIORITY-J"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-5-5"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-058",
+      "TC-059",
+      "TC-067",
+      "TC-236"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-DEPENDENCIES",
+    "unresolvedMemberIDs": [
+      "TC-238",
+      "TC-265"
+    ],
+    "memberIDs": [
+      "TC-238",
+      "TC-265"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [],
+    "semanticReservations": [
+      "G-DEPENDENCIES"
+    ],
+    "sharedSourceTopics": [
+      "t-10-1",
+      "t-2-4"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-001",
+      "TC-002",
+      "TC-011",
+      "TC-038",
+      "TC-119",
+      "TC-167",
+      "TC-251",
+      "TC-252"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-DEPENDENCY-J",
+    "unresolvedMemberIDs": [
+      "TC-271"
+    ],
+    "memberIDs": [
+      "TC-271"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R2",
+    "dependencies": [
+      "U-DEPENDENCIES"
+    ],
+    "semanticReservations": [
+      "G-DEPENDENCIES"
+    ],
+    "sharedSourceTopics": [
+      "t-2-4"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-001",
+      "TC-002",
+      "TC-011",
+      "TC-038",
+      "TC-119",
+      "TC-167",
+      "TC-251",
+      "TC-252"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-FORECAST",
+    "unresolvedMemberIDs": [
+      "TC-294"
+    ],
+    "memberIDs": [
+      "TC-294"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [
+      "U-DEPENDENCIES"
+    ],
+    "semanticReservations": [
+      "G-DEPENDENCIES"
+    ],
+    "sharedSourceTopics": [
+      "t-2-4"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-007",
+      "TC-016",
+      "TC-088",
+      "TC-141",
+      "TC-167"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-ESCALATE-J",
+    "unresolvedMemberIDs": [
+      "TC-146"
+    ],
+    "memberIDs": [
+      "TC-146"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R2",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-6-3"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-016",
+      "TC-026",
+      "TC-027",
+      "TC-028",
+      "TC-088",
+      "TC-151",
+      "TC-152",
+      "TC-153"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-ESCALATE-M",
+    "unresolvedMemberIDs": [
+      "TC-289"
+    ],
+    "memberIDs": [
+      "TC-289"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [
+      "U-ESCALATE-J"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-6-3"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-016",
+      "TC-026",
+      "TC-027",
+      "TC-028",
+      "TC-088",
+      "TC-146",
+      "TC-151",
+      "TC-152",
+      "TC-153"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-CONTROL-CULTURE",
+    "unresolvedMemberIDs": [
+      "TC-191",
+      "TC-223"
+    ],
+    "memberIDs": [
+      "TC-191",
+      "TC-223"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-4-5",
+      "t-7-10"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-019",
+      "TC-089",
+      "TC-137",
+      "TC-215"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-F-DM-P02",
+    "unresolvedMemberIDs": [
+      "TC-129",
+      "TC-130"
+    ],
+    "memberIDs": [
+      "TC-129",
+      "TC-130"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R4",
+    "dependencies": [
+      "U-LEARNING",
+      "U-EXP"
+    ],
+    "semanticReservations": [
+      "G-LEARNING"
+    ],
+    "sharedSourceTopics": [
+      "t-13-2"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-025",
+      "TC-060",
+      "TC-164",
+      "TC-186"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-PE-P02",
+    "unresolvedMemberIDs": [
+      "TC-179",
+      "TC-180"
+    ],
+    "memberIDs": [
+      "TC-179",
+      "TC-180"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R4",
+    "dependencies": [
+      "U-MOTIVATION"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-7-7"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-041",
+      "TC-225",
+      "TC-244"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-PM-P02",
+    "unresolvedMemberIDs": [
+      "TC-204",
+      "TC-205"
+    ],
+    "memberIDs": [
+      "TC-204",
+      "TC-205"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R4",
+    "dependencies": [
+      "U-FORECAST"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-2-7"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-069",
+      "TC-167",
+      "TC-269"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-PA-P03",
+    "unresolvedMemberIDs": [
+      "TC-206",
+      "TC-207"
+    ],
+    "memberIDs": [
+      "TC-206",
+      "TC-207"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R4",
+    "dependencies": [
+      "U-SECURITY"
+    ],
+    "semanticReservations": [
+      "G-SECURITY"
+    ],
+    "sharedSourceTopics": [
+      "t-10-7"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-125",
+      "TC-140",
+      "TC-293"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-DR-P03",
+    "unresolvedMemberIDs": [
+      "TC-228",
+      "TC-229"
+    ],
+    "memberIDs": [
+      "TC-228",
+      "TC-229"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R4",
+    "dependencies": [],
+    "semanticReservations": [
+      "G-ROLLOUT"
+    ],
+    "sharedSourceTopics": [
+      "t-3-3"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-003",
+      "TC-004",
+      "TC-131",
+      "TC-132",
+      "TC-213"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-F-BV-P04",
+    "unresolvedMemberIDs": [
+      "TC-232",
+      "TC-233"
+    ],
+    "memberIDs": [
+      "TC-232",
+      "TC-233"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R4",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-8-4"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-073",
+      "TC-194",
+      "TC-208"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-F-ST-P03",
+    "unresolvedMemberIDs": [
+      "TC-255",
+      "TC-256"
+    ],
+    "memberIDs": [
+      "TC-255",
+      "TC-256"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R4",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-6-6"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-064",
+      "TC-168"
+    ],
+    "confidence": "medium",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-F-PO-P03",
+    "unresolvedMemberIDs": [
+      "TC-234"
+    ],
+    "memberIDs": [
+      "TC-234",
+      "TC-235"
+    ],
+    "additionalAcceptedSiblings": [
+      "TC-235"
+    ],
+    "treatment": "R4",
+    "dependencies": [
+      "U-FLOW-M"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-9-6"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-013",
+      "TC-150",
+      "TC-161",
+      "TC-199",
+      "TC-298"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-ST-T01",
+    "unresolvedMemberIDs": [
+      "TC-151",
+      "TC-152",
+      "TC-153"
+    ],
+    "memberIDs": [
+      "TC-151",
+      "TC-152",
+      "TC-153"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R4",
+    "dependencies": [
+      "U-ESCALATE-J",
+      "U-ESCALATE-M"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-6-3"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-016",
+      "TC-026",
+      "TC-027",
+      "TC-028",
+      "TC-088",
+      "TC-146"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-SDLC-REPLACE",
+    "unresolvedMemberIDs": [
+      "TC-296"
+    ],
+    "memberIDs": [
+      "TC-296"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R5",
+    "dependencies": [
+      "U-CAUSAL"
+    ],
+    "semanticReservations": [
+      "G-PROCESS"
+    ],
+    "sharedSourceTopics": [
+      "t-3-1"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-008",
+      "TC-070",
+      "TC-076",
+      "TC-077",
+      "TC-136",
+      "TC-175",
+      "TC-215"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-STAKEHOLDER-REPLACE",
+    "unresolvedMemberIDs": [
+      "TC-299"
+    ],
+    "memberIDs": [
+      "TC-299"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R5",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-6-1"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-007",
+      "TC-016",
+      "TC-088",
+      "TC-141",
+      "TC-167"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-F-PR-T01",
+    "unresolvedMemberIDs": [
+      "TC-126",
+      "TC-127",
+      "TC-128"
+    ],
+    "memberIDs": [
+      "TC-126",
+      "TC-127",
+      "TC-128"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [
+      "U-CAUSAL",
+      "U-SDLC-REPLACE"
+    ],
+    "semanticReservations": [
+      "G-PROCESS"
+    ],
+    "sharedSourceTopics": [
+      "t-4-5"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-009",
+      "TC-076",
+      "TC-077",
+      "TC-078",
+      "TC-136",
+      "TC-165",
+      "TC-215",
+      "TC-242"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-PE-T01",
+    "unresolvedMemberIDs": [
+      "TC-176",
+      "TC-177",
+      "TC-178"
+    ],
+    "memberIDs": [
+      "TC-176",
+      "TC-177",
+      "TC-178"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-7-9"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-106",
+      "TC-107",
+      "TC-288"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  },
+  {
+    "unitId": "U-F-PO-P02",
+    "unresolvedMemberIDs": [
+      "TC-133",
+      "TC-134"
+    ],
+    "memberIDs": [
+      "TC-133",
+      "TC-134"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [
+      "U-FORECAST"
+    ],
+    "semanticReservations": [
+      "G-AUTHORITY"
+    ],
+    "sharedSourceTopics": [
+      "t-9-4"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-012",
+      "TC-156",
+      "TC-157",
+      "TC-226",
+      "TC-227"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-ST-P02",
+    "unresolvedMemberIDs": [
+      "TC-156",
+      "TC-157"
+    ],
+    "memberIDs": [
+      "TC-156",
+      "TC-157"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [
+      "U-F-PO-P02"
+    ],
+    "semanticReservations": [
+      "G-AUTHORITY"
+    ],
+    "sharedSourceTopics": [
+      "t-5-7"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-012",
+      "TC-133",
+      "TC-134",
+      "TC-226",
+      "TC-227"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-DM-P03",
+    "unresolvedMemberIDs": [
+      "TC-226",
+      "TC-227"
+    ],
+    "memberIDs": [
+      "TC-226",
+      "TC-227"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [
+      "U-F-ST-P02",
+      "U-PRIORITY-M"
+    ],
+    "semanticReservations": [
+      "G-AUTHORITY"
+    ],
+    "sharedSourceTopics": [
+      "t-5-5"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-012",
+      "TC-133",
+      "TC-134",
+      "TC-156",
+      "TC-157"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-PR-P02",
+    "unresolvedMemberIDs": [
+      "TC-230",
+      "TC-231"
+    ],
+    "memberIDs": [
+      "TC-230",
+      "TC-231"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [
+      "U-CONTROL-CULTURE"
+    ],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-7-10"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-019",
+      "TC-087",
+      "TC-183",
+      "TC-257",
+      "TC-258"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-PM-P03",
+    "unresolvedMemberIDs": [
+      "TC-251",
+      "TC-252"
+    ],
+    "memberIDs": [
+      "TC-251",
+      "TC-252"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [
+      "U-DEPENDENCIES",
+      "U-DEPENDENCY-J",
+      "U-FORECAST"
+    ],
+    "semanticReservations": [
+      "G-DEPENDENCIES"
+    ],
+    "sharedSourceTopics": [
+      "t-2-4"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-001",
+      "TC-002",
+      "TC-119",
+      "TC-167",
+      "TC-238",
+      "TC-271"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-PA-P04",
+    "unresolvedMemberIDs": [
+      "TC-259",
+      "TC-260"
+    ],
+    "memberIDs": [
+      "TC-259",
+      "TC-260"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [
+      "U-EXP",
+      "U-LEARNING"
+    ],
+    "semanticReservations": [
+      "G-LEARNING"
+    ],
+    "sharedSourceTopics": [
+      "t-13-1"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-025",
+      "TC-060",
+      "TC-129",
+      "TC-130",
+      "TC-276",
+      "TC-277"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-DR-P04",
+    "unresolvedMemberIDs": [
+      "TC-278",
+      "TC-279"
+    ],
+    "memberIDs": [
+      "TC-278",
+      "TC-279"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [
+      "U-F-DR-P03"
+    ],
+    "semanticReservations": [
+      "G-ROLLOUT"
+    ],
+    "sharedSourceTopics": [
+      "t-3-3"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-061",
+      "TC-101",
+      "TC-102",
+      "TC-103",
+      "TC-213",
+      "TC-264"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": false
+  },
+  {
+    "unitId": "U-F-PO-P04",
+    "unresolvedMemberIDs": [
+      "TC-282",
+      "TC-283"
+    ],
+    "memberIDs": [
+      "TC-282",
+      "TC-283"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R6",
+    "dependencies": [],
+    "semanticReservations": [],
+    "sharedSourceTopics": [
+      "t-10-6"
+    ],
+    "nearestAnalogsToAvoid": [
+      "TC-023",
+      "TC-049"
+    ],
+    "confidence": "low",
+    "authoringReadiness": "SOURCE_AND_SKELETON_PROOF_REQUIRED",
+    "dependencyFree": true
+  }
+]

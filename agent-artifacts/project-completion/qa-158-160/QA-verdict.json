@@ -1,0 +1,61 @@
+{
+  "status": "FIX REQUIRED",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-158-160/cases.json",
+  "candidateSHA256": "9666c6317d6db4cd5c6397ff9be55e252001a86eb48a5d1254027409205e77bc",
+  "manifestPath": "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json",
+  "manifestSHA256": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+  "sourceHashes": {
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-9-4.md": "930f2a5aa24ff29e8ba5d2fa03e0107c4c8d581b11593af4c5e1a808cf870c85",
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-8-1.md": "a0c7b0c973f56e9832e09ba4d6e9eaec7bc0853c6850425d0af67e52ce6d953e"
+  },
+  "acceptedCaseIDs": [],
+  "remainingCaseIDs": [
+    "TC-158",
+    "TC-160"
+  ],
+  "gates": {
+    "blind": "C then A (158); B then D (160). Both keys matched.",
+    "manifest": "Metadata/eligibility match C05. Same inter-program dependency and supply-side exposure, same coupled-scenario economic decision.",
+    "source": "§9.4 shared-resource and knowledge dependencies, structural removal; §8.1 same-horizon NPV and contribution margin. Author-specific proportions and NPV inputs explicitly supplied.",
+    "TC158": "C uniquely releases scarce capacity and tests competence across all teams. D repeats documentation; B retains central shared coverage; A advances practice but does not fund full independence. Head controls portfolio tradeoff across 3 budgets.",
+    "TC160": "B uniquely yields +2.2 vs full −1 and no launch 0 on a common horizon; D is runner-up. C cannot reprice existing cohort. A reserve does not change unit economics.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    }
+  },
+  "issues": [
+    {
+      "id": "158-DQ-AB",
+      "severity": "major",
+      "case": "TC-158",
+      "field": "options.A/B.decisionQuality",
+      "evidence": "A funds local capability in two teams while third still depends on expert; B keeps central backup and only checks listed names. Both miss protected capacity and delivery proof. Nothing establishes that B is better than A (0.50 vs 0.45). Even the explanation grants A a chance to train and B only two central roles.",
+      "fix": "Rank A above B or equalize if both have similarly unverified delivery; keep C and its decisive conditions."
+    },
+    {
+      "id": "160-A-WHEN",
+      "severity": "major",
+      "case": "TC-160",
+      "field": "options.A.whenItWouldBeBest",
+      "evidence": "Profitable full-offer scenarios plus a liquidity buffer do not make presenting high-demand revenue rational or make the full offer outperform the capped plan; the action specifically reserves for cost overrun.",
+      "fix": "Specify credible high demand as the applicable funded plan, corresponding costs, superior expected full-offer NPV and independently quantified downside/overrun covered by reserve."
+    },
+    {
+      "id": "160-LEVEL",
+      "severity": "major",
+      "case": "TC-160",
+      "field": "context, key/explanation as needed",
+      "evidence": "C05 requires diagnosing why the upside destroys margin. The stem provides both margin signs, both final NPV pairs and the successful remedy including verified conversion effects. Ranking given expected values alone solves it.",
+      "fix": "Retain the same C05 economics but present paired revenue/cost contributions under consistent demand, enabling reconstruction of +2/−3 and +1/+3; leave the causal diagnosis and margin signs to the learner. Keep verified conversion effects and irreversible launch."
+    }
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 3,
+    "minor": 0
+  },
+  "retest": "TC158 partial scores. TC160 edited stem, whole-A WHEN, arithmetic, blind decision and level. No manifest change needed.",
+  "importEligible": false
+}

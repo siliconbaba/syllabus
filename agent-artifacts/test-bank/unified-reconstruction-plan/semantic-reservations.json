@@ -1,0 +1,65 @@
+[
+  {
+    "id": "G-AUTHORITY",
+    "units": [
+      "U-F-PO-P02",
+      "U-F-ST-P02",
+      "U-F-DM-P03"
+    ],
+    "members": [
+      "TC-133",
+      "TC-134",
+      "TC-156",
+      "TC-157",
+      "TC-226",
+      "TC-227"
+    ],
+    "rule": "Joint semantic allocation of three distinct source-specific roles before ANY replacement. No arbitrary winner; eventual authoring remains three whole pairs. Not a separate unit and does not recount the6 IDs."
+  },
+  {
+    "id": "G-SECURITY",
+    "units": [
+      "U-SECURITY",
+      "U-F-PA-P03"
+    ],
+    "rule": "Reserve distinct system-control role171 and family axis206/207 before first authoring; no ready environment/authority rule."
+  },
+  {
+    "id": "G-ROLLOUT",
+    "units": [
+      "U-F-DR-P03",
+      "U-F-DR-P04"
+    ],
+    "rule": "Reserve mitigation/fallback versus replacement rollout roles before either family authoring; distinguish all accepted101–103/213/264."
+  },
+  {
+    "id": "G-PROCESS",
+    "units": [
+      "U-CAUSAL",
+      "U-SDLC-REPLACE",
+      "U-F-PR-T01"
+    ],
+    "rule": "Separate process adaptation, retrospective causal evidence, lifecycle SDLC and replacement triplet roles before competing units occupy new space."
+  },
+  {
+    "id": "G-DEPENDENCIES",
+    "units": [
+      "U-DEPENDENCIES",
+      "U-DEPENDENCY-J",
+      "U-FORECAST",
+      "U-F-PM-P03"
+    ],
+    "rule": "Reserve planning, API lifecycle, basic dependency and system forecast roles; do not reclaim accepted001/002/011/038/167/270."
+  },
+  {
+    "id": "G-LEARNING",
+    "units": [
+      "U-EXP",
+      "U-LEARNING",
+      "U-REVERSIBLE",
+      "U-F-DM-P02",
+      "U-F-PA-P04"
+    ],
+    "rule": "Separate experimental design, estimates/learning, investment axis and Head metric-governance replacement. Accepted248/261 remain frozen."
+  }
+]

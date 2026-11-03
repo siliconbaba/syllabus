@@ -1,0 +1,9 @@
+{
+  "agent-artifacts/manifests/v2.2.3/production_manifest_masterplan_v2_2_3.json": "a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1",
+  "agent-artifacts/manifests/v2.2.4-candidate/production_manifest_masterplan_v2_2_4_candidate.json": "ffb6486e5f6c34b2cf291b02f98d9ae703d35639f287d2df45a7eebd48176eec",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7"
+}

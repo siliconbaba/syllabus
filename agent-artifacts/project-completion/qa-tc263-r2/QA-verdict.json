@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-26",
+  "status": "FIX_REQUIRED",
+  "reviewType": "independent focused manifest-row delta QA",
+  "candidate": "tc263-r2",
+  "candidateSHA256": "2bd63ccf36388731ee3f90f77a5f011cc64a29b6d2f4158f1e411b159eed124d",
+  "baseSHA256": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "r1BlockerClosed": true,
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 2,
+    "Minor": 0
+  },
+  "issues": [
+    {
+      "id": "QA263-R2-M01",
+      "severity": "Major",
+      "gate": "level",
+      "finding": "Main alternative mechanically dominated; same evidence/cost plus stated opportunity loss does not establish Middle."
+    },
+    {
+      "id": "QA263-R2-M02",
+      "severity": "Major",
+      "gate": "semantic",
+      "finding": "NEAR DUPLICATE accepted TC-034: cheap available learning before costly action while waiting is allowed; fidelity label does not affect current boundary."
+    }
+  ],
+  "gates": {
+    "structure": "PASS",
+    "runtimeVocabulary": "PASS_INHERITED_EXACT_HASH",
+    "sourcePrinciple": "PASS",
+    "pairwiseR1Ambiguity": "CLOSED",
+    "middle": "FAIL",
+    "semantic": "FAIL_NEAR_DUPLICATE",
+    "blindStrongest": "NOT_RUN",
+    "fullCaseOptions": "NOT_APPLICABLE",
+    "family": "NOT_APPLICABLE",
+    "surface": "NOT_APPLICABLE",
+    "DQ": "NOT_APPLICABLE"
+  },
+  "changedFields": [
+    "decisiveFactsConcept",
+    "oneSentenceDecisionBoundary",
+    "whyLevel"
+  ],
+  "remainingUnresolved": 72,
+  "readyForPromotion": false,
+  "readyForFullCaseAuthoring": false,
+  "importEligible": false,
+  "slotExhausted": false,
+  "productionChanged": false,
+  "manifestChanged": false,
+  "candidateChanged": false,
+  "independentFullCaseQA": "NOT_RUN",
+  "inheritance": "R1 compiled runtime check only; no inheritance of content acceptance",
+  "nextScope": "Repair fidelity decision skeleton; no third price-only revision, no structural slot change."
+}

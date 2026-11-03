@@ -1,0 +1,37 @@
+{
+  "blindSHA256": "73415f98ab91a8aeaf42d8271e1268cc8bb7d230456d7865ace942c66393f702",
+  "beforeKey": true,
+  "confidence": "high all",
+  "columns": [
+    "best",
+    "runnerUp",
+    "reason"
+  ],
+  "choices": {
+    "TC-144": [
+      "B",
+      "D",
+      "Atomic durable send intent avoids gap after commit; survives unavailable queue."
+    ],
+    "TC-147": [
+      "D",
+      "B",
+      "Delegate authority/time and coaching to two line leads; keep cross-line coordination."
+    ],
+    "TC-148": [
+      "A",
+      "B",
+      "40 − 20 = 20 versus 60 − 45 = 15; salary unchanged."
+    ],
+    "TC-149": [
+      "C",
+      "B",
+      "Fix recurrent template at collection time. Exception expert cannot gate everything."
+    ],
+    "TC-150": [
+      "B",
+      "C",
+      "Shared writes and data contracts force joint changes. Moving code or shifting calendar cannot isolate rules."
+    ]
+  }
+}

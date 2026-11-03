@@ -1,0 +1,5 @@
+[
+ {"id":"TC-117","strongest":"D","runnerUp":"B","confidence":0.99,"grounds":"D uses independent control and preserves optionality at expected cost 4.6–5.4. B prevents failure at fixed cost 8. C always releases because the pilot removes the problematic batch."},
+ {"id":"TC-118","strongest":"C","runnerUp":"D","confidence":0.99,"grounds":"Catalog 24/4=6, competing work 20/4=5, extension incremental 12/8=1.5. D captures initial value but delays competing work."},
+ {"id":"TC-119","strongest":"D","runnerUp":"B","confidence":0.99,"grounds":"D ties semantic proof to both release artifacts and the affected contract, including final admission. B scopes retest but a newer artifact can appear during a run."}
+]

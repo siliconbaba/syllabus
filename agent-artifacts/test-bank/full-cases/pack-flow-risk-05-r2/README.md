@@ -1,0 +1,1 @@
+R2: TC211 only A whole-WHEN+revision. TC116 scoped Middle realization within safeguards boundary: two compliant plans with operational support capacity and cost; no change to runtime labels/level. Source numbers are authored givens, not claims from textbook. Three accepted cases unchanged. Fresh blind116 and focused211 QA required; no import.

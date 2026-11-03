@@ -1,0 +1,7 @@
+{
+  "basis": "Exact equality of all275 runtime input projections + unchanged gold25 and Swift sources",
+  "baselineCoverage": "agent-artifacts/manifests/v2.3-completion-02-candidate/runtime_coverage_v2_3_completion_02_candidate.json",
+  "baselineCoverageSHA256": "df3b1bd0f016517080b3ab244b151c54789d564df5dcb6c77cf06baaf9fc7e9d",
+  "recalculationRequired": false,
+  "independentVerification": "PENDING"
+}

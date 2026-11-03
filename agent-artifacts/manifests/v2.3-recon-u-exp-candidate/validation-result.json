@@ -1,0 +1,53 @@
+{
+  "status": "BLOCKED — author content gates failed; mechanical regression PASS",
+  "mechanical": "PASS",
+  "planBeforeDraftsAndUnchanged": true,
+  "sourceExtractFresh": true,
+  "runtimeCompiledFromAuthoritativeSwift": true,
+  "referenceCopiesMatchSource": true,
+  "unknownDomainCodes": 0,
+  "unknownPatternCodes": 0,
+  "uniqueIDs": 275,
+  "validPartTopic": true,
+  "eligibility": "PASS",
+  "familyConsistency": "PASS",
+  "noSplitFamily": "PASS",
+  "batches": "11x25 PASS",
+  "familyContractsUnchanged": true,
+  "changedRows": [],
+  "unexpectedChangedRows": 0,
+  "unchangedRows": 275,
+  "levels": {
+    "middle": 122,
+    "junior": 42,
+    "senior": 76,
+    "head": 35
+  },
+  "coveragePoolsRecomputed": [
+    "gold",
+    "new",
+    "all300",
+    "newAssessment",
+    "assessment200",
+    "currentProduction100",
+    "auditedRemaining200"
+  ],
+  "allCoverageExactBaselineMatch": true,
+  "headBreadthExactBaselineMatch": true,
+  "contextSensitivityScoredEvidence": 0,
+  "contentGate": {
+    "TC-221": "UNRESOLVED",
+    "TC-263": "UNRESOLVED",
+    "jointRoleSeparation": "FAIL",
+    "successfullyReconstructed": 0,
+    "rejectedNearDuplicateTrials": 3,
+    "rejectedLevelFailTrials": 1,
+    "duplicateTrialsFound": 0,
+    "remainingGlobalUnresolved": 72
+  },
+  "productionUnchanged": true,
+  "immutableInputFilesVerified": 963,
+  "fullCaseLoader": "NOT_APPLICABLE — manifest-only, no full cases",
+  "independentQA": "NOT_RUN",
+  "readyForFocusedIndependentQA": false
+}

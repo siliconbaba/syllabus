@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "caseId": "TC-211",
+      "characters": {
+        "A": 83,
+        "B": 125,
+        "C": 93,
+        "D": 104
+      },
+      "key": "B",
+      "longest": "B",
+      "keyLongest": true
+    },
+    {
+      "caseId": "TC-237",
+      "characters": {
+        "A": 90,
+        "B": 96,
+        "C": 115,
+        "D": 110
+      },
+      "key": "C",
+      "longest": "C",
+      "keyLongest": true
+    },
+    {
+      "caseId": "TC-174",
+      "characters": {
+        "A": 70,
+        "B": 75,
+        "C": 81,
+        "D": 91
+      },
+      "key": "B",
+      "longest": "D",
+      "keyLongest": false
+    },
+    {
+      "caseId": "TC-116",
+      "characters": {
+        "A": 93,
+        "B": 139,
+        "C": 102,
+        "D": 108
+      },
+      "key": "B",
+      "longest": "B",
+      "keyLongest": true
+    },
+    {
+      "caseId": "TC-162",
+      "characters": {
+        "A": 128,
+        "B": 111,
+        "C": 119,
+        "D": 152
+      },
+      "key": "D",
+      "longest": "D",
+      "keyLongest": true
+    }
+  ],
+  "keys": "B C B B D",
+  "longestHeuristicCorrect": 4,
+  "n": 5,
+  "duplicateOptionTexts": false,
+  "interpretation": "4/5 longest keys warrants attention but is not alone rejection. TC116 has substantive semantic recipe leakage and weak alternative viability linked to level issue. TC162 repeats available tools yet requires integrating feedback, missingness and controlled attribution; no independent major assigned. No positional forcing or padding requested. Fresh batch; no inherited like-for-like 78-rule claim.",
+  "intraBatchPairsReviewed": [
+    [
+      "TC-211",
+      "TC-237"
+    ],
+    [
+      "TC-211",
+      "TC-174"
+    ],
+    [
+      "TC-211",
+      "TC-116"
+    ],
+    [
+      "TC-211",
+      "TC-162"
+    ],
+    [
+      "TC-237",
+      "TC-174"
+    ],
+    [
+      "TC-237",
+      "TC-116"
+    ],
+    [
+      "TC-237",
+      "TC-162"
+    ],
+    [
+      "TC-174",
+      "TC-116"
+    ],
+    [
+      "TC-174",
+      "TC-162"
+    ],
+    [
+      "TC-116",
+      "TC-162"
+    ]
+  ],
+  "intraBatchResult": "No duplicate decision boundary; TC116/162 share observability tools but distinct safeguard versus observer feedback."
+}

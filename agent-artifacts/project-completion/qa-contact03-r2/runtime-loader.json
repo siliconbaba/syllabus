@@ -1,0 +1,7 @@
+{
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-stakeholders-02-r2/cases.json",
+  "candidateSHA256": "d1ed53930e2f49b1b1e6bacf52d6ec79a9e35af4e704825f23a962fb433ad33b",
+  "issues": [],
+  "runtime": "PASS",
+  "schema": "PASS"
+}

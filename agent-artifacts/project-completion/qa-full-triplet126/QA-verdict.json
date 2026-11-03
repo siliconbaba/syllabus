@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Independent full-case content acceptance of the indivisible training-only triplet",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/triplet-126-128/cases.json",
+  "candidateSHA256": "6aba79b7ddbf059d0877d1ed59b3936139fc822019be06da0cb9ebf56a0aef62",
+  "acceptedCaseIDs": [
+    "TC-126",
+    "TC-127",
+    "TC-128"
+  ],
+  "acceptedFamilyID": "F-PR-T01",
+  "projectionSHA256": "287a70f2f9adca506ccdbfef4d2a24c532ef0b58bf3903655e19417de199a92f",
+  "productionComparisonSHA256": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+  "gates": {
+    "sourceAndLevel": "§4.5 connects process design with flow, cadence, control and its measured cost. Three teams and one planning period; Middle weighs fixed setup against recurring waiting costs. Values are scenario estimates.",
+    "blind": "A/B/C independently selected. Runners B, C, and a tie between B and D (both 100).",
+    "family": "Identical prompts, options, title and context except the late count sentence. Only n changes, 1/8/40. Four implementable, exclusive schemes; same reporting and checks.",
+    "choiceAndScoring": "A/B/C/D totals 10/22/53/100, 80/36/60/100, 400/100/92/100. Every pairwise partial grade follows cost, including TC-128 B=D.",
+    "wholeOptionWhen": "For integers 0–80: A uniquely cheapest at 0–2, B at 3–31, C at 33–47 and D at 49–80. Ties at 32 and 48 are correctly outside strict WHEN ranges.",
+    "duplication": "Allowed reinforcement of TC-076–078: there the residual defect risk changes optimal review intensity; here quality is constant and routing/latency determine the choice. TC-008/215/242/296 diagnose causal impact of a gate; here measurement already exists. TC-044/047/068/092/100/114/223/249/250/266 address different decisions.",
+    "surface": "Same neutral title, question and full answer strings across all three cases. Repetition exposes the intended mutation for training. No length or keyword singles out all keys.",
+    "runtime": "PASS; runtime-loader.json"
+  },
+  "issues": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "importEligible": false,
+  "importScope": "Content accepted; working manifest integration/freeze and production regression are separate."
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "familyId": "F-TD-T01",
+    "members": [
+      "TC-101",
+      "TC-102",
+      "TC-103"
+    ],
+    "verdict": "PASS at frozen-concept level",
+    "reason": "Три стратегии различимы: code rollback; cutover с recovery в окне; expand-contract до включения. Две границы: совместимость старого кода; достижимость восстановления в окне. Точка невозврата в среднем состоянии относится к обычному code rollback, не к абсолютной невозможности восстановления.",
+    "crossBankBlockedMembers": [
+      "TC-103"
+    ],
+    "limitation": "Не является literal sibling diff или проверкой уникальности unwritten options."
+  },
+  {
+    "familyId": "F-PM-P01",
+    "members": [
+      "TC-104",
+      "TC-105"
+    ],
+    "verdict": "PASS at frozen-concept level",
+    "reason": "Одна переменная — событие ещё не подтверждено / официально наступило. Готовность response сменяется его активацией.",
+    "crossBankBlockedMembers": [
+      "TC-105"
+    ],
+    "limitation": "Не является literal sibling diff или проверкой уникальности unwritten options."
+  },
+  {
+    "familyId": "F-PR-P01",
+    "members": [
+      "TC-106",
+      "TC-107"
+    ],
+    "verdict": "PASS at frozen-concept level",
+    "reason": "Одна переменная — временный пик / устойчивое повторение. Временная разгрузка сменяется изменением постоянного ограничения; WIP и приоритеты остаются фиксированными.",
+    "crossBankBlockedMembers": [],
+    "limitation": "Не является literal sibling diff или проверкой уникальности unwritten options."
+  },
+  {
+    "familyId": "F-PA-P02",
+    "members": [
+      "TC-108",
+      "TC-109"
+    ],
+    "verdict": "PASS at frozen-concept level",
+    "reason": "Одна переменная — достаточность причинного сигнала. Нелокализованный агрегат требует диагностики; согласованные trace/logs/metrics допускают локальную mitigation.",
+    "crossBankBlockedMembers": [
+      "TC-108"
+    ],
+    "limitation": "Не является literal sibling diff или проверкой уникальности unwritten options."
+  }
+]

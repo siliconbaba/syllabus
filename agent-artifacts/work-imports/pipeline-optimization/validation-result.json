@@ -1,0 +1,77 @@
+{
+  "pipelineOptimization": "COMPLETE",
+  "runbooksCreated": [
+    "TEST-BANK-RUNBOOK.md",
+    "TEST-QA-RUNBOOK.md",
+    "WORK-IMPORT-RUNBOOK.md",
+    "PIPELINE-CONTRACT.md"
+  ],
+  "tools": [
+    "build_batch_context.py",
+    "validate_batch.py",
+    "diff_case_sets.py",
+    "build_evidence_index.py",
+    "verify_context.py"
+  ],
+  "reused": [
+    "TrainerBank.load",
+    "TrainerScoringMapping",
+    "scripts/common.sh",
+    "scripts/check_content.py Parser"
+  ],
+  "promptTemplates": 5,
+  "approvedCasesIndexed": 100,
+  "provenanceLimitations": [
+    "Gold full independent verdict not local; user approval + preserved fixture/import lineage",
+    "Batch 01 conditional QA + authorized local-fix/import lineage; not an unconditional final QA verdict"
+  ],
+  "batch04ContextPack": "COMPLETE",
+  "plannedRows": 25,
+  "sourceTopics": 16,
+  "shortlistCasesCovered": 25,
+  "averageAnalogs": 7,
+  "sameTopicPatternSafety": "PASS",
+  "unifiedDeterministicValidation": "PASS",
+  "toolTests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "historicalReplay": {
+    "batch03Validation": "PASS",
+    "changedIds": [
+      "TC-085"
+    ],
+    "rawByteIdentical": 24,
+    "familyContractsChanged": 0
+  },
+  "productionChanged": false,
+  "manifestChanged": false,
+  "schemaRuntimeChanged": false,
+  "protectedFileChanges": [],
+  "estimatedContextReductionPercent": 80.9,
+  "substantiveQAGatesRemoved": 0,
+  "batch04CasesCreated": 0,
+  "batch04AuthoringMayStart": false,
+  "authoringBlockerSource": {
+    "status": "BLOCKED",
+    "source": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/test-bank/batch-04/preflight-validation.json",
+    "sourceSha256": "02a9287cb2cdb2d8cb00defb0c3b1aa58936699235c8ffb2886f40e1c53a3d9d",
+    "manifestBlockerIDs": [
+      "TC-103",
+      "TC-105",
+      "TC-108",
+      "TC-111",
+      "TC-113",
+      "TC-115",
+      "TC-118",
+      "TC-119",
+      "TC-120",
+      "TC-122",
+      "TC-125"
+    ],
+    "note": "Existing external preflight, not a new semantic verdict by this generator."
+  },
+  "commitPush": "NOT PERFORMED",
+  "newIpa": false,
+  "fullApplicationGateThisTask": "NOT_RUN: no production/app changes; prior Batch 03 full gate retained, new tooling validated independently"
+}

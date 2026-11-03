@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "verdict": "COMBINED WAVE 4+5 INDEPENDENT QA PASS",
+  "date": "2026-10-14",
+  "scope": [
+    "TC-158",
+    "TC-187",
+    "TC-192",
+    "TC-201",
+    "TC-202",
+    "TC-203",
+    "TC-211",
+    "TC-268",
+    "TC-274",
+    "TC-280",
+    "TC-281",
+    "TC-131",
+    "TC-132",
+    "TC-174",
+    "TC-213",
+    "TC-222",
+    "TC-236",
+    "TC-264",
+    "TC-276",
+    "TC-277",
+    "TC-287"
+  ],
+  "checkedCount": 21,
+  "waves": {
+    "4": {
+      "status": "PASS",
+      "accepted": true,
+      "scope": [
+        "TC-158",
+        "TC-187",
+        "TC-192",
+        "TC-201",
+        "TC-202",
+        "TC-203",
+        "TC-211",
+        "TC-268",
+        "TC-274",
+        "TC-280",
+        "TC-281"
+      ],
+      "candidateSHA256": "61b9c455d5071b488d7a50b2e26352d6dd052b3e2e7a5277fb3625e166f68941",
+      "baseSHA256": "02b5773eb8a7ea85953f6992b4fc032571d6f66bfbb79e2e0f2c9935dee6e380",
+      "sourceGroundingPass": 11,
+      "levelRealizationPass": 11,
+      "runtimeSemanticsPass": 11,
+      "semanticUniqueness": {
+        "NO CLOSE ANALOG": 0,
+        "ALLOWED REINFORCEMENT": 11,
+        "NEAR DUPLICATE": 0,
+        "DUPLICATE": 0
+      },
+      "familiesPass": 2,
+      "familiesTotal": 2,
+      "severityCounts": {
+        "Blocker": 0,
+        "Major": 0,
+        "Minor": 0
+      }
+    },
+    "5": {
+      "status": "PASS",
+      "accepted": true,
+      "scope": [
+        "TC-131",
+        "TC-132",
+        "TC-174",
+        "TC-213",
+        "TC-222",
+        "TC-236",
+        "TC-264",
+        "TC-276",
+        "TC-277",
+        "TC-287"
+      ],
+      "candidateSHA256": "c9e683cefd201e8580b96d97eaddf31687d4d033e6a1008fa1cb4db63cba0502",
+      "baseSHA256": "61b9c455d5071b488d7a50b2e26352d6dd052b3e2e7a5277fb3625e166f68941",
+      "sourceGroundingPass": 10,
+      "levelRealizationPass": 10,
+      "runtimeSemanticsPass": 10,
+      "semanticUniqueness": {
+        "NO CLOSE ANALOG": 0,
+        "ALLOWED REINFORCEMENT": 10,
+        "NEAR DUPLICATE": 0,
+        "DUPLICATE": 0
+      },
+      "familiesPass": 2,
+      "familiesTotal": 2,
+      "severityCounts": {
+        "Blocker": 0,
+        "Major": 0,
+        "Minor": 0
+      }
+    }
+  },
+  "unexpectedChanges": 0,
+  "combinedUniqueChanged": 21,
+  "previouslyAccepted33Unchanged": true,
+  "intentionalUnresolved": [
+    "TC-232",
+    "TC-233",
+    "TC-278",
+    "TC-279",
+    "TC-298"
+  ],
+  "unresolvedUnchanged": true,
+  "productionUnchanged": true,
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "systemicMethodIssue": false,
+  "safeToContinueNextRedesignWaves": true,
+  "importEligible": false,
+  "readyToFreeze": false,
+  "wave6Started": false,
+  "notApplicable": [
+    "full-case blind options",
+    "decisionQuality",
+    "option leakage"
+  ],
+  "inheritance": "Outside21 keep previous statuses; comparator inspection does not approve unresolved rows."
+}

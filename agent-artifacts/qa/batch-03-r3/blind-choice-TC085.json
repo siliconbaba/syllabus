@@ -1,0 +1,5 @@
+{
+  "choice": "C",
+  "recordedBeforeMetadata": true,
+  "reason": "C: 12+6*(0.5+2)=27<=30; A43, B40, D36>30; C first readiness12.5<=16."
+}

@@ -1,0 +1,53 @@
+{
+  "status": "FIX REQUIRED — semantic pattern alignment",
+  "scope": "Independent review of two candidate blueprints only",
+  "candidatePath": "agent-artifacts/test-bank/reconstruction/junior-135-145-c05/proposed-projection.json",
+  "candidateSHA256": "00dd230820e7d0b0981ddf7c11279c68b34581e99fe29215e259cf2cfc9c3040",
+  "inputs": {
+    "agent-artifacts/manifests/v2.3-completion-04-candidate/production_manifest_masterplan_v2_3_completion_04_candidate.json": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-4-2.md": "2f4583ec74a19088bc42b80005df2ef4e4cfe2771dc5f779f0aea5945b2d746c",
+    "agent-artifacts/test-bank/unified-reconstruction-plan/unresolved-72-inventory.csv": "25a5b6c2a9843a2ad737739efe0ee35bf552ddc4cfc62dacefb80b74f704d213",
+    "InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad"
+  },
+  "acceptedBlueprintIDs": [],
+  "remainingCaseIDs": [
+    "TC-135",
+    "TC-145"
+  ],
+  "remainingIssueIDs": [
+    "JF-01",
+    "JF-02"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "gates": {
+    "C04": "Exactly five fields per row changed: scenario, facts, boundary, level explanation and topic explanation. Tags, eligibility, runtime mappings, scope and structure match C04. No family proposed.",
+    "topic": "§4.2 supports reading the board, making movement policies explicit, and using service classes. The closed-record gate and safe hand-off are local facts. Explicit expedite priority can coexist with a physically non-preemptible action. The source defines lead time from request to delivery, including backlog.",
+    "TC-135 decision": "Closed record → ID → attachment → public opening. Doing B first lacks required ID. Opening first breaches the gate. A temporary override or equivalent representation of the same ordering is the same decision. Free staff and an empty queue disqualify a capacity intervention. Junior.",
+    "TC-145 decision": "Checkpoint at 4, finish at 9 ≤ 10. Interrupt now, finish at 17 > 10. Interrupting between now and the checkpoint also incurs 12 minutes before the five-minute return. Another worker is explicitly unavailable. Only the checkpoint strategy both respects expedited priority at first feasible handoff and meets the deadline. Junior.",
+    "duplication": "Reviewed historical nearest set and fresh production/planned retrieval for both IDs. TC-086/095/106/107 concern constrained review, blocked WIP and capacity, TC-013/091/234/298 concern distribution of demand or skills, TC-063 concerns admission to expedite. TC-222/287 choose extra work or a subset of the queue. Neither new decision repeats them. TC-039/110/150/158/199 change a structural dependency at another scale without a spurious reciprocal prerequisite. TC-093/213/214/240 vary risk and mitigation across exposures. TC-009/070/165 do not decide when to interrupt. Two proposed winners are also distinct.",
+    "mapping": "Swift mechanical derivation is correct for both input tag sets. Semantic scoring evidence still incomplete."
+  },
+  "issues": [
+    {
+      "id": "JF-01",
+      "severity": "major",
+      "caseID": "TC-135",
+      "finding": "Primary structural-dependency-reduction is directly tested. bottleneck is a plausible negative diagnosis, but lead-time is neither observed nor used to choose. Generic benefit of removing waiting cannot support scoring prioritization.",
+      "fix": "Remove unsupported secondary tags and regenerate derived fields if governance allows. If tags are fixed, introduce an observed delivery-time decomposition and competing capacity diagnosis whose distinction materially determines the decision. Retest after removing those facts to see whether the decision changes."
+    },
+    {
+      "id": "JF-02",
+      "severity": "major",
+      "caseID": "TC-145",
+      "finding": "With priority verified and recovery always mandatory, the earlier schedule dominates deterministically. The learner need only add durations. No independent risk distinction drives the selection, although runtime would score risk.",
+      "fix": "Either change classification under manifest governance or preserve risk-differentiation by making the known consequence of one interruption materially different by work state, with a credible trade-off and an explicit acceptance threshold. Test a counterfactual with unchanged effort, deadline and service class but changed exposure that flips the winner. Avoid reintroducing the TC-063 admission question."
+    }
+  ],
+  "importEligible": false,
+  "readyToFreeze": false
+}

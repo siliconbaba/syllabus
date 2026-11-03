@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "semanticStatus": "PASS",
+  "compiledCurrentAuthoritativeSwift": true,
+  "derivedAndCoverageErrors": [],
+  "coveragePoolsRecomputed": [
+    "gold",
+    "new",
+    "all300",
+    "newAssessment",
+    "assessment200",
+    "currentProduction100",
+    "auditedRemaining200",
+    "wave1Redesigned",
+    "wave1R2Redesigned"
+  ],
+  "coverageFileMatchesMaster": true,
+  "unknownScopedCodes": [],
+  "TC291reversibleInvestmentPresent": false,
+  "contextScoredEvidence": 0,
+  "normalizedScopedWeights": {
+    "TC-184": {
+      "proportionality": 0.5,
+      "uncertainty": 0.25,
+      "evidence": 0.25
+    },
+    "TC-291": {
+      "uncertainty": 0.5,
+      "proportionality": 0.25,
+      "evidence": 0.25
+    }
+  },
+  "engineRule": "primary1 / secondary0.5 / max category dedup / total <=1 / distinct case evidence"
+}

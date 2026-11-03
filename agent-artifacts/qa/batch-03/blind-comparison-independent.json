@@ -1,0 +1,206 @@
+{
+  "blindSelectionAgreement": 25,
+  "method": "Context, question and option.text read before candidate keys/explanations in this QA; prior manifest knowledge exists and is not concealed.",
+  "choices": [
+    {
+      "caseId": "TC-076",
+      "independentStrongest": "C",
+      "candidateStrongest": "C",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-077",
+      "independentStrongest": "A",
+      "candidateStrongest": "A",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-078",
+      "independentStrongest": "D",
+      "candidateStrongest": "D",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-079",
+      "independentStrongest": "B",
+      "candidateStrongest": "B",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-080",
+      "independentStrongest": "C",
+      "candidateStrongest": "C",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-081",
+      "independentStrongest": "D",
+      "candidateStrongest": "D",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-082",
+      "independentStrongest": "A",
+      "candidateStrongest": "A",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-083",
+      "independentStrongest": "B",
+      "candidateStrongest": "B",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-084",
+      "independentStrongest": "D",
+      "candidateStrongest": "D",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-085",
+      "independentStrongest": "C",
+      "candidateStrongest": "C",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-086",
+      "independentStrongest": "A",
+      "candidateStrongest": "A",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-087",
+      "independentStrongest": "B",
+      "candidateStrongest": "B",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-088",
+      "independentStrongest": "D",
+      "candidateStrongest": "D",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-089",
+      "independentStrongest": "C",
+      "candidateStrongest": "C",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-090",
+      "independentStrongest": "A",
+      "candidateStrongest": "A",
+      "agreement": "YES",
+      "finalUniqueness": "FAIL",
+      "note": "Initial preference A; adversarial A-vs-D comparison did not establish uniqueness."
+    },
+    {
+      "caseId": "TC-091",
+      "independentStrongest": "B",
+      "candidateStrongest": "B",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-092",
+      "independentStrongest": "C",
+      "candidateStrongest": "C",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-093",
+      "independentStrongest": "D",
+      "candidateStrongest": "D",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-094",
+      "independentStrongest": "A",
+      "candidateStrongest": "A",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-095",
+      "independentStrongest": "B",
+      "candidateStrongest": "B",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-096",
+      "independentStrongest": "D",
+      "candidateStrongest": "D",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-097",
+      "independentStrongest": "A",
+      "candidateStrongest": "A",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-098",
+      "independentStrongest": "C",
+      "candidateStrongest": "C",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-099",
+      "independentStrongest": "B",
+      "candidateStrongest": "B",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    },
+    {
+      "caseId": "TC-100",
+      "independentStrongest": "D",
+      "candidateStrongest": "D",
+      "agreement": "YES",
+      "finalUniqueness": "PASS",
+      "note": ""
+    }
+  ]
+}

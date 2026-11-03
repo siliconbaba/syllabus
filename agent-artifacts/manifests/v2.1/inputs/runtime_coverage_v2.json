@@ -1,0 +1,103 @@
+{
+  "authoritative": false,
+  "reason": "TrainerScoringMapping.swift and TrainerScoringEngine.swift unavailable in mounted Project/Library files; values below are provisional reconstruction and must be rederived before approval.",
+  "runtimeUiDomainsNew_provisional": {
+    "Управление проектами": 24,
+    "Финансы и подрядчики": 24,
+    "Аналитика": 15,
+    "Продукт": 14,
+    "Delivery и релизы": 23,
+    "Технический TPM": 46,
+    "Процессы": 41,
+    "Стейкхолдеры": 27,
+    "Люди": 33,
+    "Портфель и стратегия": 28
+  },
+  "thinkingNew_provisional": {
+    "Context sensitivity": {
+      "uniquePrimaryCaseIds": 0,
+      "uniqueSecondaryCaseIds": 0,
+      "uniqueUnionCaseIds": 0,
+      "normalizedEvidenceWeightSum": 0.0,
+      "note": "Current runtime has no scored context-sensitivity evidence; linked families are only future candidates."
+    },
+    "Risk": {
+      "uniquePrimaryCaseIds": 26,
+      "uniqueSecondaryCaseIds": 55,
+      "uniqueUnionCaseIds": 64,
+      "normalizedEvidenceWeightSum": 29.833
+    },
+    "Uncertainty reduction": {
+      "uniquePrimaryCaseIds": 26,
+      "uniqueSecondaryCaseIds": 45,
+      "uniqueUnionCaseIds": 48,
+      "normalizedEvidenceWeightSum": 28.667
+    },
+    "Dependencies": {
+      "uniquePrimaryCaseIds": 20,
+      "uniqueSecondaryCaseIds": 35,
+      "uniqueUnionCaseIds": 36,
+      "normalizedEvidenceWeightSum": 21.0
+    },
+    "Prioritization": {
+      "uniquePrimaryCaseIds": 33,
+      "uniqueSecondaryCaseIds": 53,
+      "uniqueUnionCaseIds": 56,
+      "normalizedEvidenceWeightSum": 34.667
+    },
+    "Evidence": {
+      "uniquePrimaryCaseIds": 58,
+      "uniqueSecondaryCaseIds": 64,
+      "uniqueUnionCaseIds": 70,
+      "normalizedEvidenceWeightSum": 44.917
+    },
+    "Proportionality": {
+      "uniquePrimaryCaseIds": 21,
+      "uniqueSecondaryCaseIds": 38,
+      "uniqueUnionCaseIds": 47,
+      "normalizedEvidenceWeightSum": 22.583
+    },
+    "Systems thinking": {
+      "uniquePrimaryCaseIds": 37,
+      "uniqueSecondaryCaseIds": 66,
+      "uniqueUnionCaseIds": 76,
+      "normalizedEvidenceWeightSum": 37.083
+    },
+    "Stakeholder maturity": {
+      "uniquePrimaryCaseIds": 18,
+      "uniqueSecondaryCaseIds": 54,
+      "uniqueUnionCaseIds": 56,
+      "normalizedEvidenceWeightSum": 25.833
+    },
+    "Organizational thinking": {
+      "uniquePrimaryCaseIds": 30,
+      "uniqueSecondaryCaseIds": 30,
+      "uniqueUnionCaseIds": 53,
+      "normalizedEvidenceWeightSum": 24.417
+    }
+  },
+  "assessmentPool": {
+    "newTrainingEligible": 275,
+    "newAssessmentEligibleStandalone": 181,
+    "newLinkedTrainingOnly": 94,
+    "existingGoldLinkedPolicyTask": [
+      "TC-001",
+      "TC-002",
+      "TC-003",
+      "TC-004",
+      "TC-017",
+      "TC-018"
+    ],
+    "ordinaryAssessmentPoolAfterGoldPolicyTask": 200
+  },
+  "independentUnits": {
+    "rawCaseCountFinal": 300,
+    "newStandaloneUnits": 181,
+    "newFamilyUnits": 43,
+    "newMaximumIndependentUnits": 224,
+    "existingStandaloneUnits": 19,
+    "existingFamilyUnits": 3,
+    "existingMaximumIndependentUnits": 22,
+    "finalMaximumIndependentUnits": 246
+  }
+}

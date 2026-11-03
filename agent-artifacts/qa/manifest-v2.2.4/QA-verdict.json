@@ -1,0 +1,56 @@
+{
+  "verdict": "NOT READY",
+  "readyToFreeze": false,
+  "importEligible": false,
+  "candidateSha256": "ffb6486e5f6c34b2cf291b02f98d9ae703d35639f287d2df45a7eebd48176eec",
+  "baselineSha256": "a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1",
+  "sourceSha256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "scope": {
+    "changedRows": 15,
+    "unchangedInheritedRows": 260,
+    "changedFamilies": 3,
+    "unchangedInheritedFamilies": 40,
+    "fullManifestContentQA": false
+  },
+  "gates": {
+    "scope": "PASS",
+    "structure": "PASS",
+    "originalCollisionsFixed": 11,
+    "originalCollisionsRemaining": 0,
+    "sourceSupported": 15,
+    "sourceFailedIds": [],
+    "levelPass": 13,
+    "levelFailIds": [
+      "TC-115",
+      "TC-122"
+    ],
+    "crossBankRedesignedRows": {
+      "ALLOWED REINFORCEMENT": 13,
+      "NO CLOSE ANALOG": 2
+    },
+    "internalNearDuplicates": 0,
+    "internalDuplicates": 0,
+    "familyPass": 3,
+    "familyFailIds": [],
+    "futureObviousCollisions": 0,
+    "runtime": "PASS",
+    "unknownCodes": 0,
+    "productionUnchanged": "PASS"
+  },
+  "severity": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "remainingIds": [
+    "TC-115",
+    "TC-122"
+  ],
+  "remainingIssueIds": [
+    "L-115",
+    "L-122"
+  ],
+  "inheritanceBasis": "260 semantic-identical baseline rows retain prior authoritative approval under explicit user instruction.",
+  "retest": "Focused only on corrected levels/boundaries, new duplication neighbours, metadata/coverage and scoped diff; no repeat full275-row QA.",
+  "prohibitedActionsPerformed": []
+}

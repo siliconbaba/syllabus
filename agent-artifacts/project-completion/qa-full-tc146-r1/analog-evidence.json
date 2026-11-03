@@ -1,0 +1,129 @@
+{
+  "universe": "100 production + 275 completion01 planned rows; production overrides matching plans; 300 unique IDs. Accepted reconstructed TC146 and full TC193-r2/200-r2/272-r1 additionally compared.",
+  "retrieval": "Deterministic current full-context retrieval, top10 + mandatory same-topic/primary. weakRetrieval false.",
+  "mandatoryProduction": [
+    "TC-016",
+    "TC-088"
+  ],
+  "mandatoryPlanned": [
+    "TC-088",
+    "TC-146",
+    "TC-151",
+    "TC-152",
+    "TC-153",
+    "TC-200",
+    "TC-216",
+    "TC-224",
+    "TC-289"
+  ],
+  "selfComparison": "Old TC146 manifest row is superseded proposed identity, not another available assessment item.",
+  "dossiers": "mandatory-dossiers.json and screened-universe.json pin complete planned records and production contexts; retrieval.json pins selected production IDs.",
+  "comparisons": [
+    {
+      "id": "TC-015",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Forecast deterioration before a decision versus execution closure after decision."
+    },
+    {
+      "id": "TC-016",
+      "classification": "ALLOWED REINFORCEMENT",
+      "boundary": "Establish date/impact/float before escalation versus all escalation work completed."
+    },
+    {
+      "id": "TC-023",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Incident command amid conflicting changes versus settled priority and available peer."
+    },
+    {
+      "id": "TC-040",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Permanent governance design for repeating conflicts versus single execution conversation."
+    },
+    {
+      "id": "TC-056",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Uncertain forecast communication before commitment versus no uncertainty in chosen decision."
+    },
+    {
+      "id": "TC-057",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Confirmed forecast and sponsor decision request versus follow-up with affected lead after authority decision."
+    },
+    {
+      "id": "TC-064",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "BATNA economic concession ceiling versus no bargaining needed."
+    },
+    {
+      "id": "TC-071",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "KPI/incentive redesign across departments versus no mandate redesign."
+    },
+    {
+      "id": "TC-088",
+      "classification": "ALLOWED REINFORCEMENT",
+      "boundary": "Two-day escalation window versus return after completed escalation."
+    },
+    {
+      "id": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Capacity package negotiation before decision versus agreed variant implementation."
+    },
+    {
+      "id": "TC-151",
+      "classification": "ALLOWED REINFORCEMENT",
+      "boundary": "Sufficient float: keep at working level before escalation."
+    },
+    {
+      "id": "TC-152",
+      "classification": "ALLOWED REINFORCEMENT",
+      "boundary": "Shrinking float: set last local deadline and escalation trigger before decision."
+    },
+    {
+      "id": "TC-153",
+      "classification": "ALLOWED REINFORCEMENT",
+      "boundary": "Exhausted float: escalate now, not after-decision joint execution."
+    },
+    {
+      "id": "TC-200",
+      "classification": "ALLOWED REINFORCEMENT",
+      "boundary": "First notification to uninformed sponsor before wider written communication; TC146 lead already informed, execution roles unresolved after escalation."
+    },
+    {
+      "id": "TC-216",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Stakeholder map contact frequency based on power/interest, no post-escalation closure."
+    },
+    {
+      "id": "TC-224",
+      "classification": "ALLOWED REINFORCEMENT",
+      "boundary": "Distributed participants lack written record; TC146 record exists and is read, but execution agreement is missing."
+    },
+    {
+      "id": "TC-289",
+      "classification": "ALLOWED REINFORCEMENT",
+      "boundary": "Compose variants/cost/decision ask before unresolved conflict is escalated."
+    },
+    {
+      "id": "TC-193",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Bounded initiative during onboarding and unavailable manager, not peer contact after escalation."
+    },
+    {
+      "id": "TC-272",
+      "classification": "ALLOWED REINFORCEMENT",
+      "boundary": "Explain declined request with review date and no unsupported delivery promise; TC146 concerns co-execution of accepted variant with lead who knows decision."
+    },
+    {
+      "id": "TC-267",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Bad news plus negotiable scope/time options, not reopening already settled decision."
+    },
+    {
+      "id": "TC-299",
+      "classification": "NO CLOSE ANALOG",
+      "boundary": "Prepare decision frame before senior escalation; TC146 frame, authority and decision already settled."
+    }
+  ],
+  "result": "PASS; no near duplicate or duplicate boundary found. No approval of future full option texts in planned-only rows."
+}

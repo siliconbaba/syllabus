@@ -1,0 +1,130 @@
+{
+  "status": "NEEDS ADJUSTMENT",
+  "date": "2026-10-15",
+  "scope": [
+    "TC-148",
+    "TC-183",
+    "TC-199",
+    "TC-208",
+    "TC-218",
+    "TC-257",
+    "TC-258",
+    "TC-288",
+    "TC-290",
+    "TC-248"
+  ],
+  "checkedCount": 10,
+  "waves": {
+    "6": {
+      "status": "NEEDS ADJUSTMENT",
+      "accepted": false,
+      "scope": [
+        "TC-148",
+        "TC-183",
+        "TC-199",
+        "TC-208",
+        "TC-218",
+        "TC-257",
+        "TC-258",
+        "TC-288",
+        "TC-290"
+      ],
+      "sourcePass": 9,
+      "levelPass": 8,
+      "levelFail": [
+        "TC-183"
+      ],
+      "runtimePass": 9,
+      "uniqueness": {
+        "NO CLOSE ANALOG": 0,
+        "ALLOWED REINFORCEMENT": 9,
+        "NEAR DUPLICATE": 0,
+        "DUPLICATE": 0
+      },
+      "familiesPass": 1,
+      "familiesTotal": 1,
+      "severityCounts": {
+        "Blocker": 0,
+        "Major": 1,
+        "Minor": 0
+      },
+      "candidateSHA256": "538a06b8daaeea8c17a1de2573269c170a9dee185de61a41d14df4bb163321bd",
+      "baseSHA256": "c9e683cefd201e8580b96d97eaddf31687d4d033e6a1008fa1cb4db63cba0502"
+    },
+    "7": {
+      "status": "PASS",
+      "accepted": true,
+      "scope": [
+        "TC-248"
+      ],
+      "sourcePass": 1,
+      "levelPass": 1,
+      "runtimePass": 1,
+      "uniqueness": {
+        "NO CLOSE ANALOG": 0,
+        "ALLOWED REINFORCEMENT": 1,
+        "NEAR DUPLICATE": 0,
+        "DUPLICATE": 0
+      },
+      "familiesPass": 0,
+      "familiesTotal": 0,
+      "severityCounts": {
+        "Blocker": 0,
+        "Major": 0,
+        "Minor": 0
+      },
+      "candidateSHA256": "83993502acdc88b640f4a21524a7cd85e655e2102e20e4e706b206bd1046e8e7",
+      "baseSHA256": "538a06b8daaeea8c17a1de2573269c170a9dee185de61a41d14df4bb163321bd"
+    }
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 1,
+    "Minor": 0
+  },
+  "remainingIDs": [
+    "TC-183"
+  ],
+  "remainingIssueIDs": [
+    "W6-183-L01"
+  ],
+  "unexpectedChangedRows": 0,
+  "previousAccepted54Unchanged": true,
+  "intentionalUnresolved": [
+    "TC-159",
+    "TC-230",
+    "TC-231",
+    "TC-296",
+    "TC-151",
+    "TC-152",
+    "TC-153",
+    "TC-206",
+    "TC-207",
+    "TC-212",
+    "TC-221",
+    "TC-239",
+    "TC-259",
+    "TC-260",
+    "TC-263",
+    "TC-275"
+  ],
+  "intentionalUnresolvedUnchanged": true,
+  "productionUnchanged": true,
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "systemicMethodIssue": false,
+  "methodDegradation": "One local Middle realization defect, no repeated mechanism established in reviewed ten. Low yield itself is not a quality defect.",
+  "acceptedCumulativeBaseReady": false,
+  "recommendHardTailTriageBeforeNextRedesignWave": true,
+  "triageReason": "1/13 yield warrants separate planning/feasibility triage, not automatic rejection or diagnosis of78 unresolved. No triage performed here.",
+  "wave7AcceptanceIndependentOfWave6": true,
+  "importEligible": false,
+  "readyToFreeze": false,
+  "wave8Started": false,
+  "notApplicable": [
+    "full-case blind option choice",
+    "decisionQuality",
+    "option leakage"
+  ],
+  "inheritance": "Outside10 retain previous statuses. Wave7 acceptance applies to TC248 only, not approval of unresolved TC183 in cumulative candidate."
+}

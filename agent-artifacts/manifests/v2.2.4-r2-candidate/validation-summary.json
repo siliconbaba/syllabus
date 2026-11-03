@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scope": "2-row manifest revision; semantic author self-review and mechanical regression",
+  "independentQA": "REQUIRES_INDEPENDENT_QA",
+  "readyForFocusedQA": true,
+  "fullCaseSchema": "NOT_APPLICABLE"
+}

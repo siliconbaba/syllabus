@@ -1,0 +1,39 @@
+plannedId,wave,role,pattern,runtimeCategory,concreteDecisionEvidence,semanticVerdict,derivedMappingVerdict
+TC-158,4,primary,structural-dependency-reduction,organization,Общая инвестиция устраняет коррелированную зависимость от одного проверяющего.,PASS,PASS
+TC-158,4,secondary,roles,organization,Назначить владельца capacity и локальную ответственность за самостоятельное исполнение.,PASS,PASS
+TC-187,4,primary,critical-path,dependencies,Пересчитать max длительностей после каждой комбинации.,PASS,PASS
+TC-187,4,secondary,process-economics,proportionality,Купить две меры по net30 против отрицательного эффекта одиночных.,PASS,PASS
+TC-192,4,primary,interest-based-negotiation,stakeholders,"Обменять предсказуемость загрузки на независимо принятый результат, а не торговать объёмом.",PASS,PASS
+TC-192,4,secondary,uncertainty-impact-plan-b,uncertainty,Ограничить первый этап и условить следующее обязательство проверкой неизвестного состава исключений.,PASS,PASS
+TC-201,4,primary,error-budget-governance,risk,Соблюсти резерв2 после полного прогноза.,PASS,PASS
+TC-201,4,secondary,process-economics,proportionality,Сравнить100/70/50/40 среди допустимых планов.,PASS,PASS
+TC-202,4,primary,error-budget-governance,risk,Исключить полный расход10 при остатке8.,PASS,PASS
+TC-202,4,secondary,process-economics,proportionality,Выбрать70 против50/40 в допустимом наборе.,PASS,PASS
+TC-203,4,primary,error-budget-governance,risk,Оставить минимум2 при расходе1.,PASS,PASS
+TC-203,4,secondary,process-economics,proportionality,"Стабилизация50 лучше внешней защиты40, хотя обе допустимы.",PASS,PASS
+TC-211,4,primary,early-warning-response,risk,Купить возможность действия до закрытия окна и включать по раннему сигналу.,PASS,PASS
+TC-211,4,secondary,process-economics,proportionality,Сравнить ожидаемые20/30/40 с остаточным риском.,PASS,PASS
+TC-268,4,primary,roles,organization,Ограничить пробный мандат и сохранить ответственность текущего лида.,PASS,PASS
+TC-268,4,secondary,resource-conflict,prioritization,Согласовать6+4 дней и два часа поддержки вместо перегрузки8+4.,PASS,PASS
+TC-274,4,primary,formal-performance-management,organization,"С HR ограничить продление прежних наблюдаемых критериев, не засчитывая подсказку или отсутствие событий.",PASS,PASS
+TC-280,4,primary,change-management,organization,"Закрепить изменение постоянной поддержкой, волнами и исключениями.",PASS,PASS
+TC-280,4,secondary,roles,organization,Назначить постоянного владельца сервиса процесса.,PASS,PASS
+TC-281,4,primary,change-management,organization,"Прекратить тиражирование вредного слоя, сохранив полезный обязательный.",PASS,PASS
+TC-281,4,secondary,roles,organization,Разделить владельцев общего контроля и локальных улучшений.,PASS,PASS
+TC-131,5,primary,process-economics,proportionality,Сравнить полные цены достаточного evidence27/32/47.,PASS,PASS
+TC-132,5,primary,process-economics,proportionality,Сравнить32 manual с107/117 создания automation.,PASS,PASS
+TC-174,5,primary,lead-time,prioritization,Снизить batch waiting2.5→1.25 при том же throughput.,PASS,PASS
+TC-174,5,secondary,process-economics,proportionality,Сравнить setup+waiting+дополнительное покрытие260/145/250.,PASS,PASS
+TC-213,5,primary,risk-differentiation,risk,Выбрать ограниченную экспозицию5% с подтверждённым ущербом в лимите.,PASS,PASS
+TC-213,5,secondary,process-economics,proportionality,Избежать доплаты60 за меньшую допустимую когорту при одинаковом evidence.,PASS,PASS
+TC-222,5,primary,resource-conflict,prioritization,"Защитить будущую работу A/B, выбрав2-дневный вход.",PASS,PASS
+TC-222,5,secondary,lead-time,prioritization,"Учесть время ожидания/завершения уже принятого WIP, не игнорируя blocked.",PASS,PASS
+TC-236,5,primary,cost-of-delay,prioritization,Сравнить календарные потери170/360 с одноразовым скачком.,PASS,PASS
+TC-264,5,primary,rollback-data-awareness,systems,Не принять HTTP rollback за восстановление корректного состояния выполняющихся операций.,PASS,PASS
+TC-264,5,secondary,versioning,systems,Сохранить версию-владельца работы при сосуществовании blue/green и управлять её завершением.,PASS,PASS
+TC-276,5,primary,portfolio-reprioritization,prioritization,Перераспределить неделимую capacity в пользу A после проверки B.,PASS,PASS
+TC-276,5,secondary,accountability,organization,"Спонсор отвечает за обещанную выгоду, отдельный владелец подтверждает mandatory.",PASS,PASS
+TC-277,5,primary,portfolio-reprioritization,prioritization,Защитить B и явно снять A при подтверждённом обязательстве.,PASS,PASS
+TC-277,5,secondary,accountability,organization,Развести подтверждение/исполнение обязательства и проверку дискреционной выгоды.,PASS,PASS
+TC-287,5,primary,lead-time,prioritization,Не судить поток по медиане только закрытых; выбрать достижимое завершение старого A.,PASS,PASS
+TC-287,5,secondary,cost-of-delay,prioritization,Защитить100 потерь A плюс10 коротких вместо40 throughput-оптимизации.,PASS,PASS

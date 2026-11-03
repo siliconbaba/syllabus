@@ -1,0 +1,818 @@
+{
+  "unresolvedCount": 9,
+  "familyCount": 4,
+  "families": [
+    {
+      "familyId": "F-PR-T01",
+      "type": "triplet",
+      "members": [
+        {
+          "id": "TC-126",
+          "status": "UNRESOLVED",
+          "row": {
+            "plannedId": "TC-126",
+            "batch": "Batch 05",
+            "block": "B05 — Processes",
+            "partId": "part-4",
+            "topicId": "t-4-5",
+            "oneSentenceScenarioConcept": "Руководитель процесса должен задать способ работы для нескольких команд с одной бизнес-целью и общей отчётностью. В этой версии решающий факт: Степень однородности типа работы и ограничений между командами: команды выполняют однотипный предсказуемый поток с одинаковыми внешними ограничениями. Под выбором — Использовать единый процесс и общий набор правил.",
+            "decisiveFactsConcept": [
+              "Степень однородности типа работы и ограничений между командами: команды выполняют однотипный предсказуемый поток с одинаковыми внешними ограничениями",
+              "Одинаковая бизнес-цель",
+              "Одинаковая потребность в общей видимости"
+            ],
+            "oneSentenceDecisionBoundary": "Использовать единый процесс и общий набор правил.",
+            "domain": "delivery_quality",
+            "requiredLevel": "middle",
+            "primaryPattern": "gate-effect-diagnosis",
+            "secondaryPatterns": [
+              "process-economics",
+              "quality-metrics"
+            ],
+            "structure": "triplet",
+            "scenarioFamilyId": "F-PR-T01",
+            "familyPosition": 1,
+            "decisiveMutationConcept": "Степень однородности типа работы и ограничений между командами: команды выполняют однотипный предсказуемый поток с одинаковыми внешними ограничениями",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Процессы",
+            "derivedRuntimePrimaryThinking": "evidence",
+            "derivedRuntimeSecondaryThinking": [
+              "proportionality",
+              "evidence"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": null,
+            "authorityScope": null,
+            "secondaryEffect": null,
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        },
+        {
+          "id": "TC-127",
+          "status": "UNRESOLVED",
+          "row": {
+            "plannedId": "TC-127",
+            "batch": "Batch 05",
+            "block": "B05 — Processes",
+            "partId": "part-4",
+            "topicId": "t-4-5",
+            "oneSentenceScenarioConcept": "Руководитель процесса должен задать способ работы для нескольких команд с одной бизнес-целью и общей отчётностью. В этой версии решающий факт: Степень однородности типа работы и ограничений между командами: есть общий основной поток, но часть команд получает значимый незапланированный demand и имеет разные cadence. Под выбором — Задать общий каркас и метрики, разрешив локальные вариации процесса.",
+            "decisiveFactsConcept": [
+              "Степень однородности типа работы и ограничений между командами: есть общий основной поток, но часть команд получает значимый незапланированный demand и имеет разные cadence",
+              "Одинаковая бизнес-цель",
+              "Одинаковая потребность в общей видимости"
+            ],
+            "oneSentenceDecisionBoundary": "Задать общий каркас и метрики, разрешив локальные вариации процесса.",
+            "domain": "delivery_quality",
+            "requiredLevel": "middle",
+            "primaryPattern": "gate-effect-diagnosis",
+            "secondaryPatterns": [
+              "process-economics",
+              "quality-metrics"
+            ],
+            "structure": "triplet",
+            "scenarioFamilyId": "F-PR-T01",
+            "familyPosition": 2,
+            "decisiveMutationConcept": "Степень однородности типа работы и ограничений между командами: есть общий основной поток, но часть команд получает значимый незапланированный demand и имеет разные cadence",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Процессы",
+            "derivedRuntimePrimaryThinking": "evidence",
+            "derivedRuntimeSecondaryThinking": [
+              "proportionality",
+              "evidence"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": null,
+            "authorityScope": null,
+            "secondaryEffect": null,
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        },
+        {
+          "id": "TC-128",
+          "status": "UNRESOLVED",
+          "row": {
+            "plannedId": "TC-128",
+            "batch": "Batch 05",
+            "block": "B05 — Processes",
+            "partId": "part-4",
+            "topicId": "t-4-5",
+            "oneSentenceScenarioConcept": "Руководитель процесса должен задать способ работы для нескольких команд с одной бизнес-целью и общей отчётностью. В этой версии решающий факт: Степень однородности типа работы и ограничений между командами: команды обслуживают принципиально разные типы потока: продуктовый, платформенный и инцидентный. Под выбором — Оставить только минимальные организационные принципы/интерфейсы, а процессы проектировать отдельно.",
+            "decisiveFactsConcept": [
+              "Степень однородности типа работы и ограничений между командами: команды обслуживают принципиально разные типы потока: продуктовый, платформенный и инцидентный",
+              "Одинаковая бизнес-цель",
+              "Одинаковая потребность в общей видимости"
+            ],
+            "oneSentenceDecisionBoundary": "Оставить только минимальные организационные принципы/интерфейсы, а процессы проектировать отдельно.",
+            "domain": "delivery_quality",
+            "requiredLevel": "middle",
+            "primaryPattern": "gate-effect-diagnosis",
+            "secondaryPatterns": [
+              "process-economics",
+              "quality-metrics"
+            ],
+            "structure": "triplet",
+            "scenarioFamilyId": "F-PR-T01",
+            "familyPosition": 3,
+            "decisiveMutationConcept": "Степень однородности типа работы и ограничений между командами: команды обслуживают принципиально разные типы потока: продуктовый, платформенный и инцидентный",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Процессы",
+            "derivedRuntimePrimaryThinking": "evidence",
+            "derivedRuntimeSecondaryThinking": [
+              "proportionality",
+              "evidence"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": null,
+            "authorityScope": null,
+            "secondaryEffect": null,
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        }
+      ],
+      "contract": {
+        "scenarioFamilyId": "F-PR-T01",
+        "type": "triplet",
+        "memberIds": [
+          "TC-126",
+          "TC-127",
+          "TC-128"
+        ],
+        "topicId": "t-4-5",
+        "requiredLevel": "middle",
+        "baseSituation": "Руководитель процесса должен задать способ работы для нескольких команд с одной бизнес-целью и общей отчётностью.",
+        "singleLogicalVariable": "Степень однородности типа работы и ограничений между командами",
+        "stateByMember": {
+          "TC-126": "команды выполняют однотипный предсказуемый поток с одинаковыми внешними ограничениями",
+          "TC-127": "есть общий основной поток, но часть команд получает значимый незапланированный demand и имеет разные cadence",
+          "TC-128": "команды обслуживают принципиально разные типы потока: продуктовый, платформенный и инцидентный"
+        },
+        "decisionBoundaryByState": {
+          "TC-126": "Использовать единый процесс и общий набор правил.",
+          "TC-127": "Задать общий каркас и метрики, разрешив локальные вариации процесса.",
+          "TC-128": "Оставить только минимальные организационные принципы/интерфейсы, а процессы проектировать отдельно."
+        },
+        "expectedStrongestShiftConcept": "Единый процесс → общий каркас → только общие принципы.",
+        "factsThatMustRemainConstant": [
+          "Одинаковая бизнес-цель",
+          "Одинаковая потребность в общей видимости"
+        ],
+        "whyMutationIsControlled": "Меняется только однородность work context; две границы отделяют разумную стандартизацию от локальной адаптации и от заведомо разных operating models.",
+        "assessmentEligible": false,
+        "boundary1": "Различия становятся достаточно значимы, чтобы единая механика создавала системный ущерб.",
+        "boundary2": "Типы потока становятся принципиально разными, и даже общий процесс-каркас начинает навязывать неверные ограничения.",
+        "threeDistinctStrategies": [
+          "one-process",
+          "common-framework-local-variation",
+          "principles-only"
+        ]
+      },
+      "triage": [
+        {
+          "id": "TC-126",
+          "familyId": "F-PR-T01",
+          "topic": "t-4-5",
+          "requiredLevel": "middle",
+          "originalDefectType": "family",
+          "priorAttempts": "0 documented wave selections; no recorded Wave 1–7 selection",
+          "primaryCategory": "B — FAMILY-COUPLED",
+          "secondaryCause": "Второй режим «общий каркас + вариации» поглощает третий «самостоятельные процессы». Нет двух проверяемых границ между тремя стратегиями; row-level PASS старого аудита не снимает family blocker.",
+          "sourceSupport": "strong",
+          "levelFeasibility": "medium",
+          "semanticSpace": "constrained",
+          "familyCoupling": "strong",
+          "runtimeRisk": "high",
+          "retrySameMethod": "NO",
+          "recommendedTreatment": "Один whole-family pack F-PR-T01: пересмотреть различимость трёх режимов, доказать две границы при одной оси; сохранять3 ID/уровень/topic и не превращать в pair.",
+          "recommendedGroup": "B-process-triplet",
+          "confidence": "high",
+          "evidence": "triage-evidence.json#/rows/TC-126"
+        },
+        {
+          "id": "TC-127",
+          "familyId": "F-PR-T01",
+          "topic": "t-4-5",
+          "requiredLevel": "middle",
+          "originalDefectType": "family",
+          "priorAttempts": "0 documented wave selections; no recorded Wave 1–7 selection",
+          "primaryCategory": "B — FAMILY-COUPLED",
+          "secondaryCause": "Второй режим «общий каркас + вариации» поглощает третий «самостоятельные процессы». Нет двух проверяемых границ между тремя стратегиями; row-level PASS старого аудита не снимает family blocker.",
+          "sourceSupport": "strong",
+          "levelFeasibility": "medium",
+          "semanticSpace": "constrained",
+          "familyCoupling": "strong",
+          "runtimeRisk": "high",
+          "retrySameMethod": "NO",
+          "recommendedTreatment": "Один whole-family pack F-PR-T01: пересмотреть различимость трёх режимов, доказать две границы при одной оси; сохранять3 ID/уровень/topic и не превращать в pair.",
+          "recommendedGroup": "B-process-triplet",
+          "confidence": "high",
+          "evidence": "triage-evidence.json#/rows/TC-127"
+        },
+        {
+          "id": "TC-128",
+          "familyId": "F-PR-T01",
+          "topic": "t-4-5",
+          "requiredLevel": "middle",
+          "originalDefectType": "family",
+          "priorAttempts": "0 documented wave selections; no recorded Wave 1–7 selection",
+          "primaryCategory": "B — FAMILY-COUPLED",
+          "secondaryCause": "Второй режим «общий каркас + вариации» поглощает третий «самостоятельные процессы». Нет двух проверяемых границ между тремя стратегиями; row-level PASS старого аудита не снимает family blocker.",
+          "sourceSupport": "strong",
+          "levelFeasibility": "medium",
+          "semanticSpace": "constrained",
+          "familyCoupling": "strong",
+          "runtimeRisk": "high",
+          "retrySameMethod": "NO",
+          "recommendedTreatment": "Один whole-family pack F-PR-T01: пересмотреть различимость трёх режимов, доказать две границы при одной оси; сохранять3 ID/уровень/topic и не превращать в pair.",
+          "recommendedGroup": "B-process-triplet",
+          "confidence": "high",
+          "evidence": "triage-evidence.json#/rows/TC-128"
+        }
+      ]
+    },
+    {
+      "familyId": "F-PE-T01",
+      "type": "triplet",
+      "members": [
+        {
+          "id": "TC-176",
+          "status": "UNRESOLVED",
+          "row": {
+            "plannedId": "TC-176",
+            "batch": "Batch 07",
+            "block": "B07 — People",
+            "partId": "part-7",
+            "topicId": "t-7-9",
+            "oneSentenceScenarioConcept": "Менеджер измерил повторяющуюся нагрузку сотрудника и планирует одинаковый четырёхнедельный горизонт; роль, навыки и личные обстоятельства одинаковы. В этой версии: Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов: 42 часа (+5%).",
+            "decisiveFactsConcept": [
+              "Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов: 42 часа (+5%)",
+              "Горизонт 4 недели одинаков; самостоятельного окончания пика не ожидается ни в одном состоянии",
+              "Устойчивая capacity 40 часов в неделю уже включает восстановление; сверхурочные не являются доступным ресурсом",
+              "Во всех состояниях можно без последствий убрать ровно 2 часа необязательных встреч и отчётности в неделю",
+              "Ещё максимум 8 часов задач в неделю можно перенести в подтверждённое свободное окно без последующего переработочного долга; перенос требует согласования",
+              "За пределом 10 часов снижения нужен пересмотр обязательств или выделение ресурсов руководителем; такие действия имеют цену координации и не нужны, пока хватает локальных мер"
+            ],
+            "oneSentenceDecisionBoundary": "Убрать 2 часа необязательного шума, сохранить обязательства и контролировать восстановление в пределах 40 часов.",
+            "domain": "people_management",
+            "requiredLevel": "middle",
+            "primaryPattern": "diagnosis-before-intervention",
+            "secondaryPatterns": [
+              "performance",
+              "support"
+            ],
+            "structure": "triplet",
+            "scenarioFamilyId": "F-PE-T01",
+            "familyPosition": 1,
+            "decisiveMutationConcept": "Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов: 42 часа (+5%)",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Люди",
+            "derivedRuntimePrimaryThinking": "proportionality",
+            "derivedRuntimeSecondaryThinking": [
+              "organization",
+              "stakeholders"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": null,
+            "authorityScope": null,
+            "secondaryEffect": null,
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        },
+        {
+          "id": "TC-177",
+          "status": "UNRESOLVED",
+          "row": {
+            "plannedId": "TC-177",
+            "batch": "Batch 07",
+            "block": "B07 — People",
+            "partId": "part-7",
+            "topicId": "t-7-9",
+            "oneSentenceScenarioConcept": "Менеджер измерил повторяющуюся нагрузку сотрудника и планирует одинаковый четырёхнедельный горизонт; роль, навыки и личные обстоятельства одинаковы. В этой версии: Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов: 50 часов (+25%).",
+            "decisiveFactsConcept": [
+              "Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов: 50 часов (+25%)",
+              "Горизонт 4 недели одинаков; самостоятельного окончания пика не ожидается ни в одном состоянии",
+              "Устойчивая capacity 40 часов в неделю уже включает восстановление; сверхурочные не являются доступным ресурсом",
+              "Во всех состояниях можно без последствий убрать ровно 2 часа необязательных встреч и отчётности в неделю",
+              "Ещё максимум 8 часов задач в неделю можно перенести в подтверждённое свободное окно без последующего переработочного долга; перенос требует согласования",
+              "За пределом 10 часов снижения нужен пересмотр обязательств или выделение ресурсов руководителем; такие действия имеют цену координации и не нужны, пока хватает локальных мер"
+            ],
+            "oneSentenceDecisionBoundary": "Убрать шум и явно перенести 8 часов задач в согласованное свободное окно; сохранить 40-часовой предел и восстановление.",
+            "domain": "people_management",
+            "requiredLevel": "middle",
+            "primaryPattern": "diagnosis-before-intervention",
+            "secondaryPatterns": [
+              "performance",
+              "support"
+            ],
+            "structure": "triplet",
+            "scenarioFamilyId": "F-PE-T01",
+            "familyPosition": 2,
+            "decisiveMutationConcept": "Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов: 50 часов (+25%)",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Люди",
+            "derivedRuntimePrimaryThinking": "proportionality",
+            "derivedRuntimeSecondaryThinking": [
+              "organization",
+              "stakeholders"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": null,
+            "authorityScope": null,
+            "secondaryEffect": null,
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        },
+        {
+          "id": "TC-178",
+          "status": "UNRESOLVED",
+          "row": {
+            "plannedId": "TC-178",
+            "batch": "Batch 07",
+            "block": "B07 — People",
+            "partId": "part-7",
+            "topicId": "t-7-9",
+            "oneSentenceScenarioConcept": "Менеджер измерил повторяющуюся нагрузку сотрудника и планирует одинаковый четырёхнедельный горизонт; роль, навыки и личные обстоятельства одинаковы. В этой версии: Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов: 60 часов (+50%).",
+            "decisiveFactsConcept": [
+              "Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов: 60 часов (+50%)",
+              "Горизонт 4 недели одинаков; самостоятельного окончания пика не ожидается ни в одном состоянии",
+              "Устойчивая capacity 40 часов в неделю уже включает восстановление; сверхурочные не являются доступным ресурсом",
+              "Во всех состояниях можно без последствий убрать ровно 2 часа необязательных встреч и отчётности в неделю",
+              "Ещё максимум 8 часов задач в неделю можно перенести в подтверждённое свободное окно без последующего переработочного долга; перенос требует согласования",
+              "За пределом 10 часов снижения нужен пересмотр обязательств или выделение ресурсов руководителем; такие действия имеют цену координации и не нужны, пока хватает локальных мер"
+            ],
+            "oneSentenceDecisionBoundary": "Снять шум и доступные 8 часов, затем немедленно пересогласовать оставшиеся обязательства или привлечь выделенную capacity: локальные меры оставляют 50 часов.",
+            "domain": "people_management",
+            "requiredLevel": "middle",
+            "primaryPattern": "diagnosis-before-intervention",
+            "secondaryPatterns": [
+              "performance",
+              "support"
+            ],
+            "structure": "triplet",
+            "scenarioFamilyId": "F-PE-T01",
+            "familyPosition": 3,
+            "decisiveMutationConcept": "Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов: 60 часов (+50%)",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Люди",
+            "derivedRuntimePrimaryThinking": "proportionality",
+            "derivedRuntimeSecondaryThinking": [
+              "organization",
+              "stakeholders"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": null,
+            "authorityScope": null,
+            "secondaryEffect": null,
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        }
+      ],
+      "contract": {
+        "scenarioFamilyId": "F-PE-T01",
+        "type": "triplet",
+        "memberIds": [
+          "TC-176",
+          "TC-177",
+          "TC-178"
+        ],
+        "topicId": "t-7-9",
+        "requiredLevel": "middle",
+        "baseSituation": "Менеджер измерил повторяющуюся нагрузку сотрудника и планирует одинаковый четырёхнедельный горизонт; роль, навыки и личные обстоятельства одинаковы.",
+        "singleLogicalVariable": "Недельный demand до снятия необязательной работы при устойчивой capacity 40 часов",
+        "stateByMember": {
+          "TC-176": "42 часа (+5%)",
+          "TC-177": "50 часов (+25%)",
+          "TC-178": "60 часов (+50%)"
+        },
+        "decisionBoundaryByState": {
+          "TC-176": "Убрать 2 часа необязательного шума, сохранить обязательства и контролировать восстановление в пределах 40 часов.",
+          "TC-177": "Убрать шум и явно перенести 8 часов задач в согласованное свободное окно; сохранить 40-часовой предел и восстановление.",
+          "TC-178": "Снять шум и доступные 8 часов, затем немедленно пересогласовать оставшиеся обязательства или привлечь выделенную capacity: локальные меры оставляют 50 часов."
+        },
+        "expectedStrongestShiftConcept": "Убрать 2 часа необязательного шума, сохранить обязательства и контролировать восстановление в пределах 40 часов. ↔ Убрать шум и явно перенести 8 часов задач в согласованное свободное окно; сохранить 40-часовой предел и восстановление. ↔ Снять шум и доступные 8 часов, затем немедленно пересогласовать оставшиеся обязательства или привлечь выделенную capacity: локальные меры оставляют 50 часов.",
+        "factsThatMustRemainConstant": [
+          "Горизонт 4 недели одинаков; самостоятельного окончания пика не ожидается ни в одном состоянии",
+          "Устойчивая capacity 40 часов в неделю уже включает восстановление; сверхурочные не являются доступным ресурсом",
+          "Во всех состояниях можно без последствий убрать ровно 2 часа необязательных встреч и отчётности в неделю",
+          "Ещё максимум 8 часов задач в неделю можно перенести в подтверждённое свободное окно без последующего переработочного долга; перенос требует согласования",
+          "За пределом 10 часов снижения нужен пересмотр обязательств или выделение ресурсов руководителем; такие действия имеют цену координации и не нужны, пока хватает локальных мер"
+        ],
+        "whyMutationIsControlled": "Меняется только demand 42/50/60; роль, горизонт и пределы снижения 2+8 одинаковы. Общие границы 42 и 50 часов выведены из capacity, а не из универсальных процентов выгорания.",
+        "assessmentEligible": false,
+        "boundary1": "Demand ≤42: достаточно убрать шум; >42: нужен перенос обязательных задач.",
+        "boundary2": "Demand >50: локального снятия 10 часов недостаточно; требуется пересогласование обязательств/capacity.",
+        "threeDistinctStrategies": [
+          "remove-noise-preserve-commitments",
+          "reschedule-with-recovery",
+          "renegotiate-load-capacity"
+        ]
+      },
+      "triage": [
+        {
+          "id": "TC-176",
+          "familyId": "F-PE-T01",
+          "topic": "t-7-9",
+          "requiredLevel": "middle",
+          "originalDefectType": "level+family",
+          "priorAttempts": "0 documented wave selections; no recorded Wave 1–7 selection",
+          "primaryCategory": "B — FAMILY-COUPLED",
+          "secondaryCause": "Готовые лимиты 42/50 часов вместе с бесплатным снятием2 и разрешённым переносом8 заранее выбирают стратегию. Нужен единый operational trade-off во всех состояниях, а не исправление только последнего.",
+          "sourceSupport": "strong",
+          "levelFeasibility": "medium",
+          "semanticSpace": "constrained",
+          "familyCoupling": "strong",
+          "runtimeRisk": "high",
+          "retrySameMethod": "NO",
+          "recommendedTreatment": "Атомарный pack F-PE-T01: подтвердить3 содержательно разные стратегии и2 границы, удержать восстановление/горизонт/constants; сравнить с TC-288.",
+          "recommendedGroup": "B-workload-triplet",
+          "confidence": "high",
+          "evidence": "triage-evidence.json#/rows/TC-176"
+        },
+        {
+          "id": "TC-177",
+          "familyId": "F-PE-T01",
+          "topic": "t-7-9",
+          "requiredLevel": "middle",
+          "originalDefectType": "level+family",
+          "priorAttempts": "0 documented wave selections; no recorded Wave 1–7 selection",
+          "primaryCategory": "B — FAMILY-COUPLED",
+          "secondaryCause": "Готовые лимиты 42/50 часов вместе с бесплатным снятием2 и разрешённым переносом8 заранее выбирают стратегию. Нужен единый operational trade-off во всех состояниях, а не исправление только последнего.",
+          "sourceSupport": "strong",
+          "levelFeasibility": "medium",
+          "semanticSpace": "constrained",
+          "familyCoupling": "strong",
+          "runtimeRisk": "high",
+          "retrySameMethod": "NO",
+          "recommendedTreatment": "Атомарный pack F-PE-T01: подтвердить3 содержательно разные стратегии и2 границы, удержать восстановление/горизонт/constants; сравнить с TC-288.",
+          "recommendedGroup": "B-workload-triplet",
+          "confidence": "high",
+          "evidence": "triage-evidence.json#/rows/TC-177"
+        },
+        {
+          "id": "TC-178",
+          "familyId": "F-PE-T01",
+          "topic": "t-7-9",
+          "requiredLevel": "middle",
+          "originalDefectType": "level+family",
+          "priorAttempts": "0 documented wave selections; no recorded Wave 1–7 selection",
+          "primaryCategory": "B — FAMILY-COUPLED",
+          "secondaryCause": "Готовые лимиты 42/50 часов вместе с бесплатным снятием2 и разрешённым переносом8 заранее выбирают стратегию. Нужен единый operational trade-off во всех состояниях, а не исправление только последнего.",
+          "sourceSupport": "strong",
+          "levelFeasibility": "medium",
+          "semanticSpace": "constrained",
+          "familyCoupling": "strong",
+          "runtimeRisk": "high",
+          "retrySameMethod": "NO",
+          "recommendedTreatment": "Атомарный pack F-PE-T01: подтвердить3 содержательно разные стратегии и2 границы, удержать восстановление/горизонт/constants; сравнить с TC-288.",
+          "recommendedGroup": "B-workload-triplet",
+          "confidence": "high",
+          "evidence": "triage-evidence.json#/rows/TC-178"
+        }
+      ]
+    },
+    {
+      "familyId": "F-PO-P03",
+      "type": "pair",
+      "members": [
+        {
+          "id": "TC-234",
+          "status": "UNRESOLVED",
+          "row": {
+            "plannedId": "TC-234",
+            "batch": "Batch 09",
+            "block": "B09 — Portfolio & Organization",
+            "partId": "part-9",
+            "topicId": "t-9-6",
+            "oneSentenceScenarioConcept": "Общая платформа обслуживает несколько продуктовых направлений; безопасность и стандарты одинаковы, руководство решает operating model взаимодействия с платформой. В этой версии решающий факт: Доля повторяемых типовых запросов, которые можно выразить правилами и автоматическими guardrails: большинство спроса типовое и повторяемое. Под выбором — Инвестировать в self-service для типового спроса, оставив экспертов на исключения.",
+            "decisiveFactsConcept": [
+              "Доля повторяемых типовых запросов, которые можно выразить правилами и автоматическими guardrails: большинство спроса типовое и повторяемое",
+              "Одинаковые команды",
+              "Одинаковые security constraints"
+            ],
+            "oneSentenceDecisionBoundary": "Инвестировать в self-service для типового спроса, оставив экспертов на исключения.",
+            "domain": "organizational_design",
+            "requiredLevel": "head",
+            "primaryPattern": "structural-dependency-reduction",
+            "secondaryPatterns": [
+              "platform-self-service",
+              "team-topologies"
+            ],
+            "structure": "pair",
+            "scenarioFamilyId": "F-PO-P03",
+            "familyPosition": 1,
+            "decisiveMutationConcept": "Доля повторяемых типовых запросов, которые можно выразить правилами и автоматическими guardrails: большинство спроса типовое и повторяемое",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Нужно принять решение об operating model, распределении полномочий/ёмкости или организационной конструкции с долгосрочными последствиями.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Процессы",
+            "derivedRuntimePrimaryThinking": "organization",
+            "derivedRuntimeSecondaryThinking": [
+              "organization",
+              "organization"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": "Это portfolio/org design decision с trade-off между несколькими системами/направлениями и долгосрочной структурой.",
+            "authorityScope": "Authority над портфельной capacity, границами команд/платформ или cross-program decision rights.",
+            "secondaryEffect": "Меняется opportunity cost всего портфеля, количество зависимостей и организационная адаптивность.",
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        },
+        {
+          "id": "TC-235",
+          "status": "NOT UNRESOLVED in accepted cumulative baseline; no new acceptance inferred",
+          "row": {
+            "plannedId": "TC-235",
+            "batch": "Batch 09",
+            "block": "B09 — Portfolio & Organization",
+            "partId": "part-9",
+            "topicId": "t-9-6",
+            "oneSentenceScenarioConcept": "Общая платформа обслуживает несколько продуктовых направлений; безопасность и стандарты одинаковы, руководство решает operating model взаимодействия с платформой. В этой версии решающий факт: Доля повторяемых типовых запросов, которые можно выразить правилами и автоматическими guardrails: большинство запросов уникальны, требуют совместного проектирования и меняют архитектурные границы. Под выбором — Сохранить тесную экспертную collaboration-модель и не маскировать проектную работу порталом заявок.",
+            "decisiveFactsConcept": [
+              "Доля повторяемых типовых запросов, которые можно выразить правилами и автоматическими guardrails: большинство запросов уникальны, требуют совместного проектирования и меняют архитектурные границы",
+              "Одинаковые команды",
+              "Одинаковые security constraints"
+            ],
+            "oneSentenceDecisionBoundary": "Сохранить тесную экспертную collaboration-модель и не маскировать проектную работу порталом заявок.",
+            "domain": "organizational_design",
+            "requiredLevel": "head",
+            "primaryPattern": "structural-dependency-reduction",
+            "secondaryPatterns": [
+              "platform-self-service",
+              "team-topologies"
+            ],
+            "structure": "pair",
+            "scenarioFamilyId": "F-PO-P03",
+            "familyPosition": 2,
+            "decisiveMutationConcept": "Доля повторяемых типовых запросов, которые можно выразить правилами и автоматическими guardrails: большинство запросов уникальны, требуют совместного проектирования и меняют архитектурные границы",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Нужно принять решение об operating model, распределении полномочий/ёмкости или организационной конструкции с долгосрочными последствиями.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Процессы",
+            "derivedRuntimePrimaryThinking": "organization",
+            "derivedRuntimeSecondaryThinking": [
+              "organization",
+              "organization"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": "Это portfolio/org design decision с trade-off между несколькими системами/направлениями и долгосрочной структурой.",
+            "authorityScope": "Authority над портфельной capacity, границами команд/платформ или cross-program decision rights.",
+            "secondaryEffect": "Меняется opportunity cost всего портфеля, количество зависимостей и организационная адаптивность.",
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        }
+      ],
+      "contract": {
+        "scenarioFamilyId": "F-PO-P03",
+        "type": "pair",
+        "memberIds": [
+          "TC-234",
+          "TC-235"
+        ],
+        "topicId": "t-9-6",
+        "requiredLevel": "head",
+        "baseSituation": "Общая платформа обслуживает несколько продуктовых направлений; безопасность и стандарты одинаковы, руководство решает operating model взаимодействия с платформой.",
+        "singleLogicalVariable": "Доля повторяемых типовых запросов, которые можно выразить правилами и автоматическими guardrails",
+        "stateByMember": {
+          "TC-234": "большинство спроса типовое и повторяемое",
+          "TC-235": "большинство запросов уникальны, требуют совместного проектирования и меняют архитектурные границы"
+        },
+        "decisionBoundaryByState": {
+          "TC-234": "Инвестировать в self-service для типового спроса, оставив экспертов на исключения.",
+          "TC-235": "Сохранить тесную экспертную collaboration-модель и не маскировать проектную работу порталом заявок."
+        },
+        "expectedStrongestShiftConcept": "Self-service platform ↔ collaboration platform.",
+        "factsThatMustRemainConstant": [
+          "Одинаковые команды",
+          "Одинаковые security constraints",
+          "Одинаковая ответственность платформы"
+        ],
+        "whyMutationIsControlled": "Меняется только стандартизируемость demand; она прямо определяет экономику self-service против экспертной collaboration.",
+        "assessmentEligible": false
+      },
+      "triage": [
+        {
+          "id": "TC-234",
+          "familyId": "F-PO-P03",
+          "topic": "t-9-6",
+          "requiredLevel": "head",
+          "originalDefectType": "semantic+family",
+          "priorAttempts": "0 documented wave selections; no recorded Wave 1–7 selection",
+          "primaryCategory": "B — FAMILY-COUPLED",
+          "secondaryCause": "Self-service по типовому спросу занят TC-013/298, но изменение только TC-234 меняет контраст с TC-235, который не unresolved. Нужен сначала совместный contract feasibility review.",
+          "sourceSupport": "strong",
+          "levelFeasibility": "medium",
+          "semanticSpace": "crowded",
+          "familyCoupling": "strong",
+          "runtimeRisk": "medium",
+          "retrySameMethod": "NO",
+          "recommendedTreatment": "Review всей F-PO-P03:234 — target,235 — read-only sibling. Изменять235 только после отдельного scope-решения; не считать его новым unresolved. Проверить настоящий Head operating-model контраст.",
+          "recommendedGroup": "B-platform-pair",
+          "confidence": "high",
+          "evidence": "triage-evidence.json#/rows/TC-234"
+        }
+      ]
+    },
+    {
+      "familyId": "F-TD-P03",
+      "type": "pair",
+      "members": [
+        {
+          "id": "TC-253",
+          "status": "UNRESOLVED",
+          "row": {
+            "plannedId": "TC-253",
+            "batch": "Batch 10",
+            "block": "B04 — Technical Delivery",
+            "partId": "part-3",
+            "topicId": "t-3-7",
+            "oneSentenceScenarioConcept": "На стадии ревью накопилась очередь: входящий поток устойчиво 12 задач в неделю при capacity 10; WIP-policy, тип задач и приоритеты одинаковы. Менеджер выбирает ограничение входа либо дополнительную мощность на четыре недели. В этой версии: Полная цена отсрочки двух задач в неделю на общем четырёхнедельном горизонте: 40 тысяч рублей.",
+            "decisiveFactsConcept": [
+              "Полная цена отсрочки двух задач в неделю на общем четырёхнедельном горизонте: 40 тысяч рублей",
+              "Demand 12 и capacity 10 сохраняются все 4 недели: временность очереди не меняется",
+              "Лимит входа 10 удерживает WIP, но переносит две задачи в неделю; все последствия переноса включены в указанную цену",
+              "Проверенный резервный reviewer доступен немедленно на 4 недели, даёт ровно +2 задачи/неделю; полная цена с onboarding и упущенной работой 100 тысяч рублей",
+              "Качество ревью и восстановление исходной очереди одинаковы в обоих вариантах; другие меры на данном горизонте недоступны",
+              "Тип задач, приоритеты и бюджетные полномочия менеджера одинаковы"
+            ],
+            "oneSentenceDecisionBoundary": "Ограничить вход до 10 задач в неделю: отсрочка стоит 40 тысяч против 100 тысяч за добавление мощности.",
+            "domain": "delivery_quality",
+            "requiredLevel": "middle",
+            "primaryPattern": "process-economics",
+            "secondaryPatterns": [
+              "bottleneck",
+              "cost-of-delay"
+            ],
+            "structure": "pair",
+            "scenarioFamilyId": "F-TD-P03",
+            "familyPosition": 1,
+            "decisiveMutationConcept": "Полная цена отсрочки двух задач в неделю на общем четырёхнедельном горизонте: 40 тысяч рублей",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Сравнить измеренную цену отсрочки входящего потока со стоимостью дополнительной capacity на одном горизонте.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Процессы",
+            "derivedRuntimePrimaryThinking": "proportionality",
+            "derivedRuntimeSecondaryThinking": [
+              "dependencies",
+              "prioritization"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": null,
+            "authorityScope": null,
+            "secondaryEffect": null,
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        },
+        {
+          "id": "TC-254",
+          "status": "UNRESOLVED",
+          "row": {
+            "plannedId": "TC-254",
+            "batch": "Batch 10",
+            "block": "B04 — Technical Delivery",
+            "partId": "part-3",
+            "topicId": "t-3-7",
+            "oneSentenceScenarioConcept": "На стадии ревью накопилась очередь: входящий поток устойчиво 12 задач в неделю при capacity 10; WIP-policy, тип задач и приоритеты одинаковы. Менеджер выбирает ограничение входа либо дополнительную мощность на четыре недели. В этой версии: Полная цена отсрочки двух задач в неделю на общем четырёхнедельном горизонте: 160 тысяч рублей.",
+            "decisiveFactsConcept": [
+              "Полная цена отсрочки двух задач в неделю на общем четырёхнедельном горизонте: 160 тысяч рублей",
+              "Demand 12 и capacity 10 сохраняются все 4 недели: временность очереди не меняется",
+              "Лимит входа 10 удерживает WIP, но переносит две задачи в неделю; все последствия переноса включены в указанную цену",
+              "Проверенный резервный reviewer доступен немедленно на 4 недели, даёт ровно +2 задачи/неделю; полная цена с onboarding и упущенной работой 100 тысяч рублей",
+              "Качество ревью и восстановление исходной очереди одинаковы в обоих вариантах; другие меры на данном горизонте недоступны",
+              "Тип задач, приоритеты и бюджетные полномочия менеджера одинаковы"
+            ],
+            "oneSentenceDecisionBoundary": "Добавить проверенную мощность до 12 задач в неделю: её цена 100 тысяч ниже 160 тысяч от отсрочки.",
+            "domain": "delivery_quality",
+            "requiredLevel": "middle",
+            "primaryPattern": "process-economics",
+            "secondaryPatterns": [
+              "bottleneck",
+              "cost-of-delay"
+            ],
+            "structure": "pair",
+            "scenarioFamilyId": "F-TD-P03",
+            "familyPosition": 2,
+            "decisiveMutationConcept": "Полная цена отсрочки двух задач в неделю на общем четырёхнедельном горизонте: 160 тысяч рублей",
+            "trainingEligible": true,
+            "assessmentEligible": false,
+            "whyLevel": "Выбрать между снижением входа и увеличением мощности по полным сопоставимым затратам, без перепроектирования нескольких потоков.",
+            "futureContextSensitivityCandidate": true,
+            "vocabularyReviewRef": null,
+            "derivedRuntimeUiDomain": "Процессы",
+            "derivedRuntimePrimaryThinking": "proportionality",
+            "derivedRuntimeSecondaryThinking": [
+              "dependencies",
+              "prioritization"
+            ],
+            "runtimeDerivationStatus": "authoritative-swift-mapping",
+            "whyHead": null,
+            "authorityScope": null,
+            "secondaryEffect": null,
+            "runtimeClassificationSource": "authoritative-swift-mapping"
+          }
+        }
+      ],
+      "contract": {
+        "scenarioFamilyId": "F-TD-P03",
+        "type": "pair",
+        "memberIds": [
+          "TC-253",
+          "TC-254"
+        ],
+        "topicId": "t-3-7",
+        "requiredLevel": "middle",
+        "baseSituation": "На стадии ревью накопилась очередь: входящий поток устойчиво 12 задач в неделю при capacity 10; WIP-policy, тип задач и приоритеты одинаковы. Менеджер выбирает ограничение входа либо дополнительную мощность на четыре недели.",
+        "singleLogicalVariable": "Полная цена отсрочки двух задач в неделю на общем четырёхнедельном горизонте",
+        "stateByMember": {
+          "TC-253": "40 тысяч рублей",
+          "TC-254": "160 тысяч рублей"
+        },
+        "decisionBoundaryByState": {
+          "TC-253": "Ограничить вход до 10 задач в неделю: отсрочка стоит 40 тысяч против 100 тысяч за добавление мощности.",
+          "TC-254": "Добавить проверенную мощность до 12 задач в неделю: её цена 100 тысяч ниже 160 тысяч от отсрочки."
+        },
+        "expectedStrongestShiftConcept": "Ограничить вход до 10 задач в неделю: отсрочка стоит 40 тысяч против 100 тысяч за добавление мощности. ↔ Добавить проверенную мощность до 12 задач в неделю: её цена 100 тысяч ниже 160 тысяч от отсрочки.",
+        "factsThatMustRemainConstant": [
+          "Demand 12 и capacity 10 сохраняются все 4 недели: временность очереди не меняется",
+          "Лимит входа 10 удерживает WIP, но переносит две задачи в неделю; все последствия переноса включены в указанную цену",
+          "Проверенный резервный reviewer доступен немедленно на 4 недели, даёт ровно +2 задачи/неделю; полная цена с onboarding и упущенной работой 100 тысяч рублей",
+          "Качество ревью и восстановление исходной очереди одинаковы в обоих вариантах; другие меры на данном горизонте недоступны",
+          "Тип задач, приоритеты и бюджетные полномочия менеджера одинаковы"
+        ],
+        "whyMutationIsControlled": "Обе версии имеют устойчивый bottleneck; меняется только цена отсрочки относительно постоянных 100 тысяч за capacity. Это экономический выбор entry limit/capacity, а не повтор временная/устойчивая очередь F-PR-P01.",
+        "assessmentEligible": false
+      },
+      "triage": [
+        {
+          "id": "TC-253",
+          "familyId": "F-TD-P03",
+          "topic": "t-3-7",
+          "requiredLevel": "middle",
+          "originalDefectType": "level+family",
+          "priorAttempts": "0 documented wave selections; no recorded Wave 1–7 selection",
+          "primaryCategory": "B — FAMILY-COUPLED",
+          "secondaryCause": "Вся экономика уже свёрнута в40/160 против100; остаётся сравнение двух сумм. Одностороннее добавление новых ограничений разрушит единственную logical variable и symmetric evidence.",
+          "sourceSupport": "strong",
+          "levelFeasibility": "medium",
+          "semanticSpace": "constrained",
+          "familyCoupling": "strong",
+          "runtimeRisk": "low",
+          "retrySameMethod": "NO",
+          "recommendedTreatment": "Whole-family F-TD-P03: спроектировать реальное рассуждение о потоке при общей оси цены отсрочки; не копировать временный/постоянный demand TC-106/107.",
+          "recommendedGroup": "B-queue-pair",
+          "confidence": "high",
+          "evidence": "triage-evidence.json#/rows/TC-253"
+        },
+        {
+          "id": "TC-254",
+          "familyId": "F-TD-P03",
+          "topic": "t-3-7",
+          "requiredLevel": "middle",
+          "originalDefectType": "level+family",
+          "priorAttempts": "0 documented wave selections; no recorded Wave 1–7 selection",
+          "primaryCategory": "B — FAMILY-COUPLED",
+          "secondaryCause": "Вся экономика уже свёрнута в40/160 против100; остаётся сравнение двух сумм. Одностороннее добавление новых ограничений разрушит единственную logical variable и symmetric evidence.",
+          "sourceSupport": "strong",
+          "levelFeasibility": "medium",
+          "semanticSpace": "constrained",
+          "familyCoupling": "strong",
+          "runtimeRisk": "low",
+          "retrySameMethod": "NO",
+          "recommendedTreatment": "Whole-family F-TD-P03: спроектировать реальное рассуждение о потоке при общей оси цены отсрочки; не копировать временный/постоянный demand TC-106/107.",
+          "recommendedGroup": "B-queue-pair",
+          "confidence": "high",
+          "evidence": "triage-evidence.json#/rows/TC-254"
+        }
+      ]
+    }
+  ]
+}

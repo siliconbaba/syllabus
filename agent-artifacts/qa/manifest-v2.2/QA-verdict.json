@@ -1,0 +1,112 @@
+{
+  "verdict": "READY FOR BATCH 01",
+  "canStartBatch01": true,
+  "priorRowIssues": {
+    "fixed": 34,
+    "remaining": 0
+  },
+  "priorFamilyIssues": {
+    "fixed": 4,
+    "remaining": 0
+  },
+  "changedRows": 40,
+  "frozenRows": 235,
+  "frozenRowsRegressionCount": 0,
+  "frozenFamiliesRegressionCount": 0,
+  "familiesExactUnchanged": 36,
+  "familiesConstructionUnchanged": 39,
+  "authorizedLevelOnlyFamilyUpdates": [
+    "F-PO-P04",
+    "F-PO-T01",
+    "F-PR-P01"
+  ],
+  "levelChanges": {
+    "count": 26,
+    "status": "PASS",
+    "transitions": {
+      "head->middle": 8,
+      "senior->middle": 13,
+      "senior->junior": 1,
+      "junior->middle": 2,
+      "head->senior": 2
+    }
+  },
+  "headCalibration": "PASS",
+  "remainingHeadCount": 35,
+  "assessmentFeasibility": "PASS",
+  "assessmentPool": {
+    "count": 200,
+    "levels": {
+      "middle": 99,
+      "junior": 32,
+      "senior": 46,
+      "head": 23
+    },
+    "domains": {
+      "delivery": 12,
+      "project": 18,
+      "processes": 30,
+      "technical": 38,
+      "portfolio": 17,
+      "stakeholders": 20,
+      "people": 23,
+      "finance": 19,
+      "analytics": 12,
+      "product": 11
+    }
+  },
+  "headBreadth": {
+    "status": "PASS",
+    "areas": [
+      "processes",
+      "project",
+      "product",
+      "technical",
+      "stakeholders",
+      "people",
+      "finance",
+      "portfolio"
+    ],
+    "counts": {
+      "processes": 14,
+      "project": 6,
+      "product": 4,
+      "technical": 17,
+      "stakeholders": 6,
+      "people": 7,
+      "finance": 5,
+      "portfolio": 7,
+      "analytics": 1,
+      "delivery": 2
+    }
+  },
+  "runtimeRegression": "PASS",
+  "unknownDomains": 0,
+  "unknownPatterns": 0,
+  "provisionalMappings": 0,
+  "contextSensitivityScoredEvidence": 0,
+  "structuralRegression": "PASS",
+  "remainingBlockers": [],
+  "remainingMajor": [],
+  "remainingMinor": [],
+  "eligibilityDependency": "Assessment 200 предполагает запланированное исключение шести linked gold; не требуется для начала авторинга Batch 01.",
+  "productionModified": false,
+  "scope": "Focused closure of v2.1 issues and frozen regression; no full repeat audit",
+  "inputHashes": {
+    "agent-artifacts/manifests/v2.2/production_manifest_masterplan_v2_2.json": "f8824c2e98819a4f2a97e26f67a2d27291a8e10ddb1c37bee1d950ffda7d732b",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+  },
+  "engineExecution": {
+    "status": "PASS",
+    "evidenceFile": "engine-feasibility.json",
+    "progression": [
+      "junior",
+      "middle",
+      "senior",
+      "head"
+    ],
+    "method": "Compile current production Swift models/store/mapping/engine with existing ScoringFixtures; exercise planned pool using synthetic quality=1. No production cases generated."
+  }
+}

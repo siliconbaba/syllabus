@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "Independent focused content delta versus R1",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-stakeholders-02-r2/cases.json",
+  "candidateSHA256": "d1ed53930e2f49b1b1e6bacf52d6ec79a9e35af4e704825f23a962fb433ad33b",
+  "acceptedCaseIDs": [
+    "TC-112",
+    "TC-113",
+    "TC-216"
+  ],
+  "remainingCaseIDs": [],
+  "inheritance": {
+    "priorVerdict": "agent-artifacts/project-completion/qa-contact03/QA-verdict.json",
+    "priorVerdictSHA256": "34953c0d0ff2a3fb663b80e6c6b93ee6ca314a6b99a9a9aa687e62ff1447e29b",
+    "priorCandidateSHA256": "e01f221445cb51a82edb6a534c26265069140783925386ca79962d3c57aa6e0c",
+    "basis": "Exact raw diff preserves TC-112 in full and all previously approved fields except the two revised case revisions, TC-113 B WHEN, TC-216 C answer text, and TC-216 D quality."
+  },
+  "resolvedIssues": {
+    "113-B-WHEN": "Successor selected and both commitments can be received by the end of the transfer window. Existing explanation still addresses uncertain hiring in the original situation.",
+    "216-C-WHEN": "Per-shift replies implement the operator loop. Sponsor alerts and formal dashboard acceptance in the counterfactual cover the remaining actions. In the actual case dashboard access still omits the required formal submission and weekly scope review.",
+    "216-BD-DQ": "B and D both receive 0.55, below the unique A and above C, which omits a mandatory external decision package."
+  },
+  "gates": {
+    "exactDelta": "PASS",
+    "dependentExplanations": "PASS",
+    "strictLoader": "PASS",
+    "surface": "PASS; TC-216 C remains shorter than A/D; still a credible digital-reporting strategy."
+  },
+  "issues": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "importEligible": false,
+  "importScope": "Content accepted for staging. Production integration/freeze are outside this review."
+}

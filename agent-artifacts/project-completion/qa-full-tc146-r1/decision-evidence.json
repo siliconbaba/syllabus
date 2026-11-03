@@ -1,0 +1,33 @@
+{
+  "blind": {
+    "best": "B",
+    "runnerup": "A",
+    "confidence": "high",
+    "record": "blind-choice.json",
+    "order": "Recorded before opening case key."
+  },
+  "pairwise": {
+    "A": "A preserves the decision but delegates joint participant/step confirmation and waits for trouble. Roles and next step remain unconfirmed, and lead is available today. B resolves those facts now.",
+    "C": "No refusal to implement or authority conflict. Manager already resolved the priority; upward handoff avoids the direct working contact without a blocker.",
+    "D": "No new facts justify reopening; D delays the only unresolved execution agreement."
+  },
+  "alternativeReadings": [
+    "Asynchronous contact could satisfy B: «связаться» does not mandate a meeting; A loses because unilateral handoff leaves agreement open, not because text is intrinsically inferior to voice.",
+    "Lead reading the decision removes information ignorance; it does not establish joint execution. No invented emotional hostility is required.",
+    "Chosen PM proposal does not entitle the PM to victory language; gratitude is explicitly for facts, not compliance."
+  ],
+  "wholeOptionWhen": {
+    "A": "PASS: already agreed roles, delegated next-step authority, and agreed exception-only asynchronous process make its handoff and wait jointly coherent. Naming participants is consistent with agreed roles under delegated assignment.",
+    "B": "PASS: adopted decision, no grounds to reopen, unconfirmed execution. Direct contact and subsequent record both justified.",
+    "C": "PASS: explicit refusal of direct execution discussion + authority conflict only manager can resolve + manager agreement justify manager-first conversation and later PM involvement.",
+    "D": "PASS: confirmed facts favor lead variant AND manager-authorized pause justify both request for reversal and postponement of roles until response."
+  },
+  "DQ": {
+    "ordering": "B 1.0 > A 0.65 > C 0.4 > D 0.2",
+    "reason": "A keeps implementation locally and accepted decision intact but lacks joint confirmation. C still arranges execution but adds needless upward intermediation. D actively reopens a settled decision and suspends execution. No numerical precision beyond defensible ordinal partial credit claimed."
+  },
+  "explanations": "All four include temptation, specific missed fact, and whole-action conditions. Insight and mental model correctly separate authority decision from execution agreement.",
+  "source": "Entire 16,256-character t-6-3 extraction read and normalized text matched against article HTML; theory and explicit anti-pattern support direct return, thanks for factual formulation, future work agreement. Detailed source cases do not require universal escalation or override accepted priority. Cross-reference 6.2 concerns communicating delay and does not ground a missing central rule here.",
+  "level": "Junior: recognize/apply the given next step. Timing, authority, priority and lack of new facts are supplied; no strategy design, economic comparison, or multi-system adjudication.",
+  "family": "Standalone; both family and mutation null. No siblings or eligibility conflict."
+}

@@ -1,0 +1,50 @@
+{
+  "changedIDs": [
+    "TC-183"
+  ],
+  "rawChangedIDs": [
+    "TC-183"
+  ],
+  "csvChangedIDs": [
+    "TC-183"
+  ],
+  "changedFamilies": [],
+  "baselineSHA256": "83993502acdc88b640f4a21524a7cd85e655e2102e20e4e706b206bd1046e8e7",
+  "candidateSHA256": "779fe25b0dd8921106f867618da2d130c4422e3401aec0254486a8192472a228",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "artifactHashErrors": [],
+  "diffGate": "PASS",
+  "unexpectedChangedRows": 0,
+  "unchanged274": true,
+  "TC248Unchanged": true,
+  "otherWave6Unchanged": true,
+  "acceptedWave1To5Unchanged": true,
+  "intentionalUnresolvedUnchanged": true,
+  "productionUnchanged": true,
+  "unresolvedIDs": [
+    "TC-159",
+    "TC-230",
+    "TC-231",
+    "TC-296",
+    "TC-151",
+    "TC-152",
+    "TC-153",
+    "TC-206",
+    "TC-207",
+    "TC-212",
+    "TC-221",
+    "TC-239",
+    "TC-259",
+    "TC-260",
+    "TC-263",
+    "TC-275"
+  ],
+  "changedFields": [
+    "oneSentenceScenarioConcept",
+    "decisiveFactsConcept",
+    "oneSentenceDecisionBoundary",
+    "whyLevel",
+    "sourceTopicExplanation"
+  ]
+}

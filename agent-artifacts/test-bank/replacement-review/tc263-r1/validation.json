@@ -1,0 +1,8 @@
+{
+  "inputsUnchanged": true,
+  "productionUnchanged": true,
+  "acceptedManifestUnchanged": true,
+  "candidateR1Unchanged": true,
+  "reviewFilesParse": true,
+  "tests": "hash integrity and JSON parsing; no app tests required for review-only artifacts"
+}

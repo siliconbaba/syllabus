@@ -1,0 +1,22 @@
+{
+  "issues": [],
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "observations": [
+    {
+      "severity": "informational",
+      "field": "surface",
+      "evidence": "B has 20 words vs distractor mean 22.33, 168 chars vs mean 163.67; action/specificity proxies favor B. 78-rule max-adjusted permutation p=1 at N=1.",
+      "disposition": "No meaningful single-item significance; semantic superiority comes from explicit unresolved agreement. C and D are complete plausible strategies under their WHENs. No gratuitous verbosity fix warranted."
+    },
+    {
+      "severity": "workflow",
+      "field": "manifest/import",
+      "evidence": "Completion01 still contains old TC146 row; accepted reconstructed blueprint has matching candidate hash.",
+      "disposition": "Isolated full-case QA only; cumulative merge/freeze/import requires separate authorization and coverage checks."
+    }
+  ]
+}

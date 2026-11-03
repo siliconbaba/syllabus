@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "inputAndArtifactHashes": "PASS",
+  "changedRows": [
+    "TC-146",
+    "TC-272"
+  ],
+  "unchangedRows": 273,
+  "topLevelChangedKeys": [
+    "completionRevision",
+    "coverageSummary",
+    "manifest",
+    "manifestVersion"
+  ],
+  "protectedFieldsUnchanged": [
+    "plannedId",
+    "batch",
+    "partId",
+    "topicId",
+    "domain",
+    "requiredLevel",
+    "structure",
+    "scenarioFamilyId",
+    "familyPosition",
+    "decisiveMutationConcept",
+    "trainingEligible",
+    "assessmentEligible"
+  ],
+  "familyObjectsUnchanged": 43,
+  "headAuditBytesUnchanged": true,
+  "csvRowExactness": true,
+  "levels": {
+    "middle": 122,
+    "junior": 42,
+    "senior": 76,
+    "head": 35
+  },
+  "remainingUnresolvedBefore": 70,
+  "remainingUnresolvedAfter": 68,
+  "removedOnlyApprovedIDs": true,
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "frozenManifestSHA256": "a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1"
+}

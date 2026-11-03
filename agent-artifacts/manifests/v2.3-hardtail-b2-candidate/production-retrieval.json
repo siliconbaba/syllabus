@@ -1,0 +1,316 @@
+[
+  {
+    "plannedId": "TC-234",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-091",
+        "retrievalScore": 18.41142,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction",
+          "team-topologies"
+        ],
+        "sharedTerms": [
+          "lead",
+          "self",
+          "service",
+          "stream",
+          "без",
+          "вместо",
+          "всех",
+          "есть",
+          "зависимость",
+          "как",
+          "команды",
+          "написания",
+          "общий",
+          "одной",
+          "очередь",
+          "передача",
+          "передачи",
+          "превысит",
+          "продуктового",
+          "продуктовые",
+          "продуктовых",
+          "релиз",
+          "уже",
+          "ёмкость"
+        ]
+      },
+      {
+        "id": "TC-013",
+        "retrievalScore": 18.12789,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction",
+          "team-topologies"
+        ],
+        "sharedTerms": [
+          "self",
+          "service",
+          "зависимость",
+          "изменений",
+          "как",
+          "команда",
+          "платформа",
+          "только",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-039",
+        "retrievalScore": 13.241253,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction",
+          "team-topologies"
+        ],
+        "sharedTerms": [
+          "время",
+          "границы",
+          "есть",
+          "изменение",
+          "менять",
+          "общее",
+          "общие",
+          "обязательные",
+          "платформе",
+          "платформы",
+          "проверки",
+          "продуктовых",
+          "ролей",
+          "роли"
+        ]
+      },
+      {
+        "id": "TC-063",
+        "retrievalScore": 7.118674,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "без",
+          "владельца",
+          "готовы",
+          "как",
+          "команда",
+          "команды",
+          "общий",
+          "одного",
+          "проверки"
+        ]
+      },
+      {
+        "id": "TC-095",
+        "retrievalScore": 7.081784,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "владельцев",
+          "как",
+          "команда",
+          "команды",
+          "остаются",
+          "согласования"
+        ]
+      },
+      {
+        "id": "TC-086",
+        "retrievalScore": 7.081054,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "вместо",
+          "всего",
+          "всех",
+          "команды",
+          "только",
+          "уже"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-235",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-091",
+        "retrievalScore": 18.427592,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction",
+          "team-topologies"
+        ],
+        "sharedTerms": [
+          "lead",
+          "self",
+          "service",
+          "stream",
+          "без",
+          "вместо",
+          "всех",
+          "готовность",
+          "есть",
+          "зависимость",
+          "команд",
+          "команды",
+          "написания",
+          "общий",
+          "одной",
+          "очередь",
+          "передача",
+          "передачи",
+          "превысит",
+          "продуктового",
+          "продуктовые",
+          "продуктовых",
+          "релиз",
+          "уже",
+          "ёмкость"
+        ]
+      },
+      {
+        "id": "TC-013",
+        "retrievalScore": 18.116335,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction",
+          "team-topologies"
+        ],
+        "sharedTerms": [
+          "self",
+          "service",
+          "зависимость",
+          "изменений",
+          "команда",
+          "платформа",
+          "только",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-039",
+        "retrievalScore": 13.208286,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction",
+          "team-topologies"
+        ],
+        "sharedTerms": [
+          "время",
+          "границы",
+          "есть",
+          "изменение",
+          "команд",
+          "менять",
+          "общие",
+          "обязательные",
+          "платформы",
+          "проверки",
+          "продуктовых",
+          "ролей",
+          "роли"
+        ]
+      },
+      {
+        "id": "TC-063",
+        "retrievalScore": 7.093902,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "без",
+          "владельца",
+          "готовы",
+          "команда",
+          "команды",
+          "общий",
+          "проверки"
+        ]
+      },
+      {
+        "id": "TC-086",
+        "retrievalScore": 7.078854,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "вместо",
+          "всего",
+          "всех",
+          "команды",
+          "только",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-095",
+        "retrievalScore": 7.07148,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "владельцев",
+          "команда",
+          "команды",
+          "остаются",
+          "согласования"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

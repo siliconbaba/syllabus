@@ -1,0 +1,17 @@
+{
+  "status": "ENVIRONMENT_RENDERING_PRECONDITION_FAILED",
+  "productionRegression": "NOT_ESTABLISHED",
+  "fullSuite": "INCOMPLETE",
+  "nativeWindowVisible": true,
+  "nativeWindowOccluded": true,
+  "applicationActive": false,
+  "documentVisibility": "hidden",
+  "animationFramesObserved": 0,
+  "synchronousEvaluation": "PASS",
+  "initialTimerHeartbeats": "OBSERVED_THEN_STOPPED",
+  "processTerminationCallback": "NOT_OBSERVED",
+  "strongerWindowActivation": "DID_NOT_RESTORE_FRAMES",
+  "causeAtOSLevel": "UNKNOWN",
+  "productionEdited": false,
+  "recommendation": "Visible-frame preflight and explicit environment failure, then rerun unchanged functional tests in visible GUI session"
+}

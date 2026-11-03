@@ -1,0 +1,25 @@
+{
+  "blindPayloadExact": true,
+  "acceptedBlueprintFields": {
+    "partId": true,
+    "topicId": true,
+    "domain": true,
+    "requiredLevel": true,
+    "primaryPattern": true,
+    "secondaryPatterns": true,
+    "scenarioFamilyId": true,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "sourceTopicExplanation": true
+  },
+  "family": "NOT_APPLICABLE: standalone, no mutation",
+  "wordLengths": {
+    "A": 23,
+    "B": 22,
+    "C": 24,
+    "D": 23
+  },
+  "duplicateOptions": false,
+  "exactProductionOptionCopies": [],
+  "surfaceJudgment": "PASS local: key C is longest by only 1–2 words; all four have two-stage structure and similar punctuation. 78 historical rules rerun, output retained. With n=1, perfect heuristic hits are inevitable and not population leakage evidence. Semantic options express plausible transparency, common-meeting and shared-understanding temptations; direct deadline discrimination is appropriate to Junior. Assembled-bank leakage/key balance remains pending."
+}

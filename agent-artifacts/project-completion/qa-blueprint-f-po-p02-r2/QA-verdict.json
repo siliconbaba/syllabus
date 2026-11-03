@@ -1,0 +1,34 @@
+{
+  "status": "PASS — BLUEPRINT PROJECTION ONLY",
+  "candidatePath": "agent-artifacts/test-bank/reconstruction/f-po-p02-completion05-r2/proposed-projection.json",
+  "candidateSHA256": "16c9a40e00b05aec0966043139d8fe17147dd6832e677cab87b055f067900acc",
+  "acceptedBlueprintIDs": [
+    "TC-133",
+    "TC-134"
+  ],
+  "acceptedFamilyID": "F-PO-P02",
+  "remainingIssueIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "closedIssues": {
+    "PO02-01": "Same mandate now names the portfolio-approved A deadline and expressly assigns unavoidable loss even on the unchanged allocation to the portfolio owner. With catalog already available, exchange preserves all commitments, costs zero and is locally authorized. With certificate required, keeping B costs 50 and transferring it costs 90; neither satisfies all commitments. Local default is no longer authorized, so present both outcomes and recommend preserving B. Instructions to present a choice relate to this actual portfolio conflict."
+  },
+  "gates": {
+    "delta": "PASS. Replacing the single shared updated sentence block with the old block in exactly three projections (both decisiveFactsConcept[1], family factsThatMustRemainConstant[0]) recovers complete original JSON. Shared passage identical byte for byte.",
+    "sourceLevelMappingDuplication": "PASS inherited from R1; unchanged dependencies, scoring and training-only metadata, topic, Senior mechanism, and analog boundaries.",
+    "familyUniqueStrongest": "PASS. Catalog versus certificate is still the sole mutation; feasible local resolution versus required portfolio approval are distinct."
+  },
+  "inheritanceBases": {
+    "agent-artifacts/project-completion/qa-blueprint-f-po-p02/QA-verdict.json": "21ab5bb2a5bf5d0e4dd88f9fd4d7127ebacd4f9f54b50c0e1b5b177fb89cd686",
+    "agent-artifacts/test-bank/reconstruction/f-po-p02-completion05/proposed-projection.json": "b994fc828d06c712e1f2b286b51a3eeed5a4fd358a266e114124da3f08adac0c",
+    "agent-artifacts/manifests/v2.3-completion-04-candidate/production_manifest_masterplan_v2_3_completion_04_candidate.json": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713"
+  },
+  "limitations": [
+    "Approved working blueprint only. Cumulative merge should synchronize the short family design. Full-case blind QA, manifest freeze and import remain separate."
+  ],
+  "importEligible": false,
+  "freezePerformed": false
+}

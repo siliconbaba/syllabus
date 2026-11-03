@@ -1,0 +1,80 @@
+{
+  "verdict": "WAVE 3 QA PASS",
+  "status": "PASS",
+  "date": "2026-10-14",
+  "scope": [
+    "TC-154",
+    "TC-155",
+    "TC-166",
+    "TC-190",
+    "TC-195",
+    "TC-209",
+    "TC-215",
+    "TC-225",
+    "TC-269",
+    "TC-293"
+  ],
+  "checkedCount": 10,
+  "candidateSHA256": "02b5773eb8a7ea85953f6992b4fc032571d6f66bfbb79e2e0f2c9935dee6e380",
+  "acceptedBaseSHA256": "65192b19b13ba3965aa244ac114cd3638a353d8d22bc0ee2883e559c1e723d08",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "gates": {
+    "diff": "PASS",
+    "unexpectedChangedRows": 0,
+    "unchangedPlannedRows": 265,
+    "unexpectedFamilyChanges": 0,
+    "previouslyAcceptedWave1Wave2Unchanged": true,
+    "sourceGrounding": {
+      "pass": 10,
+      "fail": []
+    },
+    "levelRealization": {
+      "pass": 10,
+      "fail": []
+    },
+    "runtimeSemantics": {
+      "pass": 10,
+      "fail": []
+    },
+    "semanticUniqueness": {
+      "NO CLOSE ANALOG": 0,
+      "ALLOWED REINFORCEMENT": 10,
+      "NEAR DUPLICATE": 0,
+      "DUPLICATE": 0
+    },
+    "changedFamily": "PASS",
+    "TC191TC259TC260UnchangedUnresolved": "PASS",
+    "productionUnchanged": "PASS",
+    "inputHashRecheck": "PASS"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "remainingIssueIDs": [],
+  "systemicMethodIssue": false,
+  "wave3AcceptedRedesign": true,
+  "safeToContinueWave4": true,
+  "intentionallyUnresolved": [
+    "TC-191",
+    "TC-259",
+    "TC-260"
+  ],
+  "inheritanceBase": "agent-artifacts/qa/manifest-v2.3-wave2/QA-verdict.json",
+  "inheritance": "All outside10 retain prior statuses, including unresolved. Comparator reads give no new substantive approval.",
+  "notApplicable": [
+    "blind option choice",
+    "decisionQuality",
+    "option surface leakage"
+  ],
+  "importEligible": false,
+  "readyToFreeze": false,
+  "wave4Started": false,
+  "productionChanged": false,
+  "methodContract": [
+    "strict Senior realization gate",
+    "runtime metadata re-derived from concrete decision evidence"
+  ]
+}

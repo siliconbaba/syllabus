@@ -1,0 +1,12 @@
+{
+  "QA-report.md": "e6f5125a09822e71d1ffad821b45a47b5208674e4c99ada4e90e85ccdcc6eb50",
+  "QA-verdict.json": "360b71ef8c939f89918df8fc814d61dcf24763eb495890aebc810cb0bb992ab2",
+  "category-b-routing-verdict.csv": "a9ecd639962cd8ed5ec2ba13a6b62b95130de1100df29363700e756a514f543c",
+  "family-routing-evidence.md": "76239d4298991d19fa406b0a319e4fbf26c09c84101f73c4ee1a29634ff32b7f",
+  "input-hashes-independent.json": "752b84773443c0d09a8a8e8d6eb41e33b6cd107b5e683e02e529bb4fb0fb8139",
+  "manifest-diff-evidence.json": "e7ceb81ae8a54de6fa378062c14ca2b122619a2444ea558cac1739433540eeca",
+  "rejected-drafts-independent.json": "011d2d0d908e2c531660e4f5abf36e52ecc5ce6fe4ea27a4a11e583d31e03667",
+  "retrieval-independent.json": "995017277ea57271437888cd5276f360a98562860c181a4b5f8a3195fd5bff09",
+  "source-check-independent.json": "a0ac516718cb9d9dbaef2c29df4b629882e75a286381e1b5ce4b22d45b7e9d9d",
+  "validation-summary.json": "f7ed14b890e5a6541fca29e9530cb57ced2997b042c57a3275120c07907b0597"
+}

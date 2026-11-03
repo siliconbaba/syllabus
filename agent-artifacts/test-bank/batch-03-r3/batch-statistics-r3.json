@@ -1,0 +1,39 @@
+{
+  "cases": 25,
+  "standalone": 16,
+  "linked": 9,
+  "families": 4,
+  "levels": {
+    "middle": 12,
+    "junior": 5,
+    "senior": 5,
+    "head": 3
+  },
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "changedCases": 1,
+  "unchangedByteIdentical": 24,
+  "unexpectedChanges": 0,
+  "priorR2FixesPreserved": true,
+  "schema": "PASS",
+  "runtime": "PASS",
+  "unknownCodes": 0,
+  "bestSimpleHeuristic": 10,
+  "combined100Best": 33,
+  "candidateSHA256": "77e465c3b9a5e0ac26eb7bdf756d20d2416d18fb57cd74f225575d0e6f202f21",
+  "uniqueStrongest": 25,
+  "sourceGrounded": 25,
+  "manifestAligned": 25,
+  "crossBank": {
+    "ALLOWED REINFORCEMENT": 23,
+    "NO CLOSE ANALOG": 2,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "internalDuplicates": 0,
+  "readyForFocusedQA": true
+}

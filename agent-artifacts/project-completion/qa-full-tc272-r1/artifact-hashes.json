@@ -1,0 +1,12 @@
+{
+  "agent-artifacts/project-completion/qa-full-tc272-r1/blind-choice.json": "24ec20b824746e00f67caa477013ca6f3138e1ad4c12f4b3c06a8e6c0c0d57fc",
+  "agent-artifacts/project-completion/qa-full-tc272-r1/input-hashes.json": "89c653ecd2ccdd6225d8a705fb57b07ece9bfb22f03bd80b94f148e918b40cda",
+  "agent-artifacts/project-completion/qa-full-tc272-r1/surface-78-rule-evidence.json": "c8d301866525aee8fb853c22017137f590270c60a4ec5214f9d475983c2e967c",
+  "agent-artifacts/project-completion/qa-full-tc272-r1/read-dossier.json": "b296c3bd6f5055e918fd90cdc49e5094a57a6f889a0cb6a6f02186a9efa72dcb",
+  "agent-artifacts/project-completion/qa-full-tc272-r1/QA-verdict.json": "4ceab1e63519cea731d9c8f0561285c52ddfd000711c16b03750cb15324d1602",
+  "agent-artifacts/project-completion/qa-full-tc272-r1/issues.json": "b04281027049100c95b444fb0e3dd72c27955fa44b7c099ad39282f596662935",
+  "agent-artifacts/project-completion/qa-full-tc272-r1/source-check.json": "2b8a7dbd63449fc3334d6f39cd654e33810798f1ea500c8584dd866c6b1443e2",
+  "agent-artifacts/project-completion/qa-full-tc272-r1/analog-evidence.json": "a205a6da184ea21e4bbc3ac9e0595d65aec0d25d4981dd01ff36f0f5aeb755dd",
+  "agent-artifacts/project-completion/qa-full-tc272-r1/runtime-loader.json": "6a242c1a1d1a5c6f7fd0cbf7e3bd6b38174e12e3430372f2006ea0809f269be4",
+  "agent-artifacts/project-completion/qa-full-tc272-r1/QA-report.md": "4d9d010b6def57cc2f444f9044b4ec21a88f618809610fd97db8ff41d10b75e8"
+}

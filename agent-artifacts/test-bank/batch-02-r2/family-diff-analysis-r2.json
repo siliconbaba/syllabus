@@ -1,0 +1,370 @@
+[
+  {
+    "familyId": "F-DM-T01",
+    "contract": {
+      "scenarioFamilyId": "F-DM-T01",
+      "type": "triplet",
+      "memberIds": "[\"TC-051\", \"TC-052\", \"TC-053\"]",
+      "topicId": "t-9-3",
+      "requiredLevel": "senior",
+      "baseSituation": "Портфельный комитет рассматривает инициативу фиксированного размера на фоне уже начатой работы; стратегическое соответствие и стоимость переключения текущей команды известны и неизменны.",
+      "singleLogicalVariable": "Cost of Delay новой инициативы относительно стоимости ожидания и переключения",
+      "stateByMember": "{\"TC-051\": \"ниже ценности текущей работы и ниже цены переключения\", \"TC-052\": \"выше цены долгого откладывания, но ниже цены немедленного прерывания текущей работы\", \"TC-053\": \"выше и цены ожидания, и цены прерывания менее ценной работы\"}",
+      "decisionBoundaryByState": "{\"TC-051\": \"Отложить инициативу за пределы ближайшего окна мощности.\", \"TC-052\": \"Поставить инициативу следующей в очередь без прерывания текущего обязательства.\", \"TC-053\": \"Прервать менее дорогую по задержке работу и перераспределить мощность сейчас.\"}",
+      "expectedStrongestShiftConcept": "Отложить → поставить следующей без preemption → вытеснить менее ценную работу.",
+      "factsThatMustRemainConstant": "[\"Одинаковый размер инициативы\", \"Одинаковая стратегическая ценность\", \"Одинаковая стоимость переключения\"]",
+      "whyMutationIsControlled": "Две известные экономические границы создают три неперекрывающихся режима; меняется только CoD.",
+      "assessmentEligible": "false",
+      "boundary1": "CoD становится выше цены оставить инициативу вне ближайшего capacity window.",
+      "boundary2": "CoD становится выше совокупной цены немедленного переключения и задержки вытесняемой работы.",
+      "threeDistinctStrategies": "[\"defer\", \"next-capacity-slot\", \"preempt\"]"
+    },
+    "positions": {
+      "TC-051": 1,
+      "TC-052": 2,
+      "TC-053": 3
+    },
+    "questionOptionsOrderIdentical": true,
+    "contextDiffs": [
+      {
+        "a": "TC-051",
+        "b": "TC-052",
+        "changes": [
+          {
+            "before": "1",
+            "after": "4"
+          }
+        ]
+      },
+      {
+        "a": "TC-051",
+        "b": "TC-053",
+        "changes": [
+          {
+            "before": "",
+            "after": "0"
+          }
+        ]
+      }
+    ],
+    "changed": true,
+    "status": "PASS",
+    "proof": {
+      "singleVariable": "Cost of Delay Н; 1 / 4 / 10. Same size, strategic fit, 6 direct switching cost, uncertainty bounds, order-ID overlap and acceptance capacity in every sibling.",
+      "costs": {
+        "A": "2x+[5,7]",
+        "B": "4x+3",
+        "C": "4x",
+        "D": "6+[12,14]"
+      },
+      "states": {
+        "TC-051": {
+          "ranges": [
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "strongest": "C"
+        },
+        "TC-052": {
+          "ranges": [
+            [
+              13,
+              15
+            ],
+            [
+              19,
+              19
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "strongest": "A"
+        },
+        "TC-053": {
+          "ranges": [
+            [
+              25,
+              27
+            ],
+            [
+              43,
+              43
+            ],
+            [
+              40,
+              40
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "strongest": "D"
+        }
+      },
+      "boundary1": "x<2.5 guarantees C; x>3.5 makes A beat C. The uncertainty zone is not sampled.",
+      "boundary2": "3.5<x<5.5 guarantees A; x>7.5 guarantees D. States avoid all ties and ranking-uncertainty zones.",
+      "sourceOfSeniorReasoning": "Values are an audit proof derived AFTER inferring outcome dependence, overlapping loss registers and acceptance bottleneck; not a ready-made cost table in the question."
+    }
+  },
+  {
+    "familyId": "F-DR-P01",
+    "contract": {
+      "scenarioFamilyId": "F-DR-P01",
+      "type": "pair",
+      "memberIds": "[\"TC-054\", \"TC-055\"]",
+      "topicId": "t-3-3",
+      "requiredLevel": "junior",
+      "baseSituation": "Небольшое изменение готово к поэтапной раскатке за флагом; тестовое покрытие, blast radius первой волны и метрики одинаковы.",
+      "singleLogicalVariable": "Проверенность rollback именно для этого типа изменения",
+      "stateByMember": "{\"TC-054\": \"rollback недавно отрепетирован и восстанавливает код и данные в допустимое время\", \"TC-055\": \"rollback существует на бумаге, но после записи новых данных ни разу не проверялся\"}",
+      "decisionBoundaryByState": "{\"TC-054\": \"Начать малую наблюдаемую раскатку с готовым возвратом.\", \"TC-055\": \"Сначала доказать реальную обратимость на безопасной среде/малой копии данных, затем раскатывать.\"}",
+      "expectedStrongestShiftConcept": "Контролируемый rollout ↔ сначала подтверждение rollback readiness.",
+      "factsThatMustRemainConstant": "[\"Одинаковое изменение\", \"Одинаковая первая волна\", \"Одинаковые метрики и флаг\"]",
+      "whyMutationIsControlled": "Меняется только доказанность ключевого safeguard; она определяет, является ли rollout действительно обратимым.",
+      "assessmentEligible": "false",
+      "boundary1": "",
+      "boundary2": "",
+      "threeDistinctStrategies": ""
+    },
+    "positions": {
+      "TC-054": 1,
+      "TC-055": 2
+    },
+    "questionOptionsOrderIdentical": true,
+    "contextDiffs": [
+      {
+        "a": "TC-054",
+        "b": "TC-055",
+        "changes": [
+          {
+            "before": "эт",
+            "after": ""
+          },
+          {
+            "before": "й",
+            "after": "писан"
+          },
+          {
+            "before": "е",
+            "after": " инст"
+          },
+          {
+            "before": "с",
+            "after": "укц"
+          },
+          {
+            "before": "",
+            "after": ", но"
+          },
+          {
+            "before": "",
+            "after": "этой "
+          },
+          {
+            "before": "ч",
+            "after": ""
+          },
+          {
+            "before": "а отрепет",
+            "after": "с"
+          },
+          {
+            "before": "рован: код ",
+            "after": ""
+          },
+          {
+            "before": "",
+            "after": "ещё ни р"
+          },
+          {
+            "before": "др",
+            "after": "зу н"
+          },
+          {
+            "before": "са",
+            "after": ""
+          },
+          {
+            "before": "",
+            "after": "ып"
+          },
+          {
+            "before": "",
+            "after": "лнял"
+          },
+          {
+            "before": "становлены за семь минут",
+            "after": "я"
+          }
+        ]
+      }
+    ],
+    "changed": false,
+    "status": "PASS"
+  },
+  {
+    "familyId": "F-ST-P01",
+    "contract": {
+      "scenarioFamilyId": "F-ST-P01",
+      "type": "pair",
+      "memberIds": "[\"TC-056\", \"TC-057\"]",
+      "topicId": "t-6-2",
+      "requiredLevel": "middle",
+      "baseSituation": "Проект получил отрицательный сигнал по сроку; фактического срыва ещё нет, а спонсор может менять scope и приоритет внешней команды.",
+      "singleLogicalVariable": "Надёжность обновлённого прогноза после пересчёта",
+      "stateByMember": "{\"TC-056\": \"данных пока недостаточно: диапазон широкий и ключевая оценка будет подтверждена через три дня\", \"TC-057\": \"критический путь пересчитан, диапазон узкий и сдвиг подтверждён владельцами работ\"}",
+      "decisionBoundaryByState": "{\"TC-056\": \"Сообщить риск, диапазон и точку следующей проверки, не выдавая гипотезу за новый срок.\", \"TC-057\": \"Сообщить новый прогноз и сразу показать варианты scope/приоритета.\"}",
+      "expectedStrongestShiftConcept": "Коммуникация неопределённого риска ↔ коммуникация подтверждённого плохого прогноза.",
+      "factsThatMustRemainConstant": "[\"Одинаковый отрицательный сигнал\", \"Одинаковая возможность спонсора влиять на решение\"]",
+      "whyMutationIsControlled": "Меняется только качество прогноза; содержание коммуникации должно соответствовать степени уверенности.",
+      "assessmentEligible": "false",
+      "boundary1": "",
+      "boundary2": "",
+      "threeDistinctStrategies": ""
+    },
+    "positions": {
+      "TC-056": 1,
+      "TC-057": 2
+    },
+    "questionOptionsOrderIdentical": true,
+    "contextDiffs": [
+      {
+        "a": "TC-056",
+        "b": "TC-057",
+        "changes": [
+          {
+            "before": "в",
+            "after": "критическ"
+          },
+          {
+            "before": "зм",
+            "after": "г"
+          },
+          {
+            "before": "жный",
+            "after": " пути"
+          },
+          {
+            "before": "нул",
+            "after": "дев"
+          },
+          {
+            "before": "",
+            "after": "ти"
+          },
+          {
+            "before": "",
+            "after": "деся"
+          },
+          {
+            "before": "рёх",
+            "after": "и"
+          },
+          {
+            "before": "",
+            "after": "д"
+          },
+          {
+            "before": "дель",
+            "after": "й"
+          },
+          {
+            "before": " ключевая",
+            "after": ""
+          },
+          {
+            "before": "",
+            "after": "и и з"
+          },
+          {
+            "before": " ещё не",
+            "after": "висимости"
+          },
+          {
+            "before": "",
+            "after": "ы владельцами, дополнительных данных для этого прогноз"
+          },
+          {
+            "before": "и ста",
+            "after": ""
+          },
+          {
+            "before": "",
+            "after": " ожидае"
+          },
+          {
+            "before": " изве",
+            "after": ""
+          },
+          {
+            "before": "тна через три дн",
+            "after": ""
+          }
+        ]
+      }
+    ],
+    "changed": false,
+    "status": "PASS"
+  },
+  {
+    "familyId": "F-PO-P01",
+    "contract": {
+      "scenarioFamilyId": "F-PO-P01",
+      "type": "pair",
+      "memberIds": "[\"TC-058\", \"TC-059\"]",
+      "topicId": "t-9-3",
+      "requiredLevel": "middle",
+      "baseSituation": "Две сопоставимые инициативы претендуют на одну команду в ближайшем месяце; размер, риски и стратегическое соответствие одинаковы.",
+      "singleLogicalVariable": "Относительная Cost of Delay первой инициативы",
+      "stateByMember": "{\"TC-058\": \"ниже, чем у второй\", \"TC-059\": \"выше, чем у второй\"}",
+      "decisionBoundaryByState": "{\"TC-058\": \"Сохранить приоритет второй инициативы.\", \"TC-059\": \"Перевести приоритет первой инициативе.\"}",
+      "expectedStrongestShiftConcept": "Приоритет второй ↔ приоритет первой.",
+      "factsThatMustRemainConstant": "[\"Одинаковый размер\", \"Одинаковый риск\", \"Одинаковая стратегическая релевантность\"]",
+      "whyMutationIsControlled": "Меняется только экономическая цена задержки одной инициативы, поэтому смена приоритета не требует дополнительных скрытых фактов.",
+      "assessmentEligible": "false",
+      "boundary1": "",
+      "boundary2": "",
+      "threeDistinctStrategies": ""
+    },
+    "positions": {
+      "TC-058": 1,
+      "TC-059": 2
+    },
+    "questionOptionsOrderIdentical": true,
+    "contextDiffs": [
+      {
+        "a": "TC-058",
+        "b": "TC-059",
+        "changes": [
+          {
+            "before": "1",
+            "after": "5"
+          }
+        ]
+      }
+    ],
+    "changed": false,
+    "status": "PASS"
+  }
+]

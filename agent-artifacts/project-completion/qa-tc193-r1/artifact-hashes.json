@@ -1,0 +1,8 @@
+{
+  "QA-report.md": "69394f4acde419fee79f57365aa77fbab17729a167c725fa96ee5ee793a0f34a",
+  "QA-verdict.json": "b9ecee8b6d0f1daca879d873811cd1ace40a3f29e7494c8b1824705585609232",
+  "analog-evidence.json": "a47b84f1ee7cbb25e5364901005642ef08e93ed3dc1b22e00246b4449fd2147e",
+  "input-hashes.json": "496810d66bd83bdb63eaf5887fd5814788e1947e60a2188183b610ba1c6b9a78",
+  "issues.json": "e2dc39ad93549c95a72718612faa6054d740d56c56220a013f5b35516ef6f7a8",
+  "runtime-check.txt": "3fa0189383f12a44642f7d6a6d4c2ca3a15f9dd72e387d1c25eeea6e20dc3a76"
+}

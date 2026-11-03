@@ -1,0 +1,40 @@
+{
+  "changedFields": [
+    "decisiveFactsConcept",
+    "oneSentenceDecisionBoundary"
+  ],
+  "exactAllowedReplacementsOnly": true,
+  "unexpectedChanges": 0,
+  "unchangedFields": [
+    "plannedId",
+    "batch",
+    "block",
+    "partId",
+    "topicId",
+    "oneSentenceScenarioConcept",
+    "domain",
+    "requiredLevel",
+    "primaryPattern",
+    "secondaryPatterns",
+    "structure",
+    "scenarioFamilyId",
+    "familyPosition",
+    "decisiveMutationConcept",
+    "trainingEligible",
+    "assessmentEligible",
+    "whyLevel",
+    "futureContextSensitivityCandidate",
+    "vocabularyReviewRef",
+    "derivedRuntimeUiDomain",
+    "derivedRuntimePrimaryThinking",
+    "derivedRuntimeSecondaryThinking",
+    "runtimeDerivationStatus",
+    "whyHead",
+    "authorityScope",
+    "secondaryEffect",
+    "runtimeClassificationSource",
+    "sourceTopicExplanation"
+  ],
+  "candidateR1Sha256": "d4ab92237a531de7fd742f501efeef4529d172b4af6dcfdd6ceb1131f04cd0aa",
+  "candidateR2Sha256": "8355e52e144c59fe36aa5ae32fcc376864632e423718088c47e0a803d3e146fc"
+}

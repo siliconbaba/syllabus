@@ -1,0 +1,23 @@
+{
+  "blindSHA256": "88e9f8d461d4f0c4dfb432113cfbcf07c3e9dcbaaf93b80925adfda4e8f76156",
+  "beforeInspectingKey": true,
+  "TC-131": {
+    "choice": "C",
+    "costs": {
+      "A": 47,
+      "B": 32,
+      "C": 27,
+      "D": "insufficient"
+    }
+  },
+  "TC-132": {
+    "choice": "B",
+    "costs": {
+      "A": 107,
+      "B": 32,
+      "C": 117,
+      "D": "insufficient"
+    }
+  },
+  "mutation": "Coverage/readiness of automated checks for the agreed calculation suite; smoke cannot establish correctness."
+}

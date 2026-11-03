@@ -1,0 +1,65 @@
+{
+  "status": "FIX_REQUIRED",
+  "date": "2026-10-26",
+  "reviewType": "independent focused manifest-row review",
+  "candidateSHA256": "c669ae1023e3cbdfd8ac7032c618eca5654705c3bd27496cfbc4e771441ac795",
+  "baseSHA256": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "candidate": "tc263-r1",
+  "importEligible": false,
+  "readyForPromotion": false,
+  "readyForScopedRevision": true,
+  "slotExhausted": false,
+  "remainingUnresolved": 72,
+  "severityCounts": {
+    "Blocker": 1,
+    "Major": 0,
+    "Minor": 0
+  },
+  "issues": [
+    {
+      "id": "QA263-R1-B01",
+      "severity": "Blocker",
+      "gate": "pairwise strongest",
+      "fields": [
+        "decisiveFactsConcept",
+        "oneSentenceDecisionBoundary"
+      ],
+      "reason": "Relative cost/priority of audit versus rollback and availability of later verification insufficient to establish strongest action."
+    }
+  ],
+  "gates": {
+    "structure": "PASS",
+    "runtimeVocabulary": "PASS",
+    "sourcePrinciple": "PASS",
+    "pairwiseStrongest": "FAIL",
+    "middleRealization": "NOT_PROVEN",
+    "semanticNovelty": "PROVISIONALLY_DISTINCT",
+    "family": "NOT_APPLICABLE",
+    "blindStrongest": "NOT_RUN",
+    "fullCaseSchema": "NOT_APPLICABLE",
+    "DQ": "NOT_APPLICABLE",
+    "surface": "NOT_APPLICABLE"
+  },
+  "blindLimitation": "Inherited context exposed boundary; no four final options exist. No blind-choice claim.",
+  "protectedFieldsUnchanged": [
+    "plannedId",
+    "batch",
+    "block",
+    "partId",
+    "topicId",
+    "domain",
+    "requiredLevel",
+    "structure",
+    "scenarioFamilyId",
+    "familyPosition",
+    "decisiveMutationConcept",
+    "trainingEligible",
+    "assessmentEligible",
+    "futureContextSensitivityCandidate"
+  ],
+  "productionChanged": false,
+  "manifestChanged": false,
+  "candidateChanged": false,
+  "commitPush": "NOT_PERFORMED"
+}

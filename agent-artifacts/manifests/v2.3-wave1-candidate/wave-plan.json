@@ -1,0 +1,235 @@
+{
+  "status": "SCOPE_FROZEN_BEFORE_CONTENT_EDITS",
+  "seed": "v2.3-candidate",
+  "seedSHA256": "11b7b231d66ef53e1de27ec696403208cd26176b2441fd7a089cc1f82bb695ca",
+  "selectedUnresolvedIDs": [
+    "TC-129",
+    "TC-130",
+    "TC-133",
+    "TC-134",
+    "TC-136",
+    "TC-139",
+    "TC-141",
+    "TC-144",
+    "TC-148",
+    "TC-150",
+    "TC-160",
+    "TC-170",
+    "TC-181",
+    "TC-182",
+    "TC-184",
+    "TC-186",
+    "TC-218",
+    "TC-291"
+  ],
+  "additionalFamilySiblings": [],
+  "totalRowsAllowedToChange": [
+    "TC-129",
+    "TC-130",
+    "TC-133",
+    "TC-134",
+    "TC-136",
+    "TC-139",
+    "TC-141",
+    "TC-144",
+    "TC-148",
+    "TC-150",
+    "TC-160",
+    "TC-170",
+    "TC-181",
+    "TC-182",
+    "TC-184",
+    "TC-186",
+    "TC-218",
+    "TC-291"
+  ],
+  "familiesAllowedToChange": [
+    "F-BV-P03",
+    "F-DM-P02",
+    "F-PO-P02"
+  ],
+  "selected": [
+    {
+      "id": "TC-129",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "middle",
+      "topicId": "t-13-2",
+      "structure": "pair",
+      "familyId": "F-DM-P02",
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-130",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "middle",
+      "topicId": "t-13-2",
+      "structure": "pair",
+      "familyId": "F-DM-P02",
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-133",
+      "currentProblemType": "semantic + level",
+      "nearestAnalog": "TC-156/226",
+      "requiredLevel": "senior",
+      "topicId": "t-9-4",
+      "structure": "pair",
+      "familyId": "F-PO-P02",
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-134",
+      "currentProblemType": "semantic + level",
+      "nearestAnalog": "TC-012",
+      "requiredLevel": "senior",
+      "topicId": "t-9-4",
+      "structure": "pair",
+      "familyId": "F-PO-P02",
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-136",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "senior",
+      "topicId": "t-5-7",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-139",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "senior",
+      "topicId": "t-9-4",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-141",
+      "currentProblemType": "semantic + level",
+      "nearestAnalog": "TC-220",
+      "requiredLevel": "senior",
+      "topicId": "t-2-3",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-144",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "middle",
+      "topicId": "t-10-1",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-148",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "middle",
+      "topicId": "t-8-1",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-150",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "senior",
+      "topicId": "t-3-5",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-160",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "senior",
+      "topicId": "t-8-1",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-170",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "head",
+      "topicId": "t-8-2",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-181",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "head",
+      "topicId": "t-8-3",
+      "structure": "pair",
+      "familyId": "F-BV-P03",
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-182",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "head",
+      "topicId": "t-8-3",
+      "structure": "pair",
+      "familyId": "F-BV-P03",
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-184",
+      "currentProblemType": "semantic + level",
+      "nearestAnalog": "TC-036",
+      "requiredLevel": "senior",
+      "topicId": "t-8-1",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-186",
+      "currentProblemType": "semantic + level",
+      "nearestAnalog": "TC-025",
+      "requiredLevel": "middle",
+      "topicId": "t-13-2",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-218",
+      "currentProblemType": "level only",
+      "nearestAnalog": null,
+      "requiredLevel": "middle",
+      "topicId": "t-8-1",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    },
+    {
+      "id": "TC-291",
+      "currentProblemType": "semantic + level",
+      "nearestAnalog": "TC-084",
+      "requiredLevel": "senior",
+      "topicId": "t-8-1",
+      "structure": "standalone",
+      "familyId": null,
+      "reasonSelected": "Проверка содержательного сохранения уровня и разведения соседних diagnostic boundaries; полная family atomicity."
+    }
+  ],
+  "outsideUnresolvedCount": 124,
+  "scopeExpansion": "Not permitted; external findings deferred"
+}

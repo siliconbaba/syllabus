@@ -1,0 +1,237 @@
+{
+  "acceptedBase": "syllabus/agent-artifacts/manifests/v2.3-hardtail-b1-candidate",
+  "unresolved": 72,
+  "slots": {
+    "TC-221": {
+      "plannedId": "TC-221",
+      "batch": "Batch 08",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-13",
+      "topicId": "t-13-3",
+      "oneSentenceScenarioConcept": "Middle PM хочет запустить бизнес-rollout до финального чтения A/B, сохранив тестовые группы, хотя заранее принято правило принимать rollout-решение только по финальному анализу; нужно решить, нарушает ли это business decision protocol.",
+      "decisiveFactsConcept": [
+        "Статистический тест продолжается",
+        "Группы можно сохранить",
+        "Business rollout rule precommitted"
+      ],
+      "oneSentenceDecisionBoundary": "Статистическая валидность сама по себе ↔ отдельно соблюдать продуктовый decision rule.",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "guardrails",
+        "p-value"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Аналитика",
+      "derivedRuntimePrimaryThinking": "evidence",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    "TC-263": {
+      "plannedId": "TC-263",
+      "batch": "Batch 10",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-13",
+      "topicId": "t-13-3",
+      "oneSentenceScenarioConcept": "Middle PM получил p=0.2 при эффекте почти равном MDE после полной выборки; нужно решить, считать ли гипотезу доказанной из-за «правильного направления» или принять неопределённый/негативный результат по протоколу.",
+      "decisiveFactsConcept": [
+        "Полная выборка набрана",
+        "p=0.2",
+        "Effect близок к MDE"
+      ],
+      "oneSentenceDecisionBoundary": "Направление эффекта ↔ решение по заранее заданному statistical criterion.",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "p-value",
+        "guardrails"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Аналитика",
+      "derivedRuntimePrimaryThinking": "evidence",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence",
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    }
+  },
+  "originalUnit": {
+    "unitId": "U-EXP",
+    "sequence": 1,
+    "unresolvedMemberIDs": [
+      "TC-221",
+      "TC-263"
+    ],
+    "memberIDs": [
+      "TC-221",
+      "TC-263"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "treatmentLabel": "LEVEL + SEMANTIC RECONSTRUCTION",
+    "familyIDs": [],
+    "unitType": "semantic-standalone-cluster",
+    "replacementUnit": false,
+    "whyAtomic": "Общий semantic reservation нужен до разделения diagnostic ролей; строки могут иначе занять одну boundary. Это не chunk по количеству.",
+    "sharedSourceTopics": [
+      "t-13-3"
+    ],
+    "mainDefect": "Заданный p/MDE или rollout rule одновременно обнуляет Middle и повторяет024/031/032.",
+    "nearestAnalogsToAvoid": [
+      "TC-024",
+      "TC-031",
+      "TC-032",
+      "TC-094",
+      "TC-164",
+      "TC-195",
+      "TC-248",
+      "TC-261"
+    ],
+    "expectedRedesignMechanism": "Развести две диагностические обязанности в дизайне и интерпретации эксперимента; доказать конкурирующие допустимые действия с ценой информации, не дописывая стоимость к готовому статистическому правилу.",
+    "mechanismStatus": "RESEARCH DIRECTION ONLY — not a redesigned blueprint or proof of feasibility",
+    "levelConstraints": {
+      "TC-221": "middle",
+      "TC-263": "middle"
+    },
+    "familyConstraints": null,
+    "coverageConstraints": {
+      "baseline": {
+        "rows": 2,
+        "topics": {
+          "t-13-3": 2
+        },
+        "levels": {
+          "middle": 2
+        },
+        "domains": {
+          "experimentation": 2
+        },
+        "uiDomains": {
+          "Аналитика": 2
+        },
+        "thinkingPrimary": {
+          "evidence": 2
+        },
+        "thinkingUnion": {
+          "evidence": 2,
+          "risk": 2
+        },
+        "normalizedThinkingEvidence": {
+          "context": 0,
+          "dependencies": 0,
+          "evidence": 1.3333333333,
+          "organization": 0,
+          "prioritization": 0,
+          "proportionality": 0,
+          "risk": 0.6666666667,
+          "stakeholders": 0,
+          "systems": 0,
+          "uncertainty": 0
+        },
+        "standalone": 2,
+        "linked": 0,
+        "assessmentEligible": 2,
+        "families": []
+      },
+      "preserve": [
+        "IDs",
+        "topic/coverage intent",
+        "requiredLevel per slot",
+        "domain/UI-domain coverage intent",
+        "standalone/linked architecture",
+        "family count/member order",
+        "batch boundaries",
+        "training/assessment eligibility",
+        "300-test total"
+      ],
+      "thinkingRule": "Derive patterns from new decision evidence; compare primary/secondary/union/normalized evidence. Do not retain false pattern to satisfy a quota. Any material coverage loss requires explicit decision."
+    },
+    "dependencies": [],
+    "semanticReservations": [
+      "G-LEARNING"
+    ],
+    "recommendedAuthoringScope": {
+      "unresolved": [
+        "TC-221",
+        "TC-263"
+      ],
+      "fullFamily": [],
+      "additionalAccepted": [],
+      "acceptedSiblingPolicy": "No accepted rows may change."
+    },
+    "recommendedQAScope": {
+      "content": [
+        "TC-221",
+        "TC-263"
+      ],
+      "compareAgainst": "production001–100 + accepted/planned101–300 including other unit changes",
+      "regression": "All outside approved unit scope byte/semantic identical; atomic family validation; requiredLevel/source/runtime evidence; eligibility and batches",
+      "acceptedSiblingReview": null
+    },
+    "classificationConfidence": "medium-high",
+    "successConfidence": "medium",
+    "readiness": "Architecture/reconstruction planning only; not content acceptance",
+    "architectureGate": "Reserve nonduplicate reasoning boundary and prove level before prose."
+  },
+  "routingDelta": [
+    {
+      "ID": "TC-221",
+      "unitId": "U-EXP",
+      "oldTreatment": "R3",
+      "newTreatment": "R5",
+      "retryCurrentTreatment": "NO",
+      "diagnosticSpaceProven": "NO — viable free Middle role not demonstrated by tested directions; not an exhaustive impossibility theorem",
+      "reason": "221-PROXY: Повторяет уже заданную ось259/260: подтверждённая связь proxy с целевым поведением определяет масштабирование или дополнительный дешёвый тест. Изменение горизонта и объекта метрики не создаёт новой диагностической обязанности.; 221-COHORT: В этой конструкции prompt уже назначает единственный пригодный источник evidence: добровольцы отличаются, а цель — оценка эффекта. Вторая профессионально допустимая стратегия для того же решения не доказана. Добавление цены подготовки не устраняет one-rule answer; переход к выбору нескольких квазиэкспериментальных методов рискует менять Middle на Senior.",
+      "nextGate": "Blueprint concept replacement architecture review before authoring; preserve frozen slot/coverage unless separately authorized.",
+      "confidence": "MEDIUM — routing recommendation, not replacement success forecast",
+      "status": "UNRESOLVED; planning delta only"
+    },
+    {
+      "ID": "TC-263",
+      "unitId": "U-EXP",
+      "oldTreatment": "R3",
+      "newTreatment": "R5",
+      "retryCurrentTreatment": "NO",
+      "diagnosticSpaceProven": "NO — viable free Middle role not demonstrated by tested directions; not an exhaustive impossibility theorem",
+      "reason": "263-SEGMENT: TC-164 уже выбирает новый сегментный тест вместо нечувствительного повторения общего при ограниченном аналитическом окне, сохраняя исходный вывод. TC-295 дополнительно занимает простой запрет post-hoc назначения победителя. Новый сюжет не разделяет роли.; 263-REVERSE: Отличие «восстановить» вместо «сохранить» контроль не меняет проверяемый operational выбор: оплатить две ветки и причинное сравнение перед решением о поддержке, не заменять его сезонным агрегатом. TC-261 уже занимает эту роль. Сам reverse test поддержан источником; это не доказательство semantic uniqueness.",
+      "nextGate": "Blueprint concept replacement architecture review before authoring; preserve frozen slot/coverage unless separately authorized.",
+      "confidence": "MEDIUM — routing recommendation, not replacement success forecast",
+      "status": "UNRESOLVED; planning delta only"
+    }
+  ],
+  "dependencies": [
+    "G-LEARNING reservation",
+    "U-F-DM-P02 and U-F-PA-P04 depend on role-allocation decision, not failed candidate acceptance"
+  ],
+  "thinkingPolicy": "Original evidence+risk is not fixed quota. Concept263-A fits evidence/uncertainty; no forced guardrails. Future author must calculate exact primary/secondary/union/normalized delta; no changes now."
+}

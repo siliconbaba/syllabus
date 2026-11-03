@@ -1,0 +1,41 @@
+[
+  {
+    "id": "TC-126",
+    "choice": "A",
+    "runnerUp": "B",
+    "costs": {
+      "A": 10,
+      "B": 22,
+      "C": 53,
+      "D": 100
+    },
+    "confidence": "high",
+    "grounds": "Equal service and exclusivity make total incremental cost decisive."
+  },
+  {
+    "id": "TC-127",
+    "choice": "B",
+    "runnerUp": "C",
+    "costs": {
+      "A": 80,
+      "B": 36,
+      "C": 60,
+      "D": 100
+    },
+    "confidence": "high",
+    "grounds": "Equal service and exclusivity make total incremental cost decisive."
+  },
+  {
+    "id": "TC-128",
+    "choice": "C",
+    "runnerUp": "B",
+    "costs": {
+      "A": 400,
+      "B": 100,
+      "C": 92,
+      "D": 100
+    },
+    "confidence": "high",
+    "grounds": "Equal service and exclusivity make total incremental cost decisive."
+  }
+]

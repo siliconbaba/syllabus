@@ -1,0 +1,109 @@
+{
+  "status": "PASS — author self-QA, focused independent QA required",
+  "changedRows": 2,
+  "changedIDs": [
+    "TC-115",
+    "TC-122"
+  ],
+  "unexpectedChangedRows": 0,
+  "unchangedRows": 273,
+  "unexpectedFamilyChanges": 0,
+  "familyContractsUnchanged": 43,
+  "identityFieldsPreserved": [
+    "plannedId",
+    "batch",
+    "block",
+    "partId",
+    "topicId",
+    "domain",
+    "requiredLevel",
+    "structure",
+    "scenarioFamilyId",
+    "familyPosition",
+    "decisiveMutationConcept",
+    "trainingEligible",
+    "assessmentEligible"
+  ],
+  "TC-115 Middle realization": "PASS",
+  "TC-122 Middle realization": "PASS",
+  "sourceGrounding": "2/2 PASS",
+  "crossBank": {
+    "productionCases": 100,
+    "comparisons": 200,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "internal": {
+    "plannedScope": "TC-101…TC-125; pairs involving changed rows",
+    "comparisons": 47,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "runtime": "PASS — compiled Swift mapping; engine evidence source-rule parity",
+  "structuralRegression": "PASS",
+  "unknownRuntimeCodes": 0,
+  "newIds": 275,
+  "standalone": 181,
+  "linked": 94,
+  "pairFamilies": 35,
+  "tripletFamilies": 8,
+  "batches": "11×25",
+  "levelDistribution": {
+    "new": {
+      "junior": 42,
+      "middle": 122,
+      "senior": 76,
+      "head": 35
+    },
+    "all300": {
+      "junior": 44,
+      "middle": 143,
+      "senior": 78,
+      "head": 35
+    },
+    "assessment200": {
+      "junior": 32,
+      "middle": 99,
+      "senior": 46,
+      "head": 23
+    }
+  },
+  "headBreadthFeasibility": {
+    "result": "PASS",
+    "breadthDomains": [
+      "finance",
+      "people",
+      "portfolio",
+      "processes",
+      "product",
+      "project",
+      "stakeholders",
+      "technical"
+    ],
+    "breadthMet": true,
+    "headDomainEvidence": 3,
+    "minimumLevelEvidence": 5,
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 1,
+      "delivery": 2,
+      "finance": 5,
+      "people": 7,
+      "portfolio": 7,
+      "processes": 14,
+      "product": 4,
+      "project": 6,
+      "stakeholders": 6,
+      "technical": 17
+    },
+    "eligibleCount": 200,
+    "note": "Capacity feasibility from available eligible metadata; not learner proficiency, not synthetic-response engine test."
+  },
+  "productionUnchanged": true,
+  "protectedInputsUnchanged": true,
+  "fullCasesCreated": 0,
+  "fullCaseSchemaValidation": "NOT_APPLICABLE — blueprint manifest only",
+  "remainingAuthorBlockers": 0,
+  "readyForFocusedQA": true,
+  "frozen": false,
+  "imported": false
+}

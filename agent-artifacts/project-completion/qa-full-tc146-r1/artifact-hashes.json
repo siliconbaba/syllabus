@@ -1,0 +1,16 @@
+{
+  "blind-choice.json": "d5c7139ecbd177892a4380d7794999564a47f7dfcdfdae693ef882fe40292e25",
+  "source-verification.json": "3d7a81345fd8bdef1d88883b5a7f01e7a6df2bbea0f634f030ead29b4087919d",
+  "input-hashes.json": "5b95bb4f8c9b58a75330222bb2b9522ea3b3ac50a2851f9879696c40595a3c29",
+  "surface-78-rule-evidence.json": "a89751eb0902476c7534d0cac48550811f2b844d9642f4a6afa5d2892b29bc20",
+  "blueprint-alignment.json": "2ae9eb949daadeb766cb6dbb5e24b885c2ee8b00b25b5ee33c9b90436b6a7054",
+  "mandatory-dossiers.json": "9b475baa1c87b40330f8629a5e3b7cd1a3d1c6bccc0e5d9f66380522dc588dcf",
+  "screened-universe.json": "31893d0666d5229c890df8a6e459fc28bdb0d36f1b01bb8249d63c8ab6561fcf",
+  "QA-verdict.json": "b6120b6250cf5f33de01d7050f4cb9ae22bd258e568886d31c668fcc72021453",
+  "issues.json": "71b4e5336bf1fc2654cbf12446da5ae6e34ebbaf16983dc448961add2ad4f22b",
+  "decision-evidence.json": "96ba0693726f2a7c4934e711d7c28d060e4f902cb060b2e48307030c815fe5c5",
+  "analog-evidence.json": "93e0a4122dd71e2ec47b33a993b4836f2775e8f192ac5c8e0314072a91022289",
+  "runtime-loader.json": "08c2d82d9e0cbe3db703ca8e4b4321cd538d17556af0f3f9d82352678f8d6b7f",
+  "retrieval.json": "cb6874dc0d43cac1be17889541301a3a2f3df5ddc338ea4023227c6e55dd9f5e",
+  "QA-report.md": "c5ade94af27d48df9017d198536ab05604cd2f2a377061de430e0a7d1296faac"
+}

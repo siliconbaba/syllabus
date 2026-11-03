@@ -1,0 +1,13 @@
+{
+  "input-hashes.json": "bed64207492e3c572946147f1eb9c39a053ac644d472dedcbc53834d156b284e",
+  "families.json": "f49161ed291d79562ca6534f6e8cb3ad954d002c5eeed70b99134b17db2562d2",
+  "mandatory-production-analogs.json": "8810c12ffa7df5ee3df5913ee9c822622648865b08c7cb9bf90589501cba0ba0",
+  "approved-blueprints.json": "d3379b28b11e6d6ba09738cfdc112fbdc793e6355c8c86c66000b9a21fda23ed",
+  "mandatory-planned-analogs.json": "761483451cfcb380179943828507296cb18120755f2db164595c0b9bbc2413f6",
+  "blind-cases.json": "55dbde397fc3cad90120280a81a7719269fc76f0ce1d9a02482cc5781fa6c471",
+  "cases.json": "700396bf04d84a03dcb4b176479a0683a035aeaf2d7693d38179c9c6f01fb39f",
+  "self-qa.json": "fcccadded441cf15c698ebd48251e3e919de558bda238b2c0cd6a2b7883beb8d",
+  "runtime-validation.json": "08c2d82d9e0cbe3db703ca8e4b4321cd538d17556af0f3f9d82352678f8d6b7f",
+  "status.json": "3b36ff29c234732d7adc63681107bb527be293b703d2ef4395902ed99dcc5380",
+  "validation-summary.json": "7049293dd70ccbf0cc73c82eca33b71d80e86c124d9352c6de1aace19aa8aacc"
+}

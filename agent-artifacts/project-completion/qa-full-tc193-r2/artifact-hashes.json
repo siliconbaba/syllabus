@@ -1,0 +1,12 @@
+{
+  "QA-report.md": "89d533c5cc052ecf6d39b24b03d9e3f37d5befd8db0c92efda41712d4dfcd857",
+  "QA-verdict.json": "cd7801dfb83b1d1ab0f2a867d0e1ecd8fda30ec1c3049325dbdb95db17cab442",
+  "blind-choice.json": "dfb19ad51f7fa99cf2704d7adc5606ac30c907bdf4d86fd04ad6e431fbb6b1d5",
+  "delta-identity.json": "6f38bd88d63abdb484fc9c752de7841edf42c8a388ca560d18b37864e0123347",
+  "diff/case-diff.json": "51943c88ec8a58942b5e56b0a332205244843e8b5db54dd246a6af971a0eb9e6",
+  "diff/validation-summary.json": "85281fae37120f9901cf587d0cceb5da50d920d107755c053eacd1bd20c1f22e",
+  "inheritance-hash-check.json": "773b1c784ccd53e612ab682c9279739aece291c712b4c4133f63c948001e31da",
+  "input-hashes.json": "9dba42b2010c7642ec4be791156791ef55bd42d853ec01854f1488535f032b68",
+  "runtime-loader.json": "08c2d82d9e0cbe3db703ca8e4b4321cd538d17556af0f3f9d82352678f8d6b7f",
+  "surface-evidence.json": "5fe1016a3a9836190999880fe44fe8159b2dbf5e1e51f894eb980846fc642103"
+}

@@ -1,0 +1,713 @@
+[
+  {
+    "plannedId": "TC-126",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-127",
+        "retrievalScore": 23.619622,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "бизнес",
+          "версии",
+          "видимости",
+          "выбором",
+          "для",
+          "должен",
+          "задать",
+          "команд",
+          "командами",
+          "между",
+          "нескольких",
+          "общей",
+          "общий",
+          "ограничений",
+          "одинаковая",
+          "одной",
+          "однородности",
+          "отчётностью",
+          "под",
+          "поток",
+          "потребность",
+          "процесса",
+          "работы",
+          "решающий",
+          "руководитель",
+          "способ",
+          "степень",
+          "типа",
+          "факт",
+          "цель",
+          "целью",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-128",
+        "retrievalScore": 23.523626,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "бизнес",
+          "версии",
+          "видимости",
+          "выбором",
+          "для",
+          "должен",
+          "задать",
+          "команд",
+          "командами",
+          "команды",
+          "между",
+          "нескольких",
+          "общей",
+          "ограничений",
+          "одинаковая",
+          "одной",
+          "однородности",
+          "отчётностью",
+          "под",
+          "потребность",
+          "процесса",
+          "работы",
+          "решающий",
+          "руководитель",
+          "способ",
+          "степень",
+          "типа",
+          "факт",
+          "цель",
+          "целью",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-242",
+        "retrievalScore": 19.21653,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "команды",
+          "одной",
+          "поток"
+        ]
+      },
+      {
+        "id": "TC-215",
+        "retrievalScore": 16.112495,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis"
+        ],
+        "sharedTerms": [
+          "версии",
+          "команды"
+        ]
+      },
+      {
+        "id": "TC-296",
+        "retrievalScore": 14.102535,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "процесс"
+        ]
+      },
+      {
+        "id": "TC-266",
+        "retrievalScore": 13.099032,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "набор"
+        ]
+      },
+      {
+        "id": "TC-223",
+        "retrievalScore": 11.0,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-114",
+        "retrievalScore": 10.267374,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "между",
+          "общий",
+          "одной",
+          "факт"
+        ]
+      },
+      {
+        "id": "TC-249",
+        "retrievalScore": 9.045746,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "для"
+        ]
+      },
+      {
+        "id": "TC-250",
+        "retrievalScore": 9.0,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": []
+      }
+    ],
+    "safetyAdded": [
+      "TC-114",
+      "TC-223",
+      "TC-249",
+      "TC-250",
+      "TC-266"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-127",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-126",
+        "retrievalScore": 23.452412,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "бизнес",
+          "версии",
+          "видимости",
+          "выбором",
+          "для",
+          "должен",
+          "задать",
+          "команд",
+          "командами",
+          "между",
+          "нескольких",
+          "общей",
+          "общий",
+          "ограничений",
+          "одинаковая",
+          "одной",
+          "однородности",
+          "отчётностью",
+          "под",
+          "поток",
+          "потребность",
+          "процесса",
+          "работы",
+          "решающий",
+          "руководитель",
+          "способ",
+          "степень",
+          "типа",
+          "факт",
+          "цель",
+          "целью",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-128",
+        "retrievalScore": 23.399292,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "бизнес",
+          "версии",
+          "видимости",
+          "выбором",
+          "для",
+          "должен",
+          "задать",
+          "команд",
+          "командами",
+          "между",
+          "нескольких",
+          "общей",
+          "ограничений",
+          "одинаковая",
+          "одной",
+          "однородности",
+          "отчётностью",
+          "под",
+          "потребность",
+          "процесса",
+          "работы",
+          "разные",
+          "решающий",
+          "руководитель",
+          "способ",
+          "степень",
+          "типа",
+          "факт",
+          "цель",
+          "целью",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-242",
+        "retrievalScore": 19.149589,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "одной",
+          "поток"
+        ]
+      },
+      {
+        "id": "TC-215",
+        "retrievalScore": 16.11869,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis"
+        ],
+        "sharedTerms": [
+          "версии",
+          "часть"
+        ]
+      },
+      {
+        "id": "TC-296",
+        "retrievalScore": 14.126214,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "есть",
+          "часть"
+        ]
+      },
+      {
+        "id": "TC-266",
+        "retrievalScore": 13.075122,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "получает"
+        ]
+      },
+      {
+        "id": "TC-223",
+        "retrievalScore": 11.0,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-114",
+        "retrievalScore": 10.250307,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "между",
+          "общий",
+          "одной",
+          "факт"
+        ]
+      },
+      {
+        "id": "TC-249",
+        "retrievalScore": 9.177667,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "для",
+          "есть",
+          "получает"
+        ]
+      },
+      {
+        "id": "TC-250",
+        "retrievalScore": 9.0,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": []
+      }
+    ],
+    "safetyAdded": [
+      "TC-114",
+      "TC-223",
+      "TC-249",
+      "TC-250",
+      "TC-266"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-128",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-127",
+        "retrievalScore": 23.349307,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "бизнес",
+          "версии",
+          "видимости",
+          "выбором",
+          "для",
+          "должен",
+          "задать",
+          "команд",
+          "командами",
+          "между",
+          "нескольких",
+          "общей",
+          "ограничений",
+          "одинаковая",
+          "одной",
+          "однородности",
+          "отчётностью",
+          "под",
+          "потребность",
+          "процесса",
+          "работы",
+          "разные",
+          "решающий",
+          "руководитель",
+          "способ",
+          "степень",
+          "типа",
+          "факт",
+          "цель",
+          "целью",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-126",
+        "retrievalScore": 23.313323,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "бизнес",
+          "версии",
+          "видимости",
+          "выбором",
+          "для",
+          "должен",
+          "задать",
+          "команд",
+          "командами",
+          "команды",
+          "между",
+          "нескольких",
+          "общей",
+          "ограничений",
+          "одинаковая",
+          "одной",
+          "однородности",
+          "отчётностью",
+          "под",
+          "потребность",
+          "процесса",
+          "работы",
+          "решающий",
+          "руководитель",
+          "способ",
+          "степень",
+          "типа",
+          "факт",
+          "цель",
+          "целью",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-242",
+        "retrievalScore": 19.164956,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "команды",
+          "одной",
+          "только"
+        ]
+      },
+      {
+        "id": "TC-215",
+        "retrievalScore": 16.215137,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis"
+        ],
+        "sharedTerms": [
+          "версии",
+          "команды",
+          "отдельно",
+          "только"
+        ]
+      },
+      {
+        "id": "TC-296",
+        "retrievalScore": 14.0,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-266",
+        "retrievalScore": 13.04602,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "только"
+        ]
+      },
+      {
+        "id": "TC-223",
+        "retrievalScore": 11.0,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-114",
+        "retrievalScore": 10.230652,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "между",
+          "одной",
+          "только",
+          "факт"
+        ]
+      },
+      {
+        "id": "TC-250",
+        "retrievalScore": 9.04602,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "только"
+        ]
+      },
+      {
+        "id": "TC-249",
+        "retrievalScore": 9.041934,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "для"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-114",
+      "TC-223",
+      "TC-249",
+      "TC-250",
+      "TC-266"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

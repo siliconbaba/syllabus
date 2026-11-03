@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "structural": "PASS",
+  "schema": "NOT_APPLICABLE",
+  "runtime": "PASS",
+  "families": "PASS",
+  "unexpectedChanges": 0,
+  "surface": {
+    "status": "NOT_RUN"
+  },
+  "issues": [],
+  "authoringReadiness": "BLOCKED",
+  "sourceTopics": 16,
+  "plannedRows": 25,
+  "shortlistCoverage": 25,
+  "averageAnalogs": 7.0,
+  "sameTopicPatternSafety": "PASS",
+  "authoringStarted": false,
+  "semanticQA": "NOT_RUN"
+}

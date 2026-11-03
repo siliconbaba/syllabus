@@ -1,0 +1,26 @@
+{
+  "status": "SCOPE LOCKED BEFORE REDESIGN",
+  "base": "v2.3-hardtail-r1-candidate",
+  "originalCategoryA": [
+    "TC-214",
+    "TC-217",
+    "TC-261",
+    "TC-270",
+    "TC-275",
+    "TC-292"
+  ],
+  "accepted": [
+    "TC-214",
+    "TC-261"
+  ],
+  "rerouted": [
+    "TC-292"
+  ],
+  "selected": [
+    "TC-217",
+    "TC-270",
+    "TC-275"
+  ],
+  "scopeExpansionAllowed": false,
+  "familyChangesAllowed": false
+}

@@ -1,0 +1,150 @@
+[
+  {
+    "plannedId": "TC-200",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-057",
+        "retrievalScore": 11.417122,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "expectation-management"
+        ],
+        "sharedTerms": [
+          "владельцами",
+          "готов",
+          "для",
+          "ещё",
+          "или",
+          "команды",
+          "обсудить",
+          "после",
+          "прогноза",
+          "работы",
+          "решение",
+          "решения",
+          "сдвиг",
+          "сообщения",
+          "спонсор",
+          "спонсору",
+          "статуса"
+        ]
+      },
+      {
+        "id": "TC-056",
+        "retrievalScore": 11.403804,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "expectation-management"
+        ],
+        "sharedTerms": [
+          "готов",
+          "для",
+          "ещё",
+          "или",
+          "команды",
+          "обсудить",
+          "после",
+          "прогноза",
+          "работы",
+          "решение",
+          "решения",
+          "сдвиг",
+          "сообщения",
+          "спонсор",
+          "спонсору",
+          "статуса",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-015",
+        "retrievalScore": 11.152521,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "expectation-management"
+        ],
+        "sharedTerms": [
+          "ещё",
+          "команды",
+          "одна",
+          "сообщение",
+          "спонсор",
+          "спонсору"
+        ]
+      },
+      {
+        "id": "TC-040",
+        "retrievalScore": 5.196963,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "есть",
+          "необходимость",
+          "порядок",
+          "работ",
+          "решения",
+          "спонсор",
+          "спонсором"
+        ]
+      },
+      {
+        "id": "TC-071",
+        "retrievalScore": 5.17685,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "есть",
+          "общий",
+          "подтверждён",
+          "работы",
+          "решение",
+          "спонсор",
+          "требуется",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-096",
+        "retrievalScore": 3.228772,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "готов",
+          "два",
+          "для",
+          "доступен",
+          "ещё",
+          "общего",
+          "общей",
+          "общий",
+          "работы",
+          "решения"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

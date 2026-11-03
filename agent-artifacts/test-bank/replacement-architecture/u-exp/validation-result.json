@@ -1,0 +1,41 @@
+{
+  "status": "PASS — architecture-only",
+  "manifestChanged": false,
+  "manifestCandidateCreated": false,
+  "productionChanged": false,
+  "originalPlanAndDeltaUnchanged": true,
+  "other70UnresolvedUnchanged": true,
+  "runtimeSourceReferenceMatch": true,
+  "unknownCandidateCodes": 0,
+  "sourceFreshExtract": true,
+  "mandatoryExclusionsReviewed": [
+    "TC-024",
+    "TC-031",
+    "TC-032",
+    "TC-094",
+    "TC-164",
+    "TC-195",
+    "TC-248",
+    "TC-259",
+    "TC-260",
+    "TC-261",
+    "TC-295"
+  ],
+  "survivorRetrievalCoverage": "PASS",
+  "candidateCounts": {
+    "TC-221": 2,
+    "TC-263": 2
+  },
+  "selected": [
+    "263-A"
+  ],
+  "authoringScope": [
+    "TC-263"
+  ],
+  "crossRowSeparation": "NOT_APPLICABLE — one selected",
+  "remainingUnresolved": 72,
+  "noFinalManifestFieldsAuthored": true,
+  "independentQA": "NOT_RUN",
+  "fullCaseValidator": "NOT_APPLICABLE",
+  "inputFilesVerified": 954
+}

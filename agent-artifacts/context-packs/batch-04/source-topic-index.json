@@ -1,0 +1,98 @@
+[
+  {
+    "topicId": "t-10-1",
+    "title": "10.1 Архитектурная база: клиент-сервер, API (REST/gRPC), базы данных (SQL/NoSQL), кэши, очереди, балансировка",
+    "characters": 20404,
+    "textSha256": "7936b08805dc1b592a8f26b5c4eb0e1f67081c16f4999a559cee5ae84347eafd"
+  },
+  {
+    "topicId": "t-10-4",
+    "title": "10.4 Наблюдаемость: логи, метрики, трейсы, алерты. Что менеджер должен видеть на дашборде",
+    "characters": 17312,
+    "textSha256": "163218eb85769594e9189768a2647afd139d5ed5e96c85d93193f27c6eb57ab8"
+  },
+  {
+    "topicId": "t-10-6",
+    "title": "10.6 Инциденты: роли при инциденте, коммуникации, постмортем без поиска виноватых, action items",
+    "characters": 20103,
+    "textSha256": "1a7353a130cdace9dbba36502ac2aa1de20882599f0aab51875789e7612b2153"
+  },
+  {
+    "topicId": "t-10-7",
+    "title": "10.7 Информационная безопасность и комплаенс: персональные данные, доступы, secure SDLC, что PM должен учитывать в плане",
+    "characters": 19798,
+    "textSha256": "f90c87bdc194ba5ae412d414b510532fe9b5a2d0dcef1ecde91f863925181f7d"
+  },
+  {
+    "topicId": "t-2-6",
+    "title": "2.6 Управление рисками: реестр, вероятность × влияние, стратегии реагирования, риск-аппетит, early warning indicators",
+    "characters": 20560,
+    "textSha256": "e7007505639a091fbd953577473908305dff41ff6fabee363baee88b7c89576f"
+  },
+  {
+    "topicId": "t-3-2",
+    "title": "3.2 Quality Gates: что это, как проектировать критерии, как внедрять без остановки поставки",
+    "characters": 19774,
+    "textSha256": "f690270b667fc03c12c39eb7ad80a58bf086534f26bc5559bb55f23cf5edafe1"
+  },
+  {
+    "topicId": "t-3-3",
+    "title": "3.3 Релизные стратегии: релизные поезда, continuous delivery, feature flags, canary, blue-green, dark launch, rollback-планы",
+    "characters": 20819,
+    "textSha256": "f7ca83211e333038aea33b4e6ed0ad3e19ebe1e75c6e3dac15eb1c14c8b6871a"
+  },
+  {
+    "topicId": "t-3-7",
+    "title": "3.7 Flow-метрики: lead time, cycle time, throughput, WIP, диаграмма накопительного потока (CFD)",
+    "characters": 20467,
+    "textSha256": "0c40a549a34b144a697276ffef7b2819cfdf8336a86f47b952ad6091af10afa6"
+  },
+  {
+    "topicId": "t-4-3",
+    "title": "4.3 Масштабирование: SAFe, LeSS, Spotify-модель, что из этого реально работает",
+    "characters": 18377,
+    "textSha256": "3515ea93176c15a02c19590a0c58be5c1be3e6ee29fec96449b6a4750703a67e"
+  },
+  {
+    "topicId": "t-6-1",
+    "title": "6.1 Карта стейкхолдеров: власть × интерес, стратегии работы с каждым квадрантом",
+    "characters": 15884,
+    "textSha256": "eeab5e76625e545560247b7cbabdf675e89baed6ec4e94ba49f23f56c6aef380"
+  },
+  {
+    "topicId": "t-6-6",
+    "title": "6.6 Переговоры: BATNA, интересы vs позиции, гарвардский метод, переговоры о ресурсах и сроках",
+    "characters": 16734,
+    "textSha256": "df182d9dd04b2b0e526dedbb9c55a68818e2171a756c7e0c887ff13d10286175"
+  },
+  {
+    "topicId": "t-7-4",
+    "title": "7.4 1:1, мотивация, карьерные треки, удержание сильных",
+    "characters": 15816,
+    "textSha256": "c9b429c404129cec0dad99edf72e90f0e68b61225f2f89d68c92af33b0af4aff"
+  },
+  {
+    "topicId": "t-7-6",
+    "title": "7.6 Работа с низкой производительностью: PIP, честный разговор, увольнение. Юридические и HR-рамки",
+    "characters": 18378,
+    "textSha256": "330c080d0102baad3fc0a7e72c0394ebaaf107fe96eac685594fccba9fec2980"
+  },
+  {
+    "topicId": "t-8-1",
+    "title": "8.1 Бизнес-кейс и обоснование проекта: ROI, NPV, payback, unit-экономика на уровне менеджера",
+    "characters": 20001,
+    "textSha256": "a0c7b0c973f56e9832e09ba4d6e9eaec7bc0853c6850425d0af67e52ce6d953e"
+  },
+  {
+    "topicId": "t-8-2",
+    "title": "8.2 Бюджетирование: CapEx / OpEx, TCO, план-факт, резервы",
+    "characters": 19673,
+    "textSha256": "75ec091caafb24c88058befd214fdd1f7e4248ae27ef6456b09be0494374979f"
+  },
+  {
+    "topicId": "t-9-3",
+    "title": "9.3 Приоритизация портфеля: WSJF, RICE, стоимость задержки, стратегическое соответствие",
+    "characters": 19998,
+    "textSha256": "27333b9bd45cb7ba14783dd26a3d61704fae08c6037c7ffe39259693f0dee2e7"
+  }
+]

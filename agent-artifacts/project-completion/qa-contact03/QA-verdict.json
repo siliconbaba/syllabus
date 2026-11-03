@@ -1,0 +1,74 @@
+{
+  "status": "FIX REQUIRED",
+  "scope": "Independent content QA, R1 only; no freeze/import",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-stakeholders-02/cases.json",
+  "candidateSHA256": "e01f221445cb51a82edb6a534c26265069140783925386ca79962d3c57aa6e0c",
+  "acceptedCaseIDs": [
+    "TC-112"
+  ],
+  "remainingCaseIDs": [
+    "TC-113",
+    "TC-216"
+  ],
+  "cases": {
+    "TC-112": {
+      "status": "ACCEPTED",
+      "key": "B",
+      "reason": "Customer owns audience and promise, common server work continues. A retains audience and desired self-service but usurps decision; C narrows both audience and mode; D leaves the promise ambiguous. Middle trade-off."
+    },
+    "TC-113": {
+      "status": "FIX REQUIRED",
+      "key": "D",
+      "reason": "Only D preserves chosen growth, reserved opening and full transfer. C loses overlap, B risks vacancy, A leaves known driver untouched. Middle."
+    },
+    "TC-216": {
+      "status": "FIX REQUIRED",
+      "key": "A",
+      "reason": "A alone satisfies the two formal submissions, weekly sponsor/urgent trigger and per-shift operator responses. Junior direct application."
+    }
+  },
+  "gates": {
+    "blind": "PASS 3/3; original choices in blind-choices.json",
+    "schema": "PASS",
+    "runtime": "PASS; exact bytes, runtime-loader.json",
+    "source": "PASS; full 6.1/7.4, corroboration from 6.2",
+    "level": "PASS",
+    "family": "NOT_APPLICABLE; standalone",
+    "duplication": "PASS; roles/decision rhythms vs conditional promises vs career transfer. TC040/071 governance and incentives, TC081/082 diagnosis and autonomy, TC200 communication after a known slip, TC272 communicating a settled queue decision. No duplicate decision.",
+    "surface": "PASS; keys B/D/A, longest correct 2/3, no repeated option. No reliable semantic shortcut.",
+    "partialScoringAndWholeOptionWhen": "FIX REQUIRED"
+  },
+  "issues": [
+    {
+      "id": "113-B-WHEN",
+      "case": "TC-113",
+      "field": "options.B.whenItWouldBeBest",
+      "severity": "major",
+      "evidence": "A successor starting inside four weeks does not ensure the four-week handover finishes inside them. With no deputy a late start loses the receiving slot or leaves obligations uncovered.",
+      "fix": "Require a confirmed start AND completed safe handover within the reserved transfer window."
+    },
+    {
+      "id": "216-C-WHEN",
+      "case": "TC-216",
+      "field": "options.C.whenItWouldBeBest",
+      "severity": "major",
+      "evidence": "Daily collection alone does not answer operators by their next shift. Daily contact as a need does not establish that collection suffices.",
+      "fix": "Specify that the manager only collects daily, with an independent owner answering before the next shift, or that no reply is needed."
+    },
+    {
+      "id": "216-BD-DQ",
+      "case": "TC-216",
+      "field": "options.B/D.decisionQuality",
+      "severity": "major",
+      "evidence": "Compared with weekly B, monthly D further delays the explicit recurring operator need but protects the sponsor urgent alert. No priority or impact given to rank the competing harms.",
+      "fix": "Give B and D equal partial credit, or ground a strict order in the stated consequences."
+    }
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 3,
+    "minor": 0
+  },
+  "retest": "Focused delta and loader on revised bytes, TC-113 B and TC-216 C plus B/D scores and any dependent explanations. Preserve TC-112 by identity.",
+  "importEligible": false
+}

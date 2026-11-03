@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "verdict": "PASS",
+  "scope": "Independent focused content QA of five standalone cases",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+  "candidateSHA256": "611779a56b740371f21655056b0e87deb538af1836fe8bd7c9651e8c450885cf",
+  "manifestSHA256": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+  "inheritance": {
+    "verdictPath": "agent-artifacts/project-completion/qa-b05-five/QA-verdict.json",
+    "verdictSHA256": "5aba0d97edccae04a20ee89c3eae63219dabd4bc0039b061252661fd515a2475",
+    "priorCandidateSHA256": "4e8602d0300b8a5b2769c345ee469048b0e3bd5ca524e2b1ab2fa00f0ebff8ab",
+    "scope": "Exact raw diff: TC-147/149 unchanged, three revision bumps and four WHEN changes only. Stem, answer text, score, keys, source traces and eligibility unchanged."
+  },
+  "acceptedCaseIDs": [
+    "TC-144",
+    "TC-147",
+    "TC-148",
+    "TC-149",
+    "TC-150"
+  ],
+  "resolvedIssues": {
+    "Q144-A": "Short bounded outages, isolated process wait, concurrent payments continue, notification loss after process death acceptable.",
+    "Q148-B": "60 productive hours at price 35 yields 25 vs 20 for small. Forty idle hours generate zero value.",
+    "Q150-A": "Physical table sharing with disjoint write ownership, schema compatibility and independent builds permits extraction.",
+    "Q150-C": "Existing coordinated, compatible data changes and demand for a predictable commissions slot support the entire action."
+  },
+  "gates": {
+    "blind": "B/D/A/C/B and independently ranked next options D/B/B/B/C align with keys and DQ.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "sourceAndLevel": "144 §10.1 Middle trade-off on payment availability, durable intent and latency; 147 §7.7 Head authority/capacity/organizational span; 148 §8.1 Middle realizable benefit minus cost; 149 §10.7 Head durable purpose-at-design rule across products with exception capacity; 150 §3.5 Senior anticipates distributed coupling and tests logical independence.",
+    "C04": "Five exact classification and eligibility projections; core strategies and facts align.",
+    "duplication": "No identical context or option across five, underlying production and sampled accepted batch cases. 079/080 response semantics vs 144 durable send intent. 041/097 individual delegation/coaching vs 147 new line authority. 042 forecast horizon vs 148 productive redeployment cap. 125/140 security authority vs 149 upstream purpose minimization. 048 shared schema migration vs 150 proving new ownership boundary before extraction.",
+    "wholeOptionWhen": "PASS",
+    "surface": "No change to blind surface or choices.",
+    "remainingGateNotes": "Top two numeric and qualitative rankings remain consistent. TC-147/149 retain byte-identical approved objects."
+  },
+  "issues": [],
+  "remainingIssueIDs": [],
+  "remainingCaseIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "importEligible": false,
+  "readyToFreeze": false,
+  "importScope": "Content acceptance only. Integration and manifest freeze separate."
+}

@@ -1,0 +1,19 @@
+{
+  "agent-artifacts/manifests/v2.3-hardtail-r1-candidate/production_manifest_masterplan_v2_3_hardtail_r1_candidate.json": "5498924e75926d6c315ea54aa4b9456ada0ac9237fe143c8f7404b24c1461d75",
+  "agent-artifacts/manifests/v2.3-hardtail-r2-candidate/production_manifest_masterplan_v2_3_hardtail_r2_candidate.json": "820f6e0db2273f8d815952f8919d962cb6c8cb534fafa44fc81e777d0e331f2e",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+  "agent-artifacts/qa/manifest-v2.3-hardtail-r1/QA-verdict.json": "5d49ab3c2b33005cfa13b6c03ebfe00b09357c1161d2f03fe632527c2a3d8f13",
+  "agent-artifacts/manifests/v2.3-hardtail-r2-candidate/rejected-drafts.json": "fecf13af3e919517f7e2496239fd045602082fa5460c1f7ef971564f9da70e6f",
+  "agent-artifacts/manifests/v2.3-hardtail-r2-candidate/artifact-hashes.json": "52456ca07c1e1f560717298f3be4d545551a55dc1af18d014c5e27c593e44700",
+  "agent-artifacts/manifests/v2.3-hardtail-r1-candidate/artifact-hashes.json": "9d1eb2dc69c99ed6e89eb8a3922ad81e0620afb0de7cf4b28761a9f7edb43231",
+  "agent-artifacts/test-bank/hard-tail-triage/hard-tail-triage.csv": "ca0832c886b31c64267148f8d8ddc4421d00b20fcb3cbd809f6e2cfa5ee3fd50",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+  "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+  "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+  "agent-artifacts/qa/manifest-v2.3-hardtail-r1/issues.json": "8660d6b7caafce71102e0ac3b4f0a6f3dd95923a53b8bd1ff2a4d1f77a66b89a"
+}

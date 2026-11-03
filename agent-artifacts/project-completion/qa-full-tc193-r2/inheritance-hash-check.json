@@ -1,0 +1,82 @@
+{
+  "agent-artifacts/test-bank/full-cases/tc193-r1/cases.json": {
+    "expected": "d7593d34b5a3ffc1704e0a8f519a92cd3091864e83664cc280b39cde7b537304",
+    "actual": "d7593d34b5a3ffc1704e0a8f519a92cd3091864e83664cc280b39cde7b537304",
+    "matches": true
+  },
+  "agent-artifacts/test-bank/full-cases/tc193-r1/blind-case.json": {
+    "expected": "0882dde78a3019e2aab57e6e93cc72961a4aa5c7165a4f8e523cd0536fac56ea",
+    "actual": "0882dde78a3019e2aab57e6e93cc72961a4aa5c7165a4f8e523cd0536fac56ea",
+    "matches": true
+  },
+  "agent-artifacts/test-bank/reconstruction/tc193-r1/source-t-7-3.txt": {
+    "expected": "4681158a431127060c644d0aa619a50d38be62f3ebd52b59849d7ce395c88ae9",
+    "actual": "4681158a431127060c644d0aa619a50d38be62f3ebd52b59849d7ce395c88ae9",
+    "matches": true
+  },
+  "agent-artifacts/test-bank/reconstruction/tc193-r2/proposed-manifest-row.json": {
+    "expected": "8355e52e144c59fe36aa5ae32fcc376864632e423718088c47e0a803d3e146fc",
+    "actual": "8355e52e144c59fe36aa5ae32fcc376864632e423718088c47e0a803d3e146fc",
+    "matches": true
+  },
+  "agent-artifacts/project-completion/qa-tc193-r2/QA-verdict.json": {
+    "expected": "d894b401f79073c73244128b6fa66cb7f0a0676b31922043baf067306a52df9e",
+    "actual": "d894b401f79073c73244128b6fa66cb7f0a0676b31922043baf067306a52df9e",
+    "matches": true
+  },
+  "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/production_manifest_masterplan_v2_3_hardtail_b2_candidate.json": {
+    "expected": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced",
+    "actual": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced",
+    "matches": true
+  },
+  "InteractiveBook/TrainerContent/cases.json": {
+    "expected": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "actual": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "matches": true
+  },
+  "InteractiveBook/TrainerContent/topics.json": {
+    "expected": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+    "actual": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+    "matches": true
+  },
+  "InteractiveBook/WebContent/index.html": {
+    "expected": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "actual": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "matches": true
+  },
+  "InteractiveBook/Trainer/TrainerModels.swift": {
+    "expected": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+    "actual": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+    "matches": true
+  },
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": {
+    "expected": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "actual": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "matches": true
+  },
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": {
+    "expected": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+    "actual": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+    "matches": true
+  },
+  "agent-artifacts/pipeline-tools/RuntimeProbe.swift": {
+    "expected": "19222afc80f2a0f2dacac5d6ad786ccdc26512d767fd652db9cdc8f71e60ff00",
+    "actual": "19222afc80f2a0f2dacac5d6ad786ccdc26512d767fd652db9cdc8f71e60ff00",
+    "matches": true
+  },
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": {
+    "expected": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+    "actual": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+    "matches": true
+  },
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": {
+    "expected": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+    "actual": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+    "matches": true
+  },
+  "docs/TRAINER-CONTENT-SCHEMA.md": {
+    "expected": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+    "actual": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+    "matches": true
+  }
+}

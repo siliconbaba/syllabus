@@ -1,0 +1,237 @@
+{
+  "scenarioFamilyId": "F-TD-P03",
+  "verdict": "PASS",
+  "members": [
+    "TC-253",
+    "TC-254"
+  ],
+  "sameTopicDomainRequiredLevel": "PASS",
+  "sharedBaseScenario": "PASS",
+  "literalStateReplacementEquals": true,
+  "factsConstant": "PASS",
+  "constantFactCount": 3,
+  "singleLogicalVariable": "PASS",
+  "variable": "Входит ли резервируемое время внутреннего reviewer в действующую мощность следующей обязательной проверки: общий ресурс или независимый резерв.",
+  "stateByMember": {
+    "TC-253": "Два дня внутреннего кандидата уже включены в мощность следующей обязательной проверки; это тот же человек, а не независимый резерв.",
+    "TC-254": "Два дня внутреннего кандидата выделены из отдельного резерва и не входят в мощность следующей обязательной проверки; замещение на ней не требуется."
+  },
+  "decisionBoundaryByState": {
+    "TC-253": "Купить внешний резерв и согласовать вход 12: внутреннее усиление ревью переносит ограничение на следующую стадию, поэтому его низкая цена назначения не означает меньшей цены поставки; сохранение входа 10 допустимо, но дороже внешнего резерва по полным последствиям.",
+    "TC-254": "Выделить внутренний резерв, ограничив вход 10 в первую неделю подготовки и 12 в следующие три: принять цену двух отсрочек вместо премии за немедленную внешнюю мощность, сохранив пропускную способность следующей стадии."
+  },
+  "meaningfulStrongestFlip": "PASS",
+  "twoMeaningfulStates": true,
+  "realBoundary": "Внутренняя помощь снимает или переносит ограничение полного маршрута в зависимости от общей downstream-ёмкости.",
+  "distinctStrongestStrategies": [
+    "external-capacity-preserve-downstream",
+    "independent-internal-capacity-accept-onboarding-deferral"
+  ],
+  "independentEconomics": {
+    "TC-253": {
+      "limited-entry": {
+        "reviewCapacity": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "downstreamCapacity": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "completedByWeek": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "deferredByWeek": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "assignmentCostThousands": 0,
+        "deferredCostThousands": 160,
+        "totalCostThousands": 160
+      },
+      "internal": {
+        "reviewCapacity": [
+          10,
+          12,
+          12,
+          12
+        ],
+        "downstreamCapacity": [
+          12,
+          8,
+          8,
+          8
+        ],
+        "completedByWeek": [
+          10,
+          8,
+          8,
+          8
+        ],
+        "deferredByWeek": [
+          2,
+          4,
+          4,
+          4
+        ],
+        "assignmentCostThousands": 40,
+        "deferredCostThousands": 280,
+        "totalCostThousands": 320
+      },
+      "external": {
+        "reviewCapacity": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "downstreamCapacity": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "completedByWeek": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "deferredByWeek": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "assignmentCostThousands": 120,
+        "deferredCostThousands": 0,
+        "totalCostThousands": 120
+      }
+    },
+    "TC-254": {
+      "limited-entry": {
+        "reviewCapacity": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "downstreamCapacity": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "completedByWeek": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "deferredByWeek": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "assignmentCostThousands": 0,
+        "deferredCostThousands": 160,
+        "totalCostThousands": 160
+      },
+      "internal": {
+        "reviewCapacity": [
+          10,
+          12,
+          12,
+          12
+        ],
+        "downstreamCapacity": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "completedByWeek": [
+          10,
+          12,
+          12,
+          12
+        ],
+        "deferredByWeek": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "assignmentCostThousands": 40,
+        "deferredCostThousands": 40,
+        "totalCostThousands": 80
+      },
+      "external": {
+        "reviewCapacity": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "downstreamCapacity": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "completedByWeek": [
+          12,
+          12,
+          12,
+          12
+        ],
+        "deferredByWeek": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "assignmentCostThousands": 120,
+        "deferredCostThousands": 0,
+        "totalCostThousands": 120
+      }
+    }
+  },
+  "sourceAxisGrounding": {
+    "status": "PASS",
+    "topic": "t-3-7",
+    "sharedMechanism": "Завершение потока ограничено узким местом; скорость отдельной стадии не равна throughput всего потока.",
+    "stateTransition": "Передача общего специалиста повышает review и снижает следующую стадию; независимая capacity следующую стадию не забирает. Это заданное применение источникового смещения bottleneck, не новая статистическая норма.",
+    "decisionFlip": "Внешний резерв требуется при вреде downstream; независимая внутренняя помощь достаточна и дешевле с учётом подготовки. Цены выбирают среди source-supported допустимых способов управления входом/мощностью."
+  },
+  "hiddenCoMutation": false,
+  "memberArtificialWeakening": false,
+  "trainingOnly": true,
+  "F_PE_T01": {
+    "unchanged": true,
+    "unresolvedMembers": [
+      "TC-176",
+      "TC-177",
+      "TC-178"
+    ],
+    "sameFamilyRemediationMethodLikelyUseful": false,
+    "blockingFactors": [
+      "family axis",
+      "level architecture",
+      "semantic crowding"
+    ],
+    "sourceSupport": "adequate for workload/capacity management; not a proof of three independent strategies",
+    "reason": "Нынешние42/50/60 вместе с2+8 дают заранее заданную лестницу действий. Перенос плюс снятие шума — вложенная стратегия, не самостоятельная Middle-развилка; вариант с ресурсом/отсрочкой уже близок к288, временный/устойчивый спрос — к106/107. Нужен routing-review оси/архитектуры уровня до очередного одинакового прохода, не изменение чисел. Это не утверждение невозможности любой иной семьи в теме.",
+    "scope": "routing diagnosis only; no new substantive acceptance/failure assigned; no redesign"
+  }
+}

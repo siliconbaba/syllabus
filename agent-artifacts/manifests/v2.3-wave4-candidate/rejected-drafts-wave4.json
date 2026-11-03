@@ -1,0 +1,10 @@
+{
+  "F-BV-P04": {
+    "ids": [
+      "TC-232",
+      "TC-233"
+    ],
+    "attempt": "Этапная покупка portability и приёмка передачи знаний при разной цене lock-in",
+    "failure": "Senior не доказан для low-lock-in; high-lock-in сохраняет TC-073 boundary. Не импортировано в manifest."
+  }
+}

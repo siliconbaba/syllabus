@@ -1,0 +1,12 @@
+{
+  "runtime-reproduced.json": "99f92fd4672c6fd140faa1e4e873ced9a333a5e60ce880c9c5361a08d3cfa438",
+  "coverage-reproduced.json": "aeba840a90e31d89fd337b2a7f3ca0dbd4b30a4a4136af882aad5e804fd172c4",
+  "QA-verdict.json": "62766701eb11835e075f875b06c543115137ecea97eb802eb5897d482926aa88",
+  "review-input-hashes.json": "481b7188f721c2fcad2af0bf7f5017284bdd73a0bd92dee49ade42a358b82fa2",
+  "structural-evidence.json": "4699da67e39627d7112f8cea3d9c25097376225e5fc1886dfef4522b679e7a0e",
+  "coverage-delta-evidence.json": "2e5bc1ef4101ec9e55db2c4a0921775d99f734e05ec90df39df736c307c53e5e",
+  "baseline-runtime-input.json": "7259c9bc7517ad0713ff2e60912436bd1b1fbf8b20ebc6f5358fac75d6083b40",
+  "audit-coverage.py": "13bce7d6e300cff2f92bd762dbd069acc43a4d29e8ebe2d8768784977d5a3fe4",
+  "audit-structural.py": "15a9d4d39b9a34333096981f3dd23caab05a4098315af7de8ea4e12f2453c566",
+  "QA-report.md": "f54fbf5d4edd3033a49872693339ac63248a04418f16a5c751ddf0f5db578950"
+}

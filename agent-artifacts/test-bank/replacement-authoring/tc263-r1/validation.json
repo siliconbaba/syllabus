@@ -1,0 +1,36 @@
+{
+  "scope": "isolated manifest-row proposal, not full case or accepted cumulative candidate",
+  "protectedFieldsUnchanged": [
+    "plannedId",
+    "batch",
+    "block",
+    "partId",
+    "topicId",
+    "domain",
+    "requiredLevel",
+    "structure",
+    "scenarioFamilyId",
+    "familyPosition",
+    "decisiveMutationConcept",
+    "trainingEligible",
+    "assessmentEligible",
+    "futureContextSensitivityCandidate"
+  ],
+  "changedFields": [
+    "oneSentenceScenarioConcept",
+    "decisiveFactsConcept",
+    "oneSentenceDecisionBoundary",
+    "primaryPattern",
+    "secondaryPatterns",
+    "whyLevel",
+    "derivedRuntimeSecondaryThinking",
+    "sourceTopicExplanation"
+  ],
+  "productionChanged": false,
+  "acceptedManifestChanged": false,
+  "remainingUnresolved": 72,
+  "independentQA": "NOT_RUN",
+  "importEligible": false,
+  "schemaKeysPreserved": false,
+  "selfReview": "see review.md; semantic/level claims are provisional"
+}

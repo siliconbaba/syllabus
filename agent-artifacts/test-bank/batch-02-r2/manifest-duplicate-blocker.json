@@ -1,0 +1,40 @@
+{
+  "status": "UNRESOLVED: manifest-level duplicate",
+  "frozenConcept": "p=0.03 on day 9 of precommitted 14; sample almost complete; no early-success rule; decide whether to stop",
+  "frozenBoundary": "Первая значимость ↔ соблюдение заранее утверждённого протокола.",
+  "frozenLevel": "junior",
+  "TC024Tests": "Do not stop for intermediate significance or invent a post-hoc stop rule; preserve the precommitted final reading and related product decision.",
+  "TC075Tests": "Do not stop for intermediate significance or invent a post-hoc stop rule; preserve the precommitted final reading.",
+  "invariantFacts": [
+    "14 days precommitted",
+    "day 9",
+    "p=0.03",
+    "almost complete sample",
+    "no early-success rule"
+  ],
+  "sameStrongestReasoning": "Intermediate significance is not authorization to stop before the precommitted protocol.",
+  "rejectedWorkarounds": [
+    {
+      "idea": "change numbers, product, wording or distractors",
+      "whyRejected": "Leaves the same decisive fact and strongest reasoning; cosmetic duplicate."
+    },
+    {
+      "idea": "add an early-success rule",
+      "whyRejected": "Contradicts frozen absence of early-stop and changes the decisive boundary."
+    },
+    {
+      "idea": "stop because guardrail failed or validity broke",
+      "whyRejected": "Replaces peeking/protocol boundary with safety or test-validity boundary."
+    },
+    {
+      "idea": "test sequential methods, multiple comparisons or post-hoc segment selection",
+      "whyRejected": "Changes frozen diagnostic task, and potentially level; cannot be authorized by wording alone."
+    },
+    {
+      "idea": "continue experiment but launch separately",
+      "whyRejected": "TC-024 already explicitly tests the separate rollout governance; no new diagnostic distinction."
+    }
+  ],
+  "requiredDecision": "MAIN must explicitly authorize a local change to TC-075 concept/boundary in the manifest before a genuinely different item can be authored. Manifest not edited.",
+  "candidateAction": "TC-075 kept byte-identical with revision=1; no cosmetic sixth change."
+}

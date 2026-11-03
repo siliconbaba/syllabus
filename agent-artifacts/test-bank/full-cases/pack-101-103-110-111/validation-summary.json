@@ -1,0 +1,15 @@
+{
+  "candidateSHA256": "700396bf04d84a03dcb4b176479a0683a035aeaf2d7693d38179c9c6f01fb39f",
+  "count": 5,
+  "options": 20,
+  "uniqueIDs": "PASS",
+  "metadataAgainstApprovedRows": "PASS",
+  "familyOptionsConstants": "PASS",
+  "swift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  },
+  "contentAcceptance": "NOT_RUN",
+  "productionChanged": false
+}

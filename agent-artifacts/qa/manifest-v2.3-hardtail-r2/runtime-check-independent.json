@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "freshAuthoritativeSwift": true,
+  "unknownDomain": 0,
+  "unknownPattern": 0,
+  "derivedMismatch": 0,
+  "normalizedWeights": {
+    "TC-270": {
+      "dependencies": 0.6666666666666666,
+      "risk": 0.3333333333333333
+    },
+    "TC-275": {
+      "evidence": 0.6666666666666666,
+      "prioritization": 0.3333333333333333
+    }
+  },
+  "contextScoredEvidence": 0,
+  "fullTestSuite": "NOT_RUN: focused manifest QA; authoritative mapping probe compiled and executed"
+}

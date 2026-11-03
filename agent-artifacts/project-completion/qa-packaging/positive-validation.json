@@ -1,0 +1,13 @@
+{
+  "archiveCRC": "PASS",
+  "structure": "PASS",
+  "appleDoubleAbsent": true,
+  "bundleIDUnchanged": true,
+  "sourceFileCount": 31,
+  "changedOriginalFiles": [
+    "Info.plist"
+  ],
+  "iPhoneOSArm64UnsignedSource": "PASS",
+  "ipaSHA256": "de28850192b70ca00fb93283e5da908f1f0c7229c09a221dc06694c1fdf9a2fe",
+  "deviceRetest": "NOT_RUN"
+}

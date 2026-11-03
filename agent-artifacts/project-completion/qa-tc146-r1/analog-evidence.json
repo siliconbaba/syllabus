@@ -1,0 +1,117 @@
+{
+  "universe": "100 actual production cases + 275 planned rows, 300 unique IDs; production overrides plans for 001–100",
+  "mandatorySameTopicPrimary": [
+    "TC-088",
+    "TC-146",
+    "TC-151",
+    "TC-152",
+    "TC-153",
+    "TC-200",
+    "TC-216",
+    "TC-224",
+    "TC-289"
+  ],
+  "screen": [
+    {
+      "id": "TC-065",
+      "boundary": "Что сделать до контрольной встречи?"
+    },
+    {
+      "id": "TC-072",
+      "boundary": "Какой следующий управленческий шаг выбрать?"
+    },
+    {
+      "id": "TC-074",
+      "boundary": "Какой общий trade-off предложить portfolio owner вместо двух локальных P0?"
+    },
+    {
+      "id": "TC-088",
+      "boundary": "Когда и как передать вопрос на решение?"
+    },
+    {
+      "id": "TC-090",
+      "boundary": "Какую конструкцию портфеля и исполнения утвердить?"
+    },
+    {
+      "id": "TC-115",
+      "boundary": "Выбрать поэтапное восстановление: выигрыш от возврата платежей на 12 минут раньше перевешивает ущерб от задержки выписок на 20 минут (160 против 240 тыс. ₽ суммарно); оставить инженера на завершении и сверке выписок, отдельно сообщая частичное и полное восстановление. Минимальный срок возврата всего сервиса здесь не минимизирует ущерб."
+    },
+    {
+      "id": "TC-175",
+      "boundary": "Заменить закрытие локальных actions проверкой совместной гипотезы о передаче: согласовать сквозную метрику и условия входа, изменить одну связку правил в общем цикле, проверить возвраты и общий lead time до закрытия системной темы. Не добавлять контроль выполнения уже выполненных задач и не суммировать локальные улучшения."
+    },
+    {
+      "id": "TC-193",
+      "boundary": "Сообщить руководителю о препятствиях и предложить временный план; проверить статус существующей заявки на доступ и уточнить у поддержки срок её выполнения, начать доступное знакомство с продуктом и наблюдение, использовать согласованные короткие консультации. К возвращению подготовить карту продукта/ответственности, открытые вопросы и предложение целей для утверждения. Не ждать пассивно и не подменять отсутствие onboarding-плана самоназначением на релиз или утверждением собственных испытательных критериев."
+    },
+    {
+      "id": "TC-200",
+      "boundary": "Сначала коротко обсудить подготовленную новость и решение со спонсором в доступное ближайшее окно, сразу после разговора письменно зафиксировать ту же фактическую картину и итог для затронутых участников, до начала зависящего действия через два часа. Не заменять личное предупреждение упоминанием спонсора в общей рассылке и не переносить фиксацию до завтрашнего общего статуса."
+    },
+    {
+      "id": "TC-216",
+      "boundary": "Частота коммуникации по статусу ↔ стратегия контакта по власти и интересу."
+    },
+    {
+      "id": "TC-224",
+      "boundary": "Устная договорённость ↔ асинхронно доступная фиксация решения и owner."
+    },
+    {
+      "id": "TC-261",
+      "boundary": "Сохранить исходную случайно выделенную контрольную когорту при расширении и заранее зафиксировать двухнедельное наблюдение устойчивого эффекта для решения о сопровождении; оплатить три дня сохранения старой ветки. Итог исходного теста не переписывать. Не заменять доступное наблюдение шестой недели общей метрикой сезона и не начинать заново шестинедельный цикл без необходимости."
+    },
+    {
+      "id": "TC-274",
+      "boundary": "Согласовать одно ограниченное продление на некритичном проекте с прежними критериями и наблюдением без предварительных подсказок; критичную поставку оставить действующему владельцу. Не объявлять успех из-за отсутствия новых сбоев, не засчитывать организационное отсутствие возможностей как провал и не возвращать критичный проект ради более быстрого evidence."
+    },
+    {
+      "id": "TC-275",
+      "boundary": "На месяц сохранить общую команду и оплатить регулярную сверку:10 контроля плюс40 потерь от переключений меньше60 за изоляцию. Отдельно от availability вести разработку по исходным обещаниям, согласованным изменениям и фактической приёмке; два несогласованных сдвига направить в план исправления подрядчика, два одобренных — в решения заказчика о цене переключений. Не заменять исходный показатель последними датами и не применять к разработке выполненный SLA поддержки."
+    },
+    {
+      "id": "TC-283",
+      "boundary": "Включить межфункциональную command structure с единым IC, коммуникациями и координацией изменений."
+    },
+    {
+      "id": "TC-291",
+      "boundary": "Отделить прекращение развития от решения о судьбе действующей capability: за ограниченный цикл восстановить зависимости доходных договоров, определить минимальный реально исполнимый контур и пересчитать альтернативы «сопровождать его» / «закрыть с потерей или передачей договоров» по будущим потокам. Обследование должно завершиться этим выбором; не финансировать заранее мнимо независимый фрагмент и не продолжать весь продукт ради защиты уже существующей выручки."
+    },
+    {
+      "id": "TC-293",
+      "boundary": "Выбрать минимальный объём данных: 9 дней до готовности и суммарная цена дополнительной работы/отложенной возможности 16 вместо 8 дней задержки стоимостью 40. Включить подтверждённые проверки в план и отложить синхронизацию всей книги отдельным решением."
+    },
+    {
+      "id": "TC-299",
+      "boundary": "Эскалация проблемы как жалобы ↔ эскалация конкретного trade-off с данными."
+    },
+    {
+      "id": "TC-017",
+      "boundary": "Какой следующий шаг сильнее?"
+    },
+    {
+      "id": "TC-018",
+      "boundary": "Какой следующий шаг сильнее?"
+    },
+    {
+      "id": "TC-024",
+      "boundary": "Что делать с экспериментом?"
+    }
+  ],
+  "retrieval": "Top six plus all topic/primary saved in retrieval.json; full actual dossiers read.",
+  "classifications": {
+    "TC-016": "NO CLOSE ANALOG: missing required date, impact and direct attempts before choosing escalation. TC146 conflict already resolved.",
+    "TC-026/027/028": "NO CLOSE ANALOG: buffer thresholds select monitor/mitigate/change commitment, not post-decision implementation contact.",
+    "TC-088": "NO CLOSE ANALOG: timely escalation versus extra local negotiation before decision window closes. TC146 no priority decision remains.",
+    "TC-151/152/153": "NO CLOSE ANALOG: float changes escalation threshold and triggers; TC146 needs no float comparison.",
+    "TC-289/299": "NO CLOSE ANALOG: form and readiness of request to authority before decision.",
+    "TC-200": "ALLOWED REINFORCEMENT: first private bad-news disclosure before broad record. TC146 recipient already knows written decision; purpose is restoring working contact and agreeing execution. No sponsor-first timing puzzle.",
+    "TC-272-r1": "ALLOWED REINFORCEMENT: direct refusal plus review-date versus unapproved execution-date distinction for losing task. TC146 selected work is final, recipient has read decision, no forecast/date promise exists; shared roles/next execution step remain.",
+    "TC-216": "NO CLOSE ANALOG: contact frequency by power/interest map.",
+    "TC-224": "ALLOWED REINFORCEMENT: create missing asynchronous decision record. TC146 record already exists and is read; unfinished step is direct collaboration for implementation.",
+    "TC-040/071": "NO CLOSE ANALOG: enduring rights/veto/KPI governance; TC146 simple action within already given authority.",
+    "TC-056/057": "NO CLOSE ANALOG: communicate calibrated forecast and preserve decision window. TC146 decision is settled.",
+    "TC-175": "NO CLOSE ANALOG: systemic retrospective hypothesis and joint flow measurement, not interpersonal follow-up.",
+    "TC-261/291": "NO CLOSE ANALOG: lifecycle/closure terms concern experiment observation or live-capability economics, not communication closure."
+  },
+  "scopeLimit": "TC272 remains a proposal, compared without approving it. Future full option texts remain subject to blind/pairwise/DQ/surface QA."
+}

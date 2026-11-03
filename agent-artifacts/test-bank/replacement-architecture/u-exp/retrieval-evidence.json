@@ -1,0 +1,1146 @@
+[
+  {
+    "candidateId": "221-A",
+    "patternProbe": "quality-metrics",
+    "corpus": "production",
+    "result": {
+      "plannedId": "TC-221",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-094",
+          "retrievalScore": 10.916501,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "групп",
+            "данных",
+            "старта",
+            "эксперимента"
+          ]
+        },
+        {
+          "id": "TC-075",
+          "retrievalScore": 10.224124,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "групп",
+            "данных",
+            "против",
+            "старта",
+            "эксперимента"
+          ]
+        },
+        {
+          "id": "TC-024",
+          "retrievalScore": 9.264302,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "эксперимента"
+          ]
+        },
+        {
+          "id": "TC-031",
+          "retrievalScore": 9.22098,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "старта"
+          ]
+        },
+        {
+          "id": "TC-032",
+          "retrievalScore": 9.22098,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "старта"
+          ]
+        },
+        {
+          "id": "TC-100",
+          "retrievalScore": 3.626448,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "baseline",
+            "проверка",
+            "проверки"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  },
+  {
+    "candidateId": "221-A",
+    "patternProbe": "quality-metrics",
+    "corpus": "planned",
+    "result": {
+      "plannedId": "TC-221",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-195",
+          "retrievalScore": 17.534135,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "проверки",
+            "эксперимента"
+          ]
+        },
+        {
+          "id": "TC-261",
+          "retrievalScore": 10.0,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-263",
+          "retrievalScore": 10.0,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-248",
+          "retrievalScore": 9.69158,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "групп",
+            "данных",
+            "проверки"
+          ]
+        },
+        {
+          "id": "TC-172",
+          "retrievalScore": 9.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-295",
+          "retrievalScore": 9.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-275",
+          "retrievalScore": 8.192777,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "задержки"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-275",
+        "TC-295"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  },
+  {
+    "candidateId": "221-B",
+    "patternProbe": "hypothesis",
+    "corpus": "production",
+    "result": {
+      "plannedId": "TC-221",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-094",
+          "retrievalScore": 11.147289,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "аналитика",
+            "гипотезы",
+            "подготовка",
+            "при",
+            "эксперимента"
+          ]
+        },
+        {
+          "id": "TC-024",
+          "retrievalScore": 9.746263,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "guardrails",
+            "выборки",
+            "эксперимента"
+          ]
+        },
+        {
+          "id": "TC-075",
+          "retrievalScore": 9.497509,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "выборки",
+            "эксперимента"
+          ]
+        },
+        {
+          "id": "TC-031",
+          "retrievalScore": 9.373379,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "guardrails",
+            "при"
+          ]
+        },
+        {
+          "id": "TC-032",
+          "retrievalScore": 9.373379,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "guardrails",
+            "при"
+          ]
+        },
+        {
+          "id": "TC-025",
+          "retrievalScore": 3.0,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": []
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  },
+  {
+    "candidateId": "221-B",
+    "patternProbe": "hypothesis",
+    "corpus": "planned",
+    "result": {
+      "plannedId": "TC-221",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-261",
+          "retrievalScore": 17.384599,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "guardrails",
+            "при"
+          ]
+        },
+        {
+          "id": "TC-248",
+          "retrievalScore": 16.0,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-164",
+          "retrievalScore": 11.578472,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "guardrails",
+            "аналитика"
+          ]
+        },
+        {
+          "id": "TC-295",
+          "retrievalScore": 11.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-195",
+          "retrievalScore": 10.578472,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "guardrails",
+            "эксперимента"
+          ]
+        },
+        {
+          "id": "TC-263",
+          "retrievalScore": 10.442295,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "выборки",
+            "при"
+          ]
+        },
+        {
+          "id": "TC-172",
+          "retrievalScore": 9.612317,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "выборки",
+            "расчёт"
+          ]
+        },
+        {
+          "id": "TC-186",
+          "retrievalScore": 8.401522,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "гипотезы",
+            "при"
+          ]
+        },
+        {
+          "id": "TC-285",
+          "retrievalScore": 7.0,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": []
+        }
+      ],
+      "safetyAdded": [
+        "TC-172",
+        "TC-186",
+        "TC-221",
+        "TC-285"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  },
+  {
+    "candidateId": "263-A",
+    "patternProbe": "quality-metrics",
+    "corpus": "production",
+    "result": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-094",
+          "retrievalScore": 10.224239,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "rollout",
+            "диагностики"
+          ]
+        },
+        {
+          "id": "TC-032",
+          "retrievalScore": 9.218518,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "раскатки",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-024",
+          "retrievalScore": 9.143842,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "rollout",
+            "после"
+          ]
+        },
+        {
+          "id": "TC-075",
+          "retrievalScore": 9.126204,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "против"
+          ]
+        },
+        {
+          "id": "TC-031",
+          "retrievalScore": 9.115808,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "раскатки"
+          ]
+        },
+        {
+          "id": "TC-076",
+          "retrievalScore": 3.324933,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "потери",
+            "проверка",
+            "цена",
+            "эффекта"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  },
+  {
+    "candidateId": "263-A",
+    "patternProbe": "hypothesis",
+    "corpus": "production",
+    "result": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-094",
+          "retrievalScore": 10.224239,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "rollout",
+            "диагностики"
+          ]
+        },
+        {
+          "id": "TC-032",
+          "retrievalScore": 9.218518,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "раскатки",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-024",
+          "retrievalScore": 9.143842,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "rollout",
+            "после"
+          ]
+        },
+        {
+          "id": "TC-075",
+          "retrievalScore": 9.126204,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "против"
+          ]
+        },
+        {
+          "id": "TC-031",
+          "retrievalScore": 9.115808,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "раскатки"
+          ]
+        },
+        {
+          "id": "TC-025",
+          "retrievalScore": 3.0,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": []
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  },
+  {
+    "candidateId": "263-A",
+    "patternProbe": "quality-metrics",
+    "corpus": "planned",
+    "result": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-195",
+          "retrievalScore": 17.224644,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "общий",
+            "после",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-261",
+          "retrievalScore": 10.298383,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "rollout",
+            "или",
+            "после",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-221",
+          "retrievalScore": 10.097908,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "rollout"
+          ]
+        },
+        {
+          "id": "TC-248",
+          "retrievalScore": 9.480053,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "rollout",
+            "или",
+            "контроль",
+            "после",
+            "считать",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-172",
+          "retrievalScore": 9.176996,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "считать",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-295",
+          "retrievalScore": 9.052324,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "после"
+          ]
+        },
+        {
+          "id": "TC-275",
+          "retrievalScore": 8.599362,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "quality-metrics"
+          ],
+          "sharedTerms": [
+            "задержки",
+            "или",
+            "контроль",
+            "после",
+            "потери",
+            "сверки",
+            "считать"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-275",
+        "TC-295"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  },
+  {
+    "candidateId": "263-A",
+    "patternProbe": "hypothesis",
+    "corpus": "planned",
+    "result": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-261",
+          "retrievalScore": 17.298383,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "rollout",
+            "или",
+            "после",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-248",
+          "retrievalScore": 16.480053,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "rollout",
+            "или",
+            "контроль",
+            "после",
+            "считать",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-164",
+          "retrievalScore": 11.200475,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "rollout",
+            "или",
+            "после"
+          ]
+        },
+        {
+          "id": "TC-295",
+          "retrievalScore": 11.052324,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "после"
+          ]
+        },
+        {
+          "id": "TC-195",
+          "retrievalScore": 10.224644,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "общий",
+            "после",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-221",
+          "retrievalScore": 10.097908,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "rollout"
+          ]
+        },
+        {
+          "id": "TC-172",
+          "retrievalScore": 9.176996,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "считать",
+            "эффекта"
+          ]
+        },
+        {
+          "id": "TC-186",
+          "retrievalScore": 8.203192,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "capacity",
+            "ограниченной"
+          ]
+        },
+        {
+          "id": "TC-285",
+          "retrievalScore": 7.313469,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "доказательством",
+            "реализации",
+            "считать"
+          ]
+        }
+      ],
+      "safetyAdded": [
+        "TC-172",
+        "TC-186",
+        "TC-221",
+        "TC-285"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  },
+  {
+    "candidateId": "263-B",
+    "patternProbe": "hypothesis",
+    "corpus": "production",
+    "result": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-094",
+          "retrievalScore": 10.194855,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "нового"
+          ]
+        },
+        {
+          "id": "TC-075",
+          "retrievalScore": 9.194855,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "нового"
+          ]
+        },
+        {
+          "id": "TC-024",
+          "retrievalScore": 9.105087,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "после"
+          ]
+        },
+        {
+          "id": "TC-031",
+          "retrievalScore": 9.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-032",
+          "retrievalScore": 9.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-025",
+          "retrievalScore": 3.0,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": []
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  },
+  {
+    "candidateId": "263-B",
+    "patternProbe": "hypothesis",
+    "corpus": "planned",
+    "result": {
+      "plannedId": "TC-263",
+      "topN": 6,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-261",
+          "retrievalScore": 17.679776,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "завершённого",
+            "нового",
+            "после"
+          ]
+        },
+        {
+          "id": "TC-248",
+          "retrievalScore": 16.294807,
+          "reasons": [
+            "topicId",
+            "domain",
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "выбрать",
+            "после"
+          ]
+        },
+        {
+          "id": "TC-295",
+          "retrievalScore": 11.450046,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "success",
+            "после"
+          ]
+        },
+        {
+          "id": "TC-164",
+          "retrievalScore": 11.344648,
+          "reasons": [
+            "domain",
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": [
+            "вместо",
+            "после"
+          ]
+        },
+        {
+          "id": "TC-221",
+          "retrievalScore": 10.194563,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "бизнес"
+          ]
+        },
+        {
+          "id": "TC-195",
+          "retrievalScore": 10.120037,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "после"
+          ]
+        },
+        {
+          "id": "TC-172",
+          "retrievalScore": 9.0,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-186",
+          "retrievalScore": 8.0,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": []
+        },
+        {
+          "id": "TC-285",
+          "retrievalScore": 7.0,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "hypothesis"
+          ],
+          "sharedTerms": []
+        }
+      ],
+      "safetyAdded": [
+        "TC-172",
+        "TC-186",
+        "TC-195",
+        "TC-285"
+      ],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  }
+]

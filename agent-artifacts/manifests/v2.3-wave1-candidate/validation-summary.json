@@ -1,0 +1,13 @@
+{
+  "status": "BLOCKED",
+  "mechanical": "PASS",
+  "selectedContentUnresolved": [
+    "TC-129",
+    "TC-130",
+    "TC-133",
+    "TC-134",
+    "TC-148",
+    "TC-218"
+  ],
+  "readyForCalibrationQA": false
+}

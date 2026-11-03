@@ -1,0 +1,205 @@
+{
+  "onlyRuntimeChangedIDs": [
+    "TC-193",
+    "TC-200"
+  ],
+  "headFeasibilityUnchanged": true,
+  "newEmptyThinkingLevelCells": [],
+  "deltas": {
+    "all300": {
+      "evidence/all": {
+        "countBefore": 68,
+        "countAfter": 67,
+        "weightBefore": 33.166666666666664,
+        "weightAfter": 32.83333333333333,
+        "weightDelta": -0.3333333333333357,
+        "removedIDs": [
+          "TC-200"
+        ],
+        "addedIDs": []
+      },
+      "evidence/junior": {
+        "countBefore": 13,
+        "countAfter": 12,
+        "weightBefore": 7.833333333333333,
+        "weightAfter": 7.5,
+        "weightDelta": -0.33333333333333304,
+        "removedIDs": [
+          "TC-200"
+        ],
+        "addedIDs": []
+      },
+      "proportionality/all": {
+        "countBefore": 66,
+        "countAfter": 65,
+        "weightBefore": 32.75,
+        "weightAfter": 32.083333333333336,
+        "weightDelta": -0.6666666666666643,
+        "removedIDs": [
+          "TC-193"
+        ],
+        "addedIDs": []
+      },
+      "proportionality/junior": {
+        "countBefore": 7,
+        "countAfter": 6,
+        "weightBefore": 3.083333333333333,
+        "weightAfter": 2.4166666666666665,
+        "weightDelta": -0.6666666666666665,
+        "removedIDs": [
+          "TC-193"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/all": {
+        "countBefore": 57,
+        "countAfter": 57,
+        "weightBefore": 27.416666666666664,
+        "weightAfter": 28.416666666666664,
+        "weightDelta": 1.0,
+        "removedIDs": [],
+        "addedIDs": []
+      },
+      "stakeholders/junior": {
+        "countBefore": 8,
+        "countAfter": 8,
+        "weightBefore": 3.75,
+        "weightAfter": 4.75,
+        "weightDelta": 1.0,
+        "removedIDs": [],
+        "addedIDs": []
+      }
+    },
+    "assessment200": {
+      "evidence/all": {
+        "countBefore": 52,
+        "countAfter": 51,
+        "weightBefore": 26.0,
+        "weightAfter": 25.666666666666664,
+        "weightDelta": -0.3333333333333357,
+        "removedIDs": [
+          "TC-200"
+        ],
+        "addedIDs": []
+      },
+      "evidence/junior": {
+        "countBefore": 11,
+        "countAfter": 10,
+        "weightBefore": 6.5,
+        "weightAfter": 6.166666666666666,
+        "weightDelta": -0.3333333333333339,
+        "removedIDs": [
+          "TC-200"
+        ],
+        "addedIDs": []
+      },
+      "proportionality/all": {
+        "countBefore": 37,
+        "countAfter": 36,
+        "weightBefore": 17.416666666666668,
+        "weightAfter": 16.75,
+        "weightDelta": -0.6666666666666679,
+        "removedIDs": [
+          "TC-193"
+        ],
+        "addedIDs": []
+      },
+      "proportionality/junior": {
+        "countBefore": 5,
+        "countAfter": 4,
+        "weightBefore": 2.083333333333333,
+        "weightAfter": 1.4166666666666665,
+        "weightDelta": -0.6666666666666665,
+        "removedIDs": [
+          "TC-193"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/all": {
+        "countBefore": 35,
+        "countAfter": 35,
+        "weightBefore": 17.916666666666664,
+        "weightAfter": 18.916666666666668,
+        "weightDelta": 1.0000000000000036,
+        "removedIDs": [],
+        "addedIDs": []
+      },
+      "stakeholders/junior": {
+        "countBefore": 6,
+        "countAfter": 6,
+        "weightBefore": 3.25,
+        "weightAfter": 4.25,
+        "weightDelta": 1.0,
+        "removedIDs": [],
+        "addedIDs": []
+      }
+    },
+    "newAssessment": {
+      "evidence/all": {
+        "countBefore": 47,
+        "countAfter": 46,
+        "weightBefore": 24.083333333333332,
+        "weightAfter": 23.75,
+        "weightDelta": -0.33333333333333215,
+        "removedIDs": [
+          "TC-200"
+        ],
+        "addedIDs": []
+      },
+      "evidence/junior": {
+        "countBefore": 10,
+        "countAfter": 9,
+        "weightBefore": 5.833333333333333,
+        "weightAfter": 5.5,
+        "weightDelta": -0.33333333333333304,
+        "removedIDs": [
+          "TC-200"
+        ],
+        "addedIDs": []
+      },
+      "proportionality/all": {
+        "countBefore": 34,
+        "countAfter": 33,
+        "weightBefore": 16.0,
+        "weightAfter": 15.333333333333332,
+        "weightDelta": -0.6666666666666679,
+        "removedIDs": [
+          "TC-193"
+        ],
+        "addedIDs": []
+      },
+      "proportionality/junior": {
+        "countBefore": 5,
+        "countAfter": 4,
+        "weightBefore": 2.083333333333333,
+        "weightAfter": 1.4166666666666665,
+        "weightDelta": -0.6666666666666665,
+        "removedIDs": [
+          "TC-193"
+        ],
+        "addedIDs": []
+      },
+      "stakeholders/all": {
+        "countBefore": 31,
+        "countAfter": 31,
+        "weightBefore": 16.166666666666668,
+        "weightAfter": 17.166666666666668,
+        "weightDelta": 1.0,
+        "removedIDs": [],
+        "addedIDs": []
+      },
+      "stakeholders/junior": {
+        "countBefore": 6,
+        "countAfter": 6,
+        "weightBefore": 3.25,
+        "weightAfter": 4.25,
+        "weightDelta": 1.0,
+        "removedIDs": [],
+        "addedIDs": []
+      }
+    },
+    "currentProduction100": {}
+  },
+  "baselineEngineImpulseCheck": "PASS: all 300 impulse responses",
+  "candidateEngineImpulseCheck": "PASS: all 300 impulse responses"
+}

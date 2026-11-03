@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "scope": "Focused R2 retest plus hash-bound R1 inheritance; isolated content acceptance",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-101-103-110-111-r2/cases.json",
+  "candidateSHA256": "3dff839ecac6cd50b86ed3762c1316f5466925c17eb940949d2e5b6016014b32",
+  "baselineCandidateSHA256": "700396bf04d84a03dcb4b176479a0683a035aeaf2d7693d38179c9c6f01fb39f",
+  "baseQASHA256": "0f5a4b90b1665bca17ab5177bc6f41054c242a0725bf193db4959de6521a3900",
+  "acceptedCaseIDs": [
+    "TC-101",
+    "TC-102",
+    "TC-103",
+    "TC-110",
+    "TC-111"
+  ],
+  "cases": {
+    "TC-101": {
+      "status": "PASS",
+      "contentAccepted": true,
+      "basis": "R2 focused retest plus R1 unchanged gates"
+    },
+    "TC-102": {
+      "status": "PASS",
+      "contentAccepted": true,
+      "basis": "R2 focused retest plus R1 unchanged gates"
+    },
+    "TC-103": {
+      "status": "PASS",
+      "contentAccepted": true,
+      "basis": "R2 focused retest plus R1 unchanged gates"
+    },
+    "TC-110": {
+      "status": "PASS",
+      "contentAccepted": true,
+      "basis": "R1 byte-identical"
+    },
+    "TC-111": {
+      "status": "PASS",
+      "contentAccepted": true,
+      "basis": "R2 focused retest plus R1 unchanged gates"
+    }
+  },
+  "closedIssueIDs": [
+    "NF-L01",
+    "NF-I01"
+  ],
+  "remainingUnresolvedIDs": [],
+  "remainingIssueIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "gates": {
+    "allowlistedDiff": "PASS",
+    "blindAgreement": "PASS",
+    "pairwise": "PASS",
+    "level": "PASS",
+    "family": "PASS",
+    "DQAndWhen": "PASS",
+    "surface": "PASS",
+    "sourceAndDuplication": "PASS inherited and changed boundary checked",
+    "swift": "PASS via R2 validation-summary"
+  },
+  "manifestSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "importEligible": false,
+  "readyToFreeze": false,
+  "productionImported": false,
+  "evidenceSHA256": {
+    "report.md": "11a4624baa5804fae9f6eb51fba1b8fd4bdecbbce5aa1456e9d127862ab57977",
+    "blind-choices.json": "04cf4316771648cc550f4d85c923aff652016d170f459f6d802c7749ecd45342",
+    "case-diff.json": "cb46f3f61854ce2c757c74cf81f9b02fa8b8147fb889c5a0bf1bc847b3b43368",
+    "validation-summary.json": "09c012938cc55ccfb7b46a219df6340327066249d07bb476a0bf10b1d3307571"
+  },
+  "r2ValidationSHA256": "384caa6b3dbd584470012fd88c4db41ccaf60a4ae07be5ad194f6f1cf6414671"
+}

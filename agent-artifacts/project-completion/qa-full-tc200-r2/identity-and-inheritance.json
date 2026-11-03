@@ -1,0 +1,65 @@
+{
+  "exactAllowedDiff": [
+    {
+      "field": "/options/0/decisionQuality",
+      "before": 0.55,
+      "after": 0.7
+    },
+    {
+      "field": "/options/1/decisionQuality",
+      "before": 0.7,
+      "after": 0.55
+    },
+    {
+      "field": "/revision",
+      "before": 1,
+      "after": 2
+    }
+  ],
+  "rawObjectsEqual": false,
+  "onlyThreeLiteralReplacementsReproduceRawObject": true,
+  "blindBytesEqual": true,
+  "blindMatchesNewCandidate": true,
+  "priorInputChecks": {
+    "agent-artifacts/test-bank/full-cases/tc200-r1/cases.json": true,
+    "agent-artifacts/test-bank/full-cases/tc200-r1/blind-case.json": true,
+    "agent-artifacts/test-bank/reconstruction/tc200-r1/source-t-6-2.txt": true,
+    "agent-artifacts/test-bank/reconstruction/tc200-r2/proposed-manifest-row.json": true,
+    "agent-artifacts/project-completion/qa-tc200-r2/QA-verdict.json": true,
+    "InteractiveBook/WebContent/index.html": true,
+    "InteractiveBook/TrainerContent/cases.json": true,
+    "InteractiveBook/TrainerContent/topics.json": true,
+    "InteractiveBook/Trainer/TrainerModels.swift": true,
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": true,
+    "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/production_manifest_masterplan_v2_3_hardtail_b2_candidate.json": true,
+    "docs/TRAINER-CONTENT-SCHEMA.md": true,
+    "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": true,
+    "agent-artifacts/contracts/PIPELINE-CONTRACT.md": true,
+    "agent-artifacts/project-completion/qa-tc200-r1/analog-evidence.json": true,
+    "agent-artifacts/qa/batch-03-r3/reproduce-surface-independent.py": true,
+    "agent-artifacts/test-bank/full-cases/tc193-r2/cases.json": true
+  },
+  "priorArtifactChecks": {
+    "blind-choice.json": true,
+    "source-verification.json": true,
+    "input-hashes.json": true,
+    "surface-78-rule-evidence.json": true,
+    "runtime-vocabulary.json": true,
+    "pairwise-and-counterfactuals.json": true,
+    "metadata-and-surface.json": true,
+    "QA-verdict.json": true,
+    "issues.json": true,
+    "analog-evidence.json": true,
+    "runtime-loader.json": true,
+    "retrieval.json": true,
+    "mandatory-analog-rows.json": true,
+    "QA-report.md": true
+  },
+  "inheritedBlindChoice": {
+    "strongest": "C",
+    "runner_up": "A",
+    "confidence": 0.98,
+    "reasoning": "C даёт спонсору первым обсудить подготовленную неприятную новость и решение в личном разговоре через 15 минут, затем обеспечивает письменную фиксацию всем затронутым до зависимости маркетинга через два часа. A обеспечивает срок и прозрачность, но раскрывает новость широкой группе до личного обсуждения со спонсором. B задерживает обязательную фиксацию до завтра; D задерживает и первое сообщение, и решение за пределы операционного срока.",
+    "blind_protocol": "Read only blind-case.json before committing this file."
+  }
+}

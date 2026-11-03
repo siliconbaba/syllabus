@@ -1,0 +1,907 @@
+{
+  "authoritative": true,
+  "status": "PASS",
+  "runtimeContract": {
+    "sourceHashes": {
+      "TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+      "TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+    },
+    "sourcePaths": [
+      "InteractiveBook/Trainer/TrainerScoringMapping.swift",
+      "InteractiveBook/Trainer/TrainerScoringEngine.swift"
+    ],
+    "referenceSync": "PASS"
+  },
+  "domainTitles": {
+    "analytics": "Аналитика",
+    "delivery": "Delivery и релизы",
+    "finance": "Финансы и подрядчики",
+    "people": "Люди",
+    "portfolio": "Портфель и стратегия",
+    "processes": "Процессы",
+    "product": "Продукт",
+    "project": "Управление проектами",
+    "stakeholders": "Стейкхолдеры",
+    "technical": "Технический TPM"
+  },
+  "thinkingTitles": {
+    "context": "Контекстная чувствительность",
+    "dependencies": "Работа с зависимостями",
+    "evidence": "Доказательность",
+    "organization": "Организационное мышление",
+    "prioritization": "Приоритизация",
+    "proportionality": "Соразмерность решений",
+    "risk": "Работа с риском",
+    "stakeholders": "Работа со стейкхолдерами",
+    "systems": "Системное мышление",
+    "uncertainty": "Снижение неопределённости"
+  },
+  "gold": {
+    "caseCount": 25,
+    "levels": {
+      "junior": 2,
+      "middle": 21,
+      "senior": 2
+    },
+    "uiDomains": {
+      "analytics": 1,
+      "delivery": 4,
+      "finance": 1,
+      "people": 3,
+      "portfolio": 2,
+      "processes": 3,
+      "product": 1,
+      "project": 5,
+      "stakeholders": 2,
+      "technical": 3
+    },
+    "uiDomainByLevel": {
+      "analytics": {
+        "junior": 1,
+        "middle": 0,
+        "senior": 0,
+        "head": 0
+      },
+      "delivery": {
+        "junior": 0,
+        "middle": 4,
+        "senior": 0,
+        "head": 0
+      },
+      "finance": {
+        "junior": 0,
+        "middle": 1,
+        "senior": 0,
+        "head": 0
+      },
+      "people": {
+        "junior": 0,
+        "middle": 3,
+        "senior": 0,
+        "head": 0
+      },
+      "portfolio": {
+        "junior": 0,
+        "middle": 2,
+        "senior": 0,
+        "head": 0
+      },
+      "processes": {
+        "junior": 0,
+        "middle": 2,
+        "senior": 1,
+        "head": 0
+      },
+      "product": {
+        "junior": 0,
+        "middle": 1,
+        "senior": 0,
+        "head": 0
+      },
+      "project": {
+        "junior": 1,
+        "middle": 3,
+        "senior": 1,
+        "head": 0
+      },
+      "stakeholders": {
+        "junior": 0,
+        "middle": 2,
+        "senior": 0,
+        "head": 0
+      },
+      "technical": {
+        "junior": 0,
+        "middle": 3,
+        "senior": 0,
+        "head": 0
+      }
+    },
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 0,
+      "delivery": 0,
+      "finance": 0,
+      "people": 0,
+      "portfolio": 0,
+      "processes": 1,
+      "product": 0,
+      "project": 1,
+      "stakeholders": 0,
+      "technical": 0
+    },
+    "thinking": {
+      "context": {
+        "primaryCaseCount": 0,
+        "secondaryCaseCount": 0,
+        "evidenceCaseCount": 0,
+        "normalizedEvidenceWeightSum": 0.0
+      },
+      "dependencies": {
+        "primaryCaseCount": 2,
+        "secondaryCaseCount": 7,
+        "evidenceCaseCount": 7,
+        "normalizedEvidenceWeightSum": 3.0
+      },
+      "evidence": {
+        "primaryCaseCount": 3,
+        "secondaryCaseCount": 5,
+        "evidenceCaseCount": 6,
+        "normalizedEvidenceWeightSum": 2.4166666667
+      },
+      "organization": {
+        "primaryCaseCount": 4,
+        "secondaryCaseCount": 6,
+        "evidenceCaseCount": 7,
+        "normalizedEvidenceWeightSum": 3.25
+      },
+      "prioritization": {
+        "primaryCaseCount": 1,
+        "secondaryCaseCount": 4,
+        "evidenceCaseCount": 4,
+        "normalizedEvidenceWeightSum": 1.8333333333
+      },
+      "proportionality": {
+        "primaryCaseCount": 3,
+        "secondaryCaseCount": 2,
+        "evidenceCaseCount": 4,
+        "normalizedEvidenceWeightSum": 1.9166666667
+      },
+      "risk": {
+        "primaryCaseCount": 4,
+        "secondaryCaseCount": 10,
+        "evidenceCaseCount": 10,
+        "normalizedEvidenceWeightSum": 4.5
+      },
+      "stakeholders": {
+        "primaryCaseCount": 2,
+        "secondaryCaseCount": 5,
+        "evidenceCaseCount": 6,
+        "normalizedEvidenceWeightSum": 2.3333333333
+      },
+      "systems": {
+        "primaryCaseCount": 3,
+        "secondaryCaseCount": 6,
+        "evidenceCaseCount": 6,
+        "normalizedEvidenceWeightSum": 3.1666666667
+      },
+      "uncertainty": {
+        "primaryCaseCount": 3,
+        "secondaryCaseCount": 3,
+        "evidenceCaseCount": 5,
+        "normalizedEvidenceWeightSum": 2.5833333333
+      }
+    }
+  },
+  "new": {
+    "caseCount": 275,
+    "levels": {
+      "head": 45,
+      "junior": 43,
+      "middle": 99,
+      "senior": 88
+    },
+    "uiDomains": {
+      "analytics": 15,
+      "delivery": 23,
+      "finance": 24,
+      "people": 33,
+      "portfolio": 28,
+      "processes": 41,
+      "product": 14,
+      "project": 24,
+      "stakeholders": 27,
+      "technical": 46
+    },
+    "uiDomainByLevel": {
+      "analytics": {
+        "junior": 5,
+        "middle": 5,
+        "senior": 3,
+        "head": 2
+      },
+      "delivery": {
+        "junior": 5,
+        "middle": 9,
+        "senior": 9,
+        "head": 0
+      },
+      "finance": {
+        "junior": 2,
+        "middle": 10,
+        "senior": 7,
+        "head": 5
+      },
+      "people": {
+        "junior": 4,
+        "middle": 12,
+        "senior": 9,
+        "head": 8
+      },
+      "portfolio": {
+        "junior": 1,
+        "middle": 9,
+        "senior": 12,
+        "head": 6
+      },
+      "processes": {
+        "junior": 7,
+        "middle": 15,
+        "senior": 11,
+        "head": 8
+      },
+      "product": {
+        "junior": 3,
+        "middle": 7,
+        "senior": 4,
+        "head": 0
+      },
+      "project": {
+        "junior": 6,
+        "middle": 9,
+        "senior": 9,
+        "head": 0
+      },
+      "stakeholders": {
+        "junior": 4,
+        "middle": 10,
+        "senior": 7,
+        "head": 6
+      },
+      "technical": {
+        "junior": 6,
+        "middle": 13,
+        "senior": 17,
+        "head": 10
+      }
+    },
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 5,
+      "delivery": 9,
+      "finance": 12,
+      "people": 17,
+      "portfolio": 18,
+      "processes": 19,
+      "product": 4,
+      "project": 9,
+      "stakeholders": 13,
+      "technical": 27
+    },
+    "thinking": {
+      "context": {
+        "primaryCaseCount": 0,
+        "secondaryCaseCount": 0,
+        "evidenceCaseCount": 0,
+        "normalizedEvidenceWeightSum": 0.0
+      },
+      "dependencies": {
+        "primaryCaseCount": 11,
+        "secondaryCaseCount": 53,
+        "evidenceCaseCount": 53,
+        "normalizedEvidenceWeightSum": 21.5
+      },
+      "evidence": {
+        "primaryCaseCount": 48,
+        "secondaryCaseCount": 58,
+        "evidenceCaseCount": 70,
+        "normalizedEvidenceWeightSum": 38.9166666667
+      },
+      "organization": {
+        "primaryCaseCount": 57,
+        "secondaryCaseCount": 47,
+        "evidenceCaseCount": 84,
+        "normalizedEvidenceWeightSum": 43.3333333333
+      },
+      "prioritization": {
+        "primaryCaseCount": 28,
+        "secondaryCaseCount": 59,
+        "evidenceCaseCount": 61,
+        "normalizedEvidenceWeightSum": 34.4166666667
+      },
+      "proportionality": {
+        "primaryCaseCount": 23,
+        "secondaryCaseCount": 21,
+        "evidenceCaseCount": 40,
+        "normalizedEvidenceWeightSum": 19.1666666667
+      },
+      "risk": {
+        "primaryCaseCount": 28,
+        "secondaryCaseCount": 92,
+        "evidenceCaseCount": 93,
+        "normalizedEvidenceWeightSum": 41.75
+      },
+      "stakeholders": {
+        "primaryCaseCount": 20,
+        "secondaryCaseCount": 47,
+        "evidenceCaseCount": 53,
+        "normalizedEvidenceWeightSum": 25.0
+      },
+      "systems": {
+        "primaryCaseCount": 34,
+        "secondaryCaseCount": 40,
+        "evidenceCaseCount": 49,
+        "normalizedEvidenceWeightSum": 28.5
+      },
+      "uncertainty": {
+        "primaryCaseCount": 26,
+        "secondaryCaseCount": 28,
+        "evidenceCaseCount": 33,
+        "normalizedEvidenceWeightSum": 22.4166666667
+      }
+    }
+  },
+  "all300": {
+    "caseCount": 300,
+    "levels": {
+      "head": 45,
+      "junior": 45,
+      "middle": 120,
+      "senior": 90
+    },
+    "uiDomains": {
+      "analytics": 16,
+      "delivery": 27,
+      "finance": 25,
+      "people": 36,
+      "portfolio": 30,
+      "processes": 44,
+      "product": 15,
+      "project": 29,
+      "stakeholders": 29,
+      "technical": 49
+    },
+    "uiDomainByLevel": {
+      "analytics": {
+        "junior": 6,
+        "middle": 5,
+        "senior": 3,
+        "head": 2
+      },
+      "delivery": {
+        "junior": 5,
+        "middle": 13,
+        "senior": 9,
+        "head": 0
+      },
+      "finance": {
+        "junior": 2,
+        "middle": 11,
+        "senior": 7,
+        "head": 5
+      },
+      "people": {
+        "junior": 4,
+        "middle": 15,
+        "senior": 9,
+        "head": 8
+      },
+      "portfolio": {
+        "junior": 1,
+        "middle": 11,
+        "senior": 12,
+        "head": 6
+      },
+      "processes": {
+        "junior": 7,
+        "middle": 17,
+        "senior": 12,
+        "head": 8
+      },
+      "product": {
+        "junior": 3,
+        "middle": 8,
+        "senior": 4,
+        "head": 0
+      },
+      "project": {
+        "junior": 7,
+        "middle": 12,
+        "senior": 10,
+        "head": 0
+      },
+      "stakeholders": {
+        "junior": 4,
+        "middle": 12,
+        "senior": 7,
+        "head": 6
+      },
+      "technical": {
+        "junior": 6,
+        "middle": 16,
+        "senior": 17,
+        "head": 10
+      }
+    },
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 5,
+      "delivery": 9,
+      "finance": 12,
+      "people": 17,
+      "portfolio": 18,
+      "processes": 20,
+      "product": 4,
+      "project": 10,
+      "stakeholders": 13,
+      "technical": 27
+    },
+    "thinking": {
+      "context": {
+        "primaryCaseCount": 0,
+        "secondaryCaseCount": 0,
+        "evidenceCaseCount": 0,
+        "normalizedEvidenceWeightSum": 0.0
+      },
+      "dependencies": {
+        "primaryCaseCount": 13,
+        "secondaryCaseCount": 60,
+        "evidenceCaseCount": 60,
+        "normalizedEvidenceWeightSum": 24.5
+      },
+      "evidence": {
+        "primaryCaseCount": 51,
+        "secondaryCaseCount": 63,
+        "evidenceCaseCount": 76,
+        "normalizedEvidenceWeightSum": 41.3333333333
+      },
+      "organization": {
+        "primaryCaseCount": 61,
+        "secondaryCaseCount": 53,
+        "evidenceCaseCount": 91,
+        "normalizedEvidenceWeightSum": 46.5833333333
+      },
+      "prioritization": {
+        "primaryCaseCount": 29,
+        "secondaryCaseCount": 63,
+        "evidenceCaseCount": 65,
+        "normalizedEvidenceWeightSum": 36.25
+      },
+      "proportionality": {
+        "primaryCaseCount": 26,
+        "secondaryCaseCount": 23,
+        "evidenceCaseCount": 44,
+        "normalizedEvidenceWeightSum": 21.0833333333
+      },
+      "risk": {
+        "primaryCaseCount": 32,
+        "secondaryCaseCount": 102,
+        "evidenceCaseCount": 103,
+        "normalizedEvidenceWeightSum": 46.25
+      },
+      "stakeholders": {
+        "primaryCaseCount": 22,
+        "secondaryCaseCount": 52,
+        "evidenceCaseCount": 59,
+        "normalizedEvidenceWeightSum": 27.3333333333
+      },
+      "systems": {
+        "primaryCaseCount": 37,
+        "secondaryCaseCount": 46,
+        "evidenceCaseCount": 55,
+        "normalizedEvidenceWeightSum": 31.6666666667
+      },
+      "uncertainty": {
+        "primaryCaseCount": 29,
+        "secondaryCaseCount": 31,
+        "evidenceCaseCount": 38,
+        "normalizedEvidenceWeightSum": 25.0
+      }
+    }
+  },
+  "newAssessment": {
+    "caseCount": 181,
+    "levels": {
+      "head": 26,
+      "junior": 29,
+      "middle": 70,
+      "senior": 56
+    },
+    "uiDomains": {
+      "analytics": 11,
+      "delivery": 10,
+      "finance": 18,
+      "people": 22,
+      "portfolio": 15,
+      "processes": 27,
+      "product": 10,
+      "project": 15,
+      "stakeholders": 18,
+      "technical": 35
+    },
+    "uiDomainByLevel": {
+      "analytics": {
+        "junior": 3,
+        "middle": 5,
+        "senior": 3,
+        "head": 0
+      },
+      "delivery": {
+        "junior": 3,
+        "middle": 5,
+        "senior": 2,
+        "head": 0
+      },
+      "finance": {
+        "junior": 2,
+        "middle": 8,
+        "senior": 3,
+        "head": 5
+      },
+      "people": {
+        "junior": 2,
+        "middle": 9,
+        "senior": 5,
+        "head": 6
+      },
+      "portfolio": {
+        "junior": 1,
+        "middle": 7,
+        "senior": 5,
+        "head": 2
+      },
+      "processes": {
+        "junior": 5,
+        "middle": 9,
+        "senior": 9,
+        "head": 4
+      },
+      "product": {
+        "junior": 1,
+        "middle": 5,
+        "senior": 4,
+        "head": 0
+      },
+      "project": {
+        "junior": 4,
+        "middle": 6,
+        "senior": 5,
+        "head": 0
+      },
+      "stakeholders": {
+        "junior": 4,
+        "middle": 5,
+        "senior": 5,
+        "head": 4
+      },
+      "technical": {
+        "junior": 4,
+        "middle": 11,
+        "senior": 15,
+        "head": 5
+      }
+    },
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 3,
+      "delivery": 2,
+      "finance": 8,
+      "people": 11,
+      "portfolio": 7,
+      "processes": 13,
+      "product": 4,
+      "project": 5,
+      "stakeholders": 9,
+      "technical": 20
+    },
+    "thinking": {
+      "context": {
+        "primaryCaseCount": 0,
+        "secondaryCaseCount": 0,
+        "evidenceCaseCount": 0,
+        "normalizedEvidenceWeightSum": 0.0
+      },
+      "dependencies": {
+        "primaryCaseCount": 7,
+        "secondaryCaseCount": 40,
+        "evidenceCaseCount": 40,
+        "normalizedEvidenceWeightSum": 16.1666666667
+      },
+      "evidence": {
+        "primaryCaseCount": 37,
+        "secondaryCaseCount": 44,
+        "evidenceCaseCount": 54,
+        "normalizedEvidenceWeightSum": 29.9166666667
+      },
+      "organization": {
+        "primaryCaseCount": 39,
+        "secondaryCaseCount": 30,
+        "evidenceCaseCount": 53,
+        "normalizedEvidenceWeightSum": 28.5833333333
+      },
+      "prioritization": {
+        "primaryCaseCount": 17,
+        "secondaryCaseCount": 33,
+        "evidenceCaseCount": 35,
+        "normalizedEvidenceWeightSum": 19.0833333333
+      },
+      "proportionality": {
+        "primaryCaseCount": 11,
+        "secondaryCaseCount": 16,
+        "evidenceCaseCount": 25,
+        "normalizedEvidenceWeightSum": 10.6666666667
+      },
+      "risk": {
+        "primaryCaseCount": 16,
+        "secondaryCaseCount": 57,
+        "evidenceCaseCount": 58,
+        "normalizedEvidenceWeightSum": 25.4166666667
+      },
+      "stakeholders": {
+        "primaryCaseCount": 13,
+        "secondaryCaseCount": 29,
+        "evidenceCaseCount": 33,
+        "normalizedEvidenceWeightSum": 16.0833333333
+      },
+      "systems": {
+        "primaryCaseCount": 23,
+        "secondaryCaseCount": 27,
+        "evidenceCaseCount": 32,
+        "normalizedEvidenceWeightSum": 19.0
+      },
+      "uncertainty": {
+        "primaryCaseCount": 18,
+        "secondaryCaseCount": 22,
+        "evidenceCaseCount": 25,
+        "normalizedEvidenceWeightSum": 16.0833333333
+      }
+    }
+  },
+  "assessment200": {
+    "caseCount": 200,
+    "levels": {
+      "head": 26,
+      "junior": 31,
+      "middle": 85,
+      "senior": 58
+    },
+    "uiDomains": {
+      "analytics": 12,
+      "delivery": 12,
+      "finance": 19,
+      "people": 23,
+      "portfolio": 17,
+      "processes": 30,
+      "product": 11,
+      "project": 18,
+      "stakeholders": 20,
+      "technical": 38
+    },
+    "uiDomainByLevel": {
+      "analytics": {
+        "junior": 4,
+        "middle": 5,
+        "senior": 3,
+        "head": 0
+      },
+      "delivery": {
+        "junior": 3,
+        "middle": 7,
+        "senior": 2,
+        "head": 0
+      },
+      "finance": {
+        "junior": 2,
+        "middle": 9,
+        "senior": 3,
+        "head": 5
+      },
+      "people": {
+        "junior": 2,
+        "middle": 10,
+        "senior": 5,
+        "head": 6
+      },
+      "portfolio": {
+        "junior": 1,
+        "middle": 9,
+        "senior": 5,
+        "head": 2
+      },
+      "processes": {
+        "junior": 5,
+        "middle": 11,
+        "senior": 10,
+        "head": 4
+      },
+      "product": {
+        "junior": 1,
+        "middle": 6,
+        "senior": 4,
+        "head": 0
+      },
+      "project": {
+        "junior": 5,
+        "middle": 7,
+        "senior": 6,
+        "head": 0
+      },
+      "stakeholders": {
+        "junior": 4,
+        "middle": 7,
+        "senior": 5,
+        "head": 4
+      },
+      "technical": {
+        "junior": 4,
+        "middle": 14,
+        "senior": 15,
+        "head": 5
+      }
+    },
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 3,
+      "delivery": 2,
+      "finance": 8,
+      "people": 11,
+      "portfolio": 7,
+      "processes": 14,
+      "product": 4,
+      "project": 6,
+      "stakeholders": 9,
+      "technical": 20
+    },
+    "thinking": {
+      "context": {
+        "primaryCaseCount": 0,
+        "secondaryCaseCount": 0,
+        "evidenceCaseCount": 0,
+        "normalizedEvidenceWeightSum": 0.0
+      },
+      "dependencies": {
+        "primaryCaseCount": 8,
+        "secondaryCaseCount": 45,
+        "evidenceCaseCount": 45,
+        "normalizedEvidenceWeightSum": 17.9166666667
+      },
+      "evidence": {
+        "primaryCaseCount": 39,
+        "secondaryCaseCount": 49,
+        "evidenceCaseCount": 59,
+        "normalizedEvidenceWeightSum": 31.8333333333
+      },
+      "organization": {
+        "primaryCaseCount": 42,
+        "secondaryCaseCount": 34,
+        "evidenceCaseCount": 58,
+        "normalizedEvidenceWeightSum": 30.9166666667
+      },
+      "prioritization": {
+        "primaryCaseCount": 18,
+        "secondaryCaseCount": 37,
+        "evidenceCaseCount": 39,
+        "normalizedEvidenceWeightSum": 20.9166666667
+      },
+      "proportionality": {
+        "primaryCaseCount": 13,
+        "secondaryCaseCount": 18,
+        "evidenceCaseCount": 28,
+        "normalizedEvidenceWeightSum": 12.0833333333
+      },
+      "risk": {
+        "primaryCaseCount": 19,
+        "secondaryCaseCount": 64,
+        "evidenceCaseCount": 65,
+        "normalizedEvidenceWeightSum": 28.75
+      },
+      "stakeholders": {
+        "primaryCaseCount": 15,
+        "secondaryCaseCount": 32,
+        "evidenceCaseCount": 37,
+        "normalizedEvidenceWeightSum": 17.8333333333
+      },
+      "systems": {
+        "primaryCaseCount": 26,
+        "secondaryCaseCount": 31,
+        "evidenceCaseCount": 36,
+        "normalizedEvidenceWeightSum": 21.5833333333
+      },
+      "uncertainty": {
+        "primaryCaseCount": 20,
+        "secondaryCaseCount": 25,
+        "evidenceCaseCount": 29,
+        "normalizedEvidenceWeightSum": 18.1666666667
+      }
+    }
+  },
+  "assessmentPolicy": {
+    "excludedGoldLinkedIds": [
+      "TC-001",
+      "TC-002",
+      "TC-003",
+      "TC-004",
+      "TC-017",
+      "TC-018"
+    ],
+    "appliedOnlyInThisReport": true,
+    "productionBankChanged": false,
+    "currentFlagsPoolBeforeGoldPolicyChange": 206
+  },
+  "structure": {
+    "newTotal": 275,
+    "standalone": 181,
+    "linkedInstances": 94,
+    "pairFamilies": 35,
+    "tripletFamilies": 8,
+    "newFamilyCount": 43,
+    "batchCount": 11
+  },
+  "contextSensitivityScoredEvidence": 0,
+  "thinkingRule": "Primary 1, secondary 0.5, max per mapped category within case; exclude context, divide by max(1,sum); one evidence count per category per case.",
+  "engineWeightVerification": "PASS: all 300 impulse responses",
+  "unknownDomains": [],
+  "unknownPatterns": [],
+  "unknownVocabularyRejected": true,
+  "headFeasibility": {
+    "breadthDomains": [
+      "project",
+      "processes",
+      "stakeholders",
+      "people",
+      "finance",
+      "portfolio",
+      "technical",
+      "analytics",
+      "product"
+    ],
+    "breadthMet": true,
+    "eligibleCount": 200,
+    "excludedMetadataCount": 0,
+    "headDomainEvidence": 3,
+    "maximumSyntheticLevel": "head",
+    "minimumLevelEvidence": 5,
+    "note": "Synthetic perfect responses test structural feasibility only, not learner proficiency.",
+    "result": "PASS",
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 3,
+      "delivery": 2,
+      "finance": 8,
+      "people": 11,
+      "portfolio": 7,
+      "processes": 14,
+      "product": 4,
+      "project": 6,
+      "stakeholders": 9,
+      "technical": 20
+    }
+  },
+  "migrations": {
+    "TC-064": "negotiation-batna",
+    "TC-168": "negotiation-batna",
+    "TC-255": "negotiation-batna",
+    "TC-256": "negotiation-batna",
+    "TC-121": "interest-based-negotiation",
+    "TC-192": "interest-based-negotiation"
+  },
+  "contentIntegrity": {
+    "protectedFieldsEqualToV2": true,
+    "protectedPayloadSha256": "6db883e3c5f19054852da21959a91edb4c4aee579ece62cb3650958a58bc0f69",
+    "fingerprintDefinition": "Canonical JSON UTF-8 sorted keys, compact separators: manifest excluding derived/status/primaryPattern/vocabularyReviewRef + familyManifest + headAudit + batchPlan; separately assert primaryPattern/ref unchanged except six approved IDs.",
+    "goldBankSha256": "19954c13f6bb6e298631a5c873c1ed8dedee23aa349e2b3f9d50b10f70662fbb"
+  },
+  "inputHashes": {
+    "head_audit_v2.csv": "d43a0a3e9e9a9178f632f4ac4980c6a99d21e8feb597e394ccab664ede62c00f",
+    "linked_family_manifest_v2.csv": "dca48ec89168f9d1c3fd3fc83359ea408caac4b495d3b5fd2d8b9335c35f1a84",
+    "production_manifest_TC026_TC300_v2.csv": "8e534170c9b8bc5dde27c0d91419273edea8f72bb1f7c0670566db4a85f7f12a",
+    "production_manifest_masterplan_v2.json": "d6eae6627b64702b4606b09979c5c2a08dd8a6240159319e33f6612bc81b0520",
+    "production_manifest_review_v2.md": "4f39768c2462177516ae37d0bd6fc62a92569ef02beb2d1cb96ab5aaeb205b24",
+    "runtime_coverage_v2.json": "fe0332db14c7b56dee55eea04a64309f0ef5a75829c2b6418cc982f2d861cd07",
+    "vocabulary_review_v2.csv": "b7b544b4249361b843a9693cf3a5443244419df42ab81029555cd42a8fe758f6"
+  }
+}

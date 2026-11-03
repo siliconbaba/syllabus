@@ -1,0 +1,116 @@
+{
+  "universeSize": 300,
+  "mandatoryProduction": [
+    "TC-015",
+    "TC-056",
+    "TC-057"
+  ],
+  "mandatoryPlanned": [
+    "TC-216",
+    "TC-224",
+    "TC-243",
+    "TC-267"
+  ],
+  "retrieval": "retrieval.json: top 6 + all same topic/primary",
+  "dossierIdentityAgainstCurrentInputs": {
+    "TC-015": {
+      "context": true,
+      "question": true,
+      "options": true
+    },
+    "TC-016": {
+      "context": true,
+      "question": true,
+      "options": true
+    },
+    "TC-023": {
+      "context": true,
+      "question": true,
+      "options": true
+    },
+    "TC-049": {
+      "context": true,
+      "question": true,
+      "options": true
+    },
+    "TC-056": {
+      "context": true,
+      "question": true,
+      "options": true
+    },
+    "TC-057": {
+      "context": true,
+      "question": true,
+      "options": true
+    },
+    "TC-088": {
+      "context": true,
+      "question": true,
+      "options": true
+    },
+    "TC-146": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    },
+    "TC-151": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    },
+    "TC-152": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    },
+    "TC-153": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    },
+    "TC-200": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    },
+    "TC-216": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    },
+    "TC-224": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    },
+    "TC-243": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    },
+    "TC-267": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    },
+    "TC-289": {
+      "oneSentenceScenarioConcept": true,
+      "oneSentenceDecisionBoundary": true,
+      "decisiveFactsConcept": true
+    }
+  },
+  "classifications": {
+    "TC-015/056/057": "ALLOWED REINFORCEMENT: forecast maturity/early reporting choices; TC200 fixes forecast and prepared content, tests private-before-public sequence and record timing.",
+    "TC-216": "NO CLOSE ANALOG: power-interest map selects contact strategy/frequency; TC200 known sponsor and one news event.",
+    "TC-224": "ALLOWED REINFORCEMENT: written asynchronous record prevents divergent understanding; TC200 adds first-recipient sequence under a known dependent-action deadline. TC224 has no unbriefed sponsor / bad-news ordering choice.",
+    "TC-243": "NO CLOSE ANALOG: calibrating forecast uncertainty, expressly fixed in TC200.",
+    "TC-267": "ALLOWED REINFORCEMENT: bad-news options rather than unilateral notice; TC200 says options already prepared and tests transmission order.",
+    "TC-016/088/146/151/152/153/289": "NO CLOSE ANALOG: whether and when priority conflict requires escalation/authority based on float and prior attempts; TC200 has known authority and no unresolved prioritization conflict.",
+    "TC-023/049/283": "NO CLOSE ANALOG: incident command or its permanent organizational design; TC200 explicitly excludes emergency stop.",
+    "TC-040/071": "NO CLOSE ANALOG: sustained authority/KPI governance, not one message sequence.",
+    "TC-096": "NO CLOSE ANALOG: feasible capacity/ownership package across launches, not communication order.",
+    "TC-193-r2": "NO CLOSE ANALOG: probation preparation and authorization to start release coordination, not prepared bad-news delivery."
+  },
+  "screen": "All 300 rows screened by topic/primary and sponsor/writing/broadcast/chat/bad-news/communication keywords. Other matches concern financial/experimental/dependency/performance decisions, not the same recipient-sequence boundary. Planned comparisons are blueprint-level only; no future unwritten full options approved.",
+  "intraCandidate": "One standalone case; no sibling or intra-batch pair."
+}

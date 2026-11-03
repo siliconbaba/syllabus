@@ -1,0 +1,92 @@
+{
+  "verdict": "CALIBRATION METHOD NEEDS ADJUSTMENT",
+  "safeToContinueNextRedesignWave": false,
+  "candidateSHA256": "006c45c553b28f35f816cf09652be9fe41ff0718cc3eac4ddd6d7331a4736977",
+  "baselineSHA256": "11b7b231d66ef53e1de27ec696403208cd26176b2441fd7a089cc1f82bb695ca",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "scope": {
+    "changedIDs": [
+      "TC-136",
+      "TC-139",
+      "TC-141",
+      "TC-144",
+      "TC-150",
+      "TC-160",
+      "TC-170",
+      "TC-181",
+      "TC-182",
+      "TC-184",
+      "TC-186",
+      "TC-291"
+    ],
+    "checked": 12,
+    "unchangedRowsInherited": 263,
+    "unresolvedSixIntentionallyUntouched": [
+      "TC-129",
+      "TC-130",
+      "TC-133",
+      "TC-134",
+      "TC-148",
+      "TC-218"
+    ],
+    "unchangedStatuses": "Preserved, not re-approved",
+    "unexpectedChangedRows": 0,
+    "changedFamilies": 1,
+    "unexpectedFamilyChanges": 0
+  },
+  "gates": {
+    "sourceGrounding": {
+      "pass": 12,
+      "failIDs": []
+    },
+    "levelRealization": {
+      "pass": 10,
+      "failIDs": [
+        "TC-184",
+        "TC-291"
+      ]
+    },
+    "decisionBoundary": {
+      "pass": 12,
+      "failIDs": []
+    },
+    "semanticUniqueness": {
+      "NO CLOSE ANALOG": 0,
+      "ALLOWED REINFORCEMENT": 12,
+      "NEAR DUPLICATE": 0,
+      "DUPLICATE": 0,
+      "unit": "worst/closest relationship per redesigned row; controlled siblings are intentional"
+    },
+    "family": "PASS",
+    "runtimeMechanical": "PASS",
+    "runtimeSemantic": "FAIL",
+    "runtimeSemanticFailIDs": [
+      "TC-291"
+    ],
+    "productionUnchanged": "PASS",
+    "schemaOptionsLeakage": "NOT_APPLICABLE_MANIFEST_ONLY"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 3,
+    "Minor": 0
+  },
+  "remainingIDs": [
+    "TC-184",
+    "TC-291"
+  ],
+  "issueIDs": [
+    "LV-184",
+    "LV-291",
+    "MAP-291"
+  ],
+  "systemicRedesignIssues": [
+    "Senior justification sometimes compares against an artificially weak lower-level approach rather than competent Middle; named mechanism already supplied in facts is not necessarily reasoning required.",
+    "A small bounded investment is mapped to uncertainty reduction despite no uncertainty/learning decision in its facts."
+  ],
+  "importEligible": false,
+  "readyToFreeze": false,
+  "wave2Started": false,
+  "retest": "Focused redesigned TC-184/291 including metadata, fresh retrieval and diff/coverage; no need to finish unresolved six or re-audit whole manifest."
+}

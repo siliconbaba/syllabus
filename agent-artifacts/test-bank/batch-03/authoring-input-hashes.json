@@ -1,0 +1,21 @@
+{
+  "agent-artifacts/manifests/v2.2.2/change-log-v2_2_1-to-v2_2_2.csv": "43fc81500cb74a043e4cfb9af466fc0454c38caeec56506d0701d5ba1130926b",
+  "agent-artifacts/manifests/v2.2.2/artifact-hashes.json": "c74c124b9ea5ca0417e5530e1836134c11a8f73f22b2547f6a87c50827cebe2b",
+  "agent-artifacts/manifests/v2.2.2/runtime_coverage_v2_2_2.json": "406335352fc68ac086a1dd64b66de9dea34f3cbb23ff00d093828edaa4ea3600",
+  "agent-artifacts/manifests/v2.2.2/duplication-audit-v2_2_2.csv": "f1499a0ea99118e2b2ae427ba97ecc2d4f140d36f8a2835399c8ba411e8e57a2",
+  "agent-artifacts/manifests/v2.2.2/validation-result.json": "9c85d9b9939e2ddf9dbc548502f932984246ffb6e02b0cc1fe1b715c889ef753",
+  "agent-artifacts/manifests/v2.2.2/production_manifest_TC026_TC300_v2_2_2.csv": "7ec914f56a526eb0345e3ef3a934c8c2f67c36860ddef6c20775dd55ceeb0f60",
+  "agent-artifacts/manifests/v2.2.2/production_manifest_masterplan_v2_2_2.json": "c4f8600132a4099a655c31c4c97356c52265da7c0895e04d9a99f04503821e41",
+  "agent-artifacts/manifests/v2.2.2/linked_family_manifest_v2_2_2.csv": "0e574baf695dda48e4e75d89e3503bf7b3e8f27dc1250ec5cb801983c9b675c3",
+  "agent-artifacts/manifests/v2.2.2/manifest-review-v2_2_2.md": "ee5aff71f92132409f802d4c46c3ae70046e825248195f9d95976fe28f1f3e85",
+  "InteractiveBook/TrainerContent/cases.json": "2540570c2b907ea0e48cb9752e715486126e006a6100bd27e2f9f170d2c99689",
+  "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "InteractiveBook/Trainer/TrainerProfileView.swift": "41eb5ad9cc8e8a9e18df339f68767aaf5800e1ce8035d6e435dec541e99114c5",
+  "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+  "InteractiveBook/Trainer/TrainerStore.swift": "7461e3665fdcc0476a2c2cbd4e8ad0954dcdabe0abbdca236d76c66e20d4a03e",
+  "InteractiveBook/Trainer/TrainerView.swift": "5d7d9264e34766e7f07e142fb020958c15f63f342e48da0a34657a21e86b9b90",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad"
+}

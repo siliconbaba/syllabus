@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "rowSHA256": "07dc33b70fcaa611cd2af15fd22d8b8c4c0131ce199ead89275a3f1778add806",
+  "priorQASHA256": "b0658ed64f499c5abd89d30bab0127ed42d50fd4edb4b6d6c2efc4d324a875f5",
+  "equalFields": [
+    "partId",
+    "topicId",
+    "domain",
+    "requiredLevel",
+    "primaryPattern",
+    "secondaryPatterns",
+    "scenarioFamilyId",
+    "trainingEligible",
+    "assessmentEligible",
+    "sourceTopicExplanation",
+    "decisiveFacts/decisiveFactsConcept"
+  ],
+  "inheritedScope": "Only accepted blueprint identity/authorization. All full-case judgment gates independently rerun.",
+  "completion01StillOldRow": true,
+  "freezeOrImportApproval": false
+}

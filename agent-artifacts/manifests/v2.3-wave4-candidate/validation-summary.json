@@ -1,0 +1,7 @@
+{
+  "status": "PARTIAL",
+  "mechanical": "PASS",
+  "content": "11 author self-QA PASS; 2 unchanged UNRESOLVED",
+  "readyToContinueToWave5": true,
+  "independentQA": "DEFERRED; not run"
+}

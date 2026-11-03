@@ -1,0 +1,14 @@
+[
+  {
+    "id": "TC200-R1-01",
+    "severity": "Minor",
+    "field": "oneSentenceDecisionBoundary",
+    "evidence": [
+      "ближайшее зависящее от решения действие начнётся через два часа",
+      "затем сегодня зафиксировать ... итог для затронутых участников письменно"
+    ],
+    "finding": "The proposed key bounds written distribution only by today, though affected action begins in two hours. Same-day distribution can occur too late. This is a local missing timing bound, not failure of channel-order concept.",
+    "minimalFix": "Explicitly complete written distribution before the dependent action starts in two hours, after the near-term sponsor conversation. Do not alter the message content/role or invent emergency harm.",
+    "retest": "Focused exact diff; timing, source and no-new-ambiguity retest."
+  }
+]

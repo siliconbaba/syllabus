@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "status": "PASS",
+  "verdict": "INDEPENDENT ISOLATED FULL-CASE QA PASS",
+  "scope": [
+    "TC-146 revision 1"
+  ],
+  "candidate": "agent-artifacts/test-bank/full-cases/tc146-r1/cases.json",
+  "candidateSHA256": "21f0cfe0591de80578107a0f5bafd0b1b680b0be7b00264a911bef522868ca33",
+  "gates": {
+    "blindStrongest": "PASS",
+    "pairwiseUniqueBest": "PASS",
+    "wholeOptionWhenCounterfactuals": "PASS",
+    "DQAndExplanations": "PASS",
+    "fullSourceHTML": "PASS",
+    "JuniorRealization": "PASS",
+    "mandatoryAndCrossBankDuplication": "PASS",
+    "surfaceAnd78Rules": "PASS",
+    "schemaAndActualSwiftLoader": "PASS",
+    "blueprintAlignmentAndInputHashes": "PASS"
+  },
+  "familyGate": "NOT_APPLICABLE_STANDALONE",
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "remainingIssueIDs": [],
+  "inheritanceBases": [
+    "Only accepted blueprint identity checked against qa-tc146-r1; no full-case gates inherited."
+  ],
+  "candidateAccepted": true,
+  "fullCaseAccepted": true,
+  "importEligible": false,
+  "readyForFreeze": false,
+  "productionChanged": false,
+  "manifestChanged": false,
+  "limitations": [
+    "Isolated candidate acceptance only; cumulative manifest merge, final coverage/surface and freeze/import not approved."
+  ]
+}

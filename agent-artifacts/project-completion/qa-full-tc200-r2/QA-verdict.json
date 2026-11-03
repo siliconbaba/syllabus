@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-27",
+  "status": "PASS",
+  "verdict": "INDEPENDENT FOCUSED FULL-CASE CONTENT QA PASS",
+  "scope": [
+    "TC-200"
+  ],
+  "candidate": "agent-artifacts/test-bank/full-cases/tc200-r2/cases.json",
+  "candidateSHA256": "e7a886403846d60d415710c94f0a4ea6a325414d6e1598cd472d698b313bc034",
+  "inheritanceBase": "agent-artifacts/project-completion/qa-full-tc200-r1/QA-verdict.json",
+  "inheritanceBaseSHA256": "822e72ffe7152dccc109c9c4f8b292f7e85e1671842391231f6e0ae5e95ef95b",
+  "inheritedGates": [
+    "blindStrongestFromIdenticalVisiblePayload",
+    "pairwiseDecisiveness",
+    "sourceGrounding",
+    "JuniorRealization",
+    "wholeOptionCounterfactuals",
+    "explanatoryReasoning",
+    "metadataBlueprint",
+    "duplication",
+    "surfaceLocal78Rules"
+  ],
+  "retestedGates": {
+    "exactSemanticAllowlist": "PASS",
+    "exactRawObjectThreeLiteralDiff": "PASS",
+    "blindPayloadByteIdentity": "PASS",
+    "DQOrderingAndExplanations": "PASS",
+    "allPriorInputAndArtifactHashes": "PASS",
+    "realSwiftLoader": "PASS"
+  },
+  "closedIssueIDs": [
+    "TC200-FULL-R1-01"
+  ],
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "remainingIssueIDs": [],
+  "candidateAccepted": true,
+  "acceptanceMeaning": "Isolated full-case content only; no cumulative freeze/import",
+  "readyForFreeze": false,
+  "importEligible": false,
+  "productionChanged": false,
+  "manifestChanged": false
+}

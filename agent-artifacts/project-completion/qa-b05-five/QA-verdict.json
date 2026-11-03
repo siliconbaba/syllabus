@@ -1,0 +1,82 @@
+{
+  "status": "FIX REQUIRED",
+  "verdict": "FIX REQUIRED",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-b05-five/cases.json",
+  "candidateSHA256": "4e8602d0300b8a5b2769c345ee469048b0e3bd5ca524e2b1ab2fa00f0ebff8ab",
+  "manifestSHA256": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/pack-b05-five/cases.json": "4e8602d0300b8a5b2769c345ee469048b0e3bd5ca524e2b1ab2fa00f0ebff8ab",
+    "agent-artifacts/manifests/v2.3-completion-04-candidate/production_manifest_masterplan_v2_3_completion_04_candidate.json": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+    "agent-artifacts/test-bank/full-cases/pack-b05-five/blind-cases.json": "73415f98ab91a8aeaf42d8271e1268cc8bb7d230456d7865ace942c66393f702",
+    "agent-artifacts/project-completion/qa-b05-five/blind-verdict.json": "c8b3675e7417614654da76dc9d549da2e9797b47ff2d9920578c3cd9d15da582",
+    "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-10-1.md": "7936b08805dc1b592a8f26b5c4eb0e1f67081c16f4999a559cee5ae84347eafd",
+    "agent-artifacts/manifests/v2.3-wave3-candidate/source-topics/t-7-7.md": "52acf5b9b11f528ddde9a4f42026e9efe9c32091aab47b38fa300197073d401c",
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-8-1.md": "a0c7b0c973f56e9832e09ba4d6e9eaec7bc0853c6850425d0af67e52ce6d953e",
+    "agent-artifacts/manifests/v2.3-wave7-candidate/source-topics/t-10-7.md": "f90c87bdc194ba5ae412d414b510532fe9b5a2d0dcef1ecde91f863925181f7d",
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-3-5.md": "b8abb025f27655ef93d425c9e52dd6e2646f857c721688fa04b80ea930878e10"
+  },
+  "acceptedCaseIDs": [
+    "TC-147",
+    "TC-149"
+  ],
+  "remainingCaseIDs": [
+    "TC-144",
+    "TC-148",
+    "TC-150"
+  ],
+  "remainingIssueIDs": [
+    "Q144-A",
+    "Q148-B",
+    "Q150-A",
+    "Q150-C"
+  ],
+  "issues": [
+    {
+      "id": "Q144-A",
+      "case": "TC-144",
+      "option": "A",
+      "severity": "minor",
+      "reason": "Waiting and retrying until success on the payment process requires bounded transient interruption and tolerable delay/resource use in addition to tolerating delivery loss if the process exits."
+    },
+    {
+      "id": "Q148-B",
+      "case": "TC-148",
+      "option": "B",
+      "severity": "major",
+      "reason": "Action explicitly uses only 60 hours and idles the balance. Additional demand does not make this unchanged action generate >15; use a lower big-package price or independently valued idle reserve. A price of 35 yields 25 versus 20 for small."
+    },
+    {
+      "id": "Q150-A",
+      "case": "TC-150",
+      "option": "A",
+      "severity": "major",
+      "reason": "Keeping neighbours’ writes to the shared tables must be compatible with the claimed separate ownership. State independently owned rows/columns with compatibility guarantees and no coordinated release need."
+    },
+    {
+      "id": "Q150-C",
+      "case": "TC-150",
+      "option": "C",
+      "severity": "major",
+      "reason": "Dedicating a separate release window for commissions is not scheduling a shared window. Explain scheduling separate, compatible phased releases when only predictability is sought."
+    }
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 3,
+    "minor": 1
+  },
+  "gates": {
+    "blind": "B/D/A/C/B and independently ranked next options D/B/B/B/C align with keys and DQ.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "sourceAndLevel": "144 §10.1 Middle trade-off on payment availability, durable intent and latency; 147 §7.7 Head authority/capacity/organizational span; 148 §8.1 Middle realizable benefit minus cost; 149 §10.7 Head durable purpose-at-design rule across products with exception capacity; 150 §3.5 Senior anticipates distributed coupling and tests logical independence.",
+    "C04": "Five exact classification and eligibility projections; core strategies and facts align.",
+    "duplication": "No identical context or option across five, underlying production and sampled accepted batch cases. 079/080 response semantics vs 144 durable send intent. 041/097 individual delegation/coaching vs 147 new line authority. 042 forecast horizon vs 148 productive redeployment cap. 125/140 security authority vs 149 upstream purpose minimization. 048 shared schema migration vs 150 proving new ownership boundary before extraction."
+  },
+  "importEligible": false,
+  "readyToFreeze": false
+}

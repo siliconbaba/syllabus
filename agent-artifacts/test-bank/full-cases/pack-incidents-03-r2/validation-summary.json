@@ -1,0 +1,16 @@
+{
+  "candidateSHA256": "b45726444e2936f7c75b8b7d6a4b1c75b9c047bb3276e0a23c08ec3c43cf77a4",
+  "parentSHA256": "c06de5e0b99be92c8156a349bd9a01e11893b9b48f925b253bb446bc2b704da0",
+  "baseQA": "agent-artifacts/project-completion/qa-incidents03/QA-verdict.json",
+  "baseQASHA256": "c0b680efe3de5d4496aa3d736ee0e87e921572e63233a40b9e6b4888cca5778b",
+  "approvedTC115TC124Identical": true,
+  "TC185Diff": [
+    "revision",
+    "context"
+  ],
+  "swift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  }
+}

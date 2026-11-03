@@ -1,0 +1,31 @@
+[
+  {
+    "id": "FLOW05-211-WHEN-A",
+    "caseId": "TC-211",
+    "severity": "major",
+    "field": "options.A.whenItWouldBeBest",
+    "evidence": "A costs30. D gives unconditional protection for25. A WHEN says residual risk forbidden OR conditional policy expected cost>30. Neither makes A strongest against D; first actually favors D.",
+    "minimalFix": "Make A counterfactual also exclude cheaper unconditional two-stage protection (unavailable or cannot supply required protection), or change its comparative price. Retain explicit superiority to all remaining feasible policies.",
+    "requiredRetest": [
+      "whole-option A WHEN versus B/C/D",
+      "unchanged candidate-object diff outside authorized WHEN edit",
+      "DQ explanations remain coherent"
+    ]
+  },
+  {
+    "id": "FLOW05-116-LEVEL",
+    "caseId": "TC-116",
+    "severity": "major",
+    "field": "context/options/authorRationale/decisiveFacts",
+    "evidence": "Approved requiredLevel is middle despite Senior wording in concept. Current context supplies the exact permitted technical set, establishes that it is diagnostically sufficient, and makes pre-export filtering available. A/C retain explicitly forbidden excess collection; D discards useful diagnostics although a proven safe filter exists. Selecting B merely follows an already completed decision; no viable competing plan requires weighing an operational consequence.",
+    "minimalFix": "Preserve middle metadata and safeguards boundary. Introduce a concrete locally scoped operational constraint/consequence with a professionally viable competing compliant plan, requiring an actual diagnostic/data-minimization trade-off. Update dependent feedback and decisive facts, without adding policy invention or reintroducing unnecessary client payload.",
+    "requiredRetest": [
+      "fresh blind choice on revised case",
+      "pairwise professional plausibility and strongest",
+      "actual Middle operation",
+      "whole-option WHEN and DQ",
+      "source10.4",
+      "duplication116 versus162/108-109/149/293 and batch surface"
+    ]
+  }
+]

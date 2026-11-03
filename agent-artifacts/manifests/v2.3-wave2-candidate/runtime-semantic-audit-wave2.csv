@@ -1,0 +1,22 @@
+﻿TC-ID,domain,domainReason,role,pattern,concreteDecisionEvidence,runtimeThinking,verdict
+TC-106,delivery_quality,Предмет решения сохранён: Процессы,primary,bottleneck,План меняет мощность подтверждённой стадии-ограничения с проверкой очереди по неделям.,dependencies,PASS
+TC-106,delivery_quality,Предмет решения сохранён: Процессы,secondary,process-economics,Выбор разовой помощи либо настройки учитывает полную цену повторного вмешательства и переходного периода.,proportionality,PASS
+TC-107,delivery_quality,Предмет решения сохранён: Процессы,primary,bottleneck,План меняет мощность подтверждённой стадии-ограничения с проверкой очереди по неделям.,dependencies,PASS
+TC-107,delivery_quality,Предмет решения сохранён: Процессы,secondary,process-economics,Выбор разовой помощи либо настройки учитывает полную цену повторного вмешательства и переходного периода.,proportionality,PASS
+TC-138,vendors_and_finance,Предмет решения сохранён: Финансы и подрядчики,primary,contract-risk-allocation,"Сохранить границу оплачиваемого результата и отдельно согласовать новое требование, не переносить его задним числом на вендора.",proportionality,PASS
+TC-138,vendors_and_finance,Предмет решения сохранён: Финансы и подрядчики,secondary,process-economics,Отдать подготовку внутреннему аналитику ценой 30 вместо срочного пакета 100 или позднего обучения 20.,proportionality,PASS
+TC-162,technical_delivery,Предмет решения сохранён: Технический TPM,primary,root-cause,"Проверить вклад измерительного контура в усиление деградации, не приписывая исходную проблему нехватке мощности без evidence.",systems,PASS
+TC-162,technical_delivery,Предмет решения сохранён: Технический TPM,secondary,quality-metrics,"Развести полные бизнес-агрегаты и ограниченные подробные трассы, сделать потерю наблюдений видимой.",evidence,PASS
+TC-167,organizational_design,Предмет решения сохранён: Процессы,primary,dependency-management,"Переутвердить затронутые downstream-обязательства по реальным связям, сохранив независимую работу.",dependencies,PASS
+TC-167,organizational_design,Предмет решения сохранён: Процессы,secondary,change-control,"Изменение вехи запускает явное решение по последствиям, вместо молчаливой смены даты.",organization,PASS
+TC-175,delivery_quality,Предмет решения сохранён: Процессы,primary,root-cause,"Разобрать взаимное порождение возвратов, а не объяснить неуспех дисциплиной исполнителей.",systems,PASS
+TC-175,delivery_quality,Предмет решения сохранён: Процессы,secondary,quality-metrics,"Закрывать системную тему по сквозному результату и возвратам, а не по доле выполненных actions.",evidence,PASS
+TC-194,vendors_and_finance,Предмет решения сохранён: Финансы и подрядчики,primary,process-economics,Выбрать более высокий счёт с меньшей полной ценой исполнения за счёт внутренней capacity.,proportionality,PASS
+TC-237,technical_delivery,Предмет решения сохранён: Технический TPM,primary,impact-analysis,"Решить, какой периметр отката соответствует подтверждённому ущербу и последствиям для остальных операций.",evidence,PASS
+TC-237,technical_delivery,Предмет решения сохранён: Технический TPM,secondary,process-economics,Сравнить дополнительный ущерб ожидания 20 с потерей улучшения 80 при одинаковой достаточности двух мер.,proportionality,PASS
+TC-244,people_management,Предмет решения сохранён: Люди,primary,roles,Изменить содержание и критерии назначения роли руководителя группы с выделением capacity на управление менеджерами.,organization,PASS
+TC-244,people_management,Предмет решения сохранён: Люди,secondary,decision-at-right-level,Передать классы решений с явными исключениями и убрать постоянное утверждение наставником.,organization,PASS
+TC-286,release_and_quality,Предмет решения сохранён: Delivery и релизы,primary,root-cause,"Разделить реальные дефекты и вмешательство общих данных, устранить класс межпрогонных зависимостей.",systems,PASS
+TC-286,release_and_quality,Предмет решения сохранён: Delivery и релизы,secondary,regression-evidence,Требовать воспроизводимое исходное состояние и разбор первого падения перед признанием регресса успешным.,risk,PASS
+TC-300,vendors_and_finance,Предмет решения сохранён: Финансы и подрядчики,primary,forecast,"Решение опирается на EAC с отдельными принятыми обязательствами и актуальным риском, а не на paid-to-date.",evidence,PASS
+TC-300,vendors_and_finance,Предмет решения сохранён: Финансы и подрядчики,secondary,change-control,Снятие полезного scope и плата за выход требуют явного решения спонсора с обновлением бюджета.,organization,PASS

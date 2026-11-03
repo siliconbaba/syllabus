@@ -1,0 +1,28 @@
+{
+  "status": "PASS — regression only",
+  "base": "v2.3-hardtail-b1-candidate",
+  "baseSHA256": "e33426000f6cdd4bfc638278432fafc4c6989c778c587609f21a8b40f7c3e2c6",
+  "candidate": "v2.3-recon-u-exp-candidate",
+  "changedRows": [],
+  "unchangedRows": 275,
+  "unexpectedChangedRows": 0,
+  "changedFamilies": [],
+  "unexpectedFamilyChanges": 0,
+  "allPreviouslyAcceptedRowsUnchanged": true,
+  "allOtherUnresolvedRowsUnchanged": true,
+  "selectedRowsUnchanged": true,
+  "familyContractsUnchanged": true,
+  "headAuditUnchanged": true,
+  "batchPlanUnchanged": true,
+  "coverageUnchangedVerifiedByRecomputation": true,
+  "unresolvedRegistryUnchanged": true,
+  "rootMetadataChanges": [
+    "manifestVersion",
+    "freezeProvenance",
+    "reconstructionUExpRevision"
+  ],
+  "TC261CleanupUnchanged": true,
+  "productionUnchanged": true,
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "changes": []
+}

@@ -1,0 +1,178 @@
+{
+  "seed": "v2.3-wave1-r2-candidate",
+  "seedSHA256": "bb858ee97bda87d6716a4ad1fa19385bef24f2b96443873da4bb9ba0bffede01",
+  "authoritativeBaseline": "v2.2.3",
+  "independentCalibrationVerdictSHA256": "a1c748287ed2e872a1c72120e042ebf64c6257b1b540a205f405b36ca05cfaf0",
+  "globalAuditMapSHA256": "d7ea0a4bf0e55adc4585a44bec40ac056ec0909c7a35a84d2e0007346f752c65",
+  "remainingGlobalBefore": 130,
+  "selectedUnresolvedIDs": [
+    "TC-106",
+    "TC-107",
+    "TC-138",
+    "TC-162",
+    "TC-167",
+    "TC-175",
+    "TC-194",
+    "TC-237",
+    "TC-244",
+    "TC-257",
+    "TC-258",
+    "TC-286",
+    "TC-300"
+  ],
+  "additionalFamilySiblings": [],
+  "selected": [
+    {
+      "id": "TC-106",
+      "problemType": "level",
+      "requiredLevel": "middle",
+      "topicId": "t-3-7",
+      "familyId": "F-PR-P01",
+      "nearestAnalog": "No blocking analog in global audit; fresh retrieval required",
+      "levelIssue": "Уровень не доказан: назван общий trade-off, но не заданы ограничения, позволяющие выбрать конкретный operational план.",
+      "semanticIssue": null,
+      "reasonSelected": "Middle pair: перейти от ярлыка временного bottleneck к исполнимому operational выбору."
+    },
+    {
+      "id": "TC-107",
+      "problemType": "level",
+      "requiredLevel": "middle",
+      "topicId": "t-3-7",
+      "familyId": "F-PR-P01",
+      "nearestAnalog": "No blocking analog in global audit; fresh retrieval required",
+      "levelIssue": "Уровень не доказан: назван общий trade-off, но не заданы ограничения, позволяющие выбрать конкретный operational план.",
+      "semanticIssue": null,
+      "reasonSelected": "Атомарный sibling: тот же план мер при устойчивом дисбалансе; исключить смену нескольких variables."
+    },
+    {
+      "id": "TC-138",
+      "problemType": "semantic",
+      "requiredLevel": "middle",
+      "topicId": "t-8-4",
+      "familyId": null,
+      "nearestAnalog": "TC-020/030",
+      "levelIssue": null,
+      "semanticIssue": "Неопределённый scope и T&M при доступном governance",
+      "reasonSelected": "Semantic-only: отличить выбор vendor-механизма от существующих T&M/fixed-price задач."
+    },
+    {
+      "id": "TC-162",
+      "problemType": "semantic + level",
+      "requiredLevel": "senior",
+      "topicId": "t-10-4",
+      "familyId": null,
+      "nearestAnalog": "TC-050",
+      "levelIssue": "Senior: все основания уже заданы; требуется обычное применение принципа, не системная причина/существенная неопределённость",
+      "semanticIssue": "Traces закрывают уже диагностированный пробел локализации",
+      "reasonSelected": "Смешанный риск: observability diagnostic mechanism вместо готового выбора traces."
+    },
+    {
+      "id": "TC-167",
+      "problemType": "semantic + level",
+      "requiredLevel": "senior",
+      "topicId": "t-4-3",
+      "familyId": null,
+      "nearestAnalog": "TC-039",
+      "levelIssue": "Senior: все основания уже заданы; требуется обычное применение принципа, не системная причина/существенная неопределённость",
+      "semanticIssue": "Синхронизировать по реальным зависимостям вместо общего framework",
+      "reasonSelected": "Смешанный риск: системная причинность cross-team coordination вместо повторения framework-choice."
+    },
+    {
+      "id": "TC-175",
+      "problemType": "level",
+      "requiredLevel": "senior",
+      "topicId": "t-4-7",
+      "familyId": null,
+      "nearestAnalog": "No blocking analog in global audit; fresh retrieval required",
+      "levelIssue": "Senior: все основания уже заданы; требуется обычное применение принципа, не системная причина/существенная неопределённость",
+      "semanticIssue": null,
+      "reasonSelected": "Senior gate: mechanism of learning loop вместо простого WIP ограничения."
+    },
+    {
+      "id": "TC-194",
+      "problemType": "level",
+      "requiredLevel": "middle",
+      "topicId": "t-8-4",
+      "familyId": null,
+      "nearestAnalog": "No blocking analog in global audit; fresh retrieval required",
+      "levelIssue": "Middle: готовое правило/порог; нет выбора между двумя допустимыми operational планами",
+      "semanticIssue": null,
+      "reasonSelected": "Middle gate: обоснованный выбор среди допустимых vendor решений после hard constraints."
+    },
+    {
+      "id": "TC-237",
+      "problemType": "level",
+      "requiredLevel": "middle",
+      "topicId": "t-10-4",
+      "familyId": null,
+      "nearestAnalog": "No blocking analog in global audit; fresh retrieval required",
+      "levelIssue": "Middle: готовое правило/порог; нет выбора между двумя допустимыми operational планами",
+      "semanticIssue": null,
+      "reasonSelected": "Middle gate: операционная цена detection и response, без повторения TC-100."
+    },
+    {
+      "id": "TC-244",
+      "problemType": "semantic + level",
+      "requiredLevel": "head",
+      "topicId": "t-7-7",
+      "familyId": null,
+      "nearestAnalog": "TC-268",
+      "levelIssue": "Head: разовое решение или готовый threshold; организационный design не требуется",
+      "semanticIssue": "Stretch scope до назначения в новую управленческую роль",
+      "reasonSelected": "Head + semantic: система делегирования/преемственности вместо одного stretch assignment."
+    },
+    {
+      "id": "TC-257",
+      "problemType": "level",
+      "requiredLevel": "head",
+      "topicId": "t-7-10",
+      "familyId": "F-PE-P03",
+      "nearestAnalog": "No blocking analog in global audit; fresh retrieval required",
+      "levelIssue": "Head: разовое решение или готовый threshold; организационный design не требуется",
+      "semanticIssue": null,
+      "reasonSelected": "Head family: governance психологической безопасности с сохранением одной controlled variable."
+    },
+    {
+      "id": "TC-258",
+      "problemType": "semantic + level",
+      "requiredLevel": "head",
+      "topicId": "t-7-10",
+      "familyId": "F-PE-P03",
+      "nearestAnalog": "TC-097",
+      "levelIssue": "Head: разовое решение или готовый threshold; организационный design не требуется",
+      "semanticIssue": "Изменить управленческую роль после безуспешной поддержки",
+      "reasonSelected": "Атомарный sibling со смешанным дефектом: избежать повтора TC-097 о развитии менеджера."
+    },
+    {
+      "id": "TC-286",
+      "problemType": "level",
+      "requiredLevel": "senior",
+      "topicId": "t-3-9",
+      "familyId": null,
+      "nearestAnalog": "No blocking analog in global audit; fresh retrieval required",
+      "levelIssue": "Senior: все основания уже заданы; требуется обычное применение принципа, не системная причина/существенная неопределённость",
+      "semanticIssue": null,
+      "reasonSelected": "Senior gate: перестройка системы доказательств качества вместо ранжирования автоматизации."
+    },
+    {
+      "id": "TC-300",
+      "problemType": "level",
+      "requiredLevel": "middle",
+      "topicId": "t-8-2",
+      "familyId": null,
+      "nearestAnalog": "No blocking analog in global audit; fresh retrieval required",
+      "levelIssue": "Middle: готовое правило/порог; нет выбора между двумя допустимыми operational планами",
+      "semanticIssue": null,
+      "reasonSelected": "Middle gate: выбор бюджетного действия по обязательствам, а не только paid/EAC терминология."
+    }
+  ],
+  "familiesAllowedToChange": [
+    "F-PR-P01",
+    "F-PE-P03"
+  ],
+  "scopeFreeze": "Written before redesign; no opportunistic expansion",
+  "unchangedIfNotProven": true,
+  "requiredLevelsFrozen": true,
+  "runbookSHA256Before": "e58dddb50a15bf7b55037d338e3d5f7f05bb737a698176900f93cfc2b58fc326",
+  "runbookSHA256After": "2de41e61c536839ba028a21e91b1ae7dbfb0210dfa1f3ae0802f0516c9aaffa0"
+}

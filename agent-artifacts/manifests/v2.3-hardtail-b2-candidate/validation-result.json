@@ -1,0 +1,46 @@
+{
+  "status": "PASS mechanical regression; PARTIAL substantive task",
+  "scope": [
+    "TC-126",
+    "TC-127",
+    "TC-128",
+    "TC-234",
+    "TC-235"
+  ],
+  "selectedFamilies": [
+    "F-PO-P03",
+    "F-PR-T01"
+  ],
+  "successfulFamilies": [],
+  "reroutedFamilies": [
+    "F-PR-T01",
+    "F-PO-P03"
+  ],
+  "changedRows": [],
+  "changedFamilies": [],
+  "reopenedAcceptedMembers": [],
+  "allRowsIdentical": true,
+  "allFamilyContractsIdentical": true,
+  "unknownCodes": 0,
+  "structuralRegression": "PASS",
+  "runtimeDerivedFields": "PASS — existing fields mechanically verified",
+  "coverageRecalculation": "PASS — all7main pools exactly equal",
+  "sourceTopicsReviewed": 2,
+  "appliedSourceGrounding": "NOT_APPLICABLE — zero applied rows",
+  "appliedLevelRealization": "NOT_APPLICABLE — zero applied rows",
+  "appliedFamilyContracts": "NOT_APPLICABLE — zero successful families",
+  "appliedRuntimeSemantics": "NOT_APPLICABLE — no semantic retagging",
+  "rejectedNearDuplicateDraftRows": [
+    "TC-234",
+    "TC-235"
+  ],
+  "unexpectedChangedRows": 0,
+  "unexpectedFamilyChanges": 0,
+  "productionUnchanged": true,
+  "remainingGlobalUnresolved": 72,
+  "categoryBTrack": "CLOSED — author routing recommendation pending independent review",
+  "independentQA": "NOT_RUN",
+  "fullCaseLoader": "NOT_APPLICABLE",
+  "readyForFocusedB2IndependentQA": true,
+  "readinessScope": "routing/deferral only; no content acceptance claimed"
+}

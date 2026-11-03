@@ -1,0 +1,9 @@
+{
+  "agent-artifacts/manifests/v2.3-completion-02-candidate/production_manifest_masterplan_v2_3_completion_02_candidate.json": "2aad3f13350f675ccf2e7ec6753621f184128480598851b8711c1df400cbbb89",
+  "agent-artifacts/manifests/v2.3-completion-02-candidate/artifact-hashes.json": "c73d18285c226884d700fdb388a8b933e1e5c4993a195dd1b83de270d23f87d6",
+  "agent-artifacts/manifests/v2.3-completion-02-candidate/input-hashes.json": "584850b8a553edb396164fe7875e1a79af9b3e01bfcc42fe36f8e55f193c9ac1",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "/tmp/completion01-qa-runtime": "d63cfd4f4f24695d0bcd1d97a72def6210b3e921811461f9d85fe78ab12feb00",
+  "agent-artifacts/project-completion/qa-manifest-completion01/runtime-reproduced.json": "583c539b48d1f28bfef8d77efe1d24af8c36c8e1846a852af5d6f7d6f3312780"
+}

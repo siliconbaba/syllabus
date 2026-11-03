@@ -1,0 +1,65 @@
+{
+  "unitCount": 43,
+  "replacementUnits": 12,
+  "baseAuthorPasses": 55,
+  "authorPassRange": [
+    55,
+    65
+  ],
+  "qaPassRange": [
+    35,
+    43
+  ],
+  "fixRetestPassRange": [
+    16,
+    30
+  ],
+  "finalGlobalQARange": [
+    1,
+    2
+  ],
+  "cleanupPasses": 1,
+  "freezePasses": 1,
+  "totalRange": [
+    109,
+    142
+  ],
+  "definition": "One Work iteration = one bounded author/reconstruction, independent QA, fix or retest task, not one row or calendar day.",
+  "calculation": "31 nonreplacement units ×1 +12 replacement units ×2 =55 author passes; up to10 additional pre-QA architecture attempts.43 QA units minus8 optional pairings =35 minimum.8–15 post-QA fix cycles ×(fix+retest)=16–30. Final1–2globalQA+1cleanup+1explicit freeze=3–4.",
+  "assumptions": "Planning scenario, not observed success probability. A failed frozen-level feasibility or rejected coverage decision can exceed this range or block freeze. Architecture retries here exclude post-QA fix cycles to avoid double count.",
+  "qaBundles": [
+    [
+      "U-EXP",
+      "U-SECURITY"
+    ],
+    [
+      "U-ONBOARD",
+      "U-PERFORMANCE"
+    ],
+    [
+      "U-OBSERVABILITY",
+      "U-REVERSIBLE"
+    ],
+    [
+      "U-COMMS-M",
+      "U-PRIORITY-M"
+    ],
+    [
+      "U-FLOW-J",
+      "U-DEPENDENCY-J"
+    ],
+    [
+      "U-ESCALATE-M",
+      "U-FORECAST"
+    ],
+    [
+      "U-F-BV-P04",
+      "U-F-ST-P03"
+    ],
+    [
+      "U-F-PE-P02",
+      "U-F-PA-P03"
+    ]
+  ],
+  "bundleRules": "Only after both author units finish and combined cross-duplication/regression passes; do not hold a high-risk unresolved family merely to fill a bundle. Separate verdicts. Never import/freeze from self-QA."
+}

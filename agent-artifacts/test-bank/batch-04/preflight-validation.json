@@ -1,0 +1,59 @@
+{
+  "phase": "A only",
+  "productionHash": "PASS",
+  "productionRange": "TC-001…TC-100",
+  "productionCounts": {
+    "total": 100,
+    "standalone": 67,
+    "linked": 33,
+    "families": 15,
+    "levels": {
+      "middle": 53,
+      "junior": 16,
+      "senior": 21,
+      "head": 10
+    }
+  },
+  "checkedPlannedRows": 25,
+  "classifications": {
+    "ALLOWED REINFORCEMENT": 11,
+    "DUPLICATE": 6,
+    "NEAR DUPLICATE": 5,
+    "NO CLOSE ANALOG": 3
+  },
+  "batchCounts": {
+    "total": 25,
+    "standalone": 16,
+    "linked": 9,
+    "families": 4,
+    "pairs": 3,
+    "triplets": 1,
+    "levels": {
+      "senior": 6,
+      "junior": 3,
+      "middle": 13,
+      "head": 3
+    }
+  },
+  "internalPairCount": 300,
+  "internalBlockingCollisions": 0,
+  "familyConceptContractsPass": 4,
+  "manifestBlockerIDs": [
+    "TC-103",
+    "TC-105",
+    "TC-108",
+    "TC-111",
+    "TC-113",
+    "TC-115",
+    "TC-118",
+    "TC-119",
+    "TC-120",
+    "TC-122",
+    "TC-125"
+  ],
+  "protectedInputsUnchanged": true,
+  "authoringStarted": false,
+  "createdCases": 0,
+  "schemaValidationOfFullCases": "NOT RUN — cases not authored",
+  "readiness": "READY FOR MANIFEST HOTFIX; NOT READY FOR IMPORT"
+}

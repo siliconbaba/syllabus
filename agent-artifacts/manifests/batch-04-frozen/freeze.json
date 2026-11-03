@@ -1,0 +1,7 @@
+{
+  "scope": "Batch 04 only",
+  "projectionSHA256": "77362e9e1211384df300e2b22839365d2a2e02bbc9daa75e8acf77724919c894",
+  "acceptedContentSHA256": "48de342eab74571fb624b53f8ed7551e5598503e64a372b2e1edd7a7d2e2271d",
+  "qa": "agent-artifacts/project-completion/qa-assembled04-r3/QA-verdict.json",
+  "qaSHA256": "3a7d7432e306ee560d0a9aa42346baa15eed1bd555d7f488a40273089ed2ab14"
+}

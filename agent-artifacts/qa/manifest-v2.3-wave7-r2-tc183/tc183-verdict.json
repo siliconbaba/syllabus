@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "verdict": "TC-183 FOCUSED INDEPENDENT RETEST PASS",
+  "date": "2026-10-16",
+  "scope": [
+    "TC-183"
+  ],
+  "candidateSHA256": "779fe25b0dd8921106f867618da2d130c4422e3401aec0254486a8192472a228",
+  "baselineSHA256": "83993502acdc88b640f4a21524a7cd85e655e2102e20e4e706b206bd1046e8e7",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "gates": {
+    "diff": "PASS",
+    "unexpectedChangedRows": 0,
+    "sourceGrounding": "PASS",
+    "middleRealization": "PASS",
+    "realCompetingTradeOff": "PASS",
+    "promptNonObviousness": "PASS",
+    "semanticUniqueness": "ALLOWED REINFORCEMENT",
+    "runtimeSemanticMapping": "PASS",
+    "familiesUnchanged": "PASS",
+    "TC248Unchanged": "PASS",
+    "otherWave6Unchanged": "PASS",
+    "acceptedWave1To5Unchanged": "PASS",
+    "intentionalUnresolvedUnchanged": "PASS",
+    "productionUnchanged": "PASS"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "closedIssues": [
+    "W6-183-L01"
+  ],
+  "previousTC183Major": "CLOSED",
+  "remainingIssues": [],
+  "wave6AcceptedAfterRetest": true,
+  "wave7Accepted": true,
+  "cumulativeCandidateAccepted": true,
+  "cumulativeAcceptanceScope": "Принятый cumulative checkpoint redesigned rows Wave1–7; неизменные unresolved сохраняют статус. Не означает готовность всего manifest к freeze/import.",
+  "readyForHardTailTriage": true,
+  "hardTailTriageStarted": false,
+  "wave8Started": false,
+  "readyToFreeze": false,
+  "importEligible": false,
+  "inheritanceBase": "agent-artifacts/qa/manifest-v2.3-wave6-wave7/QA-verdict.json",
+  "inheritance": "Eight Wave6 PASS and TC248 PASS inherited only after raw/semantic identity and same source/runtime checks.",
+  "notApplicable": [
+    "full-case blind option choice",
+    "option style leakage",
+    "decisionQuality"
+  ]
+}

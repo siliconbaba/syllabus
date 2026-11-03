@@ -1,0 +1,8 @@
+{
+  "verifiedArtifact": "agent-artifacts/releases/checkpoint-100-2026-10-26/InteractiveBook-checkpoint-100-verified.ipa",
+  "sha256": "a7de4fce97876e3c6220d3b8bc1d84bae0cb08d22909c5662fc0fb95923acba5",
+  "contentByteIdenticalToIndependentlyReviewedIPA": true,
+  "productionBankExactMatch": true,
+  "cases": 100,
+  "deviceInstall": "NOT_TESTED"
+}

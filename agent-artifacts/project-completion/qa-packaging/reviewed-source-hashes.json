@@ -1,0 +1,5 @@
+{
+  "scripts/package_sidestore.py": "1bbf115906971f358c6783b73ab8e0a568ecf6e94c8eadf2055fcf507f0e879c",
+  "scripts/build-sidestore.sh": "3e779146cf1110a990babed7ca13e8bee5838c9ab63b80d9b3b0cfa4f0eeb2ae",
+  "Tests/test_sidestore_packaging.py": "8fc7a28542bc908cd94d42c449df8cbdc962fa75dbff63a8852168389c0c3e88"
+}

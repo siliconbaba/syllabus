@@ -1,0 +1,7 @@
+{
+  "QA-report.md": "045f4e74521f9146dc046eb6825fcb431fb7d9bfd551e590da148b2962f70fd8",
+  "QA-verdict.json": "86a2906db3ed292db3c4d6290b692696bbe6dc809862d62f68c5d51268c32cff",
+  "diff-evidence.json": "b45c713521aed76e435043b10c8060d4e28f0cc0591f270bb5360d5566fd0041",
+  "input-hashes.json": "996d381865d898977997801b7fe97bf3fe83a41bf3003214bc0bc343a50cd6d2",
+  "runtime-check.txt": "dee6eedbc905a791c3c358bd5eddee2b7bed2feb2e97e7cc4810f5f74c7b7b13"
+}

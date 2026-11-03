@@ -1,0 +1,1 @@
+TC200 R2 focused timing repair, TC200-R1-01. Only boundary sentence changed: record after sponsor call before the stated dependency starts. All other fields unchanged. Full source/preflight in sibling R1. Pending independent retest; no production/master mutation.

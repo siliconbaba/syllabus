@@ -1,0 +1,176 @@
+{
+  "candidateSHA256": "894b42abf4c430e6bc53f3469baa553890d2d0340f94039627ef825404082dc7",
+  "providedInputHashesMatch": {
+    "agent-artifacts/manifests/v2.3-completion-02-candidate/production_manifest_masterplan_v2_3_completion_02_candidate.json": true,
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-3-7.txt": true
+  },
+  "approvedBlueprintsEqualCompletion03": {
+    "TC-222": true,
+    "TC-253": true,
+    "TC-254": true,
+    "TC-287": true
+  },
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "productionCount": 100,
+  "runtimeInheritance": {
+    "validationCandidateHashMatches": true,
+    "suppliedActualSwift": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "newCompilations": 0,
+    "scope": "Loader/schema/runtime PASS inherited only for exact supplied candidate hash, per delegation; semantic gates independently reviewed."
+  },
+  "source": {
+    "path": "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-3-7.txt",
+    "sha256": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0",
+    "completeTopicRead": true,
+    "principles": [
+      "WIP includes work still in progress and waiting; explicit limits govern admission.",
+      "Work-item age reveals current unfinished problems unlike completed lead-time statistics.",
+      "Throughput counts finished flow; expanding stage queues identify bottlenecks and downstream shifts."
+    ],
+    "scenarioFacts": "All days, capacities, prices and external readiness facts are author-created, explicitly so in sourceTopicExplanation.",
+    "crossReferences": "DORA, automated gates and portfolio governance are background references; none is needed to solve these bounded team decisions."
+  },
+  "family": {
+    "id": "F-TD-P03",
+    "memberIDs": [
+      "TC-253",
+      "TC-254"
+    ],
+    "visibleContextsEqualAfterDeclaredMutation": true,
+    "optionTextsIdentical": true,
+    "numericTokensIdentical": true,
+    "changedLogicalVariable": "Shared downstream resource versus independent reserve",
+    "strongestShift": "A → B",
+    "eligibilityCorrect": true,
+    "noFrequencyMutation": "Four-week horizon and weekly demand12, review10/downstream12, weekly external2 and prices same. Recurring internal two-day use must be made explicit in visible common text (FLOW04-02).",
+    "coMutation": "None; downstream impact is consequence of resource relation, not second changed fact."
+  },
+  "surface": {
+    "keyCounts": {
+      "B": 3,
+      "A": 1
+    },
+    "caseMetrics": [
+      {
+        "id": "TC-222",
+        "optionCharacterLengths": {
+          "A": 99,
+          "B": 66,
+          "C": 86,
+          "D": 122
+        },
+        "exactlyOneAligned1": true
+      },
+      {
+        "id": "TC-287",
+        "optionCharacterLengths": {
+          "A": 103,
+          "B": 109,
+          "C": 110,
+          "D": 79
+        },
+        "exactlyOneAligned1": true
+      },
+      {
+        "id": "TC-253",
+        "optionCharacterLengths": {
+          "A": 80,
+          "B": 124,
+          "C": 94,
+          "D": 116
+        },
+        "exactlyOneAligned1": true
+      },
+      {
+        "id": "TC-254",
+        "optionCharacterLengths": {
+          "A": 80,
+          "B": 124,
+          "C": 94,
+          "D": 116
+        },
+        "exactlyOneAligned1": true
+      }
+    ],
+    "heuristics": "Longest key only TC-254; shortest key TC-222/253. B3/A1 is small-batch concentration, not rejection. TC-287 key includes explicit visible WIP-owner safeguard repeated from context; all plans remain bound to it, so not unique correctness by wording alone. Family shared title/question/options are intentional. No exact duplicate standalone contexts or options.",
+    "scope": "Initial economical batch semantic/surface review; no claim of historical78-rule execution."
+  },
+  "duplication": {
+    "productionScreen": "All100 titles/key insights screened, same-topic/primary mandatory expansion TC-086; suspicious cross-topic boundaries expanded TC-045,051–053,058–059,067,095,096,012.",
+    "plannedExpanded": [
+      "TC-086",
+      "TC-106",
+      "TC-107",
+      "TC-120",
+      "TC-174",
+      "TC-183",
+      "TC-222",
+      "TC-241",
+      "TC-253",
+      "TC-254",
+      "TC-287",
+      "TC-288",
+      "TC-298"
+    ],
+    "classifications": [
+      {
+        "cases": [
+          "TC-222"
+        ],
+        "analogs": [
+          "TC-095",
+          "TC-045"
+        ],
+        "class": "ALLOWED REINFORCEMENT",
+        "boundary": "095 prohibits ignoring blocked at full WIP and enables unblocking/scope reduction;222 has spare slot and guaranteed two-day gap, chooses finite useful admission.045 changes acceptance resource sequence, not optional bounded admission."
+      },
+      {
+        "cases": [
+          "TC-287"
+        ],
+        "analogs": [
+          "TC-095",
+          "TC-058",
+          "TC-059",
+          "TC-067"
+        ],
+        "class": "ALLOWED REINFORCEMENT",
+        "boundary": "Combines completed-only metric selection bias with reachable versus externally unaccelerable aging work, then residual capacity; analogs concern WIP accounting or pure cost-of-delay sequence."
+      },
+      {
+        "cases": [
+          "TC-253",
+          "TC-254"
+        ],
+        "analogs": [
+          "TC-086",
+          "TC-106",
+          "TC-107",
+          "TC-174",
+          "TC-051",
+          "TC-052",
+          "TC-053",
+          "TC-096",
+          "TC-241"
+        ],
+        "class": "ALLOWED REINFORCEMENT",
+        "boundary": "253/254 mutate resource membership across two stages and compare deferred intake/full route costs.106/107 mutate temporary versus sustained arrivals and queue clearance,174 optimizes batching-frequency overhead at constant throughput,086 direct queue relief,051–053 value unit and acceptance-window dependency,096 reciprocal influence,241 fixed database limit."
+      },
+      {
+        "cases": [
+          "TC-222",
+          "TC-287",
+          "TC-253",
+          "TC-254"
+        ],
+        "class": "NO UNDECLARED INTRA-BATCH DUPLICATE",
+        "boundary": "Bounded new start; aging reachable work; linked resource-coupling family. Shared arithmetic/allocation language does not erase distinct decisions."
+      }
+    ],
+    "plannedSource": "Current accepted working completion03; not historical superseded106/107 or174."
+  }
+}

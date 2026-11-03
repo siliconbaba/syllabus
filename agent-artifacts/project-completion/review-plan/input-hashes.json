@@ -1,0 +1,13 @@
+{
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/production_manifest_masterplan_v2_3_hardtail_b2_candidate.json": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced",
+  "agent-artifacts/qa/manifest-v2.3-hardtail-b2/QA-verdict.json": "360b71ef8c939f89918df8fc814d61dcf24763eb495890aebc810cb0bb992ab2",
+  "agent-artifacts/test-bank/unified-reconstruction-plan/atomic-treatment-units.json": "cee4d93080f794468c76edf393b7c97d01fe68f8658e420cdac2326e47a64fe0",
+  "agent-artifacts/test-bank/unified-reconstruction-plan-delta-01/plan-overlay.json": "4715ade7c661f5178abd37c4d414ad50837ada49fcf2774575751e61bcbe8f5a",
+  "agent-artifacts/test-bank/unified-reconstruction-plan-delta-01/remaining-unit-confidence.csv": "ba163b67548eaac6b903f14fd67397843a3f038162829dc3616e0b05f91fb82b",
+  "agent-artifacts/test-bank/replacement-architecture/u-exp/selected-blueprints.json": "fe2085b77a3f96c991275042e881ab49d64857ae316f3ad63f8e9ec27a02f558",
+  "agent-artifacts/manifests/CURRENT.md": "01ae4c371a4cbceff3a06700a1db44f0d88379e46694afc2de0dc90406f7debb",
+  "agent-artifacts/manifests/v2.2.3/production_manifest_masterplan_v2_2_3.json": "a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+}

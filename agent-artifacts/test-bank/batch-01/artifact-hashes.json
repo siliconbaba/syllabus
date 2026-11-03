@@ -1,0 +1,13 @@
+{
+  "ValidateBatch.swift": "2eacba3143383cd3a84c0410eeb61031cef055f8c068aeb46388cab71a50f0bc",
+  "author.py": "2876c1b8dd766189a93cf7ee1df3207ead07a64eb22f7f6eb3a4da64b86c6047",
+  "authoring-report.md": "4b98b0029db5bfd3881cb69d85179b2e971ddeb486da321e3054bf89a93b1de7",
+  "batch-statistics.json": "2a9ca5c618411e636ffec29d852663ffc3fe6de2428da11483bf2cc7baa2febf",
+  "cases_TC026_TC050.json": "6d93c23f91262d73a5cef5e39a9bb208f6893745875d5dd482b9eba0785d276d",
+  "qa.py": "5099286c6e4510fff51f335a6b30e3bcf9a83bca132d99164fd4993018615403",
+  "schema-validation.log": "61bbbed3a4acb5cb4288152f780fb5243494ff1aa0af00b07ac1f8c52bdf2d90",
+  "self-qa.json": "5ad60f4c7dd524eb9c673da30c5d2546caf14b23c0222d9370a38d0551ffbc13",
+  "source-trace.csv": "d458cb6c0d32693edc14e361580fefa7e51247ed0a5985d7b047a8ae0a291092",
+  "topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+  "validate-batch": "b1ff1e84fdad9722e6279090d21a489907399732de069eaa77a4fa0e046cf7c5"
+}

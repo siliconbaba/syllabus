@@ -1,0 +1,10 @@
+{
+  "optionWordCounts": {
+    "A": 25,
+    "B": 24,
+    "C": 25,
+    "D": 27
+  },
+  "notFull78RuleSurfaceAudit": true,
+  "singleCaseNotPositionBalanceSample": true
+}

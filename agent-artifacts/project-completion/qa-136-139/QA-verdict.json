@@ -1,0 +1,67 @@
+{
+  "verdict": "FIX REQUIRED",
+  "status": "FIX REQUIRED",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-136-139/cases.json",
+  "candidateSHA256": "f1debb57894c76fd202091f07def8a6f0568b565967884c4ca25bd94029e5933",
+  "manifestSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "acceptedCaseIDs": [
+    "TC-136",
+    "TC-139"
+  ],
+  "remainingCaseIDs": [
+    "TC-137",
+    "TC-138"
+  ],
+  "remainingIssueIDs": [
+    "QA136-139-01",
+    "QA136-139-02"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "issues": [
+    {
+      "id": "QA136-139-01",
+      "severity": "major",
+      "case": "TC-137",
+      "field": "options.C.whenItWouldBeBest",
+      "reason": "Rewarded pre-defined annotation records are not the proposed team bonus for reporting above a near-miss target. Reframe for a bounded backlog of independently verified unique near misses, unchanged accountability for losses, incentive for prompt registration above an explicit target; protect against splits or invented events."
+    },
+    {
+      "id": "QA136-139-02",
+      "severity": "major",
+      "case": "TC-138",
+      "field": "context",
+      "reason": "The rush bundle in the visible stem is described only as including acceleration. Its inclusion of training is asserted in C explanation, decisiveFacts and accepted blueprint, but the learner cannot use that fact when comparing A/C/D. State both deliverables."
+    }
+  ],
+  "gates": {
+    "blind": "C/A/D/B matched; independent choices and runners-up saved before revealing keys",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "manifest": "Identity, levels, classifications, eligibility and decision boundaries matched four C03 rows; TC-138 omits one explicit bundle fact from stem.",
+    "levels": "136 Senior adoption across conflicting data regimes; 137 Head cross-team compensation and incentive/accountability effects; 138 Middle accepted scope, timetable, opportunity cost and budget; 139 Senior end-to-end acceptance across independently green components.",
+    "source": "136 §5.7 independent adoption when dissenter is right; 137 §7.10 safety with accountability and management incentives; 138 §8.4 signed criteria and change control; 139 §9.4 early thin end-to-end flow and integrator.",
+    "alternatives": "All 16 action/rationale/WHEN triples inspected. 137C whole-action WHEN fails. 138C relies on unexposed deliverable. Other options have credible motivations and conditions.",
+    "duplication": "Closest production analogs 096 (cost of platform agreement), 087/089 (individual concealment/public safety), 029/030 (contract model), 074 (release slots). Distinct boundaries.",
+    "surface": "Correct positions balanced across four; longest selects 136 and 139 only. No deterministic cue seen across four. Whole Batch 05 leakage is a separate gate."
+  },
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/pack-136-139/cases.json": "f1debb57894c76fd202091f07def8a6f0568b565967884c4ca25bd94029e5933",
+    "agent-artifacts/test-bank/full-cases/pack-136-139/blind-cases.json": "df262e02df9c8810b4935063aaa2cbfbdec3639d2eea412ec18f5ceea679eea7",
+    "agent-artifacts/project-completion/qa-136-139/blind-verdict.json": "445a129041944027a174a5bcbc4c2498752f324b6b41da8908d495edf4a25984",
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-5-7.md": "b93c54b36a9dc6dc7f17c2975a5787e121a5642016feafb546e21c82431849d4",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-7-10.md": "c0e305197710065b3bb8de57c7d9d41d48bbd659fca3995d5da0b542ed329aed",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-8-4.md": "b6444771ce3b65a2003836dc9bd6ff457ad18b7263f39ddca83fb67aa65b9a19",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-9-4.md": "930f2a5aa24ff29e8ba5d2fa03e0107c4c8d581b11593af4c5e1a808cf870c85"
+  },
+  "importEligible": false,
+  "readyToFreeze": false
+}

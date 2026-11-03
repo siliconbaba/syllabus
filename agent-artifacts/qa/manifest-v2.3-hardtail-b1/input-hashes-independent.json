@@ -1,0 +1,18 @@
+{
+  "agent-artifacts/manifests/v2.3-hardtail-r2-candidate/production_manifest_masterplan_v2_3_hardtail_r2_candidate.json": "820f6e0db2273f8d815952f8919d962cb6c8cb534fafa44fc81e777d0e331f2e",
+  "agent-artifacts/manifests/v2.3-hardtail-b1-candidate/production_manifest_masterplan_v2_3_hardtail_b1_candidate.json": "e33426000f6cdd4bfc638278432fafc4c6989c778c587609f21a8b40f7c3e2c6",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+  "agent-artifacts/qa/manifest-v2.3-hardtail-r2/QA-verdict.json": "8887a2da38d346ce527461d6379d27a2b7e4fb457a885214a7d03a80227015bd",
+  "agent-artifacts/manifests/v2.3-hardtail-b1-candidate/artifact-hashes.json": "3d4da61b0b680da5892ed945c1d5fd0144ac3f1ae4a9b51e095c68db0155bdcd",
+  "agent-artifacts/manifests/v2.3-hardtail-r2-candidate/artifact-hashes.json": "52456ca07c1e1f560717298f3be4d545551a55dc1af18d014c5e27c593e44700",
+  "agent-artifacts/manifests/v2.3-hardtail-b1-candidate/hardtail-b1-family-report.md": "a29f17646070b1ebbd0a2e035c79a0b679c9228afabe9320cb9c29b1b3b3aacd",
+  "agent-artifacts/test-bank/hard-tail-triage/hard-tail-triage.csv": "ca0832c886b31c64267148f8d8ddc4421d00b20fcb3cbd809f6e2cfa5ee3fd50",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+  "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+  "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc"
+}

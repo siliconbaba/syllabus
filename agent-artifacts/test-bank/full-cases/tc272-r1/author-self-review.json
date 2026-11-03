@@ -1,0 +1,8 @@
+{
+  "scope": "Author self-review only, not independent acceptance",
+  "candidateSHA256": "b26510a43a42219b14d1b90448d2e37ccddfc95c838aedaeb37dd5458a04ffeb",
+  "structuralChecks": "PASS",
+  "reasoning": "D states confirmed refusal, rationale and actual review date without unsupported execution promise. C communicates refusal honestly but omits available review commitment. A invents execution guarantee. B leaves a known incorrect current expectation uncorrected. WHEN conditions modify the exact factual constraints needed for the full option.",
+  "source": "Accepted reconstruction row and complete topic; no extra external factual claims",
+  "productionChanged": false
+}

@@ -1,0 +1,95 @@
+{
+  "status": "BLOCKED",
+  "selectedUnresolvedRows": 18,
+  "additionalFamilySiblings": 0,
+  "processedSelectedRows": 18,
+  "changedRows": 12,
+  "changedIDs": [
+    "TC-136",
+    "TC-139",
+    "TC-141",
+    "TC-144",
+    "TC-150",
+    "TC-160",
+    "TC-170",
+    "TC-181",
+    "TC-182",
+    "TC-184",
+    "TC-186",
+    "TC-291"
+  ],
+  "changedFamilies": [
+    "F-BV-P03"
+  ],
+  "problemMix": {
+    "level only": 12,
+    "semantic + level": 6
+  },
+  "levelsRepresented": {
+    "middle": 6,
+    "senior": 9,
+    "head": 3
+  },
+  "semanticFindingsAddressed": {
+    "resolved": 4,
+    "total": 6
+  },
+  "levelDefectsAddressed": {
+    "resolved": 12,
+    "total": 18
+  },
+  "sourceGrounding": {
+    "status": "PASS",
+    "passed": 12,
+    "total": 12
+  },
+  "crossBankAfterRedesign": {
+    "scope": "12 redesigned rows only; unresolved unchanged members are NOT cleared",
+    "NO CLOSE ANALOG": 0,
+    "ALLOWED REINFORCEMENT": 12,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "families": {
+    "passed": 1,
+    "total": 3,
+    "unresolved": [
+      "F-DM-P02",
+      "F-PO-P02"
+    ]
+  },
+  "runtime": "PASS",
+  "unknownCodes": 0,
+  "structuralRegression": "PASS",
+  "unexpectedChangedRows": 0,
+  "unexpectedFamilyChanges": 0,
+  "remainingSelectedUnresolved": [
+    "TC-129",
+    "TC-130",
+    "TC-133",
+    "TC-134",
+    "TC-148",
+    "TC-218"
+  ],
+  "totalUnresolvedOutsideWave1": 124,
+  "totalUnresolvedAfterWave1": 130,
+  "productionUnchanged": "PASS",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "diffVsAuthoritative": {
+    "changedRows": 35,
+    "unchangedRows": 240,
+    "changedFamilies": [
+      "F-TD-T01",
+      "F-PM-P01",
+      "F-PA-P02",
+      "F-BV-P03"
+    ],
+    "unexpectedTC026TC100Changes": 0
+  },
+  "wavePlanSHA256": "8f070c30e8bcce9a55a3b18bd37fd1aa38ab8e03193cc184f0248a107cff34f3",
+  "readyForCalibrationQA": false,
+  "fullCasesCreated": 0,
+  "fullCaseSchema": "NOT_APPLICABLE",
+  "frozen": false,
+  "imported": false
+}

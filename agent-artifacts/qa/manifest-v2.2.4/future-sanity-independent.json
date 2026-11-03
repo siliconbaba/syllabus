@@ -1,0 +1,594 @@
+[
+  {
+    "plannedId": "TC-101",
+    "futureId": "TC-143",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "futureBoundary": "Зелёные проверки ↔ полноценная release readiness с data rollback/recovery.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-101",
+    "futureId": "TC-189",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "futureBoundary": "Feature flag как универсальный rollback ↔ отделение поведения от необратимой data migration.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-101",
+    "futureId": "TC-213",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "futureBoundary": "Максимальное предварительное доказательство ↔ пропорциональный staged rollout как часть доказательной базы.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-101",
+    "futureId": "TC-264",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "futureBoundary": "Выбрать красивую rollout-технику ↔ сначала обеспечить совместимость данных с выбранной техникой.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-101",
+    "futureId": "TC-278",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "futureBoundary": "Начать с малого наблюдаемого сегмента и расширять по метрикам.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-101",
+    "futureId": "TC-279",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "futureBoundary": "Компенсировать отсутствие canary более сильным pre-release evidence, явным go/no-go и проверенным rollback.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-102",
+    "futureId": "TC-143",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "futureBoundary": "Зелёные проверки ↔ полноценная release readiness с data rollback/recovery.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-102",
+    "futureId": "TC-189",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "futureBoundary": "Feature flag как универсальный rollback ↔ отделение поведения от необратимой data migration.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-102",
+    "futureId": "TC-213",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "futureBoundary": "Максимальное предварительное доказательство ↔ пропорциональный staged rollout как часть доказательной базы.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-102",
+    "futureId": "TC-264",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "futureBoundary": "Выбрать красивую rollout-технику ↔ сначала обеспечить совместимость данных с выбранной техникой.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-102",
+    "futureId": "TC-278",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "futureBoundary": "Начать с малого наблюдаемого сегмента и расширять по метрикам.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-102",
+    "futureId": "TC-279",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "futureBoundary": "Компенсировать отсутствие canary более сильным pre-release evidence, явным go/no-go и проверенным rollback.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-103",
+    "futureId": "TC-143",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "futureBoundary": "Зелёные проверки ↔ полноценная release readiness с data rollback/recovery.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-103",
+    "futureId": "TC-189",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "futureBoundary": "Feature flag как универсальный rollback ↔ отделение поведения от необратимой data migration.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-103",
+    "futureId": "TC-213",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "futureBoundary": "Максимальное предварительное доказательство ↔ пропорциональный staged rollout как часть доказательной базы.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-103",
+    "futureId": "TC-264",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "futureBoundary": "Выбрать красивую rollout-технику ↔ сначала обеспечить совместимость данных с выбранной техникой.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-103",
+    "futureId": "TC-278",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "futureBoundary": "Начать с малого наблюдаемого сегмента и расширять по метрикам.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-103",
+    "futureId": "TC-279",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "futureBoundary": "Компенсировать отсутствие canary более сильным pre-release evidence, явным go/no-go и проверенным rollback.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-104",
+    "futureId": "TC-211",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "futureBoundary": "Красивый risk score ↔ конкретный trigger, response и остаточный риск.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-104",
+    "futureId": "TC-284",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "futureBoundary": "Полное ожидание ↔ ограниченная экспозиция риска и заранее подготовленный fallback.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-104",
+    "futureId": "TC-294",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "futureBoundary": "Ждать фактической просрочки ↔ реагировать на устойчивые ранние сигналы и обновлять forecast.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-105",
+    "futureId": "TC-211",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "futureBoundary": "Красивый risk score ↔ конкретный trigger, response и остаточный риск.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-105",
+    "futureId": "TC-284",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "futureBoundary": "Полное ожидание ↔ ограниченная экспозиция риска и заранее подготовленный fallback.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-105",
+    "futureId": "TC-294",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "futureBoundary": "Ждать фактической просрочки ↔ реагировать на устойчивые ранние сигналы и обновлять forecast.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-108",
+    "futureId": "TC-162",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "futureBoundary": "Инструмент по количеству функций ↔ инвестиция по подтверждённому bottleneck расследования.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-108",
+    "futureId": "TC-210",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "futureBoundary": "Техническое здоровье ↔ технические плюс бизнес-SLI, соответствующие failure mode.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-108",
+    "futureId": "TC-237",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "futureBoundary": "Сохранять удобный абсолютный порог ↔ алерт по динамике, соответствующей реальному риску.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-108",
+    "futureId": "TC-286",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "futureBoundary": "Автоматизация по объёму ручной работы ↔ автоматизация по частоте, риску и стоимости feedback.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-109",
+    "futureId": "TC-162",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "futureBoundary": "Инструмент по количеству функций ↔ инвестиция по подтверждённому bottleneck расследования.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-109",
+    "futureId": "TC-210",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "futureBoundary": "Техническое здоровье ↔ технические плюс бизнес-SLI, соответствующие failure mode.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-109",
+    "futureId": "TC-237",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "futureBoundary": "Сохранять удобный абсолютный порог ↔ алерт по динамике, соответствующей реальному риску.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-109",
+    "futureId": "TC-286",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "futureBoundary": "Автоматизация по объёму ручной работы ↔ автоматизация по частоте, риску и стоимости feedback.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-111",
+    "futureId": "TC-161",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "futureBoundary": "Нарисовать целевую оргсхему ↔ управлять boundaries, power и переходом delivery одновременно.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-111",
+    "futureId": "TC-167",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "futureBoundary": "Один общий backlog ради порядка ↔ синхронизация только на реальных интеграционных точках.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-111",
+    "futureId": "TC-199",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "futureBoundary": "Улучшать церемонию ↔ сдвинуть источник неопределённости/контрактов раньше процесса.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-113",
+    "futureId": "TC-159",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "futureBoundary": "Игнорировать установленный мотив ↔ дать подходящую автономию с ясными границами.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-113",
+    "futureId": "TC-244",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "futureBoundary": "Повышение по прошлой силе ↔ проверяемое делегирование нового масштаба перед постоянной ролью.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-113",
+    "futureId": "TC-268",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "futureBoundary": "Карьерное желание как готовность ↔ проверяемый developmental experiment перед сменой роли.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-115",
+    "futureId": "TC-143",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "futureBoundary": "Зелёные проверки ↔ полноценная release readiness с data rollback/recovery.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-115",
+    "futureId": "TC-185",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "futureBoundary": "Лучше писать postmortem ↔ operating mechanism, который делает systemic actions исполнимыми.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-115",
+    "futureId": "TC-189",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "futureBoundary": "Feature flag как универсальный rollback ↔ отделение поведения от необратимой data migration.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-115",
+    "futureId": "TC-282",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "futureBoundary": "Оставить incident command внутри автономной команды по её runbook.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-115",
+    "futureId": "TC-283",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "futureBoundary": "Включить межфункциональную command structure с единым IC, коммуникациями и координацией изменений.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-118",
+    "futureId": "TC-142",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "futureBoundary": "Одна универсальная score без контекста ↔ явные обязательства, CoD и strategic fit в общей развилке.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-118",
+    "futureId": "TC-196",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "futureBoundary": "Локальная value ranking ↔ приоритет с учётом системной стоимости блокировки.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-118",
+    "futureId": "TC-198",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "futureBoundary": "Большой технический проект отдельно от продукта ↔ staged migration с независимой ценностью и сохраняемой delivery.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-118",
+    "futureId": "TC-209",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "futureBoundary": "Стратегический label ↔ проверяемое strategic fit и opportunity cost.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-118",
+    "futureId": "TC-236",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "futureBoundary": "Формула с несопоставимыми inputs ↔ сначала привести size/effort к общей шкале.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-119",
+    "futureId": "TC-166",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "futureBoundary": "Backend-first change ↔ backward compatibility для независимых consumer cadence.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-119",
+    "futureId": "TC-173",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "futureBoundary": "Процент покрытия ↔ evidence по конкретному пользовательскому риску.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-119",
+    "futureId": "TC-197",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "futureBoundary": "Формальная отметка «passed» ↔ проверяемый критерий и явное исключение.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-119",
+    "futureId": "TC-199",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "futureBoundary": "Улучшать церемонию ↔ сдвинуть источник неопределённости/контрактов раньше процесса.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-119",
+    "futureId": "TC-265",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "futureBoundary": "Дата deprecation без readiness ↔ contract removal по фактической миграции consumers.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-119",
+    "futureId": "TC-296",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "futureBoundary": "Сохранять процесс по наследству ↔ менять SDLC по evidence о ценности каждого gate.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-120",
+    "futureId": "TC-137",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "futureBoundary": "Коучинг отдельных людей ↔ изменение организационного стимула, который делает сокрытие рациональным.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-120",
+    "futureId": "TC-175",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "futureBoundary": "Больше improvement backlog ↔ ограничить WIP изменений и измерять завершённый эффект.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-120",
+    "futureId": "TC-181",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "futureBoundary": "Назначить резерв, не разрушая утверждённые обязательства, и обновить портфельный прогноз.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-120",
+    "futureId": "TC-182",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "futureBoundary": "Перераспределить capacity на уровне портфеля, явно остановив/сдвинув менее ценные обязательства.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-120",
+    "futureId": "TC-185",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "futureBoundary": "Лучше писать postmortem ↔ operating mechanism, который делает systemic actions исполнимыми.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-120",
+    "futureId": "TC-199",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "futureBoundary": "Улучшать церемонию ↔ сдвинуть источник неопределённости/контрактов раньше процесса.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-122",
+    "futureId": "TC-169",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "futureBoundary": "Характеристика личности ↔ измеримые ожидания в зоне влияния сотрудника.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-122",
+    "futureId": "TC-217",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "futureBoundary": "HR как оформление финала ↔ HR с первого серьёзного формального этапа.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-122",
+    "futureId": "TC-257",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "futureBoundary": "Продолжить коучинг и закрепить новое поведение через наблюдаемые ожидания.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-122",
+    "futureId": "TC-258",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "futureBoundary": "Принять структурное решение о роли/полномочиях руководителя, потому что системный вред сохраняется.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-122",
+    "futureId": "TC-274",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "futureBoundary": "PIP как набор любых бизнес-результатов ↔ цели, находящиеся в зоне влияния сотрудника.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-125",
+    "futureId": "TC-140",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "futureBoundary": "Ad hoc exception ↔ формальная risk acceptance с owner, expiry и полномочиями по уровню риска.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-125",
+    "futureId": "TC-149",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "futureBoundary": "Исправлять каждую форму отдельно ↔ системная governance-модель минимизации и review на раннем этапе.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-125",
+    "futureId": "TC-171",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "futureBoundary": "Игнорировать finding или блокировать автоматически ↔ формальное risk acceptance на правильном authority level.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-125",
+    "futureId": "TC-191",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "futureBoundary": "Универсальный контроль после инцидента ↔ safeguard, направленный на подтверждённый failure mode.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-125",
+    "futureId": "TC-206",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "futureBoundary": "Разрешить time-boxed исключение по уполномоченному процессу с compensating controls и датой закрытия.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-125",
+    "futureId": "TC-207",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "futureBoundary": "Не обходить контроль ради срока; изменить план выпуска или устранить blocker до production.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-125",
+    "futureId": "TC-234",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "futureBoundary": "Инвестировать в self-service для типового спроса, оставив экспертов на исключения.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-125",
+    "futureId": "TC-235",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "futureBoundary": "Сохранить тесную экспертную collaboration-модель и не маскировать проектную работу порталом заявок.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  },
+  {
+    "plannedId": "TC-125",
+    "futureId": "TC-293",
+    "result": "NO OBVIOUS COLLISION",
+    "newBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "futureBoundary": "Security как финальный gate ↔ security requirements как ранняя часть scope и design.",
+    "rationale": "Different object/condition and actual decision. No exhaustive future approval."
+  }
+]

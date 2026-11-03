@@ -1,0 +1,76 @@
+﻿caseId,keyedStrongest,alternative,comparison,decisiveFactOrMissingFact,independentFailureMode,distractorPlausibility
+TC-026,C,A,STRONGEST_WINS,"После 1 дня остаётся 4; trigger 3 не достигнут, ускорение стоит 100 тысяч.",disproportionate-control,PLAUSIBLE
+TC-026,C,B,STRONGEST_WINS,Оператор подтвердил прогноз сегодня; второй ответ не нужен для обычного контроля.,redundant-confirmation,PLAUSIBLE
+TC-026,C,D,STRONGEST_WINS,"Собственный резерв 4 дня выше требуемых 3, пересогласовывать обязательство не требуется.",premature-escalation,PLAUSIBLE
+TC-027,A,B,STRONGEST_WINS,Сдвиг 4 уже подтверждён; trigger 3 сработал.,confirmation-delay,PLAUSIBLE
+TC-027,A,C,STRONGEST_WINS,"Без меры 5−4=1, требуется 3; мера добавляет ровно 2.",ignores-buffer-policy,PLAUSIBLE
+TC-027,A,D,STRONGEST_WINS,Утверждённая внутренняя мера восстанавливает 3 дня без изменения обязательства.,premature-escalation,PLAUSIBLE
+TC-028,D,A,STRONGEST_WINS,5+2−8=−1: сохранить прежнюю внешнюю дату нельзя.,infeasible-commitment,PLAUSIBLE
+TC-028,D,B,STRONGEST_WINS,"8 дней уже подтверждены, доступная компенсация только 7.",confirmation-delay,PLAUSIBLE
+TC-028,D,C,STRONGEST_WINS,Без меры опоздание 3 дня; простой контроль не меняет сеть.,ignores-critical-path,PLAUSIBLE
+TC-029,B,A,STRONGEST_WINS,"Треть объёма нестабильна, за её фиксацию берут премию и change requests.",premature-whole-scope-fix,PLAUSIBLE
+TC-029,B,C,STRONGEST_WINS,"Старт нужен на следующей неделе, две трети уже формализованы.",unnecessary-delay,PLAUSIBLE
+TC-029,B,D,STRONGEST_WINS,По двум третям есть измеримая приёмка и fixed price без премии; риск перерасхода можно передать.,unnecessary-risk-retention,PLAUSIBLE
+TC-030,D,A,STRONGEST_WINS,Нет стабильной приёмки; fixed price добавляет 30% и платные изменения.,premature-whole-scope-fix,PLAUSIBLE
+TC-030,D,B,AMBIGUOUS,"Нет решающего факта: «только устойчивые пакеты» при нуле таких пакетов не требует фиксации, а изменчивая часть по времени охватывает весь объём, как D.",AMBIGUOUS,PLAUSIBLE
+TC-030,D,C,STRONGEST_WINS,"Старт следующей неделей, C откладывает ещё на месяц; заказчик уже способен вести T&M.",unnecessary-delay,PLAUSIBLE
+TC-031,A,B,STRONGEST_WINS,"21 день и выборка завершены, критерий успеха выполнен.",unnecessary-sampling,PLAUSIBLE
+TC-031,A,C,STRONGEST_WINS,"2.6≥2, p=.02<.05, guardrails стабильны — все критерии достигнуты.",ignores-success-rule,PLAUSIBLE
+TC-031,A,D,STRONGEST_WINS,Отдельная ставка не согласована; протокол уже дал основание для плана rollout.,unauthorized-product-bet,PLAUSIBLE
+TC-032,C,A,STRONGEST_WINS,1.2<2 при выполненном p-value — не достигнут минимальный эффект.,statistical-vs-practical-effect,PLAUSIBLE
+TC-032,C,B,STRONGEST_WINS,Заданные 21 день и выборка уже завершены; продление не часть протокола.,posthoc-extension,PLAUSIBLE
+TC-032,C,D,STRONGEST_WINS,Правило при недостижении критерия сохраняет старый интерфейс; отдельная ставка не одобрена.,unauthorized-product-bet,PLAUSIBLE
+TC-033,B,A,STRONGEST_WINS,"Обе проверки за неделю, пилот наблюдает то же поведение за 30 вместо 80 тысяч.",disproportionate-information-cost,PLAUSIBLE
+TC-033,B,C,STRONGEST_WINS,Главная гипотеза неизвестна; её можно проверить до одобрения полного запуска.,premature-investment,PLAUSIBLE
+TC-033,B,D,STRONGEST_WINS,Своей проверкой можно получить поведение за неделю; внешней статистики нет.,indefinite-waiting,PLAUSIBLE
+TC-034,A,B,STRONGEST_WINS,"Пилот требует невозвратных 2 млн и обязательства на семестр, исследование стоит 80 тысяч.",ignores-reversibility,PLAUSIBLE
+TC-034,A,C,STRONGEST_WINS,Поэтапная оплата не отменяет первый невозвратный контракт и публичное обязательство.,staging-does-not-undo-commitment,PLAUSIBLE
+TC-034,A,D,STRONGEST_WINS,Недельное исследование уже доступно; срок внешней статистики не задан.,indefinite-waiting,PLAUSIBLE
+TC-035,D,A,STRONGEST_WINS,Две недели ожидания съедают весь резерв при готовых 70% работ.,waits-for-complete-information,PLAUSIBLE
+TC-035,D,B,STRONGEST_WINS,"Спорные правила ещё неизвестны; адаптер изолирует, но не обосновывает полную реализацию.",overcommitment-under-uncertainty,PLAUSIBLE
+TC-035,D,C,STRONGEST_WINS,"Оператор доступен сегодня, до спецификации две недели, fallback разворачивается за три дня.",premature-fallback,PLAUSIBLE
+TC-036,B,A,STRONGEST_WINS,"Проверяется заявка по цене, не обслуживание; тест доступен за 120 тысяч до контрактов.",expensive-learning,PLAUSIBLE
+TC-036,B,C,STRONGEST_WINS,"Неизвестно реальное подтверждённое действие по цене; интервью не проверяют его, а аренда необратима.",stated-interest-vs-behavior,PLAUSIBLE
+TC-036,B,D,STRONGEST_WINS,Этапность не отменяет первые частично необратимые аренду/найм до недельного теста.,premature-investment,PLAUSIBLE
+TC-037,C,A,STRONGEST_WINS,Rollback проверяли до новых записей; флаг и малая доля не доказывают совместимость старого кода.,unproven-recovery,PLAUSIBLE
+TC-037,C,B,STRONGEST_WINS,Безопасность очистки новых полей не проверена; доступно 40 минут на нужный тест.,unproven-reverse-migration,PLAUSIBLE
+TC-037,C,D,STRONGEST_WINS,Стабильность текущей версии не проверяет чтение старым бинарником; именно оно неизвестно.,wrong-evidence,PLAUSIBLE
+TC-038,A,B,STRONGEST_WINS,Два клиента не могут гарантировать общую дату из-за внешнего согласования.,calendar-before-readiness,PLAUSIBLE
+TC-038,A,C,STRONGEST_WINS,"Допущено временное окно, владельцы и version usage известны; бессрочность не управляет завершением.",unmanaged-deprecation,PLAUSIBLE
+TC-038,A,D,STRONGEST_WINS,"Две версии уже поддерживаются, изменение обязательно; ожидание всех клиентов не нужно.",avoidable-coupling,PLAUSIBLE
+TC-039,D,A,STRONGEST_WINS,"Два квартала overhead вырос, платформенное ожидание не снизилось.",framework-compliance-over-outcome,PLAUSIBLE
+TC-039,D,B,STRONGEST_WINS,"На карте остаются общие платформенные bottlenecks, не все потоки автономны.",excessive-decentralization,PLAUSIBLE
+TC-039,D,C,STRONGEST_WINS,Карта показывает платформенные зависимости; сокращение встреч не меняет права/границы.,symptom-before-structure,PLAUSIBLE
+TC-040,B,A,STRONGEST_WINS,Двусторонние договорённости уже не переживают следующий цикл.,repeats-failed-local-fix,PLAUSIBLE
+TC-040,B,C,STRONGEST_WINS,Спонсор делегировал постоянную модель; одинаковые конфликты повторяются третий квартал.,centralized-bottleneck,PLAUSIBLE
+TC-040,B,D,STRONGEST_WINS,Разные KPI/veto требуют правил выбора; оснований равной ценности трёх долей нет.,arbitrary-resource-quota,PLAUSIBLE
+TC-041,C,A,STRONGEST_WINS,Ожидают одного Head вследствие отмен решений; окно не возвращает authority.,queue-optimization-not-delegation,PLAUSIBLE
+TC-041,C,B,STRONGEST_WINS,"Менеджеры компетентны, автономия исчезла после отмен, границы не записаны.",skill-treatment-for-authority-problem,PLAUSIBLE
+TC-041,C,D,STRONGEST_WINS,Сохраняет согласование Head и добавляет фильтр вместо восстановления прав менеджеров.,extra-approval-layer,PLAUSIBLE
+TC-042,D,A,STRONGEST_WINS,"Известно изменение потоков следующих лет, комитет сравнивает трёхлетние проекты.",single-metric-shortcut,PLAUSIBLE
+TC-042,D,B,STRONGEST_WINS,Однолетний ROI одной инициативы и трёхлетняя альтернатива не сопоставимы.,incomparable-horizons,PLAUSIBLE
+TC-042,D,C,STRONGEST_WINS,Поддержка и лицензии изменят будущие потоки; нельзя повторить 2.5 млн трижды.,constant-cashflow-assumption,PLAUSIBLE
+TC-043,A,B,STRONGEST_WINS,Trigger паузы сработал; low-risk коммерческие фичи не входят в исключения.,safeguard-is-not-authorization,PLAUSIBLE
+TC-043,A,C,STRONGEST_WINS,"Policy разрешает только security/regulatory, согласие продукта перечень не расширяет.",unauthorized-exception,PLAUSIBLE
+TC-043,A,D,STRONGEST_WINS,Выделен ресурс стабилизации при почти исчерпанном бюджете; пересмотр policy отдельный.,policy-change-as-release-bypass,PLAUSIBLE
+TC-044,C,A,STRONGEST_WINS,Откат гарантированно останавливает заказы на час; массовый ущерб не подтверждён.,premature-expensive-intervention,PLAUSIBLE
+TC-044,C,B,STRONGEST_WINS,"Разбивка доступна за 15 минут, ждать сутки не нужно.",unnecessary-diagnostic-delay,PLAUSIBLE
+TC-044,C,D,STRONGEST_WINS,Ещё агрегат за 30 минут не отделит версии/регионы; нужная разбивка готовится за 15.,more-nondiscriminating-evidence,PLAUSIBLE
+TC-045,B,A,STRONGEST_WINS,Три дня подтверждённо независимы и доступны сейчас тем же составом.,avoidable-sequential-dependency,PLAUSIBLE
+TC-045,B,C,STRONGEST_WINS,Оставшиеся пять дней требуют реальной платформы.,overgeneralizes-decoupling,PLAUSIBLE
+TC-045,B,D,STRONGEST_WINS,Эффект новых инженеров не дан; выигрыш трёх дней уже обеспечен без них.,unproven-resource-acceleration,PLAUSIBLE
+TC-046,D,A,STRONGEST_WINS,"Окно узнаётся сегодня, исследование имеет дедлайн, переключение требует двух недель.",risk-register-instead-of-action,PLAUSIBLE
+TC-046,D,B,STRONGEST_WINS,"Ни звонок, ни резервный план не зависят от месячного исследования.",unnecessary-sequencing,PLAUSIBLE
+TC-046,D,C,STRONGEST_WINS,Окно партнёра доступно как факт сегодня; для регулятора нужно сохранить две недели переключения.,avoidable-assumption,PLAUSIBLE
+TC-047,A,B,STRONGEST_WINS,15 из 18 сигналов ложные из-за нестабильности scanner. A явно исправляет сигнал до автоматической блокировки; B только ускоряет исключения и не устраняет ненадёжность источника. Текущая ручная проверка сама по себе не различает варианты.,institutionalizes-noisy-control,PLAUSIBLE
+TC-047,A,C,STRONGEST_WINS,Scanner выявил три реальные проблемы; прежний review не объявлен эквивалентной защитой.,drops-nonredundant-control,PLAUSIBLE
+TC-047,A,D,STRONGEST_WINS,"Повторяемость не валидирована; одиночные сигналы проверяются после релиза, критерий обязателен.",unvalidated-filter,PLAUSIBLE
+TC-048,C,A,STRONGEST_WINS,"Четыре недели нужны оба читателя, а новый формат ломает монолит.",calendar-does-not-fix-data,PLAUSIBLE
+TC-048,C,B,STRONGEST_WINS,Контекст требует четыре недели параллельного чтения; одномоментный переход этого не обеспечивает.,ignores-required-coexistence,PLAUSIBLE
+TC-048,C,D,STRONGEST_WINS,Промежуточный формат уже подтверждён; преобразователь не проверен до немедленной смены таблицы.,unverified-adapter,PLAUSIBLE
+TC-049,D,A,STRONGEST_WINS,Постоянная роль одного CTO не разделяет command/operations/comms для повторяющихся инцидентов.,person-dependent-command,PLAUSIBLE
+TC-049,D,B,STRONGEST_WINS,"Трижды конфликтовали полномочия, а не только навыки; их снова определяют уже в кризисе.",training-without-authority-design,PLAUSIBLE
+TC-049,D,C,STRONGEST_WINS,"Секретарь объединяет указания, но не получает права разрешить конфликтующие команды.",routing-without-decision-rights,PLAUSIBLE
+TC-050,B,A,STRONGEST_WINS,Тест локализации уже провален; достаточная корреляция помещается в день до запуска.,small-exposure-without-diagnosability,PLAUSIBLE
+TC-050,B,C,STRONGEST_WINS,"Trace ID потерян на асинхронной очереди, локальная детализация не восстанавливает идентичность.",more-local-data-without-correlation,PLAUSIBLE
+TC-050,B,D,STRONGEST_WINS,"Разрыв конкретный, устранение один день при двух до запуска; полный стек не требуется.",disproportionate-control,PLAUSIBLE

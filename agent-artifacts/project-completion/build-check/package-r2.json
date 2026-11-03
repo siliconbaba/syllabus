@@ -1,0 +1,17 @@
+{
+  "ipa": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/releases/checkpoint-100-2026-10-26/InteractiveBook-checkpoint-100.ipa",
+  "sha256": "cc87f55f75aff19c8c8886eb809626e97253e0df4db6115b41c3e220ac29efa0",
+  "bytes": 128683906,
+  "bundleIdentifier": "com.personal.interactivebook.u5acacb5ec6c7413e81bab6f8e0ef6c2a",
+  "version": "1.0",
+  "build": "1",
+  "technicalName": "InteractiveBook",
+  "originalDisplayName": "Управление процессами и проектами",
+  "minimumIOS": "16.0",
+  "signing": "unsigned; SideStore must resign",
+  "structure": "PASS",
+  "roundtrip": "PASS",
+  "platform": "iPhoneOS arm64",
+  "sourceBundleModified": false,
+  "deviceInstall": "NOT_TESTED"
+}

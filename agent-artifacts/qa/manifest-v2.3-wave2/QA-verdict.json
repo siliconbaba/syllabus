@@ -1,0 +1,79 @@
+{
+  "verdict": "WAVE 2 QA PASS",
+  "status": "PASS",
+  "date": "2026-10-13",
+  "scope": [
+    "TC-106",
+    "TC-107",
+    "TC-138",
+    "TC-162",
+    "TC-167",
+    "TC-175",
+    "TC-194",
+    "TC-237",
+    "TC-244",
+    "TC-286",
+    "TC-300"
+  ],
+  "checkedCount": 11,
+  "candidateSHA256": "65192b19b13ba3965aa244ac114cd3638a353d8d22bc0ee2883e559c1e723d08",
+  "acceptedBaseSHA256": "bb858ee97bda87d6716a4ad1fa19385bef24f2b96443873da4bb9ba0bffede01",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "gates": {
+    "diff": "PASS",
+    "unexpectedChangedRows": 0,
+    "unchangedPlannedRows": 264,
+    "unexpectedFamilyChanges": 0,
+    "sourceGrounding": {
+      "pass": 11,
+      "fail": []
+    },
+    "levelRealization": {
+      "pass": 11,
+      "fail": []
+    },
+    "runtimeSemantics": {
+      "pass": 11,
+      "fail": []
+    },
+    "semanticUniqueness": {
+      "NO CLOSE ANALOG": 0,
+      "ALLOWED REINFORCEMENT": 11,
+      "NEAR DUPLICATE": 0,
+      "DUPLICATE": 0
+    },
+    "changedFamily": "PASS",
+    "TC257TC258UnchangedUnresolved": "PASS",
+    "productionUnchanged": "PASS",
+    "inputHashRecheck": "PASS"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "remainingIssueIDs": [],
+  "systemicMethodIssue": false,
+  "wave2AcceptedRedesign": true,
+  "safeToContinueWave3": true,
+  "intentionallyUnresolved": [
+    "TC-257",
+    "TC-258"
+  ],
+  "inheritanceBase": "agent-artifacts/qa/manifest-v2.3-wave1-r2/QA-verdict.json",
+  "inheritance": "All outside11 retain existing status, including unresolved; comparator reads give no new content approval.",
+  "notApplicable": [
+    "blind option choice",
+    "decisionQuality",
+    "option surface leakage"
+  ],
+  "importEligible": false,
+  "readyToFreeze": false,
+  "wave3Started": false,
+  "productionChanged": false,
+  "methodContract": [
+    "strict Senior realization gate",
+    "re-derive runtime metadata from concrete decision evidence after redesign"
+  ]
+}

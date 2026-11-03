@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-158-160-r3/cases.json",
+  "candidateSHA256": "dc7f8980738626816a22b382b41f4935f49cc7e03aa9eef52600ff90dbbac221",
+  "manifestPath": "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json",
+  "manifestSHA256": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+  "sourceHashes": {
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-9-4.md": "930f2a5aa24ff29e8ba5d2fa03e0107c4c8d581b11593af4c5e1a808cf870c85",
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-8-1.md": "a0c7b0c973f56e9832e09ba4d6e9eaec7bc0853c6850425d0af67e52ce6d953e"
+  },
+  "acceptedCaseIDs": [
+    "TC-158",
+    "TC-160"
+  ],
+  "remainingCaseIDs": [],
+  "gates": {
+    "blind": "C then A (158); B then D (160). Both keys matched.",
+    "manifest": "Metadata/eligibility match C05. Same inter-program dependency and supply-side exposure, same coupled-scenario economic decision.",
+    "source": "§9.4 shared-resource and knowledge dependencies, structural removal; §8.1 same-horizon NPV and contribution margin. Author-specific proportions and NPV inputs explicitly supplied.",
+    "TC158": "C>A(.60)>B(.50)>D fits capability actually distributed and tested.",
+    "TC160": "Unconditional operating contribution changes 12→7 under full and 11→13 under cap; fixed cost 10 gives +2/−3 and +1/+3. Weighted totals −1/+2.2, deferral 0. B/D remain strongest/runner; coupled cost driver now inferred.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "exactDiff": "TC-158 exact raw identity. TC-160 only revision and A WHEN changed. No change to any key or score.",
+    "wholeOptionWhen": "Confirmed high demand, matched receipts/expenses, quantified overrun allowance; full proposal remains preferable to the cap after allowance. All parts of TC-160 A now justified."
+  },
+  "issues": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "retest": "Complete. Content acceptance only.",
+  "importEligible": false,
+  "priorVerdict": "agent-artifacts/project-completion/qa-158-160-r2/QA-verdict.json",
+  "priorVerdictSHA256": "e1db1bd9fbfa78082ad1c6344c4b1ebd74499b8278006cf834536f98817c3767",
+  "resolvedIssueIDs": [
+    "158-DQ-AB",
+    "160-LEVEL",
+    "160-A-WHEN"
+  ]
+}

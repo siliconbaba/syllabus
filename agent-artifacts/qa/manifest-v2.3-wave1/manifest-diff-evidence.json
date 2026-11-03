@@ -1,0 +1,225 @@
+{
+  "baselineSHA256": "11b7b231d66ef53e1de27ec696403208cd26176b2441fd7a089cc1f82bb695ca",
+  "candidateSHA256": "006c45c553b28f35f816cf09652be9fe41ff0718cc3eac4ddd6d7331a4736977",
+  "changedIDs": [
+    "TC-136",
+    "TC-139",
+    "TC-141",
+    "TC-144",
+    "TC-150",
+    "TC-160",
+    "TC-170",
+    "TC-181",
+    "TC-182",
+    "TC-184",
+    "TC-186",
+    "TC-291"
+  ],
+  "changedFields": {
+    "TC-136": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ],
+    "TC-139": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ],
+    "TC-141": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ],
+    "TC-144": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ],
+    "TC-150": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ],
+    "TC-160": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ],
+    "TC-170": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "whyHead",
+      "authorityScope",
+      "secondaryEffect",
+      "sourceTopicExplanation"
+    ],
+    "TC-181": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "secondaryPatterns",
+      "decisiveMutationConcept",
+      "whyLevel",
+      "derivedRuntimeSecondaryThinking",
+      "whyHead",
+      "authorityScope",
+      "secondaryEffect",
+      "sourceTopicExplanation"
+    ],
+    "TC-182": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "secondaryPatterns",
+      "decisiveMutationConcept",
+      "whyLevel",
+      "derivedRuntimeSecondaryThinking",
+      "whyHead",
+      "authorityScope",
+      "secondaryEffect",
+      "sourceTopicExplanation"
+    ],
+    "TC-184": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ],
+    "TC-186": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ],
+    "TC-291": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ]
+  },
+  "unchangedCount": 263,
+  "unexpectedChangedIDs": [],
+  "unresolvedSixUnchanged": true,
+  "changedFamilies": [
+    "F-BV-P03"
+  ],
+  "unexpectedFamilies": [],
+  "csvChangedIDs": [
+    "TC-136",
+    "TC-139",
+    "TC-141",
+    "TC-144",
+    "TC-150",
+    "TC-160",
+    "TC-170",
+    "TC-181",
+    "TC-182",
+    "TC-184",
+    "TC-186",
+    "TC-291"
+  ],
+  "artifactHashErrors": [],
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "topLevelChangedFields": [
+    "manifestVersion",
+    "coverageSummary",
+    "manifest",
+    "familyManifest",
+    "changedFamilyDesigns",
+    "headAudit",
+    "freezeProvenance",
+    "globalAuditV2_3",
+    "wave1Revision"
+  ],
+  "structure": {
+    "count": 275,
+    "uniqueContiguousIDs": true,
+    "structureCounts": {
+      "triplet": 24,
+      "pair": 70,
+      "standalone": 181
+    }
+  },
+  "exactRawChangedIDs": [
+    "TC-136",
+    "TC-139",
+    "TC-141",
+    "TC-144",
+    "TC-150",
+    "TC-160",
+    "TC-170",
+    "TC-181",
+    "TC-182",
+    "TC-184",
+    "TC-186",
+    "TC-291"
+  ],
+  "exactRawUnchangedCount": 263,
+  "exactRawChangedFamilies": [
+    "F-BV-P03"
+  ],
+  "auxiliaryHeadChanges": [
+    "TC-170",
+    "TC-181",
+    "TC-182"
+  ],
+  "auxiliaryFamilyDesignChanges": [
+    "F-BV-P03"
+  ],
+  "unchangedStatusInheritance": "All 263 unchanged rows inherit prior status, including unresolved; no blanket approval.",
+  "structuralErrors": []
+}

@@ -1,0 +1,71 @@
+{
+  "cases": 25,
+  "options": 100,
+  "standalone": 16,
+  "linked": 9,
+  "families": 4,
+  "levels": {
+    "middle": 12,
+    "junior": 5,
+    "senior": 5,
+    "head": 3
+  },
+  "correctPositions": {
+    "C": 6,
+    "A": 6,
+    "D": 7,
+    "B": 6
+  },
+  "manifestAligned": 25,
+  "manifestErrors": [],
+  "oneBestAndQuality1": true,
+  "eligibilityValid": true,
+  "inheritanceBasis": "User section 14 authorizes prior r2 semantic results conditional on raw byte identity; no separate independent r2 QA directory present.",
+  "uniqueStrongest": 25,
+  "sourceGrounded": 25,
+  "contentEvidence": {
+    "freshIndependent": [
+      "TC-085"
+    ],
+    "inheritedR2": [
+      "TC-076",
+      "TC-077",
+      "TC-078",
+      "TC-079",
+      "TC-080",
+      "TC-081",
+      "TC-082",
+      "TC-083",
+      "TC-084",
+      "TC-086",
+      "TC-087",
+      "TC-088",
+      "TC-089",
+      "TC-090",
+      "TC-091",
+      "TC-092",
+      "TC-093",
+      "TC-094",
+      "TC-095",
+      "TC-096",
+      "TC-097",
+      "TC-098",
+      "TC-099",
+      "TC-100"
+    ],
+    "basis": "Explicit user instruction section14; independently proven raw JSON object byte identity; not represented as fresh full content audit."
+  },
+  "priorFixesPreserved": "PASS",
+  "familiesPreserved": "PASS 4/4",
+  "schema": "PASS",
+  "runtime": "PASS",
+  "unknownDomains": 0,
+  "unknownPatterns": 0,
+  "bestSimpleHeuristic": 10,
+  "combined100BestHeuristic": 33,
+  "surfaceLeakage": "PASS",
+  "duplicationClassificationCounts": {
+    "NO CLOSE ANALOG": 68,
+    "ALLOWED REINFORCEMENT": 7
+  }
+}

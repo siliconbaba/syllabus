@@ -1,0 +1,119 @@
+[
+  {
+    "TC-ID": "TC-076",
+    "severity": "MAJOR",
+    "QA defect": "A сравнивается в контрфактическом условии только с manual, но не с удалением. При L=0 условие уже истинно: −2>−6, хотя правильное решение C=0. Условие C о неокупаемости дополнительного шага также следует явно отнести ко всем доступным способам проверки: неокупаемость manual не исключает прибыльную automation.",
+    "required fix": "A: положительный чистый эффект выше и manual, и удаления при допустимом риске. C: ни manual, ни automation не дают положительного чистого эффекта. Сохранить общие тексты и constants семьи.",
+    "fields allowed to change": "options.A.whenItWouldBeBest; options.C.whenItWouldBeBest",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-077",
+    "severity": "MAJOR",
+    "QA defect": "A сравнивается в контрфактическом условии только с manual, но не с удалением. При L=0 условие уже истинно: −2>−6, хотя правильное решение C=0. Условие C о неокупаемости дополнительного шага также следует явно отнести ко всем доступным способам проверки: неокупаемость manual не исключает прибыльную automation.",
+    "required fix": "A: положительный чистый эффект выше и manual, и удаления при допустимом риске. C: ни manual, ни automation не дают положительного чистого эффекта. Сохранить общие тексты и constants семьи.",
+    "fields allowed to change": "options.A.whenItWouldBeBest; options.C.whenItWouldBeBest",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-078",
+    "severity": "MAJOR",
+    "QA defect": "A сравнивается в контрфактическом условии только с manual, но не с удалением. При L=0 условие уже истинно: −2>−6, хотя правильное решение C=0. Условие C о неокупаемости дополнительного шага также следует явно отнести ко всем доступным способам проверки: неокупаемость manual не исключает прибыльную automation.",
+    "required fix": "A: положительный чистый эффект выше и manual, и удаления при допустимом риске. C: ни manual, ни automation не дают положительного чистого эффекта. Сохранить общие тексты и constants семьи.",
+    "fields allowed to change": "options.A.whenItWouldBeBest; options.C.whenItWouldBeBest",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-079",
+    "severity": "MAJOR",
+    "QA defect": "Context описывает capability готовой очереди: результат не позднее минуты. Explanation превращает это в «принятую минуту»/«согласованный срок» как обязательный продуктовый deadline. Такого требования в context нет.",
+    "required fix": "Либо явно добавить общий согласованный срок итогового статуса в оба context и сохранить одну mutation, либо обосновать D только данными фактами: откладывает результат без указанной выгоды при уже доступном быстром пути; не ссылаться на нарушение согласованного deadline.",
+    "fields allowed to change": "options.D.explanation; options.D.whyNotBest",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-080",
+    "severity": "MAJOR",
+    "QA defect": "Context описывает capability готовой очереди: результат не позднее минуты. Explanation превращает это в «принятую минуту»/«согласованный срок» как обязательный продуктовый deadline. Такого требования в context нет.",
+    "required fix": "Либо явно добавить общий согласованный срок итогового статуса в оба context и сохранить одну mutation, либо обосновать D только данными фактами: откладывает результат без указанной выгоды при уже доступном быстром пути; не ссылаться на нарушение согласованного deadline.",
+    "fields allowed to change": "options.D.explanation; options.D.whyNotBest",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-083",
+    "severity": "MAJOR",
+    "QA defect": "Senior reasoning фактически выполнено условием: двойной счёт прямо назван, потоки очищены и приведены финансами, диапазон дан, ценность паузы/пилота объявлена нулевой, иных обязательств нет. Остаётся вычесть 8 и сравнить гарантированно непересекающиеся диапазоны с +5. Перечень нескольких готовых выводов не создаёт Senior trade-off.",
+    "required fix": "В авторинге реализовать существенную оценку структуры выгод/рисков и чувствительности, сохранив одну общую family variable; не давать все диагностические выводы как готовые факты. Если сохраняется текущая простая конструкция — согласовать Middle в authoritative manifest и обеих строках, не менять label самостоятельно.",
+    "fields allowed to change": "context; options; requiredLevel realization; authorRationale",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-084",
+    "severity": "MAJOR",
+    "QA defect": "Senior reasoning фактически выполнено условием: двойной счёт прямо назван, потоки очищены и приведены финансами, диапазон дан, ценность паузы/пилота объявлена нулевой, иных обязательств нет. Остаётся вычесть 8 и сравнить гарантированно непересекающиеся диапазоны с +5. Перечень нескольких готовых выводов не создаёт Senior trade-off.",
+    "required fix": "В авторинге реализовать существенную оценку структуры выгод/рисков и чувствительности, сохранив одну общую family variable; не давать все диагностические выводы как готовые факты. Если сохраняется текущая простая конструкция — согласовать Middle в authoritative manifest и обеих строках, не менять label самостоятельно.",
+    "fields allowed to change": "context; options; requiredLevel realization; authorRationale",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-085",
+    "severity": "MAJOR",
+    "QA defect": "NEAR DUPLICATE TC-004: локальный impact, подтверждённо достаточный targeted critical+adjacent набор, потеря бизнеса при задержке → targeted вместо полного/недостаточного регресса. Отсутствие активного инцидента, комиссия и восемь часов не меняют ядро решения.",
+    "required fix": "Согласовать для TC-085 другую диагностическую границу внутри t-3-9; если frozen boundary не допускает её, нужен локальный manifest change. Затем повторить cross-bank comparison с TC-003/004. Одной смены цифр или actor недостаточно.",
+    "fields allowed to change": "context; question; options; diagnostic boundary",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "MANIFEST BLOCKER — not done; unchanged"
+  },
+  {
+    "TC-ID": "TC-090",
+    "severity": "BLOCKER",
+    "QA defect": "A стоит 70, D стоит 65; оба останавливают слабые продукты и сохраняют подрядчика и обязательную миграцию. Контекст не задаёт срок окончания поддержки, неприемлемость внешней зависимости, требование внутренней capability или подтверждённую ценность перехода ≥5. Доступность средств не доказывает, что их нужно тратить. D профессионально защитим без добавления фактов.",
+    "required fix": "Добавить в context конкретное ограничение/согласованную цель или экономический эффект, делающий сохранение единственного внешнего носителя знаний неприемлемым на данном горизонте и оправдывающий 5 млн. Затем согласовать A/D explanations и scores. Не добавлять этот decisive fact только после ответа.",
+    "fields allowed to change": "context; options.A/D.explanation; decisiveFacts; decisionQuality",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-092",
+    "severity": "MAJOR",
+    "QA defect": "Вторая ветвь «либо решение зависит только от глобального распределения» оправдывает использование глобального p95, но не весь D: «принять изменение за одинаковое ухудшение для всех регионов». Глобальная decision policy не доказывает равный региональный эффект.",
+    "required fix": "Удалить недостаточную OR-ветвь; задать подтверждённо одинаковое изменение сопоставимых региональных распределений либо убрать необоснованное обобщение из самого D и заново проверить его relative quality.",
+    "fields allowed to change": "options.D.whenItWouldBeBest",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-094",
+    "severity": "MAJOR",
+    "QA defect": "Middle не реализован: все три критерия и запрет отдельной ставки явно заданы; итог уже проверен и тест завершён. Требуется применить булево правило допуска, а не выбрать operational trade-off.",
+    "required fix": "Рекомендуемый уровень текущей реализации — Junior. Для сохранения Middle нужен содержательный operational выбор в рамках frozen boundary, без нарушения заранее заданного guardrail. Уровень и blueprint менять только согласованно.",
+    "fields allowed to change": "requiredLevel realization; context/options; authorRationale",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-098",
+    "severity": "MAJOR",
+    "QA defect": "B требует реестр, покрывающий «все будущие неизвестные события». WHEN «речь только о выявленных рисках» оправдывает передачу contingency, но не эту невозможную часть option. Весь вариант не становится корректным.",
+    "required fix": "Заменить абсолютное требование перечислить все неизвестные на профессионально правдоподобный ошибочный способ децентрализации reserve с исполнимым реестром; затем задать WHEN для всего B и пересмотреть score при необходимости.",
+    "fields allowed to change": "options.B.text; options.B.whenItWouldBeBest; explanation/decisionQuality consistency",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  },
+  {
+    "TC-ID": "TC-100",
+    "severity": "MAJOR",
+    "QA defect": "Context уже сообщает точные порог и окно полезного вмешательства (>1% пять минут), допустимость короткого шума и корректность учёта. Strongest буквально переносит готовое правило; месячный SLO не участвует в расчёте выбора. Middle operational trade-off не требуется.",
+    "required fix": "Рекомендуемый уровень текущей реализации — Junior. Для сохранения Middle требуется самостоятельное сопоставление цены раннего/позднего сигнала или доступной реакции, а не копирование готового порога. Согласовать с authoritative requiredLevel.",
+    "fields allowed to change": "requiredLevel realization; context/options; authorRationale",
+    "manifest constraint": "Freeze all blueprint/metadata, family logical variable and constants; only local implementation.",
+    "status": "done — author self-check PASS; focused independent QA pending"
+  }
+]

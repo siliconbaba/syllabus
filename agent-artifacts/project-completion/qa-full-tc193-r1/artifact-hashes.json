@@ -1,0 +1,12 @@
+{
+  "agent-artifacts/project-completion/qa-full-tc193-r1/QA-report.md": "4844c8fed06ffd9856c036ef0f9bf9dc2f050f250c2ed9edc0b243787a5f4987",
+  "agent-artifacts/project-completion/qa-full-tc193-r1/QA-verdict.json": "771581a8b2b70866294e8c9b3a63e5ca86a6443210f1e863af2e1fb330573d46",
+  "agent-artifacts/project-completion/qa-full-tc193-r1/artifact-hashes.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "agent-artifacts/project-completion/qa-full-tc193-r1/blind-choice.json": "9dce4f8bff1712b4ed1d0523018f3b8c4fde50be38ab3c17fd7f538cf430a20c",
+  "agent-artifacts/project-completion/qa-full-tc193-r1/input-hashes.json": "fcb75c67f5fae0f4355785eb29cee9d7582230ba17e90c5a615275c970a80701",
+  "agent-artifacts/project-completion/qa-full-tc193-r1/retrieval.json": "b057992694b50f50a6fdd748cb580baaa9eee7c551e681fff5e582cb5cc20c9a",
+  "agent-artifacts/project-completion/qa-full-tc193-r1/runtime-loader.json": "6a242c1a1d1a5c6f7fd0cbf7e3bd6b38174e12e3430372f2006ea0809f269be4",
+  "agent-artifacts/project-completion/qa-full-tc193-r1/runtime-reference-check.json": "5fd62049f00797e9e5bf8c5daf033d39f3c220934f9b4862127d80a5b9f7c21f",
+  "agent-artifacts/project-completion/qa-full-tc193-r1/source-verification.json": "1771f0df0e45d1d0c4f58e04f21d915f8483f6dfe995f361d1c8ab1bfa5ee965",
+  "agent-artifacts/project-completion/qa-full-tc193-r1/surface-evidence.json": "f3f4da694f5bf325f57a020c237e1207f6b2d1aeb85ab1525b39183e002b0eb5"
+}

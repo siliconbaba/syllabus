@@ -1,0 +1,1 @@
+Existing TrainerTests copied unchanged except expected bank count100→115 and absolute legacy fixture lookup for artifact directory. Production/test source untouched. This run tests preview dataset, not installed app or UI.

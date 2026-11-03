@@ -1,0 +1,4 @@
+[
+ {"id":"TC-129","choice":"A","runnerUp":"B","confidence":"high","expectedNet":{"A":32.6,"B":26,"C":4,"D":0},"reason":"Reserve: 40% × 100 − 60% × 9 − 2; waiting: 40% × 70 − 2."},
+ {"id":"TC-130","choice":"B","runnerUp":"C","confidence":"high","expectedNet":{"A":2,"B":26,"C":4,"D":0},"reason":"Reservation loses 36 in expected cancellations; unconditional early build yields 64 − 60 = 4."}
+]

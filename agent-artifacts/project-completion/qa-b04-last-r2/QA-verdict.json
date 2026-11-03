@@ -1,0 +1,38 @@
+{
+  "status": "READY FOR IMPORT",
+  "scope": "Scoped content approval of the four named cases. No manifest freeze or import performed.",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-b04-last-04-r2/cases.json",
+  "candidateSHA256": "7bc20aca8217ff871dec929b49634ddf8c29a7c8d3f7ce4b31bdb4cdb237ef22",
+  "acceptedCaseIDs": [
+    "TC-121",
+    "TC-122",
+    "TC-123",
+    "TC-125"
+  ],
+  "remainingCaseIDs": [],
+  "remainingIssueIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "baseQA": "agent-artifacts/project-completion/qa-b04-last/QA-verdict.json",
+  "baseQASHA256": "6bf3f9849919d443821738af03cad2fa80788c0229a8f56bb246096544c7a007",
+  "parentSHA256": "7d6a6c12c8501cd50bfbf13cb259d4b6e5a596cadb80f872da69650be487450e",
+  "diffSHA256": "f22e3ca1c94df839e70013efa1321d8a2dbf1e1adc56296ff2e1088af602e51a",
+  "gates": {
+    "diff": "PASS: only TC-122 C.text, TC-125 D.text and their revisions changed; raw diff checked and allowlisted tool passed.",
+    "schema": "PASS matching Swift evidence",
+    "runtime": "PASS matching Swift evidence",
+    "surface": "PASS: character lengths A–D 132/105/125/111, 120/120/125/115, 104/123/91/91, 127/128/127/126. Keys A/C/B/D. C in TC-122 differs by only five characters from its two closest peers; sentence break alone offers no general decision rule. No duplicate option strings.",
+    "dependentReasoning": "PASS: TC-122 C retains PIP closure and ordinary checks, using the single mentor slot for the handoff; the next handoff tests recipient confirmation. Context specifies mentor time and the precise readiness signal. TC-125 D unambiguously assigns high-risk admission, refusal and sampling of the other changes to ИБ, leaving help and automation embedded. All related explanations, DQ order and WHENs still fit.",
+    "blind": "Original blind choices inherited; reviewer knew previous keys at delta retest.",
+    "sourceLevelDuplicationFamilyEligibility": "PASS inherited from hash-bound original four-case QA; no factual, metadata, scenario or comparator changes."
+  },
+  "closedIssueIDs": [
+    "B04L-01",
+    "B04L-02"
+  ],
+  "importEligible": true,
+  "productionChanged": false
+}

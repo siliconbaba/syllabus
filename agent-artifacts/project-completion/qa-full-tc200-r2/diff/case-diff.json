@@ -1,0 +1,37 @@
+{
+  "changedIds": [
+    "TC-200"
+  ],
+  "unchangedIds": [],
+  "addedIds": [],
+  "removedIds": [],
+  "unexpectedIds": [],
+  "byteIdenticalCount": 0,
+  "formatOnlyChangedIds": [],
+  "fieldDiffs": {
+    "TC-200": [
+      {
+        "field": "/options/0/decisionQuality",
+        "before": 0.55,
+        "after": 0.7
+      },
+      {
+        "field": "/options/1/decisionQuality",
+        "before": 0.7,
+        "after": 0.55
+      },
+      {
+        "field": "/revision",
+        "before": 1,
+        "after": 2
+      }
+    ]
+  },
+  "rootDiff": [],
+  "families": [],
+  "familyContractDiffs": [],
+  "hashes": {
+    "baseline": "d6d21fc43a357bc0db0815ec529e4cce3f493a4fdc06c908aac22bb2474cc50d",
+    "revision": "e7a886403846d60d415710c94f0a4ea6a325414d6e1598cd472d698b313bc034"
+  }
+}

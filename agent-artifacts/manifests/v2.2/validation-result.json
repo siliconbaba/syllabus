@@ -1,0 +1,60 @@
+{
+  "structuralRegression": "PASS",
+  "frozenRowsExactEquality": "PASS",
+  "unchangedRowCount": 235,
+  "changedRowCount": 40,
+  "rowIssueCount": 34,
+  "rowIssuesAddressed": 34,
+  "familyIssuesAddressed": 4,
+  "headIssuesRevisited": 10,
+  "constructionFrozenFamilies": 39,
+  "levelOnlyFamilyUpdates": [
+    "F-PR-P01",
+    "F-PO-T01",
+    "F-PO-P04"
+  ],
+  "unresolvedIssues": [],
+  "focusedQARequired": true,
+  "readyClaimed": false,
+  "canStartBatch01": false,
+  "engineWeightVerification": "PASS: all 300 impulse responses",
+  "headFeasibility": {
+    "breadthDomains": [
+      "project",
+      "processes",
+      "stakeholders",
+      "people",
+      "finance",
+      "portfolio",
+      "technical",
+      "product"
+    ],
+    "breadthMet": true,
+    "eligibleCount": 200,
+    "excludedMetadataCount": 0,
+    "headDomainEvidence": 3,
+    "maximumSyntheticLevel": "head",
+    "minimumLevelEvidence": 5,
+    "note": "Synthetic perfect responses test structural feasibility only, not learner proficiency.",
+    "result": "PASS",
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 1,
+      "delivery": 2,
+      "finance": 5,
+      "people": 7,
+      "portfolio": 7,
+      "processes": 14,
+      "product": 4,
+      "project": 6,
+      "stakeholders": 6,
+      "technical": 17
+    }
+  },
+  "inputHashes": {
+    "production_manifest_masterplan_v2_1.json": "8563e61a14387f66d2b99a4280ed2e4dbb28bcfc5b87fc2c39f299f0a497d5ae",
+    "QA-report-final.md": "759e588a81deb5409dd49297818c51ac4082c04c21d675c185651c4ad54f6695",
+    "row-fixes-final.csv": "141305b38f899b75d7c9e2bc3c0424d814bbdf52dd8c07679b20225380296cea",
+    "family-fixes-final.csv": "f40610eda1bc284b709f214f9a9ed1287ecc3fd3fdef11c493b4a5172649a648",
+    "QA-verdict.json": "b043961f487ee47c1c63fe660d8fd9b70e2dc9f9751dfa90cd244a7a1a717bfa"
+  }
+}

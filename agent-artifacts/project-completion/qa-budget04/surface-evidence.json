@@ -1,0 +1,1778 @@
+{
+  "count": 4,
+  "rules": [
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 2.3333333333333335,
+      "uniqueHits": 2,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-170",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.5,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-170",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "sentences",
+          1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 1.75,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-170"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "sentences",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.75,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "latinFragments",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.75,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "latinFragments",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0833333333333333,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "numberFragments",
+          1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 1.5,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "numberFragments",
+          -1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 0.8333333333333333,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-269"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "and",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.5833333333333333,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "and",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 2.3333333333333335,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "conditions",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.5,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "conditions",
+          -1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 1.6666666666666665,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "orderMarkers",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 2,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "orderMarkers",
+          -1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 1.3333333333333333,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 2,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "actions",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "actions",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.5,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauses",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauses",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "managementNounSuffix",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.3333333333333333,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "managementNounSuffix",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.8333333333333333,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 2,
+      "correctIdsFirstTie": [
+        "TC-269"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "negativeMarkers",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.25,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 2,
+      "correctIdsFirstTie": [
+        "TC-170"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "negativeMarkers",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.9166666666666666,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "commas",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 2.3333333333333335,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "commas",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "semicolons",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "semicolons",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "dashes",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "dashes",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "parentheses",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "parentheses",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 2.3333333333333335,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 2.0833333333333335,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-170",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 2.0,
+      "uniqueHits": 2,
+      "hitsIncludingTies": 2,
+      "correctIdsFirstTie": [
+        "TC-170",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.5,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.5,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-170",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 1.5,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 2,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-170",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-170",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 4,
+      "randomTieExpectedHits": 4.0,
+      "uniqueHits": 4,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-170",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ],
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-170",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ],
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 2.0,
+      "uniqueHits": 2,
+      "hitsIncludingTies": 2,
+      "correctIdsFirstTie": [
+        "TC-170",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ],
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.5,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ],
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.5,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ],
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-170",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ],
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 1.5,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 2,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ],
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ],
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ],
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-170",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ],
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 3.0,
+      "uniqueHits": 3,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-170",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ],
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ],
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ],
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 4,
+      "randomTieExpectedHits": 4.0,
+      "uniqueHits": 4,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-170",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ],
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ],
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ],
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 2.8333333333333335,
+      "uniqueHits": 2,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.5,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 2,
+      "correctIdsFirstTie": [
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          -1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 0.3333333333333333,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-114"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          -1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "specificityProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 3,
+      "randomTieExpectedHits": 2.8333333333333335,
+      "uniqueHits": 2,
+      "hitsIncludingTies": 4,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-269",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "specificityProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 2,
+      "randomTieExpectedHits": 1.8333333333333333,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 3,
+      "correctIdsFirstTie": [
+        "TC-114",
+        "TC-300"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "specificityProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "specificityProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    }
+  ],
+  "bestFirstTieHits": 4,
+  "bestRandomTieExpectedHits": 4.0,
+  "positions": {
+    "A": 1,
+    "C": 1,
+    "B": 1,
+    "D": 1
+  },
+  "keySequence": "A C B D",
+  "featureMeans": {
+    "words": {
+      "correctMean": 18,
+      "distractorMean": 15
+    },
+    "chars": {
+      "correctMean": 123,
+      "distractorMean": 100.66666666666667
+    },
+    "sentences": {
+      "correctMean": 1.25,
+      "distractorMean": 1
+    },
+    "latinFragments": {
+      "correctMean": 0,
+      "distractorMean": 0.08333333333333333
+    },
+    "numberFragments": {
+      "correctMean": 1.5,
+      "distractorMean": 1
+    },
+    "and": {
+      "correctMean": 1.25,
+      "distractorMean": 0.9166666666666666
+    },
+    "punctuation": {
+      "correctMean": 2.5,
+      "distractorMean": 1.1666666666666667
+    },
+    "conditions": {
+      "correctMean": 0.5,
+      "distractorMean": 0.6666666666666666
+    },
+    "orderMarkers": {
+      "correctMean": 0.5,
+      "distractorMean": 0.5
+    },
+    "actions": {
+      "correctMean": 2.75,
+      "distractorMean": 1.9166666666666667
+    },
+    "clauses": {
+      "correctMean": 1,
+      "distractorMean": 1
+    },
+    "managementNounSuffix": {
+      "correctMean": 1,
+      "distractorMean": 1.1666666666666667
+    },
+    "negativeMarkers": {
+      "correctMean": 0.25,
+      "distractorMean": 0.16666666666666666
+    },
+    "commas": {
+      "correctMean": 2.5,
+      "distractorMean": 1.1666666666666667
+    },
+    "semicolons": {
+      "correctMean": 0,
+      "distractorMean": 0
+    },
+    "dashes": {
+      "correctMean": 0,
+      "distractorMean": 0
+    },
+    "parentheses": {
+      "correctMean": 0,
+      "distractorMean": 0
+    },
+    "clauseProxy": {
+      "correctMean": 3.5,
+      "distractorMean": 2.1666666666666665
+    },
+    "specificityProxy": {
+      "correctMean": 3.25,
+      "distractorMean": 1.5833333333333333
+    }
+  },
+  "optionFeatures": {
+    "TC-114": [
+      {
+        "words": 15,
+        "chars": 104,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 1,
+        "and": 1,
+        "punctuation": 2,
+        "conditions": 0,
+        "orderMarkers": 0,
+        "actions": 3,
+        "clauses": 1,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 0,
+        "commas": 2,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 2
+      },
+      {
+        "words": 15,
+        "chars": 103,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 1,
+        "and": 0,
+        "punctuation": 2,
+        "conditions": 0,
+        "orderMarkers": 0,
+        "actions": 1,
+        "clauses": 1,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 0,
+        "commas": 2,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 2
+      },
+      {
+        "words": 16,
+        "chars": 101,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 1,
+        "and": 1,
+        "punctuation": 2,
+        "conditions": 0,
+        "orderMarkers": 0,
+        "actions": 2,
+        "clauses": 1,
+        "managementNounSuffix": 0,
+        "negativeMarkers": 0,
+        "commas": 2,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 2
+      },
+      {
+        "words": 16,
+        "chars": 94,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 1,
+        "and": 2,
+        "punctuation": 1,
+        "conditions": 1,
+        "orderMarkers": 1,
+        "actions": 2,
+        "clauses": 1,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 1,
+        "commas": 1,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 2,
+        "specificityProxy": 2
+      }
+    ],
+    "TC-170": [
+      {
+        "words": 14,
+        "chars": 106,
+        "sentences": 1,
+        "latinFragments": 1,
+        "numberFragments": 0,
+        "and": 0,
+        "punctuation": 1,
+        "conditions": 2,
+        "orderMarkers": 1,
+        "actions": 2,
+        "clauses": 1,
+        "managementNounSuffix": 3,
+        "negativeMarkers": 0,
+        "commas": 1,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 2,
+        "specificityProxy": 1
+      },
+      {
+        "words": 15,
+        "chars": 119,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 0,
+        "and": 1,
+        "punctuation": 0,
+        "conditions": 0,
+        "orderMarkers": 0,
+        "actions": 3,
+        "clauses": 1,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 0,
+        "commas": 0,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 1,
+        "specificityProxy": 0
+      },
+      {
+        "words": 20,
+        "chars": 164,
+        "sentences": 2,
+        "latinFragments": 0,
+        "numberFragments": 0,
+        "and": 1,
+        "punctuation": 1,
+        "conditions": 2,
+        "orderMarkers": 1,
+        "actions": 2,
+        "clauses": 1,
+        "managementNounSuffix": 2,
+        "negativeMarkers": 1,
+        "commas": 1,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 2,
+        "specificityProxy": 1
+      },
+      {
+        "words": 17,
+        "chars": 120,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 0,
+        "and": 1,
+        "punctuation": 0,
+        "conditions": 0,
+        "orderMarkers": 0,
+        "actions": 3,
+        "clauses": 1,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 0,
+        "commas": 0,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 1,
+        "specificityProxy": 0
+      }
+    ],
+    "TC-269": [
+      {
+        "words": 14,
+        "chars": 78,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 3,
+        "and": 1,
+        "punctuation": 1,
+        "conditions": 1,
+        "orderMarkers": 1,
+        "actions": 1,
+        "clauses": 1,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 0,
+        "commas": 1,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 2,
+        "specificityProxy": 3
+      },
+      {
+        "words": 14,
+        "chars": 96,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 2,
+        "and": 1,
+        "punctuation": 2,
+        "conditions": 0,
+        "orderMarkers": 1,
+        "actions": 3,
+        "clauses": 1,
+        "managementNounSuffix": 0,
+        "negativeMarkers": 0,
+        "commas": 2,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 3
+      },
+      {
+        "words": 13,
+        "chars": 84,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 2,
+        "and": 1,
+        "punctuation": 2,
+        "conditions": 0,
+        "orderMarkers": 0,
+        "actions": 1,
+        "clauses": 1,
+        "managementNounSuffix": 0,
+        "negativeMarkers": 0,
+        "commas": 2,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 2
+      },
+      {
+        "words": 14,
+        "chars": 98,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 2,
+        "and": 1,
+        "punctuation": 1,
+        "conditions": 0,
+        "orderMarkers": 0,
+        "actions": 2,
+        "clauses": 1,
+        "managementNounSuffix": 2,
+        "negativeMarkers": 0,
+        "commas": 1,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 2,
+        "specificityProxy": 3
+      }
+    ],
+    "TC-300": [
+      {
+        "words": 16,
+        "chars": 102,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 1,
+        "and": 1,
+        "punctuation": 1,
+        "conditions": 2,
+        "orderMarkers": 1,
+        "actions": 2,
+        "clauses": 1,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 1,
+        "commas": 1,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 2,
+        "specificityProxy": 1
+      },
+      {
+        "words": 12,
+        "chars": 96,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 0,
+        "and": 1,
+        "punctuation": 1,
+        "conditions": 1,
+        "orderMarkers": 1,
+        "actions": 2,
+        "clauses": 1,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 0,
+        "commas": 1,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 2,
+        "specificityProxy": 1
+      },
+      {
+        "words": 18,
+        "chars": 107,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 1,
+        "and": 1,
+        "punctuation": 2,
+        "conditions": 1,
+        "orderMarkers": 1,
+        "actions": 2,
+        "clauses": 1,
+        "managementNounSuffix": 2,
+        "negativeMarkers": 0,
+        "commas": 2,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 2
+      },
+      {
+        "words": 23,
+        "chars": 128,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 3,
+        "and": 2,
+        "punctuation": 5,
+        "conditions": 0,
+        "orderMarkers": 0,
+        "actions": 3,
+        "clauses": 1,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 0,
+        "commas": 5,
+        "semicolons": 0,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 6,
+        "specificityProxy": 7
+      }
+    ]
+  },
+  "familyPreservingPermutation": {
+    "maxStatisticAdjustedP": 0.02798600699650175,
+    "seed": 20261008,
+    "draws": 2000,
+    "groups": 4,
+    "rules": 78
+  }
+}

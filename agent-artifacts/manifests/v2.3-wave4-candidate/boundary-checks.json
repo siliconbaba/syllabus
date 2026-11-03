@@ -1,0 +1,72 @@
+{
+  "F-PO-T01": {
+    "TC-201": {
+      "budget": 14,
+      "feasibleNetEffects": {
+        "full": 100,
+        "restricted": 70,
+        "stabilization": 50,
+        "protectedFull": 40
+      },
+      "strongest": "full"
+    },
+    "TC-202": {
+      "budget": 8,
+      "feasibleNetEffects": {
+        "restricted": 70,
+        "stabilization": 50,
+        "protectedFull": 40
+      },
+      "strongest": "restricted"
+    },
+    "TC-203": {
+      "budget": 4,
+      "feasibleNetEffects": {
+        "stabilization": 50,
+        "protectedFull": 40
+      },
+      "strongest": "stabilization"
+    }
+  },
+  "tripletBoundaries": {
+    "fullMinimumBudget": 12,
+    "restrictedMinimumBudget": 7,
+    "stabilizationMinimumBudget": 3,
+    "protectedFullMinimumBudget": 3
+  },
+  "TC187": {
+    "none": {
+      "finish": 14,
+      "cost": 0,
+      "net": 0
+    },
+    "A": {
+      "finish": 13,
+      "cost": 40,
+      "net": -15
+    },
+    "B": {
+      "finish": 14,
+      "cost": 30,
+      "net": -30
+    },
+    "both": {
+      "finish": 10,
+      "cost": 70,
+      "net": 30
+    }
+  },
+  "TC211": {
+    "marginalRisk": 0.39999999999999997,
+    "contingentResponse": 20.0,
+    "fullProtection": 30,
+    "noProtection": 40.0,
+    "unconditionalOption": 25
+  },
+  "TC268": {
+    "boundedWork": 10,
+    "fullRoleWork": 12,
+    "capacity": 10
+  },
+  "F-PR-P03": "Only measured incremental effect changes; constant mandatory-control layer, budget, cost, transition support and authority; choices differ in permanent funding/mandates, not only rollout flag."
+}

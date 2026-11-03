@@ -1,0 +1,48 @@
+{
+  "status": "READY FOR FOCUSED QA — author self-verdict, not import approval",
+  "readyForFocusedQA": true,
+  "manifestCandidate": "agent-artifacts/manifests/v2.2.3-candidate/",
+  "manifestChangedRows": 1,
+  "manifestUnexpectedRegression": 0,
+  "TC085": {
+    "rewritten": true,
+    "vsTC004": "ALLOWED REINFORCEMENT",
+    "uniqueStrongest": "PASS",
+    "sourceGrounding": "SUPPORTED",
+    "Middle": "PASS",
+    "patterns": {
+      "primary": "process-economics",
+      "secondary": [
+        "bottleneck"
+      ]
+    },
+    "reviewLimit": "Key-masked author self-review; prior familiarity means not independent blind QA."
+  },
+  "changedCases": 1,
+  "other24ByteIdentical": true,
+  "unexpectedChanges": 0,
+  "priorR2FixesPreserved": true,
+  "familiesPass": 4,
+  "uniqueStrongest": 25,
+  "sourceGrounded": 25,
+  "manifestAligned": 25,
+  "alignmentBasis": "24 unchanged rows with frozen v2.2.2; TC-085 with v2.2.3-candidate.",
+  "wholeBatchEvidenceBasis": "New085 self-check + byte-identical r2 content; r2 content fixes still require joint independent focused QA. No new independent PASS claimed.",
+  "crossBank": {
+    "ALLOWED REINFORCEMENT": 23,
+    "NO CLOSE ANALOG": 2,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "internalDuplicates": 0,
+  "internalNearDuplicates": 0,
+  "schema": "PASS",
+  "runtime": "PASS",
+  "surfaceLeakage": "PASS within78 exploratory rules",
+  "bestSimpleHeuristic": 10,
+  "combined100Best": 33,
+  "unresolvedIDs": [],
+  "candidateFrozen": false,
+  "imported": false,
+  "candidateSHA256": "77e465c3b9a5e0ac26eb7bdf756d20d2416d18fb57cd74f225575d0e6f202f21"
+}

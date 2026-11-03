@@ -1,0 +1,34 @@
+{
+  "scenarioFamilyId": "F-BV-P03",
+  "verdict": "PASS",
+  "memberIds": [
+    "TC-181",
+    "TC-182"
+  ],
+  "singleLogicalVariable": "Наличие заранее защищённого свободного capacity-reserve на уровне направления",
+  "constantFactsByteIdentical": true,
+  "strongestShift": "181: назначить имеющийся свободный профильный резерв с выдачей/возвратом. 182: сначала явно снять уже обещанную менее приоритетную работу, затем назначить мощность; резерв создать в будущем плане.",
+  "independentReason": "Смена ответа обусловлена существованием свободной мощности, а не сменой мандата, приоритета или срока. Наём одинаково не успевает. Управление admission и возвратом нужно в обеих версиях; наличие резерва не означает наличия правил его использования.",
+  "levelTopicDomainConsistency": "PASS",
+  "headRealization": "Общий мандат на годовую capacity-модель и правила для менеджеров, повторяющийся дефект обещаний, цена скрытого постоянного присвоения резерва. При authoring обе версии должны проверять этот механизм, а не только факт наличия людей.",
+  "hiddenCoMutations": [],
+  "unchangedFamiliesOutsideSuccessfulScope": [
+    {
+      "id": "F-DM-P02",
+      "members": [
+        "TC-129",
+        "TC-130"
+      ],
+      "status": "UNCHANGED_UNRESOLVED_NOT_QA_FAILURE"
+    },
+    {
+      "id": "F-PO-P02",
+      "members": [
+        "TC-133",
+        "TC-134"
+      ],
+      "status": "UNCHANGED_UNRESOLVED_NOT_QA_FAILURE"
+    }
+  ],
+  "authorFamilyStatusOneOfThreeExplained": true
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "FLOW04-01",
+    "severity": "major",
+    "cases": [
+      "TC-287"
+    ],
+    "fields": [
+      "options.C.text",
+      "options.C.decisionQuality",
+      "options.C.explanation",
+      "options.C.whyNotBest"
+    ],
+    "evidence": "C says to divide attention between A and B but specifies no allocation. Four days on A and one on B fits the five-day week and protects100. That satisfies C and equals the protected value of D (DQ0.85), yet C is0.2 below A (eight short items, value40, DQ0.3). The explanation only says B effort MAY prevent A finishing; it does not establish that it does.",
+    "impact": "Key B remains uniquely better (110), but partial scoring depends on an unstated reading of C and can materially penalize a substantially better plan.",
+    "minimalScope": "Specify a concrete allocation/outcome in C that supports its intended low quality, or recalibrate C and its explanations for the full range of permitted allocations. Preserve distinction from D.",
+    "requiredRetest": "TC-287 blind choice, pairwise feasibility, partial DQ and whole-WHEN; surface after wording change."
+  },
+  {
+    "id": "FLOW04-02",
+    "severity": "major",
+    "cases": [
+      "TC-253"
+    ],
+    "affectedAtomicFamily": [
+      "TC-253",
+      "TC-254"
+    ],
+    "fields": [
+      "context",
+      "options.B.explanation",
+      "options.D.explanation"
+    ],
+    "evidence": "Approved blueprint/decisiveFacts say two internal days PER WEEK, first-week capacities baseline, then downstream loses4 per week. Visible context says only two days and first week preparation; it does not explicitly preserve downstream capacity during preparation or state recurring diversion. Option B orders first-week admission10. If preparation itself diverts the shared specialist, downstream first-week capacity can be8, contradicting that plan and changing asserted totals320/400. If the two-day diversion is read as one-off, later weekly figures also change.",
+    "impact": "A remains strongest on natural alternative readings, but feasibility and exact explanation arithmetic require facts present only after answer/blueprint.",
+    "minimalScope": "Restore to the visible shared context the already approved facts: first-week original capacities; two days each following week; downstream loss each such week. Apply the identical common clarification to both family members. No blueprint redesign is needed.",
+    "requiredRetest": "Atomic TC-253/254 visible arithmetic, context constants/literal diff, blind key shift, DQ and explanations; preserve runtime metadata."
+  }
+]

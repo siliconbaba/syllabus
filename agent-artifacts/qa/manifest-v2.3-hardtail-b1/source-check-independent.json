@@ -1,0 +1,17 @@
+{
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "completeTopics": {
+    "t-3-7": {
+      "normalizedCharacters": 20479,
+      "normalizedSHA256": "3f82fc131473dd55c4a66164cadc3e1ed82be55982363715fb316e1c5a424885",
+      "readTextMatchesAuthoritativeHTML": true,
+      "purpose": "atomic family source grounding"
+    },
+    "t-7-9": {
+      "normalizedCharacters": 17387,
+      "normalizedSHA256": "02280f8cc7bf30240f299b0f2c27b5e89c7dbfb035318d27d6e7f2b05121f29d",
+      "readTextMatchesAuthoritativeHTML": true,
+      "purpose": "routing diagnosis only"
+    }
+  }
+}

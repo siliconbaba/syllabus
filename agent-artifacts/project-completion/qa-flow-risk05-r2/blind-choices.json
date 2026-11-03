@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-31T05:02:42.427791+00:00",
+  "before_key": true,
+  "read_scope": "Only blind116.json case content; no R2 key/cases or prior verdict read yet. Directory listing only otherwise.",
+  "input_sha256": "0636a62ff85d1993bd3c62d5a0a98aed2e7dedf40de6e526956980a636d8be96",
+  "id": "TC-116",
+  "choice": "C",
+  "runner_up": "D",
+  "reason": "C stops prohibited logging immediately, retains verified sufficient trace diagnostics, needs 40 of 60 available support minutes, costs 2×20=40 versus D release delay 160. D is a compliant executable alternative but 120 more costly. A violates immediate-stop requirement. B omits trace diagnostics and cannot establish readiness for the two expected investigations."
+}

@@ -1,0 +1,320 @@
+[
+  {
+    "plannedId": "TC-126",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-008",
+        "retrievalScore": 15.111863,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "процесса"
+        ]
+      },
+      {
+        "id": "TC-047",
+        "retrievalScore": 13.0,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-092",
+        "retrievalScore": 10.191211,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "версии",
+          "для",
+          "общий"
+        ]
+      },
+      {
+        "id": "TC-044",
+        "retrievalScore": 10.176466,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "версии",
+          "общей"
+        ]
+      },
+      {
+        "id": "TC-100",
+        "retrievalScore": 10.09611,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "поток"
+        ]
+      },
+      {
+        "id": "TC-068",
+        "retrievalScore": 9.187148,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "поток",
+          "способ"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-127",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-008",
+        "retrievalScore": 15.22679,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "есть",
+          "метрики",
+          "процесса"
+        ]
+      },
+      {
+        "id": "TC-047",
+        "retrievalScore": 13.049346,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "есть"
+        ]
+      },
+      {
+        "id": "TC-092",
+        "retrievalScore": 10.318328,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "версии",
+          "для",
+          "общий",
+          "разные",
+          "часть"
+        ]
+      },
+      {
+        "id": "TC-044",
+        "retrievalScore": 10.165202,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "версии",
+          "общей"
+        ]
+      },
+      {
+        "id": "TC-100",
+        "retrievalScore": 10.089975,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "поток"
+        ]
+      },
+      {
+        "id": "TC-068",
+        "retrievalScore": 9.305897,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "есть",
+          "имеет",
+          "поток",
+          "способ"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-128",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-008",
+        "retrievalScore": 15.142157,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "process-economics",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "процесса",
+          "только"
+        ]
+      },
+      {
+        "id": "TC-047",
+        "retrievalScore": 13.0,
+        "reasons": [
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-092",
+        "retrievalScore": 10.178488,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "версии",
+          "для",
+          "разные"
+        ]
+      },
+      {
+        "id": "TC-044",
+        "retrievalScore": 10.161761,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "версии",
+          "общей"
+        ]
+      },
+      {
+        "id": "TC-100",
+        "retrievalScore": 10.0,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-068",
+        "retrievalScore": 9.083452,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "gate-effect-diagnosis",
+          "quality-metrics"
+        ],
+        "sharedTerms": [
+          "способ"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

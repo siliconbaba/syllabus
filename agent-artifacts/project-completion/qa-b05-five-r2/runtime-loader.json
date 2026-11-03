@@ -1,0 +1,7 @@
+{
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+  "candidateSHA256": "611779a56b740371f21655056b0e87deb538af1836fe8bd7c9651e8c450885cf",
+  "issues": [],
+  "runtime": "PASS",
+  "schema": "PASS"
+}

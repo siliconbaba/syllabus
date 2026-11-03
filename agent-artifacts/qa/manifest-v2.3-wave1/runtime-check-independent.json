@@ -1,0 +1,29 @@
+{
+  "mechanicalStatus": "PASS",
+  "compiledAuthoritativeSwift": true,
+  "derivedAndCoverageErrors": [],
+  "unknownDomains": [],
+  "unknownPatterns": [],
+  "coveragePoolsRecomputed": [
+    "gold",
+    "new",
+    "all300",
+    "newAssessment",
+    "assessment200",
+    "currentProduction100",
+    "auditedRemaining200",
+    "wave1Redesigned"
+  ],
+  "coverageFileEqualsMaster": true,
+  "contextSensitivityScoredEvidence": 0,
+  "semanticStatus": "FAIL",
+  "semanticIssueIDs": [
+    "MAP-291"
+  ],
+  "engineRule": "primary 1, secondary .5, max dedup per category, case influence <=1, distinct case confidence",
+  "TC291weights": {
+    "prioritization": 0.5,
+    "uncertainty": 0.25,
+    "proportionality": 0.25
+  }
+}

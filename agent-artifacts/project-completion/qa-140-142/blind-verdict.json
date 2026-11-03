@@ -1,0 +1,30 @@
+{
+  "beforeKey": true,
+  "blindSHA256": "8187b9c3cf1b2fa72edb28146ee0a50c79c963ba2c7eea58bdcbf5ea4ef2170c",
+  "columns": [
+    "choice",
+    "runnerUp",
+    "confidence",
+    "reason"
+  ],
+  "choices": {
+    "TC-140": [
+      "C",
+      "A",
+      "high",
+      "18 eligible local decisions and 6 escalations fit eight slots; a single director lacks authority over neighbors."
+    ],
+    "TC-141": [
+      "A",
+      "C",
+      "high",
+      "Regime is constant for the entire package; conditional reserves now avoid a false mixture and unnecessary universal worst case."
+    ],
+    "TC-142": [
+      "B",
+      "C",
+      "high",
+      "Protect 3 mandatory weeks, select 4-week 90 over 5-week 70. Proposed D uses 9 weeks even before compliance."
+    ]
+  }
+}

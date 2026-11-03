@@ -1,0 +1,19 @@
+{
+  "optionWords": {
+    "A": 24,
+    "B": 24,
+    "C": 25,
+    "D": 27
+  },
+  "optionCharacters": {
+    "A": 185,
+    "B": 192,
+    "C": 197,
+    "D": 205
+  },
+  "distinctTexts": 4,
+  "bestPosition": 2,
+  "bestLongest": false,
+  "populationStatistics": "NOT_APPLICABLE isolated case",
+  "visibleBlindMatchesCandidate": true
+}

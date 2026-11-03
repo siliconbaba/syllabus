@@ -1,0 +1,42 @@
+{
+  "status": "READY FOR IMPORT",
+  "scope": "Independent focused revision review for TC-117/118, plus unchanged TC-119; content eligibility only, subject to the existing manifest freeze/import process.",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-b04-senior-03-r2/cases.json",
+  "candidateSHA256": "83855ea096436261fcf00195a907791a24b78b0c1aa44acbdb79e8bfbcd727eb",
+  "acceptedCaseIDs": [
+    "TC-117",
+    "TC-118",
+    "TC-119"
+  ],
+  "perCase": {
+    "TC-117": "PASS",
+    "TC-118": "PASS",
+    "TC-119": "PASS"
+  },
+  "remainingCaseIDs": [],
+  "remainingIssueIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "importEligible": true,
+  "productionChanged": false,
+  "freezePerformed": false,
+  "inheritanceBases": [
+    "agent-artifacts/project-completion/qa-b04-senior/QA-verdict.json",
+    "b79cf020e5c3bb4936dd232e65cd6453167dfc11deef10e6929f35299fa0c604",
+    "71b7c5569699a252b9baa9bdbdfa987933e5f9b294a48fd48f2fa9917d9e0d14",
+    "Blind package byte identical. Full semantic comparison changes only the two B.whenItWouldBeBest explanations and their case revisions; TC-119 exact raw object identical. Manifest unchanged. Prior source, level, uniqueness, family, analog, DQ, surface, and blind D/C/D evidence applies. Swift schema/runtime validation for revised SHA passed."
+  ],
+  "gates": {
+    "delta": "PASS",
+    "wholeOptionWhen": "PASS",
+    "remainingContentGates": "PASS inherited",
+    "runtime": "PASS exact SHA"
+  },
+  "closedIssues": {
+    "B04S-01": "Revised TC-117 B explicitly excludes reserved capacity for the remainder. B alone fully protects at 8 versus 12–18 unprotected; paying 3 to reserve only trial space cannot improve that comparison. Continuing independent control on main remains feasible.",
+    "B04S-02": "Revised TC-118 B delivers all 36 independently in one week and frees remaining capacity; reviewing the queue then doing neighbor gives 36 from week 1 and 20 from week 5. Weighted completion 36×1+20×5=136 versus 448 for catalogue-first C. Additional layers earn nothing, so assigning 36 to the first layer is justified."
+  }
+}

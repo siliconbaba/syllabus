@@ -1,0 +1,10 @@
+{
+  "changedFields": [
+    "oneSentenceDecisionBoundary"
+  ],
+  "exactAllowedReplacementOnly": true,
+  "unexpectedChanges": 0,
+  "replacementBefore": "затем сегодня зафиксировать ту же фактическую картину и итог для затронутых участников письменно",
+  "replacementAfter": "сразу после разговора письменно зафиксировать ту же фактическую картину и итог для затронутых участников, до начала зависящего действия через два часа",
+  "unchangedOtherFields": 29
+}

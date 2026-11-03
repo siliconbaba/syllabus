@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/tc163-r2/cases.json",
+  "candidateSHA256": "4ed91ff0c6b00b2a6b805837e5be22a0a8b41d6c876227b56f00b52c38b8be94",
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/tc163/blind-cases.json": "340ffe61d23c06d68b0a256b213bf344d95f65ed8db4f0be3fa395aca45aa3ed",
+    "agent-artifacts/project-completion/qa-full-tc163/blind-choice.json": "33db36fd59db6860391d3af39e733fa1d151d49bb32c2ea1cf66f3be5a8a8cc7",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+    "agent-artifacts/manifests/v2.3-wave4-candidate/source-topics/t-2-4.md": "fb0eeed83dab0151aa2d07072e1d9bd3e322fc3be744240fe14e3e83aec9ff27",
+    "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+    "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+    "agent-artifacts/project-completion/qa-full-tc163/QA-verdict.json": "43c41c1dc5be4c7d11ab7fc2e12e99d41a9ab9115d6cff5b0fedfe90ef6e8786",
+    "agent-artifacts/test-bank/full-cases/tc163/cases.json": "42f6801ac7c3e5f2a2e2bc91f0410bba3c2c4df3d6498fecacabc9abeb6d9c8d"
+  },
+  "acceptedCaseIDs": [
+    "TC-163"
+  ],
+  "remainingCaseIDs": [],
+  "remainingIssueIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "gates": {
+    "blind": "B uniquely, exact learner-text parity. A delivers actual API at close Wednesday; B needs all Thursday and Friday. Data may be prepared ahead; specification is not the tested implementation. Reserve is available, date uncommitted.",
+    "blueprint": "PASS, C05 standalone Junior TC-163, intended boundary, exact tags, eligibility, facts and a feasible finish-start transfer. §2.4 explicitly gives testing API only after its availability as a hard predecessor.",
+    "score": "B 1 > C .55 > D .4 > A .3: C reaches Friday at project level but leaves a false team schedule; D supports early preparation only; A leaves all impossible dates in place.",
+    "WHEN": "All four pass. A now has the same delivered working API and the same B verification: actual Monday delivery leaves Tuesday/Wednesday as two complete days; an unconfirmed outage creates a genuine risk of late verification. B, C and D unchanged from prior review.",
+    "loader": "Real strict TrainerBank.load with shipped topics.json loaded exact R2 TC-163.",
+    "exactDelta": "Only revision 1→2, key insight and option A WHEN changed. The learner sees clear Russian wording of the same C05 dependency boundary. Blind selection B and score ordering carry forward."
+  },
+  "issues": [],
+  "editorial": "Prior key-insight shorthand resolved.",
+  "importEligible": true,
+  "readyToFreeze": true,
+  "closedIssueIDs": [
+    "TC163-WHEN-A"
+  ]
+}

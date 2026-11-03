@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "verdict": "FOCUSED CONTENT QA PASS; NOT READY FOR IMPORT",
+  "scope": [
+    "TC-193 full-case r2 three-field repair and dependent gates"
+  ],
+  "candidate": "agent-artifacts/test-bank/full-cases/tc193-r2/cases.json",
+  "candidateSHA256": "1aefbe44e3cb73660bb8139988aebae0398afce3ad8f9c67dfef76e3cef73c11",
+  "blindChoice": "B",
+  "runnerUp": "A",
+  "gates": {
+    "blindStrongest": "PASS B; runner-up A",
+    "pairwiseUniqueness": "PASS independently rerun",
+    "wholeOptionCounterfactualC": "PASS independently rerun",
+    "dependentExplanations": "PASS independently rerun",
+    "decisionQuality": "PASS independently rerun",
+    "exactScopedDelta": "PASS semantic and raw object after three substitutions",
+    "sourceGrounding": "PASS inherited exact source/context/metadata; changed C principle unchanged",
+    "JuniorRealization": "PASS inherited and delta confirmed",
+    "blueprintAlignment": "PASS inherited exact metadata",
+    "duplication": "PASS prior comparison inherited; C boundary unchanged; exact copies rerun",
+    "family": "NOT_APPLICABLE standalone",
+    "surface": "PASS individual rerun; batch statistics NOT_APPLICABLE n=1",
+    "actualSwiftLoader": "PASS newly compiled and executed",
+    "authoritativeMetadataMapping": "PASS unchanged exact references and fresh runtime",
+    "cumulativeManifestFreeze": "NOT_RUN required before import"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "issues": [],
+  "remainingIssueIDs": [],
+  "resolvedIssueIDs": [
+    "TC193-FULL-R1-01"
+  ],
+  "inheritanceBases": [
+    {
+      "path": "agent-artifacts/project-completion/qa-full-tc193-r1/QA-verdict.json",
+      "sha256": "771581a8b2b70866294e8c9b3a63e5ca86a6443210f1e863af2e1fb330573d46",
+      "overallPriorVerdict": "FIX REQUIRED; only specific PASS gates inherited",
+      "proof": "inheritance-hash-check.json and delta-identity.json"
+    }
+  ],
+  "candidateAccepted": true,
+  "importEligible": false,
+  "readyForFreeze": false,
+  "eligibilityReason": "Isolated content accepted only; cumulative scoped merge/freeze and assembled bank QA/import regression remain outstanding.",
+  "productionChanged": false,
+  "manifestChanged": false
+}

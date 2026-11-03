@@ -1,0 +1,52 @@
+{
+  "authoritativeBook": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/InteractiveBook/WebContent/index.html",
+  "sha256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "fullTopicsRead": [
+    {
+      "topicId": "t-10-1",
+      "extractedTextSha256": "5f726452266c572c88fdf7d4c97d56e17aca5df20300a587d6db4dfa3985e8da",
+      "characters": 20416
+    },
+    {
+      "topicId": "t-13-2",
+      "extractedTextSha256": "76ebdb744523090e1bd872fbd755b77b1c8c28f334bcf4a3f83c1635547e7c7c",
+      "characters": 18486
+    },
+    {
+      "topicId": "t-2-3",
+      "extractedTextSha256": "fce76b4e4cca6661d7f59941dec744e10dca5a92dcb0bae1df543d0dd7f2d9a7",
+      "characters": 19066
+    },
+    {
+      "topicId": "t-3-5",
+      "extractedTextSha256": "0eb53e3fc030600dd85b46b5a283a476220f4499780003a4b4576085163f6c8d",
+      "characters": 20362
+    },
+    {
+      "topicId": "t-5-7",
+      "extractedTextSha256": "ff8b9cd740c87b7d747fc1f9227d35d792f483b81a86b50b66128671dc563b89",
+      "characters": 17014
+    },
+    {
+      "topicId": "t-8-1",
+      "extractedTextSha256": "0b01021abdad0042b98307fe46ec04ad9c652c50f2d8b34a274c2ee8952ba02e",
+      "characters": 20016
+    },
+    {
+      "topicId": "t-8-2",
+      "extractedTextSha256": "7c7081217ee0f468d28ca1112bb54288ec89caa304eefb4fafd02f3719b2d4cd",
+      "characters": 19688
+    },
+    {
+      "topicId": "t-8-3",
+      "extractedTextSha256": "be115259a8c2f0fee92247e0fc5d496fe14eb19a91b5df4b12b2076e2ed87027",
+      "characters": 19682
+    },
+    {
+      "topicId": "t-9-4",
+      "extractedTextSha256": "a44ba95854ba857fc88f87f984084a2b12beadba66cb67d5abddf7794a120118",
+      "characters": 20221
+    }
+  ],
+  "externalSubstantiveSources": []
+}

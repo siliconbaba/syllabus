@@ -1,0 +1,202 @@
+[
+  {
+    "plannedId": "TC-120",
+    "batch": "Batch 04",
+    "block": "B05 — Processes",
+    "partId": "part-4",
+    "topicId": "t-4-3",
+    "oneSentenceScenarioConcept": "Head пересматривает operating model ART после трёх PI: в продуктовые обязательства каждый раз включают 100% номинальной capacity, а IP-итерация уходит на доделки; обучение и интеграционные улучшения вытесняются, хотя связи между командами уже выявляются вовремя.",
+    "decisiveFactsConcept": [
+      "Зависимости известны и отслеживаются; расширять PI Planning или уменьшать число команд не требуется.",
+      "IP-итерация числится в календаре, но те же люди на неё обещаны в feature commitments; KPI лидов по утилизации закрепляет двойное бронирование.",
+      "Head владеет политикой расчёта commitment capacity и системой целей лидов; защищаемые IP outcomes и их стоимость можно показывать отдельно."
+    ],
+    "oneSentenceDecisionBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "domain": "organizational_design",
+    "requiredLevel": "head",
+    "primaryPattern": "resource-conflict",
+    "secondaryPatterns": [
+      "change-management",
+      "process-economics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Head: меняется общая модель обязательств и стимулы руководителей ART, а не расписание одной команды; Senior не устранит двойное бронирование без authority на capacity policy и оценку лидов.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Процессы",
+    "derivedRuntimePrimaryThinking": "prioritization",
+    "derivedRuntimeSecondaryThinking": [
+      "organization",
+      "proportionality"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": "Head: меняется общая модель обязательств и стимулы руководителей ART, а не расписание одной команды; Senior не устранит двойное бронирование без authority на capacity policy и оценку лидов.",
+    "authorityScope": "Head устанавливает правила определения доступной capacity и цели руководителей ART; изменения внешних обязательств согласуются с их владельцами.",
+    "secondaryEffect": "Меньше номинальных feature promises сейчас, но восстановление способности обучаться и улучшать интеграцию; IP оценивается по результату, а не по свободным часам.",
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§4.3 описывает IP как пространство инноваций/планирования и называет её поглощение доделками провалом SAFe; framework не заменяет решений об организационной ёмкости."
+  },
+  {
+    "plannedId": "TC-143",
+    "batch": "Batch 05",
+    "block": "B03 — Delivery & Release",
+    "partId": "part-3",
+    "topicId": "t-3-3",
+    "oneSentenceScenarioConcept": "Координатор видит зелёный pipeline и готовый артефакт в continuous delivery; команда хочет включить функцию, хотя бизнес-владелец ещё не принял решение о запуске.",
+    "decisiveFactsConcept": [
+      "Pipeline подтверждает техническую готовность; автопубликация пользователям в этой модели не настроена.",
+      "Дата публичного предложения зависит от бизнес-решения; назначенный владелец доступен."
+    ],
+    "oneSentenceDecisionBoundary": "Сохранить готовность к выкатке и запросить решение о пользовательском запуске у назначенного владельца; не выдавать technical ready за уже принятое release-решение.",
+    "domain": "release_engineering",
+    "requiredLevel": "junior",
+    "primaryPattern": "decision-at-right-level",
+    "secondaryPatterns": [
+      "feature-flags"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Junior: различить техническую готовность continuous delivery и решение release; один явно заданный предел полномочий.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Delivery и релизы",
+    "derivedRuntimePrimaryThinking": "organization",
+    "derivedRuntimeSecondaryThinking": [
+      "systems"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "Исходная тема t-3-3: continuous delivery (CD — каждое изменение, прошедшее пайплайн, готово к выкатке в любой момент; выкатка — решение бизнеса). Конкретные ограничения и числа — авторские условия, не нормы учебника."
+  },
+  {
+    "plannedId": "TC-189",
+    "batch": "Batch 07",
+    "block": "B03 — Delivery & Release",
+    "partId": "part-3",
+    "topicId": "t-3-3",
+    "oneSentenceScenarioConcept": "Релиз-координатор обнаруживает постоянную ветку по флагу у функции, давно включённой всем; из-за неё тестируют два пути, хотя старый больше не поддерживается.",
+    "decisiveFactsConcept": [
+      "Полная раскатка завершена; владелец подтвердил окончательный отказ от старого поведения.",
+      "Rollback обеспечивается актуальным планом релиза и не использует этот флаг; у других систем зависимостей от него нет."
+    ],
+    "oneSentenceDecisionBoundary": "Поставить удаление завершившего жизненный цикл флага и старой ветки с проверкой оставшегося поведения; не сохранять навсегда фиктивный выключатель как safeguard.",
+    "domain": "release_engineering",
+    "requiredLevel": "junior",
+    "primaryPattern": "feature-flags",
+    "secondaryPatterns": [
+      "process-economics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Junior: применить гигиену завершённого feature flag при явно снятых зависимостях; не требуется проектировать migration.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Delivery и релизы",
+    "derivedRuntimePrimaryThinking": "systems",
+    "derivedRuntimeSecondaryThinking": [
+      "proportionality"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "Исходная тема t-3-3: флаги удаляются после полной раскатки. Конкретные ограничения и числа — авторские условия, не нормы учебника."
+  },
+  {
+    "plannedId": "TC-241",
+    "batch": "Batch 09",
+    "block": "B04 — Technical Delivery",
+    "partId": "part-10",
+    "topicId": "t-10-1",
+    "oneSentenceScenarioConcept": "Junior TPM читает схему каталога: сервисы stateless и свободны, но балансировщик распределяет запросы на чтение одной базы, работающей на пределе; предлагается добавить ещё сервисных инстансов.",
+    "decisiveFactsConcept": [
+      "State вынесен, свободные сервисные инстансы уже есть; все запросы требуют чтения той же базы.",
+      "Измеренное ожидание приходится на базу, а не распределение запросов."
+    ],
+    "oneSentenceDecisionBoundary": "Указать базу как оставшееся ограничение и запросить решение для чтения/нагрузки на неё; не считать добавление свободных replicas увеличением мощности базы.",
+    "domain": "technical_delivery",
+    "requiredLevel": "junior",
+    "primaryPattern": "bottleneck",
+    "secondaryPatterns": [
+      "dependency"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Junior: проследить одну явно показанную зависимость мощности; без проектирования кэш-политики или нового storage.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "dependencies",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "Исходная тема t-10-1: Кэш решает проблему нагрузки на чтение. Конкретные ограничения и числа — авторские условия, не нормы учебника."
+  },
+  {
+    "plannedId": "TC-249",
+    "batch": "Batch 09",
+    "block": "B04 — Technical Delivery",
+    "partId": "part-10",
+    "topicId": "t-10-1",
+    "oneSentenceScenarioConcept": "Junior TPM получает предложение заменить REST на gRPC «потому что быстрее», хотя трафик мал, внешний consumer не поддерживает Protobuf, а latency не bottleneck; нужно решить, есть ли основание для миграции протокола.",
+    "decisiveFactsConcept": [
+      "Трафик мал",
+      "External consumer ограничен REST",
+      "Latency не bottleneck"
+    ],
+    "oneSentenceDecisionBoundary": "Техническая мода ↔ архитектурный trade-off по реальному ограничению.",
+    "domain": "technical_delivery",
+    "requiredLevel": "junior",
+    "primaryPattern": "gate-effect-diagnosis",
+    "secondaryPatterns": [
+      "bottleneck",
+      "process-economics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "evidence",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies",
+      "proportionality"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  }
+]

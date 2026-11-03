@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "No-change regression and independent Category B routing",
+  "inputHashesFinalRecheck": "PASS",
+  "candidateArtifactHashes": "PASS",
+  "baselineQAArtifactHashes": "PASS",
+  "parsedAndRawRows": 275,
+  "parsedAndRawFamilies": 43,
+  "changedRows": 0,
+  "changedFamilies": 0,
+  "sameTopicPrimaryRetrievalMissing": 0,
+  "originalCategoryBFamilies": 4,
+  "originalCategoryBUnresolvedRows": 9,
+  "rejectedDraftMembers": 2,
+  "appliedDrafts": 0,
+  "sourceTextVerification": "PASS; complete actual topic nodes read",
+  "fullAppSuite": "NOT_RUN",
+  "runtimeProbe": "NOT_RERUN: identical Models/Mapping/Engine hashes to accepted B1 probe",
+  "candidateModified": false,
+  "productionModified": false,
+  "triageModified": false
+}

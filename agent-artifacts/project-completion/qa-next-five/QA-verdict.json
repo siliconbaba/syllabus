@@ -1,0 +1,87 @@
+{
+  "status": "FIX REQUIRED",
+  "scope": "Independent full candidate review of five cases, atomic family F-TD-T01 and two standalone candidates",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-101-103-110-111/cases.json",
+  "candidateSHA256": "700396bf04d84a03dcb4b176479a0683a035aeaf2d7693d38179c9c6f01fb39f",
+  "manifestSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "acceptedCaseIDs": [
+    "TC-110"
+  ],
+  "remainingUnresolvedIDs": [
+    "TC-101",
+    "TC-102",
+    "TC-103",
+    "TC-111"
+  ],
+  "remainingIssueIDs": [
+    "NF-L01",
+    "NF-I01"
+  ],
+  "severityCounts": {
+    "blocker": 1,
+    "major": 1,
+    "minor": 0
+  },
+  "cases": {
+    "TC-101": {
+      "status": "FIX REQUIRED",
+      "contentAccepted": false,
+      "issues": [
+        "NF-L01"
+      ]
+    },
+    "TC-102": {
+      "status": "FIX REQUIRED",
+      "contentAccepted": false,
+      "issues": [
+        "NF-L01"
+      ]
+    },
+    "TC-103": {
+      "status": "FIX REQUIRED",
+      "contentAccepted": false,
+      "issues": [
+        "NF-L01"
+      ]
+    },
+    "TC-110": {
+      "status": "PASS",
+      "contentAccepted": true,
+      "issues": []
+    },
+    "TC-111": {
+      "status": "FIX REQUIRED",
+      "contentAccepted": false,
+      "issues": [
+        "NF-I01"
+      ]
+    }
+  },
+  "gates": {
+    "hashIdentity": "PASS",
+    "approvedBlueprintAndFamilyMetadata": "PASS",
+    "swiftSchemaRuntime": "PASS (reused unchanged candidate evidence)",
+    "blindAgreement": "PASS (5/5)",
+    "pairwiseUniqueness": "FAIL TC-111 NF-I01",
+    "level": "FAIL TC-101/102/103 NF-L01",
+    "source": "PASS",
+    "semanticDuplication": "PASS",
+    "atomicSingleMutationAndEligibility": "PASS",
+    "surface": "FAIL family semantic cue NF-L01",
+    "wholeOptionWhenAndDQ": "FAIL TC-111 B/D NF-I01",
+    "professionalPlausibility": "PASS"
+  },
+  "inheritanceBases": {
+    "swiftEvidenceSHA256": "08c2d82d9e0cbe3db703ca8e4b4321cd538d17556af0f3f9d82352678f8d6b7f",
+    "boundByValidationSummarySHA256": "7049293dd70ccbf0cc73c82eca33b71d80e86c124d9352c6de1aace19aa8aacc",
+    "semanticVerdictsInherited": false
+  },
+  "readyToFreeze": false,
+  "importEligible": false,
+  "productionImported": false,
+  "evidenceSHA256": {
+    "blind-choices.json": "9a56202b0805b7fbb43365eb137d372edebe4165d1412a4d876437d6fdce9701",
+    "verified-evidence.json": "eed125de8fad13805c9cbc0b448337f6075b617e126ff46e73288b4de2314b9e",
+    "report.md": "601c1a1a4530156f23206b53478e1f88e619587fcc596e2eab18181f61cf0476"
+  }
+}

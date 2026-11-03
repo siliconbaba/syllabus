@@ -1,0 +1,16 @@
+{
+  "agent-artifacts/test-bank/full-cases/tc272-r1/cases.json": "b26510a43a42219b14d1b90448d2e37ccddfc95c838aedaeb37dd5458a04ffeb",
+  "agent-artifacts/test-bank/full-cases/tc272-r1/blind-case.json": "930f2c2448e72748a2478d094057ba8a033d13dda644f1a326b0424141768594",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "agent-artifacts/test-bank/reconstruction/tc272-r1/source-t-5-5.txt": "8f3bcd1c75a1f3faa10bb022198ee9558727467244d49240d1e48b5b1cb4e7ab",
+  "agent-artifacts/test-bank/reconstruction/tc272-r1/proposed-manifest-row.json": "697ce1d99358b8d50e9264c9a75e234e462fc3ae1f82335f470dda6bb0b92ef1",
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/production_manifest_masterplan_v2_3_completion_01_candidate.json": "24adbe7421c5df1d29c3ae0a6836d8a046bf81dd015854062efb1a5b49c4675c",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "InteractiveBook/Trainer/TrainerProfileView.swift": "41eb5ad9cc8e8a9e18df339f68767aaf5800e1ce8035d6e435dec541e99114c5",
+  "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+  "InteractiveBook/Trainer/TrainerStore.swift": "7461e3665fdcc0476a2c2cbd4e8ad0954dcdabe0abbdca236d76c66e20d4a03e",
+  "InteractiveBook/Trainer/TrainerView.swift": "5d7d9264e34766e7f07e142fb020958c15f63f342e48da0a34657a21e86b9b90",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASS — regression and applied two-row author self-QA; task PARTIAL",
+  "scope": [
+    "TC-214",
+    "TC-261",
+    "TC-292"
+  ],
+  "successfullyRedesigned": [
+    "TC-214",
+    "TC-261"
+  ],
+  "stillUnresolved": [
+    "TC-292"
+  ],
+  "sourceGrounding": "PASS2/2",
+  "levelRealization": "PASS2/2",
+  "runtimeSemanticMapping": "PASS2/2",
+  "semanticUniqueness": {
+    "appliedNearDuplicate": 0,
+    "appliedDuplicate": 0,
+    "rejectedNearDuplicateDrafts": [
+      "TC-292"
+    ]
+  },
+  "unknownCodes": 0,
+  "structuralRegression": "PASS",
+  "familiesUnchanged": true,
+  "unexpectedChanges": 0,
+  "otherUnresolvedUnchanged": true,
+  "previouslyAcceptedUnchanged": true,
+  "productionUnchanged": true,
+  "fullCaseLoader": "NOT_APPLICABLE — manifest only",
+  "independentQA": "NOT_RUN",
+  "remainingAuthorUnresolved": 76,
+  "pendingIndependentAcceptance": [
+    "TC-214",
+    "TC-261"
+  ],
+  "readyForFocusedIndependentQA": true,
+  "freeze": false,
+  "import": false
+}

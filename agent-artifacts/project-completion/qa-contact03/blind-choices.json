@@ -1,0 +1,5 @@
+[
+ {"id":"TC-112","choice":"B","runnerUp":"C","confidence":"high for B, low for runner","grounds":"B separates the common work from the customer's promise. C offers an executable bounded pilot but unilaterally chooses audience and promise. A also unilaterally chooses."},
+ {"id":"TC-113","choice":"D","runnerUp":"C","confidence":"high","grounds":"D delivers the chosen role by its deadline and uses available time for handover. C preserves the opportunity but creates avoidable continuity risk."},
+ {"id":"TC-216","choice":"A","runnerUp":"D","confidence":"high for A, low for runner","grounds":"A fits all three rhythms. D covers both decision owners but seriously delays operators. B responds to operators earlier than D yet misses urgent sponsor alerts. Their relative harm is unspecified."}
+]

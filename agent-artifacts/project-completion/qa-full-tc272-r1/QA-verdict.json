@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "verdict": "INDEPENDENT FULL-CASE CONTENT QA PASS",
+  "scope": [
+    "TC-272 R1 isolated full-case"
+  ],
+  "candidate": "agent-artifacts/test-bank/full-cases/tc272-r1/cases.json",
+  "candidateSHA256": "b26510a43a42219b14d1b90448d2e37ccddfc95c838aedaeb37dd5458a04ffeb",
+  "gates": {
+    "blindStrongest": "PASS",
+    "pairwiseDecisiveness": "PASS",
+    "wholeOptionWHEN": "PASS",
+    "DQOrdering": "PASS",
+    "explanations": "PASS",
+    "fullSourceVerified": "PASS",
+    "JuniorRealization": "PASS",
+    "acceptedBlueprintMetadata": "PASS",
+    "analogsProduction100Planned275MandatoryExpansion": "PASS",
+    "localSurface78Rules": "PASS",
+    "realSwiftLoader": "PASS"
+  },
+  "families": "NOT_APPLICABLE standalone",
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "remainingIssueIDs": [],
+  "inheritanceBases": [],
+  "blueprintApprovalUse": "Metadata/boundary only; no inherited full-case approval",
+  "candidateAccepted": true,
+  "readyForFreeze": false,
+  "importEligible": false,
+  "productionChanged": false,
+  "manifestChanged": false,
+  "limitations": [
+    "Cumulative manifest integration/freeze and batch-wide surface/regression remain separate gates.",
+    "Planned-only analogs assessed at blueprint boundary level."
+  ]
+}

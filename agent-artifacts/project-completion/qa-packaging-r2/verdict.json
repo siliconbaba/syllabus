@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "focused independent packaging retest for current syllabus target",
+  "closedIssues": [
+    "PKG-01",
+    "PKG-02"
+  ],
+  "newSignatureHandling": "PASS (source frameworks only; staged removal; final unsigned validation)",
+  "readyForSideStoreRetry": true,
+  "deviceInstall": "NOT_RUN",
+  "productionBankCases": 100,
+  "ipaSHA256": "cc87f55f75aff19c8c8886eb809626e97253e0df4db6115b41c3e220ac29efa0",
+  "wholeProjectCompletion": false,
+  "implementationChangedByReviewer": false
+}

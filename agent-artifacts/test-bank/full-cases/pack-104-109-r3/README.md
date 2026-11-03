@@ -1,0 +1,1 @@
+R3 focused DQ03 repair: only TC109 revision2→3, D quality .4→.25, explanation and whyNotBest changed. All visible blind text and other5case objects unchanged. Standards-audit supersedes unsupported Major01; no weakened contract. Proposed sharedblueprint/family clarification remains pending explicitmerge. No production/import.

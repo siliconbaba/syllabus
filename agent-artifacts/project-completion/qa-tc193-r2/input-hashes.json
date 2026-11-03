@@ -1,0 +1,9 @@
+{
+  "agent-artifacts/test-bank/reconstruction/tc193-r1/proposed-manifest-row.json": "d4ab92237a531de7fd742f501efeef4529d172b4af6dcfdd6ceb1131f04cd0aa",
+  "agent-artifacts/test-bank/reconstruction/tc193-r2/proposed-manifest-row.json": "8355e52e144c59fe36aa5ae32fcc376864632e423718088c47e0a803d3e146fc",
+  "agent-artifacts/project-completion/qa-tc193-r1/QA-verdict.json": "b9ecee8b6d0f1daca879d873811cd1ace40a3f29e7494c8b1824705585609232",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/production_manifest_masterplan_v2_3_hardtail_b2_candidate.json": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced"
+}

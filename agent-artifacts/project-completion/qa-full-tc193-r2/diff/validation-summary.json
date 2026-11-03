@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "structural": "PASS",
+  "schema": "NOT_APPLICABLE",
+  "runtime": "NOT_APPLICABLE",
+  "families": "PASS",
+  "unexpectedChanges": 0,
+  "surface": {
+    "status": "NOT_RUN"
+  },
+  "issues": []
+}

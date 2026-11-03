@@ -1,0 +1,2042 @@
+[
+  {
+    "a": "TC-101",
+    "b": "TC-102",
+    "classification": "CONTROLLED SIBLING CONTRAST",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "note": "Declared family state changes the strongest strategy."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-103",
+    "classification": "CONTROLLED SIBLING CONTRAST",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "note": "Declared family state changes the strongest strategy."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-104",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-105",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-106",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-107",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-108",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-109",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-110",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-112",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-114",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-101",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-103",
+    "classification": "CONTROLLED SIBLING CONTRAST",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "note": "Declared family state changes the strongest strategy."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-104",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-105",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-106",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-107",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-108",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-109",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-110",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-112",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-114",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-102",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-104",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-105",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-106",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-107",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-108",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-109",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-110",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-112",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-114",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-103",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-105",
+    "classification": "CONTROLLED SIBLING CONTRAST",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "note": "Declared family state changes the strongest strategy."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-106",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-107",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-108",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-109",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-110",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-112",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-114",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-104",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-106",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-107",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-108",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-109",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-110",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-112",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-114",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-105",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-108",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-109",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-106",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Временно разгрузить очередь и проверить восстановление потока.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-108",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-109",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-107",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Менять само ограничение системы: capacity/правила запуска/границы работы.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-109",
+    "classification": "CONTROLLED SIBLING CONTRAST",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "note": "Declared family state changes the strongest strategy."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-110",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-112",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-114",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-108",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-110",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-112",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-114",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-109",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-110",
+    "b": "TC-111",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "bBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-110",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-110",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-110",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-110",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-110",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-110",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-110",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-112",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-114",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-111",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-112",
+    "b": "TC-113",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "bBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-112",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-112",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-112",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-112",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-112",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-112",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-114",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-113",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-114",
+    "b": "TC-115",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "bBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-114",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-114",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-114",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-114",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-114",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-116",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-117",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-115",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Выбрать 18-минутное восстановление без потерь: оно соблюдает и RTO, и RPO; самый быстрый подъём сервиса не является допустимым восстановлением при превышении потери данных.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-116",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-116",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-116",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-116",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-116",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-117",
+    "b": "TC-118",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "bBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-117",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-117",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-117",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-117",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-118",
+    "b": "TC-119",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "bBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-118",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-118",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-118",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-118",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-118",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-118",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-119",
+    "b": "TC-120",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "bBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-119",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-119",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-119",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-119",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-119",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-120",
+    "b": "TC-121",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "bBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-120",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-120",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-120",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-120",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Исключить защищённую IP-capacity из продуктовых обязательств и согласовать показатели лидов с результатами обучения/интеграции; перенос feature scope сделать явным портфельным решением вместо скрытого расходования IP на доделки.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-121",
+    "b": "TC-122",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "bBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-121",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Позиционный торг ↔ обмен по интересам с сохранением ключевых ограничений.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-122",
+    "b": "TC-123",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "bBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-122",
+    "b": "TC-124",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "bBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-122",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Закрыть выполненный PIP по согласованному правилу и вернуть обычный ритм управления, сохранив стандартные safeguards релиза; не менять критерий выхода задним числом ради тревоги руководителя.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-123",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Самая быстрая окупаемость ↔ выбор по общей экономической ценности и ограничениям капитала.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  },
+  {
+    "a": "TC-124",
+    "b": "TC-125",
+    "classification": "NO DUPLICATE BOUNDARY",
+    "aBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "bBoundary": "Сохранить embedded помощь и автоматизацию, но закрепить независимое подтверждение high-risk, защищённую capacity и линию отчётности assurance с ИБ; не лечить конфликт интересов дополнительным обучением champions или тотальной централизацией.",
+    "note": "Different decision object/constraint; thematic proximity not same task."
+  }
+]

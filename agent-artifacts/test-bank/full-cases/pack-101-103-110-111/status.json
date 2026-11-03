@@ -1,0 +1,13 @@
+{
+  "status": "READY_FOR_INDEPENDENT_QA",
+  "ids": [
+    "TC-101",
+    "TC-102",
+    "TC-103",
+    "TC-110",
+    "TC-111"
+  ],
+  "fullSourceReadByAuthor": true,
+  "independentFullCaseQA": "NOT_RUN",
+  "productionChanged": false
+}

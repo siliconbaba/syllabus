@@ -1,0 +1,674 @@
+[
+  {
+    "candidate": "TC-214",
+    "analog": "TC-011",
+    "corpus": "production",
+    "analogBoundary": "Заранее объявленная дата отключения и фактическое завершение миграции клиентов — разные условия завершения перехода.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog concerns migration compatibility/consumer readiness; TC-214 changes no API or data schema and does not infer readiness from telemetry.",
+    "depth": "expanded context/facts",
+    "analogContext": "Платформенная команда хочет изменить публичный API заказов: переименовать обязательное поле и изменить семантику одного status. Есть семь клиентов с независимыми release cadence; два выпускаются раз в месяц, поэтому одномоментный cutover невозможен. API уже поддерживает версионирование и параллельное чтение старого/нового поля; разработка backward compatibility внутри сервиса оценивается в 3–4 дня. Migration window будет длиться столько, сколько нужно клиентам для перехода, ориентировочно до шести недель. Отдельный adapter-service потребует около двух недель разработки, отдельный deploy/on-call и последующее удаление.",
+    "analogDecisiveFacts": [
+      "Клиенты обновляются независимо; два из них выпускаются раз в месяц.",
+      "Внутренняя compatibility требует 3–4 дня разработки.",
+      "Migration window может длиться до шести недель; adapter дороже и требует эксплуатации."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-038",
+    "corpus": "production",
+    "analogBoundary": "Наличие двух endpoint не гарантирует сохранения смысла контракта и не доказывает готовность удалить старый.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog concerns migration compatibility/consumer readiness; TC-214 changes no API or data schema and does not infer readiness from telemetry.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы ведёте необходимое изменение REST API расписаний для семи независимых клиентов; два не могут обещать дату из-за внешнего согласования. Две версии API доступны на шесть недель. Новый статус «место назначено» появляется до оплаты, тогда как старое «подтверждено» разрешает клиентам выдавать билет только после оплаты. Инженеры предлагают назвать новый статус старым в ответе v1: формально поля совпадут. Событие оплаты сохраняется, поэтому старый смысл можно воспроизвести в сервисе, но проверка контрактов сейчас сравнивает только форму JSON. Некоторые клиенты обращаются редко: отсутствие их запросов за день не доказывает миграцию. Владельцы известны, метрика версий есть; отменить новую функцию нельзя.",
+    "analogDecisiveFacts": [
+      "Одинаковая форма JSON скрывает разный момент разрешения выдачи билета.",
+      "Событие оплаты позволяет сохранить старую семантику внутри сервиса.",
+      "Редкие обращения не позволяют завершать миграцию по одному тихому дню."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-062",
+    "corpus": "production",
+    "analogBoundary": "Совместимость схемы ещё не гарантирует согласованности данных в переходном режиме.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog concerns migration compatibility/consumer readiness; TC-214 changes no API or data schema and does not infer readiness from telemetry.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы координируете миграцию таблицы заявок. Новый сервис пишет дополнительное поле, старый код его игнорирует; удаление старого поля сломает старый код и требуется только после перехода. Две версии будут сосуществовать три недели. Старый сервис продолжает менять старое поле, поэтому однократный backfill устаревает. Команды подтвердили совместимый режим: синхронизация изменений и сверка обоих представлений; новый читатель умеет временно использовать старое поле. Перед удалением можно подтвердить перевод всех писателей и читателей и отсутствие расхождений. Единого атомарного переключения клиентов нет.",
+    "analogDecisiveFacts": [
+      "Однократный backfill устаревает из-за продолжающихся записей старого сервиса.",
+      "Подтверждён совместимый режим синхронизации и сверки.",
+      "Удалять старое можно после перехода всех писателей и читателей."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-079",
+    "corpus": "production",
+    "analogBoundary": "Смысл подтверждения определяет, можно ли ответить до завершения зависимой операции.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog chooses sync/async response or atomic message delivery from mandatory contract. TC-214 allows all strategies and does not relax payment correctness; it compares the cost of permissible stale display with latency and delivery scope.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы координируете API приёма заявок. Проверка реестра занимает две секунды; доступны прямой вызов и готовая очередь. Обработчик очереди защищён от дублей, lag контролируется, результат появляется в отдельном статусе не позднее минуты. Данные новой заявки нельзя подменить результатом предыдущей проверки. Быстрый ответ желателен, но обязательного субсекундного SLO нет. Дополнительных работ для любого из двух путей не требуется. Продуктовый контракт положительного ответа: подтверждена допустимость заявки; до завершения проверки реестра это утверждать нельзя.",
+    "analogDecisiveFacts": [
+      "подтверждена допустимость заявки; до завершения проверки реестра это утверждать нельзя.",
+      "Прямая проверка занимает две секунды, готовая очередь даёт итог не позднее минуты.",
+      "Быстрый ответ желателен; подмена результата проверки недопустима."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-080",
+    "corpus": "production",
+    "analogBoundary": "Смысл подтверждения определяет, можно ли ответить до завершения зависимой операции.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog chooses sync/async response or atomic message delivery from mandatory contract. TC-214 allows all strategies and does not relax payment correctness; it compares the cost of permissible stale display with latency and delivery scope.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы координируете API приёма заявок. Проверка реестра занимает две секунды; доступны прямой вызов и готовая очередь. Обработчик очереди защищён от дублей, lag контролируется, результат появляется в отдельном статусе не позднее минуты. Данные новой заявки нельзя подменить результатом предыдущей проверки. Быстрый ответ желателен, но обязательного субсекундного SLO нет. Дополнительных работ для любого из двух путей не требуется. Продуктовый контракт положительного ответа: подтверждено только получение заявки; допустимость определяется позже и показывается отдельным статусом, что принято продуктом.",
+    "analogDecisiveFacts": [
+      "подтверждено только получение заявки; допустимость определяется позже и показывается отдельным статусом, что принято продуктом.",
+      "Прямая проверка занимает две секунды, готовая очередь даёт итог не позднее минуты.",
+      "Быстрый ответ желателен; подмена результата проверки недопустима."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-093",
+    "corpus": "production",
+    "analogBoundary": "Передать денежный ущерб не значит передать все последствия риска.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog concerns nontransferable risk, error budget or access loss. TC-214 has no disallowed choice or hard SLO filter; all routes satisfy the freshness contract, but differ in business consequences of its use.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы — PM до запуска проекта. Возможный отказ оборудования ещё не произошёл; вероятность оценена в 10%, ущерб при отказе — 1 млн ₽ и пять дней простоя. Спонсор заранее разрешил не более одного дня непрерывного простоя; этот предел не пересмотрен. Страховка за 40 тыс. ₽ полностью компенсирует денежный ущерб, но не ускоряет восстановление. Резервирование за 180 тыс. ₽ гарантирует восстановление за день, хотя стоит больше ожидаемого денежного ущерба. Резерв доступен, 180 тыс. укладываются в бюджет. Других способов восстановиться быстрее в текущем плане нет.",
+    "analogDecisiveFacts": [
+      "Событие ещё вероятностное; возможный простой пять дней, допустим один.",
+      "Страховка возвращает деньги, но не сокращает восстановление.",
+      "Резерв обеспечивает день и укладывается в бюджет, хотя дороже ожидаемого денежного ущерба."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-110",
+    "corpus": "planned",
+    "analogBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Different boundary: state bottleneck, database capacity, protocol choice, retry load or expedite exception. Cache origin overload is explicitly already controlled; it cannot select the winning normal freshness policy.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle TPM видит сервис с локальной памятью сессий, который не масштабируется простым добавлением копий; нагрузка растёт, а состояние можно вынести во внешнее хранилище; нужно решить, покупать ли ещё большие серверы или убрать stateful bottleneck.",
+    "analogDecisiveFacts": [
+      "Состояние хранится локально",
+      "Горизонтальное масштабирование ограничено",
+      "Внешнее хранилище доступно"
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-144",
+    "corpus": "planned",
+    "analogBoundary": "Выбрать локальную outbox-запись вместе с платежом и контролируемую фоновую доставку, приняв поддержку backlog ради сохранения платёжной доступности и доставки; не связывать commit с доступностью брокера.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog chooses sync/async response or atomic message delivery from mandatory contract. TC-214 allows all strategies and does not relax payment correctness; it compares the cost of permissible stale display with latency and delivery scope.",
+    "depth": "expanded context/facts",
+    "analogContext": "TPM выбирает обработку уведомлений после подтверждённого платежа, когда публикация в очередь может временно не работать.",
+    "analogDecisiveFacts": [
+      "Платёж уже фиксируется транзакцией базы; повторное списание предотвращено. При прямой публикации после commit сбой очереди теряет уведомление, а удержание транзакции до ответа очереди блокирует платежи.",
+      "Уведомление допустимо доставить в течение 15 минут; очередь обычно восстанавливается за 5. Обязательна доставка после восстановления.",
+      "Команда может за текущий срок добавить запись намерения отправить в ту же транзакцию и фонового отправителя; это требует мониторинга backlog, тогда как простое увеличение timeout не обеспечивает атомарность."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-145",
+    "corpus": "planned",
+    "analogBoundary": "Любая срочность как expedite ↔ редкий класс обслуживания с ясным threshold.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Different boundary: state bottleneck, database capacity, protocol choice, retry load or expedite exception. Cache origin overload is explicitly already controlled; it cannot select the winning normal freshness policy.",
+    "depth": "expanded context/facts",
+    "analogContext": "Junior manager получает просьбу сделать каждую production-ошибку expedite-классом; сейчас expedite уже занимает 35% потока; нужно решить, расширять ли исключение или защитить критерии класса обслуживания.",
+    "analogDecisiveFacts": [
+      "Expedite уже 35%",
+      "Не все ошибки критичны",
+      "Обычная работа системно вытесняется"
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-148",
+    "corpus": "planned",
+    "analogBoundary": "Рекомендовать малый пакет: реализуемая выгода 40 минус 20 даёт 20, большой — 60 минус 45 даёт 15. Зафиксировать назначение высвобождённых часов, не добавляя к результату неизменную зарплату и не покупать неиспользуемую мощность ради красивой суммы часов.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed operational cost trade-off. Different decisive mechanism: data-specific staleness creates repeat consent despite an allowed TTL; neither schema-change recurring cost, canary exposure, vendor integration nor nominal automation saving determines this choice.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle PM выбирает объём автоматизации внутреннего отчёта: большой пакет высвобождает больше оплаченных часов, но только часть этой мощности можно превратить в полезный результат на принятом горизонте.",
+    "analogDecisiveFacts": [
+      "Сокращение штата, сверхурочных и закупок не планируется. Малый пакет стоит 20 и освобождает 40 часов, большой стоит 45 и освобождает 100 часов. Зарплата уже включена в неизменный бюджет; высвобожденные часы не являются денежной экономией.",
+      "В ближайшем квартале есть подтверждённая дополнительная работа максимум на 60 часов с чистым эффектом 1 за час; другие полезные назначения этой мощности появятся не раньше следующего периода. Сопровождение и риск обоих пакетов одинаковы и включены в цены.",
+      "Пакеты взаимоисключающие и готовы за одинаковый срок, разделить большой на этапы в этом квартале нельзя. Цель — максимальный дополнительный эффект квартала; PM может рекомендовать любой пакет или отказ."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-166",
+    "corpus": "planned",
+    "analogBoundary": "Для настроек профиля выбрать документное хранилище: потратить 6 дней до запуска и 1 на сопровождение вместо 10 дней SQL-пути с вытеснением полезной работы. Не переносить денежный учёт вместе с профилем и не выбирать по двум дням первоначальной реализации.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed operational cost trade-off. Different decisive mechanism: data-specific staleness creates repeat consent despite an allowed TTL; neither schema-change recurring cost, canary exposure, vendor integration nor nominal automation saving determines this choice.",
+    "depth": "expanded context/facts",
+    "analogContext": "TPM выбирает хранилище изменяемых настроек профиля на ближайший квартал, сопоставляя цену входа и повторных миграций схемы.",
+    "analogDecisiveFacts": [
+      "Речь только о некритичных настройках профиля: межзаписные транзакции не нужны, допускается краткая задержка обновления; денежный учёт остаётся в прежней SQL-базе. Архитектор подтвердил корректность обеих реализаций под эту нагрузку.",
+      "Использовать существующую SQL-схему — 2 дня сейчас и по 2 дня на каждое из четырёх уже запланированных изменений набора полей за квартал. Документное хранилище — 6 дней настройки/обучения сейчас и 1 день сопровождения за квартал; эти изменения полей не требуют миграций. Инфраструктурная цена вариантов одинакова.",
+      "На первый запуск есть 8 дней; одна команда располагает 8 инженерными днями на весь квартал для этой работы. Ещё 2 дня можно получить переносом полезной функции стоимостью 20. Обе реализации соответствуют доступам, восстановлению и требованиям качества; эти проверки включены в оценки."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-190",
+    "corpus": "planned",
+    "analogBoundary": "Проверить гипотезу синхронного восстановления одних ключей на нескольких replicas и перестроить refill: ограничить суммарные обращения к базе, объединять одновременное восстановление одного ключа и различать допустимый старый ответ каталога от ожидания/отказа финансовой операции. Подтвердить защиту воспроизведением всплеска; не масштабировать replicas по среднему CPU.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Cache analog: root-cause/refill amplification or warm-up origin overload. TC-214 holds overload protection fixed and chooses normal data freshness scope plus business cost of stale displayed prices; no mechanism diagnosis or cache migration.",
+    "depth": "expanded context/facts",
+    "analogContext": "Senior TPM должен изменить защиту сервиса от повторяющихся провалов чтения, хотя средний cache hit высокий, а увеличение числа replicas не помогло.",
+    "analogDecisiveFacts": [
+      "Провалы повторяются короткими всплесками после обновления популярных ключей. Средний hit rate 96%; после удвоения stateless replicas средняя CPU снизилась, но пиковое число одинаковых чтений базы выросло. Сбой кэша целиком не зафиксирован, механизм усиления ещё не проверен.",
+      "Каждая replica самостоятельно восстанавливает отсутствующее значение из общей базы; один логический запрос может одновременно попасть на несколько replicas. База выдерживает обычный поток, но при всплеске очередь её запросов задерживает и независимые операции.",
+      "Для каталога допустима последняя версия до 30 секунд, для подтверждения финансовой операции — нет. TPM может включить в план ограничение общего потока восстановлений, объединение одинаковых запросов и проверку на воспроизводимом входе; увеличение базы требует квартала и не снимает ограничения свежести."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-194",
+    "corpus": "planned",
+    "analogBoundary": "Рекомендовать C с одной неделей интеграции: 110 меньше совокупных 140 для B, и внутреннее обязательство сохраняется. Не сравнивать только закупочные счета и не объявлять дешёвого поставщика недопустимым — его план допустим, но хуже по полному trade-off.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed operational cost trade-off. Different decisive mechanism: data-specific staleness creates repeat consent despite an allowed TTL; neither schema-change recurring cost, canary exposure, vendor integration nor nominal automation saving determines this choice.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle vendor manager выбирает поставщика после обязательной проверки допуска и сопоставляет цену предложения с ценой внутренней интеграции.",
+    "analogDecisiveFacts": [
+      "Два финалиста прошли одинаковые security и audit требования и дают нужный результат. Предложение B стоит 80 и требует четырёх недель внутреннего инженера; C стоит 110 и требует одной недели. Эти оценки подтверждены пробой на нашем интерфейсе, качество поддержки одинаково.",
+      "До запуска четыре недели, инженер может выделить одну неделю без сдвига другой работы. Ещё три доступны только при переносе обязательного внутреннего этапа, полная согласованная цена переноса — 60. Оба vendor-плана с этим переносом календарно исполнимы.",
+      "Общий лимит учитывает и счёт поставщика, и потерю от переноса. Менеджер может рекомендовать оба варианта; отдельного найма или иной интеграции в этом окне нет. Повышение цены C не уменьшает будущую функциональность."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-201",
+    "corpus": "planned",
+    "analogBoundary": "Выбрать обычный полный релиз: после расхода остаётся 4 минуты, а эффект 100 выше 70 у ограниченного плана; не покупать внешнюю защиту с эффектом 40 только ради минимального расхода бюджета.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog concerns nontransferable risk, error budget or access loss. TC-214 has no disallowed choice or hard SLO filter; all routes satisfy the freshness contract, but differ in business consequences of its use.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle PM одного сервиса выбирает недельный план функций и надёжности при остатке бюджета ошибок 14 минут: четыре разрешённых плана различаются ценностью, расходом бюджета и потребностью в ёмкости.",
+    "analogDecisiveFacts": [
+      "Подтверждённый остаток error budget до конца периода — 14 минут.",
+      "Политика требует сохранить 2 минуты остатка после консервативного суммарного прогноза до конца периода; режимы не назначены по цвету индикатора. В пределах этого ограничения PM выбирает максимальный чистый эффект. Ёмкость команды — 10 дней; все оценки охватывают весь оставшийся период, включая фоновый расход.",
+      "Полный обычный релиз: 6 дней, расход 10 минут, чистый эффект 100; ограниченный релиз со стабилизацией: 8 дней, расход 5 минут, эффект 70; только стабилизация: 10 дней, расход 1 минута, эффект 50 от предотвращённых потерь; полный релиз с дорогой внешней защитой: 6 дней, расход 1 минута, эффект 40 после оплаты. Все эффекты на одном горизонте учитывают затраты и недополученную ценность; меры заранее разрешены и оценки одинаковы во всех состояниях."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-202",
+    "corpus": "planned",
+    "analogBoundary": "Выбрать ограниченный релиз со стабилизацией: остаток 3 минуты и эффект 70; обычный полный релиз нарушает резерв, но полная пауза теряет 20 эффекта относительно допустимого ограниченного плана, а внешняя защита ещё дороже.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog concerns nontransferable risk, error budget or access loss. TC-214 has no disallowed choice or hard SLO filter; all routes satisfy the freshness contract, but differ in business consequences of its use.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle PM одного сервиса выбирает недельный план функций и надёжности при остатке бюджета ошибок 8 минут: четыре разрешённых плана различаются ценностью, расходом бюджета и потребностью в ёмкости.",
+    "analogDecisiveFacts": [
+      "Подтверждённый остаток error budget до конца периода — 8 минут.",
+      "Политика требует сохранить 2 минуты остатка после консервативного суммарного прогноза до конца периода; режимы не назначены по цвету индикатора. В пределах этого ограничения PM выбирает максимальный чистый эффект. Ёмкость команды — 10 дней; все оценки охватывают весь оставшийся период, включая фоновый расход.",
+      "Полный обычный релиз: 6 дней, расход 10 минут, чистый эффект 100; ограниченный релиз со стабилизацией: 8 дней, расход 5 минут, эффект 70; только стабилизация: 10 дней, расход 1 минута, эффект 50 от предотвращённых потерь; полный релиз с дорогой внешней защитой: 6 дней, расход 1 минута, эффект 40 после оплаты. Все эффекты на одном горизонте учитывают затраты и недополученную ценность; меры заранее разрешены и оценки одинаковы во всех состояниях."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-203",
+    "corpus": "planned",
+    "analogBoundary": "Выделить ёмкость только на стабилизацию: остаток 3 минуты и эффект 50; защищённый внешний релиз также допустим, но даёт лишь 40. Это выбор полезной работы, а не автоматическое прекращение всего при красном индикаторе.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog concerns nontransferable risk, error budget or access loss. TC-214 has no disallowed choice or hard SLO filter; all routes satisfy the freshness contract, but differ in business consequences of its use.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle PM одного сервиса выбирает недельный план функций и надёжности при остатке бюджета ошибок 4 минут: четыре разрешённых плана различаются ценностью, расходом бюджета и потребностью в ёмкости.",
+    "analogDecisiveFacts": [
+      "Подтверждённый остаток error budget до конца периода — 4 минут.",
+      "Политика требует сохранить 2 минуты остатка после консервативного суммарного прогноза до конца периода; режимы не назначены по цвету индикатора. В пределах этого ограничения PM выбирает максимальный чистый эффект. Ёмкость команды — 10 дней; все оценки охватывают весь оставшийся период, включая фоновый расход.",
+      "Полный обычный релиз: 6 дней, расход 10 минут, чистый эффект 100; ограниченный релиз со стабилизацией: 8 дней, расход 5 минут, эффект 70; только стабилизация: 10 дней, расход 1 минута, эффект 50 от предотвращённых потерь; полный релиз с дорогой внешней защитой: 6 дней, расход 1 минута, эффект 40 после оплаты. Все эффекты на одном горизонте учитывают затраты и недополученную ценность; меры заранее разрешены и оценки одинаковы во всех состояниях."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-213",
+    "corpus": "planned",
+    "analogBoundary": "Выбрать5% на48 минут со стоп-порогом и проверенным откатом: достаточный набор помещается в штатное окно, верхний ущерб50 остаётся в лимите60. Не выбирать1% только как меньшую цифру, оплачивая дополнительную смену, и не сокращать требуемое наблюдение до двух часов.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed operational cost trade-off. Different decisive mechanism: data-specific staleness creates repeat consent despite an allowed TTL; neither schema-change recurring cost, canary exposure, vendor integration nor nominal automation saving determines this choice.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle release manager выбирает размер наблюдаемой canary при ограниченном рабочем окне: меньшая доля снижает мгновенный ущерб, но требует более долгого наблюдения для того же достаточного набора операций.",
+    "analogDecisiveFacts": [
+      "Обе когорты репрезентативны; один и тот же необходимый набор наблюдений набирается на1% за4 часа, на5% за48 минут. Регресс и сравнимый мониторинг готовы, rollback проверен и одинаков; незакрытых вопросов о данных нет.",
+      "Подтверждённый верхний ущерб при дефекте с обнаружением и откатом —42 для1%,50 для5%; владелец разрешил максимум60. Нельзя повышать долю выше5%. Дефект зависит от production-нагрузки, дополнительный preprod не заменит эти наблюдения.",
+      "До конца штатного окна2 часа. Продление наблюдения за1% на2 часа стоит60; пятипроцентный путь помещается без доплаты. Оба пути допустимы, цена задержки функции в этих четырёх часах одинакова; цель — не покупать лишнюю смену при соблюдённом лимите ущерба."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-240",
+    "corpus": "planned",
+    "analogBoundary": "Выбрать soft update и ограниченное окно поддержки с переносом необязательной работы, уведомлением и отдельным планом для неподдерживаемых устройств; не обменивать временную экономию поддержки на немедленную потерю доступа без обязательного основания.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog concerns nontransferable risk, error budget or access loss. TC-214 has no disallowed choice or hard SLO filter; all routes satisfy the freshness contract, but differ in business consequences of its use.",
+    "depth": "expanded context/facts",
+    "analogContext": "Mobile release manager после исправления некритичной функции выбирает soft update или немедленный force update: обновление снижает нагрузку поддержки, но часть активных устройств не поддерживает новую ОС.",
+    "analogDecisiveFacts": [
+      "Критической уязвимости и обязательного срока отключения старой версии нет; сервер может безопасно обслуживать её ещё четыре недели.",
+      "Force update сейчас лишит доступа 8% активных пользователей; soft update сохраняет им доступ, но поддержка старой версии требует выделить одного специалиста на четыре недели.",
+      "Этот специалист доступен ценой переноса необязательного улучшения; новый клиент уже опубликован, дополнительное review ничего не изменит."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-241",
+    "corpus": "planned",
+    "analogBoundary": "Указать базу как оставшееся ограничение и запросить решение для чтения/нагрузки на неё; не считать добавление свободных replicas увеличением мощности базы.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Different boundary: state bottleneck, database capacity, protocol choice, retry load or expedite exception. Cache origin overload is explicitly already controlled; it cannot select the winning normal freshness policy.",
+    "depth": "expanded context/facts",
+    "analogContext": "Junior TPM читает схему каталога: сервисы stateless и свободны, но балансировщик распределяет запросы на чтение одной базы, работающей на пределе; предлагается добавить ещё сервисных инстансов.",
+    "analogDecisiveFacts": [
+      "State вынесен, свободные сервисные инстансы уже есть; все запросы требуют чтения той же базы.",
+      "Измеренное ожидание приходится на базу, а не распределение запросов."
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-249",
+    "corpus": "planned",
+    "analogBoundary": "Техническая мода ↔ архитектурный trade-off по реальному ограничению.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Different boundary: state bottleneck, database capacity, protocol choice, retry load or expedite exception. Cache origin overload is explicitly already controlled; it cannot select the winning normal freshness policy.",
+    "depth": "expanded context/facts",
+    "analogContext": "Junior TPM получает предложение заменить REST на gRPC «потому что быстрее», хотя трафик мал, внешний consumer не поддерживает Protobuf, а latency не bottleneck; нужно решить, есть ли основание для миграции протокола.",
+    "analogDecisiveFacts": [
+      "Трафик мал",
+      "External consumer ограничен REST",
+      "Latency не bottleneck"
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-265",
+    "corpus": "planned",
+    "analogBoundary": "Дата deprecation без readiness ↔ contract removal по фактической миграции consumers.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog concerns migration compatibility/consumer readiness; TC-214 changes no API or data schema and does not infer readiness from telemetry.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle TPM меняет схему API для нескольких потребителей: часть клиентов неизвестна владельцу сервиса, telemetry использования старой версии есть; нужно решить, удалять ли старую версию по календарю или по evidence использования.",
+    "analogDecisiveFacts": [
+      "Есть usage telemetry",
+      "Все клиенты не известны вручную",
+      "Старая версия всё ещё вызывается"
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-273",
+    "corpus": "planned",
+    "analogBoundary": "Немедленно повторять отправки ради минимальной задержки ↔ ограничить частоту retries с backoff/jitter, сохранив сообщения и уложившись в допустимое окно восстановления.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Different boundary: state bottleneck, database capacity, protocol choice, retry load or expedite exception. Cache origin overload is explicitly already controlled; it cannot select the winning normal freshness policy.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle TPM планирует очередь между сервисами: consumer, меняющий баланс, уже атомарно дедуплицирует операции по бизнес-ID, но при его недоступности немедленные повторные отправки producer перегружают восстановление; нужно выбрать режим retries при допустимой задержке обработки.",
+    "analogDecisiveFacts": [
+      "Consumer уже обеспечивает атомарную идемпотентность; повторное списание исключено",
+      "При недоступности consumer немедленные retries усиливают нагрузку; восстановление занимает до 10 минут",
+      "Допустимая задержка 30 минут; сообщения надёжно сохраняются; ограниченные retries с backoff и jitter укладываются в этот срок"
+    ]
+  },
+  {
+    "candidate": "TC-214",
+    "analog": "TC-297",
+    "corpus": "planned",
+    "analogBoundary": "Сохранить старый кэш на время ограниченного прогрева нового и повышать долю после проверки miss-rate/нагрузки базы, выделив смену инженера; не считать мгновенное переключение ускорением, если оно переносит нагрузку сверх мощности базы.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Cache analog: root-cause/refill amplification or warm-up origin overload. TC-214 holds overload protection fixed and chooses normal data freshness scope plus business cost of stale displayed prices; no mechanism diagnosis or cache migration.",
+    "depth": "expanded context/facts",
+    "analogContext": "TPM планирует замену кэша каталога: мгновенное переключение на пустой кэш упростит работу, но промахи направят весь поток в базу; постепенный прогрев займёт смену дежурных и задержит переключение.",
+    "analogDecisiveFacts": [
+      "Обычная нагрузка чтения 1000 запросов/с; база устойчиво выдерживает 250, текущий кэш снимает 90% обращений.",
+      "Новый кэш пуст. Прогрев через ограниченную долю запросов доступен при сохранении старого; операции чтения одинаковы, требования свежести выполняются обоими вариантами.",
+      "Можно выделить смену инженера, отложив необязательную оптимизацию; аварийной даты отключения старого кэша нет."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-024",
+    "corpus": "production",
+    "analogBoundary": "Статистическая валидность эксперимента и правило продуктового rollout — разные вещи; оба должны соблюдаться, если были precommitted.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog applies existing success/stop/sample/guardrail rules. TC-261 preserves completed successful result and chooses a new sustained-effect observation; neither safety nor p-value forces the route.",
+    "depth": "expanded context/facts",
+    "analogContext": "Перед A/B-тестом команда письменно зафиксировала два обязательных условия финального чтения: не меньше 14 дней и достижение рассчитанного размера выборки; early-stop правила для успеха не предусмотрены. Отдельно заранее записано продуктовое правило: решение о rollout по результатам этого эксперимента принимается только после финального чтения по утверждённому протоколу. На девятый день выборка почти набрана, эффект +1,6%, p = 0,03, guardrails чистые.",
+    "analogDecisiveFacts": [
+      "14 дней и размер выборки — обязательные условия финального чтения.",
+      "Early-stop rule для успеха отсутствует.",
+      "Rollout по этому тесту заранее разрешён только после финального чтения."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-025",
+    "corpus": "production",
+    "analogBoundary": "Дешёвый тест должен измерять именно заявленную гипотезу, а не обещать доказать следующий уровень поведения.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed reinforcement: evidence must match next commitment. TC-261 is not proxy-to-behavior/fake-door staging: behavior already measured directly, average success masks a temporal effect and an existing holdout can answer before a replacement cohort matures.",
+    "depth": "expanded context/facts",
+    "analogContext": "Продукт предлагает на квартал занять две команды функцией персонального финансового консультанта. Самая дорогая неизвестность сформулирована узко: не менее 8% подходящих пользователей должны начать advisory flow, а не менее 40% начавших — добровольно отправить данные для первой рекомендации. Эту гипотезу можно за 7–10 дней проверить fake door и concierge-процессом: пользователь видит реальное предложение, осознанно отправляет данные, а первую рекомендацию готовит сотрудник вручную. Регулярное долгосрочное использование признано отдельной следующей гипотезой.",
+    "analogDecisiveFacts": [
+      "Гипотеза ограничена первичным стартом и отправкой данных.",
+      "Fake-door/concierge измеряет оба действия за 7–10 дней.",
+      "Retention вынесен в отдельную следующую гипотезу."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-031",
+    "corpus": "production",
+    "analogBoundary": "И выборка, и длительность завершены; 2,6% выше порога 2%, p=0,02 и guardrails соблюдены. Есть все заранее заданные основания зафиксировать успех.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog applies existing success/stop/sample/guardrail rules. TC-261 preserves completed successful result and chooses a new sustained-effect observation; neither safety nor p-value forces the route.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы ведёте эксперимент с навигацией в каталоге. Протокол до старта зафиксировал 21 день, рассчитанную выборку и успех при приросте завершённых поисков не менее 2% с p<0,05 без ухудшения защитных метрик. Длительность и выборка достигнуты; рандомизация проверена, защитные метрики стабильны, p=0,02. Оценённый прирост — 2,6%. Правило продукта: успешный по этому протоколу результат идёт в план раскатки, иначе остаётся прежний интерфейс; отдельная ставка до такого решения не согласована.",
+    "analogDecisiveFacts": [
+      "Прирост 2,6% при заранее заданном минимуме 2%.",
+      "21 день и расчётная выборка завершены; p=0,02, guardrails стабильны.",
+      "Раскатка привязана к успеху по утверждённому протоколу."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-032",
+    "corpus": "production",
+    "analogBoundary": "Прирост статистически различим, но не достигает заранее выбранных 2%. Корректный итог — критерий не выполнен, а не доказательство отсутствия любого эффекта.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog applies existing success/stop/sample/guardrail rules. TC-261 preserves completed successful result and chooses a new sustained-effect observation; neither safety nor p-value forces the route.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы ведёте эксперимент с навигацией в каталоге. Протокол до старта зафиксировал 21 день, рассчитанную выборку и успех при приросте завершённых поисков не менее 2% с p<0,05 без ухудшения защитных метрик. Длительность и выборка достигнуты; рандомизация проверена, защитные метрики стабильны, p=0,02. Оценённый прирост — 1,2%. Правило продукта: успешный по этому протоколу результат идёт в план раскатки, иначе остаётся прежний интерфейс; отдельная ставка до такого решения не согласована.",
+    "analogDecisiveFacts": [
+      "Прирост 1,2% при заранее заданном минимуме 2%.",
+      "21 день и расчётная выборка завершены; p=0,02, guardrails стабильны.",
+      "Раскатка привязана к успеху по утверждённому протоколу."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-060",
+    "corpus": "production",
+    "analogBoundary": "Дешёвое доказательство должно соответствовать именно тому обязательству, которое вы собираетесь принять.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed reinforcement: evidence must match next commitment. TC-261 is not proxy-to-behavior/fake-door staging: behavior already measured directly, average success masks a temporal effect and an existing holdout can answer before a replacement cohort matures.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы отвечаете за продуктовую ставку «пользователям понравится новая лента». Команда просит квартал разработки. Бизнес-цель — возвращаемость активных читателей, но пока измерено лишь число открытий главной страницы. За неделю можно показать целевому сегменту честно обозначенный анонс ленты и измерить переход к подписке на пробу. Аналитик может до запуска зафиксировать порог конверсии, контроль раздражения от анонса и правило отказа. Такой тест проверит интерес, но не повторное использование; ручная пробная подборка доступна следующим небольшим этапом. Полный квартал надо коммитить сейчас только при выборе разработки; недельный тест не лишает команду возможности начать позже.",
+    "analogDecisiveFacts": [
+      "Недельный анонс проверяет интерес, но не возвращаемость.",
+      "Пороги и правило отказа можно согласовать до теста.",
+      "Ручная подборка позволяет проверить следующий риск без квартального коммита."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-075",
+    "corpus": "production",
+    "analogBoundary": "Запланированный срок защищает от поспешного вывода об успехе, но не оправдывает продолжение подтверждённо вредного воздействия.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog applies existing success/stop/sample/guardrail rules. TC-261 preserves completed successful result and chooses a new sustained-effect observation; neither safety nor p-value forces the route.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы ведёте A/B-тест нового оформления заказа. До старта согласованы 14 дней, целевая выборка и защитная метрика — доля отмен оплаченных заказов с допустимым пределом 3%. На седьмой день выборка ещё не набрана, убедительного изменения основной метрики — конверсии в оплату — нет. Последние три дня отмены в тестовой группе держатся на 8% против 2% в контроле. Аналитик проверил учёт и разделение групп: рост существенный, это не колебание малой выборки; служба поддержки подтвердила реальные отмены и возвраты. Новое оформление можно выключить флагом немедленно, не затрагивая уже оплаченные заказы. Команда предлагает выдержать все 14 дней, чтобы не нарушать статистический план.",
+    "analogDecisiveFacts": [
+      "Обычные срок и выборка эксперимента ещё не достигнуты; основной эффект не доказан.",
+      "Доля отмен оплаченных заказов заранее выбрана guardrail с пределом 3%; в тесте она три дня держится на 8% против 2% в контроле.",
+      "Аналитик подтвердил корректность данных и существенный эффект, отмены и возвраты реальны; тест можно сразу выключить без дополнительного ущерба."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-094",
+    "corpus": "production",
+    "analogBoundary": "Успех по целевой метрике не компенсирует нарушение обязательной защитной метрики.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog applies existing success/stop/sample/guardrail rules. TC-261 preserves completed successful result and chooses a new sustained-effect observation; neither safety nor p-value forces the route.",
+    "depth": "expanded context/facts",
+    "analogContext": "Вы — PM эксперимента оформления заказа. Запланированные срок и выборка завершены, разделение групп и качество данных проверены. До старта успех определили как рост конверсии в оплату не менее 2% при p<0,05 и доле отмен не выше 3%. Итог: конверсия выросла на 3%, p=0,01, отмены устойчиво составляют 6%. Политика продукта разрешает rollout только успешного по всем этим условиям теста; отдельная ставка при нарушенном guardrail не согласована. Действующего воздействия на пользователей уже нет: окно теста завершено. На следующую неделю доступно пять дней единственного аналитика. Двух дней достаточно, чтобы локализовать причину отмен и передать команде проверяемую гипотезу исправления; реализация займёт ещё две недели, поэтому нового теста оформления на следующей неделе не будет. Подготовка уже одобренного независимого эксперимента занимает три дня аналитика; если не подготовить его сейчас, доступное окно трафика потеряется на месяц. Пятидневное углубление разбора отмен даст дополнительные детали, но не приблизит готовность исправления; все данные текущего теста сохранены.",
+    "analogDecisiveFacts": [
+      "Завершённый валидный тест дал uplift 3%, p=0,01, но отмены 6% при guardrail 3%.",
+      "Два дня диагностики достаточны для гипотезы; исправление займёт две недели, дополнительные три дня анализа его не ускорят.",
+      "Из пяти дней аналитика три нужны независимому тесту сейчас, иначе его окно сдвинется на месяц."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-129",
+    "corpus": "planned",
+    "analogBoundary": "Не увеличивать инвестицию; уточнить гипотезу или следующий дешёвый тест.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed reinforcement: evidence must match next commitment. TC-261 is not proxy-to-behavior/fake-door staging: behavior already measured directly, average success masks a temporal effect and an existing holdout can answer before a replacement cohort matures.",
+    "depth": "expanded context/facts",
+    "analogContext": "Команда заранее задала количественный порог для перехода от дешёвого прототипа к дорогой разработке и получила результат первого теста. В этой версии решающий факт: Сила evidence относительно заранее установленного порога: результат заметно ниже порога. Под выбором — Не увеличивать инвестицию; уточнить гипотезу или следующий дешёвый тест.",
+    "analogDecisiveFacts": [
+      "Сила evidence относительно заранее установленного порога: результат заметно ниже порога",
+      "Одинаковая стоимость следующей ступени",
+      "Одинаковый заранее заданный критерий"
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-130",
+    "corpus": "planned",
+    "analogBoundary": "Переходить к следующей инвестиционной ступени, сохраняя следующие неизвестные отдельными гипотезами.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed reinforcement: evidence must match next commitment. TC-261 is not proxy-to-behavior/fake-door staging: behavior already measured directly, average success masks a temporal effect and an existing holdout can answer before a replacement cohort matures.",
+    "depth": "expanded context/facts",
+    "analogContext": "Команда заранее задала количественный порог для перехода от дешёвого прототипа к дорогой разработке и получила результат первого теста. В этой версии решающий факт: Сила evidence относительно заранее установленного порога: результат устойчиво выше порога. Под выбором — Переходить к следующей инвестиционной ступени, сохраняя следующие неизвестные отдельными гипотезами.",
+    "analogDecisiveFacts": [
+      "Сила evidence относительно заранее установленного порога: результат устойчиво выше порога",
+      "Одинаковая стоимость следующей ступени",
+      "Одинаковый заранее заданный критерий"
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-164",
+    "corpus": "planned",
+    "analogBoundary": "Сохранить неопределённый итог первого теста и направить ограниченное окно на новую сегментную гипотезу с собственными порогами, вместо повтора нечувствительного общего дизайна или ретроспективного объявления победы сегмента.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog narrows audience to stabilize identity, target a diluted mechanism or fit support. TC-261 preserves the SAME randomized cohort and duration of exposure to measure temporal persistence; starting a new eligible cohort restarts its exposure clock.",
+    "depth": "expanded context/facts",
+    "analogContext": "PM после попадания процессного пилота в заранее заданную серую зону выбирает, потратить оставшуюся неделю аналитика на повторение прежнего теста или уточнить гипотезу для сегмента, на который действует предполагаемый механизм.",
+    "analogDecisiveFacts": [
+      "Итог общего теста лежит в серой зоне; протокол допускает новое исследование, но не rollout. Guardrails не нарушены.",
+      "Механизм — убрать повторный ручной ввод; 80% участников исходного пилота этим шагом не пользовались. Это ограничивает проверку механизма, но не доказывает эффект в остальных 20%.",
+      "Повтор того же дизайна занимает всё доступное окно; за ту же неделю можно подготовить и начать отдельную проверку заранее выделенного сегмента. Масштабирование сейчас стоит месяца разработки."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-172",
+    "corpus": "planned",
+    "analogBoundary": "Размер эффекта на малом N ↔ достаточная выборка по дизайну.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog applies existing success/stop/sample/guardrail rules. TC-261 preserves completed successful result and chooses a new sustained-effect observation; neither safety nor p-value forces the route.",
+    "depth": "expanded context/facts",
+    "analogContext": "Junior PM видит +20% на маленькой выборке из 200 пользователей, хотя расчёт требовал 5 000; нужно решить, считать ли большой uplift заменой достаточной выборки.",
+    "analogDecisiveFacts": [
+      "Фактическая выборка 200",
+      "Плановая 5 000",
+      "Uplift большой"
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-186",
+    "corpus": "planned",
+    "analogBoundary": "Сузить следующий тест до сегмента первой неудачной попытки и заранее задать одновременно оплату и нагрузку/отписки как критерии; не максимизировать валовой uplift ценой неисполняемого сопровождения.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog narrows audience to stabilize identity, target a diluted mechanism or fit support. TC-261 preserves the SAME randomized cohort and duration of exposure to measure temporal persistence; starting a new eligible cohort restarts its exposure clock.",
+    "depth": "expanded context/facts",
+    "analogContext": "PM выбирает проверку гипотезы, что дополнительные напоминания уменьшают пропуски оплаты, при ограниченной capacity поддержки.",
+    "analogDecisiveFacts": [
+      "Напоминания можно тестировать без новой разработки; конверсия в оплату измеряется прямо, а не через клики.",
+      "Предварительная проба показывает рост оплат и одновременно рост обращений с просьбой отключить уведомления; обработать больше текущего лимита поддержки невозможно.",
+      "Доступны два режима следующего теста: всем неоплатившим либо только тем, у кого первая неудачная попытка; второй уменьшает охват, но позволяет проверить предполагаемый механизм незнания о проблеме при доступной поддержке."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-189",
+    "corpus": "planned",
+    "analogBoundary": "Поставить удаление завершившего жизненный цикл флага и старой ветки с проверкой оставшегося поведения; не сохранять навсегда фиктивный выключатель как safeguard.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Cleanup of a completed flag is best when learning is over. Here a bounded explicitly costed control still serves a distinct unresolved duration question; removal has an information cost.",
+    "depth": "expanded context/facts",
+    "analogContext": "Релиз-координатор обнаруживает постоянную ветку по флагу у функции, давно включённой всем; из-за неё тестируют два пути, хотя старый больше не поддерживается.",
+    "analogDecisiveFacts": [
+      "Полная раскатка завершена; владелец подтвердил окончательный отказ от старого поведения.",
+      "Rollback обеспечивается актуальным планом релиза и не использует этот флаг; у других систем зависимостей от него нет."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-195",
+    "corpus": "planned",
+    "analogBoundary": "Сейчас провести user-level тест авторизованной группы и ограничить им решение; не ждать общего ID для аудитории, о которой пока не принимается решение, и не ускорять полный охват рандомизацией сессий.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog narrows audience to stabilize identity, target a diluted mechanism or fit support. TC-261 preserves the SAME randomized cohort and duration of exposure to measure temporal persistence; starting a new eligible cohort restarts its exposure clock.",
+    "depth": "expanded context/facts",
+    "analogContext": "Менеджер эксперимента выбирает охват и момент запуска проверки интерфейса, когда стабильная идентификация доступна только части аудитории.",
+    "analogDecisiveFacts": [
+      "Эффект интерфейса сохраняется неделю, пользователи возвращаются с нескольких устройств; session/device randomization смешает варианты. Стабильный ID уже есть у авторизованных клиентов, для остальных общий ID потребует 6 недель работы.",
+      "Предстоящее решение через 3 недели касается только интерфейса авторизованного кабинета; 60% общей аудитории авторизованы. Аналитик подтвердил достаточную выборку этой группы за 2 полные недели для заданного минимального эффекта; перенос решения на 6 недель теряет 50 единиц ценности.",
+      "Корректный полный тест после внедрения общего ID и корректный тест авторизованной группы сейчас имеют одинаковые guardrails; второй стоит 10, первый 30. Неавторизованный интерфейс можно оставить прежним, а вывод не распространять на него."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-212",
+    "corpus": "planned",
+    "analogBoundary": "MVP как маленький продукт ↔ минимальная реализация, проверяющая ключевую гипотезу.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed reinforcement: evidence must match next commitment. TC-261 is not proxy-to-behavior/fake-door staging: behavior already measured directly, average success masks a temporal effect and an existing holdout can answer before a replacement cohort matures.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle product manager называет MVP урезанной версией сервиса на два месяца, но ключевая гипотеза — доверит ли пользователь автоматическому совету деньги — может проверяться concierge-сценарием за неделю; нужно решить форму MVP.",
+    "analogDecisiveFacts": [
+      "Ключевая гипотеза — доверие/действие",
+      "Concierge проверяет реальное поведение",
+      "Урезанный build всё равно дорог"
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-221",
+    "corpus": "planned",
+    "analogBoundary": "Статистическая валидность сама по себе ↔ отдельно соблюдать продуктовый decision rule.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog applies existing success/stop/sample/guardrail rules. TC-261 preserves completed successful result and chooses a new sustained-effect observation; neither safety nor p-value forces the route.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle PM хочет запустить бизнес-rollout до финального чтения A/B, сохранив тестовые группы, хотя заранее принято правило принимать rollout-решение только по финальному анализу; нужно решить, нарушает ли это business decision protocol.",
+    "analogDecisiveFacts": [
+      "Статистический тест продолжается",
+      "Группы можно сохранить",
+      "Business rollout rule precommitted"
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-248",
+    "corpus": "planned",
+    "analogBoundary": "Проверить гипотезу перетока общей мощности и строить эксперимент по фактически связанным пулам исполнителей: по журналам перемещений определить границы взаимодействия, с аналитиком оценить перенос занятости и выбрать блоки/период очистки. Оценивать суммарные завершения и ожидание пула, а не относительную победу пользователей; не считать районы независимыми по названию и не переключать режим каждый час без проверки carryover.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "No interference or unknown randomization unit: groups are validated. The design question is retaining exposure history across expansion versus rebuilding a clean but later experiment.",
+    "depth": "expanded context/facts",
+    "analogContext": "Senior TPM должен перепроектировать проверку функции распределения заказов: пользовательский A/B показывает выигрыш, но участники двух групп конкурируют за одну исполняющую мощность.",
+    "analogDecisiveFacts": [
+      "Пользователи рандомизированы корректно, события и группы проверены. Функция ускоряет подбор свободного исполнителя; во время теста эксперимент получает больше завершённых заказов, контроль дольше ждёт. Исполнители могут брать заказы обеих групп, их число за период не меняется.",
+      "Исполнители перемещаются через административные границы районов; заказы и занятость после назначения продолжаются несколько часов. Данных пока недостаточно, чтобы считать каждый район независимым или выбрать длительность временного блока без проверки переноса эффекта.",
+      "TPM вместе с аналитиком может изменить единицу распределения воздействия и провести ограниченную проверку. Нужен прирост завершений всего обслуживаемого рынка без ухудшения ожидания, а не перераспределение доступных исполнителей между группами. Полный rollout до проверки не обязателен."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-259",
+    "corpus": "planned",
+    "analogBoundary": "Масштабировать следующую инвестиционную ступень с guardrails.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed reinforcement: evidence must match next commitment. TC-261 is not proxy-to-behavior/fake-door staging: behavior already measured directly, average success masks a temporal effect and an existing holdout can answer before a replacement cohort matures.",
+    "depth": "expanded context/facts",
+    "analogContext": "Инвестиционный комитет решает, масштабировать ли продуктовую ставку на несколько направлений после раннего сигнала спроса; стоимость следующей ступени и стратегическая цель одинаковы. В этой версии решающий факт: Связь измеренной метрики с реальным целевым поведением/экономикой: метрика напрямую измеряет целевое действие и связана с выручкой/retention по заранее принятой модели. Под выбором — Масштабировать следующую инвестиционную ступень с guardrails.",
+    "analogDecisiveFacts": [
+      "Связь измеренной метрики с реальным целевым поведением/экономикой: метрика напрямую измеряет целевое действие и связана с выручкой/retention по заранее принятой модели",
+      "Одинаковый observed lift",
+      "Одинаковая стоимость масштабирования"
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-260",
+    "corpus": "planned",
+    "analogBoundary": "Сначала подтвердить переход от proxy к реальному поведению более дешёвым тестом.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Allowed reinforcement: evidence must match next commitment. TC-261 is not proxy-to-behavior/fake-door staging: behavior already measured directly, average success masks a temporal effect and an existing holdout can answer before a replacement cohort matures.",
+    "depth": "expanded context/facts",
+    "analogContext": "Инвестиционный комитет решает, масштабировать ли продуктовую ставку на несколько направлений после раннего сигнала спроса; стоимость следующей ступени и стратегическая цель одинаковы. В этой версии решающий факт: Связь измеренной метрики с реальным целевым поведением/экономикой: метрика является верхневоронковым proxy и связь с целевым поведением ещё не проверена. Под выбором — Сначала подтвердить переход от proxy к реальному поведению более дешёвым тестом.",
+    "analogDecisiveFacts": [
+      "Связь измеренной метрики с реальным целевым поведением/экономикой: метрика является верхневоронковым proxy и связь с целевым поведением ещё не проверена",
+      "Одинаковый observed lift",
+      "Одинаковая стоимость масштабирования"
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-263",
+    "corpus": "planned",
+    "analogBoundary": "Направление эффекта ↔ решение по заранее заданному statistical criterion.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog applies existing success/stop/sample/guardrail rules. TC-261 preserves completed successful result and chooses a new sustained-effect observation; neither safety nor p-value forces the route.",
+    "depth": "expanded context/facts",
+    "analogContext": "Middle PM получил p=0.2 при эффекте почти равном MDE после полной выборки; нужно решить, считать ли гипотезу доказанной из-за «правильного направления» или принять неопределённый/негативный результат по протоколу.",
+    "analogDecisiveFacts": [
+      "Полная выборка набрана",
+      "p=0.2",
+      "Effect близок к MDE"
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-285",
+    "corpus": "planned",
+    "analogBoundary": "До выбора реализации сформулировать опровержимую гипотезу о росте доли своевременных решений с числом и сроком; не считать завершение работ доказательством полезности.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog formulates an outcome hypothesis instead of a delivery criterion. TC-261 already has a valid outcome experiment and must choose the next observation policy.",
+    "depth": "expanded context/facts",
+    "analogContext": "Junior PM получает задачу «внедрить новый отчёт» с критерием успеха «отчёт внедрён», хотя цель заказчика — раньше принимать решения по задержкам.",
+    "analogDecisiveFacts": [
+      "Результат внедрения не измеряет момент решения.",
+      "Текущая доля решений до релиза известна; данные о датах решения доступны."
+    ]
+  },
+  {
+    "candidate": "TC-261",
+    "analog": "TC-295",
+    "corpus": "planned",
+    "analogBoundary": "Переназначить победителя после факта ↔ сохранить precommitted primary conclusion и отдельно сформировать новую гипотезу.",
+    "classification": "ALLOWED REINFORCEMENT",
+    "distinction": "Analog applies existing success/stop/sample/guardrail rules. TC-261 preserves completed successful result and chooses a new sustained-effect observation; neither safety nor p-value forces the route.",
+    "depth": "expanded context/facts",
+    "analogContext": "Junior PM хочет менять целевую метрику теста после того, как исходная не выросла, но вспомогательная показала значимость; нужно решить, можно ли переопределить success metric post-hoc.",
+    "analogDecisiveFacts": [
+      "Primary metric задана заранее",
+      "Она не достигла критерия",
+      "Secondary metric выросла"
+    ]
+  }
+]

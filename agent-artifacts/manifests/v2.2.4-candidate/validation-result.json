@@ -1,0 +1,158 @@
+{
+  "manifestCandidate": "v2.2.4-candidate",
+  "status": "PASS — scoped candidate self-validation; independent QA pending",
+  "originalPreflight": {
+    "NO CLOSE ANALOG": 3,
+    "ALLOWED REINFORCEMENT": 11,
+    "NEAR DUPLICATE": 5,
+    "DUPLICATE": 6
+  },
+  "originalBlockers": 11,
+  "fixed": 11,
+  "remainingBlockers": [],
+  "reclassifiedOriginalBlockers": [],
+  "directBlockerRowsChanged": [
+    "TC-103",
+    "TC-105",
+    "TC-108",
+    "TC-111",
+    "TC-113",
+    "TC-115",
+    "TC-118",
+    "TC-119",
+    "TC-120",
+    "TC-122",
+    "TC-125"
+  ],
+  "additionalSiblingRowsChanged": [
+    "TC-101",
+    "TC-102",
+    "TC-104",
+    "TC-109"
+  ],
+  "totalChangedPlannedRows": 15,
+  "changedFamilyContracts": [
+    "F-TD-T01",
+    "F-PM-P01",
+    "F-PA-P02"
+  ],
+  "unchangedRows": 260,
+  "unexpectedChangedRows": [],
+  "unexpectedFamilyContracts": [],
+  "identityFieldsUnchanged": [
+    "plannedId",
+    "batch",
+    "partId",
+    "topicId",
+    "requiredLevel",
+    "structure",
+    "scenarioFamilyId",
+    "familyPosition",
+    "trainingEligible",
+    "assessmentEligible",
+    "domain"
+  ],
+  "crossBankAfterRedesign": {
+    "ALLOWED REINFORCEMENT": 13,
+    "NO CLOSE ANALOG": 2,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "crossBankCountScope": "15 changed planned rows; 10 unchanged Batch 04 rows inherit pinned preflight",
+  "reviewedProductionComparisons": 133,
+  "sameTopicAndPrimaryCoverage": "PASS",
+  "originalAnalogCoverage": "PASS",
+  "internalBatch04": {
+    "checkedChangedVsBatchPairs": 255,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0,
+    "note": "Unchanged/unchanged pairs not reopened; controlled siblings excluded from duplicate count."
+  },
+  "futureObviousCollisions": 0,
+  "futureReview": "lightweight boundary inventory plus expanded same/adjacent-topic candidates; not exhaustive QA",
+  "familyContracts": "PASS",
+  "levelFeasibility": "PASS — per-row source/why-level evidence; independent QA pending",
+  "runtimeVocabulary": "PASS — current compiled Swift mapping",
+  "unknownCodes": 0,
+  "structuralInvariants": {
+    "newTotal": 275,
+    "standalone": 181,
+    "linkedInstances": 94,
+    "pairFamilies": 35,
+    "tripletFamilies": 8,
+    "newFamilyCount": 43,
+    "batchCount": 11
+  },
+  "batch04": {
+    "count": 25,
+    "standalone": 16,
+    "linked": 9,
+    "pairFamilies": 3,
+    "tripletFamilies": 1,
+    "levels": {
+      "senior": 6,
+      "junior": 3,
+      "middle": 13,
+      "head": 3
+    }
+  },
+  "levelDistribution": {
+    "new": {
+      "junior": 42,
+      "middle": 122,
+      "senior": 76,
+      "head": 35
+    },
+    "all300": {
+      "junior": 44,
+      "middle": 143,
+      "senior": 78,
+      "head": 35
+    },
+    "assessment200": {
+      "junior": 32,
+      "middle": 99,
+      "senior": 46,
+      "head": 23
+    }
+  },
+  "headBreadthFeasibility": {
+    "result": "PASS",
+    "breadthDomains": [
+      "finance",
+      "people",
+      "portfolio",
+      "processes",
+      "product",
+      "project",
+      "stakeholders",
+      "technical"
+    ],
+    "breadthMet": true,
+    "headDomainEvidence": 3,
+    "minimumLevelEvidence": 5,
+    "seniorPlusHeadByUiDomain": {
+      "analytics": 1,
+      "delivery": 2,
+      "finance": 5,
+      "people": 7,
+      "portfolio": 7,
+      "processes": 14,
+      "product": 4,
+      "project": 6,
+      "stakeholders": 6,
+      "technical": 17
+    },
+    "eligibleCount": 200,
+    "note": "Capacity feasibility from available eligible metadata; not learner proficiency, not synthetic-response engine test."
+  },
+  "productionUnchanged": true,
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "protectedInputsUnchanged": true,
+  "createdFullCases": 0,
+  "authoringStarted": false,
+  "frozen": false,
+  "imported": false,
+  "readyForIndependentManifestQA": true,
+  "fullCaseSchemaValidation": "NOT_APPLICABLE — manifest candidate only"
+}

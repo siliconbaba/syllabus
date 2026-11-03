@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-27",
+  "status": "FIX REQUIRED",
+  "verdict": "INDEPENDENT FULL-CASE QA: FIX REQUIRED",
+  "scope": [
+    "TC-200"
+  ],
+  "candidate": "agent-artifacts/test-bank/full-cases/tc200-r1/cases.json",
+  "candidateSHA256": "d6d21fc43a357bc0db0815ec529e4cce3f493a4fdc06c908aac22bb2474cc50d",
+  "gates": {
+    "blindStrongest": "PASS",
+    "pairwiseDecisiveness": "PASS",
+    "sourceGrounding": "PASS",
+    "JuniorRealization": "PASS",
+    "duplication": "PASS",
+    "families": "NOT_APPLICABLE",
+    "wholeOptionCounterfactuals": "PASS",
+    "DQ": "FAIL",
+    "explanations": "PASS except partial-score ordering",
+    "surfaceLocal": "PASS",
+    "metadataBlueprint": "PASS",
+    "realSwiftLoader": "PASS",
+    "inputHashes": "PASS"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 1,
+    "Minor": 0
+  },
+  "remainingIssueIDs": [
+    "TC200-FULL-R1-01"
+  ],
+  "inheritanceBases": [],
+  "inheritanceNote": "Blueprint approval used only as accepted target; all full-case judgment gates independently reviewed.",
+  "candidateAccepted": false,
+  "readyForFreeze": false,
+  "importEligible": false,
+  "productionChanged": false,
+  "manifestChanged": false,
+  "scopeLimits": "No cumulative merge/freeze or import approval. Future full-case analogs and assembled-bank surface/regression remain integration gates."
+}

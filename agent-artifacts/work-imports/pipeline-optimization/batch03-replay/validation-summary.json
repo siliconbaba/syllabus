@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "structural": "PASS",
+  "schema": "PASS",
+  "runtime": "PASS",
+  "families": "PASS",
+  "unexpectedChanges": 0,
+  "surface": {
+    "status": "REQUIRES_INDEPENDENT_QA",
+    "method": "4 exploratory rules; fractional random-tie credit; no pass threshold or semantic verdict",
+    "bestSimpleHeuristic": "6.08333/25",
+    "rules": {
+      "longest": 4.5,
+      "shortest": 6.0,
+      "mostClauses": 6.083333333333333,
+      "mostNumbers": 5.583333333333333
+    },
+    "exactDuplicateStrings": 20
+  },
+  "issues": []
+}

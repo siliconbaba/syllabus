@@ -1,0 +1,41 @@
+{
+  "status": "PASS — BLUEPRINT PROJECTION ONLY",
+  "candidatePath": "agent-artifacts/test-bank/reconstruction/f-pr-t01-completion04/proposed-projection.json",
+  "candidateSHA256": "287a70f2f9adca506ccdbfef4d2a24c532ef0b58bf3903655e19417de199a92f",
+  "acceptedBlueprintIDs": [
+    "TC-126",
+    "TC-127",
+    "TC-128"
+  ],
+  "acceptedFamilyID": "F-PR-T01",
+  "inputs": {
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "agent-artifacts/manifests/v2.2.3/production_manifest_masterplan_v2_2_3.json": "a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1",
+    "agent-artifacts/test-bank/unified-reconstruction-plan/unresolved-72-inventory.csv": "25a5b6c2a9843a2ad737739efe0ee35bf552ddc4cfc62dacefb80b74f704d213",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-4-5.md": "75e4f4493cfe01cbf3f881e0f491ea89002a9c2dca1ea503d4070322b10c205f",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da"
+  },
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "remainingIssueIDs": [],
+  "gates": {
+    "source": "§4.5 compares fixed cadence, continuous flow and handling unplanned requests through explicit service classes; common visibility and fit to flow remain central. Pilot prices are explicit scenario evidence.",
+    "family": "PASS. Same 80 orders, month, role, quality and shared reporting. Only late confirmation count changes (1,8,40); mechanisms are mutually exclusive: wait for batch, central exception duty, event-driven local release. Shared status report does not turn third strategy into central exception handling. Addresses unresolved-72 nested-strategy finding.",
+    "economics": "10n,20+2n,52+n,100. At n=1: 10/22/53/100. At 8: 80/36/60/100. At 40: 400/100/92/100. First crossover 2.5; duty best 3–31, equal to local at 32; local alone best 33–47, tie with vendor at 48; above 48 vendor wins. No tie for any assessed state.",
+    "level": "Middle. Uses measured frequency and fixed setup/variable waiting effects to select an operating process for one period within mandate. No Head governance or Senior uncertainty requirement.",
+    "duplication": "ALLOWED REINFORCEMENT: TC-076–078 alter optional quality review intensity and residual defect loss; this family fixes quality and chooses where scheduling occurs. TC-009/136/165 vary enforcement/readiness, proof paths or required principles; here same teams, same reporting, only demand timing varies. TC-215/242/296 diagnose an approval ceremony or isolate causal gate effects; here pilot measurements are given. TC-008/047/044/068/092/100/266 distinguish evidence quality, signal selection or root cause; no matching family boundary.",
+    "mapping": "PASS. Identity, level, topic, pattern mappings, training-only status and family order preserved against both manifests. Swift maps delivery_quality→processes, gate-effect-diagnosis/quality-metrics→evidence, process-economics→proportionality. Measured waiting impact of the synchronization gate motivates the choice; quality held constant."
+  },
+  "limitations": [
+    "Projection approval only. Merge/freeze, full cases, blind QA, Swift validation of authored cases and import are separate. All three members are training-only.",
+    "The two boundaries refer to transitions across the three selected states; there is an additional vendor crossover outside them. A full case should distinguish three internal pilots from the external quote, and preserve all four alternatives."
+  ],
+  "importEligible": false,
+  "freezePerformed": false,
+  "productionChanged": false
+}

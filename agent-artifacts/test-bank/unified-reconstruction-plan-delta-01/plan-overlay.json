@@ -1,0 +1,146 @@
+{
+  "reconstruction-classification.csv": [
+    {
+      "where": {
+        "ID": "TC-221"
+      },
+      "set": {
+        "treatment": "R5",
+        "retryCurrentTreatment": "NO"
+      },
+      "note": "Logical row key is TC-ID; preserve actual original CSV schema when applying a future merged plan."
+    },
+    {
+      "where": {
+        "ID": "TC-263"
+      },
+      "set": {
+        "treatment": "R5",
+        "retryCurrentTreatment": "NO"
+      },
+      "note": "Logical row key is TC-ID; preserve actual original CSV schema when applying a future merged plan."
+    }
+  ],
+  "atomic-treatment-units.json": {
+    "unitId": "U-EXP",
+    "set": {
+      "treatment": "R5",
+      "replacementUnit": true,
+      "successConfidence": "low"
+    },
+    "dependencyGateOverrides": {
+      "U-F-DM-P02": "Original dependency U-EXP now means accepted role-allocation/replacement-architecture decision; it does not mean failed candidate acceptance or removal of dependency.",
+      "U-F-PA-P04": "Original dependency U-EXP now means accepted role-allocation/replacement-architecture decision; it does not mean failed candidate acceptance or removal of dependency."
+    },
+    "otherUnitDeltas": [
+      {
+        "unitId": "U-LEARNING",
+        "IDs": [
+          "TC-212",
+          "TC-220",
+          "TC-284"
+        ],
+        "oldTreatment": "R3",
+        "newTreatment": "R3",
+        "confidence": "LOW",
+        "change": "Shared G-LEARNING: simple cheap-information/commitment substitutions overlap164,195,259/260,261; explicit free-space proof needed before authoring."
+      },
+      {
+        "unitId": "U-REVERSIBLE",
+        "IDs": [
+          "TC-239"
+        ],
+        "oldTreatment": "R2",
+        "newTreatment": "R2",
+        "confidence": "MEDIUM",
+        "change": "Same reservation; no direct failure of this R2. Reserve against replacement U-EXP before using information-cost/reversibility roles."
+      },
+      {
+        "unitId": "U-F-DM-P02",
+        "IDs": [
+          "TC-129",
+          "TC-130"
+        ],
+        "oldTreatment": "R4",
+        "newTreatment": "R4",
+        "confidence": "MEDIUM",
+        "change": "Direct dependency on U-EXP. Replace completion gate with accepted replacement-role allocation; do not assume experimental roles became free."
+      },
+      {
+        "unitId": "U-F-PA-P04",
+        "IDs": [
+          "TC-259",
+          "TC-260"
+        ],
+        "oldTreatment": "R6",
+        "newTreatment": "R6",
+        "confidence": "LOW",
+        "change": "Direct dependency and actual collision221-PROXY with259/260. Their future replacement does not make current occupied role available automatically."
+      },
+      {
+        "unitId": "U-PERFORMANCE",
+        "IDs": [
+          "TC-217"
+        ],
+        "oldTreatment": "R3",
+        "newTreatment": "R3",
+        "confidence": "LOW",
+        "change": "Anchor274 occupies valid independent evidence under scarce capacity; adding observation cost to a rule can repeat U-EXP failure. Existing treatment retained; feasibility downgraded as risk, not content verdict."
+      },
+      {
+        "unitId": "U-ROADMAP",
+        "IDs": [
+          "TC-292"
+        ],
+        "oldTreatment": "R3",
+        "newTreatment": "R3",
+        "confidence": "LOW",
+        "change": "Prior rejected292 draft already collided195. U-EXP confirms narrow sufficient evidence versus expensive completeness is crowded; R3 retained with lower yield confidence."
+      },
+      {
+        "unitId": "U-F-PO-P03",
+        "IDs": [
+          "TC-234",
+          "TC-235"
+        ],
+        "oldTreatment": "R4",
+        "newTreatment": "R4",
+        "confidence": "LOW",
+        "change": "Anchor199 appears in existing analog map. Keep R4 and accepted235 protection; require role distinction, not bigger scope/cost, before future work. No causal dependency on U-EXP invented."
+      },
+      {
+        "unitId": "U-CAUSAL",
+        "IDs": [
+          "TC-242",
+          "TC-266"
+        ],
+        "oldTreatment": "R3",
+        "newTreatment": "R3",
+        "confidence": "LOW",
+        "change": "Rejected pilot-composition direction risks reclaiming242/266 and G-PROCESS space; ready valid-comparison rules plus price do not prove Middle. Precautionary downgrade, not failed reconstruction of these rows."
+      },
+      {
+        "unitId": "U-SECURITY",
+        "IDs": [
+          "TC-171"
+        ],
+        "oldTreatment": "R1",
+        "newTreatment": "R1",
+        "confidence": "LOW",
+        "change": "Old optional U-EXP+U-SECURITY QA pairing no longer has a viable U-EXP author result. Remove that bundle; if171 later passes, review immediately or choose a separately justified bundle."
+      }
+    ]
+  },
+  "reconstruction-sequence.md": {
+    "replaceFirstAction": "U-EXP replacement architecture review; no high-confidence authoring unit selected",
+    "doNotRenumberAllUnits": true,
+    "remainingOrder": "unchanged except affected gates; not authorization to execute"
+  },
+  "iteration-estimate.json": {
+    "removeOptionalQABundle": [
+      "U-EXP",
+      "U-SECURITY"
+    ],
+    "numericRange": "109–142 retained as historical estimate, not freshly calibrated remaining forecast"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "scope": "Independent final six-case candidate content QA, focused R3 score/explanation repair with hash-verified R1/R2 inheritance and explicit standards correction",
+  "verdict": "PASS content QA",
+  "candidateSHA256": "f17651344246570565ac47eae5a267296f0de7454a21087f5786324ceb66c486",
+  "importEligible": false,
+  "productionChanged": false,
+  "freezePerformed": false,
+  "evidence": "evidence.json",
+  "issues": [],
+  "closedIssues": [
+    {
+      "id": "QA104-109-01",
+      "resolution": "R2 actionable metrics-only and short-retention alternatives meet TEST-BANK-RUNBOOK lines9/14. Prior four-strong-strategies requirement withdrawn by standards audit; no R3 scenario rewrite required."
+    },
+    {
+      "id": "QA104-109-02",
+      "resolution": "R2 identical flow C whole-WHEN explicitly requires insufficiency of two-week help; inherited with verified hash and no R3 change."
+    },
+    {
+      "id": "QA104-109-03",
+      "resolution": "R3 TC109 D=.25 below B=.3, above C=.2. Explanation correctly compares approximately three last-hour records against five all-week records; revision becomes3."
+    }
+  ],
+  "cases": [
+    {
+      "id": "TC-104",
+      "verdict": "PASS",
+      "best": "A",
+      "basis": "R1 full gates; exact unchanged object through R3"
+    },
+    {
+      "id": "TC-105",
+      "verdict": "PASS",
+      "best": "B",
+      "basis": "R1 full gates; exact unchanged object through R3"
+    },
+    {
+      "id": "TC-106",
+      "verdict": "PASS",
+      "best": "B",
+      "basis": "R1 gates plus R2 repaired whole-WHEN; unchanged R3"
+    },
+    {
+      "id": "TC-107",
+      "verdict": "PASS",
+      "best": "D",
+      "basis": "R1 gates plus R2 repaired whole-WHEN; unchanged R3"
+    },
+    {
+      "id": "TC-108",
+      "verdict": "PASS",
+      "best": "B",
+      "basis": "R2 blind/source/WHEN/family review plus standards correction; unchanged R3"
+    },
+    {
+      "id": "TC-109",
+      "verdict": "PASS",
+      "best": "A",
+      "basis": "R2 blind/source/WHEN/family review plus standards correction and focused R3 DQ repair"
+    }
+  ],
+  "pair_acceptance": {
+    "F-PM-P01": "PASS content QA",
+    "F-PR-P01": "PASS content QA",
+    "F-PA-P02": "PASS content QA; proposed contract clarification awaits explicit accepted-manifest reconciliation"
+  },
+  "gates": {
+    "blind": "PASS inherited R2 pre-key B/A and runner D/B; blind file byte-identical R3",
+    "unique_best": "PASS inherited unchanged contexts/options/keys",
+    "source": "PASS inherited verified complete topics; no repeated full-source read",
+    "level": "PASS central log Middle budget/evidence tradeoff; no requirement for near-optimal distractors",
+    "plausibility": "PASS under exact runbook lines9/14; category confusion and short-retention error are distinct professional actionable alternatives",
+    "DQ": "PASS focused correction plus unchanged inherited values",
+    "whole_WHEN": "PASS verified inheritance",
+    "families": "PASS sole declared mutation, shared option texts, training-only; R2 proposed clarification unchanged",
+    "duplication": "PASS at inherited reviewed production/planned evidence scope",
+    "surface": "PASS qualitative plausibility after standards correction; no R2/R3 statistical screening claim",
+    "schema_runtime": "PASS actualSwift R3 validation verified candidate SHA256; authoritative runtime sources hash-verified unchanged; no recompile"
+  },
+  "remaining_gates": [
+    "Explicitly reconcile proposed-blueprints/proposed-families action-space clarification for TC108/109 with accepted manifest and its QA before integration. This QA does not silently merge it.",
+    "Assembly-level complete-bank coverage, updated statistical surface screening if required by the assembly workflow, freeze and production import are outside this six-case content review. R1 numeric surface results are not claimed for R3."
+  ],
+  "inheritanceLimit": "Planned analog rows are blueprint evidence, not clearance of future authored full cases."
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "FLOW04-01",
+    "status": "CLOSED",
+    "evidence": "TC287C exact3+2 allocation plus dependent explanations/WHEN; its0.2 now maps to failure to protectA100."
+  },
+  {
+    "id": "FLOW04-02",
+    "status": "CLOSED",
+    "evidence": "Both family contexts restore baseline first-week internal capacity and recurring2days/week startingweek2, matching approved blueprints."
+  }
+]

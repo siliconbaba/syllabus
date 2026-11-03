@@ -1,0 +1,48 @@
+{
+  "status": "FIX_REQUIRED",
+  "date": "2026-10-27",
+  "scope": "independent focused manifest-row QA, no full-case options",
+  "candidate": "agent-artifacts/test-bank/reconstruction/tc200-r1/proposed-manifest-row.json",
+  "candidateSHA256": "a778753942acaf2d36851e8d0971f03a9dc59aeffaadf5504f08ad38a8cb2513",
+  "caseIDs": [
+    "TC-200"
+  ],
+  "gateResults": {
+    "sourceGrounding": "PASS",
+    "distinctDecisionBoundary": "PASS",
+    "JuniorRealization": "PASS",
+    "structuralInvariants": "PASS",
+    "runtimeVocabularyAndDerivedFields": "PASS",
+    "actionTimingConsistency": "MINOR_FIX_REQUIRED",
+    "fullCaseBlindStrongest": "NOT_APPLICABLE",
+    "DQAndOptionSurface": "NOT_APPLICABLE",
+    "globalCoverage": "NOT_RUN; per-row delta recorded"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 1
+  },
+  "candidateAccepted": false,
+  "readyForFullCaseAuthoring": false,
+  "readyForFreeze": false,
+  "importEligible": false,
+  "remainingUnresolvedInUnmodifiedAcceptedBase": 72,
+  "productionChanged": false,
+  "manifestChanged": false,
+  "coverageDelta": {
+    "uiDomain": "stakeholders unchanged",
+    "level": "junior unchanged",
+    "standaloneAssessmentCount": 0,
+    "thinkingNormalizedWeightsBefore": {
+      "stakeholders": 0.6666666666666666,
+      "evidence": 0.3333333333333333
+    },
+    "thinkingNormalizedWeightsAfter": {
+      "stakeholders": 1.0
+    },
+    "contextScoredEvidence": 0,
+    "headBreadthDelta": 0
+  },
+  "nextAction": "Immutable R2 local timing repair then focused retest; no global freeze/import permission."
+}

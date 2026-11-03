@@ -1,0 +1,20 @@
+{
+  "change-log-v2_2_2-to-v2_2_3.csv": "e6749b2ec38febb61e0e4113cf107e56fb7c41cbace16169ce04ecc6b6df8058",
+  "duplication-audit-v2_2_3.csv": "df7748d5bde78d1c806d53a5f631726ea24e92332585b6fc26443af725b319ac",
+  "finalize-hotfix.py": "e034a8497c4765c6c76bb4fe198b3cb6fa45b887c968f76b8b5eac24d8161375",
+  "linked_family_manifest_v2_2_3_candidate.csv": "0e574baf695dda48e4e75d89e3503bf7b3e8f27dc1250ec5cb801983c9b675c3",
+  "manifest-hotfix-report.md": "a6e6c19c279b1077e3ee8c68ae9c9c887125b95d341014a56a9042835de72a79",
+  "original-defect-confirmation.json": "c0ba2e6587328e5c5201bf2c8788a6c39f424c2b17f3766cf18096622f00e722",
+  "prepare-hotfix.py": "5c510afe0f1535233937864149a4e1355b75744fc57d07812a897217da86da4e",
+  "production_manifest_TC026_TC300_v2_2_3_candidate.csv": "3cc123b37577ef06815d4c21263d9e7c379b6281cdfbe7154e36a37a187e5487",
+  "production_manifest_masterplan_v2_2_3_candidate.json": "84cfcf2e9e3a86b3f259421869e092bad969bbcbbb851b50cb44b59af29a3546",
+  "protected-input-hashes.json": "ac7d05284d5a1820ca733255d1f3958bebb7ef68bd0f0226f0bc495f6be09b12",
+  "runtime-input.json": "f44803a2f60975d63dba9e7d5a380eeba3433882673919030f9372d3e493149e",
+  "runtime-output.json": "3384d6947064254313dae9d1a9c3d779b1709865c815427df94d1bc9ea379060",
+  "runtime_coverage_v2_2_3_candidate.json": "43bbdfdccd2ab0ec00fcf70d6590853075b723483f4e558bd3a0327870d080e1",
+  "source-first-design.json": "94458ff9dd0aaf95f9d13c45af2a78634a64ce93c4688c6b53b15067002f65ce",
+  "source-topic-t3-9.txt": "d28d1e8671ccf1a6ed4b23a772134ae2878dfee383b4febbc5d8ef540890241d",
+  "source-trace-TC085.json": "dc99f948fd9dfefdb8bc2b5945813918dcec6820770916153a9577a7c083e069",
+  "validation-result.json": "d788814300fa7a16f04f6507420ce6db7d485b053b9a975520912fe0b526d45d",
+  "working-master.json": "0db931422169ecd3714e45792709290aaeaef89861ce70019076ed95684988f3"
+}

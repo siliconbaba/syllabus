@@ -1,0 +1,19 @@
+{
+  "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/input-hashes.json": "2b9b2f47c753e50380c467416d4881a2a5f174d420ada44d130173e25ac4dab6",
+  "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/mandatory-production-analogs.json": "3fe6240c9d7eccda679aa765a55b57a8e9fded04c1dc077fcd751ba75f4ca99f",
+  "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/approved-blueprints.json": "fc1b53bfb0259186a521354aa4d3c362f789ffecfbf3eb94784f244729af5f44",
+  "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/README.md": "d5ea1b96769279eff1432d1a59e5f83bab9fb0075fe772898bd0bdcc5fc44f35",
+  "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/mandatory-planned-analogs.json": "6b6d70d1a564c90eeba565b154186701d15797421c660b96fd9f0f5fc113d3c4",
+  "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/blind-cases.json": "4350061006ad31aa24925bf17cecdf7dbe574721daf144e63683ef9cc27d4c92",
+  "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/cases.json": "e015efb80bb0350b2333e4c0868a61038b207f8f6260270d3676a994ba1c9d76",
+  "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/validation.json": "5a5578f0151bb87c270c478697d9d5fb0ee5dba878b6473f7d40e52b110afa70",
+  "agent-artifacts/test-bank/full-cases/pack-flow-risk-05/status.json": "eb5ba6d5239543019d957c04f93ca570fdcd5b3b1c58fcb0714efcc3d6484519",
+  "agent-artifacts/manifests/v2.3-completion-02-candidate/production_manifest_masterplan_v2_3_completion_02_candidate.json": "2aad3f13350f675ccf2e7ec6753621f184128480598851b8711c1df400cbbb89",
+  "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-3-7.txt": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0",
+  "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-2-6.txt": "bf8090d91def4ebe4b6494ea9724fe29e296ee0d8c3e65ea6e1f2536eb8f3b42",
+  "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-10-4.txt": "bce771ddc6f30526d9134fa803a81cd631ebb25aa30808733ef0ddce1bf31109",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3"
+}

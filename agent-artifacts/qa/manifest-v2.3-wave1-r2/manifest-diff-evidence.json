@@ -1,0 +1,53 @@
+{
+  "baselineSHA256": "006c45c553b28f35f816cf09652be9fe41ff0718cc3eac4ddd6d7331a4736977",
+  "candidateSHA256": "bb858ee97bda87d6716a4ad1fa19385bef24f2b96443873da4bb9ba0bffede01",
+  "changedIDs": [
+    "TC-184",
+    "TC-291"
+  ],
+  "exactRawChangedIDs": [
+    "TC-184",
+    "TC-291"
+  ],
+  "unchanged273": 273,
+  "csvChangedIDs": [
+    "TC-184",
+    "TC-291"
+  ],
+  "changedFamilies": [],
+  "familyCsvIdentical": true,
+  "changedFields": {
+    "TC-184": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ],
+    "TC-291": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "domain",
+      "primaryPattern",
+      "secondaryPatterns",
+      "whyLevel",
+      "derivedRuntimeUiDomain",
+      "derivedRuntimePrimaryThinking",
+      "derivedRuntimeSecondaryThinking",
+      "sourceTopicExplanation"
+    ]
+  },
+  "otherTopLevelChanges": [
+    "freezeProvenance",
+    "wave1Revision",
+    "wave1R2Revision"
+  ],
+  "artifactHashErrors": [],
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "inheritance": "273 retain their previous statuses; unresolved are not approved; no repeat content QA.",
+  "diffGate": "PASS"
+}

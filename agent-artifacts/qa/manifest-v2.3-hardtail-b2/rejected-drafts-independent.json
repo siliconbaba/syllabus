@@ -1,0 +1,39 @@
+{
+  "rejectedMemberDraftCount": 2,
+  "familyDraftCount": 1,
+  "classificationScope": "Rejected drafts only; not candidate defects",
+  "nearDuplicateCount": 2,
+  "notApplied": "PASS",
+  "members": [
+    {
+      "draftId": "DRAFT-TC-234",
+      "classification": "NEAR DUPLICATE",
+      "closestAnalog": "TC-199",
+      "sameMechanism": "Локальный end-to-end ownership при сохранении действительно общего ядра как платформы; ограниченный pilot проверяет результат и нагрузку.",
+      "decisiveFact": "Передача всей общей экспертизы продуктам нарушает поддержку; локальное расширение отделимо и может принадлежать потоку.",
+      "differenceNotEnough": "Head управляет постоянными бюджетами/ролями, но эти договорённости уже разрешены facts; они оформляют передачу, не меняют выбор механизма.",
+      "additionalAnalogs": [
+        "TC-161",
+        "TC-039",
+        "TC-013",
+        "TC-091"
+      ],
+      "applied": false
+    },
+    {
+      "draftId": "DRAFT-TC-235",
+      "classification": "NEAR DUPLICATE",
+      "closestAnalog": "TC-150",
+      "sameMechanism": "Совместные изменения/общие инварианты не изолированы контрактом: сначала доказать границу в существующем владении, затем физическое/организационное выделение.",
+      "decisiveFact": "Пробный независимый релиз/откат требует согласованного изменения остальных частей.",
+      "differenceNotEnough": "Бюджет перехода и право сменить владельцев делают remit Head, но strongest по-прежнему выбирается тем же coupling evidence и той же последовательностью.",
+      "additionalAnalogs": [
+        "TC-161",
+        "TC-198",
+        "TC-111"
+      ],
+      "applied": false
+    }
+  ],
+  "safeSameTopicPrimaryCoverage": "PASS"
+}

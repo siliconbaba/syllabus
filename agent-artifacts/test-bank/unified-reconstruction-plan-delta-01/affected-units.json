@@ -1,0 +1,685 @@
+{
+  "status": "DELTA ONLY",
+  "originalPlanImmutable": true,
+  "primaryUnit": {
+    "unitId": "U-EXP",
+    "oldTreatment": "R3",
+    "newTreatment": "R5",
+    "replacementUnit": true,
+    "memberIDs": [
+      "TC-221",
+      "TC-263"
+    ],
+    "retryCurrentTreatment": "NO",
+    "sequenceChange": "Remove from immediate R3 authoring; require replacement architecture review. Keep joint reservation; no automatic split or new cases.",
+    "successConfidence": "LOW until role feasibility established"
+  },
+  "otherUnitsAffected": 9,
+  "directDependencies": [
+    "U-F-DM-P02",
+    "U-F-PA-P04"
+  ],
+  "sharedSemanticSpace": [
+    "U-LEARNING",
+    "U-REVERSIBLE",
+    "U-F-DM-P02",
+    "U-F-PA-P04"
+  ],
+  "dependencyGateOverrides": {
+    "U-F-DM-P02": "Original dependency U-EXP now means accepted role-allocation/replacement-architecture decision; it does not mean failed candidate acceptance or removal of dependency.",
+    "U-F-PA-P04": "Original dependency U-EXP now means accepted role-allocation/replacement-architecture decision; it does not mean failed candidate acceptance or removal of dependency."
+  },
+  "affectedUnits": [
+    {
+      "unitId": "U-LEARNING",
+      "IDs": [
+        "TC-212",
+        "TC-220",
+        "TC-284"
+      ],
+      "oldTreatment": "R3",
+      "newTreatment": "R3",
+      "confidence": "LOW",
+      "change": "Shared G-LEARNING: simple cheap-information/commitment substitutions overlap164,195,259/260,261; explicit free-space proof needed before authoring."
+    },
+    {
+      "unitId": "U-REVERSIBLE",
+      "IDs": [
+        "TC-239"
+      ],
+      "oldTreatment": "R2",
+      "newTreatment": "R2",
+      "confidence": "MEDIUM",
+      "change": "Same reservation; no direct failure of this R2. Reserve against replacement U-EXP before using information-cost/reversibility roles."
+    },
+    {
+      "unitId": "U-F-DM-P02",
+      "IDs": [
+        "TC-129",
+        "TC-130"
+      ],
+      "oldTreatment": "R4",
+      "newTreatment": "R4",
+      "confidence": "MEDIUM",
+      "change": "Direct dependency on U-EXP. Replace completion gate with accepted replacement-role allocation; do not assume experimental roles became free."
+    },
+    {
+      "unitId": "U-F-PA-P04",
+      "IDs": [
+        "TC-259",
+        "TC-260"
+      ],
+      "oldTreatment": "R6",
+      "newTreatment": "R6",
+      "confidence": "LOW",
+      "change": "Direct dependency and actual collision221-PROXY with259/260. Their future replacement does not make current occupied role available automatically."
+    },
+    {
+      "unitId": "U-PERFORMANCE",
+      "IDs": [
+        "TC-217"
+      ],
+      "oldTreatment": "R3",
+      "newTreatment": "R3",
+      "confidence": "LOW",
+      "change": "Anchor274 occupies valid independent evidence under scarce capacity; adding observation cost to a rule can repeat U-EXP failure. Existing treatment retained; feasibility downgraded as risk, not content verdict."
+    },
+    {
+      "unitId": "U-ROADMAP",
+      "IDs": [
+        "TC-292"
+      ],
+      "oldTreatment": "R3",
+      "newTreatment": "R3",
+      "confidence": "LOW",
+      "change": "Prior rejected292 draft already collided195. U-EXP confirms narrow sufficient evidence versus expensive completeness is crowded; R3 retained with lower yield confidence."
+    },
+    {
+      "unitId": "U-F-PO-P03",
+      "IDs": [
+        "TC-234",
+        "TC-235"
+      ],
+      "oldTreatment": "R4",
+      "newTreatment": "R4",
+      "confidence": "LOW",
+      "change": "Anchor199 appears in existing analog map. Keep R4 and accepted235 protection; require role distinction, not bigger scope/cost, before future work. No causal dependency on U-EXP invented."
+    },
+    {
+      "unitId": "U-CAUSAL",
+      "IDs": [
+        "TC-242",
+        "TC-266"
+      ],
+      "oldTreatment": "R3",
+      "newTreatment": "R3",
+      "confidence": "LOW",
+      "change": "Rejected pilot-composition direction risks reclaiming242/266 and G-PROCESS space; ready valid-comparison rules plus price do not prove Middle. Precautionary downgrade, not failed reconstruction of these rows."
+    },
+    {
+      "unitId": "U-SECURITY",
+      "IDs": [
+        "TC-171"
+      ],
+      "oldTreatment": "R1",
+      "newTreatment": "R1",
+      "confidence": "LOW",
+      "change": "Old optional U-EXP+U-SECURITY QA pairing no longer has a viable U-EXP author result. Remove that bundle; if171 later passes, review immediately or choose a separately justified bundle."
+    }
+  ],
+  "anchorScan": {
+    "TC-164": [
+      "U-EXP",
+      "U-F-DM-P02"
+    ],
+    "TC-195": [
+      "U-EXP",
+      "U-ROADMAP"
+    ],
+    "TC-199": [
+      "U-F-PO-P03"
+    ],
+    "TC-259": [],
+    "TC-260": [],
+    "TC-261": [
+      "U-EXP"
+    ],
+    "TC-274": [
+      "U-PERFORMANCE"
+    ]
+  },
+  "newAnchorEdges": {
+    "U-EXP": [
+      "TC-259",
+      "TC-260",
+      "TC-242",
+      "TC-266"
+    ],
+    "G-LEARNING": [
+      "TC-164",
+      "TC-195",
+      "TC-259",
+      "TC-260",
+      "TC-261"
+    ]
+  },
+  "doNotInfer": "No plan entry says U-EXP would free existing accepted roles. The two dependencies require semantic coordination, not deletion of analogs. Unresolved259/260 remain occupied planned roles until explicitly replaced.",
+  "qaBundleDelta": {
+    "remove": [
+      "U-EXP",
+      "U-SECURITY"
+    ],
+    "reason": "No applicable U-EXP content; do not queue empty QA or delay171 for failed unit."
+  },
+  "counts": {
+    "unitsStill43": 43,
+    "unresolvedStill72": 72,
+    "R3RowsBefore": 20,
+    "R3RowsAfter": 18,
+    "R5RowsBefore": 2,
+    "R5RowsAfter": 4,
+    "replacementUnitsBefore": 12,
+    "replacementUnitsAfter": 13,
+    "replacementRowsBefore": 24,
+    "replacementRowsAfter": 26
+  },
+  "confidenceDenominator": "42 other existing units, excluding failed U-EXP; carry-forward assessments are not fresh author feasibility certificates",
+  "confidenceCounts": {
+    "HIGH": 0,
+    "LOW": 26,
+    "MEDIUM": 16
+  },
+  "confidenceByRemainingUnit": [
+    {
+      "unitId": "U-SECURITY",
+      "IDs": [
+        "TC-171"
+      ],
+      "treatment": "R1",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Old optional U-EXP+U-SECURITY QA pairing no longer has a viable U-EXP author result. Remove that bundle; if171 later passes, review immediately or choose a separately justified bundle.",
+      "R3": false
+    },
+    {
+      "unitId": "U-ONBOARD",
+      "IDs": [
+        "TC-193"
+      ],
+      "treatment": "R2",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-MOTIVATION",
+      "IDs": [
+        "TC-159"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": true
+    },
+    {
+      "unitId": "U-PERFORMANCE",
+      "IDs": [
+        "TC-217"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "LOW",
+      "basis": "Anchor274 occupies valid independent evidence under scarce capacity; adding observation cost to a rule can repeat U-EXP failure. Existing treatment retained; feasibility downgraded as risk, not content verdict.",
+      "R3": true
+    },
+    {
+      "unitId": "U-ROADMAP",
+      "IDs": [
+        "TC-292"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "LOW",
+      "basis": "Prior rejected292 draft already collided195. U-EXP confirms narrow sufficient evidence versus expensive completeness is crowded; R3 retained with lower yield confidence.",
+      "R3": true
+    },
+    {
+      "unitId": "U-COMMS-J",
+      "IDs": [
+        "TC-200"
+      ],
+      "treatment": "R2",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-COMMS-M",
+      "IDs": [
+        "TC-243",
+        "TC-267"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": true
+    },
+    {
+      "unitId": "U-CAUSAL",
+      "IDs": [
+        "TC-242",
+        "TC-266"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "LOW",
+      "basis": "Rejected pilot-composition direction risks reclaiming242/266 and G-PROCESS space; ready valid-comparison rules plus price do not prove Middle. Precautionary downgrade, not failed reconstruction of these rows.",
+      "R3": true
+    },
+    {
+      "unitId": "U-LEARNING",
+      "IDs": [
+        "TC-212",
+        "TC-220",
+        "TC-284"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "LOW",
+      "basis": "Shared G-LEARNING: simple cheap-information/commitment substitutions overlap164,195,259/260,261; explicit free-space proof needed before authoring.",
+      "R3": true
+    },
+    {
+      "unitId": "U-REVERSIBLE",
+      "IDs": [
+        "TC-239"
+      ],
+      "treatment": "R2",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Same reservation; no direct failure of this R2. Reserve against replacement U-EXP before using information-cost/reversibility roles.",
+      "R3": false
+    },
+    {
+      "unitId": "U-OBSERVABILITY",
+      "IDs": [
+        "TC-210"
+      ],
+      "treatment": "R2",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-FLOW-J",
+      "IDs": [
+        "TC-135",
+        "TC-145"
+      ],
+      "treatment": "R2",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-FLOW-M",
+      "IDs": [
+        "TC-298"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": true
+    },
+    {
+      "unitId": "U-PRIORITY-J",
+      "IDs": [
+        "TC-272"
+      ],
+      "treatment": "R2",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-PRIORITY-M",
+      "IDs": [
+        "TC-188"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": true
+    },
+    {
+      "unitId": "U-DEPENDENCIES",
+      "IDs": [
+        "TC-238",
+        "TC-265"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": true
+    },
+    {
+      "unitId": "U-DEPENDENCY-J",
+      "IDs": [
+        "TC-271"
+      ],
+      "treatment": "R2",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-FORECAST",
+      "IDs": [
+        "TC-294"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": true
+    },
+    {
+      "unitId": "U-ESCALATE-J",
+      "IDs": [
+        "TC-146"
+      ],
+      "treatment": "R2",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-ESCALATE-M",
+      "IDs": [
+        "TC-289"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": true
+    },
+    {
+      "unitId": "U-CONTROL-CULTURE",
+      "IDs": [
+        "TC-191",
+        "TC-223"
+      ],
+      "treatment": "R3",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": true
+    },
+    {
+      "unitId": "U-F-DM-P02",
+      "IDs": [
+        "TC-129",
+        "TC-130"
+      ],
+      "treatment": "R4",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Direct dependency on U-EXP. Replace completion gate with accepted replacement-role allocation; do not assume experimental roles became free.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PE-P02",
+      "IDs": [
+        "TC-179",
+        "TC-180"
+      ],
+      "treatment": "R4",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PM-P02",
+      "IDs": [
+        "TC-204",
+        "TC-205"
+      ],
+      "treatment": "R4",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PA-P03",
+      "IDs": [
+        "TC-206",
+        "TC-207"
+      ],
+      "treatment": "R4",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-DR-P03",
+      "IDs": [
+        "TC-228",
+        "TC-229"
+      ],
+      "treatment": "R4",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-BV-P04",
+      "IDs": [
+        "TC-232",
+        "TC-233"
+      ],
+      "treatment": "R4",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-ST-P03",
+      "IDs": [
+        "TC-255",
+        "TC-256"
+      ],
+      "treatment": "R4",
+      "oldConfidence": "MEDIUM",
+      "confidence": "MEDIUM",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PO-P03",
+      "IDs": [
+        "TC-234",
+        "TC-235"
+      ],
+      "treatment": "R4",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Anchor199 appears in existing analog map. Keep R4 and accepted235 protection; require role distinction, not bigger scope/cost, before future work. No causal dependency on U-EXP invented.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-ST-T01",
+      "IDs": [
+        "TC-151",
+        "TC-152",
+        "TC-153"
+      ],
+      "treatment": "R4",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-SDLC-REPLACE",
+      "IDs": [
+        "TC-296"
+      ],
+      "treatment": "R5",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-STAKEHOLDER-REPLACE",
+      "IDs": [
+        "TC-299"
+      ],
+      "treatment": "R5",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PR-T01",
+      "IDs": [
+        "TC-126",
+        "TC-127",
+        "TC-128"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PE-T01",
+      "IDs": [
+        "TC-176",
+        "TC-177",
+        "TC-178"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PO-P02",
+      "IDs": [
+        "TC-133",
+        "TC-134"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-ST-P02",
+      "IDs": [
+        "TC-156",
+        "TC-157"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-DM-P03",
+      "IDs": [
+        "TC-226",
+        "TC-227"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PR-P02",
+      "IDs": [
+        "TC-230",
+        "TC-231"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PM-P03",
+      "IDs": [
+        "TC-251",
+        "TC-252"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PA-P04",
+      "IDs": [
+        "TC-259",
+        "TC-260"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Direct dependency and actual collision221-PROXY with259/260. Their future replacement does not make current occupied role available automatically.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-DR-P04",
+      "IDs": [
+        "TC-278",
+        "TC-279"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    },
+    {
+      "unitId": "U-F-PO-P04",
+      "IDs": [
+        "TC-282",
+        "TC-283"
+      ],
+      "treatment": "R6",
+      "oldConfidence": "LOW",
+      "confidence": "LOW",
+      "basis": "Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.",
+      "R3": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "verdict": "HARD-TAIL R1 QA PASS",
+  "date": "2026-10-16",
+  "scope": [
+    "TC-214",
+    "TC-261"
+  ],
+  "candidateSHA256": "5498924e75926d6c315ea54aa4b9456ada0ac9237fe143c8f7404b24c1461d75",
+  "baseSHA256": "779fe25b0dd8921106f867618da2d130c4422e3401aec0254486a8192472a228",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "gates": {
+    "diff": "PASS",
+    "unexpectedChangedRows": 0,
+    "sourceGrounding": {
+      "pass": 2,
+      "fail": []
+    },
+    "levelRealization": {
+      "pass": 2,
+      "fail": []
+    },
+    "decisionBoundary": "PASS",
+    "runtimeSemantics": {
+      "pass": 2,
+      "fail": []
+    },
+    "semanticUniqueness": {
+      "NO CLOSE ANALOG": 0,
+      "ALLOWED REINFORCEMENT": 2,
+      "NEAR DUPLICATE": 0,
+      "DUPLICATE": 0
+    },
+    "familiesUnchanged": "PASS",
+    "allPreviouslyAcceptedUnchanged": "PASS",
+    "allOtherUnresolvedUnchanged": "PASS",
+    "productionUnchanged": "PASS"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 1
+  },
+  "nonBlockingIssueIDs": [
+    "HT1-261-M01"
+  ],
+  "TC292": {
+    "unchanged": true,
+    "unresolved": true,
+    "rejectedDraftNotApplied": true,
+    "routingReconsiderationRecommended": true,
+    "reason": "Первоначальный triage считал semantic space open; попытка попала в decision skeleton принятого TC195. Это новый сигнал для semantic repositioning, не доказательство невозможности Middle/t9.2 и не дефект применённого candidate."
+  },
+  "candidateAccepted": true,
+  "remainingUnresolved": 76,
+  "readyForNextHardTailTreatment": true,
+  "nextTreatmentStarted": false,
+  "readyToFreeze": false,
+  "importEligible": false,
+  "productionChanged": false,
+  "acceptanceScope": "Checkpoint redesigned214/261 плюс неизменная lineage;76 unresolved не приняты. Minor не влияет на measurement и не блокирует данную manifest-приёмку по условиям запроса.",
+  "notApplicable": [
+    "full-case blind options",
+    "decisionQuality",
+    "option leakage"
+  ]
+}

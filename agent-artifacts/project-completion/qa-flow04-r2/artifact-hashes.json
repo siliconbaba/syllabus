@@ -1,0 +1,10 @@
+{
+  "QA-report.md": "6a38be8f5a330ff4ade0dc72534d64e66ebfca3297e8c2e4ad80ffd822fc8d6e",
+  "QA-verdict.json": "619b63081f467bdd9469b54a369dcb426ff2f627433ed2a943727c367402cfd3",
+  "case-diff.json": "d1b7dd4beb7607843b93da020f8b5b66c79a0708993ad17721b2e64490a48e0d",
+  "evidence.json": "5fdc7ced6774c20118a69935a7b933b58e7898c7ff86b804cbb3d8d3cfa1d22c",
+  "input-hashes.json": "1ab5d85bd335a25949c01b2667f949c372dba530b1685fd17b0dc7a3462592af",
+  "issue-closure.json": "bcae295ddb0f5c0eb8ec2c7fb7d0c71091573d31d700d615ed126565538b73a8",
+  "issues.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "validation-summary.json": "09c012938cc55ccfb7b46a219df6340327066249d07bb476a0bf10b1d3307571"
+}

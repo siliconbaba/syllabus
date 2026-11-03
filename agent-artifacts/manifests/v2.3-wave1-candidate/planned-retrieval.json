@@ -1,0 +1,2214 @@
+[
+  {
+    "plannedId": "TC-136",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-157",
+        "retrievalScore": 10.075981,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "данными",
+          "команды"
+        ]
+      },
+      {
+        "id": "TC-156",
+        "retrievalScore": 10.029049,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "команды"
+        ]
+      },
+      {
+        "id": "TC-216",
+        "retrievalScore": 5.054633,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "власти"
+        ]
+      },
+      {
+        "id": "TC-112",
+        "retrievalScore": 5.031187,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "что"
+        ]
+      },
+      {
+        "id": "TC-224",
+        "retrievalScore": 5.029049,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "communications"
+        ],
+        "sharedTerms": [
+          "команды"
+        ]
+      },
+      {
+        "id": "TC-299",
+        "retrievalScore": 4.077465,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "данными",
+          "как"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-139",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-270",
+        "retrievalScore": 11.190378,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "dependency-management"
+        ],
+        "sharedTerms": [
+          "program",
+          "владельца",
+          "общей",
+          "программы"
+        ]
+      },
+      {
+        "id": "TC-133",
+        "retrievalScore": 10.279784,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "владельца",
+          "между",
+          "общей",
+          "программы",
+          "текущем",
+          "формально"
+        ]
+      },
+      {
+        "id": "TC-134",
+        "retrievalScore": 10.174444,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "владельца",
+          "общей",
+          "один",
+          "программы"
+        ]
+      },
+      {
+        "id": "TC-158",
+        "retrievalScore": 9.164351,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "всех",
+          "общей",
+          "программы",
+          "что"
+        ]
+      },
+      {
+        "id": "TC-297",
+        "retrievalScore": 7.221387,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "dependency-management"
+        ],
+        "sharedTerms": [
+          "выделить",
+          "займёт",
+          "можно",
+          "поток",
+          "проверки"
+        ]
+      },
+      {
+        "id": "TC-196",
+        "retrievalScore": 5.02922,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "dependency-management"
+        ],
+        "sharedTerms": [
+          "только"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-141",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-294",
+        "retrievalScore": 6.134416,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "forecasting"
+        ],
+        "sharedTerms": [
+          "senior",
+          "ещё",
+          "нужно",
+          "прогноза"
+        ]
+      },
+      {
+        "id": "TC-247",
+        "retrievalScore": 5.035811,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "forecasting"
+        ],
+        "sharedTerms": [
+          "его"
+        ]
+      },
+      {
+        "id": "TC-205",
+        "retrievalScore": 4.122893,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "выбрать",
+          "дату",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-204",
+        "retrievalScore": 4.037505,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "через"
+        ]
+      },
+      {
+        "id": "TC-251",
+        "retrievalScore": 4.0,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-252",
+        "retrievalScore": 4.0,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": []
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-144",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-273",
+        "retrievalScore": 14.58237,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "reliability",
+          "safeguards"
+        ],
+        "sharedTerms": [
+          "tpm",
+          "восстановления",
+          "выбрать",
+          "минут",
+          "обеспечивает",
+          "очередь",
+          "повторное",
+          "при",
+          "ради",
+          "списание",
+          "срок",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-214",
+        "retrievalScore": 14.125282,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "reliability",
+          "safeguards"
+        ],
+        "sharedTerms": [
+          "tpm",
+          "как",
+          "минут"
+        ]
+      },
+      {
+        "id": "TC-297",
+        "retrievalScore": 10.216597,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "tpm",
+          "базы",
+          "после",
+          "при",
+          "текущий"
+        ]
+      },
+      {
+        "id": "TC-110",
+        "retrievalScore": 10.038632,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "tpm"
+        ]
+      },
+      {
+        "id": "TC-166",
+        "retrievalScore": 10.038632,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "tpm"
+        ]
+      },
+      {
+        "id": "TC-265",
+        "retrievalScore": 10.038632,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "tpm"
+        ]
+      },
+      {
+        "id": "TC-241",
+        "retrievalScore": 9.220638,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "tpm",
+          "базы",
+          "добавить",
+          "как",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-190",
+        "retrievalScore": 9.132551,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "tpm",
+          "запись",
+          "требует"
+        ]
+      },
+      {
+        "id": "TC-249",
+        "retrievalScore": 9.038632,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "tpm"
+        ]
+      },
+      {
+        "id": "TC-238",
+        "retrievalScore": 8.135096,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "dependency-decoupling"
+        ],
+        "sharedTerms": [
+          "как",
+          "может",
+          "обязательна"
+        ]
+      },
+      {
+        "id": "TC-262",
+        "retrievalScore": 7.16144,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "dependency-decoupling"
+        ],
+        "sharedTerms": [
+          "выбрать",
+          "команда",
+          "срок",
+          "требует"
+        ]
+      },
+      {
+        "id": "TC-163",
+        "retrievalScore": 7.131437,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "dependency-decoupling"
+        ],
+        "sharedTerms": [
+          "может",
+          "текущий",
+          "требует"
+        ]
+      },
+      {
+        "id": "TC-199",
+        "retrievalScore": 7.061735,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "dependency-decoupling"
+        ],
+        "sharedTerms": [
+          "после",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-251",
+        "retrievalScore": 7.039741,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "dependency-decoupling"
+        ],
+        "sharedTerms": [
+          "срок"
+        ]
+      },
+      {
+        "id": "TC-252",
+        "retrievalScore": 7.039741,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "dependency-decoupling"
+        ],
+        "sharedTerms": [
+          "срок"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-163",
+      "TC-190",
+      "TC-199",
+      "TC-238",
+      "TC-241",
+      "TC-249",
+      "TC-251",
+      "TC-252",
+      "TC-262"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-150",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-198",
+        "retrievalScore": 17.284231,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "senior",
+          "tpm",
+          "без",
+          "выносить",
+          "можно",
+          "монолита",
+          "независимой"
+        ]
+      },
+      {
+        "id": "TC-110",
+        "retrievalScore": 10.185237,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "tpm",
+          "вынести",
+          "ещё",
+          "можно",
+          "сервис"
+        ]
+      },
+      {
+        "id": "TC-167",
+        "retrievalScore": 8.141897,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "senior",
+          "выбирает",
+          "зависимости",
+          "один"
+        ]
+      },
+      {
+        "id": "TC-175",
+        "retrievalScore": 8.118158,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "senior",
+          "изменений",
+          "новых"
+        ]
+      },
+      {
+        "id": "TC-235",
+        "retrievalScore": 7.193584,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "границы",
+          "можно",
+          "правилами",
+          "требуют",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-135",
+        "retrievalScore": 7.171976,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "есть",
+          "ещё",
+          "новых",
+          "при",
+          "сначала"
+        ]
+      },
+      {
+        "id": "TC-161",
+        "retrievalScore": 7.118089,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "без",
+          "зависимости",
+          "ответственности"
+        ]
+      },
+      {
+        "id": "TC-234",
+        "retrievalScore": 7.103715,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "можно",
+          "правилами",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-107",
+        "retrievalScore": 7.100654,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "границы",
+          "при",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-106",
+        "retrievalScore": 7.092445,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "после",
+          "проверить",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-158",
+        "retrievalScore": 7.081851,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "границы",
+          "общей"
+        ]
+      },
+      {
+        "id": "TC-147",
+        "retrievalScore": 7.075589,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "как",
+          "ответственности"
+        ]
+      },
+      {
+        "id": "TC-298",
+        "retrievalScore": 7.030525,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": [
+          "ещё"
+        ]
+      },
+      {
+        "id": "TC-222",
+        "retrievalScore": 7.0,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "structural-dependency-reduction"
+        ],
+        "sharedTerms": []
+      }
+    ],
+    "safetyAdded": [
+      "TC-106",
+      "TC-107",
+      "TC-147",
+      "TC-158",
+      "TC-161",
+      "TC-222",
+      "TC-234",
+      "TC-298"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-160",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-184",
+        "retrievalScore": 14.273397,
+        "reasons": [
+          "topicId",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "business",
+          "case",
+          "senior",
+          "операции",
+          "спрос",
+          "спроса"
+        ]
+      },
+      {
+        "id": "TC-218",
+        "retrievalScore": 11.258549,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "options"
+        ],
+        "sharedTerms": [
+          "npv",
+          "делает",
+          "или",
+          "при",
+          "сценариев",
+          "сценарии"
+        ]
+      },
+      {
+        "id": "TC-148",
+        "retrievalScore": 11.0,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-208",
+        "retrievalScore": 11.0,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-245",
+        "retrievalScore": 11.0,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-170",
+        "retrievalScore": 10.175159,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "запуска",
+          "пересобрать",
+          "подтверждённым",
+          "после"
+        ]
+      },
+      {
+        "id": "TC-291",
+        "retrievalScore": 9.345727,
+        "reasons": [
+          "topicId",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "scope",
+          "senior",
+          "для",
+          "дополнительных",
+          "ограниченный",
+          "оставляет",
+          "расходы",
+          "этот"
+        ]
+      },
+      {
+        "id": "TC-250",
+        "retrievalScore": 9.147178,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "business",
+          "case",
+          "именно"
+        ]
+      },
+      {
+        "id": "TC-123",
+        "retrievalScore": 9.089224,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "npv",
+          "общей"
+        ]
+      },
+      {
+        "id": "TC-108",
+        "retrievalScore": 7.098039,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "для",
+          "при",
+          "этот"
+        ]
+      },
+      {
+        "id": "TC-109",
+        "retrievalScore": 7.098039,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "для",
+          "при",
+          "этот"
+        ]
+      },
+      {
+        "id": "TC-253",
+        "retrievalScore": 7.077331,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "ограничение",
+          "при"
+        ]
+      },
+      {
+        "id": "TC-254",
+        "retrievalScore": 7.077331,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "ограничение",
+          "при"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-108",
+      "TC-109",
+      "TC-123",
+      "TC-250",
+      "TC-253",
+      "TC-254",
+      "TC-291"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-170",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-160",
+        "retrievalScore": 10.178966,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "запуска",
+          "пересобрать",
+          "подтверждённым",
+          "после"
+        ]
+      },
+      {
+        "id": "TC-114",
+        "retrievalScore": 9.17252,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "между",
+          "общий",
+          "правила",
+          "статьями"
+        ]
+      },
+      {
+        "id": "TC-269",
+        "retrievalScore": 9.03397,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "один"
+        ]
+      },
+      {
+        "id": "TC-300",
+        "retrievalScore": 9.0,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-253",
+        "retrievalScore": 7.280525,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "бюджетные",
+          "все",
+          "горизонте",
+          "лимит",
+          "общем",
+          "полномочия"
+        ]
+      },
+      {
+        "id": "TC-254",
+        "retrievalScore": 7.280525,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "бюджетные",
+          "все",
+          "горизонте",
+          "лимит",
+          "общем",
+          "полномочия"
+        ]
+      },
+      {
+        "id": "TC-109",
+        "retrievalScore": 7.227867,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "без",
+          "бюджет",
+          "все",
+          "класс",
+          "лимит",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-108",
+        "retrievalScore": 7.185417,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "без",
+          "все",
+          "класс",
+          "лимит",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-184",
+        "retrievalScore": 7.111842,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "без",
+          "будущего",
+          "уже"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-108",
+      "TC-109",
+      "TC-184"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-184",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-160",
+        "retrievalScore": 14.285548,
+        "reasons": [
+          "topicId",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "business",
+          "case",
+          "senior",
+          "операции",
+          "спрос",
+          "спроса"
+        ]
+      },
+      {
+        "id": "TC-291",
+        "retrievalScore": 9.152689,
+        "reasons": [
+          "topicId",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "senior",
+          "ещё",
+          "который",
+          "снижает"
+        ]
+      },
+      {
+        "id": "TC-148",
+        "retrievalScore": 8.253434,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "автоматизации",
+          "время",
+          "денежной",
+          "считать",
+          "экономию"
+        ]
+      },
+      {
+        "id": "TC-208",
+        "retrievalScore": 8.08716,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "зависит",
+          "контракт"
+        ]
+      },
+      {
+        "id": "TC-245",
+        "retrievalScore": 8.037921,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "два"
+        ]
+      },
+      {
+        "id": "TC-108",
+        "retrievalScore": 7.149052,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "без",
+          "два",
+          "существующего",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-109",
+        "retrievalScore": 7.149052,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "без",
+          "два",
+          "существующего",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-170",
+        "retrievalScore": 7.114327,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "без",
+          "будущего",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-253",
+        "retrievalScore": 7.048415,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "мощность"
+        ]
+      },
+      {
+        "id": "TC-254",
+        "retrievalScore": 7.048415,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "мощность"
+        ]
+      },
+      {
+        "id": "TC-250",
+        "retrievalScore": 6.15124,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "business",
+          "case",
+          "эффект"
+        ]
+      },
+      {
+        "id": "TC-123",
+        "retrievalScore": 6.147188,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "выгоды",
+          "года",
+          "два"
+        ]
+      },
+      {
+        "id": "TC-218",
+        "retrievalScore": 6.112463,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "adoption",
+          "выгоды"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-109",
+      "TC-123",
+      "TC-170",
+      "TC-218",
+      "TC-250",
+      "TC-253",
+      "TC-254"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-186",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-285",
+        "retrievalScore": 16.05089,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "доступны"
+        ]
+      },
+      {
+        "id": "TC-164",
+        "retrievalScore": 14.450845,
+        "reasons": [
+          "topicId",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "выбирает",
+          "заранее",
+          "механизм",
+          "можно",
+          "предполагаемый",
+          "проверку",
+          "разработки",
+          "сегмента",
+          "теста"
+        ]
+      },
+      {
+        "id": "TC-129",
+        "retrievalScore": 12.205454,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "заранее",
+          "следующий",
+          "тест",
+          "теста"
+        ]
+      },
+      {
+        "id": "TC-130",
+        "retrievalScore": 12.089661,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "заранее",
+          "теста"
+        ]
+      },
+      {
+        "id": "TC-219",
+        "retrievalScore": 8.158522,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "гипотезы",
+          "разработки",
+          "теста"
+        ]
+      },
+      {
+        "id": "TC-246",
+        "retrievalScore": 6.105205,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "только",
+          "через"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-291",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-160",
+        "retrievalScore": 9.411372,
+        "reasons": [
+          "topicId",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "scope",
+          "senior",
+          "для",
+          "дополнительных",
+          "ограниченный",
+          "оставляет",
+          "расходы",
+          "этот"
+        ]
+      },
+      {
+        "id": "TC-184",
+        "retrievalScore": 9.17395,
+        "reasons": [
+          "topicId",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "senior",
+          "ещё",
+          "который",
+          "снижает"
+        ]
+      },
+      {
+        "id": "TC-245",
+        "retrievalScore": 8.065882,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "экономики"
+        ]
+      },
+      {
+        "id": "TC-208",
+        "retrievalScore": 8.038069,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "требует"
+        ]
+      },
+      {
+        "id": "TC-148",
+        "retrievalScore": 8.0,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-250",
+        "retrievalScore": 6.115707,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "продукта",
+          "проект"
+        ]
+      },
+      {
+        "id": "TC-123",
+        "retrievalScore": 6.100788,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "даёт",
+          "затем"
+        ]
+      },
+      {
+        "id": "TC-218",
+        "retrievalScore": 6.084056,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "можно",
+          "одном"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-123",
+      "TC-218"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-181",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-182",
+        "retrievalScore": 24.198301,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization",
+          "proactive-management",
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "allocation",
+          "capacity",
+          "head",
+          "owner",
+          "ближайшее",
+          "ближайшему",
+          "возврата",
+          "годовую",
+          "договорённости",
+          "допуск",
+          "допуска",
+          "закрепить",
+          "защищённый",
+          "имеет",
+          "инициатив",
+          "инициатива",
+          "квартале",
+          "квартальную",
+          "командами",
+          "личные",
+          "мандат",
+          "между",
+          "модель",
+          "можно",
+          "мощности",
+          "назначения",
+          "наём",
+          "незапланированной",
+          "новая",
+          "нужного",
+          "обещаний",
+          "обычный",
+          "обязательная",
+          "обязательства",
+          "обязательству",
+          "одинаковы",
+          "отражает",
+          "перебросок",
+          "пересобирает",
+          "планов",
+          "повторяется",
+          "повторяющемся",
+          "при",
+          "профиль",
+          "профильной",
+          "профиля",
+          "работы",
+          "разовые",
+          "разовых",
+          "разрушают",
+          "разрушении",
+          "ревизию",
+          "резерв",
+          "резерва",
+          "сверх",
+          "сдвига",
+          "систему",
+          "следующем",
+          "снова",
+          "состав",
+          "спрос",
+          "спроса",
+          "сроки",
+          "такого",
+          "требует",
+          "успевает",
+          "цена",
+          "централизованный",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-188",
+        "retrievalScore": 10.170285,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "командами",
+          "между",
+          "цена",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-272",
+        "retrievalScore": 10.109835,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "имеет",
+          "между",
+          "размера"
+        ]
+      },
+      {
+        "id": "TC-196",
+        "retrievalScore": 10.095487,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "имеет",
+          "обязательства"
+        ]
+      },
+      {
+        "id": "TC-292",
+        "retrievalScore": 9.166257,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization",
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "инициатив",
+          "использовать",
+          "обещаний"
+        ]
+      },
+      {
+        "id": "TC-209",
+        "retrievalScore": 9.096688,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization",
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "owner",
+          "имеет"
+        ]
+      },
+      {
+        "id": "TC-276",
+        "retrievalScore": 8.173925,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "между",
+          "обязательства",
+          "работы",
+          "размера"
+        ]
+      },
+      {
+        "id": "TC-277",
+        "retrievalScore": 8.139099,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "между",
+          "работы",
+          "размера"
+        ]
+      },
+      {
+        "id": "TC-118",
+        "retrievalScore": 7.232752,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "его",
+          "инициативы",
+          "можно",
+          "пересобирает",
+          "работы",
+          "спрос"
+        ]
+      },
+      {
+        "id": "TC-142",
+        "retrievalScore": 7.144809,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "квартальную",
+          "между",
+          "обязательства"
+        ]
+      },
+      {
+        "id": "TC-123",
+        "retrievalScore": 7.115276,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "имеет",
+          "инициативы",
+          "использовать"
+        ]
+      },
+      {
+        "id": "TC-208",
+        "retrievalScore": 7.096764,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "имеет",
+          "требует",
+          "цена"
+        ]
+      },
+      {
+        "id": "TC-246",
+        "retrievalScore": 7.063162,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-245",
+        "retrievalScore": 7.028336,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-118",
+      "TC-123",
+      "TC-142",
+      "TC-208",
+      "TC-245",
+      "TC-246",
+      "TC-276",
+      "TC-277"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-182",
+    "topN": 7,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-181",
+        "retrievalScore": 24.103301,
+        "reasons": [
+          "topicId",
+          "domain",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization",
+          "proactive-management",
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "allocation",
+          "capacity",
+          "head",
+          "owner",
+          "ближайшее",
+          "ближайшему",
+          "возврата",
+          "годовую",
+          "договорённости",
+          "допуск",
+          "допуска",
+          "закрепить",
+          "защищённый",
+          "имеет",
+          "инициатив",
+          "инициатива",
+          "квартале",
+          "квартальную",
+          "командами",
+          "личные",
+          "мандат",
+          "между",
+          "модель",
+          "можно",
+          "мощности",
+          "назначения",
+          "наём",
+          "незапланированной",
+          "новая",
+          "нужного",
+          "обещаний",
+          "обычный",
+          "обязательная",
+          "обязательства",
+          "обязательству",
+          "одинаковы",
+          "отражает",
+          "перебросок",
+          "пересобирает",
+          "планов",
+          "повторяется",
+          "повторяющемся",
+          "при",
+          "профиль",
+          "профильной",
+          "профиля",
+          "работы",
+          "разовые",
+          "разовых",
+          "разрушают",
+          "разрушении",
+          "ревизию",
+          "резерв",
+          "резерва",
+          "сверх",
+          "сдвига",
+          "систему",
+          "следующем",
+          "снова",
+          "состав",
+          "спрос",
+          "спроса",
+          "сроки",
+          "такого",
+          "требует",
+          "успевает",
+          "цена",
+          "централизованный",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-188",
+        "retrievalScore": 10.248123,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "командами",
+          "между",
+          "нет",
+          "обязательство",
+          "цена",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-196",
+        "retrievalScore": 10.09265,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "имеет",
+          "обязательства"
+        ]
+      },
+      {
+        "id": "TC-272",
+        "retrievalScore": 10.061903,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "имеет",
+          "между"
+        ]
+      },
+      {
+        "id": "TC-209",
+        "retrievalScore": 9.176713,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization",
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "owner",
+          "имеет",
+          "нет",
+          "текущими"
+        ]
+      },
+      {
+        "id": "TC-292",
+        "retrievalScore": 9.122652,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization",
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "инициатив",
+          "обещаний"
+        ]
+      },
+      {
+        "id": "TC-276",
+        "retrievalScore": 8.12409,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "между",
+          "обязательства",
+          "работы"
+        ]
+      },
+      {
+        "id": "TC-277",
+        "retrievalScore": 8.123047,
+        "reasons": [
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "между",
+          "работы",
+          "сначала"
+        ]
+      },
+      {
+        "id": "TC-118",
+        "retrievalScore": 7.185009,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "можно",
+          "общий",
+          "пересобирает",
+          "работы",
+          "спрос"
+        ]
+      },
+      {
+        "id": "TC-142",
+        "retrievalScore": 7.140508,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "квартальную",
+          "между",
+          "обязательства"
+        ]
+      },
+      {
+        "id": "TC-208",
+        "retrievalScore": 7.09389,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "имеет",
+          "требует",
+          "цена"
+        ]
+      },
+      {
+        "id": "TC-246",
+        "retrievalScore": 7.061286,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-123",
+        "retrievalScore": 7.031364,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "имеет"
+        ]
+      },
+      {
+        "id": "TC-245",
+        "retrievalScore": 7.027494,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "portfolio-reprioritization"
+        ],
+        "sharedTerms": [
+          "capacity"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-118",
+      "TC-123",
+      "TC-142",
+      "TC-208",
+      "TC-245",
+      "TC-246",
+      "TC-276",
+      "TC-277"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

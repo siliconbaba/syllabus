@@ -1,0 +1,9 @@
+{
+  "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "agent-artifacts/project-completion/qa-manifest-completion03/QA-verdict.json": "b9b9245ade80cdd748f00b2ec847a12273a721c3e93b52e0ce3ae6b971203601",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "agent-artifacts/test-bank/full-cases/pack-101-103-110-111/source-t-10-1.txt": "e881c017a2df7a6f36092697da9514d5f869b6c8cdb10c8c094f4d277c11804c",
+  "agent-artifacts/test-bank/full-cases/pack-101-103-110-111/source-t-3-3.txt": "df5fe3101314e1a8f73a40db5005fe1a207888aac098d1e9119d6fa0ea82c5e6",
+  "agent-artifacts/test-bank/full-cases/pack-101-103-110-111/source-t-4-3.txt": "9fa8d8da66eeadf753361641fd66153a3a9c8fb5cdbf72f0edfa627eaaaeb00b"
+}

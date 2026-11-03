@@ -1,0 +1,18 @@
+{
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "topics": {
+    "t-4-5": {
+      "completeAuthoritativeTopicRead": true,
+      "normalizedCharacters": 18159,
+      "normalizedSHA256": "49d28b2eb299b643c1bc5807522bc2b7ab712e989f99c46ad100158aba9bd2d0",
+      "note": "exact read-text match"
+    },
+    "t-9-6": {
+      "completeAuthoritativeTopicRead": true,
+      "normalizedCharacters": 21681,
+      "normalizedSHA256": "1fae65926b0ded620776d4c5888423c2ec31e627a1c08963e1a6f4b1c478fa31",
+      "note": "t9.6 cached read also included next part intro; source argument restricted to actual t9.6 node"
+    }
+  },
+  "externalContentUsed": false
+}

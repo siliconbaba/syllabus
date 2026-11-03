@@ -1,0 +1,16 @@
+{
+  "InteractiveBook/TrainerContent/cases.json": true,
+  "agent-artifacts/manifests/v2.2.3/production_manifest_masterplan_v2_2_3.json": true,
+  "agent-artifacts/qa/manifest-v2.3-hardtail-b2/QA-verdict.json": true,
+  "agent-artifacts/manifests/CURRENT.md": true,
+  "InteractiveBook/WebContent/index.html": true,
+  "InteractiveBook/Trainer/TrainerModels.swift": true,
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": true,
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": true,
+  "docs/TRAINER-CONTENT-SCHEMA.md": true,
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": true,
+  "agent-artifacts/contracts/TEST-BANK-RUNBOOK.md": true,
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": true,
+  "agent-artifacts/test-bank/unified-reconstruction-plan-delta-01/plan-overlay.json": true,
+  "agent-artifacts/test-bank/unified-reconstruction-plan-delta-01/next-unit-recommendation.md": true
+}

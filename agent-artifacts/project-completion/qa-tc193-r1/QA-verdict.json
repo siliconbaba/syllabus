@@ -1,0 +1,47 @@
+{
+  "status": "FIX_REQUIRED",
+  "scope": "independent focused manifest-row QA; no full-case options exist",
+  "candidateSHA256": "d4ab92237a531de7fd742f501efeef4529d172b4af6dcfdd6ceb1131f04cd0aa",
+  "candidate": "agent-artifacts/test-bank/reconstruction/tc193-r1/proposed-manifest-row.json",
+  "caseIDs": [
+    "TC-193"
+  ],
+  "gateResults": {
+    "sourceGrounding": "PASS",
+    "distinctDecisionBoundary": "PASS",
+    "JuniorRealization": "PASS",
+    "structuralInvariants": "PASS",
+    "runtimeVocabularyAndDerivedFields": "PASS",
+    "internalConsistency": "MINOR_FIX_REQUIRED",
+    "fullCaseBlindStrongest": "NOT_APPLICABLE",
+    "optionSurfaceAndDQ": "NOT_APPLICABLE",
+    "fullCumulativeCoverage": "NOT_RUN; per-row delta recorded"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 1
+  },
+  "candidateAccepted": false,
+  "readyForFullCaseAuthoring": false,
+  "readyForFreeze": false,
+  "importEligible": false,
+  "remainingUnresolved": 72,
+  "productionChanged": false,
+  "manifestChanged": false,
+  "coverageDelta": {
+    "uiDomain": "people unchanged",
+    "level": "junior unchanged",
+    "standaloneAssessmentCount": 0,
+    "thinkingNormalizedWeightsBefore": {
+      "proportionality": 0.6666666666666666,
+      "stakeholders": 0.3333333333333333
+    },
+    "thinkingNormalizedWeightsAfter": {
+      "stakeholders": 1.0
+    },
+    "contextScoredEvidence": 0,
+    "headBreadthDelta": 0
+  },
+  "requiredNextStep": "Local immutable R2 fixing duplicate access request; focused retest can accept blueprint if exact scope preserved. Global freeze/coverage still separate."
+}

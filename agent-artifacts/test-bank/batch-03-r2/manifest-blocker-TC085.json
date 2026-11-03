@@ -1,0 +1,63 @@
+{
+  "id": "TC-085",
+  "status": "MANIFEST BLOCKER",
+  "reason": "Independent QA requires another diagnostic boundary; frozen row explicitly fixes localized impact + sufficient targeted set + much more expensive full regression. Those are exactly the decisive fact, candidate error and actual choice identified as TC-004 near duplicate. Cosmetic changes cannot satisfy both requirements.",
+  "frozenRow": {
+    "plannedId": "TC-085",
+    "batch": "Batch 03",
+    "block": "B03 — Delivery & Release",
+    "partId": "part-3",
+    "topicId": "t-3-9",
+    "oneSentenceScenarioConcept": "Middle release manager выпускает изменение расчёта комиссии: impact analysis показывает затронутый один класс сценариев, полный ручной регресс занимает день, targeted набор — час; нужно решить объём проверки по риску.",
+    "decisiveFactsConcept": [
+      "Затронутый класс риска локализован",
+      "Targeted набор покрывает его",
+      "Полный регресс значительно дороже"
+    ],
+    "oneSentenceDecisionBoundary": "Одинаковый полный регресс для любого изменения ↔ risk-based testing по реальному impact.",
+    "domain": "release_and_quality",
+    "requiredLevel": "middle",
+    "primaryPattern": "evidence-before-release",
+    "secondaryPatterns": [
+      "risk-based-testing",
+      "regression-evidence"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Delivery и релизы",
+    "derivedRuntimePrimaryThinking": "evidence",
+    "derivedRuntimeSecondaryThinking": [
+      "risk",
+      "risk"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  "QAFix": {
+    "caseId": "TC-085",
+    "severity": "MAJOR",
+    "fields": "context; question; options; diagnostic boundary",
+    "problem": "NEAR DUPLICATE TC-004: локальный impact, подтверждённо достаточный targeted critical+adjacent набор, потеря бизнеса при задержке → targeted вместо полного/недостаточного регресса. Отсутствие активного инцидента, комиссия и восемь часов не меняют ядро решения.",
+    "minimalFix": "Согласовать для TC-085 другую диагностическую границу внутри t-3-9; если frozen boundary не допускает её, нужен локальный manifest change. Затем повторить cross-bank comparison с TC-003/004. Одной смены цифр или actor недостаточно.",
+    "strongestChange": "Определить после согласования новой границы",
+    "recheck": "Manifest-owner review одной строки, затем focused source/uniqueness/duplication QA."
+  },
+  "actionTaken": "STOP on this ID; candidate row left byte-identical; no manifest edit. Other authorized local fixes completed.",
+  "requiredExternalDecision": "Manifest owner must authorize/revise the single diagnostic boundary before TC-085 can be changed.",
+  "TC004Tests": "Выбрать достаточный целевой регресс при локальном impact и недостающей автоматике, затем ограничить rollout.",
+  "TC085Tests": "Выбрать достаточный целевой регресс при локальном impact вместо дорогого полного регресса.",
+  "differentDecisiveFact": "Нет достаточного различия внутри текущей frozen boundary.",
+  "differentCandidateMistake": "Нет достаточного различия: избыточный полный или недостаточный быстрый набор вместо достаточного targeted.",
+  "differentActualDecision": "Ядро одинаково: выполнить достаточный targeted и решать о выпуске.",
+  "classification": "NEAR DUPLICATE"
+}

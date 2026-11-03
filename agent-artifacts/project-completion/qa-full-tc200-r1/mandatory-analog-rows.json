@@ -1,0 +1,285 @@
+[
+  {
+    "plannedId": "TC-056",
+    "batch": "Batch 02",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-2",
+    "oneSentenceScenarioConcept": "Проект получил отрицательный сигнал по сроку; фактического срыва ещё нет, а спонсор может менять scope и приоритет внешней команды. В этой версии решающий факт: Надёжность обновлённого прогноза после пересчёта: данных пока недостаточно: диапазон широкий и ключевая оценка будет подтверждена через три дня. Под выбором — Сообщить риск, диапазон и точку следующей проверки, не выдавая гипотезу за новый срок.",
+    "decisiveFactsConcept": [
+      "Надёжность обновлённого прогноза после пересчёта: данных пока недостаточно: диапазон широкий и ключевая оценка будет подтверждена через три дня",
+      "Одинаковый отрицательный сигнал",
+      "Одинаковая возможность спонсора влиять на решение"
+    ],
+    "oneSentenceDecisionBoundary": "Сообщить риск, диапазон и точку следующей проверки, не выдавая гипотезу за новый срок.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "early-bad-news",
+    "secondaryPatterns": [
+      "forecast",
+      "expectation-management"
+    ],
+    "structure": "pair",
+    "scenarioFamilyId": "F-ST-P01",
+    "familyPosition": 1,
+    "decisiveMutationConcept": "Надёжность обновлённого прогноза после пересчёта: данных пока недостаточно: диапазон широкий и ключевая оценка будет подтверждена через три дня",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-057",
+    "batch": "Batch 02",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-2",
+    "oneSentenceScenarioConcept": "Проект получил отрицательный сигнал по сроку; фактического срыва ещё нет, а спонсор может менять scope и приоритет внешней команды. В этой версии решающий факт: Надёжность обновлённого прогноза после пересчёта: критический путь пересчитан, диапазон узкий и сдвиг подтверждён владельцами работ. Под выбором — Сообщить новый прогноз и сразу показать варианты scope/приоритета.",
+    "decisiveFactsConcept": [
+      "Надёжность обновлённого прогноза после пересчёта: критический путь пересчитан, диапазон узкий и сдвиг подтверждён владельцами работ",
+      "Одинаковый отрицательный сигнал",
+      "Одинаковая возможность спонсора влиять на решение"
+    ],
+    "oneSentenceDecisionBoundary": "Сообщить новый прогноз и сразу показать варианты scope/приоритета.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "early-bad-news",
+    "secondaryPatterns": [
+      "forecast",
+      "expectation-management"
+    ],
+    "structure": "pair",
+    "scenarioFamilyId": "F-ST-P01",
+    "familyPosition": 2,
+    "decisiveMutationConcept": "Надёжность обновлённого прогноза после пересчёта: критический путь пересчитан, диапазон узкий и сдвиг подтверждён владельцами работ",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-200",
+    "batch": "Batch 07",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-2",
+    "oneSentenceScenarioConcept": "Junior PM видит, что дата формально ещё достижима, но критический путь потерял весь резерв после подтверждённой задержки поставщика; спонсор может изменить scope; нужно решить, ждать фактического срыва или сообщить риск сейчас.",
+    "decisiveFactsConcept": [
+      "Float исчерпан",
+      "Поставщик подтвердил задержку",
+      "Спонсор может менять scope"
+    ],
+    "oneSentenceDecisionBoundary": "Сообщать только факт просрочки ↔ ранняя плохая новость с последствиями и вариантами.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "junior",
+    "primaryPattern": "early-bad-news",
+    "secondaryPatterns": [
+      "forecast",
+      "expectation-management"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-216",
+    "batch": "Batch 08",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-1",
+    "oneSentenceScenarioConcept": "Junior PM составляет stakeholder map для проекта с регулятором, внутренним спонсором и операционной командой; регулятор имеет высокую власть, но взаимодействует только в контрольных точках; нужно решить, кому нужен плотный ежедневный контакт.",
+    "decisiveFactsConcept": [
+      "Власть и интерес различаются",
+      "Есть редкие формальные внешние точки",
+      "Операционная команда вовлечена ежедневно"
+    ],
+    "oneSentenceDecisionBoundary": "Частота коммуникации по статусу ↔ стратегия контакта по власти и интересу.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "junior",
+    "primaryPattern": "communications",
+    "secondaryPatterns": [
+      "external-contact"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-224",
+    "batch": "Batch 08",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-5",
+    "oneSentenceScenarioConcept": "Junior coordinator работает с распределённой командой: решение по API принято на встрече в одном часовом поясе, половина команды не присутствовала и на следующий день трактует его иначе; нужно решить, достаточно ли устной синхронизации.",
+    "decisiveFactsConcept": [
+      "Команда распределена по часовым поясам",
+      "Решение влияет на несколько команд",
+      "Письменной фиксации нет"
+    ],
+    "oneSentenceDecisionBoundary": "Устная договорённость ↔ асинхронно доступная фиксация решения и owner.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "junior",
+    "primaryPattern": "communications",
+    "secondaryPatterns": [
+      "dependency-management"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-243",
+    "batch": "Batch 09",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-2",
+    "oneSentenceScenarioConcept": "Middle PM после пересчёта имеет прогноз «+2–6 недель», потому что одна интеграция ещё не оценена; нужно решить, говорить ли заказчику «срок сдвинется на 6 недель» или отделить факт от диапазона прогноза.",
+    "decisiveFactsConcept": [
+      "Диапазон широк",
+      "Одна оценка ещё неизвестна",
+      "Риск уже влияет на решение заказчика"
+    ],
+    "oneSentenceDecisionBoundary": "Ложная определённость ради ясности ↔ честный диапазон и следующая точка уточнения.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "early-bad-news",
+    "secondaryPatterns": [
+      "forecast",
+      "expectation-management"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-267",
+    "batch": "Batch 10",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-2",
+    "oneSentenceScenarioConcept": "Middle delivery manager должен сообщить о задержке внешнему партнёру: mitigation уже выбран, новая дата вероятна, но контракт допускает обмен scope на срок; нужно решить, отправить только новый срок или принести развилку.",
+    "decisiveFactsConcept": [
+      "Задержка подтверждена",
+      "Есть mitigation",
+      "Контракт допускает trade-off scope/date"
+    ],
+    "oneSentenceDecisionBoundary": "Статус как одностороннее уведомление ↔ плохая новость плюс варианты решения.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "early-bad-news",
+    "secondaryPatterns": [
+      "expectation-management",
+      "options"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "stakeholders",
+      "uncertainty"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  }
+]

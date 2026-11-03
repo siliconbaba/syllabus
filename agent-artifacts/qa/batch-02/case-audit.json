@@ -1,0 +1,490 @@
+[
+  {
+    "id": "TC-051",
+    "predictedStrongest": "C",
+    "productionStrongest": "C",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Ожидание Н 2×1 плюс К=6 даёт 8 против 4 у C.",
+      "B": "26 за внешнюю команду больше четырёх недель ожидания по 1.",
+      "D": "Все последствия прерывания стоят 18 против 4."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-9-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL NOT REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": [
+      "B02-03"
+    ]
+  },
+  {
+    "id": "TC-052",
+    "predictedStrongest": "A",
+    "productionStrongest": "A",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "B": "26 больше 2×4+6=14.",
+      "C": "4×4=16 больше 14; стабильность очереди уже учтена в полной цене.",
+      "D": "Прерывание стоит 18, сохранение Р и перенос К — 14."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-9-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL NOT REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": [
+      "B02-03"
+    ]
+  },
+  {
+    "id": "TC-053",
+    "predictedStrongest": "D",
+    "productionStrongest": "D",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "2×10+6=26 больше 18.",
+      "B": "Внешняя мощность 26 больше полной цены прерывания 18.",
+      "C": "Четыре недели ожидания по 10 дают 40 против 18."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-9-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL NOT REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": [
+      "B02-03",
+      "B02-05"
+    ]
+  },
+  {
+    "id": "TC-054",
+    "predictedStrongest": "B",
+    "productionStrongest": "B",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Регресс пройден, возврат доказан за 7 минут при лимите 10; оснований терять окно нет.",
+      "C": "Репетиция именно этой версии и новых данных уже была вчера; повтор не закрывает названного нового пробела.",
+      "D": "Новый путь прошёл регресс; наблюдаемая малая волна и возврат готовы. Незакрытый риск нагрузки, требующий тени, не задан."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-3-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-055",
+    "predictedStrongest": "C",
+    "productionStrongest": "C",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Нужна проверка возврата после записей, а не полный регресс; 30 минут есть сейчас.",
+      "B": "Флаг не восстанавливает записи, возврат на них никогда не выполнялся.",
+      "D": "Теневой прогон нового пути не проверяет восстановление старого кода и данных за 10 минут."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-3-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-056",
+    "predictedStrongest": "A",
+    "productionStrongest": "A",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "B": "Обычный статус оставляет спонсору один день вместо доступного раннего окна решения.",
+      "C": "Ключевая оценка пока не подтверждена; интервал включает нулевой сдвиг. Нельзя представить его подтверждённым новым прогнозом.",
+      "D": "Ожидание переговоров скрывает риск; у спонсора есть рычаги scope/приоритета, данные уточнятся через три дня."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-6-2",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-057",
+    "predictedStrongest": "C",
+    "productionStrongest": "C",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Прогноз подтверждён владельцами; новых данных через три дня не ожидается, поэтому откладывать выбор на новую проверку не обосновано.",
+      "B": "Молчание до статуса сокращает окно решения до одного дня.",
+      "D": "Сначала получать отдельное обещание — откладывать обсуждение scope/приоритета при уже подтверждённом сдвиге."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-6-2",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-058",
+    "predictedStrongest": "A",
+    "productionStrongest": "A",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "B": "Деление команды задерживает обе инициативы; частичный результат бесполезен.",
+      "C": "Незакрытых вопросов оценки нет; неделя ожидания не покупает названного знания.",
+      "D": "Первая А оставляет 3 млн потерь Б; первая Б — только 1 млн потерь А."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-9-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-059",
+    "predictedStrongest": "D",
+    "productionStrongest": "D",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Первая Б оставляет 5 млн потерь А; первая А — только 3 млн потерь Б.",
+      "B": "Обе задержатся; при последовательной работе первая даёт результат через месяц.",
+      "C": "Оценки подтверждены, вопрос для дополнительной недели не задан."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-9-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-060",
+    "predictedStrongest": "B",
+    "productionStrongest": "B",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Анонс и ручной этап доступны до необратимого квартального вложения; окно запуска не теряется.",
+      "C": "Анонс доказывает интерес, не возвращаемость; ручная проверка следующей гипотезы доступна.",
+      "D": "Положительное мнение не проверяет ни поведение в тесте, ни повторное использование; оба можно проверить малыми этапами."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-13-2",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-061",
+    "predictedStrongest": "D",
+    "productionStrongest": "D",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "40 минут наблюдения не стоят отдельной выгоды и помещаются в окно; полный охват увеличивает ущерб до отключения.",
+      "B": "Текущее окно даёт достаточный репрезентативный сигнал и безопасный возврат; перенос не закрывает заданного пробела.",
+      "C": "Сотрудники и отсутствие жалоб не заменяют имеющиеся репрезентативные операции и метрики по версиям."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-3-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-062",
+    "predictedStrongest": "A",
+    "productionStrongest": "A",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "B": "Старый писатель продолжает изменять поле после backfill; календарные три недели не доказывают актуальность и завершение.",
+      "C": "Атомарного переключения нет; ожидание последнего клиента его не создаёт.",
+      "D": "Старое поле нужно только на переходе; подтверждение завершения доступно, поэтому вечное дублирование не требуется."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-10-1",
+    "supplementalSourceAnchor": "t-10-2",
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-063",
+    "predictedStrongest": "C",
+    "productionStrongest": "C",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Запросы непредсказуемы и ярлык срочности не проверяется; календарный план не создаёт допуска expedite.",
+      "B": "Новой мощности нет, повышение WIP не различает реальную срочность и давление.",
+      "D": "Два запроса реально останавливали операции; ожидание всей четвёрки игнорирует разрешённое вытеснение."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-4-2",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-064",
+    "predictedStrongest": "B",
+    "productionStrongest": "B",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "15−4=11 меньше исполнимой альтернативы 12; иных выгод отношений нет.",
+      "C": "Собственная граница 15−12=3; потеря партнёра 2 не отменяет выгоду сделки с уступкой между 2 и 3.",
+      "D": "До завтра можно улучшить предложение, не потеряв альтернативу; немедленный выход закрывает эту возможность."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-6-6",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-065",
+    "predictedStrongest": "D",
+    "productionStrongest": "D",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Нужно оценить самостоятельный результат; выполнение наставником и копирование его не показывают.",
+      "B": "Десять дней не было доступа, критерии и помощь отсутствовали; три календарные недели не равны обеспеченному периоду работы.",
+      "C": "Дополнительная неделя без критериев и встреч сохраняет известные дефекты онбординга."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-7-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-066",
+    "predictedStrongest": "C",
+    "productionStrongest": "C",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "15% от инфраструктуры оставляют 8.5 при подтверждённом минимуме 9; обязательства не пересмотрены.",
+      "B": "Ограничение постоянное; перенос обязательств запрещён, разовый резерв не снижает recurring cost.",
+      "D": "Прочее 5 плюс инфраструктура максимум 1 = 6; нужно 15. Управляемые 20 находятся в необязательном дублировании."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-8-2",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-067",
+    "predictedStrongest": "A",
+    "productionStrongest": "A",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "B": "Задержка сервиса на месяц теряет 10/12≈0.83, а второй инициативы — штраф 2.",
+      "C": "Обе месячные работы окажутся незавершёнными к сроку штрафа; самостоятельный полезный частичный результат не дан.",
+      "D": "Неделя съедает окно месячной работы до штрафа; оценки одинаково надёжны, и дополнительный пробел не назван."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-9-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-068",
+    "predictedStrongest": "D",
+    "productionStrongest": "D",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Ущерба нет, пользовательские SLI и другие ресурсы нормальны, autoscaling имеет запас.",
+      "B": "Повышение числа 90→95 сохраняет отождествление загрузки с инцидентом; семь вызовов уже не требовали действий.",
+      "C": "Оставляет тот же источник повторных пробуждений, хотя разрешено изменить классификацию с сохранением наблюдения."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-10-4",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL NOT REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": [
+      "B02-04"
+    ]
+  },
+  {
+    "id": "TC-069",
+    "predictedStrongest": "B",
+    "productionStrongest": "B",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "10 дней влияния превышают резерв 4; остаток уже известен до принятия работы.",
+      "C": "Доказанного ускорения и дополнительной мощности нет.",
+      "D": "Запрос обязателен; спонсор готов менять прежний scope, поэтому односторонний отказ преждевременен."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-2-4",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-070",
+    "predictedStrongest": "A",
+    "productionStrongest": "A",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "B": "Три пожелания внимания не сработали; возможность пропуска поля сохраняется.",
+      "C": "Автоматическая защита доступна за день до релиза; один исполнитель создаёт ненужную персональную зависимость.",
+      "D": "Инженер готов взять работу, до релиза неделя; откладывать владельца/срок до послерелизного планирования не нужно."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-4-7",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-071",
+    "predictedStrongest": "D",
+    "productionStrongest": "D",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Высокая власть и низкий интерес; главная преграда — потеря локального KPI, не отсутствие статусов.",
+      "B": "Та же коллизия повторится при каждом подключении; разовое распоряжение оставляет стимулы прежними.",
+      "C": "Общий эффект доказан, цель менять не требуется, мандат на правила есть; отказ от масштаба теряет достижимый эффект."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-6-1",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-072",
+    "predictedStrongest": "C",
+    "productionStrongest": "C",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Адекватный цикл помощи закончен без улучшения и новых причин; повтор того же не меняет основания.",
+      "B": "Общий срок зависит от поставщиков, тогда как обязательные проверки полностью в полномочиях сотрудника.",
+      "D": "PIP ещё не запускался, HR готов предоставить реальный формальный шанс; неформальная поддержка не равна исчерпанному PIP."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-7-6",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-073",
+    "predictedStrongest": "B",
+    "productionStrongest": "B",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "SLA уже выполнен; зависимость создают чужие код, CI и знания, а не отсутствие штрафа.",
+      "C": "Смена занимает год; выбор компании не обеспечивает готовности передачи и непрерывности сервиса.",
+      "D": "Совет просит снизить зависимость за год; скидка на три года не меняет владение активами и знаниями."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-8-4",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": []
+  },
+  {
+    "id": "TC-074",
+    "predictedStrongest": "D",
+    "productionStrongest": "D",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "Годовая выгода и месячная потеря ещё несопоставимы; менеджеру не делегирован общий приоритет.",
+      "B": "Половина каждой работы не разблокирует ни одну программу.",
+      "C": "Общий portfolio owner доступен завтра; две локальные защиты P0 не разрешают одно ограничение."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-9-4",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": [
+      "B02-02"
+    ]
+  },
+  {
+    "id": "TC-075",
+    "predictedStrongest": "B",
+    "productionStrongest": "B",
+    "comparison": "YES",
+    "uniqueStrongest": true,
+    "decisiveFactAgainstEachDistractor": {
+      "A": "День 9 раньше заранее заданного 14; ранней остановки по успеху нет.",
+      "C": "Придуманное после старта подтверждение на следующий день не заменяет утверждённый протокол.",
+      "D": "Размер выборки и два недельных цикла — самостоятельные условия; ускоренный набор не завершает 14 дней."
+    },
+    "sourceGrounding": "SUPPORTED",
+    "sourceAnchor": "t-13-3",
+    "supplementalSourceAnchor": null,
+    "manifestConceptMetadataAligned": true,
+    "levelVerdict": "LEVEL REALIZED",
+    "explanationsAndWhenReviewed": 4,
+    "issues": [
+      "B02-01"
+    ]
+  }
+]

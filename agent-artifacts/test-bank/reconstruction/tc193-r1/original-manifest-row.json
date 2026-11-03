@@ -1,0 +1,41 @@
+{
+  "plannedId": "TC-193",
+  "batch": "Batch 07",
+  "block": "B07 — People",
+  "partId": "part-7",
+  "topicId": "t-7-3",
+  "oneSentenceScenarioConcept": "Junior manager проводит onboarding: сотрудник получил список документов на 40 страниц, но не знает, какой результат должен дать к концу месяца; нужно решить, добавлять ли ещё материалы или задать конкретную первую deliverable и owner поддержки.",
+  "decisiveFactsConcept": [
+    "Материалов много",
+    "Результат 30-го дня не определён",
+    "Owner поддержки не назначен"
+  ],
+  "oneSentenceDecisionBoundary": "Больше информации ↔ измеримый onboarding outcome и поддержка.",
+  "domain": "people_management",
+  "requiredLevel": "junior",
+  "primaryPattern": "diagnosis-before-intervention",
+  "secondaryPatterns": [
+    "support",
+    "one-on-one"
+  ],
+  "structure": "standalone",
+  "scenarioFamilyId": null,
+  "familyPosition": null,
+  "decisiveMutationConcept": null,
+  "trainingEligible": true,
+  "assessmentEligible": true,
+  "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+  "futureContextSensitivityCandidate": false,
+  "vocabularyReviewRef": null,
+  "derivedRuntimeUiDomain": "Люди",
+  "derivedRuntimePrimaryThinking": "proportionality",
+  "derivedRuntimeSecondaryThinking": [
+    "stakeholders",
+    "stakeholders"
+  ],
+  "runtimeDerivationStatus": "authoritative-swift-mapping",
+  "whyHead": null,
+  "authorityScope": null,
+  "secondaryEffect": null,
+  "runtimeClassificationSource": "authoritative-swift-mapping"
+}

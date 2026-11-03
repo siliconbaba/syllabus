@@ -1,0 +1,20 @@
+[
+  {
+    "issueId": "L-115",
+    "caseId": "TC-115",
+    "severity": "MAJOR",
+    "field": "requiredLevel / whyLevel / decisiveFactsConcept",
+    "problem": "Middle заявлен, но все решения о допустимости уже зафиксированы: 6/20 нарушает RPO5;18/0 удовлетворяет30/5. Сценарий проверяет чтение двух порогов, а не operational trade-off.",
+    "minimalFix": "Согласованно перекалибровать standalone строку в Junior и обновить derived aggregates/whyLevel; либо сохранить Middle, но задать реальный выбор восстановления с отличающимися затратами/этапами/ограничением исполнения, который требует сопоставления последствий, не отменяя RPO/RTO. Не поручать автору незаметно менять frozen boundary.",
+    "retest": "Focused TC-115 source/level/uniqueness + semantic diff и runtime/coverage; без повторного QA260строк."
+  },
+  {
+    "issueId": "L-122",
+    "caseId": "TC-122",
+    "severity": "MAJOR",
+    "field": "requiredLevel / whyLevel / decisiveFactsConcept",
+    "problem": "Выполненность, достаточность критериев, правило закрытия, отсутствие нового основания и возможность сохранить safeguards уже даны. Выбор сводится к правилу «выполнен→закрыт»; заявленное разграничение рисков уже сделано в условии.",
+    "minimalFix": "Согласованно перекалибровать standalone строку в Junior; либо сохранить Middle и разработать реальную развилку обычной поддержки/передачи ответственности после закрытия с ограничением ресурса, сохранив честное завершение PIP. Одного усиления whyLevel/терминологии недостаточно.",
+    "retest": "Focused TC-122 source/level/uniqueness + semantic diff и runtime/coverage; без полного QAmanifest."
+  }
+]

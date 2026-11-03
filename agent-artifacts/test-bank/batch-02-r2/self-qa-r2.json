@@ -1,0 +1,537 @@
+{
+  "verdict": "NOT READY",
+  "readyForFocusedQA": false,
+  "readyForImport": false,
+  "issues": [
+    {
+      "issueId": "B02-01",
+      "severity": "BLOCKER",
+      "cases": "TC-075",
+      "status": "UNRESOLVED",
+      "evidence": "manifest-duplicate-blocker.json; TC-075 unchanged",
+      "originalDiagnosis": "TC-075 — диагностический DUPLICATE TC-024: 14 дней, день 9, p=0.03, почти набранная выборка, чистые guardrails, нет early-stop; тот же выбор продолжать до протокольного чтения. Иная альтернатива D не меняет решающего рассуждения.",
+      "authority": "author self-assessment; requires focused independent QA"
+    },
+    {
+      "issueId": "B02-02",
+      "severity": "MAJOR",
+      "cases": "TC-074",
+      "status": "FIXED",
+      "evidence": "TC074 diagnostic-comparisons.json: marginal slot value, not owner selection",
+      "originalDiagnosis": "NEAR DUPLICATE TC-012: неделимая общая платформа, локальные интересы, право выбора у portfolio owner; strongest — сопоставить последствия и получить одно решение у него. Указание годового/месячного горизонта не требует отдельного вычисления или иного выбора: старый strongest уже требует сопоставимых последствий.",
+      "authority": "author self-assessment; requires focused independent QA"
+    },
+    {
+      "issueId": "B02-03",
+      "severity": "MAJOR",
+      "cases": "TC-051; TC-052; TC-053",
+      "status": "FIXED",
+      "evidence": "F-DM-T01: acceptance bottleneck, same-order-ID loss dedupe, no probability assumption; unchanged only-CoD mutation",
+      "originalDiagnosis": "Senior не реализован: все последствия прерывания и риски уже сведены в полную константу 18, перенос К — 6, внешний план — 26; одинаковая достоверность, стратегическое соответствие и отсутствие других ограничений заданы. Выбор сводится к min(2x+6,26,4x,18). Это рабочий Middle trade-off очереди/мощности; исследовать системную причину или проектировать зависимость не нужно. Размер сумм и портфельный комитет не повышают уровень.",
+      "authority": "author self-assessment; requires focused independent QA"
+    },
+    {
+      "issueId": "B02-04",
+      "severity": "MAJOR",
+      "cases": "TC-068",
+      "status": "FIXED",
+      "evidence": "TC-068: conditional denominator, variable night volume, loss-of-input detection, tested end-to-end alert",
+      "originalDiagnosis": "Senior не реализован: причинный механизм буквально дан — семь CPU-вызовов без действия; пользовательские алерты и проверенный autoscaling уже существуют. Требуется понизить один неactionable сигнал до warning по прямому правилу §10.4. Нет неразрешённого компромисса чувствительности/пропуска, выбора новой системы наблюдаемости или взаимодействия нескольких путей. Изменение одного правила само по себе не делает выбор Senior.",
+      "authority": "author self-assessment; requires focused independent QA"
+    },
+    {
+      "issueId": "B02-05",
+      "severity": "MAJOR",
+      "cases": "TC-053",
+      "status": "FIXED",
+      "evidence": "TC-053 A=0.70 (25–27), B=0.35 (43); shared acceptance constraints in all sibling contexts now create a real difference. D=1.0 (18–20).",
+      "originalDiagnosis": "A=0.65 и B=0.80 при одинаковой полной потере 26 млн. Вопрос минимизирует именно полные потери; context явно включает все риски, делает оценки одинаково надёжными и сопоставимыми. Отдельного преимущества B, оправдывающего разные качественные диапазоны, нет. Оба проигрывают D=18 на одинаковые 8 млн. Это не требование точности сотых, а отсутствие основания относительному приоритету.",
+      "authority": "author self-assessment; requires focused independent QA"
+    }
+  ],
+  "priorBlockerFixed": "0/1",
+  "priorMajorFixed": "4/4 — author assessment",
+  "seniorRealization": {
+    "TC-051": {
+      "status": "PASS — author assessment",
+      "why": "Senior: надо сменить объект портфельного решения с карточек на зависимый бизнес-результат, распознать коррелированные оценки потери и отделить их от прямой цены переключения. Также нужно обнаружить, что покупка разработки не покупает пропускную способность приёмки: локально дешёвый внешний старт не ускоряет результат. Затем проверить устойчивость порядка к неизвестному объёму заказов без выдуманной средней вероятности. Общая сложность одинакова у siblings; меняется только CoD Н."
+    },
+    "TC-052": {
+      "status": "PASS — author assessment",
+      "why": "Senior: надо сменить объект портфельного решения с карточек на зависимый бизнес-результат, распознать коррелированные оценки потери и отделить их от прямой цены переключения. Также нужно обнаружить, что покупка разработки не покупает пропускную способность приёмки: локально дешёвый внешний старт не ускоряет результат. Затем проверить устойчивость порядка к неизвестному объёму заказов без выдуманной средней вероятности. Общая сложность одинакова у siblings; меняется только CoD Н."
+    },
+    "TC-053": {
+      "status": "PASS — author assessment",
+      "why": "Senior: надо сменить объект портфельного решения с карточек на зависимый бизнес-результат, распознать коррелированные оценки потери и отделить их от прямой цены переключения. Также нужно обнаружить, что покупка разработки не покупает пропускную способность приёмки: локально дешёвый внешний старт не ускоряет результат. Затем проверить устойчивость порядка к неизвестному объёму заказов без выдуманной средней вероятности. Общая сложность одинакова у siblings; меняется только CoD Н."
+    },
+    "TC-068": {
+      "status": "PASS — author assessment",
+      "why": "Senior: требуется распознать дефект наблюдаемости в отборе событий, одновременно удержать риск пропуска полного отказа и шум малой выборки, спроектировать сочетание сигналов для разных режимов трафика и проверить путь обнаружения. Понижение severity CPU само по себе оставляет скрытый отказ; это не готовое operational rule."
+    }
+  },
+  "TC053DecisionQuality": {
+    "status": "PASS",
+    "A": 0.7,
+    "B": 0.35,
+    "why": "The plans are no longer equivalent after the common family rewrite. A delivers at week 4, B at week 6 through the same acceptance bottleneck; context supports cost 25–27 vs 43. No advantage is invented in explanation."
+  },
+  "TC074vsTC012": "ALLOWED REINFORCEMENT",
+  "TC075vsTC024": "DUPLICATE",
+  "familyStatus": "PASS",
+  "uniqueStrongest": "25/25 (6 same-author rechecks, 19 inherited independent passes)",
+  "surfaceLeakage": "PASS",
+  "schema": "PASS",
+  "regression": {
+    "changedCases": [
+      "TC-051",
+      "TC-052",
+      "TC-053",
+      "TC-068",
+      "TC-074"
+    ],
+    "unchangedCases": [
+      "TC-054",
+      "TC-055",
+      "TC-056",
+      "TC-057",
+      "TC-058",
+      "TC-059",
+      "TC-060",
+      "TC-061",
+      "TC-062",
+      "TC-063",
+      "TC-064",
+      "TC-065",
+      "TC-066",
+      "TC-067",
+      "TC-069",
+      "TC-070",
+      "TC-071",
+      "TC-072",
+      "TC-073",
+      "TC-075"
+    ],
+    "frozen19ByteIdentical": true,
+    "TC075ByteIdentical": true,
+    "unexpectedFrozenRegression": 0,
+    "metadataChanges": [],
+    "strongestKeyChanges": [],
+    "decisionQualityChanges": [
+      {
+        "id": "TC-051",
+        "field": "options[1].decisionQuality",
+        "before": 0.25,
+        "after": 0.7
+      },
+      {
+        "id": "TC-051",
+        "field": "options[3].decisionQuality",
+        "before": 0.35,
+        "after": 0.4
+      },
+      {
+        "id": "TC-052",
+        "field": "options[1].decisionQuality",
+        "before": 0.45,
+        "after": 0.65
+      },
+      {
+        "id": "TC-053",
+        "field": "options[0].decisionQuality",
+        "before": 0.65,
+        "after": 0.7
+      },
+      {
+        "id": "TC-053",
+        "field": "options[1].decisionQuality",
+        "before": 0.8,
+        "after": 0.35
+      },
+      {
+        "id": "TC-053",
+        "field": "options[2].decisionQuality",
+        "before": 0.35,
+        "after": 0.4
+      },
+      {
+        "id": "TC-068",
+        "field": "options[0].decisionQuality",
+        "before": 0.4,
+        "after": 0.5
+      },
+      {
+        "id": "TC-068",
+        "field": "options[1].decisionQuality",
+        "before": 0.65,
+        "after": 0.6
+      },
+      {
+        "id": "TC-068",
+        "field": "options[2].decisionQuality",
+        "before": 0.75,
+        "after": 0.7
+      },
+      {
+        "id": "TC-074",
+        "field": "options[0].decisionQuality",
+        "before": 0.5,
+        "after": 0.6
+      },
+      {
+        "id": "TC-074",
+        "field": "options[1].decisionQuality",
+        "before": 0.35,
+        "after": 0.3
+      },
+      {
+        "id": "TC-074",
+        "field": "options[2].decisionQuality",
+        "before": 0.65,
+        "after": 0.55
+      }
+    ],
+    "changedFields": {
+      "TC-051": [
+        "authorRationale",
+        "context",
+        "decisiveFacts[0]",
+        "decisiveFacts[1]",
+        "decisiveFacts[2]",
+        "keyInsight",
+        "mentalModel",
+        "options[0].explanation",
+        "options[0].failurePattern",
+        "options[0].reasoningPattern",
+        "options[0].text",
+        "options[0].whenItWouldBeBest",
+        "options[0].whyNotBest",
+        "options[0].whyTempting",
+        "options[1].decisionQuality",
+        "options[1].explanation",
+        "options[1].failurePattern",
+        "options[1].reasoningPattern",
+        "options[1].text",
+        "options[1].whenItWouldBeBest",
+        "options[1].whyNotBest",
+        "options[1].whyTempting",
+        "options[2].explanation",
+        "options[2].text",
+        "options[2].whenItWouldBeBest",
+        "options[2].whyNotBest",
+        "options[2].whyTempting",
+        "options[3].decisionQuality",
+        "options[3].explanation",
+        "options[3].failurePattern",
+        "options[3].reasoningPattern",
+        "options[3].text",
+        "options[3].whenItWouldBeBest",
+        "options[3].whyNotBest",
+        "options[3].whyTempting",
+        "question",
+        "revision",
+        "sourceTopicExplanation",
+        "title"
+      ],
+      "TC-052": [
+        "authorRationale",
+        "context",
+        "decisiveFacts[0]",
+        "decisiveFacts[1]",
+        "decisiveFacts[2]",
+        "keyInsight",
+        "mentalModel",
+        "options[0].explanation",
+        "options[0].text",
+        "options[0].whenItWouldBeBest",
+        "options[0].whyNotBest",
+        "options[0].whyTempting",
+        "options[1].decisionQuality",
+        "options[1].explanation",
+        "options[1].failurePattern",
+        "options[1].reasoningPattern",
+        "options[1].text",
+        "options[1].whenItWouldBeBest",
+        "options[1].whyNotBest",
+        "options[1].whyTempting",
+        "options[2].explanation",
+        "options[2].failurePattern",
+        "options[2].reasoningPattern",
+        "options[2].text",
+        "options[2].whenItWouldBeBest",
+        "options[2].whyNotBest",
+        "options[2].whyTempting",
+        "options[3].explanation",
+        "options[3].failurePattern",
+        "options[3].reasoningPattern",
+        "options[3].text",
+        "options[3].whenItWouldBeBest",
+        "options[3].whyNotBest",
+        "options[3].whyTempting",
+        "question",
+        "revision",
+        "sourceTopicExplanation",
+        "title"
+      ],
+      "TC-053": [
+        "authorRationale",
+        "context",
+        "decisiveFacts[0]",
+        "decisiveFacts[1]",
+        "decisiveFacts[2]",
+        "keyInsight",
+        "mentalModel",
+        "options[0].decisionQuality",
+        "options[0].explanation",
+        "options[0].failurePattern",
+        "options[0].reasoningPattern",
+        "options[0].text",
+        "options[0].whenItWouldBeBest",
+        "options[0].whyNotBest",
+        "options[0].whyTempting",
+        "options[1].decisionQuality",
+        "options[1].explanation",
+        "options[1].failurePattern",
+        "options[1].reasoningPattern",
+        "options[1].text",
+        "options[1].whenItWouldBeBest",
+        "options[1].whyNotBest",
+        "options[1].whyTempting",
+        "options[2].decisionQuality",
+        "options[2].explanation",
+        "options[2].failurePattern",
+        "options[2].reasoningPattern",
+        "options[2].text",
+        "options[2].whenItWouldBeBest",
+        "options[2].whyNotBest",
+        "options[2].whyTempting",
+        "options[3].explanation",
+        "options[3].text",
+        "options[3].whenItWouldBeBest",
+        "options[3].whyNotBest",
+        "options[3].whyTempting",
+        "question",
+        "revision",
+        "sourceTopicExplanation",
+        "title"
+      ],
+      "TC-068": [
+        "authorRationale",
+        "context",
+        "decisiveFacts[0]",
+        "decisiveFacts[1]",
+        "decisiveFacts[2]",
+        "keyInsight",
+        "mentalModel",
+        "options[0].decisionQuality",
+        "options[0].explanation",
+        "options[0].failurePattern",
+        "options[0].reasoningPattern",
+        "options[0].text",
+        "options[0].whenItWouldBeBest",
+        "options[0].whyNotBest",
+        "options[0].whyTempting",
+        "options[1].decisionQuality",
+        "options[1].explanation",
+        "options[1].failurePattern",
+        "options[1].reasoningPattern",
+        "options[1].text",
+        "options[1].whenItWouldBeBest",
+        "options[1].whyNotBest",
+        "options[1].whyTempting",
+        "options[2].decisionQuality",
+        "options[2].explanation",
+        "options[2].failurePattern",
+        "options[2].reasoningPattern",
+        "options[2].text",
+        "options[2].whenItWouldBeBest",
+        "options[2].whyNotBest",
+        "options[2].whyTempting",
+        "options[3].explanation",
+        "options[3].text",
+        "options[3].whenItWouldBeBest",
+        "options[3].whyNotBest",
+        "options[3].whyTempting",
+        "question",
+        "revision",
+        "sourceTopicExplanation",
+        "title"
+      ],
+      "TC-074": [
+        "authorRationale",
+        "context",
+        "decisiveFacts[0]",
+        "decisiveFacts[1]",
+        "decisiveFacts[2]",
+        "keyInsight",
+        "mentalModel",
+        "options[0].decisionQuality",
+        "options[0].explanation",
+        "options[0].failurePattern",
+        "options[0].reasoningPattern",
+        "options[0].text",
+        "options[0].whenItWouldBeBest",
+        "options[0].whyNotBest",
+        "options[0].whyTempting",
+        "options[1].decisionQuality",
+        "options[1].explanation",
+        "options[1].failurePattern",
+        "options[1].reasoningPattern",
+        "options[1].text",
+        "options[1].whenItWouldBeBest",
+        "options[1].whyNotBest",
+        "options[1].whyTempting",
+        "options[2].decisionQuality",
+        "options[2].explanation",
+        "options[2].failurePattern",
+        "options[2].reasoningPattern",
+        "options[2].text",
+        "options[2].whenItWouldBeBest",
+        "options[2].whyNotBest",
+        "options[2].whyTempting",
+        "options[3].explanation",
+        "options[3].text",
+        "options[3].whenItWouldBeBest",
+        "options[3].whyNotBest",
+        "options[3].whyTempting",
+        "question",
+        "revision",
+        "sourceTopicExplanation",
+        "title"
+      ]
+    },
+    "expectedSixChangedException": "TC-075 remains unchanged because the user expressly permits UNRESOLVED for a manifest-level duplicate. No cosmetic revision or false closure.",
+    "protectedInputsUnchanged": true
+  },
+  "whenChecks": [
+    {
+      "id": "TC-051",
+      "option": "A",
+      "condition": "Если ожидание Н до конца Р–К дороже вставки после Р при любом допустимом объёме заказов, а прерывание и внешний исполнитель дороже этой вставки.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-051",
+      "option": "B",
+      "condition": "Если подрядчик обеспечивает также независимую приёмку через две недели, а его полная доплата меньше потерь каждого внутреннего плана.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-051",
+      "option": "C",
+      "condition": "Если ожидание Н до общего результата Р–К дешевле всех способов ускорения на всём допустимом диапазоне клиентской потери.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-051",
+      "option": "D",
+      "condition": "Если ожидание Н и внешняя мощность дороже прерывания даже при верхней границе его последствий, а зависимые обязательства можно пересогласовать.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-052",
+      "option": "A",
+      "condition": "Если ожидание Н до конца Р–К дороже вставки после Р при любом допустимом объёме заказов, а прерывание и внешний исполнитель дороже этой вставки.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-052",
+      "option": "B",
+      "condition": "Если подрядчик обеспечивает также независимую приёмку через две недели, а его полная доплата меньше потерь каждого внутреннего плана.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-052",
+      "option": "C",
+      "condition": "Если ожидание Н до общего результата Р–К дешевле всех способов ускорения на всём допустимом диапазоне клиентской потери.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-052",
+      "option": "D",
+      "condition": "Если ожидание Н и внешняя мощность дороже прерывания даже при верхней границе его последствий, а зависимые обязательства можно пересогласовать.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-053",
+      "option": "A",
+      "condition": "Если ожидание Н до конца Р–К дороже вставки после Р при любом допустимом объёме заказов, а прерывание и внешний исполнитель дороже этой вставки.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-053",
+      "option": "B",
+      "condition": "Если подрядчик обеспечивает также независимую приёмку через две недели, а его полная доплата меньше потерь каждого внутреннего плана.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-053",
+      "option": "C",
+      "condition": "Если ожидание Н до общего результата Р–К дешевле всех способов ускорения на всём допустимом диапазоне клиентской потери.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-053",
+      "option": "D",
+      "condition": "Если ожидание Н и внешняя мощность дороже прерывания даже при верхней границе его последствий, а зависимые обязательства можно пересогласовать.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-068",
+      "option": "A",
+      "condition": "Если CPU-порог доказанно ловит нужный отказ до ущерба и каждое срабатывание требует действия.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-068",
+      "option": "B",
+      "condition": "Если потеря входа контролируется отдельным рабочим сигналом, а решение по доле можно безопасно отложить до набора событий.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-068",
+      "option": "C",
+      "condition": "Если минимальный нормальный поток стабилен во всех окнах и выбранный порог надёжно отделяет отказ от нормы.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-068",
+      "option": "D",
+      "condition": "Если доля скрывает исчезновение входа, нормальный трафик неоднороден, а сквозная проба и проверка уведомления доступны.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-074",
+      "option": "A",
+      "condition": "Если шлюз А готов к концу первого месяца и именно платформа ограничивает более дорогой ранний запуск.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-074",
+      "option": "B",
+      "condition": "Если половины работ дают независимые полезные результаты уже в первом месяце и совокупная выгода выше очереди.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-074",
+      "option": "C",
+      "condition": "Если работа Б не помещается до нужной даты А и её нельзя остановить без недопустимой потери.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    },
+    {
+      "id": "TC-074",
+      "option": "D",
+      "condition": "Если А всё равно ждёт внешнюю зависимость до второго месяца, а Б можно завершить первым без сдвига платформы А.",
+      "status": "PASS — author checks entire action and timing, hypothetical premise not imported into actual context"
+    }
+  ],
+  "remainingUnresolvedIDs": [
+    "TC-075"
+  ],
+  "blockingDecision": "MAIN must explicitly authorize a local change to TC-075 concept/boundary in the manifest before a genuinely different item can be authored. Manifest not edited.",
+  "candidateSHA256": "c8a0dd3dc064b1f4f30b85ae1e8cb32a57d7329d54e7074a27bde3cfaa2f30e3",
+  "limitations": [
+    "Same-author key-hidden review, not independent blind QA.",
+    "Family uncertainty transition bands are not sampled; selected states have robust unique keys.",
+    "Level and semantic-duplication closures are editorial judgments pending focused QA."
+  ]
+}

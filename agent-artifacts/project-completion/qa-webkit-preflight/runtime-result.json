@@ -1,0 +1,10 @@
+{
+  "exitCode": 2,
+  "elapsedSeconds": 21.7,
+  "environmentUnavailable": true,
+  "remainingUIAssertionsNotRun": true,
+  "phase0": true,
+  "fullUIPass": false,
+  "harnessSHA256": "ab244e106c9e123b91a7bc3ef224809521ba77c1a74a620042b1feaba11bd5cf",
+  "checkScriptSHA256": "96ca4907356f2f778aa6bfc626114b07414e4c8026b0870dd395e30ac5fe1660"
+}

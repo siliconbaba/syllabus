@@ -1,0 +1,1398 @@
+{
+  "count": 1,
+  "rules": [
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "sentences",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "sentences",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "latinFragments",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "latinFragments",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "numberFragments",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.3333333333333333,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "numberFragments",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "and",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "and",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "conditions",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "conditions",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "orderMarkers",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "orderMarkers",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "actions",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "actions",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.3333333333333333,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauses",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauses",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "managementNounSuffix",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "managementNounSuffix",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "negativeMarkers",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "negativeMarkers",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "commas",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "commas",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "semicolons",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "semicolons",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "dashes",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "dashes",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "parentheses",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "parentheses",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0.25,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ],
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          1
+        ],
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ],
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "words",
+          -1
+        ],
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ],
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ],
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ],
+        [
+          "words",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ],
+        [
+          "words",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ],
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          1
+        ],
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ],
+        [
+          "clauseProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "chars",
+          -1
+        ],
+        [
+          "clauseProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ],
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          1
+        ],
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ],
+        [
+          "chars",
+          1
+        ]
+      ],
+      "firstTieHits": 1,
+      "randomTieExpectedHits": 1.0,
+      "uniqueHits": 1,
+      "hitsIncludingTies": 1,
+      "correctIdsFirstTie": [
+        "TC-200"
+      ]
+    },
+    {
+      "rule": [
+        [
+          "clauseProxy",
+          -1
+        ],
+        [
+          "chars",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          -1
+        ],
+        [
+          "punctuation",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "specificityProxy",
+          -1
+        ],
+        [
+          "punctuation",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "specificityProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          1
+        ],
+        [
+          "specificityProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "specificityProxy",
+          1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    },
+    {
+      "rule": [
+        [
+          "punctuation",
+          -1
+        ],
+        [
+          "specificityProxy",
+          -1
+        ]
+      ],
+      "firstTieHits": 0,
+      "randomTieExpectedHits": 0,
+      "uniqueHits": 0,
+      "hitsIncludingTies": 0,
+      "correctIdsFirstTie": []
+    }
+  ],
+  "bestFirstTieHits": 1,
+  "bestRandomTieExpectedHits": 1.0,
+  "positions": {
+    "C": 1
+  },
+  "keySequence": "C",
+  "featureMeans": {
+    "words": {
+      "correctMean": 24,
+      "distractorMean": 22.666666666666668
+    },
+    "chars": {
+      "correctMean": 182,
+      "distractorMean": 167.66666666666666
+    },
+    "sentences": {
+      "correctMean": 1,
+      "distractorMean": 1
+    },
+    "latinFragments": {
+      "correctMean": 0,
+      "distractorMean": 0
+    },
+    "numberFragments": {
+      "correctMean": 1,
+      "distractorMean": 0.6666666666666666
+    },
+    "and": {
+      "correctMean": 2,
+      "distractorMean": 2
+    },
+    "punctuation": {
+      "correctMean": 2,
+      "distractorMean": 2
+    },
+    "conditions": {
+      "correctMean": 2,
+      "distractorMean": 0.6666666666666666
+    },
+    "orderMarkers": {
+      "correctMean": 3,
+      "distractorMean": 1.3333333333333333
+    },
+    "actions": {
+      "correctMean": 3,
+      "distractorMean": 3.3333333333333335
+    },
+    "clauses": {
+      "correctMean": 2,
+      "distractorMean": 2
+    },
+    "managementNounSuffix": {
+      "correctMean": 2,
+      "distractorMean": 1.6666666666666667
+    },
+    "negativeMarkers": {
+      "correctMean": 0,
+      "distractorMean": 0
+    },
+    "commas": {
+      "correctMean": 1,
+      "distractorMean": 1
+    },
+    "semicolons": {
+      "correctMean": 1,
+      "distractorMean": 1
+    },
+    "dashes": {
+      "correctMean": 0,
+      "distractorMean": 0
+    },
+    "parentheses": {
+      "correctMean": 0,
+      "distractorMean": 0
+    },
+    "clauseProxy": {
+      "correctMean": 3,
+      "distractorMean": 3
+    },
+    "specificityProxy": {
+      "correctMean": 1,
+      "distractorMean": 1
+    }
+  },
+  "optionFeatures": {
+    "TC-200": [
+      {
+        "words": 23,
+        "chars": 163,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 1,
+        "and": 2,
+        "punctuation": 2,
+        "conditions": 0,
+        "orderMarkers": 1,
+        "actions": 4,
+        "clauses": 2,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 0,
+        "commas": 1,
+        "semicolons": 1,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 1
+      },
+      {
+        "words": 22,
+        "chars": 168,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 1,
+        "and": 1,
+        "punctuation": 2,
+        "conditions": 1,
+        "orderMarkers": 2,
+        "actions": 3,
+        "clauses": 2,
+        "managementNounSuffix": 3,
+        "negativeMarkers": 0,
+        "commas": 1,
+        "semicolons": 1,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 2
+      },
+      {
+        "words": 24,
+        "chars": 182,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 1,
+        "and": 2,
+        "punctuation": 2,
+        "conditions": 2,
+        "orderMarkers": 3,
+        "actions": 3,
+        "clauses": 2,
+        "managementNounSuffix": 2,
+        "negativeMarkers": 0,
+        "commas": 1,
+        "semicolons": 1,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 1
+      },
+      {
+        "words": 23,
+        "chars": 172,
+        "sentences": 1,
+        "latinFragments": 0,
+        "numberFragments": 0,
+        "and": 3,
+        "punctuation": 2,
+        "conditions": 1,
+        "orderMarkers": 1,
+        "actions": 3,
+        "clauses": 2,
+        "managementNounSuffix": 1,
+        "negativeMarkers": 0,
+        "commas": 1,
+        "semicolons": 1,
+        "dashes": 0,
+        "parentheses": 0,
+        "clauseProxy": 3,
+        "specificityProxy": 0
+      }
+    ]
+  },
+  "familyPreservingPermutation": {
+    "maxStatisticAdjustedP": 1.0,
+    "seed": 20261008,
+    "draws": 2000,
+    "groups": 1,
+    "rules": 78
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "verdict": "PASS",
+  "changedFamily": "F-PR-P01",
+  "members": [
+    "TC-106",
+    "TC-107"
+  ],
+  "singleLogicalVariable": "Временная структура входа после первой недели: возврат к8 либо устойчивые12.",
+  "constantFactsLiteralEquality": true,
+  "sameTopicDomainLevelBatch": true,
+  "hiddenCoMutations": 0,
+  "calculations": {
+    "TC-106": {
+      "ordinary": {
+        "endOfWeekQueue": [
+          10,
+          8,
+          6,
+          4
+        ],
+        "cost": 0,
+        "satisfiesEndWeek4AndMax14": false
+      },
+      "help2": {
+        "endOfWeekQueue": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "cost": 20,
+        "satisfiesEndWeek4AndMax14": true
+      },
+      "help4": {
+        "endOfWeekQueue": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "cost": 100,
+        "satisfiesEndWeek4AndMax14": true
+      },
+      "automation": {
+        "endOfWeekQueue": [
+          12,
+          4,
+          0,
+          0
+        ],
+        "cost": 40,
+        "satisfiesEndWeek4AndMax14": true
+      }
+    },
+    "TC-107": {
+      "ordinary": {
+        "endOfWeekQueue": [
+          10,
+          12,
+          14,
+          16
+        ],
+        "cost": 0,
+        "satisfiesEndWeek4AndMax14": false
+      },
+      "help2": {
+        "endOfWeekQueue": [
+          6,
+          4,
+          6,
+          8
+        ],
+        "cost": 20,
+        "satisfiesEndWeek4AndMax14": false
+      },
+      "help4": {
+        "endOfWeekQueue": [
+          6,
+          4,
+          2,
+          0
+        ],
+        "cost": 100,
+        "satisfiesEndWeek4AndMax14": true
+      },
+      "automation": {
+        "endOfWeekQueue": [
+          12,
+          8,
+          4,
+          0
+        ],
+        "cost": 40,
+        "satisfiesEndWeek4AndMax14": true
+      }
+    }
+  },
+  "strongestShift": {
+    "TC-106": "help2",
+    "TC-107": "automation"
+  },
+  "bookGrounding": "t-3-7, мощность bottleneck и структурная мера; цены/траектория явно заданы автором.",
+  "scopeNote": "Проверена одна изменённая семья полностью. F-PE-P03 с257/258 raw/semantic неизменна и намеренно UNRESOLVED; авторское1/2 относится к двум selected families, не к двум redesigned families.",
+  "unchangedFamilies": 42,
+  "unresolvedFamilyExcluded": "F-PE-P03"
+}

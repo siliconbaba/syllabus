@@ -1,0 +1,37 @@
+{
+  "status": "PASS — BLUEPRINT PROJECTION ONLY",
+  "candidatePath": "agent-artifacts/test-bank/reconstruction/f-dm-p02-completion05/proposed-projection.json",
+  "candidateSHA256": "e1d4f1470d1196c4afe03605c8101e1335efcdead4033cfa59cd32a6e4e987b2",
+  "acceptedBlueprintIDs": [
+    "TC-129",
+    "TC-130"
+  ],
+  "acceptedFamilyID": "F-DM-P02",
+  "remainingIssueIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "inputs": {
+    "agent-artifacts/manifests/v2.3-completion-04-candidate/production_manifest_masterplan_v2_3_completion_04_candidate.json": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-13-2.md": "f3997a17eae4feccc8e9a36ac567758948d726b213306eb43198b7aeedefa827",
+    "agent-artifacts/test-bank/unified-reconstruction-plan/unresolved-72-inventory.csv": "25a5b6c2a9843a2ad737739efe0ee35bf552ddc4cfc62dacefb80b74f704d213",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f"
+  },
+  "gates": {
+    "comparison": "Before signal, reserve+test = .4(160−60)−.6c−2 = 38−.6c; wait+test = .4(130−60)−2 = 26; unconditional early build = .4×160−60 = 4; pass entirely = 0. Penalty is charged only on negative test, probability .6. At c=9 ranking 32.6>26>4>0. At c=60 wait 26>build 4>reserve 2>pass 0. Tie reserve/wait at c=20; tested states strictly separated. On positive test both investments individually profitable; on negative after high-fee reserve cancellation and fulfillment tie at −60, but both are strictly inferior ex ante to waiting. This does not split the strongest option.",
+    "familyAndLevel": "The sole change is cancellation liability, not the result of the test. Prices, signal validity, probability, payoff timing and decision authority constant. Middle must weigh 12 expected upside from early delivery against .6c conditional loss while still funding informative test for 2; merely knowing the success threshold cannot settle the order. Two distinct sequences (secure time before learning or postpone commitment until after learning).",
+    "contentMapping": "§13.2 explicitly recommends the cheapest valid prototype before committing to a costly feature and defining evidence in advance. Both winners separate proof from actual development and avoid unconditional spend. Holding evidence quality fixed isolates how to sequence commitment; the section does not supply an option-price formula. product_and_uncertainty→product; cheap-learning-before-build/hypothesis/reversible-investment→uncertainty per Swift.",
+    "analogs": "ALLOWED REINFORCEMENT. TC-025/060/036 distinguish what a cheap behavioral test actually proves. TC-164/186 design a next segment test/guardrails. TC-033/034 vary cost and commitments of the pilot that itself provides learning vs research; here a separate identical test works with or without a reservation, and waiting loses some success revenue, priced against cancellation. TC-211 has residual loss and imperfect early signal before capacity closes; TC-117 changes the evidence sample through intervention. Here reliable test can still lead to profitable late launch. TC-046 classifies unknowns, TC-212 chooses minimal experiment, TC-219 chooses evidence source, TC-220 revises estimates, TC-239 delays irreversible choice until lock-in. No near duplicate.",
+    "legacyFields": "All old full family fields represented; base situation, mutation, both states, boundaries, shift, invariants and control explanation now agree. Neither member retains an above/below-test-result decision. The existing C04 changedFamilyDesigns compact entry still describes old axis, since the submitted object is a projection; cumulative merge must synchronize both mirror fields."
+  },
+  "limitations": [
+    "Authoring blueprint only; no freeze, full-case acceptance or import. Keep test separate from reservation in all options. In TC-130 do not teach cancellation as strictly better than fulfilling a sunk 60 commitment after a failed test.",
+    "At cumulative merge compare both CSV projections, compact design and inherited runtime/eligibility."
+  ],
+  "importEligible": false,
+  "freezePerformed": false
+}

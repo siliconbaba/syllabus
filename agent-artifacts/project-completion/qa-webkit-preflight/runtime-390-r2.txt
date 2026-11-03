@@ -1,0 +1,2 @@
+Loaded test phase 0
+ENVIRONMENT_UNAVAILABLE: WebKit window is occluded; no animation frames. Run in an unlocked visible desktop. Remaining UI assertions NOT_RUN; phase 0.

@@ -1,0 +1,754 @@
+{
+  "count": 25,
+  "standalone": 16,
+  "linked": 9,
+  "familyCount": 4,
+  "levels": {
+    "senior": 6,
+    "junior": 3,
+    "middle": 13,
+    "head": 3
+  },
+  "correctPositions": {
+    "A": 6,
+    "B": 7,
+    "C": 6,
+    "D": 6
+  },
+  "optionLengths": {
+    "TC-101": [
+      {
+        "id": "A",
+        "words": 17,
+        "chars": 133
+      },
+      {
+        "id": "B",
+        "words": 16,
+        "chars": 111
+      },
+      {
+        "id": "C",
+        "words": 16,
+        "chars": 118
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 113
+      }
+    ],
+    "TC-102": [
+      {
+        "id": "A",
+        "words": 17,
+        "chars": 133
+      },
+      {
+        "id": "B",
+        "words": 16,
+        "chars": 111
+      },
+      {
+        "id": "C",
+        "words": 16,
+        "chars": 118
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 113
+      }
+    ],
+    "TC-103": [
+      {
+        "id": "A",
+        "words": 17,
+        "chars": 133
+      },
+      {
+        "id": "B",
+        "words": 16,
+        "chars": 111
+      },
+      {
+        "id": "C",
+        "words": 16,
+        "chars": 118
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 113
+      }
+    ],
+    "TC-104": [
+      {
+        "id": "A",
+        "words": 14,
+        "chars": 96
+      },
+      {
+        "id": "B",
+        "words": 14,
+        "chars": 104
+      },
+      {
+        "id": "C",
+        "words": 13,
+        "chars": 99
+      },
+      {
+        "id": "D",
+        "words": 13,
+        "chars": 102
+      }
+    ],
+    "TC-105": [
+      {
+        "id": "A",
+        "words": 14,
+        "chars": 96
+      },
+      {
+        "id": "B",
+        "words": 14,
+        "chars": 104
+      },
+      {
+        "id": "C",
+        "words": 13,
+        "chars": 99
+      },
+      {
+        "id": "D",
+        "words": 13,
+        "chars": 102
+      }
+    ],
+    "TC-106": [
+      {
+        "id": "A",
+        "words": 16,
+        "chars": 109
+      },
+      {
+        "id": "B",
+        "words": 14,
+        "chars": 93
+      },
+      {
+        "id": "C",
+        "words": 12,
+        "chars": 96
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 126
+      }
+    ],
+    "TC-107": [
+      {
+        "id": "A",
+        "words": 16,
+        "chars": 109
+      },
+      {
+        "id": "B",
+        "words": 14,
+        "chars": 93
+      },
+      {
+        "id": "C",
+        "words": 12,
+        "chars": 96
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 126
+      }
+    ],
+    "TC-108": [
+      {
+        "id": "A",
+        "words": 14,
+        "chars": 94
+      },
+      {
+        "id": "B",
+        "words": 13,
+        "chars": 98
+      },
+      {
+        "id": "C",
+        "words": 14,
+        "chars": 101
+      },
+      {
+        "id": "D",
+        "words": 19,
+        "chars": 130
+      }
+    ],
+    "TC-109": [
+      {
+        "id": "A",
+        "words": 14,
+        "chars": 94
+      },
+      {
+        "id": "B",
+        "words": 13,
+        "chars": 98
+      },
+      {
+        "id": "C",
+        "words": 14,
+        "chars": 101
+      },
+      {
+        "id": "D",
+        "words": 19,
+        "chars": 130
+      }
+    ],
+    "TC-110": [
+      {
+        "id": "A",
+        "words": 16,
+        "chars": 107
+      },
+      {
+        "id": "B",
+        "words": 13,
+        "chars": 91
+      },
+      {
+        "id": "C",
+        "words": 18,
+        "chars": 123
+      },
+      {
+        "id": "D",
+        "words": 14,
+        "chars": 109
+      }
+    ],
+    "TC-111": [
+      {
+        "id": "A",
+        "words": 16,
+        "chars": 110
+      },
+      {
+        "id": "B",
+        "words": 16,
+        "chars": 116
+      },
+      {
+        "id": "C",
+        "words": 17,
+        "chars": 124
+      },
+      {
+        "id": "D",
+        "words": 17,
+        "chars": 136
+      }
+    ],
+    "TC-112": [
+      {
+        "id": "A",
+        "words": 15,
+        "chars": 107
+      },
+      {
+        "id": "B",
+        "words": 25,
+        "chars": 175
+      },
+      {
+        "id": "C",
+        "words": 17,
+        "chars": 112
+      },
+      {
+        "id": "D",
+        "words": 19,
+        "chars": 140
+      }
+    ],
+    "TC-113": [
+      {
+        "id": "A",
+        "words": 14,
+        "chars": 92
+      },
+      {
+        "id": "B",
+        "words": 15,
+        "chars": 121
+      },
+      {
+        "id": "C",
+        "words": 14,
+        "chars": 107
+      },
+      {
+        "id": "D",
+        "words": 16,
+        "chars": 124
+      }
+    ],
+    "TC-114": [
+      {
+        "id": "A",
+        "words": 15,
+        "chars": 104
+      },
+      {
+        "id": "B",
+        "words": 17,
+        "chars": 110
+      },
+      {
+        "id": "C",
+        "words": 16,
+        "chars": 101
+      },
+      {
+        "id": "D",
+        "words": 16,
+        "chars": 94
+      }
+    ],
+    "TC-115": [
+      {
+        "id": "A",
+        "words": 15,
+        "chars": 83
+      },
+      {
+        "id": "B",
+        "words": 15,
+        "chars": 106
+      },
+      {
+        "id": "C",
+        "words": 15,
+        "chars": 111
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 114
+      }
+    ],
+    "TC-116": [
+      {
+        "id": "A",
+        "words": 15,
+        "chars": 117
+      },
+      {
+        "id": "B",
+        "words": 14,
+        "chars": 115
+      },
+      {
+        "id": "C",
+        "words": 23,
+        "chars": 154
+      },
+      {
+        "id": "D",
+        "words": 18,
+        "chars": 141
+      }
+    ],
+    "TC-117": [
+      {
+        "id": "A",
+        "words": 15,
+        "chars": 120
+      },
+      {
+        "id": "B",
+        "words": 17,
+        "chars": 122
+      },
+      {
+        "id": "C",
+        "words": 17,
+        "chars": 121
+      },
+      {
+        "id": "D",
+        "words": 18,
+        "chars": 135
+      }
+    ],
+    "TC-118": [
+      {
+        "id": "A",
+        "words": 14,
+        "chars": 106
+      },
+      {
+        "id": "B",
+        "words": 17,
+        "chars": 137
+      },
+      {
+        "id": "C",
+        "words": 14,
+        "chars": 107
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 116
+      }
+    ],
+    "TC-119": [
+      {
+        "id": "A",
+        "words": 20,
+        "chars": 139
+      },
+      {
+        "id": "B",
+        "words": 20,
+        "chars": 142
+      },
+      {
+        "id": "C",
+        "words": 17,
+        "chars": 124
+      },
+      {
+        "id": "D",
+        "words": 22,
+        "chars": 160
+      }
+    ],
+    "TC-120": [
+      {
+        "id": "A",
+        "words": 13,
+        "chars": 107
+      },
+      {
+        "id": "B",
+        "words": 19,
+        "chars": 134
+      },
+      {
+        "id": "C",
+        "words": 21,
+        "chars": 137
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 110
+      }
+    ],
+    "TC-121": [
+      {
+        "id": "A",
+        "words": 21,
+        "chars": 132
+      },
+      {
+        "id": "B",
+        "words": 15,
+        "chars": 105
+      },
+      {
+        "id": "C",
+        "words": 16,
+        "chars": 125
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 111
+      }
+    ],
+    "TC-122": [
+      {
+        "id": "A",
+        "words": 15,
+        "chars": 120
+      },
+      {
+        "id": "B",
+        "words": 17,
+        "chars": 120
+      },
+      {
+        "id": "C",
+        "words": 15,
+        "chars": 125
+      },
+      {
+        "id": "D",
+        "words": 17,
+        "chars": 115
+      }
+    ],
+    "TC-123": [
+      {
+        "id": "A",
+        "words": 12,
+        "chars": 104
+      },
+      {
+        "id": "B",
+        "words": 16,
+        "chars": 123
+      },
+      {
+        "id": "C",
+        "words": 13,
+        "chars": 91
+      },
+      {
+        "id": "D",
+        "words": 16,
+        "chars": 91
+      }
+    ],
+    "TC-124": [
+      {
+        "id": "A",
+        "words": 14,
+        "chars": 113
+      },
+      {
+        "id": "B",
+        "words": 15,
+        "chars": 97
+      },
+      {
+        "id": "C",
+        "words": 13,
+        "chars": 98
+      },
+      {
+        "id": "D",
+        "words": 15,
+        "chars": 107
+      }
+    ],
+    "TC-125": [
+      {
+        "id": "A",
+        "words": 16,
+        "chars": 127
+      },
+      {
+        "id": "B",
+        "words": 16,
+        "chars": 128
+      },
+      {
+        "id": "C",
+        "words": 18,
+        "chars": 127
+      },
+      {
+        "id": "D",
+        "words": 20,
+        "chars": 126
+      }
+    ]
+  },
+  "duplicateStrings": [
+    {
+      "field": "question",
+      "occurrences": [
+        "TC-101",
+        "TC-102",
+        "TC-103"
+      ],
+      "text": "Как организовать проверку нового движка?"
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-101.A",
+        "TC-102.A",
+        "TC-103.A"
+      ],
+      "text": "Подать копию потока на текущую конфигурацию зеркала, сверять итоговые суммы по тарифам; клиентам возвращать результат старого движка."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-101.B",
+        "TC-102.B",
+        "TC-103.B"
+      ],
+      "text": "Подменить получателя в M, проверить обе операции и затем сравнивать итоговые суммы на полном зеркальном потоке."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-101.C",
+        "TC-102.C",
+        "TC-103.C"
+      ],
+      "text": "Перенести замену, отделить публикацию обеих команд от вычисления новым интерфейсом и провести сверку на полном потоке."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-101.D",
+        "TC-102.D",
+        "TC-103.D"
+      ],
+      "text": "Перевести 1% операций на реальное исполнение новым движком, сравнивать комиссии и вернуть трафик при расхождении."
+    },
+    {
+      "field": "question",
+      "occurrences": [
+        "TC-104",
+        "TC-105"
+      ],
+      "text": "Какой момент начала подготовки закрепить в реестре?"
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-104.A",
+        "TC-105.A"
+      ],
+      "text": "Оставить запуск подготовки по позднему сигналу; указать его и владельца действия в записи риска."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-104.B",
+        "TC-105.B"
+      ],
+      "text": "Начинать подготовку по раннему индикатору; закрепить этот момент запуска и действие владельца в реестре."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-104.C",
+        "TC-105.C"
+      ],
+      "text": "Начинать подготовку после фактического отказа; до него следить за сигналами без связывания резерва."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-104.D",
+        "TC-105.D"
+      ],
+      "text": "Подготовить резерв сейчас, до появления обоих сигналов; поддерживать его готовность до закрытия риска."
+    },
+    {
+      "field": "question",
+      "occurrences": [
+        "TC-106",
+        "TC-107"
+      ],
+      "text": "Какой план выбрать?"
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-106.A",
+        "TC-107.A"
+      ],
+      "text": "Оставить обычную мощность на четыре недели; следить за очередью, не отвлекая ресурсы на помощь или настройку."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-106.B",
+        "TC-107.B"
+      ],
+      "text": "Взять помощь ревьюера на первые две недели без продления; затем вернуться к обычной мощности."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-106.C",
+        "TC-107.C"
+      ],
+      "text": "Взять помощь ревьюера на четыре недели, оплатив продление; сохранить текущую процедуру проверки."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-106.D",
+        "TC-107.D"
+      ],
+      "text": "Выделить первую неделю на автоматизацию типовой проверки; со второй использовать повышенную мощность без привлечения ревьюера."
+    },
+    {
+      "field": "question",
+      "occurrences": [
+        "TC-108",
+        "TC-109"
+      ],
+      "text": "Какой план хранения выбрать на текущую неделю?"
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-108.A",
+        "TC-109.A"
+      ],
+      "text": "Сохранить все записи класса на неделю и использовать полный счётчик метрик для оценки частоты."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-108.B",
+        "TC-109.B"
+      ],
+      "text": "Сохранить равномерно каждый сотый экземпляр на неделю, сохранив полный счётчик событий в метриках."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-108.C",
+        "TC-109.C"
+      ],
+      "text": "Оставить полный счётчик событий в метриках, отключив хранение подробных записей класса на эту неделю."
+    },
+    {
+      "field": "option.text",
+      "occurrences": [
+        "TC-108.D",
+        "TC-109.D"
+      ],
+      "text": "Хранить все подробные записи в скользящем окне последнего часа, удаляя более старые; полный счётчик за неделю оставить в метриках."
+    }
+  ],
+  "surface": {
+    "status": "REQUIRES_INDEPENDENT_QA",
+    "method": "4 exploratory rules; fractional random-tie credit; no pass threshold or semantic verdict",
+    "bestSimpleHeuristic": "14/25",
+    "rules": {
+      "longest": 14.0,
+      "shortest": 5.0,
+      "mostClauses": 8.416666666666668,
+      "mostNumbers": 5.75
+    },
+    "exactDuplicateStrings": 20
+  },
+  "hashes": {
+    "cases": "d1de74d1e986fd23e40257417f64de8a66aae3c5069a1ace6f42e6ddd7b298ff",
+    "manifest": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "catalog": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc"
+  }
+}

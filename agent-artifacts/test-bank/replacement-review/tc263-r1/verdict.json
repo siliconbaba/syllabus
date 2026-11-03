@@ -1,0 +1,20 @@
+{
+  "status": "REVISION_REQUIRED",
+  "reviewType": "same-author adversarial self-review, not independent QA",
+  "candidate": "tc263-r1",
+  "accepted": false,
+  "productionChanged": false,
+  "manifestChanged": false,
+  "remainingUnresolved": 72,
+  "gates": {
+    "structural": "PASS",
+    "runtimeVocabulary": "PASS (previous compiled check)",
+    "sourcePrinciple": "PASS with inference limitation",
+    "middleRealization": "NOT_PROVEN",
+    "uniqueStrongestDecision": "FAIL",
+    "semanticNovelty": "PROVISIONAL_ONLY",
+    "fullOptionSurface": "NOT_APPLICABLE"
+  },
+  "majorIssues": 3,
+  "nextAction": "Revise decision skeleton before full options or cumulative-manifest promotion; preserve slot and existing accepted anchors."
+}

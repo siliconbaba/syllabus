@@ -1,0 +1,246 @@
+[
+  {
+    "plannedId": "TC-104",
+    "batch": "Batch 04",
+    "block": "B01 — Project Management",
+    "partId": "part-2",
+    "topicId": "t-2-6",
+    "oneSentenceScenarioConcept": "Junior PM обновляет запись риска отказа внешнего канала до следующего запуска: сигнал резервирования появляется за 3 рабочих дня до возможного отказа, ранний проверенный индикатор — за 7; владелец просит проверить, успеет ли подготовленный fallback. Подготовка fallback занимает 1 рабочий день.",
+    "decisiveFactsConcept": [
+      "Подготовка fallback занимает 1 рабочий день.",
+      "Один Junior PM, один owner, одно событие ещё не наступило; задача — проверить время запуска заранее утверждённого response, а не переоценивать вероятность.",
+      "Поздний сигнал даёт 3 рабочих дня, ранний — 7; оба источника наблюдаемы, ранний признан достаточным для подготовки резерва.",
+      "Ранний запуск связывает резерв раньше и потому применяется только если позднего сигнала недостаточно; стоимость и допустимость раннего резервирования уже согласованы."
+    ],
+    "oneSentenceDecisionBoundary": "Оставить подготовку по позднему сигналу: доступные 3 дня покрывают 1 день response; раннее связывание резерва не нужно.",
+    "domain": "risk_management",
+    "requiredLevel": "junior",
+    "primaryPattern": "risk-register",
+    "secondaryPatterns": [
+      "early-warning-response"
+    ],
+    "structure": "pair",
+    "scenarioFamilyId": "F-PM-P01",
+    "familyPosition": 1,
+    "decisiveMutationConcept": "Длительность подготовки одного и того же fallback: Подготовка fallback занимает 1 рабочий день.",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Junior: дано явное время до события и длительность готовой меры; требуется сравнить 1/5 с 3/7 и выбрать предусмотренный сигнал. Не нужно моделировать вероятность, бюджет или несколько зависимостей.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Управление проектами",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "risk"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§2.6: реестр должен содержать наблюдаемый trigger и исполнимый response; опережающие индикаторы полезны тем, что дают время отреагировать до события."
+  },
+  {
+    "plannedId": "TC-105",
+    "batch": "Batch 04",
+    "block": "B01 — Project Management",
+    "partId": "part-2",
+    "topicId": "t-2-6",
+    "oneSentenceScenarioConcept": "Junior PM обновляет запись риска отказа внешнего канала до следующего запуска: сигнал резервирования появляется за 3 рабочих дня до возможного отказа, ранний проверенный индикатор — за 7; владелец просит проверить, успеет ли подготовленный fallback. Подготовка fallback занимает 5 рабочих дней.",
+    "decisiveFactsConcept": [
+      "Подготовка fallback занимает 5 рабочих дней.",
+      "Один Junior PM, один owner, одно событие ещё не наступило; задача — проверить время запуска заранее утверждённого response, а не переоценивать вероятность.",
+      "Поздний сигнал даёт 3 рабочих дня, ранний — 7; оба источника наблюдаемы, ранний признан достаточным для подготовки резерва.",
+      "Ранний запуск связывает резерв раньше и потому применяется только если позднего сигнала недостаточно; стоимость и допустимость раннего резервирования уже согласованы."
+    ],
+    "oneSentenceDecisionBoundary": "Перенести trigger подготовки на 7-дневный индикатор: 3 дня не покрывают 5 дней response; ждать позднего подтверждения уже слишком поздно.",
+    "domain": "risk_management",
+    "requiredLevel": "junior",
+    "primaryPattern": "risk-register",
+    "secondaryPatterns": [
+      "early-warning-response"
+    ],
+    "structure": "pair",
+    "scenarioFamilyId": "F-PM-P01",
+    "familyPosition": 2,
+    "decisiveMutationConcept": "Длительность подготовки одного и того же fallback: Подготовка fallback занимает 5 рабочих дней.",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Junior: дано явное время до события и длительность готовой меры; требуется сравнить 1/5 с 3/7 и выбрать предусмотренный сигнал. Не нужно моделировать вероятность, бюджет или несколько зависимостей.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Управление проектами",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "risk"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§2.6: реестр должен содержать наблюдаемый trigger и исполнимый response; опережающие индикаторы полезны тем, что дают время отреагировать до события."
+  },
+  {
+    "plannedId": "TC-106",
+    "batch": "Batch 04",
+    "block": "B05 — Processes",
+    "partId": "part-3",
+    "topicId": "t-3-7",
+    "oneSentenceScenarioConcept": "Delivery manager выбирает временную помощь или изменение мощности стадии ревью при одинаковой очереди и обязательствах.",
+    "decisiveFactsConcept": [
+      "Дисбаланс временный: после разового пика поступит 12 задач в первую неделю, затем подтверждённый вход возвращается к 8 задачам в неделю.",
+      "Перед ревью стоит 8 сопоставимых задач, обычная мощность — 10 в неделю; WIP-limit и приоритеты сохраняются. Очередь не должна превысить 14 и должна быть снята к концу четвёртой недели; качество всех мер одинаково.",
+      "Доступны два взаимоисключающих плана. Помощь reviewer даёт +4 задачи/неделю на первые две недели и стоит 20 единиц упущенной работы; продление ещё на две стоит дополнительно 80. Автоматизация типовой проверки стоит 40 единиц, снижает мощность до 8 в первую неделю, затем повышает её до 16. Эффект проверен, возврат после настройки бесплатен; ограничить приём ниже подтверждённого спроса нельзя, иных мер в этом цикле нет."
+    ],
+    "oneSentenceDecisionBoundary": "Взять помощь reviewer на две недели без продления: очередь уйдёт к концу второй недели, дальнейший обычный режим устойчив. Не оплачивать постоянное расширение ради уже заканчивающегося пика.",
+    "domain": "delivery_quality",
+    "requiredLevel": "middle",
+    "primaryPattern": "bottleneck",
+    "secondaryPatterns": [
+      "process-economics"
+    ],
+    "structure": "pair",
+    "scenarioFamilyId": "F-PR-P01",
+    "familyPosition": 1,
+    "decisiveMutationConcept": "Дисбаланс временный: после разового пика поступит 12 задач в первую неделю, затем подтверждённый вход возвращается к 8 задачам в неделю.",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Middle: сопоставить динамику очереди на четырёх неделях, временную потерю мощности при настройке и цену отвлечения reviewer; выбрать выполнимый план под длительность дисбаланса.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Процессы",
+    "derivedRuntimePrimaryThinking": "dependencies",
+    "derivedRuntimeSecondaryThinking": [
+      "proportionality"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-3-7: если причина структурная. Middle: сопоставить динамику очереди на четырёх неделях, временную потерю мощности при настройке и цену отвлечения reviewer; выбрать выполнимый план под длительность дисбаланса. Конкретные условия, величины и доступные действия — авторские, не утверждения учебника."
+  },
+  {
+    "plannedId": "TC-107",
+    "batch": "Batch 04",
+    "block": "B05 — Processes",
+    "partId": "part-3",
+    "topicId": "t-3-7",
+    "oneSentenceScenarioConcept": "Delivery manager выбирает временную помощь или изменение мощности стадии ревью при одинаковой очереди и обязательствах.",
+    "decisiveFactsConcept": [
+      "Дисбаланс устойчивый: подтверждённый вход остаётся 12 задач в неделю весь четырёхнедельный период и далее.",
+      "Перед ревью стоит 8 сопоставимых задач, обычная мощность — 10 в неделю; WIP-limit и приоритеты сохраняются. Очередь не должна превысить 14 и должна быть снята к концу четвёртой недели; качество всех мер одинаково.",
+      "Доступны два взаимоисключающих плана. Помощь reviewer даёт +4 задачи/неделю на первые две недели и стоит 20 единиц упущенной работы; продление ещё на две стоит дополнительно 80. Автоматизация типовой проверки стоит 40 единиц, снижает мощность до 8 в первую неделю, затем повышает её до 16. Эффект проверен, возврат после настройки бесплатен; ограничить приём ниже подтверждённого спроса нельзя, иных мер в этом цикле нет."
+    ],
+    "oneSentenceDecisionBoundary": "Выделить первую неделю на автоматизацию типовой проверки: временно принять очередь 12, затем снять её за три недели. Не покупать повторяющуюся помощь, суммарная цена которой 100 при цене устойчивой меры 40.",
+    "domain": "delivery_quality",
+    "requiredLevel": "middle",
+    "primaryPattern": "bottleneck",
+    "secondaryPatterns": [
+      "process-economics"
+    ],
+    "structure": "pair",
+    "scenarioFamilyId": "F-PR-P01",
+    "familyPosition": 2,
+    "decisiveMutationConcept": "Дисбаланс устойчивый: подтверждённый вход остаётся 12 задач в неделю весь четырёхнедельный период и далее.",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Middle: сопоставить динамику очереди на четырёх неделях, временную потерю мощности при настройке и цену отвлечения reviewer; выбрать выполнимый план под длительность дисбаланса.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Процессы",
+    "derivedRuntimePrimaryThinking": "dependencies",
+    "derivedRuntimeSecondaryThinking": [
+      "proportionality"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-3-7: если причина структурная. Middle: сопоставить динамику очереди на четырёх неделях, временную потерю мощности при настройке и цену отвлечения reviewer; выбрать выполнимый план под длительность дисбаланса. Конкретные условия, величины и доступные действия — авторские, не утверждения учебника."
+  },
+  {
+    "plannedId": "TC-108",
+    "batch": "Batch 04",
+    "block": "B10 — Product / Analytics / Technical Strategy",
+    "partId": "part-10",
+    "topicId": "t-10-4",
+    "oneSentenceScenarioConcept": "Delivery Manager с SRE выбирает режим хранения диагностических записей одного класса за неделю при лимите 1 ГБ: нужен не только счётчик, но и не менее 100 полных примеров для разбора, если события произошли; остальные потоки уже оптимизированы. За неделю возникает 10 000 000 событий этого класса.",
+    "decisiveFactsConcept": [
+      "За неделю возникает 10 000 000 событий этого класса.",
+      "Те же DM и SRE, класс события, недельное окно расследования и размер записи 1 КБ; записи структурированы, без ПДн, связаны trace ID, другой источник подробностей отсутствует.",
+      "Лимит 1 ГБ на этот класс фиксирован; увеличить его в текущем периоде нельзя; агрегированные метрики сохраняют точный счётчик при любом режиме.",
+      "Доступны сохранение всех записей или каждого сотого экземпляра, настройка срока хранения и отключение подробностей с сохранением метрик. Расследование по итогам недели требует не менее100 репрезентативных полных примеров с охватом всей недели; восстановить удалённые записи нельзя. Поток равномерный по времени."
+    ],
+    "oneSentenceDecisionBoundary": "Хранить каждый сотый экземпляр с полным счётчиком: 100 000 примеров сохраняют диагностический минимум, а полный поток около 10 ГБ нарушает лимит.",
+    "domain": "technical_delivery",
+    "requiredLevel": "middle",
+    "primaryPattern": "process-economics",
+    "secondaryPatterns": [
+      "quality-metrics"
+    ],
+    "structure": "pair",
+    "scenarioFamilyId": "F-PA-P02",
+    "familyPosition": 1,
+    "decisiveMutationConcept": "Частота событий одного диагностического класса за неделю: За неделю возникает 10 000 000 событий этого класса.",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Middle: выбрать режим между расходом ограниченного хранения и достаточностью расследования; одновременно проверить размер потока и число сохраняемых примеров. Нельзя сокращать телеметрию одним процентом независимо от частоты.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "proportionality",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§10.4: подробные логи нужны для разбора отдельных событий, но требуют sampling и ограниченного хранения; объём телеметрии не равен качеству расследования."
+  },
+  {
+    "plannedId": "TC-109",
+    "batch": "Batch 04",
+    "block": "B10 — Product / Analytics / Technical Strategy",
+    "partId": "part-10",
+    "topicId": "t-10-4",
+    "oneSentenceScenarioConcept": "Delivery Manager с SRE выбирает режим хранения диагностических записей одного класса за неделю при лимите 1 ГБ: нужен не только счётчик, но и не менее 100 полных примеров для разбора, если события произошли; остальные потоки уже оптимизированы. За неделю возникает 500 событий этого класса.",
+    "decisiveFactsConcept": [
+      "За неделю возникает 500 событий этого класса.",
+      "Те же DM и SRE, класс события, недельное окно расследования и размер записи 1 КБ; записи структурированы, без ПДн, связаны trace ID, другой источник подробностей отсутствует.",
+      "Лимит 1 ГБ на этот класс фиксирован; увеличить его в текущем периоде нельзя; агрегированные метрики сохраняют точный счётчик при любом режиме.",
+      "Доступны сохранение всех записей или каждого сотого экземпляра, настройка срока хранения и отключение подробностей с сохранением метрик. Расследование по итогам недели требует не менее100 репрезентативных полных примеров с охватом всей недели; восстановить удалённые записи нельзя. Поток равномерный по времени."
+    ],
+    "oneSentenceDecisionBoundary": "Сохранить все 500 редких записей: они занимают около 0,5 МБ и помещаются в бюджет; каждый сотый оставит лишь 5 примеров и потеряет нужное свидетельство.",
+    "domain": "technical_delivery",
+    "requiredLevel": "middle",
+    "primaryPattern": "process-economics",
+    "secondaryPatterns": [
+      "quality-metrics"
+    ],
+    "structure": "pair",
+    "scenarioFamilyId": "F-PA-P02",
+    "familyPosition": 2,
+    "decisiveMutationConcept": "Частота событий одного диагностического класса за неделю: За неделю возникает 500 событий этого класса.",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Middle: выбрать режим между расходом ограниченного хранения и достаточностью расследования; одновременно проверить размер потока и число сохраняемых примеров. Нельзя сокращать телеметрию одним процентом независимо от частоты.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "proportionality",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§10.4: подробные логи нужны для разбора отдельных событий, но требуют sampling и ограниченного хранения; объём телеметрии не равен качеству расследования."
+  }
+]

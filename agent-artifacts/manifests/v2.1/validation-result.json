@@ -1,0 +1,42 @@
+{
+  "manifestValidation": "PASS",
+  "csvJsonConsistency": "PASS",
+  "sevenFinalFilesPresent": true,
+  "contentPreservation": "PASS",
+  "runtimeMappingAndEngineSourceHashes": "PASS",
+  "referenceSourceSync": "PASS",
+  "unknownDomains": 0,
+  "unknownPatterns": 0,
+  "thinkingWeightsEngineImpulseChecks": 300,
+  "headBreadthFeasibility": "PASS",
+  "checkCommand": "bash scripts/check.sh",
+  "checkExitCode": 1,
+  "checkStatus": "FAIL",
+  "failure": "WebKit smoke 390x760: Loaded test phase 0; FAIL: timeout after 180 seconds",
+  "passedBeforeFailure": [
+    "content validation",
+    "trainer catalog",
+    "trainer tests",
+    "scoring tests",
+    "schema and snapshot tests",
+    "iOS Simulator build"
+  ],
+  "notReachedInFullScript": [
+    "WebKit 320x568",
+    "WebKit 1280x900",
+    "TTS/saved/pronunciation tail (run separately)"
+  ],
+  "checkLog": "build/manifest-v2.1/check.log",
+  "remainingChecksSeparateRun": {
+    "exitCode": 0,
+    "status": "PASS",
+    "checks": [
+      "speech",
+      "engine",
+      "saved",
+      "English and technical pronunciation corpora",
+      "pronunciation scan"
+    ],
+    "log": "remaining-checks.log"
+  }
+}

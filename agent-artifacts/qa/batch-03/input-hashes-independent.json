@@ -1,0 +1,10 @@
+{
+  "agent-artifacts/test-bank/batch-03/cases_TC076_TC100.json": "df3943383897c243bb8a352e6cd829414711a17035d125d5795361fe928b5379",
+  "InteractiveBook/TrainerContent/cases.json": "2540570c2b907ea0e48cb9752e715486126e006a6100bd27e2f9f170d2c99689",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+  "agent-artifacts/manifests/v2.2.2/production_manifest_masterplan_v2_2_2.json": "c4f8600132a4099a655c31c4c97356c52265da7c0895e04d9a99f04503821e41",
+  "agent-artifacts/manifests/v2.2.2/linked_family_manifest_v2_2_2.csv": "0e574baf695dda48e4e75d89e3503bf7b3e8f27dc1250ec5cb801983c9b675c3"
+}

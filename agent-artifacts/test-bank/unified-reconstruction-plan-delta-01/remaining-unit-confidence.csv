@@ -1,0 +1,43 @@
+﻿unitId,IDs,treatment,oldConfidence,confidence,basis,R3
+U-SECURITY,"[""TC-171""]",R1,LOW,LOW,"Old optional U-EXP+U-SECURITY QA pairing no longer has a viable U-EXP author result. Remove that bundle; if171 later passes, review immediately or choose a separately justified bundle.",false
+U-ONBOARD,"[""TC-193""]",R2,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-MOTIVATION,"[""TC-159""]",R3,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,true
+U-PERFORMANCE,"[""TC-217""]",R3,MEDIUM,LOW,"Anchor274 occupies valid independent evidence under scarce capacity; adding observation cost to a rule can repeat U-EXP failure. Existing treatment retained; feasibility downgraded as risk, not content verdict.",true
+U-ROADMAP,"[""TC-292""]",R3,MEDIUM,LOW,Prior rejected292 draft already collided195. U-EXP confirms narrow sufficient evidence versus expensive completeness is crowded; R3 retained with lower yield confidence.,true
+U-COMMS-J,"[""TC-200""]",R2,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-COMMS-M,"[""TC-243"", ""TC-267""]",R3,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,true
+U-CAUSAL,"[""TC-242"", ""TC-266""]",R3,MEDIUM,LOW,"Rejected pilot-composition direction risks reclaiming242/266 and G-PROCESS space; ready valid-comparison rules plus price do not prove Middle. Precautionary downgrade, not failed reconstruction of these rows.",true
+U-LEARNING,"[""TC-212"", ""TC-220"", ""TC-284""]",R3,MEDIUM,LOW,"Shared G-LEARNING: simple cheap-information/commitment substitutions overlap164,195,259/260,261; explicit free-space proof needed before authoring.",true
+U-REVERSIBLE,"[""TC-239""]",R2,MEDIUM,MEDIUM,Same reservation; no direct failure of this R2. Reserve against replacement U-EXP before using information-cost/reversibility roles.,false
+U-OBSERVABILITY,"[""TC-210""]",R2,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-FLOW-J,"[""TC-135"", ""TC-145""]",R2,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-FLOW-M,"[""TC-298""]",R3,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,true
+U-PRIORITY-J,"[""TC-272""]",R2,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-PRIORITY-M,"[""TC-188""]",R3,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,true
+U-DEPENDENCIES,"[""TC-238"", ""TC-265""]",R3,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,true
+U-DEPENDENCY-J,"[""TC-271""]",R2,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-FORECAST,"[""TC-294""]",R3,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,true
+U-ESCALATE-J,"[""TC-146""]",R2,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-ESCALATE-M,"[""TC-289""]",R3,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,true
+U-CONTROL-CULTURE,"[""TC-191"", ""TC-223""]",R3,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,true
+U-F-DM-P02,"[""TC-129"", ""TC-130""]",R4,MEDIUM,MEDIUM,Direct dependency on U-EXP. Replace completion gate with accepted replacement-role allocation; do not assume experimental roles became free.,false
+U-F-PE-P02,"[""TC-179"", ""TC-180""]",R4,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PM-P02,"[""TC-204"", ""TC-205""]",R4,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PA-P03,"[""TC-206"", ""TC-207""]",R4,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-DR-P03,"[""TC-228"", ""TC-229""]",R4,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-BV-P04,"[""TC-232"", ""TC-233""]",R4,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-ST-P03,"[""TC-255"", ""TC-256""]",R4,MEDIUM,MEDIUM,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PO-P03,"[""TC-234"", ""TC-235""]",R4,LOW,LOW,"Anchor199 appears in existing analog map. Keep R4 and accepted235 protection; require role distinction, not bigger scope/cost, before future work. No causal dependency on U-EXP invented.",false
+U-F-ST-T01,"[""TC-151"", ""TC-152"", ""TC-153""]",R4,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-SDLC-REPLACE,"[""TC-296""]",R5,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-STAKEHOLDER-REPLACE,"[""TC-299""]",R5,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PR-T01,"[""TC-126"", ""TC-127"", ""TC-128""]",R6,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PE-T01,"[""TC-176"", ""TC-177"", ""TC-178""]",R6,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PO-P02,"[""TC-133"", ""TC-134""]",R6,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-ST-P02,"[""TC-156"", ""TC-157""]",R6,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-DM-P03,"[""TC-226"", ""TC-227""]",R6,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PR-P02,"[""TC-230"", ""TC-231""]",R6,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PM-P03,"[""TC-251"", ""TC-252""]",R6,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PA-P04,"[""TC-259"", ""TC-260""]",R6,LOW,LOW,Direct dependency and actual collision221-PROXY with259/260. Their future replacement does not make current occupied role available automatically.,false
+U-F-DR-P04,"[""TC-278"", ""TC-279""]",R6,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false
+U-F-PO-P04,"[""TC-282"", ""TC-283""]",R6,LOW,LOW,Inherited original source/analog assessment; not re-audited or promoted. No evidence-specific delta from one failed unit.,false

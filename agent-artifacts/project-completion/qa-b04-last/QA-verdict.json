@@ -1,0 +1,117 @@
+{
+  "status": "FIX REQUIRED",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-b04-last-04/cases.json",
+  "candidateSHA256": "7d6a6c12c8501cd50bfbf13cb259d4b6e5a596cadb80f872da69650be487450e",
+  "acceptedCaseIDs": [
+    "TC-121",
+    "TC-123"
+  ],
+  "remainingCaseIDs": [
+    "TC-122",
+    "TC-125"
+  ],
+  "scope": "Independent content-only review of four standalone cases. No approval of freeze, aggregate bank or import.",
+  "inputs": {
+    "agent-artifacts/context-packs/batch-04/source-topics/t-6-6.md": "980aab1327645cfd4b91cd200074b7b03a8dce72f61accf8a5a9d372471ef9eb",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-7-6.md": "a0170a4d75f285750f0c959656a67ea35139b16466bb94704f4698bd4c5fe018",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-8-1.md": "2b256e1d75804e99968dea421fd85e383af9b45f6cc54969765f8a25b8789738",
+    "agent-artifacts/context-packs/batch-04/source-topics/t-10-7.md": "170a9dbdb8cca0dd1823598e4d153a9ab1a00568527e2580b56916109041830b",
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f"
+  },
+  "evidenceHashes": {
+    "agent-artifacts/project-completion/qa-b04-last/blind-choices.json": "4e5d6a4f7f33d9ad69bd7708990bc0ffcfb0dbe5c430b7623aee07e6ce1879d9",
+    "agent-artifacts/test-bank/full-cases/pack-b04-last-04/blind-cases.json": "f62dedaf3734f7a9d1312c841083f35c25a410b27eefc671b5317014386c4a19",
+    "agent-artifacts/test-bank/full-cases/pack-b04-last-04/approved-blueprints.json": "8910295fc5610978cf83717fdcb4b5f9a48c98f9630b953f2ffd9210bd5db2a8",
+    "agent-artifacts/test-bank/full-cases/pack-b04-last-04/planned-analogs.json": "aceb4e812bd066eba95471998b13f4bc3754b502ca58c9371a526b75948ca83b",
+    "agent-artifacts/test-bank/full-cases/pack-b04-last-04/production-analogs.json": "b1867eee7bdeab1256a59f78815584a703ed0117b6ccf75317122c70275b5d46",
+    "agent-artifacts/test-bank/full-cases/pack-b04-last-04/validation-summary.json": "da099744a373b28bf602dabf9536fb0f367362e292484e6ac9defa647df5b2f5"
+  },
+  "inheritanceBases": [
+    "Authoritative Swift loader schema/runtime evidence for the exact candidate supplied by coordinator. All seven input hashes recomputed, four blueprint records equal corresponding full working-manifest rows."
+  ],
+  "gates": {
+    "blindStrongest": "PASS A/C/B/D",
+    "uniqueStrongest": "PASS",
+    "source": "PASS principles; TC-125 D misassigns audit in implementation",
+    "manifest": "PASS identity; TC-125 needs operating-model clarification",
+    "level": "PASS",
+    "eligibility": "PASS",
+    "family": "N/A: standalone throughout",
+    "duplication": "PASS",
+    "partialOrdering": "PASS",
+    "wholeOptionWhen": "PASS",
+    "surface": "FIX REQUIRED TC-122; address TC-125 wording in same pass",
+    "runtime": "PASS inherited, hash matched"
+  },
+  "severityCounts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "remainingIssueIDs": [
+    "B04L-01",
+    "B04L-02"
+  ],
+  "importEligible": false,
+  "productionChanged": false,
+  "issues": [
+    {
+      "id": "B04L-01",
+      "severity": "major",
+      "caseID": "TC-122",
+      "field": "options.C.text",
+      "evidence": "C is 188 chars against 115–120. It alone changes sentence and supplies an observable follow-up milestone. With the question hidden, three similarly sized immediate staffing choices compete with one conspicuously complete coaching plan. Strong semantic and typographic cue on an assessment item; all four keys also win longest in this pack.",
+      "minimalFix": "Compress C to the same cadence as the alternatives while preserving closure, ordinary oversight, the two-hour coached handoff and independent readiness confirmation at the next handoff.",
+      "retest": "Blind decision, length/structure across all four items, case-specific agreement with feedback and frozen blueprint."
+    },
+    {
+      "id": "B04L-02",
+      "severity": "major",
+      "caseID": "TC-125",
+      "field": "options.D.text",
+      "evidence": "«В командах оставить раннее ревью, автоматизацию и выборочный аудит обычного пути» grammatically assigns sampling to the product teams. The scenario funds the separate assurance group to audit ordinary changes, §10.7 gives ИБ sample auditing and the blueprint reserves independent capacity for approval and audit. Self-audit cannot verify classification independently under the described common incentives.",
+      "minimalFix": "Assign high-risk approval and ordinary-path sample audit to ИБ with protected authority; leave design review and automation in delivery teams. Use comparable option cadence.",
+      "retest": "Read the full option independently for the owner of each control and check explanation, source and surface."
+    }
+  ],
+  "caseEvidence": {
+    "TC-121": "§6.6 positions/interests and concrete conditional exchange. Middle integrates real campaign, price before charge, channel attribution and testing window. B preserves date and tracking but breaks the price promise; C drops the paid window; D cannot fit mandatory testing. Partial B>C>D is defensible. WHEN B changes the advertised promise; C makes screen placement essential and rescheduling affordable; D narrows campaign and permits timely testing with no external price solution. TC-064/168/255/256 test BATNA, TC-192 tests conditional incentives under uncertainty, TC-112 clarifies undefined milestone. ALLOWED REINFORCEMENT.",
+    "TC-122": "§7.6 explicitly closes met PIP and ties support to observed weakness. Middle must allocate one indivisible mentor slot after closure. A spends it on demonstrated proficiency; B leaves observed handoff failure unattended; D supplies correct coaching at cost of retrospective PIP extension. Partial B>D>A defensible; A counterfactual shifts risk to first project, B confirms both skills, D makes unmet handoff an original criterion with agreed extension. TC-017/018/072/274 address diagnosis or uncompleted PIP, TC-268 tests trial role scope. ALLOWED REINFORCEMENT.",
+    "TC-123": "§8.1 payback as filter, NPV as discounted flows less investment. Middle compares 13−10=3 vs 6.8−6=0.8 after liquidity and budget checks. A passes filters but loses 2.2; C assumes unauthorized second launch; D forgoes positive NPV. C retains one profitable component despite infeasible second step. WHEN A binds payout limit; C releases capacity and resources and compares full sequence NPV; D makes both infeasible and permits carryover. TC-042 tests missing horizon, TC-083/084 future incremental spend, TC-148 realizable benefit and TC-218 downside limit. ALLOWED REINFORCEMENT.",
+    "TC-125": "§10.7 separates duties, embeds primary review, gives ИБ risk-tiered review and sample auditing. Head has authority across six teams and assurance, sets independence and capacity while preserving normal delivery. A leaves self-approval; B fixes independence but cannot cover full load; C separates people but leaves conflicting incentives. B>C>A defensible if prioritizing independent high-risk authority; blind runner C prioritizes feasibility. WHEN A makes knowledge the cause and audit effective before damage; B requires all-independent control with adequate staff; C protects the peer authority, time and incentives and verifies sufficiency. TC-140/171/206/207 test exceptions; TC-149 is upstream privacy governance, TC-244 delegation to managers. ALLOWED REINFORCEMENT; no intra-pack common decision boundary."
+  },
+  "surface": {
+    "keyPositions": "A/C/B/D",
+    "lengthsAD": [
+      [
+        132,
+        105,
+        125,
+        111
+      ],
+      [
+        120,
+        120,
+        188,
+        115
+      ],
+      [
+        104,
+        123,
+        91,
+        91
+      ],
+      [
+        127,
+        128,
+        127,
+        166
+      ]
+    ],
+    "longestKey": 4,
+    "exactDuplicateOptions": 0,
+    "note": "Only the keys in TC-122/125 have a second sentence; the latter is also where audit ownership gets reversed. TC-121 and TC-123 have no comparably strong local structural tell. Retest the four together."
+  }
+}

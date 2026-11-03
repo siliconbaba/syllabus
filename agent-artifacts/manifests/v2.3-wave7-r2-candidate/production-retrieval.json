@@ -1,0 +1,146 @@
+[
+  {
+    "plannedId": "TC-183",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-089",
+        "retrievalScore": 12.145747,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "accountability"
+        ],
+        "sharedTerms": [
+          "delivery",
+          "двух",
+          "ещё",
+          "нарушение",
+          "после",
+          "при",
+          "проверка",
+          "разборе",
+          "сознательное",
+          "только"
+        ]
+      },
+      {
+        "id": "TC-087",
+        "retrievalScore": 12.121562,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "accountability"
+        ],
+        "sharedTerms": [
+          "без",
+          "инцидента",
+          "независимо",
+          "отдельно",
+          "после",
+          "проверка",
+          "сознательное",
+          "сохранить"
+        ]
+      },
+      {
+        "id": "TC-019",
+        "retrievalScore": 10.129086,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "без",
+          "восстановлен",
+          "или",
+          "инцидента",
+          "после",
+          "проверки",
+          "сервис",
+          "системная"
+        ]
+      },
+      {
+        "id": "TC-074",
+        "retrievalScore": 3.271038,
+        "reasons": [
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "более",
+          "готовит",
+          "две",
+          "двух",
+          "для",
+          "или",
+          "между",
+          "нельзя",
+          "обе",
+          "общий",
+          "после",
+          "при",
+          "работ",
+          "работы",
+          "сегодня",
+          "слот",
+          "только",
+          "требует",
+          "цена"
+        ]
+      },
+      {
+        "id": "TC-018",
+        "retrievalScore": 3.117844,
+        "reasons": [
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "accountability"
+        ],
+        "sharedTerms": [
+          "без",
+          "две",
+          "ещё",
+          "нет",
+          "ожидания",
+          "работы",
+          "следующий",
+          "согласованный",
+          "требует"
+        ]
+      },
+      {
+        "id": "TC-012",
+        "retrievalScore": 3.050486,
+        "reasons": [
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "resource-conflict"
+        ],
+        "sharedTerms": [
+          "общий",
+          "одна",
+          "только",
+          "цена"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

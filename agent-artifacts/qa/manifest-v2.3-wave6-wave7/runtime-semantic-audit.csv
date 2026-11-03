@@ -1,0 +1,21 @@
+plannedId,wave,role,pattern,category,concreteDecisionEvidence,semanticVerdict,technicalMapping
+TC-148,6,primary,process-economics,proportionality,Не считать неизменную зарплату cash saving; сравнить реализуемые net20 и15.,PASS,PASS
+TC-148,6,secondary,resource-conflict,prioritization,"Согласовать объём высвобождаемой capacity40/100 с реально полезным спросом60; выбрать меньшую инвестицию и назначение часов. Это capacity allocation, не конфликт должностей.",PASS,PASS
+TC-183,6,primary,resource-conflict,prioritization,"Сохранить четыре часа инженера для проверяемого результата, не расходовать два часа на участие, заменённое хронологией. Семантически есть распределение ресурса, хотя недостаточно сложности для Middle.",PASS,PASS
+TC-183,6,secondary,accountability,organization,Не отменять отдельный процесс ответственности и не публиковать персональные материалы; передать достаточную хронологию владельцу.,PASS,PASS
+TC-199,6,primary,structural-dependency-reduction,organization,"Уменьшить сами повторяющиеся handoff вертикальным пилотом, а не улучшать их учёт.",PASS,PASS
+TC-199,6,secondary,team-topologies,organization,Различить stream-aligned группу результата и действительно общий platform-сервис с явной границей.,PASS,PASS
+TC-208,6,primary,process-economics,proportionality,Сравнить105/115/120 как полные приведённые затраты.,PASS,PASS
+TC-208,6,secondary,resource-conflict,prioritization,"Учесть ограниченные50 ликвидности и недостающие20, не присваивая бюджет других проектов.",PASS,PASS
+TC-218,6,primary,uncertainty-impact-plan-b,uncertainty,"Оценить оба сценария и условный план после получения информации, сохраняя downside-limit.",PASS,PASS
+TC-218,6,secondary,process-economics,proportionality,"Включить стоимость30 информации в обе ветви, не выбирать по EV32 без worst−25.",PASS,PASS
+TC-257,6,primary,accountability,organization,"Связать норму признания с результатом и поведением, поддержать доказанное исправление.",PASS,PASS
+TC-257,6,secondary,roles,organization,"Сохранить people-mandate, не назначать заместителя без основания.",PASS,PASS
+TC-258,6,primary,accountability,organization,Продолжающийся вред имеет последствия несмотря на delivery; изменить критерий признания блока.,PASS,PASS
+TC-258,6,secondary,roles,organization,Передать people-mandate с освобождением capacity и оставить только ограниченную экспертную функцию.,PASS,PASS
+TC-288,6,primary,resource-conflict,prioritization,Распределить32ч между обязательными24 и A8; потеря B15 дешевле доступной подмены25.,PASS,PASS
+TC-288,6,secondary,support,stakeholders,"Реально защитить восстановление изменением обязательств и сообщением заказчикам, а не обещать отдых при прежнем объёме.",PASS,PASS
+TC-290,6,primary,support,stakeholders,"Помочь один час в решении команды, сохранив её способ и ownership.",PASS,PASS
+TC-290,6,secondary,process-economics,proportionality,Сравнить60/80/90 включая цену отменённой встречи.,PASS,PASS
+TC-248,7,primary,hypothesis,uncertainty,"Проверить опровержимую гипотезу перетока и выбрать дизайн, измеряющий общий эффект с guardrail ожидания.",PASS,PASS
+TC-248,7,secondary,root-cause,systems,Исследовать механизм interference общей мощности и переноса занятости; не объявлять его доказанным только по корреляции.,PASS,PASS

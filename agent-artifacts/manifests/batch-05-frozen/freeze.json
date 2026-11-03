@@ -1,0 +1,9 @@
+{
+  "scope": "TC-126…150",
+  "projectionSHA256": "34ce9ac63224be5c9cafd15ddd0aa275ad438b07f0e4415b039bcf6753671ea7",
+  "acceptedContentSHA256": "64db730d627c6c557cb20118b8f2160b5d7ec96ba5f99a653f7cbad848f48557",
+  "qa": {
+    "agent-artifacts/project-completion/qa-assembled05-content-r3/QA-verdict.json": "bc9aedc6156914a3b017c4ba4d1a2e4b0c1ba2165e326d8e18997aa7ee0b3e47",
+    "agent-artifacts/project-completion/qa-assembled05-surface-r3/QA-verdict.json": "23a5b38811feff0465fa0d5bf0c285375f2e215861d8ee73353e1635dfc9de19"
+  }
+}

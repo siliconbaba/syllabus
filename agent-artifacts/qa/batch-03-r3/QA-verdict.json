@@ -1,0 +1,47 @@
+{
+  "verdict": "READY FOR FREEZE + IMPORT",
+  "manifestHotfix": "PASS",
+  "manifestChangedRows": 1,
+  "manifestChangedIds": [
+    "TC-085"
+  ],
+  "manifestUnchangedRows": 274,
+  "familyContractsChanged": 0,
+  "unexpectedManifestRegression": 0,
+  "TC085SourceGrounding": "SUPPORTED",
+  "TC085UniqueStrongest": "PASS",
+  "TC085MiddleRealization": "PASS",
+  "TC085vsTC004": "ALLOWED REINFORCEMENT",
+  "batchChangedCases": 1,
+  "batchChangedIds": [
+    "TC-085"
+  ],
+  "otherCasesByteIdentical": 24,
+  "unexpectedBatchRegression": 0,
+  "priorR2FixesPreserved": "PASS — authorized inheritance with byte identity",
+  "familiesPreserved": "PASS 4/4",
+  "wholeBatch": {
+    "uniqueStrongest": 25,
+    "sourceGrounded": 25,
+    "manifestAligned": 25,
+    "schema": "PASS",
+    "runtime": "PASS"
+  },
+  "bestSimpleHeuristic": 10,
+  "combined100Leakage": "PASS",
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "severity": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "remainingIds": [],
+  "performedFreeze": false,
+  "performedImport": false,
+  "scope": "Focused TC085 new audit; 24 other semantic results inherited from r2 under explicit instruction and proven byte identity."
+}

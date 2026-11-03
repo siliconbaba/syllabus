@@ -1,0 +1,38 @@
+{
+  "status": "BLOCKED AT PREFLIGHT",
+  "created": 0,
+  "planned": 25,
+  "productionCount": 75,
+  "plannedStandalone": 16,
+  "plannedLinked": 9,
+  "plannedFamilies": 4,
+  "plannedPairs": 3,
+  "plannedTriplets": 1,
+  "plannedLevels": {
+    "middle": 12,
+    "junior": 5,
+    "senior": 5,
+    "head": 3
+  },
+  "preflight": {
+    "NEAR DUPLICATE": 2,
+    "ALLOWED REINFORCEMENT": 17,
+    "DUPLICATE": 4,
+    "NO CLOSE ANALOG": 2
+  },
+  "correctPositions": null,
+  "reason": "No answer options authored; distributions would be fabricated.",
+  "blockedIDs": [
+    "TC-076",
+    "TC-079",
+    "TC-087",
+    "TC-088",
+    "TC-091",
+    "TC-093"
+  ],
+  "familyHeldIDs": [
+    "TC-077",
+    "TC-078",
+    "TC-080"
+  ]
+}

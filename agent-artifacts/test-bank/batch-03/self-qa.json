@@ -1,0 +1,31 @@
+{
+  "status": "READY FOR INDEPENDENT QA",
+  "readyForIndependentQA": true,
+  "reviewType": "Author self-QA; no claim of independent blind review or import approval.",
+  "candidateSHA256": "df3943383897c243bb8a352e6cd829414711a17035d125d5795361fe928b5379",
+  "created": 25,
+  "uniqueStrongest": 25,
+  "sourceGrounded": 25,
+  "manifestAligned": 25,
+  "familyPass": 4,
+  "schema": "PASS",
+  "runtime": "PASS",
+  "protectedInputsUnchanged": "PASS",
+  "crossBankNearDuplicate": 0,
+  "crossBankDuplicate": 0,
+  "internalNearDuplicate": 0,
+  "internalDuplicate": 0,
+  "surfaceLeakage": "PASS (specified exploratory rules)",
+  "unresolvedIds": [],
+  "evidence": [
+    "schema-validation.log",
+    "case-self-qa.json",
+    "pairwise-self-check.csv",
+    "source-trace.csv",
+    "family-diff-analysis.json",
+    "duplication-audit.csv",
+    "internal-duplication-analysis.json",
+    "surface-leakage-analysis.json"
+  ],
+  "history": "history-preflight-v2.2.1/; root input-hashes.json, manifest-extract.json, duplication-preflight.csv and cross-bank-retrieval-evidence.json are historical preflight, not current authoring baseline."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "QA104-109-01",
+    "severity": "major",
+    "cases": [
+      "TC-108",
+      "TC-109"
+    ],
+    "fields": [
+      "options.C.text",
+      "options.D.text",
+      "context"
+    ],
+    "evidence": "C asks for a current-period limit increase explicitly unavailable in context. D expressly leaves the current week without an approved detail-retention plan although that week needs details. Both can be eliminated without testing frequency, storage or evidence sufficiency. Their remote WHEN conditions do not make these plausible contenders in this stem. Four schema slots are populated but only A/B are substantive strategies.",
+    "minimal_fix": "Redesign shared C/D and, if needed, shared constraints so all four express plausible distinct retention decisions. Preserve frequency as sole sibling mutation and A/B boundary. Do not replace fillers with another expressly forbidden action. Blueprint/family implications must be reviewed if action-space constraints change.",
+    "retest": "Both siblings blind; unique best and strongest alternative; all four whole-WHEN/DQ; source and middle realization; pair invariants, analog boundary and batch surface."
+  },
+  {
+    "id": "QA104-109-02",
+    "severity": "major",
+    "cases": [
+      "TC-106",
+      "TC-107"
+    ],
+    "fields": [
+      "options.C.whenItWouldBeBest"
+    ],
+    "evidence": "WHEN says four weeks of help clear the queue, normal capacity covers subsequent arrival, and automation is unavailable or more expensive. It omits that two-week B must be insufficient. Counterexample: TC106 arrival 12,8,8,8 with automation unavailable. C satisfies its entire WHEN, but B clears by week2 for20 and C costs100. Thus the stated conditions do not make the whole C action best.",
+    "minimal_fix": "Require that the extension is necessary for constraints (short help cannot meet them), retain adequacy after help and comparison with automation. Apply identically to both siblings.",
+    "retest": "Focused whole-WHEN evaluation on C both siblings; raw-object diff allowlist; unchanged keys/context/options/DQ may inherit this review."
+  }
+]

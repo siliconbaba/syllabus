@@ -1,0 +1,28 @@
+{
+  "algorithm": "SHA-256",
+  "selfExcluded": true,
+  "files": {
+    "manifest-diff-evidence.json": "bc33f68e40399964e1a9a41dd61998cf0a10396f7756788e6b95e22b830d55d8",
+    "u-exp-runtime-audit.csv": "6bcd5866535305c9e526d285115e7d9b7a27164e248127730e8052605fd4b7a9",
+    "input-hashes.json": "84762c93cf822646a163f7c01bb13b13078c7cfb1a81e4643d7835515c977ef4",
+    "source-grounding-evidence.json": "635edf90e3b542627e0b31a622c878d69669b86dae00a195ced8bb915356a9d9",
+    "pre-freeze-cleanup.md": "6577181c5b9d5b9961315f42b4155b73dd1046e573906fc2a150271fbfadf2e9",
+    "rejected-research-trials.json": "51df32dddab572c62a3d8a1ee9e4603faa640e0d6b68297b6701adec5253fd9e",
+    "validation-result.json": "60f7994d59d81248405102076897c76ef57f31c350166b2a01d56f75a58dd046",
+    "u-exp-change-log.csv": "2cc510ca6fcb3f6ff5b41038452c0dd970261edb21cb371034b85f4fce12ba1d",
+    "source-topic-t-13-3.md": "a549f16dbafb75fe483e70aa80f9d9f4fc9fb81b1f34f932496464ee85c414c7",
+    "runtime_coverage_v2_3_recon_u_exp_candidate.json": "900458ba80ff99459cbbe3d19eeb3b30d5d86844690582d8bd714c768656048c",
+    "u-exp-level-audit.csv": "70e7ec41377b97812d1282391c8977b1cc796c07380dc64a4c4dc273bb9d9abc",
+    "production_manifest_masterplan_v2_3_recon_u_exp_candidate.json": "5ce1ec0b808171c4cb3665b5c97599959f21f2da5a51a5ca0067b8b3538be1a8",
+    "head_audit_v2_3_recon_u_exp_candidate.csv": "af30bf944c1ff208100b6bf6a4453f39adaa70a89fa114f20802ecad0c3dc14b",
+    "u-exp-plan.json": "2bb642e26ed714b5bdef36aec873cf306994def27d09e96d04a4254dda7d0972",
+    "production_manifest_TC026_TC300_v2_3_recon_u_exp_candidate.csv": "8ade72472ee5a4f04f5bc20b9352478ce674173d204451ae27bb347171d4b087",
+    "production_manifest_review_v2_3_recon_u_exp_candidate.md": "e591458979aeaa572821f1f203d6288ffcf215aa42736d78b3864d42ebe4346c",
+    "authoritative-runtime-mapping.json": "bcee01dcecc36eaea05e4f967f4b1980c68f0e04c27f90627bee4c42cc7208ae",
+    "retrieval-evidence.json": "fa8dce5bd2489fdc6de63124d52fac31a890c4f0e5972389846d09c849c7b8ca",
+    "u-exp-reconstruction-report.md": "e591458979aeaa572821f1f203d6288ffcf215aa42736d78b3864d42ebe4346c",
+    "linked_family_manifest_v2_3_recon_u_exp_candidate.csv": "9de28739467cc8e3a44d27108e85aecc8e8c2cdd35852f245beb30dc67b8f348",
+    "u-exp-semantic-audit.csv": "45fcbff7e7718d57febd0501150e378753074259f4722861a05969bdf773efdf",
+    "decisive-analog-evidence.json": "02c562dff034a2747d3e4166472fc270cdc991e81d8b4eb502443a5551ee53fb"
+  }
+}

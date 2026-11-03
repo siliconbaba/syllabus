@@ -1,0 +1,41 @@
+{
+  "plannedId": "TC-263",
+  "batch": "Batch 10",
+  "block": "B10 — Product / Analytics / Technical Strategy",
+  "partId": "part-13",
+  "topicId": "t-13-3",
+  "oneSentenceScenarioConcept": "Middle PM получил p=0.2 при эффекте почти равном MDE после полной выборки; нужно решить, считать ли гипотезу доказанной из-за «правильного направления» или принять неопределённый/негативный результат по протоколу.",
+  "decisiveFactsConcept": [
+    "Полная выборка набрана",
+    "p=0.2",
+    "Effect близок к MDE"
+  ],
+  "oneSentenceDecisionBoundary": "Направление эффекта ↔ решение по заранее заданному statistical criterion.",
+  "domain": "experimentation",
+  "requiredLevel": "middle",
+  "primaryPattern": "precommitted-stop-criteria",
+  "secondaryPatterns": [
+    "p-value",
+    "guardrails"
+  ],
+  "structure": "standalone",
+  "scenarioFamilyId": null,
+  "familyPosition": null,
+  "decisiveMutationConcept": null,
+  "trainingEligible": true,
+  "assessmentEligible": true,
+  "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+  "futureContextSensitivityCandidate": false,
+  "vocabularyReviewRef": null,
+  "derivedRuntimeUiDomain": "Аналитика",
+  "derivedRuntimePrimaryThinking": "evidence",
+  "derivedRuntimeSecondaryThinking": [
+    "evidence",
+    "risk"
+  ],
+  "runtimeDerivationStatus": "authoritative-swift-mapping",
+  "whyHead": null,
+  "authorityScope": null,
+  "secondaryEffect": null,
+  "runtimeClassificationSource": "authoritative-swift-mapping"
+}

@@ -1,0 +1,261 @@
+{
+  "productionBeforeSHA256": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+  "productionAfterSHA256": "8f50c50908484ef7a83c2179e51b4688b1c3907acab5d493d4766003ac554bd2",
+  "acceptedIndividuallyBeforeAssembly": [
+    {
+      "id": "TC-146",
+      "candidate": "agent-artifacts/test-bank/full-cases/tc146-r1/cases.json",
+      "sha256": "21f0cfe0591de80578107a0f5bafd0b1b680b0be7b00264a911bef522868ca33",
+      "qa": "agent-artifacts/project-completion/qa-full-tc146-r1/QA-verdict.json",
+      "qaSHA256": "b6120b6250cf5f33de01d7050f4cb9ae22bd258e568886d31c668fcc72021453",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-143",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-systems-05/cases.json",
+      "sha256": "349a2c73fabfdbdd111b248aeb9cc57d292c777d5b6e81d9d892bba7e905d37a",
+      "qa": "agent-artifacts/project-completion/qa-systems05/QA-verdict.json",
+      "qaSHA256": "34d3472ad7d733abed19a7f9bc28025b3eddfbb0db18687dc230ad61a2988818",
+      "qaScope": "Five standalone cases passed independent content review, no integration or freeze.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-131",
+      "candidate": "agent-artifacts/test-bank/full-cases/pair-runner-131-132-r2/cases.json",
+      "sha256": "d0ca90bc810be5ba43f2f213f9150b1b20612db993b07fa275ae0869c76c3f3f",
+      "qa": "agent-artifacts/project-completion/qa-runner131-r2/QA-verdict.json",
+      "qaSHA256": "006ec74e07a3c7a2240f3b66623b821e6afbab32267e7f860e8c108b3b24d6d3",
+      "qaScope": "Atomic pair F-DR-P02, final independent R2",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-132",
+      "candidate": "agent-artifacts/test-bank/full-cases/pair-runner-131-132-r2/cases.json",
+      "sha256": "d0ca90bc810be5ba43f2f213f9150b1b20612db993b07fa275ae0869c76c3f3f",
+      "qa": "agent-artifacts/project-completion/qa-runner131-r2/QA-verdict.json",
+      "qaSHA256": "006ec74e07a3c7a2240f3b66623b821e6afbab32267e7f860e8c108b3b24d6d3",
+      "qaScope": "Atomic pair F-DR-P02, final independent R2",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-136",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json",
+      "sha256": "70d135da2bb882353eaab68ed371baccd7543a688a73ab81d509110ef39b1a66",
+      "qa": "agent-artifacts/project-completion/qa-136-139-r2/QA-verdict.json",
+      "qaSHA256": "3eee06ba52dafc4fa6d128966d83d6709239f785deda5faeca1e1d1bd7310d70",
+      "qaScope": "Independent QA of 136–139 including 137C and 138 context fixes",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-137",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json",
+      "sha256": "70d135da2bb882353eaab68ed371baccd7543a688a73ab81d509110ef39b1a66",
+      "qa": "agent-artifacts/project-completion/qa-136-139-r2/QA-verdict.json",
+      "qaSHA256": "3eee06ba52dafc4fa6d128966d83d6709239f785deda5faeca1e1d1bd7310d70",
+      "qaScope": "Independent QA of 136–139 including 137C and 138 context fixes",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-138",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json",
+      "sha256": "70d135da2bb882353eaab68ed371baccd7543a688a73ab81d509110ef39b1a66",
+      "qa": "agent-artifacts/project-completion/qa-136-139-r2/QA-verdict.json",
+      "qaSHA256": "3eee06ba52dafc4fa6d128966d83d6709239f785deda5faeca1e1d1bd7310d70",
+      "qaScope": "Independent QA of 136–139 including 137C and 138 context fixes",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-139",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-136-139-r2/cases.json",
+      "sha256": "70d135da2bb882353eaab68ed371baccd7543a688a73ab81d509110ef39b1a66",
+      "qa": "agent-artifacts/project-completion/qa-136-139-r2/QA-verdict.json",
+      "qaSHA256": "3eee06ba52dafc4fa6d128966d83d6709239f785deda5faeca1e1d1bd7310d70",
+      "qaScope": "Independent QA of 136–139 including 137C and 138 context fixes",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-126",
+      "candidate": "agent-artifacts/test-bank/full-cases/triplet-126-128/cases.json",
+      "sha256": "6aba79b7ddbf059d0877d1ed59b3936139fc822019be06da0cb9ebf56a0aef62",
+      "qa": "agent-artifacts/project-completion/qa-full-triplet126/QA-verdict.json",
+      "qaSHA256": "73f48a5127d91f7ff1f3ebdb42b266a2fbd94200dba8afb813c045c5919dff17",
+      "qaScope": "Independent full-case QA, working projection validated for authoring.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-127",
+      "candidate": "agent-artifacts/test-bank/full-cases/triplet-126-128/cases.json",
+      "sha256": "6aba79b7ddbf059d0877d1ed59b3936139fc822019be06da0cb9ebf56a0aef62",
+      "qa": "agent-artifacts/project-completion/qa-full-triplet126/QA-verdict.json",
+      "qaSHA256": "73f48a5127d91f7ff1f3ebdb42b266a2fbd94200dba8afb813c045c5919dff17",
+      "qaScope": "Independent full-case QA, working projection validated for authoring.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-128",
+      "candidate": "agent-artifacts/test-bank/full-cases/triplet-126-128/cases.json",
+      "sha256": "6aba79b7ddbf059d0877d1ed59b3936139fc822019be06da0cb9ebf56a0aef62",
+      "qa": "agent-artifacts/project-completion/qa-full-triplet126/QA-verdict.json",
+      "qaSHA256": "73f48a5127d91f7ff1f3ebdb42b266a2fbd94200dba8afb813c045c5919dff17",
+      "qaScope": "Independent full-case QA, working projection validated for authoring.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-140",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-140-142-r2/cases.json",
+      "sha256": "64c880364870fd3471ca3db2df913cd09f8fcb2bc682ebdcff3f5588deb20514",
+      "qa": "agent-artifacts/project-completion/qa-140-142-r2/QA-verdict.json",
+      "qaSHA256": "a285373ef760d32521d1490052bce3190e975934f24b77121c39f54110794bf1",
+      "qaScope": "Independent full-case QA, working projection validated for authoring.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-141",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-140-142-r2/cases.json",
+      "sha256": "64c880364870fd3471ca3db2df913cd09f8fcb2bc682ebdcff3f5588deb20514",
+      "qa": "agent-artifacts/project-completion/qa-140-142-r2/QA-verdict.json",
+      "qaSHA256": "a285373ef760d32521d1490052bce3190e975934f24b77121c39f54110794bf1",
+      "qaScope": "Independent full-case QA, working projection validated for authoring.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-142",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-140-142-r2/cases.json",
+      "sha256": "64c880364870fd3471ca3db2df913cd09f8fcb2bc682ebdcff3f5588deb20514",
+      "qa": "agent-artifacts/project-completion/qa-140-142-r2/QA-verdict.json",
+      "qaSHA256": "a285373ef760d32521d1490052bce3190e975934f24b77121c39f54110794bf1",
+      "qaScope": "Independent full-case QA, working projection validated for authoring.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-144",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "sha256": "611779a56b740371f21655056b0e87deb538af1836fe8bd7c9651e8c450885cf",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "qaSHA256": "cd67fb16b7519e08c2b8c2a79f491f454ec19ab678572f3f0044805cf5876bbd",
+      "qaScope": "Five accepted, four WHEN corrected",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-147",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "sha256": "611779a56b740371f21655056b0e87deb538af1836fe8bd7c9651e8c450885cf",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "qaSHA256": "cd67fb16b7519e08c2b8c2a79f491f454ec19ab678572f3f0044805cf5876bbd",
+      "qaScope": "Five accepted, four WHEN corrected",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-148",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "sha256": "611779a56b740371f21655056b0e87deb538af1836fe8bd7c9651e8c450885cf",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "qaSHA256": "cd67fb16b7519e08c2b8c2a79f491f454ec19ab678572f3f0044805cf5876bbd",
+      "qaScope": "Five accepted, four WHEN corrected",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-149",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "sha256": "611779a56b740371f21655056b0e87deb538af1836fe8bd7c9651e8c450885cf",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "qaSHA256": "cd67fb16b7519e08c2b8c2a79f491f454ec19ab678572f3f0044805cf5876bbd",
+      "qaScope": "Five accepted, four WHEN corrected",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-150",
+      "candidate": "agent-artifacts/test-bank/full-cases/pack-b05-five-r2/cases.json",
+      "sha256": "611779a56b740371f21655056b0e87deb538af1836fe8bd7c9651e8c450885cf",
+      "qa": "agent-artifacts/project-completion/qa-b05-five-r2/QA-verdict.json",
+      "qaSHA256": "cd67fb16b7519e08c2b8c2a79f491f454ec19ab678572f3f0044805cf5876bbd",
+      "qaScope": "Five accepted, four WHEN corrected",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-129",
+      "candidate": "agent-artifacts/test-bank/full-cases/pair-129-130-r2/cases.json",
+      "sha256": "d7554d453712e5548387891b31ffe858fb9aa16a13aa21f70c7f867adfbd3203",
+      "qa": "agent-artifacts/project-completion/qa-full-pair129-r2/QA-verdict.json",
+      "qaSHA256": "83edd1f37beef6eb50752dc45a4f5c0e05ef021a2be7c10aec63ef0e0cb59550",
+      "qaScope": "Atomic family; independently reviewed final full cases.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-130",
+      "candidate": "agent-artifacts/test-bank/full-cases/pair-129-130-r2/cases.json",
+      "sha256": "d7554d453712e5548387891b31ffe858fb9aa16a13aa21f70c7f867adfbd3203",
+      "qa": "agent-artifacts/project-completion/qa-full-pair129-r2/QA-verdict.json",
+      "qaSHA256": "83edd1f37beef6eb50752dc45a4f5c0e05ef021a2be7c10aec63ef0e0cb59550",
+      "qaScope": "Atomic family; independently reviewed final full cases.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-133",
+      "candidate": "agent-artifacts/test-bank/full-cases/pair-133-134/cases.json",
+      "sha256": "5183bf959c71ed601afcff8a6e8069f544977230c49301c31bb66eea59d74af6",
+      "qa": "agent-artifacts/project-completion/qa-full-pair133/QA-verdict.json",
+      "qaSHA256": "eff76d33fbd6e337bc8ee1e8e5832997c04cfe356a93fbc8e0fbd5e4c42a183c",
+      "qaScope": "Atomic family; independently reviewed final full cases.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-134",
+      "candidate": "agent-artifacts/test-bank/full-cases/pair-133-134/cases.json",
+      "sha256": "5183bf959c71ed601afcff8a6e8069f544977230c49301c31bb66eea59d74af6",
+      "qa": "agent-artifacts/project-completion/qa-full-pair133/QA-verdict.json",
+      "qaSHA256": "eff76d33fbd6e337bc8ee1e8e5832997c04cfe356a93fbc8e0fbd5e4c42a183c",
+      "qaScope": "Atomic family; independently reviewed final full cases.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-135",
+      "candidate": "agent-artifacts/test-bank/full-cases/junior-135-145-r3/cases.json",
+      "sha256": "d1623dd70f8c50524cedc3afdba66f8ebc8af54f660a1e4c514d921135aad886",
+      "qa": "agent-artifacts/project-completion/qa-full-junior135145-r3/QA-verdict.json",
+      "qaSHA256": "43da83031f5d14e1aeaab4c47d15f4670732e2d237863f7b6b0160e4c98bf506",
+      "qaScope": "135 R2 inherited, 145 R3.",
+      "contentAccepted": true,
+      "productionImported": false
+    },
+    {
+      "id": "TC-145",
+      "candidate": "agent-artifacts/test-bank/full-cases/junior-135-145-r3/cases.json",
+      "sha256": "d1623dd70f8c50524cedc3afdba66f8ebc8af54f660a1e4c514d921135aad886",
+      "qa": "agent-artifacts/project-completion/qa-full-junior135145-r3/QA-verdict.json",
+      "qaSHA256": "43da83031f5d14e1aeaab4c47d15f4670732e2d237863f7b6b0160e4c98bf506",
+      "qaScope": "135 R2 inherited, 145 R3.",
+      "contentAccepted": true,
+      "productionImported": false
+    }
+  ],
+  "finalContentSHA256": "64db730d627c6c557cb20118b8f2160b5d7ec96ba5f99a653f7cbad848f48557",
+  "qa": {
+    "agent-artifacts/project-completion/qa-assembled05-content-r3/QA-verdict.json": "bc9aedc6156914a3b017c4ba4d1a2e4b0c1ba2165e326d8e18997aa7ee0b3e47",
+    "agent-artifacts/project-completion/qa-assembled05-surface-r3/QA-verdict.json": "23a5b38811feff0465fa0d5bf0c285375f2e215861d8ee73353e1635dfc9de19"
+  },
+  "previous125BytePrefixPreserved": true
+}

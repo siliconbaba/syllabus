@@ -1,0 +1,278 @@
+{
+  "unit": "U-EXP",
+  "treatment": "R3 — LEVEL + SEMANTIC RECONSTRUCTION",
+  "scopeLockedBeforeDrafts": true,
+  "selectedIDs": [
+    "TC-221",
+    "TC-263"
+  ],
+  "base": "agent-artifacts/manifests/v2.3-hardtail-b1-candidate",
+  "baseSHA256": "e33426000f6cdd4bfc638278432fafc4c6989c778c587609f21a8b40f7c3e2c6",
+  "planningUnit": {
+    "unitId": "U-EXP",
+    "sequence": 1,
+    "unresolvedMemberIDs": [
+      "TC-221",
+      "TC-263"
+    ],
+    "memberIDs": [
+      "TC-221",
+      "TC-263"
+    ],
+    "additionalAcceptedSiblings": [],
+    "treatment": "R3",
+    "treatmentLabel": "LEVEL + SEMANTIC RECONSTRUCTION",
+    "familyIDs": [],
+    "unitType": "semantic-standalone-cluster",
+    "replacementUnit": false,
+    "whyAtomic": "Общий semantic reservation нужен до разделения diagnostic ролей; строки могут иначе занять одну boundary. Это не chunk по количеству.",
+    "sharedSourceTopics": [
+      "t-13-3"
+    ],
+    "mainDefect": "Заданный p/MDE или rollout rule одновременно обнуляет Middle и повторяет024/031/032.",
+    "nearestAnalogsToAvoid": [
+      "TC-024",
+      "TC-031",
+      "TC-032",
+      "TC-094",
+      "TC-164",
+      "TC-195",
+      "TC-248",
+      "TC-261"
+    ],
+    "expectedRedesignMechanism": "Развести две диагностические обязанности в дизайне и интерпретации эксперимента; доказать конкурирующие допустимые действия с ценой информации, не дописывая стоимость к готовому статистическому правилу.",
+    "mechanismStatus": "RESEARCH DIRECTION ONLY — not a redesigned blueprint or proof of feasibility",
+    "levelConstraints": {
+      "TC-221": "middle",
+      "TC-263": "middle"
+    },
+    "familyConstraints": null,
+    "coverageConstraints": {
+      "baseline": {
+        "rows": 2,
+        "topics": {
+          "t-13-3": 2
+        },
+        "levels": {
+          "middle": 2
+        },
+        "domains": {
+          "experimentation": 2
+        },
+        "uiDomains": {
+          "Аналитика": 2
+        },
+        "thinkingPrimary": {
+          "evidence": 2
+        },
+        "thinkingUnion": {
+          "evidence": 2,
+          "risk": 2
+        },
+        "normalizedThinkingEvidence": {
+          "context": 0,
+          "dependencies": 0,
+          "evidence": 1.3333333333,
+          "organization": 0,
+          "prioritization": 0,
+          "proportionality": 0,
+          "risk": 0.6666666667,
+          "stakeholders": 0,
+          "systems": 0,
+          "uncertainty": 0
+        },
+        "standalone": 2,
+        "linked": 0,
+        "assessmentEligible": 2,
+        "families": []
+      },
+      "preserve": [
+        "IDs",
+        "topic/coverage intent",
+        "requiredLevel per slot",
+        "domain/UI-domain coverage intent",
+        "standalone/linked architecture",
+        "family count/member order",
+        "batch boundaries",
+        "training/assessment eligibility",
+        "300-test total"
+      ],
+      "thinkingRule": "Derive patterns from new decision evidence; compare primary/secondary/union/normalized evidence. Do not retain false pattern to satisfy a quota. Any material coverage loss requires explicit decision."
+    },
+    "dependencies": [],
+    "semanticReservations": [
+      "G-LEARNING"
+    ],
+    "recommendedAuthoringScope": {
+      "unresolved": [
+        "TC-221",
+        "TC-263"
+      ],
+      "fullFamily": [],
+      "additionalAccepted": [],
+      "acceptedSiblingPolicy": "No accepted rows may change."
+    },
+    "recommendedQAScope": {
+      "content": [
+        "TC-221",
+        "TC-263"
+      ],
+      "compareAgainst": "production001–100 + accepted/planned101–300 including other unit changes",
+      "regression": "All outside approved unit scope byte/semantic identical; atomic family validation; requiredLevel/source/runtime evidence; eligibility and batches",
+      "acceptedSiblingReview": null
+    },
+    "classificationConfidence": "medium-high",
+    "successConfidence": "medium",
+    "readiness": "Architecture/reconstruction planning only; not content acceptance",
+    "architectureGate": "Reserve nonduplicate reasoning boundary and prove level before prose."
+  },
+  "classification": [
+    {
+      "id": "TC-221",
+      "familyId": "",
+      "oldCategory": "D — SEMANTIC CROWDING",
+      "rerouteHistory": "No A/B reroute; historical diagnosis retained; use reconstruction, not an ordinary wave retry.",
+      "requiredLevel": "middle",
+      "primaryTreatment": "R3",
+      "secondaryIssue": "Протокол rollout и p/MDE уже реализованы024/031/032; готовое правило не даёт Middle. Добавление implementation-cost превращает эксперимент в декорацию.",
+      "salvageCurrentConcept": "YES",
+      "atomicUnitId": "U-EXP",
+      "sourceSupport": "strong",
+      "semanticPressure": "crowded",
+      "levelFeasibility": "low",
+      "coverageDependency": "{\"unit\": \"U-EXP\", \"level\": \"middle\", \"topic\": \"t-13-3\", \"domain\": \"experimentation\", \"thinking\": \"evidence\", \"assessmentEligible\": true, \"replacement\": false, \"requiresCoverageGate\": false}",
+      "confidence": "medium-high",
+      "executionSuccessConfidence": "medium",
+      "evidence": "[\"agent-artifacts/test-bank/hard-tail-triage/triage-evidence.json#/rows/TC-221\", \"agent-artifacts/test-bank/hard-tail-triage/hard-tail-triage.csv#TC-221\"]",
+      "treatmentReason": "Заданный p/MDE или rollout rule одновременно обнуляет Middle и повторяет024/031/032.",
+      "expectedIntervention": "Развести две диагностические обязанности в дизайне и интерпретации эксперимента; доказать конкурирующие допустимые действия с ценой информации, не дописывая стоимость к готовому статистическому правилу.",
+      "blueprintLevelFlag": "false",
+      "precedenceApplied": "combined level+semantic"
+    },
+    {
+      "id": "TC-263",
+      "familyId": "",
+      "oldCategory": "D — SEMANTIC CROWDING",
+      "rerouteHistory": "No A/B reroute; historical diagnosis retained; use reconstruction, not an ordinary wave retry.",
+      "requiredLevel": "middle",
+      "primaryTreatment": "R3",
+      "secondaryIssue": "Протокол rollout и p/MDE уже реализованы024/031/032; готовое правило не даёт Middle. Добавление implementation-cost превращает эксперимент в декорацию.",
+      "salvageCurrentConcept": "YES",
+      "atomicUnitId": "U-EXP",
+      "sourceSupport": "strong",
+      "semanticPressure": "crowded",
+      "levelFeasibility": "low",
+      "coverageDependency": "{\"unit\": \"U-EXP\", \"level\": \"middle\", \"topic\": \"t-13-3\", \"domain\": \"experimentation\", \"thinking\": \"evidence\", \"assessmentEligible\": true, \"replacement\": false, \"requiresCoverageGate\": false}",
+      "confidence": "medium-high",
+      "executionSuccessConfidence": "medium",
+      "evidence": "[\"agent-artifacts/test-bank/hard-tail-triage/triage-evidence.json#/rows/TC-263\", \"agent-artifacts/test-bank/hard-tail-triage/hard-tail-triage.csv#TC-263\"]",
+      "treatmentReason": "Заданный p/MDE или rollout rule одновременно обнуляет Middle и повторяет024/031/032.",
+      "expectedIntervention": "Развести две диагностические обязанности в дизайне и интерпретации эксперимента; доказать конкурирующие допустимые действия с ценой информации, не дописывая стоимость к готовому статистическому правилу.",
+      "blueprintLevelFlag": "false",
+      "precedenceApplied": "combined level+semantic"
+    }
+  ],
+  "before": {
+    "TC-221": {
+      "plannedId": "TC-221",
+      "batch": "Batch 08",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-13",
+      "topicId": "t-13-3",
+      "oneSentenceScenarioConcept": "Middle PM хочет запустить бизнес-rollout до финального чтения A/B, сохранив тестовые группы, хотя заранее принято правило принимать rollout-решение только по финальному анализу; нужно решить, нарушает ли это business decision protocol.",
+      "decisiveFactsConcept": [
+        "Статистический тест продолжается",
+        "Группы можно сохранить",
+        "Business rollout rule precommitted"
+      ],
+      "oneSentenceDecisionBoundary": "Статистическая валидность сама по себе ↔ отдельно соблюдать продуктовый decision rule.",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "guardrails",
+        "p-value"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Аналитика",
+      "derivedRuntimePrimaryThinking": "evidence",
+      "derivedRuntimeSecondaryThinking": [
+        "risk",
+        "evidence"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    },
+    "TC-263": {
+      "plannedId": "TC-263",
+      "batch": "Batch 10",
+      "block": "B10 — Product / Analytics / Technical Strategy",
+      "partId": "part-13",
+      "topicId": "t-13-3",
+      "oneSentenceScenarioConcept": "Middle PM получил p=0.2 при эффекте почти равном MDE после полной выборки; нужно решить, считать ли гипотезу доказанной из-за «правильного направления» или принять неопределённый/негативный результат по протоколу.",
+      "decisiveFactsConcept": [
+        "Полная выборка набрана",
+        "p=0.2",
+        "Effect близок к MDE"
+      ],
+      "oneSentenceDecisionBoundary": "Направление эффекта ↔ решение по заранее заданному statistical criterion.",
+      "domain": "experimentation",
+      "requiredLevel": "middle",
+      "primaryPattern": "precommitted-stop-criteria",
+      "secondaryPatterns": [
+        "p-value",
+        "guardrails"
+      ],
+      "structure": "standalone",
+      "scenarioFamilyId": null,
+      "familyPosition": null,
+      "decisiveMutationConcept": null,
+      "trainingEligible": true,
+      "assessmentEligible": true,
+      "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+      "futureContextSensitivityCandidate": false,
+      "vocabularyReviewRef": null,
+      "derivedRuntimeUiDomain": "Аналитика",
+      "derivedRuntimePrimaryThinking": "evidence",
+      "derivedRuntimeSecondaryThinking": [
+        "evidence",
+        "risk"
+      ],
+      "runtimeDerivationStatus": "authoritative-swift-mapping",
+      "whyHead": null,
+      "authorityScope": null,
+      "secondaryEffect": null,
+      "runtimeClassificationSource": "authoritative-swift-mapping"
+    }
+  },
+  "researchRoles": {
+    "TC-221": "До старта: выбор информационного дизайна при ограниченном трафике/составе пилота. Сначала проверить свободную boundary против195,164,259/260.",
+    "TC-263": "После результата: выбор следующего доказательства или продуктового действия. Исключить готовый statistical threshold и повторы164,261,024/031/032."
+  },
+  "acceptance": "Apply only source + Middle + semantic uniqueness + concrete runtime decision evidence PASS. Partial or no application permitted; no scope expansion.",
+  "preserve": [
+    "all other 273 rows",
+    "all family contracts",
+    "levels/topics/domain/eligibility/batches",
+    "TC-261 cleanup",
+    "production",
+    "A/B routing"
+  ],
+  "inputHashes": {
+    "agent-artifacts/test-bank/unified-reconstruction-plan/reconstruction-classification.csv": "cdabf692c33937a7c830277433013a836264b0b088b7909357b1b180a73b854c",
+    "agent-artifacts/test-bank/unified-reconstruction-plan/atomic-treatment-units.json": "cee4d93080f794468c76edf393b7c97d01fe68f8658e420cdac2326e47a64fe0",
+    "agent-artifacts/test-bank/unified-reconstruction-plan/reconstruction-sequence.md": "5d8cf62018c69bbe81bac73ad215e3639bab7c3e0a61c0c96af889a88179d91d",
+    "agent-artifacts/test-bank/unified-reconstruction-plan/planning-evidence.json": "12b6e22f2deefb779252536b7e2237651c0e6b79b57c3d20ff0e79fdd2c1c8d5"
+  }
+}

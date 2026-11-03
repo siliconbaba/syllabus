@@ -1,0 +1,2407 @@
+{
+  "pairs": [
+    {
+      "left": "TC-076",
+      "right": "TC-077",
+      "controlledSiblings": true,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Controlled sibling: одна переменная меняет strongest; дословные options и модель общие намеренно."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-078",
+      "controlledSiblings": true,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Controlled sibling: одна переменная меняет strongest; дословные options и модель общие намеренно."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-079",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-080",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-081",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-082",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-083",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-084",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-085",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-076",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-078",
+      "controlledSiblings": true,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Controlled sibling: одна переменная меняет strongest; дословные options и модель общие намеренно."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-079",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-080",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-081",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-082",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-083",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-084",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-085",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-077",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-079",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-080",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-081",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-082",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-083",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-084",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-085",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-078",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-080",
+      "controlledSiblings": true,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Controlled sibling: одна переменная меняет strongest; дословные options и модель общие намеренно."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-081",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-082",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-083",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-084",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-085",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-079",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-081",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-082",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-083",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-084",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-085",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-080",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-082",
+      "controlledSiblings": true,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Controlled sibling: одна переменная меняет strongest; дословные options и модель общие намеренно."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-083",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-084",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-085",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-081",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-083",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-084",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-085",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-082",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-084",
+      "controlledSiblings": true,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Controlled sibling: одна переменная меняет strongest; дословные options и модель общие намеренно."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-085",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-083",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-085",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-084",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-086",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-085",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-087",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Локальная мощность review и доступная помощь vs внешние blocked с будущим возвратомcapacity и scope-решением."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-086",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-088",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Отдельная ответственность за доказанное сокрытие vs восстановление раннего reporting после публичного обвинения."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-087",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-089",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Своевременность готовой эскалации vs изменение стоимости согласия/работы для двух запусков."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-088",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-090",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-089",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-091",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-090",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-092",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-091",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-093",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-092",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-094",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Выбор меры риска в проекте vs authority/бюджет неизвестных рисков портфеля."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-093",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-095",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-094",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-096",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-095",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-096",
+      "right": "TC-097",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-096",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-096",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-096",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-097",
+      "right": "TC-098",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-097",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-097",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-098",
+      "right": "TC-099",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-098",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    },
+    {
+      "left": "TC-099",
+      "right": "TC-100",
+      "controlledSiblings": false,
+      "duplicate": false,
+      "nearDuplicate": false,
+      "reason": "Различные предмет решения и decisive facts; semantic comparison использует context/options/mentalModel, не лексическое совпадение."
+    }
+  ],
+  "count": 300,
+  "duplicate": 0,
+  "nearDuplicate": 0
+}

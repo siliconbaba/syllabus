@@ -1,0 +1,21 @@
+{
+  "algorithm": "SHA-256",
+  "selfExcluded": true,
+  "files": {
+    "source-evidence.md": "69c7c6abb4ed5a57ccd6021660f305142fa29a90b1f3672ab84fa182591d66d6",
+    "input-hashes.json": "1025b6085063b3bb210d579a03bd1d11c4b49eb0ac1854483564b1bf75caf561",
+    "reviewed-analog-dossiers.json": "0d8606d2553e95deea0b279232123e0af27ef085840472cdc204db60aacc5ee9",
+    "validation-result.json": "5b7a84895772ef61ccccbc544c1a4438d6fc764988d0f3cd6829ff0fef7c767d",
+    "slot-obligations.json": "f9245148d06392129c4a5ff4986cab164826d07ba537f7e58188447e1612a88d",
+    "semantic-preflight.csv": "735b07b8734d402fc10be1720eeecd0d64718aad902269923550511daf335924",
+    "tc221-candidates.csv": "b36e52576a700f3d656ff46a8f9e3e66573219d4a30a4833cf29b49ba2397a54",
+    "source-topic-t-13-3.md": "a549f16dbafb75fe483e70aa80f9d9f4fc9fb81b1f34f932496464ee85c414c7",
+    "tc263-candidates.csv": "ef723f81aca9e72eb130c32e5eb57631f1030931494b6ee246523763472d0b7d",
+    "runtime-viability.csv": "b675345b30ec7e77b63e2be6139eb9792c0e0e5305a44b38b22665e6b55f05c2",
+    "architecture-review.md": "bcb5b2d9e04d959ca2d74558f31bc5b9cbc7f51854e2f716117b4ce65940b4e8",
+    "source-evidence.json": "256626d4cd3da5aedfd623540da5efa06014f72cb9254677ebe3fa2f90cfe2c5",
+    "authoritative-runtime-mapping.json": "bcee01dcecc36eaea05e4f967f4b1980c68f0e04c27f90627bee4c42cc7208ae",
+    "retrieval-evidence.json": "83a0ada8acd85743e74f4999566e6637e1199a054d633996fb43d78a8eff2169",
+    "selected-blueprints.json": "fe2085b77a3f96c991275042e881ab49d64857ae316f3ad63f8e9ec27a02f558"
+  }
+}

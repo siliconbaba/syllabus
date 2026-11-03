@@ -1,0 +1,90 @@
+{
+  "sourceCompleteTextMatchIgnoringWhitespace": true,
+  "sourceLinesRead": "1–281 (complete)",
+  "protectedFieldsUnchanged": [
+    "plannedId",
+    "batch",
+    "block",
+    "partId",
+    "topicId",
+    "domain",
+    "requiredLevel",
+    "structure",
+    "scenarioFamilyId",
+    "familyPosition",
+    "decisiveMutationConcept",
+    "trainingEligible",
+    "assessmentEligible",
+    "futureContextSensitivityCandidate",
+    "whyHead",
+    "authorityScope",
+    "secondaryEffect"
+  ],
+  "changedFields": {
+    "oneSentenceScenarioConcept": {
+      "before": "Junior PM выбирает между двумя задачами одинакового размера: одна имеет известную обязательную дату и штраф, вторая просто помечена «очень важной» без измеримого последствия; нужно решить, какую брать первой.",
+      "after": "Junior PM сообщает владельцу отложенной задачи уже принятое решение о нехватке ёмкости: ясно отделить дату пересмотра от обещания выполнить работу в следующем окне."
+    },
+    "decisiveFactsConcept": {
+      "before": [
+        "Размер одинаков",
+        "У одной есть дата и штраф",
+        "У другой только высокий label"
+      ],
+      "after": [
+        "Владелец общей очереди уже выбрал задачу А на эту неделю по согласованному критерию: она снимает блокировку запуска. Задача Б остаётся допустимой, но на неё ёмкости не хватит; PM должен сообщить её владельцу результат, а не пересматривать ранжирование.",
+        "Владелец Б ещё рассчитывает на выполнение на этой неделе. Общая доска обновлена, но адресного сообщения не было. PM может связаться с владельцем сегодня, до его дальнейшего планирования.",
+        "Следующий пересмотр очереди назначен на пятницу. Мощность следующей недели ещё не утверждена, и PM не вправе обещать дату исполнения. На пересмотре решение может измениться при освобождении мощности или изменении последствий задержки."
+      ]
+    },
+    "oneSentenceDecisionBoundary": {
+      "before": "Приоритет по ярлыку ↔ приоритет по проверяемой цене задержки.",
+      "after": "Адресно сообщить владельцу Б, что работа не войдёт в текущее окно, объяснить ограничение и критерий уже принятого выбора, назвать пятницу точкой пересмотра и условия изменения решения; не превращать пересмотр в неподтверждённое обещание исполнения и не считать перемещение карточки достаточным отказом."
+    },
+    "primaryPattern": {
+      "before": "portfolio-reprioritization",
+      "after": "expectation-management"
+    },
+    "secondaryPatterns": {
+      "before": [
+        "cost-of-delay",
+        "required-date"
+      ],
+      "after": []
+    },
+    "whyLevel": {
+      "before": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+      "after": "Junior: корректно завершить коммуникацией уже принятое решение в своей зоне. Не выбирать портфель, не считать экономику и не менять полномочия; различить подтверждённый отказ на текущее окно, дату пересмотра и неутверждённую дату выполнения."
+    },
+    "derivedRuntimePrimaryThinking": {
+      "before": "prioritization",
+      "after": "stakeholders"
+    },
+    "derivedRuntimeSecondaryThinking": {
+      "before": [
+        "prioritization",
+        "dependencies"
+      ],
+      "after": []
+    },
+    "sourceTopicExplanation": {
+      "before": null,
+      "after": "t-5-5: явный отказ владельцу проигравшей задачи, критерий, срок пересмотра и условия изменения; антипаттерн «Тихий отказ». Раздел Junior прямо требует сообщения проигравшей стороне. Авторские условия отделяют известную дату пересмотра от неизвестной даты выполнения."
+    }
+  },
+  "mapping": {
+    "domain": "portfolio",
+    "primary": "stakeholders",
+    "secondary": []
+  },
+  "normalizedThinkingBefore": {
+    "prioritization": 0.6666666666666666,
+    "dependencies": 0.3333333333333333
+  },
+  "normalizedThinkingAfter": {
+    "stakeholders": 1
+  },
+  "eligiblePools": "standalone training and assessment; Junior portfolio unchanged",
+  "closure": "70 unresolved in unmodified working base; TC272 eligible for controlled closure only after merge QA",
+  "globalCoverageRecalculation": "not run; one-row implication only"
+}

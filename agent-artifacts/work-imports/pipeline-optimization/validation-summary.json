@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "structural": "PASS",
+  "schema": "PASS",
+  "runtime": "PASS",
+  "families": "PASS",
+  "unexpectedChanges": 0,
+  "surface": {
+    "status": "REQUIRES_INDEPENDENT_QA",
+    "note": "Simple heuristics are reported; no semantic content approval issued"
+  },
+  "issues": [],
+  "scope": "Infrastructure tests + replay on approved Batch 03; Batch 04 has no authored cases",
+  "batch04AuthoringReadiness": "BLOCKED",
+  "blockerIds": [
+    "TC-103",
+    "TC-105",
+    "TC-108",
+    "TC-111",
+    "TC-113",
+    "TC-115",
+    "TC-118",
+    "TC-119",
+    "TC-120",
+    "TC-122",
+    "TC-125"
+  ]
+}

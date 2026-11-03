@@ -1,0 +1,74 @@
+ M InteractiveBook.xcodeproj/project.pbxproj
+ M InteractiveBook/TrainerContent/cases.json
+ M InteractiveBook/WebContent/reader.js
+ M Tests/TrainerSchemaTests.swift
+ M Tests/TrainerTests.swift
+ M Tests/reader.test.js
+ M agent-artifacts/manifests/CURRENT.md
+ M scripts/build_web.py
+?? .playwright-cli/
+?? agent-artifacts/context-packs/
+?? agent-artifacts/contracts/
+?? agent-artifacts/manifests/v2.1/
+?? agent-artifacts/manifests/v2.2.3-candidate/
+?? agent-artifacts/manifests/v2.2.3/
+?? agent-artifacts/manifests/v2.2.4-candidate/
+?? agent-artifacts/manifests/v2.2.4-r2-candidate/
+?? agent-artifacts/manifests/v2.2/
+?? agent-artifacts/manifests/v2.3-candidate/
+?? agent-artifacts/manifests/v2.3-hardtail-b1-candidate/
+?? agent-artifacts/manifests/v2.3-hardtail-b2-candidate/
+?? agent-artifacts/manifests/v2.3-hardtail-r1-candidate/
+?? agent-artifacts/manifests/v2.3-hardtail-r2-candidate/
+?? agent-artifacts/manifests/v2.3-recon-u-exp-candidate/
+?? agent-artifacts/manifests/v2.3-wave1-candidate/
+?? agent-artifacts/manifests/v2.3-wave1-r2-candidate/
+?? agent-artifacts/manifests/v2.3-wave2-candidate/
+?? agent-artifacts/manifests/v2.3-wave3-candidate/
+?? agent-artifacts/manifests/v2.3-wave4-candidate/
+?? agent-artifacts/manifests/v2.3-wave5-candidate/
+?? agent-artifacts/manifests/v2.3-wave6-candidate/
+?? agent-artifacts/manifests/v2.3-wave7-candidate/
+?? agent-artifacts/manifests/v2.3-wave7-r2-candidate/
+?? agent-artifacts/orchestration/
+?? agent-artifacts/pipeline-tools/
+?? agent-artifacts/project-audit/
+?? agent-artifacts/qa/batch-01/
+?? agent-artifacts/qa/batch-02/
+?? agent-artifacts/qa/batch-03-r3/
+?? agent-artifacts/qa/batch-03/
+?? agent-artifacts/qa/manifest-v2.1/
+?? agent-artifacts/qa/manifest-v2.2.4/
+?? agent-artifacts/qa/manifest-v2.2/
+?? agent-artifacts/qa/manifest-v2.3-hardtail-b1/
+?? agent-artifacts/qa/manifest-v2.3-hardtail-b2/
+?? agent-artifacts/qa/manifest-v2.3-hardtail-r1/
+?? agent-artifacts/qa/manifest-v2.3-hardtail-r2/
+?? agent-artifacts/qa/manifest-v2.3-wave1-r2/
+?? agent-artifacts/qa/manifest-v2.3-wave1/
+?? agent-artifacts/qa/manifest-v2.3-wave2/
+?? agent-artifacts/qa/manifest-v2.3-wave3/
+?? agent-artifacts/qa/manifest-v2.3-wave4-wave5/
+?? agent-artifacts/qa/manifest-v2.3-wave6-wave7/
+?? agent-artifacts/qa/manifest-v2.3-wave7-r2-tc183/
+?? agent-artifacts/test-bank/batch-01/
+?? agent-artifacts/test-bank/batch-02-r2/
+?? agent-artifacts/test-bank/batch-02/
+?? agent-artifacts/test-bank/batch-03-r2/
+?? agent-artifacts/test-bank/batch-03-r3/
+?? agent-artifacts/test-bank/batch-03/
+?? agent-artifacts/test-bank/batch-04/
+?? agent-artifacts/test-bank/hard-tail-family-b1-preparation/
+?? agent-artifacts/test-bank/hard-tail-triage/
+?? agent-artifacts/test-bank/replacement-architecture/
+?? agent-artifacts/test-bank/unified-reconstruction-plan-delta-01/
+?? agent-artifacts/test-bank/unified-reconstruction-plan/
+?? agent-artifacts/web-navigation-fix/
+?? agent-artifacts/web-sidebar-layout/
+?? agent-artifacts/work-imports/batch-01/git-status-before.txt
+?? agent-artifacts/work-imports/batch-02/git-status-before.txt
+?? agent-artifacts/work-imports/batch-03/
+?? agent-artifacts/work-imports/manifest-v2.2.2-freeze/git-status-before.txt
+?? agent-artifacts/work-imports/manifest-v2.2.3-freeze/
+?? agent-artifacts/work-imports/pipeline-optimization/
+?? scripts/web-layout.css

@@ -1,0 +1,52 @@
+{
+  "status": "FIX REQUIRED",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-158-160-r2/cases.json",
+  "candidateSHA256": "f7cafd890c11ae27ec0f333dbb60e5a055b97b58927e8991fa1070d1612f1c2d",
+  "manifestPath": "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json",
+  "manifestSHA256": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+  "sourceHashes": {
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-9-4.md": "930f2a5aa24ff29e8ba5d2fa03e0107c4c8d581b11593af4c5e1a808cf870c85",
+    "agent-artifacts/manifests/v2.3-wave1-candidate/source-topics/t-8-1.md": "a0c7b0c973f56e9832e09ba4d6e9eaec7bc0853c6850425d0af67e52ce6d953e"
+  },
+  "acceptedCaseIDs": [
+    "TC-158"
+  ],
+  "remainingCaseIDs": [
+    "TC-160"
+  ],
+  "gates": {
+    "blind": "C then A (158); B then D (160). Both keys matched.",
+    "manifest": "Metadata/eligibility match C05. Same inter-program dependency and supply-side exposure, same coupled-scenario economic decision.",
+    "source": "§9.4 shared-resource and knowledge dependencies, structural removal; §8.1 same-horizon NPV and contribution margin. Author-specific proportions and NPV inputs explicitly supplied.",
+    "TC158": "C>A(.60)>B(.50)>D fits capability actually distributed and tested.",
+    "TC160": "Unconditional operating contribution changes 12→7 under full and 11→13 under cap; fixed cost 10 gives +2/−3 and +1/+3. Weighted totals −1/+2.2, deferral 0. B/D remain strongest/runner; coupled cost driver now inferred.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    }
+  },
+  "issues": [
+    {
+      "id": "160-A-WHEN",
+      "severity": "major",
+      "case": "TC-160",
+      "field": "options.A.whenItWouldBeBest",
+      "evidence": "High demand now confirmed, revenue and expense matched, full plan better. Remaining mismatch: action provides expense contingency for overrun; WHEN justifies a temporary timing gap in payments. That gap can exist even with no cost uncertainty.",
+      "fix": "Specify a justified reserve for upside risk in expenses, after which the full plan still wins. Keep the confirmed high demand and matched costs."
+    }
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 0
+  },
+  "retest": "Single WHEN semantic delta and strict loader.",
+  "importEligible": false,
+  "priorVerdict": "agent-artifacts/project-completion/qa-158-160/QA-verdict.json",
+  "priorVerdictSHA256": "c1ef28e901f398d3288d404b63f460df3be4b358373cc4aed1d8920b43d425b8",
+  "resolvedIssueIDs": [
+    "158-DQ-AB",
+    "160-LEVEL"
+  ]
+}

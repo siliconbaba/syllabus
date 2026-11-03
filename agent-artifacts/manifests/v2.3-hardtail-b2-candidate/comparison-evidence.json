@@ -1,0 +1,44 @@
+[
+  {
+    "candidate": "TC-234 original",
+    "analog": "TC-013,TC-298",
+    "classification": "NEAR DUPLICATE",
+    "reason": "Typifiable repetitive requests -> self-service removes recurring platform queue. This is original triage defect; no original content newly accepted."
+  },
+  {
+    "candidate": "TC-234 rejected draft",
+    "analog": "TC-199",
+    "classification": "NEAR DUPLICATE",
+    "reason": "Same diagnostic action: align local end-to-end ownership, retain truly shared core, verify pilot. Changing permanent authority vs PI authority is not enough for this proposed draft."
+  },
+  {
+    "candidate": "TC-234 rejected draft",
+    "analog": "TC-161",
+    "classification": "ALLOWED REINFORCEMENT",
+    "reason": "161 covers organizational power/transition; those additions do not rescue the nearer199 overlap."
+  },
+  {
+    "candidate": "TC-235 rejected draft",
+    "analog": "TC-150",
+    "classification": "NEAR DUPLICATE",
+    "reason": "Same decisive co-change evidence -> establish a real contract boundary before separation; replacing service extraction with org ownership does not prove a new reasoning boundary."
+  },
+  {
+    "candidate": "TC-234/235 alternative capability route",
+    "analog": "TC-091,TC-158",
+    "classification": "NEAR DUPLICATE",
+    "reason": "If recast as facilitated capability transfer with protected capacity and exit by independence, core evidence is already present in091/158. This route is not an applied draft."
+  },
+  {
+    "candidate": "F-PR-T01 remove/automate/retain route",
+    "analog": "TC-076,TC-077,TC-078",
+    "classification": "NEAR DUPLICATE",
+    "reason": "Same three strategies chosen by effect/cost of optional control; creates forbidden threshold ladder rather than fixing process-homogeneity family."
+  },
+  {
+    "candidate": "F-PR-T01 evidence-of-process route",
+    "analog": "TC-215,TC-242",
+    "classification": "UNRESOLVED ROUTE",
+    "reason": "Mechanism moves to proving real control contribution or causal effect; changes diagnostic architecture and needs separate semantic positioning, not a proven three-state contract."
+  }
+]

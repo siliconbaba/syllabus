@@ -1,0 +1,9 @@
+{
+  "inputHashesUnchanged": true,
+  "candidateModified": false,
+  "productionModified": false,
+  "sourceTraceWhitespaceNormalizedVerified": true,
+  "manifestCSVDifferences": [],
+  "loader": "PASS; freshly compiled current strict production loader",
+  "schema": "PASS"
+}

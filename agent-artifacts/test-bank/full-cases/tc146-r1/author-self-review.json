@@ -1,0 +1,8 @@
+{
+  "scope": "Author self-review only, not independent acceptance",
+  "candidateSHA256": "21f0cfe0591de80578107a0f5bafd0b1b680b0be7b00264a911bef522868ca33",
+  "structuralChecks": "PASS",
+  "reasoning": "B closes the available execution agreement directly. A gives partial asynchronous handoff without confirmation. C adds unsupported upward intervention. D reopens settled priority without new facts. WHEN for each changes relevant facts and validates the entire action including deferral.",
+  "source": "Accepted reconstruction row and complete topic; no extra external factual claims",
+  "productionChanged": false
+}

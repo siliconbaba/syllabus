@@ -1,0 +1,142 @@
+{
+  "status": "COMPLETE",
+  "authoritativeManifest": "v2.2.3",
+  "sourceCandidate": "batch-03-r3",
+  "qaVerdict": "READY FOR FREEZE + IMPORT",
+  "freeze": "PASS",
+  "baselineHash": "PASS",
+  "old75Unchanged": "PASS",
+  "new25ExactR3": "PASS",
+  "tc085Integrity": "PASS",
+  "linkedEligibility": "PASS",
+  "families": "PASS",
+  "schema": "PASS",
+  "runtime": "PASS",
+  "trainerTests": "PASS",
+  "scoringTests": "PASS",
+  "snapshot": "PASS",
+  "build": "PASS",
+  "unknownRuntimeCodes": 0,
+  "scripts/check.sh": {
+    "status": "PASS",
+    "exitCode": 0,
+    "log": "check.log",
+    "webKitRenderingRuns": 3
+  },
+  "production": {
+    "caseCount": 100,
+    "standaloneCount": 67,
+    "linkedCount": 33,
+    "trainingEligibleCount": 100,
+    "assessmentEligibleCount": 67,
+    "levels": {
+      "middle": 53,
+      "junior": 16,
+      "senior": 21,
+      "head": 10
+    },
+    "familyCount": 15,
+    "newFamilyCount": 4,
+    "families": {
+      "api-dependency-01": [
+        "TC-001",
+        "TC-002"
+      ],
+      "hotfix-evidence-01": [
+        "TC-003",
+        "TC-004"
+      ],
+      "performance-01": [
+        "TC-017",
+        "TC-018"
+      ],
+      "F-PM-T01": [
+        "TC-026",
+        "TC-027",
+        "TC-028"
+      ],
+      "F-BV-P01": [
+        "TC-029",
+        "TC-030"
+      ],
+      "F-PA-P01": [
+        "TC-031",
+        "TC-032"
+      ],
+      "F-DM-P01": [
+        "TC-033",
+        "TC-034"
+      ],
+      "F-DM-T01": [
+        "TC-051",
+        "TC-052",
+        "TC-053"
+      ],
+      "F-DR-P01": [
+        "TC-054",
+        "TC-055"
+      ],
+      "F-ST-P01": [
+        "TC-056",
+        "TC-057"
+      ],
+      "F-PO-P01": [
+        "TC-058",
+        "TC-059"
+      ],
+      "F-DR-T01": [
+        "TC-076",
+        "TC-077",
+        "TC-078"
+      ],
+      "F-TD-P01": [
+        "TC-079",
+        "TC-080"
+      ],
+      "F-PE-P01": [
+        "TC-081",
+        "TC-082"
+      ],
+      "F-BV-P02": [
+        "TC-083",
+        "TC-084"
+      ]
+    },
+    "manifestFamilyPositions": {
+      "F-PE-P01": {
+        "TC-081": 1,
+        "TC-082": 2
+      },
+      "F-DR-T01": {
+        "TC-076": 1,
+        "TC-077": 2,
+        "TC-078": 3
+      },
+      "F-TD-P01": {
+        "TC-079": 1,
+        "TC-080": 2
+      },
+      "F-BV-P02": {
+        "TC-083": 1,
+        "TC-084": 2
+      }
+    },
+    "positionNote": "Production schema has no familyPosition field; positions validated against authoritative manifest v2.2.3, not imported as auxiliary metadata. Gold families validated by membership/topic/distinct mutations.",
+    "correctPositionDistributionBatch03": {
+      "A": 6,
+      "B": 6,
+      "C": 6,
+      "D": 7
+    },
+    "sha256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "candidateSha256": "77e465c3b9a5e0ac26eb7bdf756d20d2416d18fb57cd74f225575d0e6f202f21",
+    "existingProductionRegression": "PASS",
+    "authoritativeManifest": "v2.2.3",
+    "batchExactSemanticEquality": "PASS",
+    "tc085HotfixIntegrity": "PASS"
+  },
+  "unexpectedChanges": 0,
+  "commitPush": "NOT PERFORMED",
+  "batch04": "NOT STARTED",
+  "ipa": "NOT CREATED"
+}

@@ -1,0 +1,10 @@
+{
+  "TC248": {
+    "mechanism": "Treatment reallocates a shared executor pool; user randomization does not make potential outcomes independent.",
+    "spatialBoundary": "Infer connected pools from actual executor movements; administrative districts are not assumed independent.",
+    "temporalBoundary": "Measure occupation carryover before choosing switchback blocks/washout with analyst.",
+    "falsification": "If movement logs show no resource overlap or carryover, revise the interference hypothesis; do not treat it as proven.",
+    "estimand": "Total pool completions with waiting guardrail, not relative group advantage.",
+    "numericModel": "NOT_APPLICABLE; no invented sample size or block duration"
+  }
+}

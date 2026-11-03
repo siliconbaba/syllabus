@@ -1,0 +1,18 @@
+{
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/production_manifest_masterplan_v2_3_completion_01_candidate.json": "24adbe7421c5df1d29c3ae0a6836d8a046bf81dd015854062efb1a5b49c4675c",
+  "agent-artifacts/qa/manifest-v2.3-hardtail-b2/QA-verdict.json": "360b71ef8c939f89918df8fc814d61dcf24763eb495890aebc810cb0bb992ab2",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "agent-artifacts/manifests/v2.2.3/production_manifest_masterplan_v2_2_3.json": "a6b51ec3f9a3c2dbf4546c3d457b67b0fe5b3ed62602bdc09817191fb3164db1",
+  "agent-artifacts/manifests/CURRENT.md": "01ae4c371a4cbceff3a06700a1db44f0d88379e46694afc2de0dc90406f7debb",
+  "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+  "InteractiveBook/Trainer/TrainerStore.swift": "7461e3665fdcc0476a2c2cbd4e8ad0954dcdabe0abbdca236d76c66e20d4a03e",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "Tests/ScoringFixtures.swift": "735789c248bacbcee3bcd82a2f46ee1d57bddeeca37badc95eb703ddd3035c5c",
+  "agent-artifacts/work-imports/manifest-v2.2.3-freeze/RuntimeAudit.swift": "19d0c899cc886c67bdd3e040763aa524ba0b7211173b968071d51db19682e02e",
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/runtime-input.json": "7259c9bc7517ad0713ff2e60912436bd1b1fbf8b20ebc6f5358fac75d6083b40",
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/runtime-output.json": "583c539b48d1f28bfef8d77efe1d24af8c36c8e1846a852af5d6f7d6f3312780",
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/runtime_coverage_v2_3_completion_01_candidate.json": "2bb50852ad186e270a42aac9dd4e2645edd988912495a069766e2ae13e913ae3",
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/input-hashes.json": "cc6ba6adca1083e48198f9050c56feebebd7162b44c4ec8de27d05e43986e1fb",
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/artifact-hashes.json": "8471b4abda3937c4fe25322e894783f58e5e3f7aff4a071832739ae9ca1683dc"
+}

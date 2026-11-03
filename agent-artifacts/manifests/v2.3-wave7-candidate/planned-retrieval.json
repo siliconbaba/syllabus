@@ -1,0 +1,167 @@
+[
+  {
+    "plannedId": "TC-248",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-261",
+        "retrievalScore": 11.093635,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "senior",
+          "меняется",
+          "эксперимент"
+        ]
+      },
+      {
+        "id": "TC-295",
+        "retrievalScore": 11.079722,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "гипотезу",
+          "после",
+          "теста"
+        ]
+      },
+      {
+        "id": "TC-164",
+        "retrievalScore": 10.154153,
+        "reasons": [
+          "domain",
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "rollout",
+          "гипотезу",
+          "или",
+          "после",
+          "проверку",
+          "теста"
+        ]
+      },
+      {
+        "id": "TC-195",
+        "retrievalScore": 9.300627,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "группы",
+          "общей",
+          "перенос",
+          "пока",
+          "полный",
+          "пользователи",
+          "после",
+          "проверки",
+          "провести",
+          "через",
+          "эффекта"
+        ]
+      },
+      {
+        "id": "TC-263",
+        "retrievalScore": 9.117283,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "гипотезу",
+          "или",
+          "после",
+          "считать",
+          "эффекта"
+        ]
+      },
+      {
+        "id": "TC-172",
+        "retrievalScore": 9.088773,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "пользователей",
+          "считать",
+          "эффекта"
+        ]
+      },
+      {
+        "id": "TC-221",
+        "retrievalScore": 9.063075,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "rollout",
+          "группы"
+        ]
+      },
+      {
+        "id": "TC-186",
+        "retrievalScore": 7.191225,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "без",
+          "больше",
+          "показывает",
+          "проверить",
+          "проверку",
+          "теста",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-285",
+        "retrievalScore": 7.082817,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "гипотезу",
+          "получает",
+          "считать"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-172",
+      "TC-186",
+      "TC-221",
+      "TC-285"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

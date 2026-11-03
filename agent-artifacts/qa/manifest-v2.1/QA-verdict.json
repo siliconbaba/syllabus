@@ -1,0 +1,78 @@
+{
+  "verdict": "NOT READY",
+  "canStartBatch01": false,
+  "blockerCount": 2,
+  "majorCount": 38,
+  "minorCount": 0,
+  "countingRule": "2 системных blocker-вывода; major — 34 уникальные строки row-fixes и 4 family records. Это детализация blocker-выводов и отдельных metadata-дефектов, не 40 независимых первопричин.",
+  "systemicBlockers": [
+    {
+      "id": "B1",
+      "problem": "Повторяющаяся завышенная калибровка requiredLevel, включая Head с отсутствующим организационным решением",
+      "affectedLevelRows": 26
+    },
+    {
+      "id": "B2",
+      "problem": "Необоснованные mutation boundaries и повтор диагностического контраста в нескольких семьях; дефект затрагивает Batch 01",
+      "families": [
+        "F-PM-T01",
+        "F-PE-T01",
+        "F-ST-P03",
+        "F-TD-P03"
+      ]
+    }
+  ],
+  "structural": "PASS",
+  "standalone": {
+    "reviewed": 181,
+    "withRequiredFixes": 23,
+    "withoutRecordedFixes": 158
+  },
+  "families": {
+    "reviewed": 43,
+    "constructionFixes": 4,
+    "remainingConstructionPass": 39,
+    "tripletsReviewed": 8,
+    "tripletsConstructionFixes": 2,
+    "note": "Construction PASS не отменяет level FIX в row-fixes."
+  },
+  "head": {
+    "reviewed": 45,
+    "levelFixes": [
+      "TC-064",
+      "TC-168",
+      "TC-194",
+      "TC-201",
+      "TC-202",
+      "TC-203",
+      "TC-255",
+      "TC-256",
+      "TC-282",
+      "TC-283"
+    ]
+  },
+  "runtimeDerivedMetadata": "PASS",
+  "runtimeSemanticApplication": "FIX",
+  "assessmentFeasibility": "PASS with current labels after planned gold linked exclusion; recompute after level fixes",
+  "headBreadthAreas": 9,
+  "contextSensitivityScoredEvidence": 0,
+  "webkit": "NON-BLOCKING FOR MANIFEST; SEPARATE WORK ENGINEERING ISSUE",
+  "validationEvidence": "Read logs and actual script order; build/trainer/scoring/schema/snapshot and targeted tail PASS; sole logged failing check WebKit timeout. Full suite not rerun; timeout cause not diagnosed.",
+  "productionModified": false,
+  "inputHashes": {
+    "agent-artifacts/manifests/v2.1/production_manifest_masterplan_v2_1.json": "8563e61a14387f66d2b99a4280ed2e4dbb28bcfc5b87fc2c39f299f0a497d5ae",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+  },
+  "assessmentAfterListedLevelChanges": {
+    "levels": {
+      "middle": 99,
+      "junior": 32,
+      "senior": 46,
+      "head": 23
+    },
+    "breadthAreas": 8,
+    "note": "Проверка только перечисленных demotions; не замена QA изменённых концепций."
+  }
+}

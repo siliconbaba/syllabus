@@ -1,0 +1,126 @@
+[
+  {
+    "plannedId": "TC-115",
+    "batch": "Batch 04",
+    "block": "B09 — Portfolio & Organization",
+    "partId": "part-10",
+    "topicId": "t-10-6",
+    "oneSentenceScenarioConcept": "Incident manager выбирает план восстановления двух потоков на одном сервисе: вернуть платежи и выписки одновременно за 20 минут либо запустить платежи на 8-й минуте, отложив полное восстановление выписок до 40-й; ранний частичный запуск занимает общего инженера и удлиняет оставшуюся работу.",
+    "decisiveFactsConcept": [
+      "Для обоих потоков действуют RTO 60 минут и RPO 0; оба плана испытаны, не теряют записи и укладываются в ограничения. Incident command и коммуникации уже организованы.",
+      "Цельный план возвращает оба потока на 20-й минуте; поэтапный — платежи на 8-й, выписки на 40-й. Один квалифицированный инженер выполняет восстановление и сверку: планы нельзя совместить или распараллелить; указанные сроки включают сверку и одинаковые проверки безопасности.",
+      "До восстановления платежей подтверждённый ущерб составляет 10 тыс. ₽/мин, до восстановления выписок — 2 тыс. ₽/мин; потоки ущерба независимы, ставки сохраняются в пределах часа, иных различающихся последствий у планов нет."
+    ],
+    "oneSentenceDecisionBoundary": "Выбрать поэтапное восстановление: выигрыш от возврата платежей на 12 минут раньше перевешивает ущерб от задержки выписок на 20 минут (160 против 240 тыс. ₽ суммарно); оставить инженера на завершении и сверке выписок, отдельно сообщая частичное и полное восстановление. Минимальный срок возврата всего сервиса здесь не минимизирует ущерб.",
+    "domain": "incident_management",
+    "requiredLevel": "middle",
+    "primaryPattern": "cost-of-delay",
+    "secondaryPatterns": [
+      "mitigation",
+      "resource-conflict"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Middle: сопоставить последствия двух исполнимых планов по времени восстановления каждого потока и суммарному ущербу, приняв осознанное удлинение полного восстановления при общей исполнительской мощности. Проверки RTO/RPO и выбора минимального общего срока недостаточно: оба плана допустимы, но более быстрый целиком обходится дороже.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "prioritization",
+    "derivedRuntimeSecondaryThinking": [
+      "risk",
+      "prioritization"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§10.6 ставит остановку ущерба перед полным восстановлением и отдельно рассматривает TTM и TTR; это поддерживает выбор плана по снижению влияния, а не только сроку полного возврата. RTO/RPO сохраняются обязательными ограничениями; конкретные сроки и ставки ущерба — факты учебного сценария."
+  },
+  {
+    "plannedId": "TC-124",
+    "batch": "Batch 04",
+    "block": "B09 — Portfolio & Organization",
+    "partId": "part-10",
+    "topicId": "t-10-6",
+    "oneSentenceScenarioConcept": "Junior duty manager видит инцидент после релиза, но причина ещё неизвестна; один инженер хочет час дебажить, хотя безопасный rollback занимает пять минут; нужно решить, что важнее в первые минуты.",
+    "decisiveFactsConcept": [
+      "Impact продолжается",
+      "Rollback безопасен и быстрый",
+      "Root cause неизвестен"
+    ],
+    "oneSentenceDecisionBoundary": "Сначала объяснить причину ↔ сначала уменьшить пользовательский ущерб, затем расследовать.",
+    "domain": "incident_management",
+    "requiredLevel": "junior",
+    "primaryPattern": "risk-based-hotfix",
+    "secondaryPatterns": [
+      "rollback",
+      "mitigation"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "risk",
+      "risk"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-185",
+    "batch": "Batch 07",
+    "block": "B09 — Portfolio & Organization",
+    "partId": "part-10",
+    "topicId": "t-10-6",
+    "oneSentenceScenarioConcept": "Head организации после нескольких междоменных инцидентов обнаруживает, что actions из postmortem не выполняются, потому что у команд нет защищённой capacity и никто не отслеживает статус; нужно решить, менять ли шаблон postmortem или governance исполнения.",
+    "decisiveFactsConcept": [
+      "Actions качественно сформулированы",
+      "Выполнение низкое",
+      "Capacity на них не защищена"
+    ],
+    "oneSentenceDecisionBoundary": "Лучше писать postmortem ↔ operating mechanism, который делает systemic actions исполнимыми.",
+    "domain": "incident_management",
+    "requiredLevel": "head",
+    "primaryPattern": "blameless-system-thinking",
+    "secondaryPatterns": [
+      "postmortem",
+      "safeguards"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно принять решение об operating model, распределении полномочий/ёмкости или организационной конструкции с долгосрочными последствиями.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "systems",
+    "derivedRuntimeSecondaryThinking": [
+      "systems",
+      "risk"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": "Нужно задать governance/operating model для reliability, incidents или security на уровне функции, а не принять локальное техническое решение.",
+    "authorityScope": "Authority на общую policy, risk acceptance, command structure или распределение стабилизационной capacity.",
+    "secondaryEffect": "Решение меняет скорость поставки, reliability/compliance incentives и качество решений нескольких команд.",
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  }
+]

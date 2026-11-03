@@ -1,0 +1,26 @@
+{
+  "status": "FIX_REQUIRED",
+  "independentReview": true,
+  "scope": "reusable IPA packaging scripts",
+  "findings": [
+    {
+      "id": "PKG-01",
+      "priority": "P2",
+      "file": "scripts/build-sidestore.sh",
+      "line": 20,
+      "summary": "Final report created before validation; failed package leaves empty report and can mutate source bundle."
+    },
+    {
+      "id": "PKG-02",
+      "priority": "P2",
+      "file": "scripts/package_sidestore.py",
+      "line": 104,
+      "summary": "Existing Russian localized display name overwritten by different non-ASCII base name."
+    }
+  ],
+  "positiveRealArtifactValidation": "PASS",
+  "existingUnitTests": "6 PASS",
+  "deviceRetest": "NOT_RUN",
+  "sourceChangesByReviewer": false,
+  "productionChanges": false
+}

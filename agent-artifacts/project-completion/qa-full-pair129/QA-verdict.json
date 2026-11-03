@@ -1,0 +1,54 @@
+{
+  "status": "FIX REQUIRED",
+  "scope": "Independent full-case content QA of F-DM-P02 as an atomic training pair",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pair-129-130/cases.json",
+  "candidateSHA256": "6879fc6d3c75b6c0a0bc6034e760791a20c3f498fb53a3495514d22dfc42ee3d",
+  "projectionSHA256": "e1d4f1470d1196c4afe03605c8101e1335efcdead4033cfa59cd32a6e4e987b2",
+  "acceptedCaseIDs": [],
+  "remainingCaseIDs": [
+    "TC-129",
+    "TC-130"
+  ],
+  "gates": {
+    "blind": "A/B, runners B/C, high confidence; captured before opening the key.",
+    "family": "Only cancellation fee changes: 9 to 60. Income, cost, 40% success, 2 test fee, timing and quality invariant; reservation separate from learning.",
+    "economics": "A=38−0.6f, B=26, C=4, D=0. At 9: A32.6>B26>C4>D0. At 60: B26>C4>A2>D0. Partial grades and explanations agree; A and B tie only at f=20. TC130 explicitly notes equivalence of canceling and building after failure.",
+    "sourceLevel": "§13.2 gives the cheap informative test before development; case supplies measured economics. Middle must compare conditional expenditures and loss from waiting, within one sponsor decision. Projection classification and eligibility match.",
+    "duplicationSurface": "Intentional controlled pair: same neutral title, four identical choices, different keys. TC033/034 changes the learning pilot itself; here both tested plans obtain identical evidence. TC211 uses imperfect signal.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    }
+  },
+  "issues": [
+    {
+      "id": "129130-A-WHEN",
+      "severity": "major",
+      "field": "A.whenItWouldBeBest (both)",
+      "evidence": "Wording compares gain in the success state (30) against expected cancellation cost. At f=30, 30>18 yet A=20 loses to B=26.",
+      "fix": "At fixed other inputs, compare expected upside 0.4×30=12 to expected cancellation 0.6f; A wins for f<20."
+    },
+    {
+      "id": "129130-B-WHEN",
+      "severity": "major",
+      "field": "B.whenItWouldBeBest (both)",
+      "evidence": "The possible cancellation price must itself be probability-weighted. At f=15 the nominal fee exceeds the expected delay loss 12, yet A=29 beats B=26.",
+      "fix": "With other inputs fixed B wins when 0.6f>12, i.e. f>20."
+    },
+    {
+      "id": "129130-D-WHEN",
+      "severity": "major",
+      "field": "D.whenItWouldBeBest (both)",
+      "evidence": "An unprofitable test alone does not rule out profitable direct development. E.g. success 40%, early revenue 155, late 60, fee 60: A=0, B=−2, C=2, D=0.",
+      "fix": "Require all three investment plans to be negative, or give a concrete verified example such as success probability 1% with original remaining terms."
+    }
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 3,
+    "minor": 0
+  },
+  "importEligible": false,
+  "retest": "Focused delta of A/B/D WHEN on both siblings, preserved other fields, strict loader."
+}

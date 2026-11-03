@@ -1,0 +1,32 @@
+{
+  "pairwise": {
+    "C>A": "Sponsor has not heard the news and is available in 15 minutes; no emergency prevents waiting. A meets today’s action deadline but exposes the first news publicly.",
+    "C>B": "Shared written facts and final action are explicitly needed before marketing starts in two hours. B postpones them until tomorrow. A private decision does not itself inform marketing.",
+    "C>D": "Tomorrow is beyond the dependent action; prepared facts already exist and sponsor is available today.",
+    "alternativeReadings": "Sponsor has decision authority; candidate is not required to choose release economics. “After conversation, before marketing” is explicit; no invented conversation duration is needed. The absence of emergency defeats immediate-broadcast necessity, but does not erase the later operational deadline."
+  },
+  "uniqueStrongest": "C",
+  "runnerUp": "A",
+  "wholeOptionWHEN": {
+    "A": "PASS: prior personal warning removes first-broadcast breach; immediate shared update is expressly needed, and a later short call can refine options and append its decision. All action clauses remain feasible.",
+    "B": "PASS: only sponsor preparation depends on today’s decision, other dependent actions start after tomorrow’s meeting, and the stipulated procedure places the shared record after that meeting. Both early private decision and delayed public record are supported.",
+    "C": "PASS: prepared facts, prompt recipient availability and time for a record before dependent actions reproduce actual conditions.",
+    "D": "PASS: preliminary risk already communicated is distinct from first presentation of a confirmed delay and alternatives. Missing estimates arrive only tomorrow and there are no intervening dependent actions; agreed decision point supports meeting and subsequent minutes."
+  },
+  "DQ": {
+    "status": "FAIL",
+    "actualOrder": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ],
+    "defensibleOrder": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ],
+    "issue": "TC200-FULL-R1-01"
+  }
+}

@@ -1,0 +1,2 @@
+﻿familyId,caseIds,severity,relatedIssues,mutationStatus,problem,minimalCorrection
+F-DM-T01,TC-051; TC-052; TC-053,MAJOR,B02-03; B02-05,PASS,Уровень Senior не реализован; в 053 необоснованно разнесено качество равноценных A/B. Новых независимых дефектов этот CSV не добавляет.,Согласовать единый уровень семьи или содержательную Senior реализацию; выровнять смысл качества A/B в 053; сохранить одну mutation.

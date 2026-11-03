@@ -1,0 +1,99 @@
+{
+  "TC-211": {
+    "best": "B",
+    "pairwise": {
+      "A": "30>20; no zero-risk mandate.",
+      "C": "Late confirmation follows purchase closure; expected uninsured loss40.",
+      "D": "Unconditional held reserve25>conditional20 including residual loss5."
+    },
+    "DQ": "B1>D.85>A.75>C.3 defensible by cost and retained protection.",
+    "when": "R2 A requires full protection AND cheaper two-stage purchase unavailable/insufficient AND direct30 cheapest feasible complete protection. This excludes D25 and B residual risk; C cannot act before closure. Entire A plan strongest. Other WHEN, DQ, choice, source and level inherited unchanged.",
+    "level": "Middle: combine conditional probabilities, payment timing and permitted residual risk.",
+    "source": "2.6 quantitative response cost versus expected loss, EWI time to act, owner and risk appetite; prices and conditional frequencies are authored facts.",
+    "duplicates": "ALLOWED REINFORCEMENT vs TC006/007/026-028/093/104-105/117/269/294: two-stage paid option with conditional expected total cost, not risk-to-issue status, forecast trigger, deterministic preparation duration or binding downtime appetite.",
+    "caseSHA256": "70a9de1b7188ee45d72b83a0dee40795cc1e0d63871a4e82d5fa98e6936ef4ee",
+    "caseHashEncoding": "canonical JSON UTF8 sorted keys compact ensure_ascii=false",
+    "verdict": "PASS",
+    "issues": [],
+    "inheritance": "Only A WHEN and revision changed, exact diff verified."
+  },
+  "TC-237": {
+    "best": "C",
+    "pairwise": {
+      "A": "15-minute speed advantage costs80 elsewhere versus20 additional segment loss.",
+      "B": "Available targeted recovery preserves improvement and eliminates report regression; full-day wait has no supplied benefit.",
+      "D": "Version/operation evidence and traffic confound already resolved."
+    },
+    "DQ": "C1>A.7>D.4>B.2 defensible: full rollback restores service at higher cost, extra diagnosis delays action, whole-day aggregate monitoring leaves known segment issue.",
+    "when": "All four whole plans can become optimal under stated changes: cost reversal/addressed measure unavailable; accepted low impact/costlier mitigation; targeted feasible lower loss; fast still-needed localization.",
+    "level": "Middle: select executable incident response with common resource and total cross-segment losses.",
+    "source": "10.4 case1 explicitly contrasts global rollback losing improvements against segment feature flag.",
+    "duplicates": "ALLOWED REINFORCEMENT vs TC044/092: those select adequate evidence/metric, here evidence is settled and decision is restoration economics. No duplicate boundary.",
+    "caseSHA256": "f22d9a5aaeb64c2577429f6969ff0b9295445e9ef8cde85c22d490a96886172c",
+    "caseHashEncoding": "canonical JSON UTF8 sorted keys compact ensure_ascii=false",
+    "verdict": "PASS",
+    "issues": [],
+    "inheritance": "R1 PASS; exact canonical whole-object hash verified unchanged. Compared against revised116."
+  },
+  "TC-174": {
+    "best": "B",
+    "pairwise": {
+      "A": "260>145 despite unused specialist hours.",
+      "C": "250>145 after paying150 coverage.",
+      "D": "Under given per-regime averages, alternating cost(260+145)/2=202.5>145."
+    },
+    "DQ": "B1>D.8>C.7>A.45 matches total costs.",
+    "when": "A cheap waiting; B cheapest feasible balanced frequency; C sufficiently costly waiting/mandatory deadline; D alternating load or availability with free transitions. Each whole frequency plan can be strongest.",
+    "level": "Middle: reconcile waiting cost, fixed setup and specialist capacity on weekly horizon.",
+    "source": "3.7 batch release waits and frequency; author supplies all setup/wait/capacity costs.",
+    "clarification": "Stable demand and free transition are explicit author facts, not source claims. Alternating weeks adds no capacity or competing benefit here. Accepted as clarification of existing one/two-window modes, no change to approved boundary. Exact202.5 uses given weekly regime averages; no independent scheduling/carryover optimization required by question.",
+    "duplicates": "ALLOWED REINFORCEMENT vs TC076-078/085/086/106-107/222/253-254/287/298: choice of recurring batching frequency with fixed overhead differs from optional review value, restoring test state, capacity queue relief, shared bottleneck migration or WIP aging.",
+    "caseSHA256": "a1197e82103d6b432a8a9bec620988e40fe8d8d3ce97381e2317a5c8024968c3",
+    "caseHashEncoding": "canonical JSON UTF8 sorted keys compact ensure_ascii=false",
+    "verdict": "PASS",
+    "issues": [],
+    "inheritance": "R1 PASS; exact canonical whole-object hash verified unchanged. Compared against revised116."
+  },
+  "TC-116": {
+    "verdict": "PASS",
+    "issues": [],
+    "best": "C",
+    "runnerUp": "D",
+    "caseSHA256": "185482783484a1688c7f4b9787743eb57b10854ed75637ec0ea7c4c7d06c6e28",
+    "pairwise": {
+      "A": "Access restriction leaves explicitly prohibited new collection; viable safe alternatives exist.",
+      "B": "Metrics cannot supply context for the two expected individual investigations; safe correlated set can.",
+      "D": "Both comply and preserve diagnostic readiness; C consumes40/60 minutes and40 cost versus160 release pause. Developer separate; no double-booked labor."
+    },
+    "level": "Middle: apply mandatory minimization, test sufficient diagnostic mode against finite manual capacity, then compare compliant operating plans by total loss. Bounded team/horizon, no invented governance or Senior inflation.",
+    "professionalPlausibility": "A restricted-access transitional logging, B metrics-only emergency response, C manual safe diagnostics, D pause for safe automation are executable recognized approaches. A/B have distinct safeguard and diagnostic failures. C/D carry actual compliant tradeoff. Standard does not require four near-optimal strategies.",
+    "DQ": "C1>D.75>B.35>A.15 coherent: D satisfies both hard objectives but costs more; B protects data but loses diagnostic context; A violates immediate-stop rule.",
+    "when": {
+      "A": "Necessary and explicitly permitted full composition plus access-based protection makes A complete transitional plan valid; C lacks necessary full fields and D sacrifices release unnecessarily.",
+      "B": "No individual investigation need or reliable other permitted context, plus lower complete cost, makes metrics-only operation strongest.",
+      "C": "Sufficient safe data + capacity + lower full price make entire temporary-manual then automated plan strongest.",
+      "D": "Unsafe/inadequate temporary diagnostics, insufficient support or lower pause cost makes whole safe pause/resume strongest."
+    },
+    "source": "Complete10.4 reread. Contextual logs vs aggregate metrics; trace ID with masked data; payload creates separate compliance risk; observability is planned readiness work. All quantities, approved policy, future filter and no-investigation-on-pause relation are explicit authored facts.",
+    "metadata": "technical_delivery evidenced by operating diagnostics/release; safeguards primary evidenced by immediate data-minimization constraint and safe substitute; quality-metrics secondary evidenced by contextual evidence sufficiency versus aggregates. Middle local operational plan, standalone null family/mutation, training+assessment true preserved. Cost comparison supports meaningful tradeoff without requiring automatic extra process-economics tag.",
+    "duplicates": "ALLOWED REINFORCEMENT vs050 (fix broken trace readiness),108/109 (frequency-dependent storage/sample evidence),149 (organization minimization governance),293 (product data scope and sequential mandatory security checks),162 (observer feedback/cause experiment). Here safe interim diagnostic labor capacity versus four-hour release pause. No equivalent boundary found in supplied R1 packet; current full293 search in full-cases returned no realization, so comparison is explicitly concept-level."
+  },
+  "TC-162": {
+    "best": "D",
+    "pairwise": {
+      "A": "Adding shared resource cannot identify whether service or telemetry consumed it; improvement is not causal proof.",
+      "B": "All-off loses internal evidence and comparison to different historical load is confounded.",
+      "C": "More per-attempt/retry detail can strengthen suspected feedback loop and collector loss."
+    },
+    "DQ": "D1>A.4>C.3>B.2 defensible: capacity can mitigate symptom, more detail worsens feedback, blind historical comparison loses evidence. Blind runner-up C is only relative diagnostic appeal, not an endorsement.",
+    "when": "A requires independently established service shortage and bounded stable telemetry; B emergency temporary stop plus reliable external health measurements and comparable workloads; C isolated diagnostic resources and export capacity tied to needed hypothesis; D suspected competition plus controlled test. External measurement in B is necessarily retained outside the disabled telemetry scope.",
+    "level": "Senior: distinguish first unexplained slowdown from telemetry-amplified second slowdown, handle feedback and missing evidence, test measurement intervention under equal load.",
+    "source": "10.4 cardinality/personal-data expense, cheap metric aggregates, correlated traces, sampling, equal-load comparisons and business health; self-amplification is explicit scenario mechanism/hypothesis, not claimed textbook theorem.",
+    "duplicates": "ALLOWED REINFORCEMENT vs TC008/050/068/108-109/190/242/248/266/286: observer changes system and evidence availability. Not solely sampling quota, missing business denominator, uncontrolled before/after, or shared test-state contamination.",
+    "caseSHA256": "eb8dcb26fc35ddcda0734303f1f4ecf8d41c93723c815a3a57581c926079710e",
+    "caseHashEncoding": "canonical JSON UTF8 sorted keys compact ensure_ascii=false",
+    "verdict": "PASS",
+    "issues": [],
+    "inheritance": "R1 PASS; exact canonical whole-object hash verified unchanged. Compared against revised116."
+  }
+}

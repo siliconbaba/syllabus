@@ -1,0 +1,12 @@
+{
+  "blindSHA256": "9027e042707e143deb19fab9900128253877f2ab8e08bc4745abf8afed2b4778",
+  "method": "Options and learner-visible context read before score fields; reviewer previously assessed the blueprints.",
+  "choices": {
+    "TC-135": "C",
+    "TC-145": "D"
+  },
+  "reason": {
+    "TC-135": "ID before attachment, attachment before access. A requires an unavailable capability, B retains a circular gate, D exposes an incomplete record.",
+    "TC-145": "D finishes after 4+5=9 and preserves the ID. A and C interrupt the same exposed transfer. B abandons a confirmed urgent obligation."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "COMPLETE — architecture only",
+  "treatment": "R5",
+  "acceptedContentBase": "v2.3-hardtail-b1-candidate",
+  "TC-221": {
+    "candidatesExplored": 2,
+    "sourcePass": 2,
+    "MiddlePass": 0,
+    "viableAfterAllPreflightGates": 0,
+    "selection": "NO VIABLE REPLACEMENT IN CURRENT SLOT",
+    "selectedCandidate": null,
+    "structuralDecisionRequired": "Proposed next route: topic-slot replacement with explicit coverage rebalance review. Not approved or applied. No level reassignment recommended solely to fit these Junior-like concepts. Finding limited to reviewed concepts, not exhaustive impossibility of13.3."
+  },
+  "TC-263": {
+    "candidatesExplored": 2,
+    "sourcePass": 2,
+    "MiddlePass": 2,
+    "viableAfterAllPreflightGates": 1,
+    "selection": "SELECTED REPLACEMENT BLUEPRINT",
+    "selectedCandidate": "263-A",
+    "concept": "Операционный выбор проверки fidelity экспериментального воздействия после rollout",
+    "diagnosticRole": "Разделить вопрос «доставлено ли проверенное воздействие» и вопрос «даёт ли оно сейчас эффект» при выборе следующего действия.",
+    "sourceGrounding": "PASS",
+    "MiddleFeasibility": "PASS — architectural feasibility, not authored-row acceptance",
+    "semanticPreflight": "ALLOWED REINFORCEMENT",
+    "runtimeVocabularyFit": "PASS",
+    "coveragePreserved": true,
+    "authoringAcceptanceConstraints": [
+      "Не утверждать в условии, что bug уже найден или метрика точно неверна. Нужны несовпадающие наблюдения с несколькими объяснениями.",
+      "Задать исполнимые альтернативы и конкретную цену/длительность их выбора; аудит не должен бесплатно доминировать.",
+      "Показать, почему риск короткой экспозиции допустим и чем он конкурирует с ценой отката; при подтверждённом недопустимом вреде эта роль не применяется.",
+      "Проверка использует существующие версии/показ/события; не требует новой платформы observability, randomization или Senior system redesign.",
+      "Не превращать retest/holdout, новый сегмент, proxy или правило p/MDE в strongest mechanism.",
+      "Повторить semantic/level self-QA после конкретизации. Если останется только правило «проверь данные», не применять строку."
+    ]
+  },
+  "crossRowRoleSeparation": {
+    "status": "NOT_APPLICABLE — only one selected; simultaneous-pair PASS not claimed",
+    "noCollisionAmongSelected": true,
+    "what263Tests": "Fidelity фактически доставленного воздействия при выборе следующей диагностики после rollout.",
+    "what221Tests": "Replacement not selected; no invented complementary role."
+  },
+  "manifestChanged": false,
+  "candidateCreated": false,
+  "productionChanged": false,
+  "readyForR5Authoring": true,
+  "authoringScope": [
+    "TC-263"
+  ],
+  "TC221RemainsUnresolved": true,
+  "remainingUnresolved": 72,
+  "QAStarted": false
+}

@@ -1,0 +1,18 @@
+{
+  "words": {
+    "A": 24,
+    "B": 24,
+    "C": 25,
+    "D": 27
+  },
+  "characters": {
+    "A": 185,
+    "B": 192,
+    "C": 213,
+    "D": 205
+  },
+  "key": "B",
+  "duplicateCandidateOptions": false,
+  "exactProductionOptionMatches": [],
+  "assessment": "PASS for individual case. All options similarly sized, B not longest, C longer, D longest by words. No answer marker or branded rubric vocabulary before response. Explicit facts make C/D readily rejectable, appropriate direct Junior task. Position balance and statistical leakage cannot be inferred from n=1. Historical 78-rule like-for-like regression not applicable to this net-new full case; full future batch surface audit still required."
+}

@@ -1,0 +1,27 @@
+ M InteractiveBook.xcodeproj/project.pbxproj
+ M InteractiveBook/App.swift
+ M InteractiveBook/Audio/SpeechReaderManager.swift
+ M InteractiveBook/BookView.swift
+ M InteractiveBook/WebContent/index.html
+ M README.md
+ M Tests/SpeechTests.swift
+ M Tests/WebKitSmoke.swift
+ M Tests/content.test.js
+ M scripts/check.sh
+?? InteractiveBook/Trainer/
+?? InteractiveBook/TrainerContent/
+?? InteractiveBook/WebContent/trainer-entry.js
+?? Tests/Fixtures/
+?? Tests/ScoringFixtures.swift
+?? Tests/ScoringTests.swift
+?? Tests/TrainerSchemaTests.swift
+?? Tests/TrainerTests.swift
+?? agent-artifacts/
+?? docs/TRAINER-CONTENT-SCHEMA.md
+?? docs/TRAINER-SLICE-1.md
+?? docs/TRAINER-SLICE-2.md
+?? docs/TRAINER-SLICE-3.md
+?? docs/TRAINER-SLICE-4.md
+?? scripts/build_trainer_catalog.py
+?? scripts/build_web.py
+?? scripts/sync_runtime_contract.py

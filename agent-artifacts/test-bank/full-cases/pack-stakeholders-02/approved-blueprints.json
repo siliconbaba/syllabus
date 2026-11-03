@@ -1,0 +1,123 @@
+[
+  {
+    "plannedId": "TC-112",
+    "batch": "Batch 04",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-1",
+    "oneSentenceScenarioConcept": "Middle PM обнаруживает, что бизнес-заказчик ждёт «полный запуск» в дату, а команда считает датой только техническую готовность backend; до обещания клиентам пять дней; нужно решить, продолжать работу или сначала синхронизировать определение milestone.",
+    "decisiveFactsConcept": [
+      "Две стороны по-разному понимают milestone",
+      "Внешнее обещание ещё не дано",
+      "Разница влияет на scope запуска"
+    ],
+    "oneSentenceDecisionBoundary": "Управлять планом при разных ожиданиях ↔ сначала согласовать содержание обязательства.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "expectation-management",
+    "secondaryPatterns": [
+      "communications"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§6.1 задаёт стороны коммуникации; проверяемая граница — согласование ожиданий до обещания по §6.2, а не сообщение о срыве."
+  },
+  {
+    "plannedId": "TC-113",
+    "batch": "Batch 04",
+    "block": "B07 — People",
+    "partId": "part-7",
+    "topicId": "t-7-4",
+    "oneSentenceScenarioConcept": "Руководитель команды согласует удержание сильного PM после stay interview: человек доказал готовность к следующему масштабу, но в команде год не будет ни позиции, ни подходящей программы; соседний продукт предлагает такой scope и готов дать четыре недели на передачу.",
+    "decisiveFactsConcept": [
+      "Причина — подтверждённый карьерный потолок, не неизвестная мотивация; готовность к следующему scope доказана.",
+      "Внутренних задач роста и вакансий на год нет; повышение оплаты не меняет этот факт.",
+      "Есть согласованный принимающий руководитель и четырёхнедельная передача с доступным заместителем; бессрочное удержание может потерять сотрудника для компании."
+    ],
+    "oneSentenceDecisionBoundary": "Поддержать переход с ограниченной передачей обязательств вместо контроффера и обещания недоступного роста; согласовать владельцев текущей работы, не удерживать человека до неопределённой замены.",
+    "domain": "people_management",
+    "requiredLevel": "middle",
+    "primaryPattern": "expectation-management",
+    "secondaryPatterns": [
+      "one-on-one",
+      "support"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Middle: совместить честное карьерное ограничение с непрерывностью delivery через конкретный handover; диагноз уже известен, повторный разговор о мотивации не снимает потолок.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Люди",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "stakeholders",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§7.4 допускает честное отпускание сильного сотрудника и помощь с переходом при реальном потолке; удержание любой ценой не заменяет доступного роста."
+  },
+  {
+    "plannedId": "TC-216",
+    "batch": "Batch 08",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-1",
+    "oneSentenceScenarioConcept": "Junior PM составляет stakeholder map для проекта с регулятором, внутренним спонсором и операционной командой; регулятор имеет высокую власть, но взаимодействует только в контрольных точках; нужно решить, кому нужен плотный ежедневный контакт.",
+    "decisiveFactsConcept": [
+      "Власть и интерес различаются",
+      "Есть редкие формальные внешние точки",
+      "Операционная команда вовлечена ежедневно"
+    ],
+    "oneSentenceDecisionBoundary": "Частота коммуникации по статусу ↔ стратегия контакта по власти и интересу.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "junior",
+    "primaryPattern": "communications",
+    "secondaryPatterns": [
+      "external-contact"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  }
+]

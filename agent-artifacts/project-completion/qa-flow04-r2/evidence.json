@@ -1,0 +1,94 @@
+{
+  "scope": "Focused R2 closure, not a new full-source or analog review",
+  "exactRawObjectFieldDiff": {
+    "TC-222": [],
+    "TC-287": [
+      "options.C.explanation",
+      "options.C.text",
+      "options.C.whenItWouldBeBest",
+      "options.C.whyNotBest",
+      "revision"
+    ],
+    "TC-253": [
+      "context",
+      "revision"
+    ],
+    "TC-254": [
+      "context",
+      "revision"
+    ]
+  },
+  "unexpectedChanges": [],
+  "TC222ExactRawObjectUnchanged": true,
+  "inheritedInputsRehashed": {
+    "agent-artifacts/test-bank/full-cases/pack-flow-04/cases.json": true,
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-3-7.txt": true,
+    "InteractiveBook/TrainerContent/cases.json": true,
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": true
+  },
+  "keyAndDQUnchanged": true,
+  "family": {
+    "singleResourceMutationPreserved": true,
+    "commonTimingClarificationIdentical": true,
+    "eligibilityTrainingOnly": true,
+    "arithmetic": {
+      "TC-253": {
+        "A": 120,
+        "B": 320,
+        "C": 160,
+        "D": 400
+      },
+      "TC-254": {
+        "A": 120,
+        "B": 80,
+        "C": 160,
+        "D": 160
+      }
+    },
+    "interpretation": "Original-capacity first week sentence sits in the internal-specialist preparation description. Later external clause explicitly supplies+2 immediately all four weeks; hence external/combined first-week12 remains explicit. Internal uses two days every week starting week2."
+  },
+  "TC287": {
+    "strongest": "B",
+    "runnerUp": "D",
+    "protectedValue": {
+      "A": 40,
+      "B": 110,
+      "C": 0,
+      "D": 100
+    },
+    "allocation": "C is explicitly3daysA+2daysB; A requires4, B cannot be accelerated. No permissible4+1 reading remains.",
+    "DQ": "B1>D0.85>A0.3>C0.2 now defensible.",
+    "wholeWhen": "Changed C WHEN explicitly makes3days sufficient for A,2days productive for B and combined value superior to concentration plus shorts. It supports the complete schedule.",
+    "plausibility": "Equal-attention-to-aging-cards mistake remains actionable and professionally recognizable; explicit allocation makes its failure assessable."
+  },
+  "surface": {
+    "TC287OptionLengths": {
+      "A": 103,
+      "B": 109,
+      "C": 115,
+      "D": 79
+    },
+    "keyCounts": {
+      "A": 1,
+      "B": 3
+    },
+    "finding": "C remains comparable length to B and longer than D; no new answer cue. Context additions apply identically to both siblings, preserving family constants. TC222 unchanged."
+  },
+  "decisionRecheck": {
+    "TC-222": "B inherited blind and exact-object PASS",
+    "TC-287": "B; changedC no longer allows completionA",
+    "TC-253": "A; explicit timing supports all totals",
+    "TC-254": "B;80 is minimum"
+  },
+  "blindProvenance": "R1 truly blind choices reused; reviewer knew keys during this focused delta and does not claim a fresh blind pass.",
+  "runtime": {
+    "source": "agent-artifacts/test-bank/full-cases/pack-flow-04-r2/validation.json",
+    "candidateHashMatches": true,
+    "result": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "newCompilations": 0
+  }
+}

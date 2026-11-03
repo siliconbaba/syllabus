@@ -1,0 +1,8 @@
+{
+  "QA-report.md": "eb468556138584d895b8221e72d57ed54ac54bb6c4ea046b853f7ac8d2b872ab",
+  "case-fixes.csv": "aac8ce090a3f5dd27a733297f311ea7f1d57ee7de259e18fddf82014c4b59618",
+  "family-fixes.csv": "8d41ecc90becf5abdaf64ff5474e5b502c19ea505a744286e09852e97e1c0222",
+  "duplication-audit.csv": "245fcdb84b63bc92cde1df7d0174ebde2dac3afe8ada96d962bbbd53457785ba",
+  "batch-statistics-independent.json": "2983644fc3173e3f32859231958847cb3df4c6eccf250888573887aa8a86b901",
+  "QA-verdict.json": "bcfc8b4e335172fd7ea5984a6b633800e43b9ead168d9093aadf2702c609e7a2"
+}

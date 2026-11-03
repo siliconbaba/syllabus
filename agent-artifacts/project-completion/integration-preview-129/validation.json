@@ -1,0 +1,15 @@
+{
+  "actualSwift": {
+    "runtime": "PASS",
+    "schema": "PASS",
+    "issues": []
+  },
+  "caseCount": 129,
+  "optionCount": 516,
+  "candidateSHA256": "5193c8531956f0fddd5eb916ff6f19a1120d7c282ffbc99e2dd44823335e587a",
+  "snapshotRegression": "PASS, existing TrainerTests with preview count and legacy fixture path adapted only",
+  "assertionsPassed": 117,
+  "production100ObjectsUnchanged": true,
+  "assemblyContentQA": "PENDING",
+  "productionChanged": false
+}

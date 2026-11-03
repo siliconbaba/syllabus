@@ -1,0 +1,102 @@
+{
+  "verdict": "NOT READY",
+  "casesChecked": 25,
+  "blindAgreement": 25,
+  "uniqueStrongest": {
+    "pass": 24,
+    "failIds": [
+      "TC-090"
+    ]
+  },
+  "sourceGrounding": {
+    "supported": 24,
+    "partiallySupported": [
+      "TC-090"
+    ],
+    "unsupported": []
+  },
+  "manifestAlignment": {
+    "pass": 25,
+    "failIds": [],
+    "scope": "Metadata and intended diagnostic boundary; actual level realization tested separately."
+  },
+  "levels": {
+    "junior": {
+      "pass": 5,
+      "total": 5
+    },
+    "middle": {
+      "pass": 10,
+      "total": 12,
+      "failIds": [
+        "TC-094",
+        "TC-100"
+      ]
+    },
+    "senior": {
+      "pass": 3,
+      "total": 5,
+      "failIds": [
+        "TC-083",
+        "TC-084"
+      ]
+    },
+    "head": {
+      "pass": 3,
+      "total": 3
+    }
+  },
+  "families": {
+    "controlledMutationPass": 4,
+    "total": 4,
+    "failIds": [],
+    "note": "PASS of mutation does not waive explanation/WHEN/level defects of individual siblings."
+  },
+  "crossBank": {
+    "ALLOWED REINFORCEMENT": 22,
+    "NEAR DUPLICATE": 1,
+    "NO CLOSE ANALOG": 2,
+    "DUPLICATE": 0
+  },
+  "internalDuplicates": 0,
+  "internalNearDuplicates": 0,
+  "bestSimpleHeuristic": {
+    "hits": 9,
+    "total": 25,
+    "randomTieExpectedMaximum": 9.833333333333334
+  },
+  "combined100Leakage": "PASS within exploratory tested surface features",
+  "combined100BestHeuristic": 35,
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "schemaRuntime": "PASS",
+  "blocker": 1,
+  "major": 12,
+  "minor": 0,
+  "severityCountUnit": "case-level findings (13 case-fixes rows); shared sibling issues counted per affected case",
+  "fixIds": [
+    "TC-076",
+    "TC-077",
+    "TC-078",
+    "TC-079",
+    "TC-080",
+    "TC-083",
+    "TC-084",
+    "TC-085",
+    "TC-090",
+    "TC-092",
+    "TC-094",
+    "TC-098",
+    "TC-100"
+  ],
+  "readyForImport": false,
+  "candidateModified": false,
+  "productionModified": false,
+  "batch04Started": false,
+  "commitPushPerformed": false,
+  "inputsUnchangedAtCompletion": true
+}

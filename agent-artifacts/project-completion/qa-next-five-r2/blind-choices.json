@@ -1,0 +1,37 @@
+{
+  "stage": "Before reading keyed R2. Reviewer knows R1 keys by design.",
+  "blindSHA256": "5be9adcff8e71723094e6876f7381e27950bc032993f832a34399b3fe371bf0b",
+  "choices": [
+    {
+      "id": "TC-101",
+      "choice": "A",
+      "runnerUp": "B",
+      "confidence": 0.99,
+      "reason": "R records both receipts without dispatch."
+    },
+    {
+      "id": "TC-102",
+      "choice": "B",
+      "runnerUp": "C",
+      "confidence": 0.99,
+      "reason": "Intercept at M for both P paths while preserving receipt."
+    },
+    {
+      "id": "TC-103",
+      "choice": "C",
+      "runnerUp": "B",
+      "confidence": 0.99,
+      "reason": "N bypasses M while reaching P."
+    },
+    {
+      "id": "TC-111",
+      "choice": "D",
+      "runnerUp": "B",
+      "confidence": 0.99,
+      "reason": "Expected gain at least 12/3 - 2 = 2 versus 0."
+    }
+  ],
+  "inherited": [
+    "TC-110"
+  ]
+}

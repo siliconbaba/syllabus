@@ -1,0 +1,92 @@
+{
+  "TC-211": {
+    "best": "B",
+    "pairwise": {
+      "A": "30>20; no zero-risk mandate.",
+      "C": "Late confirmation follows purchase closure; expected uninsured loss40.",
+      "D": "Unconditional held reserve25>conditional20 including residual loss5."
+    },
+    "DQ": "B1>D.85>A.75>C.3 defensible by cost and retained protection.",
+    "when": "B/C/D coherent; A fails whole-option optimality (FLOW05-211-WHEN-A).",
+    "level": "Middle: combine conditional probabilities, payment timing and permitted residual risk.",
+    "source": "2.6 quantitative response cost versus expected loss, EWI time to act, owner and risk appetite; prices and conditional frequencies are authored facts.",
+    "duplicates": "ALLOWED REINFORCEMENT vs TC006/007/026-028/093/104-105/117/269/294: two-stage paid option with conditional expected total cost, not risk-to-issue status, forecast trigger, deterministic preparation duration or binding downtime appetite.",
+    "caseSHA256": "43a59a1d8d74a75b53a1ee3785d92024264850f0a1b9b70502fd2236c93e85bc",
+    "caseHashEncoding": "canonical JSON UTF8 sorted keys compact ensure_ascii=false",
+    "verdict": "FIX REQUIRED",
+    "issues": [
+      "FLOW05-211-WHEN-A"
+    ]
+  },
+  "TC-237": {
+    "best": "C",
+    "pairwise": {
+      "A": "15-minute speed advantage costs80 elsewhere versus20 additional segment loss.",
+      "B": "Available targeted recovery preserves improvement and eliminates report regression; full-day wait has no supplied benefit.",
+      "D": "Version/operation evidence and traffic confound already resolved."
+    },
+    "DQ": "C1>A.7>D.4>B.2 defensible: full rollback restores service at higher cost, extra diagnosis delays action, whole-day aggregate monitoring leaves known segment issue.",
+    "when": "All four whole plans can become optimal under stated changes: cost reversal/addressed measure unavailable; accepted low impact/costlier mitigation; targeted feasible lower loss; fast still-needed localization.",
+    "level": "Middle: select executable incident response with common resource and total cross-segment losses.",
+    "source": "10.4 case1 explicitly contrasts global rollback losing improvements against segment feature flag.",
+    "duplicates": "ALLOWED REINFORCEMENT vs TC044/092: those select adequate evidence/metric, here evidence is settled and decision is restoration economics. No duplicate boundary.",
+    "caseSHA256": "f22d9a5aaeb64c2577429f6969ff0b9295445e9ef8cde85c22d490a96886172c",
+    "caseHashEncoding": "canonical JSON UTF8 sorted keys compact ensure_ascii=false",
+    "verdict": "PASS",
+    "issues": []
+  },
+  "TC-174": {
+    "best": "B",
+    "pairwise": {
+      "A": "260>145 despite unused specialist hours.",
+      "C": "250>145 after paying150 coverage.",
+      "D": "Under given per-regime averages, alternating cost(260+145)/2=202.5>145."
+    },
+    "DQ": "B1>D.8>C.7>A.45 matches total costs.",
+    "when": "A cheap waiting; B cheapest feasible balanced frequency; C sufficiently costly waiting/mandatory deadline; D alternating load or availability with free transitions. Each whole frequency plan can be strongest.",
+    "level": "Middle: reconcile waiting cost, fixed setup and specialist capacity on weekly horizon.",
+    "source": "3.7 batch release waits and frequency; author supplies all setup/wait/capacity costs.",
+    "clarification": "Stable demand and free transition are explicit author facts, not source claims. Alternating weeks adds no capacity or competing benefit here. Accepted as clarification of existing one/two-window modes, no change to approved boundary. Exact202.5 uses given weekly regime averages; no independent scheduling/carryover optimization required by question.",
+    "duplicates": "ALLOWED REINFORCEMENT vs TC076-078/085/086/106-107/222/253-254/287/298: choice of recurring batching frequency with fixed overhead differs from optional review value, restoring test state, capacity queue relief, shared bottleneck migration or WIP aging.",
+    "caseSHA256": "a1197e82103d6b432a8a9bec620988e40fe8d8d3ce97381e2317a5c8024968c3",
+    "caseHashEncoding": "canonical JSON UTF8 sorted keys compact ensure_ascii=false",
+    "verdict": "PASS",
+    "issues": []
+  },
+  "TC-116": {
+    "best": "B",
+    "pairwise": {
+      "A": "Access restriction does not stop forbidden unnecessary collection.",
+      "C": "Short retention also retains forbidden collection.",
+      "D": "Loses correlation despite available sufficient safe field set."
+    },
+    "DQ": "B1>D.6>C.5>A.4 is defensible under priority to cease unnecessary collection; blind runner-up C reflects preservation of diagnosis but still violates explicit rule, not a second strongest.",
+    "when": "All four whole-plan counterfactuals plausible: authorized necessary full fields with excess access; sufficient filtered set; authorized necessary one-day fields; no safe filter plus accepted temporary diagnostic loss.",
+    "level": "FAIL Middle realization; recipe already resolved in context, as FLOW05-116-LEVEL. Approved metadata is preserved and never auto-retagged to Senior.",
+    "source": "10.4 explicitly supplies trace ID, masked data, personal-data exposure and diagnostic-quality distinction. No external law claim needed.",
+    "duplicates": "ALLOWED REINFORCEMENT vs TC050/108-109/149/293 and intra-batch162: minimization before storage with diagnostic correlation, not trace readiness, volume sampling threshold, organization governance, security-scope economics or observer feedback.",
+    "caseSHA256": "ac6a73cf179d46f32a675426d8424724edfee785c8a93931bfd01279c16d788b",
+    "caseHashEncoding": "canonical JSON UTF8 sorted keys compact ensure_ascii=false",
+    "verdict": "FIX REQUIRED",
+    "issues": [
+      "FLOW05-116-LEVEL"
+    ]
+  },
+  "TC-162": {
+    "best": "D",
+    "pairwise": {
+      "A": "Adding shared resource cannot identify whether service or telemetry consumed it; improvement is not causal proof.",
+      "B": "All-off loses internal evidence and comparison to different historical load is confounded.",
+      "C": "More per-attempt/retry detail can strengthen suspected feedback loop and collector loss."
+    },
+    "DQ": "D1>A.4>C.3>B.2 defensible: capacity can mitigate symptom, more detail worsens feedback, blind historical comparison loses evidence. Blind runner-up C is only relative diagnostic appeal, not an endorsement.",
+    "when": "A requires independently established service shortage and bounded stable telemetry; B emergency temporary stop plus reliable external health measurements and comparable workloads; C isolated diagnostic resources and export capacity tied to needed hypothesis; D suspected competition plus controlled test. External measurement in B is necessarily retained outside the disabled telemetry scope.",
+    "level": "Senior: distinguish first unexplained slowdown from telemetry-amplified second slowdown, handle feedback and missing evidence, test measurement intervention under equal load.",
+    "source": "10.4 cardinality/personal-data expense, cheap metric aggregates, correlated traces, sampling, equal-load comparisons and business health; self-amplification is explicit scenario mechanism/hypothesis, not claimed textbook theorem.",
+    "duplicates": "ALLOWED REINFORCEMENT vs TC008/050/068/108-109/190/242/248/266/286: observer changes system and evidence availability. Not solely sampling quota, missing business denominator, uncontrolled before/after, or shared test-state contamination.",
+    "caseSHA256": "eb8dcb26fc35ddcda0734303f1f4ecf8d41c93723c815a3a57581c926079710e",
+    "caseHashEncoding": "canonical JSON UTF8 sorted keys compact ensure_ascii=false",
+    "verdict": "PASS",
+    "issues": []
+  }
+}

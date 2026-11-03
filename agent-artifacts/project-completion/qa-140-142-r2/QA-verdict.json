@@ -1,0 +1,57 @@
+{
+  "status": "CONTENT ACCEPTED",
+  "verdict": "PASS",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-140-142-r2/cases.json",
+  "candidateSHA256": "64c880364870fd3471ca3db2df913cd09f8fcb2bc682ebdcff3f5588deb20514",
+  "baselineCandidateSHA256": "1d07b7c0b6a1ef498438c54b5b65142a1077ca745371dbf2ef694057d99c5a40",
+  "baseQA": "agent-artifacts/project-completion/qa-140-142/QA-verdict.json",
+  "baseQASHA256": "f3df13749b69128bfc58e2a913b724fe018a2098ba2009951e9f62c4255c3212",
+  "manifestSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "acceptedCaseIDs": [
+    "TC-140",
+    "TC-141",
+    "TC-142"
+  ],
+  "remainingIssueIDs": [],
+  "remainingCaseIDs": [],
+  "closedIssues": [
+    "Q140-01",
+    "Q141-01",
+    "Q141-02",
+    "Q142-01",
+    "Q142-02"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "changedPaths": [
+    "/cases/0/revision",
+    "/cases/0/context",
+    "/cases/1/revision",
+    "/cases/1/context",
+    "/cases/1/options/2/whenItWouldBeBest",
+    "/cases/2/revision",
+    "/cases/2/options/1/explanation",
+    "/cases/2/options/1/whyNotBest",
+    "/cases/2/options/3/whenItWouldBeBest",
+    "/cases/2/keyInsight"
+  ],
+  "gates": {
+    "blindAndDQ": "C/A/B, runners-up A/C/C; no option label, score, strategy or student-facing option wording changed.",
+    "TC-140": "Finite next-cycle case mix 18/6 now grounds queue arithmetic; 6 escalation slots needed vs 8 available.",
+    "TC-141": "Archive split given; single indivisible reserve before mode selection plus unacceptable slow-mode shortfall makes C appropriate as a whole. Actual committee can reserve conditionally, preserving A.",
+    "TC-142": "D counterfactual validates request, immediate start authority, deadline change and 9 available weeks. B feedback correctly compares the two portfolios adding one discretionary work. Current actual 8 weeks and binding deadline still favor B.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "inheritance": "Full source, levels, duplication, grounding, option ordering and all unaffected rationale inherited from hash-bound R1."
+  },
+  "contentEligibleForBatchAssembly": true,
+  "importEligible": false,
+  "readyToFreeze": false,
+  "productionChanged": false
+}

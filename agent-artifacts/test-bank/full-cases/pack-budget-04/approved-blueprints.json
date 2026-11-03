@@ -1,0 +1,165 @@
+[
+  {
+    "plannedId": "TC-114",
+    "batch": "Batch 04",
+    "block": "B08 — Business & Vendors",
+    "partId": "part-8",
+    "topicId": "t-8-2",
+    "oneSentenceScenarioConcept": "Middle PM видит отклонение +12% по статье подрядчика, но общий EAC пока в бюджете благодаря недорасходу инфраструктуры; нужно решить, считать ли проект «красным» только по одной статье или управлять план-фактом и прогнозом до завершения.",
+    "decisiveFactsConcept": [
+      "Одна статья +12%",
+      "Общий EAC в пределах бюджета",
+      "Перераспределение между статьями допустимо по правилам"
+    ],
+    "oneSentenceDecisionBoundary": "Локальное отклонение как финальный вывод ↔ план-факт плюс EAC и правила перераспределения.",
+    "domain": "vendors_and_finance",
+    "requiredLevel": "middle",
+    "primaryPattern": "gate-effect-diagnosis",
+    "secondaryPatterns": [
+      "forecast",
+      "quality-metrics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Финансы и подрядчики",
+    "derivedRuntimePrimaryThinking": "evidence",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence",
+      "evidence"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-170",
+    "batch": "Batch 06",
+    "block": "B08 — Business & Vendors",
+    "partId": "part-8",
+    "topicId": "t-8-2",
+    "oneSentenceScenarioConcept": "Head утверждает бюджет платформы, где команды выбирают низкий initial cost, а обязательная эксплуатация попадает в чужой бюджет уже после запуска.",
+    "decisiveFactsConcept": [
+      "Проектные бюджеты оплачивают внедрение; подписки и on-call принимает центральная эксплуатация без права участвовать в инвестиционном решении.",
+      "Все предложения проходят локальный CapEx-лимит, но подтверждённые будущие OpEx превышают общий лимит; финансовый контролёр подтвердил правила учёта, переименование статей не создаёт денег.",
+      "Head имеет мандат установить единое инвестиционное правило и бюджетные полномочия, сохранив локальный выбор технологий; жёсткий запрет облака исключит и экономически выгодные предложения."
+    ],
+    "oneSentenceDecisionBoundary": "Связать разрешение инвестиции с TCO на общем горизонте и подтверждённым владельцем/лимитом будущего OpEx, включить эксплуатацию в решение до закупки и пересобрать портфель по полному обязательству; не переносить перерасход между статьями и не запрещать один класс технологий.",
+    "domain": "vendors_and_finance",
+    "requiredLevel": "head",
+    "primaryPattern": "process-economics",
+    "secondaryPatterns": [
+      "decision-at-right-level",
+      "portfolio-reprioritization"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Head: изменить бюджетную архитектуру и права участников, устранив механизм локально выгодных, но нефинансируемых решений.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Финансы и подрядчики",
+    "derivedRuntimePrimaryThinking": "proportionality",
+    "derivedRuntimeSecondaryThinking": [
+      "organization",
+      "prioritization"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": "Head: изменить бюджетную архитектуру и права участников, устранив механизм локально выгодных, но нефинансируемых решений.",
+    "authorityScope": "Мандат Head менять общие правила инвестиционного допуска и бюджетного владения OpEx.",
+    "secondaryEffect": "Изменяется механизм создания будущих обязательств и ответственность за их ресурсное обеспечение, а не только разовое назначение.",
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-8-2: Строит правила резервирования и план-факта для всех менеджеров. Принцип применён к диагностической развилке; числа и ограничения являются авторскими условиями."
+  },
+  {
+    "plannedId": "TC-269",
+    "batch": "Batch 10",
+    "block": "B08 — Business & Vendors",
+    "partId": "part-8",
+    "topicId": "t-8-2",
+    "oneSentenceScenarioConcept": "Менеджер выбирает бюджетный план внешней интеграции: сохранить денежный резерв или заранее оплатить меру, меняющую остаточный риск.",
+    "decisiveFactsConcept": [
+      "Базовые работы стоят 100. Известный риск переделки API оценён как 40% × 40, остальные известные риски — ожидаемые 4; утверждённое правило проекта резервирует именно ожидаемое денежное влияние отдельно от базы. Другие требования к запасу уже выполнены.",
+      "За 8 можно заранее получить проверенный совместный тестовый контур: инженерная оценка снижает риск переделки до 10% × 20 без изменения объёма и даты. Без меры исходный резерв — 20; с мерой её стоимость входит в базу, а contingency пересчитывается по остаточному риску.",
+      "Лимит проекта 116, увеличение спонсор не подтвердил. PM может выбрать меру внутри лимита; портфельного покрытия сверх лимита нет. Уменьшение резерва без изменения риска не разрешено, измерение результата меры предусмотрено до основной интеграции."
+    ],
+    "oneSentenceDecisionBoundary": "Включить меру 8 в базовый план и отдельно оставить contingency 6: прогноз 114 укладывается в лимит и содержит остаточный риск. Не сохранять резерв 20 поверх уже сниженного риска и не уменьшать его до 16 только ради лимита без изменения плана.",
+    "domain": "vendors_and_finance",
+    "requiredLevel": "middle",
+    "primaryPattern": "risk-register",
+    "secondaryPatterns": [
+      "process-economics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Middle: сравнить стоимость предотвращения и остаточную экспозицию, пересчитать структуру бюджета после меры и выбрать исполнимый план под реальный лимит.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Финансы и подрядчики",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "proportionality"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-8-2: Contingency reserve. Middle: сравнить стоимость предотвращения и остаточную экспозицию, пересчитать структуру бюджета после меры и выбрать исполнимый план под реальный лимит. Конкретные условия, числа и допустимость мер — авторские факты, не цитаты учебника."
+  },
+  {
+    "plannedId": "TC-300",
+    "batch": "Batch 11",
+    "block": "B08 — Business & Vendors",
+    "partId": "part-8",
+    "topicId": "t-8-2",
+    "oneSentenceScenarioConcept": "Middle PM выбирает бюджетную корректировку после сверки неоплаченных обязательств, когда видимая экономия не покрывает финальный этап и резерв.",
+    "decisiveFactsConcept": [
+      "Лимит проекта 12 включает резерв 1 на ещё действующий риск сертификации. Оплачено 4, отдельно законтрактовано и пока не оплачено 3; работы до завершения стоят ещё 5 и не включают эти счета. Контролёр подтвердил отсутствие двойного счёта.",
+      "В 3 неоплаченных единицах есть заказ необязательного отчёта ценой 1,5: его можно отменить с платой 0,3. Потеря ценности отчёта на горизонте проекта оценена в 0,8. Отложить обязательную сертификацию дешевле по текущим платежам, но её перенос стоит 1,4 и не отменяет ни одного обязательства.",
+      "Спонсор готов сейчас согласовать снятие отчёта, но не увеличение лимита. Риск сертификации не исчез и требует всего резерва 1; передвигать счета на следующий период ради видимого лимита нельзя. Оставшиеся обязательные работы и сроки сохраняются при отмене отчёта."
+    ],
+    "oneSentenceDecisionBoundary": "Вынести на согласование отмену отчёта с платой за выход: снизить прогноз вместе с резервом с 13 до 11,8, явно приняв потерю ценности 0,8. Сохранить сертификацию и резерв; не выдавать неоплаченные счета за экономию и не переносить обязательный этап ради кассовой картины.",
+    "domain": "vendors_and_finance",
+    "requiredLevel": "middle",
+    "primaryPattern": "forecast",
+    "secondaryPatterns": [
+      "change-control"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Middle: совместить сверенный EAC с ценой изменения обязательства, потерей полезного scope и сохранением действующего резерва, затем предложить конкретную корректировку.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Финансы и подрядчики",
+    "derivedRuntimePrimaryThinking": "evidence",
+    "derivedRuntimeSecondaryThinking": [
+      "organization"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-8-2: освоено (сколько потрачено). Middle: совместить сверенный EAC с ценой изменения обязательства, потерей полезного scope и сохранением действующего резерва, затем предложить конкретную корректировку. Конкретные условия, величины и доступные действия — авторские, не утверждения учебника."
+  }
+]

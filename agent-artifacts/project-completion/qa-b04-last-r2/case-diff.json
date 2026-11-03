@@ -1,0 +1,307 @@
+{
+  "changedIds": [
+    "TC-122",
+    "TC-125"
+  ],
+  "unchangedIds": [
+    "TC-121",
+    "TC-123"
+  ],
+  "addedIds": [],
+  "removedIds": [],
+  "unexpectedIds": [],
+  "byteIdenticalCount": 2,
+  "formatOnlyChangedIds": [],
+  "fieldDiffs": {
+    "TC-122": [
+      {
+        "field": "/options/2/text",
+        "before": "Закрыть PIP, оставить первый проект в обычном режиме. Использовать два часа для подготовки и наблюдения передачи, проверить самостоятельное подтверждение готовности при следующем вручении.",
+        "after": "Закрыть PIP, сохранить штатные проверки и отработать передачу с наставником. На следующей проверить подтверждение получателя."
+      },
+      {
+        "field": "/revision",
+        "before": 1,
+        "after": 2
+      }
+    ],
+    "TC-125": [
+      {
+        "field": "/options/3/text",
+        "before": "Закрепить за ИБ отдельный допуск high-risk с защищённым временем и правом остановки. В командах оставить раннее ревью, автоматизацию и выборочный аудит обычного пути.",
+        "after": "Сохранить помощь команд и автоматику, а ИБ выделить время на допуск high-risk с правом отказа и выборочную проверку остальных."
+      },
+      {
+        "field": "/revision",
+        "before": 1,
+        "after": 2
+      }
+    ]
+  },
+  "rootDiff": [],
+  "families": [],
+  "familyContractDiffs": [
+    {
+      "familyId": "F-BV-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-BV-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-BV-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-BV-P04",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DM-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DM-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DM-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DM-P04",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DM-T01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DR-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DR-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DR-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DR-P04",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-DR-T01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PA-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PA-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PA-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PA-P04",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PE-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PE-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PE-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PE-T01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PM-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PM-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PM-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PM-T01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PO-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PO-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PO-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PO-P04",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PO-T01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PR-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PR-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PR-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-PR-T01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-ST-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-ST-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-ST-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-ST-T01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-TD-P01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-TD-P02",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-TD-P03",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    },
+    {
+      "familyId": "F-TD-T01",
+      "constantsChanged": false,
+      "declaredMutationChanged": false,
+      "diff": []
+    }
+  ],
+  "hashes": {
+    "baseline": "7d6a6c12c8501cd50bfbf13cb259d4b6e5a596cadb80f872da69650be487450e",
+    "revision": "7bc20aca8217ff871dec929b49634ddf8c29a7c8d3f7ce4b31bdb4cdb237ef22"
+  }
+}

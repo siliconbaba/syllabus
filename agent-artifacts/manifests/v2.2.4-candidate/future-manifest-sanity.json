@@ -1,0 +1,211 @@
+[
+  {
+    "plannedId": "TC-101",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-143",
+      "TC-189",
+      "TC-213",
+      "TC-264",
+      "TC-278",
+      "TC-279"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "Shadow требует изоляции внешних эффектов до двойного исполнения; перечисленные строки выбирают совместимость/rollback или размер пользовательской экспозиции.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-102",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-143",
+      "TC-189",
+      "TC-213",
+      "TC-264",
+      "TC-278",
+      "TC-279"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "Достройка имеющегося периметра эффектов для shadow отличается от recovery evidence и canary policy.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-103",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-143",
+      "TC-189",
+      "TC-213",
+      "TC-264",
+      "TC-278",
+      "TC-279"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "Нужен новый архитектурный шов эффектов при неизменяемой модели данных; будущие строки не проверяют безопасность скрытого параллельного выполнения.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-104",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-211",
+      "TC-284",
+      "TC-294"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "В 211 trigger/response отсутствуют и их надо создать; здесь оба источника и response заданы — нужно проверить достаточность временного запаса. 284 — ограничение спорного scope, 294 — пересчёт прогноза.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-105",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-211",
+      "TC-284",
+      "TC-294"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "Смена источника trigger из-за известного response lead time не равна заполнению пустого плана (211) или прогнозу по тренду (294).",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-108",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-162",
+      "TC-210",
+      "TC-237",
+      "TC-286"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "Sampling существующих подробных записей внутри лимита отличается от выбора инструмента, SLI, alert threshold или автоматизации тестов.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-109",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-162",
+      "TC-210",
+      "TC-237",
+      "TC-286"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "Риск утратить редкие примеры при sampling, а не недостаток trace/метрики/алерта.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-111",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-161",
+      "TC-167",
+      "TC-199"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "161 — переход от компонентных команд с множеством handoff; здесь инвестиция не стартует до реформы бюджетов и PO, при временно работающей координации. 167/199 — масштаб синхронизации и ранние контракты.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-113",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-159",
+      "TC-244",
+      "TC-268"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "159 — доступная автономия; 244/268 — ещё не доказанная готовность. Здесь готовность доказана, scope внутри недоступен и требуется отпускание/передача.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-115",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-143",
+      "TC-185",
+      "TC-189",
+      "TC-282",
+      "TC-283"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "Выбор recovery пути по RPO/RTO не равен миграционной обратимости данных, исполнению postmortem actions или масштабу command.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-118",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-142",
+      "TC-196",
+      "TC-198",
+      "TC-209",
+      "TC-236"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "198 — staged technical migration против дорогого freeze при параллельной delivery; здесь продуктовый инвестиционный scope против фиктивного дробления WSJF, без миграции. 142/196/209/236 — сопоставление готовых инициатив, зависимости, strategic fit и шкала размера.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-119",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-166",
+      "TC-173",
+      "TC-197",
+      "TC-199",
+      "TC-265",
+      "TC-296"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "197 — отсутствующий бинарный критерий/override; здесь корректная проверка устаревает при смене provider. 199 — contract discovery до планирования, здесь автоматическая жизнь release evidence после изменения артефакта. Остальные — coverage, compatibility/deprecation, лишние gates.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-120",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-137",
+      "TC-175",
+      "TC-181",
+      "TC-182",
+      "TC-185",
+      "TC-199"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "185 — postmortem actions без выделенной мощности и отслеживания; здесь IP уже есть в календаре, но включена второй раз в nominal commitments: исправляется модель расчёта capacity и KPI. Не добавлять сюжет про невыполненные postmortem actions. 137 — сокрытие инцидентов, 175 — WIP улучшений, 181/182 — новое срочное требование, 199 — поздние контракты.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-122",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-169",
+      "TC-217",
+      "TC-257",
+      "TC-258",
+      "TC-274"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "Будущие строки касаются постановки критериев, HR, поведения руководителя и чужой authority; здесь критерии валидны, выполнены и требуется честное закрытие PIP.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  },
+  {
+    "plannedId": "TC-125",
+    "screenedRange": "TC-126…TC-300 boundary inventory",
+    "expandedCandidates": [
+      "TC-140",
+      "TC-149",
+      "TC-171",
+      "TC-191",
+      "TC-206",
+      "TC-207",
+      "TC-234",
+      "TC-235",
+      "TC-293"
+    ],
+    "finding": "NO OBVIOUS COLLISION",
+    "rationale": "Будущие строки — risk acceptance, minimization, пропорциональные controls, типовой спрос и раннее secure SDLC. Здесь уже внедрённые champions не обеспечивают независимость high-risk assurance: объект — линия отчётности и бюджет контроля.",
+    "limitation": "Lightweight sanity only, not full future-manifest QA"
+  }
+]

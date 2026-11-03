@@ -1,0 +1,32 @@
+[
+  {
+    "id": "QA104-109-01",
+    "severity": "major",
+    "status": "PARTIALLY REPAIRED; OPEN",
+    "cases": [
+      "TC-108",
+      "TC-109"
+    ],
+    "fields": [
+      "options.C.text",
+      "options.D.text",
+      "context"
+    ],
+    "evidence": "Actions are now available and source-grounded. D is a meaningful high-frequency retention tradeoff (about 59,524 complete recent records for 59.5 MB). C still explicitly switches off every detail despite the stated requirement for >=100 full examples and no alternative detail source; it is eliminated without frequency/storage reasoning. On the rare sibling D keeps about 3 examples confined to the last hour versus B five distributed through the week. Four strong strategies are not established across both siblings; conceptual distinction alone does not repair the original strength gate.",
+    "minimal_fix": "Strengthen the shared alternative decisions so the rare sibling also has meaningful partial solutions and C requires an actual evidence/cost tradeoff, preserving sole frequency mutation and A/B boundary. Review any additional blueprint changes explicitly."
+  },
+  {
+    "id": "QA104-109-03",
+    "severity": "major",
+    "status": "NEW",
+    "cases": [
+      "TC-109"
+    ],
+    "fields": [
+      "options.B.decisionQuality",
+      "options.D.decisionQuality"
+    ],
+    "evidence": "D receives .4 above B .3. At 500 uniformly timed events/week, an hour retains about 2.98 (~3) examples solely at the week end; B retains 5 representative examples over the week. Both fit the budget and preserve the same exact count, but D loses both more examples and temporal coverage. There is no stated requirement favoring consecutive recent events. DQ ordering contradicts the relative usefulness of retained evidence.",
+    "minimal_fix": "After settling revised distractors, rank their partial evidence against the actual count and temporal-coverage requirements; do not simply copy high-frequency DQ to rare sibling."
+  }
+]

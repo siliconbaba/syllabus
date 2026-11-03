@@ -1,0 +1,11 @@
+{
+  "agent-artifacts/manifests/v2.3-wave3-candidate/production_manifest_masterplan_v2_3_wave3_candidate.json": "02b5773eb8a7ea85953f6992b4fc032571d6f66bfbb79e2e0f2c9935dee6e380",
+  "agent-artifacts/manifests/v2.3-wave4-candidate/production_manifest_masterplan_v2_3_wave4_candidate.json": "61b9c455d5071b488d7a50b2e26352d6dd052b3e2e7a5277fb3625e166f68941",
+  "agent-artifacts/manifests/v2.3-wave5-candidate/production_manifest_masterplan_v2_3_wave5_candidate.json": "c9e683cefd201e8580b96d97eaddf31687d4d033e6a1008fa1cb4db63cba0502",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3"
+}

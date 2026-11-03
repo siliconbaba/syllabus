@@ -1,0 +1,43 @@
+{
+  "status": "FIX REQUIRED — A counterfactual",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/tc163/cases.json",
+  "candidateSHA256": "42f6801ac7c3e5f2a2e2bc91f0410bba3c2c4df3d6498fecacabc9abeb6d9c8d",
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/tc163/blind-cases.json": "340ffe61d23c06d68b0a256b213bf344d95f65ed8db4f0be3fa395aca45aa3ed",
+    "agent-artifacts/project-completion/qa-full-tc163/blind-choice.json": "33db36fd59db6860391d3af39e733fa1d151d49bb32c2ea1cf66f3be5a8a8cc7",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+    "agent-artifacts/manifests/v2.3-wave4-candidate/source-topics/t-2-4.md": "fb0eeed83dab0151aa2d07072e1d9bd3e322fc3be744240fe14e3e83aec9ff27",
+    "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+    "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc"
+  },
+  "acceptedCaseIDs": [],
+  "remainingCaseIDs": [
+    "TC-163"
+  ],
+  "remainingIssueIDs": [
+    "TC163-WHEN-A"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 0
+  },
+  "gates": {
+    "blind": "B uniquely, exact learner-text parity. A delivers actual API at close Wednesday; B needs all Thursday and Friday. Data may be prepared ahead; specification is not the tested implementation. Reserve is available, date uncommitted.",
+    "blueprint": "PASS, C05 standalone Junior TC-163, intended boundary, exact tags, eligibility, facts and a feasible finish-start transfer. §2.4 explicitly gives testing API only after its availability as a hard predecessor.",
+    "score": "B 1 > C .55 > D .4 > A .3: C reaches Friday at project level but leaves a false team schedule; D supports early preparation only; A leaves all impossible dates in place.",
+    "WHEN": "B matches actual state. C would make sense for a distinct post-verification exposure with B done Wednesday. D is viable if review object changes to a specification delivered Monday with separate acceptance for the implementation; Tuesday and Wednesday remain available. A fails the same-object check.",
+    "loader": "Real strict TrainerBank.load with shipped topics.json loaded TC-163."
+  },
+  "issues": [
+    {
+      "id": "TC163-WHEN-A",
+      "severity": "major",
+      "finding": "A logs possible lateness of B in the schedule under discussion. Its WHEN instead assigns uncertainty solely to an optional additional step and gives no reason to flag B’s actual verification. That changes what the risk entry means, not just the conditions making it correct.",
+      "fix": "Give the real API to B by Monday close, reserve two full days Tuesday and Wednesday, and identify a plausible but unconfirmed outage on the validation path. Existing dates then remain feasible and the logged risk belongs to the same commitment."
+    }
+  ],
+  "editorial": "The displayed key insight is verbatim manifest shorthand with ↔ and dependency graph. A Russian sentence naming the artifact handover is clearer.",
+  "importEligible": false,
+  "readyToFreeze": false
+}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "scope": "Exact two-row blueprint projection only; aggregate coverage, full options, runtime import outside review.",
+  "candidatePath": "agent-artifacts/test-bank/reconstruction/junior-135-145-c05-r2/proposed-projection.json",
+  "candidateSHA256": "67aec7c1e6e795a9d814ab905ae3e7b530c7c7d82f7421bdf7bba3b724395df2",
+  "inputs": {
+    "agent-artifacts/manifests/v2.3-completion-04-candidate/production_manifest_masterplan_v2_3_completion_04_candidate.json": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-4-2.md": "2f4583ec74a19088bc42b80005df2ef4e4cfe2771dc5f779f0aea5945b2d746c",
+    "agent-artifacts/test-bank/unified-reconstruction-plan/unresolved-72-inventory.csv": "25a5b6c2a9843a2ad737739efe0ee35bf552ddc4cfc62dacefb80b74f704d213",
+    "InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "agent-artifacts/test-bank/reconstruction/junior-135-145-c05/proposed-projection.json": "00dd230820e7d0b0981ddf7c11279c68b34581e99fe29215e259cf2cfc9c3040",
+    "agent-artifacts/project-completion/qa-blueprint-junior135145/QA-verdict.json": "f584ee6a461f1fa73195b29022eb282c17be8c97fc12e0c696096491e05fb836"
+  },
+  "acceptedBlueprintIDs": [
+    "TC-135",
+    "TC-145"
+  ],
+  "remainingCaseIDs": [],
+  "remainingIssueIDs": [],
+  "closedIssueIDs": [
+    "JF-01",
+    "JF-02"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "changesFromR1": {
+    "TC-135": [
+      "secondaryPatterns",
+      "derivedRuntimeSecondaryThinking"
+    ],
+    "TC-145": [
+      "oneSentenceScenarioConcept",
+      "decisiveFactsConcept",
+      "oneSentenceDecisionBoundary",
+      "whyLevel"
+    ]
+  },
+  "gates": {
+    "TC-135": "JF-01 closed. Only secondary tags and their derived dimensions changed. Create closed record, then attach file with its ID, then open to client. Both necessary gates survive. This tests structural-dependency-reduction → organization with no credit for lead time or capacity.",
+    "TC-145": "JF-02 closed. Immediate start finishes at minute 5; safe handoff finishes at minute 9; both meet minute 10. Neither earns incremental SLA benefit. Only interruption before recording the ID allows a repeated external debit. Start the priority item at the first safe handoff. Manual status check is explicitly unavailable. The dispatch question fixes the executor and asks when to switch them. No alternate implementation authorized in the facts dominates respecting this handoff.",
+    "counterfactual": "If the original command has no external effect yet and is safely cancellable, or the external service deduplicates repeated commands, the deadline arithmetic stays fixed and immediate preemption under the already confirmed expedited class becomes safe. Timing alone cannot justify waiting under those conditions.",
+    "sourceAndLevel": "§4.2 covers explicit movement policies and service classes. Chapter supplies priority, case supplies local safe-handoff constraint. Junior reads two board edges or follows a short specified consequence. Learner need not design deduplication, undo a transaction or revise the architecture. A duplicate debit is established as added exposure; no universal rule about financial irreversibility is required.",
+    "duplication": "R1 historical analogue review remains applicable to TC-135. TC-145 still distinct from TC-063 admission to expedite, TC-222 work selection and TC-213 bounded release exposure. Newly relevant TC-102 isolates shadow-run payment effects through an adapter, TC-079/080 select synchronous or queued registry validation based on promise. Neither chooses when to preempt a confirmed priority item in active work.",
+    "mapping": "Current Swift mapping places structural-dependency-reduction in organization and risk-differentiation in risk. Standalone, junior, eligibility and domain unchanged. Coverage to be recomputed on integrated manifest."
+  },
+  "issues": [],
+  "importEligible": false,
+  "readyToFreeze": true
+}

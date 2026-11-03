@@ -1,0 +1,11 @@
+{
+  "QA-report.md": "0acdf32b135c5eaffbeb8eaf5e0af359ab7d10d893a0f0d35ebd44cf6ff9d665",
+  "input-hashes-independent.json": "736cadf5b28a2ec1c64223939a0ca74a2d36574307690690f900973002cecdc7",
+  "manifest-diff-evidence.json": "3f86e784d476e29fe2ed4c3e4189e476cc92ed3313ee19b3924656419ca22a9d",
+  "retrieval-independent.json": "06a9739ef00e08c1cff2189d5243d4feb00dcf3695e3b50ed574d5b18afec820",
+  "runtime-mapping-independent.json": "bcee01dcecc36eaea05e4f967f4b1980c68f0e04c27f90627bee4c42cc7208ae",
+  "tc183-duplication-evidence.md": "45bd1aeaa3795f28a4057e64a86bf221b22e538e6214e7bf4fc9f206b491a1bb",
+  "tc183-level-evidence.md": "af7f0a6b62b6647eccb0cce1b068d632e6ce3b50944f253c2c6902d02f4ba603",
+  "tc183-runtime-evidence.md": "a97cbbe4492a38868e2f4a5ec6e852c75571bc772546685a37d6d2b33b168986",
+  "tc183-verdict.json": "97d63914aade730fa8d70da25b7bd2ee8ff78bfeb53a14e0f2a091d6b7880c56"
+}

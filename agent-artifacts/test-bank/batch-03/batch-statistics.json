@@ -1,0 +1,35 @@
+{
+  "caseCount": 25,
+  "standalone": 16,
+  "linked": 9,
+  "families": 4,
+  "pairs": 3,
+  "triplets": 1,
+  "levels": {
+    "middle": 12,
+    "junior": 5,
+    "senior": 5,
+    "head": 3
+  },
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "bestSimpleSurfaceHeuristic": 9,
+  "bestSingleHeuristic": 9,
+  "combined100Best": 35,
+  "production75Best": 28,
+  "candidateSHA256": "df3943383897c243bb8a352e6cd829414711a17035d125d5795361fe928b5379",
+  "sourceGrounded": 25,
+  "uniqueStrongestSelfCheck": 25,
+  "manifestAligned": 25,
+  "crossBankClassifications": {
+    "ALLOWED REINFORCEMENT": 23,
+    "NO CLOSE ANALOG": 2
+  },
+  "internalDuplicates": 0,
+  "internalNearDuplicates": 0,
+  "unknownRuntimeCodes": 0
+}

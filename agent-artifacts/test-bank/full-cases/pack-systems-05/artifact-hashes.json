@@ -1,0 +1,12 @@
+{
+  "input-hashes.json": "bed64207492e3c572946147f1eb9c39a053ac644d472dedcbc53834d156b284e",
+  "approved-blueprints.json": "aceb074cd915151f0d914644995550ffd9eddfaaecf4bd1e99313c74835942e0",
+  "README.md": "45b0bd087fd40c4b3454775c02034e175e8962c54af4efa2b1e1ee050bd4e7a2",
+  "blind-cases.json": "7e2513fd32ebd646025c3fbc3180b8a224d5e26c57044f9dc00dcd9e39ea52b5",
+  "planned-analogs.json": "d9545a4d39dc6d883eaf89314af295101f11b78222a916f2d070c1490cac4720",
+  "cases.json": "349a2c73fabfdbdd111b248aeb9cc57d292c777d5b6e81d9d892bba7e905d37a",
+  "self-qa.json": "c3fec70b3ff6de73c27b2baf4d74fe1233e195b1a8e2f580c0fd9961583d36a2",
+  "runtime-validation.json": "08c2d82d9e0cbe3db703ca8e4b4321cd538d17556af0f3f9d82352678f8d6b7f",
+  "production-analogs.json": "c58929b4cd06ad8bdb16fb01174e8e4b2b43c6e222d1dda42f3311b78bf52d6e",
+  "validation-summary.json": "a0f26c540c613746ea73cb4c174df0f5a83ea00e6a2d8c69b5c5106a6ef2af92"
+}

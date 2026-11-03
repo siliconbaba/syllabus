@@ -1,0 +1,191 @@
+{
+  "candidateSHA256": "f17651344246570565ac47eae5a267296f0de7454a21087f5786324ceb66c486",
+  "hashChecks": {
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-3-7.txt": {
+      "expected": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0",
+      "actual": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/input-hashes.json": {
+      "expected": "9f153201e58f00e7ee091ab77a7308470dec13d437ee130206cf8b9c93a058ac",
+      "actual": "9f153201e58f00e7ee091ab77a7308470dec13d437ee130206cf8b9c93a058ac",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/families.json": {
+      "expected": "279b77de61d93b067b6b7a752e667b3580c0647ffbcadae7d8d705b931a5c69c",
+      "actual": "279b77de61d93b067b6b7a752e667b3580c0647ffbcadae7d8d705b931a5c69c",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-2-6.txt": {
+      "expected": "bf8090d91def4ebe4b6494ea9724fe29e296ee0d8c3e65ea6e1f2536eb8f3b42",
+      "actual": "bf8090d91def4ebe4b6494ea9724fe29e296ee0d8c3e65ea6e1f2536eb8f3b42",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/numeric-checks.json": {
+      "expected": "eabc3a3e7918e5d87fae217a2d80f38e4b4dbb6f78512e0a49ef2d72b17eb7d7",
+      "actual": "eabc3a3e7918e5d87fae217a2d80f38e4b4dbb6f78512e0a49ef2d72b17eb7d7",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/author.py": {
+      "expected": "867c84f893f8d32c8bf2c17c143ed27a723b32ccbebe4a26b2fdf519acac1a80",
+      "actual": "867c84f893f8d32c8bf2c17c143ed27a723b32ccbebe4a26b2fdf519acac1a80",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/mandatory-production-analogs.json": {
+      "expected": "9839c76d38a0a5293fdc3c6bf95380990eafdd511481fc5a786ab7f252a3d6d8",
+      "actual": "9839c76d38a0a5293fdc3c6bf95380990eafdd511481fc5a786ab7f252a3d6d8",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-10-4.txt": {
+      "expected": "bce771ddc6f30526d9134fa803a81cd631ebb25aa30808733ef0ddce1bf31109",
+      "actual": "bce771ddc6f30526d9134fa803a81cd631ebb25aa30808733ef0ddce1bf31109",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/approved-blueprints.json": {
+      "expected": "ec85443ad83540d70fa1e34e917873f58f0386fa1b4f12363c02f488e0604301",
+      "actual": "ec85443ad83540d70fa1e34e917873f58f0386fa1b4f12363c02f488e0604301",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/README.md": {
+      "expected": "a70fb1f6708465ac98f47dbbd68251b3097952fbe74517bb2290a7522fba09c4",
+      "actual": "a70fb1f6708465ac98f47dbbd68251b3097952fbe74517bb2290a7522fba09c4",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/mandatory-planned-analogs.json": {
+      "expected": "7eefa3c611382b2fd35e32c903b86bfdeb2acfd5b5a30c2af919a07238b96dee",
+      "actual": "7eefa3c611382b2fd35e32c903b86bfdeb2acfd5b5a30c2af919a07238b96dee",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/blind-cases.json": {
+      "expected": "a540ab41ce334e6ff44e174a319d1ed2c4c8ea7ea77771b1e359e14efb91d09a",
+      "actual": "a540ab41ce334e6ff44e174a319d1ed2c4c8ea7ea77771b1e359e14efb91d09a",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/cases.json": {
+      "expected": "6935ee8ee5ab51f78c87bc44b79d30e1edcc3924e35476980471339b7c8b2db1",
+      "actual": "6935ee8ee5ab51f78c87bc44b79d30e1edcc3924e35476980471339b7c8b2db1",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/validation.json": {
+      "expected": "77f93e608e8b208fdd59dca6b5f2b21a8539bab962bb8d5e92aa4fbe52f764be",
+      "actual": "77f93e608e8b208fdd59dca6b5f2b21a8539bab962bb8d5e92aa4fbe52f764be",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109/status.json": {
+      "expected": "efd6378948ca80c5f26d3b93be52e6db86630e5511366da4030de838afb01c64",
+      "actual": "efd6378948ca80c5f26d3b93be52e6db86630e5511366da4030de838afb01c64",
+      "pass": true
+    },
+    "agent-artifacts/manifests/v2.3-completion-02-candidate/production_manifest_masterplan_v2_3_completion_02_candidate.json": {
+      "expected": "2aad3f13350f675ccf2e7ec6753621f184128480598851b8711c1df400cbbb89",
+      "actual": "2aad3f13350f675ccf2e7ec6753621f184128480598851b8711c1df400cbbb89",
+      "pass": true
+    },
+    "agent-artifacts/project-completion/qa-manifest-completion02/QA-verdict.json": {
+      "expected": "62766701eb11835e075f875b06c543115137ecea97eb802eb5897d482926aa88",
+      "actual": "62766701eb11835e075f875b06c543115137ecea97eb802eb5897d482926aa88",
+      "pass": true
+    },
+    "InteractiveBook/WebContent/index.html": {
+      "expected": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+      "actual": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+      "pass": true
+    },
+    "InteractiveBook/TrainerContent/cases.json": {
+      "expected": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+      "actual": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+      "pass": true
+    },
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": {
+      "expected": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+      "actual": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+      "pass": true
+    },
+    "InteractiveBook/Trainer/TrainerScoringEngine.swift": {
+      "expected": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+      "actual": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109-r2/input-hashes.json": {
+      "expected": "29054b18c2bb520f540a0c8047b289aeebc8dd53a7c9e85d1306bc8574fbc907",
+      "actual": "29054b18c2bb520f540a0c8047b289aeebc8dd53a7c9e85d1306bc8574fbc907",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109-r2/diff.json": {
+      "expected": "badfaab23f2f26ea7598e8d7e877ae0bb7e1373d41becabdc2b7427b03b790de",
+      "actual": "badfaab23f2f26ea7598e8d7e877ae0bb7e1373d41becabdc2b7427b03b790de",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109-r2/README.md": {
+      "expected": "af0f2f774776f819a58eed0d6552e236e537a9a55ad8e9347be3766f2550d6ae",
+      "actual": "af0f2f774776f819a58eed0d6552e236e537a9a55ad8e9347be3766f2550d6ae",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109-r2/cases.json": {
+      "expected": "c708bd449c13d22dc59aa0904ac20d671c9f1dc0bf3d0e18540de2d143c1486b",
+      "actual": "c708bd449c13d22dc59aa0904ac20d671c9f1dc0bf3d0e18540de2d143c1486b",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109-r2/validation.json": {
+      "expected": "fee84cd576a399f779bd4bad69929f1b423921673b3957d61c0bf222458fad1f",
+      "actual": "fee84cd576a399f779bd4bad69929f1b423921673b3957d61c0bf222458fad1f",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109-r2/blind-log-cases.json": {
+      "expected": "aa0cc7b376b07b763d61c952ac56ada3c10d6defe9759b5b3b504adef3701efe",
+      "actual": "aa0cc7b376b07b763d61c952ac56ada3c10d6defe9759b5b3b504adef3701efe",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109-r2/proposed-blueprints.json": {
+      "expected": "ef25ed829d6f100c4d229209e1a89e1601983874ee2f7eda497e6bd19cf45735",
+      "actual": "ef25ed829d6f100c4d229209e1a89e1601983874ee2f7eda497e6bd19cf45735",
+      "pass": true
+    },
+    "agent-artifacts/test-bank/full-cases/pack-104-109-r2/proposed-families.json": {
+      "expected": "4c8237f157b17c0faba995d4e61a714e4027b6a91baecb1c145a662469b86599",
+      "actual": "4c8237f157b17c0faba995d4e61a714e4027b6a91baecb1c145a662469b86599",
+      "pass": true
+    }
+  },
+  "rawDiff": [
+    {
+      "path": "/cases/5/options/3/decisionQuality",
+      "before": 0.4,
+      "after": 0.25
+    },
+    {
+      "path": "/cases/5/options/3/explanation",
+      "before": "Часовой поток помещается в бюджет, но к недельному разбору подробности более ранних событий уже удалены. Низкая стоимость хранения достигается потерей нужного временного охвата.",
+      "after": "Часовой поток помещается в бюджет, но к недельному разбору остаётся около трёх событий только за последний час. Вариант с каждым сотым сохраняет пять примеров по всей неделе; короткая ретенция здесь теряет и больше примеров, и временной охват."
+    },
+    {
+      "path": "/cases/5/options/3/whyNotBest",
+      "before": "Разбор начинается после недели и требует её полного временного охвата. Счётчик не вернёт подробности удалённых событий.",
+      "after": "Для недельного расследования нужны подробности разных периодов. Последний час оставляет около трёх примеров, поэтому этот вариант слабее даже недостаточной выборки из пяти событий по всей неделе."
+    },
+    {
+      "path": "/cases/5/revision",
+      "before": 2,
+      "after": 3
+    }
+  ],
+  "exactAllowlistPASS": true,
+  "firstFiveObjectsUnchanged": true,
+  "blindAndProposedContractsIdentical": true,
+  "r3Hashes": {
+    "input-hashes.json": "20a08d453ac762bd7d6451d34d4dd988736d3056783d23ea15afa9d6d79285c9",
+    "README.md": "b43107694c489ed5e19380f31a996a33710c6a814257908439c2052620e2f015",
+    "cases.json": "f17651344246570565ac47eae5a267296f0de7454a21087f5786324ceb66c486",
+    "validation.json": "ed43ae607195239141a755605a67a33fe3423080de19451f5335f3e650722597",
+    "blind-log-cases.json": "aa0cc7b376b07b763d61c952ac56ada3c10d6defe9759b5b3b504adef3701efe",
+    "proposed-blueprints.json": "ef25ed829d6f100c4d229209e1a89e1601983874ee2f7eda497e6bd19cf45735",
+    "proposed-families.json": "4c8237f157b17c0faba995d4e61a714e4027b6a91baecb1c145a662469b86599"
+  },
+  "priorQAHashes": {
+    "QA-verdict.json": "68a0329f7e9abd6ca23561515489879a7aafd75f03de69f91df2851a1e89b92b",
+    "standards-audit.md": "2edb6ca335201c7c26b34403a38b0290c6e432750d84b03d9c626287854d2266",
+    "evidence.json": "52e9a06bd1ae763c784e4880151e6fea70582cae4083b9b753d39750ca7cbf18",
+    "blind-review.md": "de0fe526c7c2e5ad921449c0597ecf3cede56ce0ab706d7a16e495577e39e84e"
+  },
+  "actualSwiftValidationHashMatches": true
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "TC193-R1-01",
+    "severity": "Minor",
+    "field": "decisiveFactsConcept[0] vs oneSentenceDecisionBoundary",
+    "evidence": [
+      "заявка на доступ к внутреннему трекеру ещё не обработана",
+      "самостоятельно подать заявку на доступ"
+    ],
+    "finding": "Condition already establishes a pending request; strongest action asks to submit a request again, without reason for duplication. This is a local consistency defect, not a failure of the new diagnostic role.",
+    "minimalFix": "Use the existing request: check status/contact support/clarify or escalate it. Align decisiveFactsConcept[2] and boundary rather than changing absence-of-access facts.",
+    "retest": "Exact focused diff + source/action consistency; no need to reopen analogs if no other reasoning changes."
+  }
+]

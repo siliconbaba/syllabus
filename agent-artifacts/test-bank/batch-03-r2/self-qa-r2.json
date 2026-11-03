@@ -1,0 +1,50 @@
+{
+  "status": "NOT READY — MANIFEST BLOCKER TC-085",
+  "readyForFocusedQA": false,
+  "candidateSHA256": "900218858830b22b2558813b9a589966c9c069cb15f00360c171aaff45944b39",
+  "priorBlockerFixed": 1,
+  "priorBlockerTotal": 1,
+  "priorMajorsFixed": 11,
+  "priorMajorsTotal": 12,
+  "remainingMajors": 1,
+  "reclassified": 0,
+  "changedCases": 12,
+  "unchangedByteIdentical": 13,
+  "requiredFrozenCasesByteIdentical": 12,
+  "unexpectedChanges": 0,
+  "uniqueStrongest": {
+    "pass": 25,
+    "changed12": "author pairwise self-check",
+    "requested13": "13/13 including unchanged TC-085; duplication remains separate",
+    "frozen12": "independent baseline PASS carried forward, exact bytes preserved",
+    "limitation": "Masked-key author review is not independent blind QA."
+  },
+  "sourceGrounded": 25,
+  "manifestAligned": 25,
+  "manifestAlignmentScope": "Metadata and frozen intended boundaries retained; TC-085 boundary itself conflicts with uniqueness acceptance.",
+  "levelFocused": {
+    "TC-083": "PASS (author self-check)",
+    "TC-084": "PASS (author self-check)",
+    "TC-094": "PASS (author self-check)",
+    "TC-100": "PASS (author self-check)"
+  },
+  "familiesPass": 4,
+  "schema": "PASS",
+  "runtime": "PASS",
+  "crossBank": {
+    "ALLOWED REINFORCEMENT": 22,
+    "NEAR DUPLICATE": 1,
+    "NO CLOSE ANALOG": 2,
+    "DUPLICATE": 0
+  },
+  "internalDuplicates": 0,
+  "internalNearDuplicates": 0,
+  "surfaceLeakage": "PASS within specified 78 exploratory rules",
+  "bestSimpleHeuristic": 10,
+  "combined100Best": 33,
+  "unresolvedIds": [
+    "TC-085"
+  ],
+  "noImport": true,
+  "noCommitPush": true
+}

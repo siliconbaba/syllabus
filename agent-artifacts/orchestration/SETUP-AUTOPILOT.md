@@ -1,0 +1,13 @@
+# Setup autopilot
+
+Recommended: native local scheduling, one supervisor runner; independent worker contexts supplied by the runner. Bootstrap has no active schedule and content stays held. Do not enable all three prompt variants simultaneously. Standalone fresh runs are useful for QA isolation; if only a shared chat context is available, stop unsupported rather than pretend QA is independent.
+
+1. Open **Scheduled** in the desktop sidebar. Official docs identify this management surface; exact account-specific creation controls were not inspected. Create a schedule conversationally from the local project chat using SUPERVISOR-PROMPT.md and a 15-minute interval. Select the existing “Интерактивный учебник” local project, directory `/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2`, and local execution. Keep app/computer running. Review the saved prompt, local destination and next run in Scheduled. Work web/mobile scheduling cannot directly access this folder; use desktop local execution for this pipeline.
+2. Before enabling content, explicitly authorize continuation of the pending architecture scope. Save that authorization under orchestration; run `python3 supervisor.py enable --decision <authorization-file>`. This is outside bootstrap scope. Confirm all paths and current pins. A schedule may be prepared paused before authorization.
+3. Test one actual scheduled dispatch with a fresh worker context and review its result/claim behavior before relying on unattended runs. If the runner cannot create independent QA contexts, report unsupported capability. The bootstrap tests validate routing, not an end-to-end LLM run.
+
+The app's documented automation_update API can also create a local heartbeat attached to this chat. No hidden client API is needed. A same-chat heartbeat must dispatch QA into an independent context; it cannot self-review in this chat. The user has not asked this bootstrap to run redesign or install a live scheduler, so setup is left explicit.
+
+Fallback: automation/heartbeat.sh validates/routes only; launchd plist runs it every 900 seconds. No LLM execution. After separate user permission, copy plist to ~/Library/LaunchAgents and load with `launchctl bootstrap gui/$(id -u) <installed-plist-path>`. To remove: `launchctl bootout gui/$(id -u) <installed-plist-path>`. Do not install both schedulers accidentally. Prepared plist uses absolute paths and the discovered Python executable; regenerate if workspace moves.
+
+Sources: [Scheduled tasks](https://learn.chatgpt.com/docs/automations), [local/cloud environments](https://learn.chatgpt.com/docs/environments/modes). No UI clicking is part of the runtime.

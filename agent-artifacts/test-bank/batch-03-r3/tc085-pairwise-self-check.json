@@ -1,0 +1,60 @@
+{
+  "reviewMethod": "Read context/question/option.text only from tc085-key-masked-review.json, then test each competing plan. The same author knows the design, so this is not independent blind QA.",
+  "choice": "C",
+  "uniqueStrongest": "PASS",
+  "Middle": "PASS",
+  "reasoningRequired": "Identify consumed-state preparation as the repeat cost; combine upfront and recurring labor for six cycles, satisfy first-start and total capacity constraints, retain identical evidence and cross-system consistency.",
+  "whyNotJunior": "Neither an isolated coverage rule nor the fastest test run identifies the feasible plan; total horizon and preparation readiness must both be checked.",
+  "scope": "One product and one finite plan, no organizational platform redesign.",
+  "comparisons": [
+    {
+      "against": "A",
+      "decisiveFacts": "16h automation;4h preparation remains;0.5h execution; six cycles;16h prestart/30h total.",
+      "firstStartHours": 20,
+      "totalHours": 43,
+      "whyLoses": "Optimizes test execution but not consumed-state restoration; exceeds both constraints.",
+      "quality": 0.65
+    },
+    {
+      "against": "B",
+      "decisiveFacts": "No queue; same consumed data; sequential cycles;4h setup adds cost.",
+      "firstStartHours": 8,
+      "totalHours": 40,
+      "whyLoses": "Extra environment does not remove state reset work.",
+      "quality": 0.45
+    },
+    {
+      "against": "D",
+      "decisiveFacts": "Separate manual sets cost4h each; checks2h; six repeats;30h total.",
+      "firstStartHours": 4,
+      "totalHours": 36,
+      "whyLoses": "Avoids investment and is reliable, but recurring cost exceeds the finite capacity. Strong competing heuristic for fewer cycles.",
+      "quality": 0.82
+    }
+  ],
+  "C": {
+    "firstStartHours": 12.5,
+    "totalHours": 27,
+    "quality": 1,
+    "coverageReduced": false
+  },
+  "hiddenAssumptions": "None identified: all durations include agreed preparation/verification; source state must be restored each time; data schema stable; same evidence set.",
+  "whenWholeOptionReview": {
+    "A": {
+      "condition": "Если основной повторяющийся расход — выполнение проверок, ручная подготовка данных достаточно дешева, а автоматизация вместе со всеми прогонами укладывается в срок и ёмкость лучше других доступных вариантов.",
+      "verdict": "PASS"
+    },
+    "B": {
+      "condition": "Если ожидание занятой среды определяет срок, другая среда с теми же данными позволяет безопасно провести нужные прогоны и выигрыш оправдывает настройку и ручное восстановление.",
+      "verdict": "PASS"
+    },
+    "C": {
+      "condition": "Если данные расходуются повторными проверками, восстановление сохраняет нужные связи, а полная цена его внедрения и применения на выбранном горизонте ниже допустимых альтернатив.",
+      "verdict": "PASS"
+    },
+    "D": {
+      "condition": "Если прогонов мало либо данные быстро меняются, ручные независимые наборы дешевле надёжного сценария восстановления и помещаются в доступную ёмкость.",
+      "verdict": "PASS"
+    }
+  }
+}

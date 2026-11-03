@@ -1,0 +1,9 @@
+{
+  "agent-artifacts/manifests/v2.3-completion-02-candidate/production_manifest_masterplan_v2_3_completion_02_candidate.json": "2aad3f13350f675ccf2e7ec6753621f184128480598851b8711c1df400cbbb89",
+  "agent-artifacts/project-completion/qa-pack104-109-r3/QA-verdict.json": "70ec3f04082aff939bb83d302d0d4d58053031bb14ad5e3928556b3fddc1a244",
+  "agent-artifacts/test-bank/full-cases/pack-104-109-r3/proposed-blueprints.json": "ef25ed829d6f100c4d229209e1a89e1601983874ee2f7eda497e6bd19cf45735",
+  "agent-artifacts/test-bank/full-cases/pack-104-109-r3/proposed-families.json": "4c8237f157b17c0faba995d4e61a714e4027b6a91baecb1c145a662469b86599",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "freshAuthoritativeSwift": true,
+  "unknownDomain": 0,
+  "unknownPattern": 0,
+  "derivedMismatch": 0,
+  "normalizedWeights": {
+    "TC-214": {
+      "risk": 0.6666666666666666,
+      "prioritization": 0.3333333333333333
+    },
+    "TC-261": {
+      "uncertainty": 0.6666666666666666,
+      "evidence": 0.3333333333333333
+    }
+  },
+  "contextScoredEvidence": 0
+}

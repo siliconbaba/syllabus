@@ -1,0 +1,128 @@
+{
+  "changedCaseComparisons": [
+    {
+      "otherID": "TC-076",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "076 removes unprofitable optional protection using prevented loss;085 holds all checks constant and changes only the preparation work."
+    },
+    {
+      "otherID": "TC-077",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "077 trades cost against partial protection;085 loses no protection and addresses data state between runs."
+    },
+    {
+      "otherID": "TC-078",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "078 retains more costly protection for more prevented loss;085 compares equivalent evidence plans with different recurring preparation."
+    },
+    {
+      "otherID": "TC-079",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Разделяйте подтверждение получения и подтверждение результата: асинхронность допустима только при честном продуктовом обещании."
+    },
+    {
+      "otherID": "TC-080",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Разделяйте подтверждение получения и подтверждение результата: асинхронность допустима только при честном продуктовом обещании."
+    },
+    {
+      "otherID": "TC-081",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Сначала отделите наблюдаемый симптом от его причины; после подтверждения драйвера переходите к доступной интервенции и проверке эффекта."
+    },
+    {
+      "otherID": "TC-082",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Сначала отделите наблюдаемый симптом от его причины; после подтверждения драйвера переходите к доступной интервенции и проверке эффекта."
+    },
+    {
+      "otherID": "TC-083",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Отделите неизбежное прошлое от управляемого будущего, устраните пересекающиеся выгоды и проверьте, меняет ли неопределённость порядок альтернатив; ожидание полезно лишь когда приносит информацию."
+    },
+    {
+      "otherID": "TC-084",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Отделите неизбежное прошлое от управляемого будущего, устраните пересекающиеся выгоды и проверьте, меняет ли неопределённость порядок альтернатив; ожидание полезно лишь когда приносит информацию."
+    },
+    {
+      "otherID": "TC-086",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "086 allocates reviewer capacity to an accumulating queue;085 has no queue, data are consumed and require state restoration between repetitions."
+    },
+    {
+      "otherID": "TC-087",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Разделяйте условия ошибки и последующие решения человека; выбирайте для каждого свой формат ответственности, не подменяя исправление системы персональным обвинением."
+    },
+    {
+      "otherID": "TC-088",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Сравнивайте время локальной попытки с жизнью доступных альтернатив; готовую эскалацию запускают до ущерба, сохраняя прозрачность для партнёра."
+    },
+    {
+      "otherID": "TC-089",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Проверяйте источник и момент обнаружения проблем; безопасность сообщения должна сочетаться с владельцами исправлений и ясными стандартами."
+    },
+    {
+      "otherID": "TC-090",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Считайте вместе остановленные обязательства, переходные затраты и сохранение критичной capability; экономия без знания того, кто выполнит остаток, может быть фиктивной."
+    },
+    {
+      "otherID": "TC-091",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "091 exits permanent enabling work through cohort capability transfer;085 does not change team roles or train ownership cohorts."
+    },
+    {
+      "otherID": "TC-092",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Выбирайте метрику под характер пользовательского ущерба и сохраняйте значимый сегмент при сравнении распределений."
+    },
+    {
+      "otherID": "TC-093",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Сначала проверьте допустимость остаточного влияния по каждому обязательному ограничению, затем сравнивайте стоимость мер между допустимыми решениями."
+    },
+    {
+      "otherID": "TC-094",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Оценивайте эксперимент по заранее заданному совместному правилу пользы и ограничений; новый компромисс нельзя объявлять прежним успехом задним числом."
+    },
+    {
+      "otherID": "TC-095",
+      "classification": "ALLOWED REINFORCEMENT",
+      "reason": "095 manages external blocked obligations and future WIP return;085 all inputs are available and chooses data preparation implementation."
+    },
+    {
+      "otherID": "TC-096",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Сравнивайте последствия для всей системы и ищите ограниченный вклад, уменьшающий чужую нагрузку; закрепляйте границы, чтобы разовая помощь не стала постоянной зависимостью."
+    },
+    {
+      "otherID": "TC-097",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Оценивайте управленческую роль по воспроизводимой системе решений; после проверенной поддержки сопоставляйте scope с сильными сторонами и потребностью организации."
+    },
+    {
+      "otherID": "TC-098",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Разделяйте известные и неизвестные риски не только в названиях, но и в authority, основаниях расхода и скорости доступа к деньгам."
+    },
+    {
+      "otherID": "TC-099",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Связывайте целевой уровень с пользовательской ценностью, режимами отказа и полной ценой capability; более строгое число не устраняет причин ненадёжности."
+    },
+    {
+      "otherID": "TC-100",
+      "classification": "NO CLOSE ANALOG",
+      "reason": "Different actual choice: Отделяйте наблюдение от вызова: порог и окно должны выделять пользовательское ухудшение, при котором вмешательство оправдано."
+    }
+  ],
+  "count": 24,
+  "other276Pairs": "r2 independent/author evidence preserved by byte equality of all other24 cases",
+  "duplicates": 0,
+  "nearDuplicates": 0
+}

@@ -1,0 +1,1174 @@
+{
+  "status": "SELF-QA PASS — independent Batch 01 QA pending",
+  "readyClaimed": false,
+  "unresolvedCases": [],
+  "automated": {
+    "strictProductionLoader": "PASS",
+    "ids": "PASS",
+    "optionCountAndUniqueStrongest": "PASS",
+    "metadataAndEligibilityMatchManifest": "PASS",
+    "familyContextDiff": "PASS",
+    "positions": "PASS",
+    "lengthHeuristics": "PASS; screening only, not proof of absence of leakage",
+    "duplicateExplanations": "NONE",
+    "goldUnchanged": "PASS",
+    "manifestSourceRuntimeHashesUnchanged": "PASS"
+  },
+  "semanticReview": {
+    "method": "Author manually assessed each context and all alternatives; evidence captured in pairwise comparisons. Not blind independent review.",
+    "result": "PASS"
+  },
+  "cases": [
+    {
+      "id": "TC-026",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "C",
+      "pairwiseComparisons": [
+        {
+          "strongest": "C",
+          "alternative": "A",
+          "decisiveReason": "Ускорение добавит запас, но при сдвиге 1 день остаются 4 дня буфера: согласованный trigger не достигнут, расход 100 тысяч пока не нужен."
+        },
+        {
+          "strongest": "C",
+          "alternative": "B",
+          "decisiveReason": "Повторная проверка допустима, но данные уже подтверждены; ожидание ответа не является необходимой развилкой при запасе 4 дня."
+        },
+        {
+          "strongest": "C",
+          "alternative": "D",
+          "decisiveReason": "Внешняя дата пока обеспечена собственным резервом. Пересогласование объёма создаёт лишнюю цену для заказчика при отсутствии угрозы обязательству."
+        }
+      ],
+      "reasoningEvidence": "F-PM-T01: меняется только величина сдвига; стратегии, полномочия и предел ускорения одинаковы. После сдвига остаются 4 дня резерва, больше требуемых 3. Обычный контроль сохраняет обязательство без преждевременной платы за ускорение.",
+      "sourceTraceRow": "TC-026",
+      "linkedChecks": {
+        "singleMutationOnly": "PASS",
+        "familyConstantsPreserved": "PASS",
+        "sameStrategySpace": "PASS",
+        "strongestFlipsForIntendedReason": "PASS"
+      }
+    },
+    {
+      "id": "TC-027",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "A",
+      "pairwiseComparisons": [
+        {
+          "strongest": "A",
+          "alternative": "B",
+          "decisiveReason": "Сдвиг 4 дня уже подтверждён и пересёк trigger 3. Ещё одна сверка откладывает доступную меру, хотя неизвестности в факте задержки нет."
+        },
+        {
+          "strongest": "A",
+          "alternative": "C",
+          "decisiveReason": "Один оставшийся день не соответствует согласованному запасу на будущую неопределённость; обычный контроль не восстанавливает этот резерв."
+        },
+        {
+          "strongest": "A",
+          "alternative": "D",
+          "decisiveReason": "Пересогласование может защитить срок, но внутренняя мера уже возвращает требуемый резерв без изменения объёма. Сначала следует использовать её."
+        }
+      ],
+      "reasoningEvidence": "F-PM-T01: меняется только величина сдвига; стратегии, полномочия и предел ускорения одинаковы. Без меры остаётся 1 день резерва. Ускорение на 2 дня возвращает его к согласованным 3 и сохраняет дату за уже одобренную стоимость.",
+      "sourceTraceRow": "TC-027",
+      "linkedChecks": {
+        "singleMutationOnly": "PASS",
+        "familyConstantsPreserved": "PASS",
+        "sameStrategySpace": "PASS",
+        "strongestFlipsForIntendedReason": "PASS"
+      }
+    },
+    {
+      "id": "TC-028",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "D",
+      "pairwiseComparisons": [
+        {
+          "strongest": "D",
+          "alternative": "A",
+          "decisiveReason": "Мера полезна как часть предложений владельцу, но 8−2 превышает буфер 5: одна внутренняя мера оставляет опоздание 1 день и не оправдывает прежнюю дату."
+        },
+        {
+          "strongest": "D",
+          "alternative": "B",
+          "decisiveReason": "Прогноз уже подтверждён, а максимальная компенсация 7 дней меньше сдвига 8. Повторная сверка откладывает необходимое решение владельца."
+        },
+        {
+          "strongest": "D",
+          "alternative": "C",
+          "decisiveReason": "Без ускорения опоздание составит 3 дня; контроль фиксирует его, но не создаёт недостающую возможность восстановить обязательство."
+        }
+      ],
+      "reasoningEvidence": "F-PM-T01: меняется только величина сдвига; стратегии, полномочия и предел ускорения одинаковы. Даже после двух дней ускорения дата сдвигается на день. Нужно решение владельца по сроку или объёму, а не обещание восстановить недостижимую дату.",
+      "sourceTraceRow": "TC-028",
+      "linkedChecks": {
+        "singleMutationOnly": "PASS",
+        "familyConstantsPreserved": "PASS",
+        "sameStrategySpace": "PASS",
+        "strongestFlipsForIntendedReason": "PASS"
+      }
+    },
+    {
+      "id": "TC-029",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "B",
+      "pairwiseComparisons": [
+        {
+          "strongest": "B",
+          "alternative": "A",
+          "decisiveReason": "Фиксация всего объёма переносит неопределённую треть в платные изменения. Передавать риск разумно только там, где результат уже определён."
+        },
+        {
+          "strongest": "B",
+          "alternative": "C",
+          "decisiveReason": "Дополнительное исследование задержит готовые пакеты, хотя их границы уже устойчивы. Уточнение третьей части можно вести в гибком контракте."
+        },
+        {
+          "strongest": "B",
+          "alternative": "D",
+          "decisiveReason": "Управляемый T&M работоспособен и обеспечен владельцем бэклога, но оставляет заказчику риск перерасхода по уже определённым пакетам без ценового выигрыша."
+        }
+      ],
+      "reasoningEvidence": "F-BV-P01: единственная mutation — формализуемость scope после discovery; коммерческая формула и способность управлять подрядчиком одинаковы. Для двух третей объёма приёмка определена и премии нет: фиксированные этапы передают риск перерасхода поставщику. Гибкая треть сохраняет возможность менять приоритеты.",
+      "sourceTraceRow": "TC-029",
+      "linkedChecks": {
+        "singleMutationOnly": "PASS",
+        "familyConstantsPreserved": "PASS",
+        "sameStrategySpace": "PASS",
+        "strongestFlipsForIntendedReason": "PASS"
+      }
+    },
+    {
+      "id": "TC-030",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "D",
+      "pairwiseComparisons": [
+        {
+          "strongest": "D",
+          "alternative": "A",
+          "decisiveReason": "Фиксировать изменчивый результат означает платить и премию 30%, и за уточнения. Это не убирает риск объёма для заказчика."
+        },
+        {
+          "strongest": "D",
+          "alternative": "B",
+          "decisiveReason": "Разделение моделей было бы разумным при устойчивых пакетах, но сейчас их нет. Формальная нарезка этапов не создаёт стабильную приёмку."
+        },
+        {
+          "strongest": "D",
+          "alternative": "C",
+          "decisiveReason": "Месяц уточнений может дать знания, но текущая причина — продолжающееся изменение требований, а не недостаток времени discovery; старт уже нужен на следующей неделе."
+        }
+      ],
+      "reasoningEvidence": "F-BV-P01: единственная mutation — формализуемость scope после discovery; коммерческая формула и способность управлять подрядчиком одинаковы. Приёмку пока нельзя зафиксировать, зато есть владелец бэклога и регулярный контроль. T&M с cap позволяет менять требования без фиктивной фиксации объёма.",
+      "sourceTraceRow": "TC-030",
+      "linkedChecks": {
+        "singleMutationOnly": "PASS",
+        "familyConstantsPreserved": "PASS",
+        "sameStrategySpace": "PASS",
+        "strongestFlipsForIntendedReason": "PASS"
+      }
+    },
+    {
+      "id": "TC-031",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "A",
+      "pairwiseComparisons": [
+        {
+          "strongest": "A",
+          "alternative": "B",
+          "decisiveReason": "Дополнительная неделя может сузить оценку, но протокол уже завершён и критерий достигнут. Продление откладывает решение без предусмотренной причины."
+        },
+        {
+          "strongest": "A",
+          "alternative": "C",
+          "decisiveReason": "Отказ сохранил бы стабильность, но игнорирует достигнутый порог и согласованное продуктовое правило."
+        },
+        {
+          "strongest": "A",
+          "alternative": "D",
+          "decisiveReason": "Ограничение риска разумно при раскатке, однако оформлять её как отдельную недоказанную ставку не нужно: эксперимент уже дал требуемое основание."
+        }
+      ],
+      "reasoningEvidence": "F-PA-P01: меняется только достигнутый эффект относительно порога; p-value, дизайн и правила решения фиксированы. И выборка, и длительность завершены; 2,6% выше порога 2%, p=0,02 и guardrails соблюдены. Есть все заранее заданные основания зафиксировать успех.",
+      "sourceTraceRow": "TC-031",
+      "linkedChecks": {
+        "singleMutationOnly": "PASS",
+        "familyConstantsPreserved": "PASS",
+        "sameStrategySpace": "PASS",
+        "strongestFlipsForIntendedReason": "PASS"
+      }
+    },
+    {
+      "id": "TC-032",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "C",
+      "pairwiseComparisons": [
+        {
+          "strongest": "C",
+          "alternative": "A",
+          "decisiveReason": "p=0,02 не заменяет минимальный полезный эффект: 1,2% ниже 2%. Назвать тест успешным означало бы сменить критерий после чтения результата."
+        },
+        {
+          "strongest": "C",
+          "alternative": "B",
+          "decisiveReason": "Добавление недели в надежде пересечь порог меняет завершённый протокол. Новая проверка возможна отдельно, но текущий итог уже нужно зафиксировать."
+        },
+        {
+          "strongest": "C",
+          "alternative": "D",
+          "decisiveReason": "Небольшая ставка может быть экономически допустима, но в этом проекте она не согласована; правило после недостижения порога сохраняет прежний интерфейс."
+        }
+      ],
+      "reasoningEvidence": "F-PA-P01: меняется только достигнутый эффект относительно порога; p-value, дизайн и правила решения фиксированы. Прирост статистически различим, но не достигает заранее выбранных 2%. Корректный итог — критерий не выполнен, а не доказательство отсутствия любого эффекта.",
+      "sourceTraceRow": "TC-032",
+      "linkedChecks": {
+        "singleMutationOnly": "PASS",
+        "familyConstantsPreserved": "PASS",
+        "sameStrategySpace": "PASS",
+        "strongestFlipsForIntendedReason": "PASS"
+      }
+    },
+    {
+      "id": "TC-033",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "B",
+      "pairwiseComparisons": [
+        {
+          "strongest": "B",
+          "alternative": "A",
+          "decisiveReason": "Исследование валидно, но стоит дороже доступного обратимого пилота и не даёт более прямого наблюдения в тот же срок."
+        },
+        {
+          "strongest": "B",
+          "alternative": "C",
+          "decisiveReason": "Поэтапная оплата снижает риск полного запуска, но первый выбор можно проверить отдельным пилотом до одобрения всей инициативы."
+        },
+        {
+          "strongest": "B",
+          "alternative": "D",
+          "decisiveReason": "Ожидание сохраняет бюджет, но сроки появления статистики неизвестны, а собственная быстрая проверка уже доступна."
+        }
+      ],
+      "reasoningEvidence": "F-DM-P01: стоимость и обратимость пилота — единая утверждённая mutation; исследование и исходная неопределённость одинаковы. Пилот дешевле исследования, столь же быстр и даёт поведение без дорогих обязательств. Ошибка ограничена 30 тысячами, поэтому учиться действием разумно.",
+      "sourceTraceRow": "TC-033",
+      "linkedChecks": {
+        "singleMutationOnly": "PASS",
+        "familyConstantsPreserved": "PASS",
+        "sameStrategySpace": "PASS",
+        "strongestFlipsForIntendedReason": "PASS"
+      }
+    },
+    {
+      "id": "TC-034",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "A",
+      "pairwiseComparisons": [
+        {
+          "strongest": "A",
+          "alternative": "B",
+          "decisiveReason": "Прямое наблюдение полезно, но цена ошибки теперь включает контракт и публичное обязательство; расширение можно отменить, первый коммит — нет."
+        },
+        {
+          "strongest": "A",
+          "alternative": "C",
+          "decisiveReason": "Этапность ограничивает дальнейшие вложения, но не снимает невозвратность первого контракта. Дешёвое исследование доступно раньше этого шага."
+        },
+        {
+          "strongest": "A",
+          "alternative": "D",
+          "decisiveReason": "Отказ от поспешного обязательства разумен, но бессрочное ожидание внешних данных уступает доступному недельному исследованию."
+        }
+      ],
+      "reasoningEvidence": "F-DM-P01: стоимость и обратимость пилота — единая утверждённая mutation; исследование и исходная неопределённость одинаковы. За 80 тысяч и неделю можно снизить ключевую неопределённость до невозвратных 2 млн и семестрового обещания. Потеря недели не закрывает возможность запуска.",
+      "sourceTraceRow": "TC-034",
+      "linkedChecks": {
+        "singleMutationOnly": "PASS",
+        "familyConstantsPreserved": "PASS",
+        "sameStrategySpace": "PASS",
+        "strongestFlipsForIntendedReason": "PASS"
+      }
+    },
+    {
+      "id": "TC-035",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "D",
+      "pairwiseComparisons": [
+        {
+          "strongest": "D",
+          "alternative": "A",
+          "decisiveReason": "Ожидание убирает риск переделки, но съедает весь резерв, включая время запуска разрешённого обхода. Стабильные 70% можно выполнять сейчас."
+        },
+        {
+          "strongest": "D",
+          "alternative": "B",
+          "decisiveReason": "Адаптер снижает связность, но реализация спорных правил всё равно тратит ресурс на предположения; не задан момент перехода на ручной расчёт."
+        },
+        {
+          "strongest": "D",
+          "alternative": "C",
+          "decisiveReason": "Это сохраняет допустимый запуск, но заранее оплачивает операционный обход. Пока есть две недели для уточнения и три дня на fallback, его можно сделать условным."
+        }
+      ],
+      "reasoningEvidence": "D сохраняет стабильную работу и исполнимость fallback. A тратит резерв, B не ограничивает решение по неизвестному, C преждевременно выбирает обход.",
+      "sourceTraceRow": "TC-035",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-036",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "B",
+      "pairwiseComparisons": [
+        {
+          "strongest": "B",
+          "alternative": "A",
+          "decisiveReason": "Малая база даст более полные данные об обслуживании, но требует невозвратных вложений для проверки более узкого вопроса о заявках."
+        },
+        {
+          "strongest": "B",
+          "alternative": "C",
+          "decisiveReason": "Интервью помогут понять мотивы, но заявленный интерес не равен готовности оставить заявку по конкретной цене. Поведенческий тест уже доступен."
+        },
+        {
+          "strongest": "B",
+          "alternative": "D",
+          "decisiveReason": "Этапность ограничивает будущие траты, но первый контракт уже частично необратим; информацию за неделю можно получить до него."
+        }
+      ],
+      "reasoningEvidence": "B отвечает на выделенную гипотезу, A проверяет более дорогой следующий слой, C подменяет действие словами, D принимает обязательство раньше доступного evidence.",
+      "sourceTraceRow": "TC-036",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-037",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "C",
+      "pairwiseComparisons": [
+        {
+          "strongest": "C",
+          "alternative": "A",
+          "decisiveReason": "Малая доля ограничит ущерб, но возврат бинарника не проверен на новом состоянии данных. Canary не доказывает полноту recovery."
+        },
+        {
+          "strongest": "C",
+          "alternative": "B",
+          "decisiveReason": "Обратная миграция сама может затронуть новые данные. Её безопасность не установлена, а на целевую проверку есть время."
+        },
+        {
+          "strongest": "C",
+          "alternative": "D",
+          "decisiveReason": "Наблюдение полезно для стабильности новой версии, но не показывает, прочитает ли её данные старый бинарник. Эти проверки отвечают на разные вопросы."
+        }
+      ],
+      "reasoningEvidence": "C проверяет единственное недоказанное условие. A полагается на код, B предполагает безопасность обратной миграции, D наблюдает другую версию.",
+      "sourceTraceRow": "TC-037",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-038",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "A",
+      "pairwiseComparisons": [
+        {
+          "strongest": "A",
+          "alternative": "B",
+          "decisiveReason": "Координация полезна, но два клиента не контролируют дату согласования. Обещания не снимают внешнюю зависимость и риск жёсткого отключения."
+        },
+        {
+          "strongest": "A",
+          "alternative": "C",
+          "decisiveReason": "Совместимость защищена, но отсутствует управление завершением. Шесть недель допустимого содержания не равны бессрочной поддержке."
+        },
+        {
+          "strongest": "A",
+          "alternative": "D",
+          "decisiveReason": "Это делает всю необходимую функцию зависимой от внешних согласований, хотя сосуществование версий уже позволяет избежать ожидания."
+        }
+      ],
+      "reasoningEvidence": "A реализует backward-compatible migration; B предполагает управляемую дату, C забывает deprecation, D блокирует необходимую функцию.",
+      "sourceTraceRow": "TC-038",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-039",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "D",
+      "pairwiseComparisons": [
+        {
+          "strongest": "D",
+          "alternative": "A",
+          "decisiveReason": "Данные показывают структурные общие зависимости, а не отсутствие контроля церемоний. Ещё один слой может увеличить уже выросшую стоимость координации."
+        },
+        {
+          "strongest": "D",
+          "alternative": "B",
+          "decisiveReason": "Автономия убирает часть overhead, но общие платформенные узкие места остаются без механизма согласования. Независимы продукты, не все зависимости."
+        },
+        {
+          "strongest": "D",
+          "alternative": "C",
+          "decisiveReason": "Это полезное облегчение нагрузки, но не меняет узкие места платформенных решений. После двух кварталов уже есть карта для изменения модели."
+        }
+      ],
+      "reasoningEvidence": "D — Head-решение о границах и ролях; C только оптимизирует расходы текущей модели, A усиливает её, B удаляет нужную координацию.",
+      "sourceTraceRow": "TC-039",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-040",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "B",
+      "pairwiseComparisons": [
+        {
+          "strongest": "B",
+          "alternative": "A",
+          "decisiveReason": "Личные встречи снижают напряжение, но такой способ уже не переживает смену цикла. Причина повторения — неизменённые конфликтующие права и стимулы."
+        },
+        {
+          "strongest": "B",
+          "alternative": "C",
+          "decisiveReason": "Спонсор может развязать текущий конфликт, но станет постоянной очередью для одинаковых решений. Права и механизм на следующий квартал остаются прежними."
+        },
+        {
+          "strongest": "B",
+          "alternative": "D",
+          "decisiveReason": "Равные доли не отражают цену задержек или обязательные требования и не разрешают общие зависимости. Это распределение ресурса вместо модели решений."
+        }
+      ],
+      "reasoningEvidence": "B реализует утверждённый Head blueprint; A повторяет уже недостаточный механизм, C централизует каждый случай, D подменяет конфликт равными квотами.",
+      "sourceTraceRow": "TC-040",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-041",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "C",
+      "pairwiseComparisons": [
+        {
+          "strongest": "C",
+          "alternative": "A",
+          "decisiveReason": "Окно ускорит очередь, но сохранит вас её единственным обработчиком. Наблюдаемая причина — отозванная автономия, а не формат сбора вопросов."
+        },
+        {
+          "strongest": "C",
+          "alternative": "B",
+          "decisiveReason": "Знаний предмета достаточно; самостоятельность исчезла после отмен решений. Обучение без изменения ваших полномочий не устраняет этот механизм."
+        },
+        {
+          "strongest": "C",
+          "alternative": "D",
+          "decisiveReason": "Фильтр снизит число обращений, но добавит слой согласования при прежнем праве Head отменить любой выбор. Самостоятельность остальных не восстановится."
+        }
+      ],
+      "reasoningEvidence": "C меняет manager-of-managers system. D может быть уместен при ином span, но здесь добавляет слой; A и B не возвращают decision rights.",
+      "sourceTraceRow": "TC-041",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-042",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "D",
+      "pairwiseComparisons": [
+        {
+          "strongest": "D",
+          "alternative": "A",
+          "decisiveReason": "Payback полезен как фильтр, но не раскрывает неодинаковые потоки второго и третьего года и стоимость денег. Горизонты останутся несопоставимыми."
+        },
+        {
+          "strongest": "D",
+          "alternative": "B",
+          "decisiveReason": "Стратегическая связь важна, но не исправляет различие горизонтов. Годовой ROI нельзя прямо ранжировать против трёхлетнего показателя."
+        },
+        {
+          "strongest": "D",
+          "alternative": "C",
+          "decisiveReason": "Единый горизонт лучше одного года, но известные изменения поддержки и лицензии не позволяют просто тиражировать первый поток. Решение опиралось бы на скрытое допущение."
+        }
+      ],
+      "reasoningEvidence": "D устраняет несопоставимость. C улучшает горизонт, но предполагает постоянные потоки; A и B оставляют неполную основу выбора.",
+      "sourceTraceRow": "TC-042",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-043",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "A",
+      "pairwiseComparisons": [
+        {
+          "strongest": "A",
+          "alternative": "B",
+          "decisiveReason": "Техническая защита сильная, но решает риск отдельной функции, а не право на исключение из действующей policy. Коммерческий мотив явно не покрыт."
+        },
+        {
+          "strongest": "A",
+          "alternative": "C",
+          "decisiveReason": "Продуктовая поддержка не расширяет перечень исключений. Разовое отступление создаёт прецедент без совместного пересмотра правила."
+        },
+        {
+          "strongest": "A",
+          "alternative": "D",
+          "decisiveReason": "Policy можно пересматривать, но замена срочной стабилизации обсуждением правила ради одной кампании усиливает текущий риск исчерпания бюджета."
+        }
+      ],
+      "reasoningEvidence": "A сохраняет заданный governance. B технически силён, но не снимает policy constraint; C выходит за исключения, D подменяет стабилизацию пересмотром ради функции.",
+      "sourceTraceRow": "TC-043",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-044",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "C",
+      "pairwiseComparisons": [
+        {
+          "strongest": "C",
+          "alternative": "A",
+          "decisiveReason": "Связь с релизом ещё не локализована, а откат создаст подтверждённый часовой ущерб. Есть короткая диагностическая возможность без текущего массового сбоя."
+        },
+        {
+          "strongest": "C",
+          "alternative": "B",
+          "decisiveReason": "Суточное ожидание может сгладить шум, но доступная 15-минутная разбивка быстрее отличит изменение трафика от дефекта и не оставит риск без проверки."
+        },
+        {
+          "strongest": "C",
+          "alternative": "D",
+          "decisiveReason": "Ограничение расширения полезно, но дополнительный агрегат не разделит версии и трафик. Уже доступна более различающая проверка за меньшее время."
+        }
+      ],
+      "reasoningEvidence": "C выигрывает доступностью различающей диагностики в безопасное окно. A дорог до подтверждения, B медленен, D повторяет слабый сигнал.",
+      "sourceTraceRow": "TC-044",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-045",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "B",
+      "pairwiseComparisons": [
+        {
+          "strongest": "B",
+          "alternative": "A",
+          "decisiveReason": "Контроль полезен, но дата платформы не ускоряется. Детализация не использует подтверждённые три дня безопасно независимой работы."
+        },
+        {
+          "strongest": "B",
+          "alternative": "C",
+          "decisiveReason": "Тестовые данные подтверждены для трёх дней, не для остальных пяти. Такой план превращает безопасную параллельность в необоснованное предположение о готовности."
+        },
+        {
+          "strongest": "B",
+          "alternative": "D",
+          "decisiveReason": "Усиление иногда полезно, но его эффект здесь не подтверждён; уже известны три дня, которые можно убрать с цепочки без новых людей."
+        }
+      ],
+      "reasoningEvidence": "B реализует утверждённый contrast. A сохраняет лишнюю последовательность, C расширяет допустимость параллельности без evidence, D добавляет непроверенный ресурсный эффект.",
+      "sourceTraceRow": "TC-045",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-046",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "D",
+      "pairwiseComparisons": [
+        {
+          "strongest": "D",
+          "alternative": "A",
+          "decisiveReason": "Владельцы нужны, но единый режим теряет сегодняшнюю дешёвую проверку, решение о покупке информации и двухнедельный trigger для принципиально неизвестного."
+        },
+        {
+          "strongest": "D",
+          "alternative": "B",
+          "decisiveReason": "Исследование укладывается в срок и может окупиться, но нет причины месяц откладывать звонок и подготовку резервного переключения."
+        },
+        {
+          "strongest": "D",
+          "alternative": "C",
+          "decisiveReason": "Параллельность полезна, но предположение об окне легко заменить фактом сегодня, а для регулятора нужен заранее исполнимый trigger, не только реакция после публикации."
+        }
+      ],
+      "reasoningEvidence": "D использует разные инструменты. A только учитывает риски, B неоправданно делает проверки последовательными, C оставляет дешёвый факт предположением.",
+      "sourceTraceRow": "TC-046",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-047",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "A",
+      "pairwiseComparisons": [
+        {
+          "strongest": "A",
+          "alternative": "B",
+          "decisiveReason": "Исключения сохраняют безопасность, но 15 ложных блокировок из 18 превращают обычную поставку в обходы инструмента. Есть доступный режим без этого искажения."
+        },
+        {
+          "strongest": "A",
+          "alternative": "C",
+          "decisiveReason": "Это снимает ложные блокировки, но изолирует реальные новые сигналы от текущего выпуска. Code review не заявлен эквивалентной проверкой обязательного критерия."
+        },
+        {
+          "strongest": "A",
+          "alternative": "D",
+          "decisiveReason": "Повторяемость не доказана как признак истинности: нестабильный scanner может повторять ложный сигнал или потерять реальный. Часть обязательных проверок уходит после выпуска."
+        }
+      ],
+      "reasoningEvidence": "A сохраняет безопасность и устраняет ложные блокировки; B закрепляет дорогие обходы, C теряет сигнал, D вводит непроверенный критерий.",
+      "sourceTraceRow": "TC-047",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-048",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "C",
+      "pairwiseComparisons": [
+        {
+          "strongest": "C",
+          "alternative": "A",
+          "decisiveReason": "Общее окно уменьшает рассогласование в момент выпуска, но не обеспечивает требуемое четырёхнедельное сосуществование несовместимых читателей."
+        },
+        {
+          "strongest": "C",
+          "alternative": "B",
+          "decisiveReason": "Откладывание уменьшает число промежуточных состояний, но откладывает и независимую поставку, хотя совместимый этап проверен и нужен период сосуществования."
+        },
+        {
+          "strongest": "C",
+          "alternative": "D",
+          "decisiveReason": "Преобразователь может помочь, но его корректность здесь не проверена; проверенный промежуточный формат доступен до изменения. Проверять чтение после перехода поздно."
+        }
+      ],
+      "reasoningEvidence": "C реализует промежуточную совместимость. A не лечит формат, B сохраняет big-bang, D предполагает непроверенную альтернативу.",
+      "sourceTraceRow": "TC-048",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-049",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "D",
+      "pairwiseComparisons": [
+        {
+          "strongest": "D",
+          "alternative": "A",
+          "decisiveReason": "Появляется центр согласования, но он привязан к должности и доступности одного человека. Не разделены командование, техническая работа и коммуникации для устойчивой модели."
+        },
+        {
+          "strongest": "D",
+          "alternative": "B",
+          "decisiveReason": "Обучение полезно, но повторяющийся конфликт власти останется предметом переговоров во время сбоя. Полномочия нужны до него."
+        },
+        {
+          "strongest": "D",
+          "alternative": "C",
+          "decisiveReason": "Фильтр уменьшит отвлечения, но объединённый список всё ещё может содержать конфликтующие решения. У секретаря нет мандата выбрать техническое действие."
+        }
+      ],
+      "reasoningEvidence": "D — организационный design между инцидентами, в отличие от локального response gold. C решает канал без authority, A создаёт персональную зависимость, B оставляет переговоры на кризис.",
+      "sourceTraceRow": "TC-049",
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-050",
+      "checks": {
+        "sourceGrounded": "PASS",
+        "manifestAligned": "PASS",
+        "oneStrongest": "PASS",
+        "fourPlausibleOptions": "PASS",
+        "decisiveFactsSufficient": "PASS",
+        "noHiddenAssumption": "PASS",
+        "noCartoonDistractor": "PASS",
+        "noOptionLengthClue": "PASS",
+        "levelReasoningCorrect": "PASS",
+        "domainPatternAligned": "PASS",
+        "explanationDiscriminatesAlternatives": "PASS",
+        "whatToNoticeGrounded": "PASS",
+        "thinkingModelTransferable": "PASS",
+        "schemaValid": "PASS"
+      },
+      "reviewType": "author self-review, not independent QA",
+      "strongest": "B",
+      "pairwiseComparisons": [
+        {
+          "strongest": "B",
+          "alternative": "A",
+          "decisiveReason": "Малая доля ограничивает ущерб, но не делает затронутый запрос диагностируемым. Уже проваленная проверка может повториться, а исправление помещается до запуска."
+        },
+        {
+          "strongest": "B",
+          "alternative": "C",
+          "decisiveReason": "Больше локальных записей не восстанавливает идентичность запроса через очередь. Сопоставление по времени в асинхронном потоке остаётся неоднозначным."
+        },
+        {
+          "strongest": "B",
+          "alternative": "D",
+          "decisiveReason": "Комплексная программа может быть полезна, но текущий blocker конкретен и закрывается за день. Большая перестройка выходит за минимально достаточную readiness."
+        }
+      ],
+      "reasoningEvidence": "B — проверяемая release readiness по наблюдаемости. A уменьшает масштаб, но не устраняет разрыв; C добавляет несвязанные данные; D чрезмерно расширяет задачу.",
+      "sourceTraceRow": "TC-050",
+      "linkedChecks": null
+    }
+  ],
+  "families": [
+    {
+      "familyId": "F-PM-T01",
+      "memberIDs": [
+        "TC-026",
+        "TC-027",
+        "TC-028"
+      ],
+      "singleLogicalVariable": "Прогнозируемый сдвиг критического пути в днях",
+      "sameQuestion": true,
+      "sameOptionTextsAndOrder": true,
+      "contextEqualOutsideMutation": true,
+      "strongestPositions": [
+        "C",
+        "A",
+        "D"
+      ],
+      "constantsReview": "PASS — constants and permitted concrete assumptions held identical",
+      "blindIndependentReview": "not performed; required in independent Batch QA"
+    },
+    {
+      "familyId": "F-BV-P01",
+      "memberIDs": [
+        "TC-029",
+        "TC-030"
+      ],
+      "singleLogicalVariable": "Стабильность scope и приёмочных критериев после discovery",
+      "sameQuestion": true,
+      "sameOptionTextsAndOrder": true,
+      "contextEqualOutsideMutation": true,
+      "strongestPositions": [
+        "B",
+        "D"
+      ],
+      "constantsReview": "PASS — constants and permitted concrete assumptions held identical",
+      "blindIndependentReview": "not performed; required in independent Batch QA"
+    },
+    {
+      "familyId": "F-PA-P01",
+      "memberIDs": [
+        "TC-031",
+        "TC-032"
+      ],
+      "singleLogicalVariable": "Выполнение заранее утверждённого критерия успеха",
+      "sameQuestion": true,
+      "sameOptionTextsAndOrder": true,
+      "contextEqualOutsideMutation": true,
+      "strongestPositions": [
+        "A",
+        "C"
+      ],
+      "constantsReview": "PASS — constants and permitted concrete assumptions held identical",
+      "blindIndependentReview": "not performed; required in independent Batch QA"
+    },
+    {
+      "familyId": "F-DM-P01",
+      "memberIDs": [
+        "TC-033",
+        "TC-034"
+      ],
+      "singleLogicalVariable": "Стоимость и обратимость немедленного пилота",
+      "sameQuestion": true,
+      "sameOptionTextsAndOrder": true,
+      "contextEqualOutsideMutation": true,
+      "strongestPositions": [
+        "B",
+        "A"
+      ],
+      "constantsReview": "PASS — constants and permitted concrete assumptions held identical",
+      "blindIndependentReview": "not performed; required in independent Batch QA"
+    }
+  ],
+  "inputHashes": {
+    "agent-artifacts/manifests/v2.2/production_manifest_masterplan_v2_2.json": "f8824c2e98819a4f2a97e26f67a2d27291a8e10ddb1c37bee1d950ffda7d732b",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+    "InteractiveBook/TrainerContent/cases.json": "19954c13f6bb6e298631a5c873c1ed8dedee23aa349e2b3f9d50b10f70662fbb",
+    "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7"
+  },
+  "candidateSHA256": "6d93c23f91262d73a5cef5e39a9bb208f6893745875d5dd482b9eba0785d276d"
+}

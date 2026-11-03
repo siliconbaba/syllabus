@@ -1,0 +1,37 @@
+{
+  "status": "FIX REQUIRED",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pair-mobile-154-155/cases.json",
+  "candidateSHA256": "947c0a9aa50ccf7f00ee93a230300e6445488c2eb740b8d15469689568cab469",
+  "inputs": {
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+    "agent-artifacts/manifests/v2.3-candidate/source-topics/t-3-4.md": "bf046f697586d83a4946d5a7cabb683d8832e2ca3a82c4b21a6bbabe7de70118",
+    "agent-artifacts/project-completion/qa-mobile154/blind-choice.json": "4b95a790dcfad94e1f1a5d61ce155897a4515ddce8f8184eb987bdcce3d59374",
+    "agent-artifacts/test-bank/full-cases/pair-mobile-154-155/blind-cases.json": "0ba523b79fe519f9f04786cf301d79c0dd3b1355b5a950c008502d2a87c7667b",
+    "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+    "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc"
+  },
+  "acceptedCaseIDs": [],
+  "remainingCaseIDs": [
+    "TC-154",
+    "TC-155"
+  ],
+  "remainingIssueIDs": [
+    "MOB-D-WHEN"
+  ],
+  "gates": {
+    "blind": "C at 6 days, B at 3. Blind learner-facing options match full text. C earns 40−10=30, B earns 25−10=15, A earns 0. Only C loses guaranteed date in short window; D relies on nonexistent approval.",
+    "pairAndC05": "Single mutation from 6 to 3 days; all other visible facts, prompt and options identical. C05 F-TD-P02 membership, mutation, metadata, strongest boundaries and training-only eligibility verified.",
+    "source": "§3.4 describes store review as external release dependency, early submission and separate flag activation. Local time bounds, canceled approval, payoffs and constraints supplied by stem.",
+    "individualAndScores": "6-day C>B>A>D and 3-day B>A>C>D reflect hard delivery gate first, net return second. D is impossible in both. A WHEN no profitable feasible upgrade, B WHEN positive server return and infeasible resubmission, C WHEN all review states fit and superior net return.",
+    "loader": "PASS: compiled production TrainerBank.load, shipped topics.json; both IDs returned."
+  },
+  "issues": [
+    {
+      "id": "MOB-D-WHEN",
+      "severity": "major",
+      "finding": "Preserved previous approval only makes D feasible. In 6 days resubmit finishes by day 5, so reverting loses client improvement. In 3 days D still has to beat the guaranteed server gain of 15. Specify a late resubmit plus preserved fallback and the economic basis for preferring conditional submission."
+    }
+  ],
+  "readyToFreeze": false,
+  "importEligible": false
+}

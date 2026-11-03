@@ -1,0 +1,22 @@
+{
+  "authoritative-runtime-mapping.json": "bcee01dcecc36eaea05e4f967f4b1980c68f0e04c27f90627bee4c42cc7208ae",
+  "change-log-wave1-to-wave1-r2.csv": "adc4fd1c53bca1fbc1b380704f8d9ec09a444433da349ea16dbf587650a77115",
+  "comparison-evidence-r2.csv": "45c1404dab3520e7547ccae0fe392ca4d7458c91b32b784e569bb6f6b8c6321d",
+  "duplication-audit-r2.csv": "12deb24c5175b03f25a310b10ecc6ecfd721091b1aa6d5ef916e3b859c2e72d8",
+  "input-hashes.json": "72b0549d0a116ed4f8c0951a28a99f36380be8faba648384265a0aafa239792f",
+  "level-audit-r2.csv": "04cb1f5b6d038105b8c542f80e5c9bf4f6596fe0c85fdc66c17aee90a70e2715",
+  "linked_family_manifest_v2_3_wave1_r2_candidate.csv": "8431252b47eaef0f7a06417a4e0ac4901fef7ae8f7e7a93b0a45003faf59b972",
+  "method-adjustment-notes.md": "6f0b0a31fc25246cf01ebd07b6fb29ea00b805bd4d845a2fb0e2fd2dea95fde4",
+  "planned-retrieval.json": "7871d235d325a8c207efc8d1d892d30523161e1330e7980bf126c29cb7c85e8a",
+  "production-retrieval.json": "6cf14502fba415195ae974dfe4e51a2466a12740165977a3882aaf9137e2439a",
+  "production_manifest_TC026_TC300_v2_3_wave1_r2_candidate.csv": "80b902010139f69e6df46831d491ad0b5848394a493dee621d6c00b47ef77253",
+  "production_manifest_masterplan_v2_3_wave1_r2_candidate.json": "bb858ee97bda87d6716a4ad1fa19385bef24f2b96443873da4bb9ba0bffede01",
+  "runtime-semantic-audit-r2.csv": "356670f2387e8412b72b7443e84c381149df1e095b12399b6ac5a691496a4e99",
+  "runtime_coverage_v2_3_wave1_r2_candidate.json": "d4a9d91db0dd14759bc7b5965f18cfb3792a9124c33d1f2038f50371de7f329b",
+  "source-grounding-r2.json": "6a55fb9b1476816d9a18e7cd5b56e25debce552640e043fca63c1b82ba6d4665",
+  "source-topic-t-8-1.md": "a0c7b0c973f56e9832e09ba4d6e9eaec7bc0853c6850425d0af67e52ce6d953e",
+  "validation-result.json": "5ef255f1262d909e40ce1d5ab1c7492958960e3f31c538193e6e07e301876b3c",
+  "validation-summary.json": "95a6729345e27069b5d27449dd8a6efe7e9be28d4f140b80ab976859a7caabff",
+  "wave1-r2-change-report.md": "1f8d89c9e81ae4b4a32db5d330e61b2e4454d639f9e68bfe398f694893d472b6",
+  "whole-bank-screen-r2.csv": "243b95416ae24ba623df8f286284ef9e20d90f8960fd8429299966bd4397a757"
+}

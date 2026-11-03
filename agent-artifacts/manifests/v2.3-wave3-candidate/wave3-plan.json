@@ -1,0 +1,168 @@
+{
+  "seed": "v2.3-wave2-candidate",
+  "seedSHA256": "65192b19b13ba3965aa244ac114cd3638a353d8d22bc0ee2883e559c1e723d08",
+  "independentAcceptanceSHA256": "17b9b5f6c308200cb65efa1a619f340e209acaa96f2074873058547400c1517d",
+  "remainingGlobalBefore": 119,
+  "selectedUnresolvedIDs": [
+    "TC-154",
+    "TC-155",
+    "TC-166",
+    "TC-190",
+    "TC-191",
+    "TC-195",
+    "TC-209",
+    "TC-215",
+    "TC-225",
+    "TC-259",
+    "TC-260",
+    "TC-269",
+    "TC-293"
+  ],
+  "additionalFamilySiblings": [],
+  "selected": [
+    {
+      "id": "TC-154",
+      "problemType": "semantic + level",
+      "requiredLevel": "middle",
+      "topicId": "t-3-4",
+      "familyId": "F-TD-P02",
+      "blockingAnalogs": "TC-005",
+      "semanticIssue": "Ранний review и флаг перед фиксированной датой",
+      "levelIssue": "Middle: готовое правило/порог; нет выбора между двумя допустимыми operational планами"
+    },
+    {
+      "id": "TC-155",
+      "problemType": "semantic + level",
+      "requiredLevel": "middle",
+      "topicId": "t-3-4",
+      "familyId": "F-TD-P02",
+      "blockingAnalogs": "TC-005",
+      "semanticIssue": "Создать внешний буфер подачи сборки",
+      "levelIssue": "Middle: готовое правило/порог; нет выбора между двумя допустимыми operational планами"
+    },
+    {
+      "id": "TC-166",
+      "problemType": "semantic + level",
+      "requiredLevel": "middle",
+      "topicId": "t-10-1",
+      "familyId": null,
+      "blockingAnalogs": "TC-011",
+      "semanticIssue": "Сохранить совместимость для медленно обновляемых клиентов",
+      "levelIssue": "Middle: готовое правило/порог; нет выбора между двумя допустимыми operational планами"
+    },
+    {
+      "id": "TC-190",
+      "problemType": "semantic + level",
+      "requiredLevel": "senior",
+      "topicId": "t-10-1",
+      "familyId": null,
+      "blockingAnalogs": "TC-062",
+      "semanticIssue": "Backfill+синхронизация перед cutover",
+      "levelIssue": "Senior: все основания уже заданы; требуется обычное применение принципа, не системная причина/существенная неопределённость"
+    },
+    {
+      "id": "TC-191",
+      "problemType": "semantic + level",
+      "requiredLevel": "senior",
+      "topicId": "t-7-10",
+      "familyId": null,
+      "blockingAnalogs": "TC-223",
+      "semanticIssue": "Точечный safeguard вместо всеобщего review",
+      "levelIssue": "Senior: все основания уже заданы; требуется обычное применение принципа, не системная причина/существенная неопределённость"
+    },
+    {
+      "id": "TC-195",
+      "problemType": "level",
+      "requiredLevel": "middle",
+      "topicId": "t-13-3",
+      "familyId": null,
+      "blockingAnalogs": "",
+      "semanticIssue": null,
+      "levelIssue": "Middle: готовое правило/порог; нет выбора между двумя допустимыми operational планами"
+    },
+    {
+      "id": "TC-209",
+      "problemType": "semantic + level",
+      "requiredLevel": "senior",
+      "topicId": "t-9-3",
+      "familyId": null,
+      "blockingAnalogs": "TC-292",
+      "semanticIssue": "Стратегический label не заменяет связь с целями",
+      "levelIssue": "Senior: все основания уже заданы; требуется обычное применение принципа, не системная причина/существенная неопределённость"
+    },
+    {
+      "id": "TC-215",
+      "problemType": "semantic + level",
+      "requiredLevel": "senior",
+      "topicId": "t-4-5",
+      "familyId": null,
+      "blockingAnalogs": "TC-127/128",
+      "semanticIssue": "Разный тип demand требует разных процессов при общей видимости",
+      "levelIssue": "Senior: все основания уже заданы; требуется обычное применение принципа, не системная причина/существенная неопределённость"
+    },
+    {
+      "id": "TC-225",
+      "problemType": "semantic",
+      "requiredLevel": "head",
+      "topicId": "t-7-7",
+      "familyId": null,
+      "blockingAnalogs": "TC-041",
+      "semanticIssue": "Вернуть делегирование после захвата решений менеджером",
+      "levelIssue": null
+    },
+    {
+      "id": "TC-259",
+      "problemType": "level",
+      "requiredLevel": "head",
+      "topicId": "t-13-1",
+      "familyId": "F-PA-P04",
+      "blockingAnalogs": "",
+      "semanticIssue": null,
+      "levelIssue": "Head: разовое решение или готовый threshold; организационный design не требуется"
+    },
+    {
+      "id": "TC-260",
+      "problemType": "level",
+      "requiredLevel": "head",
+      "topicId": "t-13-1",
+      "familyId": "F-PA-P04",
+      "blockingAnalogs": "",
+      "semanticIssue": null,
+      "levelIssue": "Head: разовое решение или готовый threshold; организационный design не требуется"
+    },
+    {
+      "id": "TC-269",
+      "problemType": "level",
+      "requiredLevel": "middle",
+      "topicId": "t-8-2",
+      "familyId": null,
+      "blockingAnalogs": "",
+      "semanticIssue": null,
+      "levelIssue": "Middle: готовое правило/порог; нет выбора между двумя допустимыми operational планами"
+    },
+    {
+      "id": "TC-293",
+      "problemType": "level",
+      "requiredLevel": "middle",
+      "topicId": "t-10-7",
+      "familyId": null,
+      "blockingAnalogs": "",
+      "semanticIssue": null,
+      "levelIssue": "Middle: готовое правило/порог; нет выбора между двумя допустимыми operational планами"
+    }
+  ],
+  "familiesAllowedToChange": [
+    "F-TD-P02",
+    "F-PA-P04"
+  ],
+  "selectionRationale": "6 Middle / 4 Senior / 3 Head; semantic-only, level-only and combined; two atomic pairs including difficult Head evidence-governance family. No scope expansion after plan.",
+  "scopeFrozenBeforeRedesign": true,
+  "requiredLevelsFrozen": true,
+  "unprovenRedesignPolicy": "Keep original row/family unchanged and unresolved",
+  "inputHashes": {
+    "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "agent-artifacts/contracts/PIPELINE-CONTRACT.md": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+    "agent-artifacts/contracts/TEST-BANK-RUNBOOK.md": "2de41e61c536839ba028a21e91b1ae7dbfb0210dfa1f3ae0802f0516c9aaffa0"
+  }
+}

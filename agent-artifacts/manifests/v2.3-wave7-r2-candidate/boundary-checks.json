@@ -1,0 +1,19 @@
+{
+  "technicalFirst": 60,
+  "factReviewFirst": 40,
+  "parallel": 55,
+  "onePersonBothHours": 5,
+  "onePersonCapacity": 4,
+  "parallelWitnessHours": 3,
+  "parallelVerifierHours": 3,
+  "parallelElapsedHours": 4,
+  "best": "factReviewFirst",
+  "counterfactuals": {
+    "coverageCost30": "Technical-first becomes best:30<40<55",
+    "backupCost35": "Parallel becomes best:35<40<60",
+    "manualDayCost70": "Parallel becomes best:55<60<70"
+  },
+  "allThreeCompleteBothObligations": true,
+  "hearingOutcomeNotAssumed": true,
+  "shorteningEitherProcedure": "Not equivalent evidence; not a fourth admissible same-quality plan"
+}

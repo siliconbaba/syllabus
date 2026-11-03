@@ -1,0 +1,1810 @@
+{
+  "verdict": "READY FOR INDEPENDENT QA",
+  "readyForImport": false,
+  "unresolvedIDs": [],
+  "cases": [
+    {
+      "id": "TC-051",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Ожидание Н стоит 1 млн ₽ в неделю.",
+          "Перенос К стоит 6 млн ₽; прерывание Р с потерей окна и остальными последствиями — 18 млн ₽.",
+          "Н занимает две недели; внешняя мощность обойдётся в 26 млн ₽."
+        ],
+        "levelRealization": "Senior: требуется сравнить три режима вмешательства, учесть зависимость от интеграционного окна и вторичные потери К. Простое ранжирование по одной недельной CoD игнорирует нелинейную цену прерывания.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Н ждёт две недели: 2 млн ₽; перенос К стоит ещё 6. Итого 8 млн ₽. Есть допустимый план с полной потерей 4 млн ₽."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Внешняя мощность сохраняет обе внутренние работы, но стоит 26 млн ₽. Есть допустимый план с полной потерей 4 млн ₽."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Н не ждёт, но прерывание Р со всеми последствиями стоит 18 млн ₽. Есть допустимый план с полной потерей 4 млн ₽."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если недельная цена ожидания Н находится между 3 и 6 млн ₽ при тех же затратах остальных планов.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если полная доплата внешней команде ниже потерь каждого из трёх внутренних планов при той же гарантии результата.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если недельная цена ожидания Н меньше 3 млн ₽ при неизменных остальных затратах.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если недельная цена ожидания Н больше 6 млн ₽ при неизменных остальных затратах.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": {
+        "single mutation only": "PASS",
+        "family constants preserved": "PASS",
+        "same strategy space": "PASS",
+        "strongest flips for intended reason": "PASS"
+      }
+    },
+    {
+      "id": "TC-052",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Ожидание Н стоит 4 млн ₽ в неделю.",
+          "Перенос К стоит 6 млн ₽; прерывание Р с потерей окна и остальными последствиями — 18 млн ₽.",
+          "Н занимает две недели; внешняя мощность обойдётся в 26 млн ₽."
+        ],
+        "levelRealization": "Senior: требуется сравнить три режима вмешательства, учесть зависимость от интеграционного окна и вторичные потери К. Простое ранжирование по одной недельной CoD игнорирует нелинейную цену прерывания.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Внешняя мощность сохраняет обе внутренние работы, но стоит 26 млн ₽. Есть допустимый план с полной потерей 14 млн ₽."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Четыре недели ожидания Н стоят 16 млн ₽; потерь переключения и задержки Р/К нет. Есть допустимый план с полной потерей 14 млн ₽."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Н не ждёт, но прерывание Р со всеми последствиями стоит 18 млн ₽. Есть допустимый план с полной потерей 14 млн ₽."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если недельная цена ожидания Н находится между 3 и 6 млн ₽ при тех же затратах остальных планов.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если полная доплата внешней команде ниже потерь каждого из трёх внутренних планов при той же гарантии результата.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если недельная цена ожидания Н меньше 3 млн ₽ при неизменных остальных затратах.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если недельная цена ожидания Н больше 6 млн ₽ при неизменных остальных затратах.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": {
+        "single mutation only": "PASS",
+        "family constants preserved": "PASS",
+        "same strategy space": "PASS",
+        "strongest flips for intended reason": "PASS"
+      }
+    },
+    {
+      "id": "TC-053",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Ожидание Н стоит 10 млн ₽ в неделю.",
+          "Перенос К стоит 6 млн ₽; прерывание Р с потерей окна и остальными последствиями — 18 млн ₽.",
+          "Н занимает две недели; внешняя мощность обойдётся в 26 млн ₽."
+        ],
+        "levelRealization": "Senior: требуется сравнить три режима вмешательства, учесть зависимость от интеграционного окна и вторичные потери К. Простое ранжирование по одной недельной CoD игнорирует нелинейную цену прерывания.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Н ждёт две недели: 20 млн ₽; перенос К стоит ещё 6. Итого 26 млн ₽. Есть допустимый план с полной потерей 18 млн ₽."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Внешняя мощность сохраняет обе внутренние работы, но стоит 26 млн ₽. Есть допустимый план с полной потерей 18 млн ₽."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Четыре недели ожидания Н стоят 40 млн ₽; потерь переключения и задержки Р/К нет. Есть допустимый план с полной потерей 18 млн ₽."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если недельная цена ожидания Н находится между 3 и 6 млн ₽ при тех же затратах остальных планов.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если полная доплата внешней команде ниже потерь каждого из трёх внутренних планов при той же гарантии результата.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если недельная цена ожидания Н меньше 3 млн ₽ при неизменных остальных затратах.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если недельная цена ожидания Н больше 6 млн ₽ при неизменных остальных затратах.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": {
+        "single mutation only": "PASS",
+        "family constants preserved": "PASS",
+        "same strategy space": "PASS",
+        "strongest flips for intended reason": "PASS"
+      }
+    },
+    {
+      "id": "TC-054",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Возврат этой версии на данных после новых записей вчера отрепетирован: код и адреса восстановлены за семь минут.",
+          "Флаг останавливает новые записи, но не восстанавливает уже изменённые адреса.",
+          "Полчаса на безопасную проверку помещаются в текущее окно."
+        ],
+        "levelRealization": "Junior: выбрать непосредственный следующий шаг по явно указанному статусу проверки возврата; перепроектирование релизной системы не требуется.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Перенос и полный регресс не адресуют отдельно возврат данных; полчаса для адресной проверки есть в текущем окне."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Проверка исследует именно возврат после новых записей. Она повторяет вчерашнее испытание того же состояния и откладывает готовую малую волну."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Теневой прогон даёт дополнительную проверку нового пути, но его успех сам по себе не подтверждает возврат старой версии и данных."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если возникло изменение общего поведения, требующее полного регресса, и на него осталось время только в следующем окне.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если возврат текущего кода и данных доказан в допустимое время, а критерии малой волны готовы.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если возврат на текущем состоянии данных ещё не доказан, но безопасная проверка доступна до раскатки.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если возврат уже доказан, а незакрытый риск — поведение нового пути под нагрузкой, которое проверяет именно теневой прогон.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": {
+        "single mutation only": "PASS",
+        "family constants preserved": "PASS",
+        "same strategy space": "PASS",
+        "strongest flips for intended reason": "PASS"
+      }
+    },
+    {
+      "id": "TC-055",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Возврат описан в инструкции, но на данных после новых записей этой версии ещё ни разу не выполнялся.",
+          "Флаг останавливает новые записи, но не восстанавливает уже изменённые адреса.",
+          "Полчаса на безопасную проверку помещаются в текущее окно."
+        ],
+        "levelRealization": "Junior: выбрать непосредственный следующий шаг по явно указанному статусу проверки возврата; перепроектирование релизной системы не требуется.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Перенос и полный регресс не адресуют отдельно возврат данных; полчаса для адресной проверки есть в текущем окне."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Малая волна ограничивает ущерб. Но наблюдение не доказывает, что старые данные удастся восстановить за десять минут."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Теневой прогон даёт дополнительную проверку нового пути, но его успех сам по себе не подтверждает возврат старой версии и данных."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если возникло изменение общего поведения, требующее полного регресса, и на него осталось время только в следующем окне.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если возврат текущего кода и данных доказан в допустимое время, а критерии малой волны готовы.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если возврат на текущем состоянии данных ещё не доказан, но безопасная проверка доступна до раскатки.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если возврат уже доказан, а незакрытый риск — поведение нового пути под нагрузкой, которое проверяет именно теневой прогон.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": {
+        "single mutation only": "PASS",
+        "family constants preserved": "PASS",
+        "same strategy space": "PASS",
+        "strongest flips for intended reason": "PASS"
+      }
+    },
+    {
+      "id": "TC-056",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "После пересчёта возможный сдвиг — от нуля до трёх недель: ключевая оценка ещё не подтверждена и станет известна через три дня.",
+          "Спонсор может менять scope и приоритет внешней команды.",
+          "Обычный статус оставит один день для решения."
+        ],
+        "levelRealization": "Middle: совместить степень уверенности прогноза, оставшееся окно выбора и полномочия спонсора, не подменяя риск подтверждённым обещанием.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Запись полезна для фиксации, но спонсор не получает раннего запроса на решение и теряет почти всё окно выбора."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Предлагаются нужные рычаги, но диапазон от нуля до трёх недель нельзя представить как подтверждённый новый срок."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Прямое обсуждение ускорения полезно, но приоритет внешней команды меняет спонсор; скрывать до результата сам риск лишает его выбора."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если прогноз ещё не подтверждён, а новая ключевая оценка появится через три дня.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если спонсор согласовал трекер как канал уведомления и обычный статус оставляет достаточный срок для решения.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если новый прогноз подтверждён владельцами работ, а спонсор ещё может выбрать между объёмом и приоритетом.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если менеджер сам может согласовать ускорение до срока уведомления, а ожидание не сокращает окно решений спонсора.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": {
+        "single mutation only": "PASS",
+        "family constants preserved": "PASS",
+        "same strategy space": "PASS",
+        "strongest flips for intended reason": "PASS"
+      }
+    },
+    {
+      "id": "TC-057",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "После пересчёта критического пути сдвиг — от девяти до десяти дней: оценки и зависимости подтверждены владельцами, дополнительных данных для этого прогноза не ожидается.",
+          "Спонсор может менять scope и приоритет внешней команды.",
+          "Обычный статус оставит один день для решения."
+        ],
+        "levelRealization": "Middle: совместить степень уверенности прогноза, оставшееся окно выбора и полномочия спонсора, не подменяя риск подтверждённым обещанием.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Риск сообщается вовремя, но подтверждённый узкий сдвиг остаётся обозначенным лишь как риск; ещё три дня не принесут новых данных."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Запись полезна для фиксации, но спонсор не получает раннего запроса на решение и теряет почти всё окно выбора."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Прямое обсуждение ускорения полезно, но приоритет внешней команды меняет спонсор; скрывать до результата сам риск лишает его выбора."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если прогноз ещё не подтверждён, а новая ключевая оценка появится через три дня.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если спонсор согласовал трекер как канал уведомления и обычный статус оставляет достаточный срок для решения.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если новый прогноз подтверждён владельцами работ, а спонсор ещё может выбрать между объёмом и приоритетом.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если менеджер сам может согласовать ускорение до срока уведомления, а ожидание не сокращает окно решений спонсора.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": {
+        "single mutation only": "PASS",
+        "family constants preserved": "PASS",
+        "same strategy space": "PASS",
+        "strongest flips for intended reason": "PASS"
+      }
+    },
+    {
+      "id": "TC-058",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Месяц ожидания А стоит 1 млн ₽, Б — 3 млн ₽.",
+          "Размер, риск и стратегическое соответствие одинаковы.",
+          "Параллельное ведение задержит обе инициативы."
+        ],
+        "levelRealization": "Middle: распределить ограниченную мощность между двумя сопоставимыми работами с разной ценой ожидания.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Параллельность сохраняет символический равный старт, но обе инициативы теряют месяц; ни одна не даёт ранней ценности."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Уверенность оценок уже одинакова; дополнительного вопроса, который способна разрешить неделя ожидания, в ситуации нет."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "При первой А ожидание Б стоит 3 млн ₽. Это дороже 1 млн ₽ ожидания А."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если при равном размере цена месячной задержки А ниже цены задержки Б.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если каждая половина команды даёт полезный результат за месяц и не задерживает другую инициативу.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если неделя исследования может разрешить существенную неопределённость приоритета с ценой ошибки выше стоимости этой недели.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если при равном размере цена месячной задержки А выше цены задержки Б.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": {
+        "single mutation only": "PASS",
+        "family constants preserved": "PASS",
+        "same strategy space": "PASS",
+        "strongest flips for intended reason": "PASS"
+      }
+    },
+    {
+      "id": "TC-059",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Месяц ожидания А стоит 5 млн ₽, Б — 3 млн ₽.",
+          "Размер, риск и стратегическое соответствие одинаковы.",
+          "Параллельное ведение задержит обе инициативы."
+        ],
+        "levelRealization": "Middle: распределить ограниченную мощность между двумя сопоставимыми работами с разной ценой ожидания.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "При первой Б ожидание А стоит 5 млн ₽. Это больше 3 млн ₽ ожидания Б."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Параллельность сохраняет символический равный старт, но обе инициативы теряют месяц; ни одна не даёт ранней ценности."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Уверенность оценок уже одинакова; дополнительного вопроса, который способна разрешить неделя ожидания, в ситуации нет."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если при равном размере цена месячной задержки А ниже цены задержки Б.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если каждая половина команды даёт полезный результат за месяц и не задерживает другую инициативу.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если неделя исследования может разрешить существенную неопределённость приоритета с ценой ошибки выше стоимости этой недели.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если при равном размере цена месячной задержки А выше цены задержки Б.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": {
+        "single mutation only": "PASS",
+        "family constants preserved": "PASS",
+        "same strategy space": "PASS",
+        "strongest flips for intended reason": "PASS"
+      }
+    },
+    {
+      "id": "TC-060",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Недельный анонс проверяет интерес, но не возвращаемость.",
+          "Пороги и правило отказа можно согласовать до теста.",
+          "Ручная подборка позволяет проверить следующий риск без квартального коммита."
+        ],
+        "levelRealization": "Senior: спроектировать цепочку доказательств и инвестиций; различить proxy интереса и целевую возвращаемость, удерживая стоимость проверки и риск преждевременного коммита.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Целевая метрика верна, но вся дорогая разработка оплачивается до доступной проверки интереса."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Интерес проверяется дёшево и по правилу, но клик на анонс подменяет доказательство повторного использования."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Ответы помогут уточнить идею, но не заменят доступного поведенческого теста и критерия возвращаемости."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если спрос уже подтверждён, а проверить оставшуюся гипотезу без полной реализации нельзя.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если интерес и повторное использование ещё неизвестны, но их можно проверить последовательными малыми шагами.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если конверсия этого анонса уже валидирована как надёжный предиктор возвращаемости, а остальные риски разработки закрыты.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если решение касается понятности концепции, а потребность и повторное использование уже подтверждены отдельными данными.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-061",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Canary даёт достаточный сигнал за двадцать минут.",
+          "Сорок минут наблюдения не теряют бизнес-выгоду и укладываются в окно.",
+          "Флаг быстро возвращает рабочий путь."
+        ],
+        "levelRealization": "Middle: выбрать компромисс между скоростью, репрезентативностью сигнала и охватом риска при готовых средствах раскатки.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Возврат подготовлен, но до него дефект затронет весь поток. Две короткие волны помещаются в окно без отдельной потери выгоды."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Днём уже есть безопасная наблюдаемая первая волна; ночью нужные операции будут набираться дольше без указанной выгоды."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Сотрудники и отсутствие жалоб не заменяют репрезентативные операции и заданные метрики, которые доступны на canary."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если сегментация технически невозможна, полный запуск необходим в текущем окне и его риск явно принят.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если только ночью можно ограничить ущерб и при этом набрать достаточные данные за доступное окно.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если сотрудники покрывают весь профиль операций, а наблюдение включает достаточные метрики и разрешает полный переход.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если малая волна репрезентативна, возврат проверен и наблюдение укладывается в окно.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-062",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Однократный backfill устаревает из-за продолжающихся записей старого сервиса.",
+          "Подтверждён совместимый режим синхронизации и сверки.",
+          "Удалять старое можно после перехода всех писателей и читателей."
+        ],
+        "levelRealization": "Senior: удержать взаимодействие двух писателей и читателей, обнаружить устаревание backfill, спроектировать промежуточный механизм и проверяемый выход из него.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Схема сначала совместима, но старые записи после backfill меняются. Три недели не доказывают ни актуальность поля, ни завершение перехода."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Это избегает двойного режима лишь при атомарном переходе, которого нет; ожидание последнего клиента не создаёт такого механизма."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Совместимость сохраняется, но постоянное дублирование оставляет долг и обязанность сверки после исчезновения потребности в старом поле."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если версии переходят независимо, а совместимость и синхронизацию можно поддерживать до полного перехода.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если после backfill старое представление больше не изменяется, а к указанному сроку подтверждён переход всех потребителей.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если все клиенты могут атомарно переключиться в согласованное окно и простой допустим.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если старый контракт остаётся обязательным для поддерживаемых потребителей без планового срока отключения.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-063",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Редкие реальные инциденты смешаны с непроверенными ярлыками срочности.",
+          "Дополнительной команды нет.",
+          "Допуск и вытеснение обычной работы можно формализовать."
+        ],
+        "levelRealization": "Middle: согласовать исключения, ограниченную мощность и предсказуемость обычной работы без навязывания ритма непредсказуемому спросу.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Резерв полезен, но итерация не различает реальные инциденты и ярлыки заказчиков; пересборка останется постоянной."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Новый лимит разрешает больше незавершённой работы без дополнительной мощности и без фильтра срочности."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Лимит защищён, но реальная остановка клиентских операций должна получить отдельный путь; очередь не заменяет правило исключения."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если поток можно надёжно планировать на две недели, а критерий срочности уже работает.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если подтверждённая дополнительная мощность поддерживает шесть задач, а типы спроса уже различены.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если срочность редка, её можно проверить, а вытеснение обычной работы согласовано.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если все заявки допускают ожидание до освобождения текущей мощности и настоящих экстренных событий нет.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-064",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "BATNA даёт 12 млн ₽ после всех затрат и доступна в срок.",
+          "Текущая сделка даёт 15 млн ₽ до уступки.",
+          "Меньшую уступку можно обсуждать до завтра без потери альтернативы."
+        ],
+        "levelRealization": "Middle: сопоставить экономику сделки и исполнимой альтернативы, отделяя переговорный якорь от собственной границы согласия.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "После уступки остаётся 11 млн ₽ против 12 у исполнимой альтернативы; отношения не дают отдельной ценности сверх расчёта."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Чужая потеря полезна для предложения, но не задаёт вашу границу: уступка между 2 и 3 млн ₽ ещё выгоднее BATNA."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Альтернатива защищает минимум, но до завтра можно получить сделку выше 12 млн ₽ без потери доступности BATNA."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если дополнительные подтверждённые выгоды этой сделки после уступки делают её ценнее альтернативы.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если альтернативная площадка действительно даёт 12 млн ₽, а текущая сделка до уступки — 15 млн ₽ на том же горизонте.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если ваша собственная альтернатива даёт 13 млн ₽ при той же ценности сделки до уступки.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если предложение окончательное, улучшить его уже нельзя, а после уступки оно уступает доступной альтернативе.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-065",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Десять дней не было доступа к данным.",
+          "Критерии не согласованы, buddy редко доступен.",
+          "Можно обеспечить поддержку, сохранив самостоятельную задачу."
+        ],
+        "levelRealization": "Middle: восстановить условия адаптации и совместить поддержку с проверкой самостоятельности, не приписывая задержку среды сотруднику.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Так будет пример, но не самостоятельный результат; дефекты поддержки и критериев сохраняются."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Календарные три недели включают десять дней без данных; прежние условия не позволяли честно оценить performance."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Дополнительное время полезно, но не устраняет неясные критерии и недоступную обратную связь."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если задача учебная и целью этапа прямо является воспроизведение образца, а не самостоятельное выполнение.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если условия и критерии были обеспечены, подходящая поддержка завершена, а результата по-прежнему нет.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если результат заранее понятен, ресурсы доступны, а сотрудник уже способен работать без промежуточной поддержки.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если отсутствие результата пока смешано с неясными ожиданиями и недоступностью помощи.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-066",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Потолок 85 млн ₽ постоянный, а прочее и инфраструктура дают лишь 6 млн ₽ экономии.",
+          "20 млн ₽ относятся к необязательной дублирующей работе.",
+          "Head вправе менять портфель, роли и контракты."
+        ],
+        "levelRealization": "Head: решение изменяет портфель обязательств, распределение внутренних и внешних capability и устойчивую стоимость функции; это не оптимизация одной статьи.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Пропорциональность уменьшает инфраструктуру ниже подтверждённого минимума и не связывает сокращение с пересмотром необязательной работы."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Перенос запрещён и разовый резерв не уменьшает постоянную стоимость функции."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Прочее даёт максимум 5, инфраструктура — 1: всего 6 вместо требуемых 15 млн ₽. Оставшиеся постоянные обязательства не покрыты."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если все статьи имеют не менее 15% устойчивого резерва без нарушения обязательных уровней сервиса.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если ограничение временное, перенос согласован, а подтверждённый источник покрывает обязательства следующего периода.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если постоянные затраты на необязательные и дублирующие функции можно уменьшить без потери обязательного сервиса.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если весь требуемый постоянный объём экономии действительно помещается в этих статьях без ущерба обязательным сервисам.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-067",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Месяц маржи составляет примерно 0,83 млн ₽.",
+          "Штраф 2 млн ₽ возникает через месяц и может быть предотвращён.",
+          "Работы равного размера можно выполнить последовательно."
+        ],
+        "levelRealization": "Middle: сопоставить равномерный доход и дискретную потерю у срока при ограниченной мощности.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "B",
+            "whyStrongestWins": "10 млн ₽ — не потеря одного месяца: сравнение годового дохода с ближайшим штрафом завышает цену задержки первой работы."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Обе работы месячные; незавершённая вторая не предотвращает штраф, а первая не запускает маржу."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Уверенность одинакова, а неделя съедает срок месячной работы по предотвращению штрафа без названного пробела в данных."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если потеря месяца маржи меньше штрафа, которого можно избежать только текущим слотом.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если чистая потеря от месяца задержки сервиса превышает полный штраф за тот же выбор.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если половина каждой инициативы даёт самостоятельный результат и устраняет соответствующую потерю уже в первый месяц.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если данные о потерях существенно ненадёжны, уточнение меняет решение и не лишает возможности избежать штрафа.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-068",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Пользовательские SLI по сегментам нормальны, запас autoscaling проверен.",
+          "CPU семь раз будил без действия.",
+          "Есть отдельные алерты успешности, однажды поймавшие отказ при низком CPU."
+        ],
+        "levelRealization": "Senior: найти системную ошибку классификации сигналов и изменить механизм реакции, сохранив раннее обнаружение нехватки мощности и защиту от alert fatigue.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Действие не связано с наблюдаемым ущербом и дублирует работающий autoscaling; правило продолжит будить без необходимости."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Шума станет меньше, но ресурсный порог по-прежнему подменяет пользовательский симптом и не задаёт необходимого действия."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Текущий случай оценён верно и резерв не забыт, но повторяющееся пробуждение без действия останется."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если подтверждено близкое исчерпание мощности, автоматическое расширение не справляется и требуется немедленное ручное действие.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если порог 95% валидирован как надёжный сигнал неизбежного ущерба и каждому его срабатыванию соответствует срочное действие.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если это единичная аномалия датчика, а штатное правило обычно вызывает необходимое действие.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если ресурсный порог сам по себе не требует действия, а пользовательские и capacity-сигналы надёжно доступны.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-069",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "На критический путь добавляются десять дней при резерве четыре.",
+          "Запрос обязателен.",
+          "Спонсор готов пересматривать прежний scope."
+        ],
+        "levelRealization": "Junior: применить явное ограничение десять дней против четырёх и выбрать понятный следующий шаг согласования.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Резерв покрывает только четыре из десяти дней: известный остаток нельзя скрыть внутри прежнего обязательства."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Новой мощности или доказанного ускорения нет; сохранение обещания опирается на неподтверждённую производительность."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Это сохраняет дату, но запрос обязателен, а спонсор готов менять прежний объём; односторонний отказ закрывает допустимый компромисс."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если подтверждённое влияние полностью покрывается согласованным резервом и не требует изменения обязательств.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если обязательное изменение не помещается в резерв, а объём или дату можно пересогласовать.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если ускорение уже проверено, покрывает весь остаток и не ухудшает согласованное качество.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если запрос необязателен и его перенос согласован владельцем бизнес-обязательства.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-070",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Три общих обещания не сработали.",
+          "Причина известна и проверяется прогоном с пропуском поля.",
+          "Однодневную защиту можно сделать до релиза."
+        ],
+        "levelRealization": "Junior: оформить готовую системную меру как проверяемое действие; искать неизвестную причину или менять operating model не требуется.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Инструктаж повторяет уже неработавшее обещание внимания и оставляет сам пропуск технически возможным."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Временный контроль может помочь, но создаёт персональную зависимость вместо доступной однодневной защиты до релиза."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Системная мера названа, но без владельца и даты повторится неисполнение; проверку уже можно сделать до ближайшего релиза."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если причина воспроизводима и доступная автоматическая проверка предотвращает именно её.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если единственная причина — неизвестное правило, а соблюдение можно надёжно обеспечить обучением без дополнительного safeguard.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если автоматизация сейчас недоступна, а временная централизация — единственный надёжный способ защитить ближайший релиз.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если ближайший релиз не несёт этого риска, а выделить владельца до следующего планирования невозможно.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-071",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Директор может заблокировать ресурсы и теряет локальный KPI.",
+          "Общий эффект уже подтверждён.",
+          "Спонсор вправе менять оценку и правила, конфликт будет повторяться."
+        ],
+        "levelRealization": "Head: создать междиректорский governance и согласование incentives для серии изменений; решение определяет права на ресурсы и систему оценки, а не только канал сообщения.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Информирование полезно, но расходует время мало заинтересованного директора и оставляет реальный конфликт его KPI с общим результатом."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Первый запуск состоится, но incentive-конфликт сохраняется и превращает каждый следующий переход в борьбу за распоряжение."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Локальный компромисс защищает показатель директора, но отказывается от подтверждённого общего эффекта при доступном мандате на согласование правил."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если препятствие — нехватка информации у активно вовлечённого участника, а показатели и полномочия уже согласованы.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если это разовый конфликт без повторения и изменение общей системы оценки несоразмерно ситуации.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если общий эффект не подтверждён, а ограниченный пилот нужен до решения о междепартаментском масштабе.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если блокировка вызвана устойчивым конфликтом локальной оценки с общей целью, а спонсор вправе менять правила.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-072",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Ожидания и поддержка были предоставлены в течение полного периода.",
+          "Улучшения нет, новых препятствий не найдено.",
+          "PIP ещё не запускался; проверки контролирует сотрудник, общий срок зависит также от поставщиков."
+        ],
+        "levelRealization": "Middle: сопоставить завершённую поддержку с отсутствием улучшения и выбрать следующий режим работы с одним сотрудником; организационный redesign не требуется.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Поддержка уже выполнена без эффекта; ещё один тот же цикл без новой причины откладывает ясное решение и последствия."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Формальный этап выбран, но его итоговая метрика включает задержки поставщиков вне влияния сотрудника; она не изолирует выполнение обязательных проверок."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "HR привлечён и факты есть, но в данной ситуации ещё не использован доступный формальный этап с ясными последствиями и шансом исправления."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если выявлена новая устранимая причина и дополнительный цикл содержит поддержку, которой раньше не было.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если сроки всех поставок полностью находятся в контроле сотрудника и месячный период достаточен для честной оценки.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если адекватная поддержка не дала результата, ожидания подтверждены, а формальный этап ещё не проводился.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если предусмотренные применимой процедурой этапы исчерпаны и вместе с HR подтверждено основание для обсуждения расставания.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-073",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Код, CI и знания сосредоточены у одного поставщика.",
+          "Выход занимает год, немедленное прекращение невозможно.",
+          "Есть окно для передачи прав, внутренней capability и второго поставщика."
+        ],
+        "levelRealization": "Head: изменить sourcing-архитектуру трёх продуктов и внутреннюю capability, совместив непрерывность обслуживания с годовой стратегией выхода.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Штрафы защищают от части сбоев SLA, но не дают доступа к коду, знаний и возможности заменить поставщика."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Выбор новой компании не сокращает год передачи сам по себе; прекращение обслуживания до готовности создаёт разрыв и может лишь перенести lock-in."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Резерв помогает оплатить выход, но три года сохраняют причину годовой миграции и зависимость от двух инженеров."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если права и знания уже контролируются заказчиком, а основной незакрытый риск — исполнение измеримого SLA.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если зависимость связана с контролем активов и знаний, а переход можно провести при действующем обслуживании.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если передача уже завершена, новый поставщик способен обслуживать продукты без разрыва и контроль активов остаётся у заказчика.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если права и знания уже доступны, а единственное препятствие для выхода — недостаток финансирования при приемлемом длинном контракте.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-074",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "Общая мощность позволяет завершить только одну работу.",
+          "Частичные результаты не разблокируют программы.",
+          "Есть общий portfolio owner, доступный завтра."
+        ],
+        "levelRealization": "Middle: согласовать общую зависимость и уровень полномочий, сопоставив последствия для двух программ.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Годовая выгода и потеря месяца несопоставимы без пересчёта; кроме того, общий приоритет принадлежит portfolio owner."
+          },
+          {
+            "alternative": "B",
+            "whyStrongestWins": "Половины не разблокируют программы, поэтому равное деление задержит обе вместо осознанного выбора одной."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Обе стороны представят выгоды, но раздельные запросы не создают сопоставимого решения по одной общей мощности."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если суммы уже отражают последствия на одном горизонте, а менеджеру явно делегирован общий приоритет.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если половины работы дают самостоятельную ценность в текущем месяце и суммарный выигрыш выше последовательного исполнения.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если приоритеты независимы и каждое решение относится к отдельному ресурсу без общего ограничения.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если программы конкурируют за один ресурс, а полномочие общего приоритета находится у portfolio owner.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    },
+    {
+      "id": "TC-075",
+      "checks": {
+        "source grounded": "PASS",
+        "manifest aligned": "PASS",
+        "one strongest": "PASS",
+        "4 plausible options": "PASS",
+        "decisive facts sufficient": "PASS",
+        "no hidden assumption": "PASS",
+        "no cartoon distractor": "PASS",
+        "decisionQuality consistent": "PASS",
+        "no surface clue": "PASS",
+        "level realized": "PASS",
+        "explanations discriminate": "PASS",
+        "whenItWouldBeBest valid": "PASS",
+        "whatToNotice grounded": "PASS",
+        "thinkingModel transferable": "PASS",
+        "schema valid": "PASS"
+      },
+      "basis": {
+        "manifestMetadata": "exact JSON and CSV equality",
+        "sourceTrace": "source-trace.csv",
+        "decisiveEvidence": [
+          "До старта назначены 14 дней и размер выборки.",
+          "Идёт девятый день, раннего правила победы нет.",
+          "Guardrails и валидность теста не нарушены."
+        ],
+        "levelRealization": "Junior — по финальному v2.2: соблюсти явное ограничение протокола; p=0,03 на девятый день не даёт права закончить до четырнадцати без early-stop rule.",
+        "strongestVsAlternatives": [
+          {
+            "alternative": "A",
+            "whyStrongestWins": "Порог пересечён до заранее выбранного срока; остановка по текущему результату подменяет протокол подглядыванием."
+          },
+          {
+            "alternative": "C",
+            "whyStrongestWins": "Второй просмотр не превращает придуманное после старта правило в запланированный критерий; два недельных цикла ещё не завершены."
+          },
+          {
+            "alternative": "D",
+            "whyStrongestWins": "Размер выборки важен, но не заменяет отдельно запланированные два недельных цикла; условие значимости вновь выбирает момент остановки."
+          }
+        ],
+        "counterfactualChecks": [
+          {
+            "option": "A",
+            "condition": "Если заранее утверждённый последовательный метод допускает остановку и именно его граница успеха достигнута.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "B",
+            "condition": "Если условия валидности теста сохраняются, а протокол не разрешает досрочную победу.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "C",
+            "condition": "Если такое двухэтапное правило с нужной длительностью и поправками было корректно утверждено до начала теста.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          },
+          {
+            "option": "D",
+            "condition": "Если до старта утверждён только размер выборки, временные циклы несущественны и правило анализа допускает такой момент решения.",
+            "status": "PASS — author checked complete action including timeframe; counterfactual is not used as a fact of current context"
+          }
+        ],
+        "surfaceEvidence": "surface-leakage-analysis.json; no batch systematic clue found by declared rules"
+      },
+      "linkedChecks": null
+    }
+  ],
+  "uniqueStrongestSelfCheck": "25/25",
+  "pairwiseComparisons": 75,
+  "linkedFamilySelfCheck": "4/4",
+  "strictProductionLoader": "PASS",
+  "frozenMetadataDiffCount": 0,
+  "productionBankUnchanged": true,
+  "protectedInputHashes": {
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "InteractiveBook/TrainerContent/cases.json": "a16c00b2be4d2d841b401ce15a076320b6a7c33f91a0b7a077b7d80d86800dcc",
+    "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+    "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+    "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+    "InteractiveBook/Trainer/TrainerProfileView.swift": "41eb5ad9cc8e8a9e18df339f68767aaf5800e1ce8035d6e435dec541e99114c5",
+    "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "InteractiveBook/Trainer/TrainerStore.swift": "7461e3665fdcc0476a2c2cbd4e8ad0954dcdabe0abbdca236d76c66e20d4a03e",
+    "InteractiveBook/Trainer/TrainerView.swift": "5d7d9264e34766e7f07e142fb020958c15f63f342e48da0a34657a21e86b9b90",
+    "agent-artifacts/manifests/v2.2/artifact-hashes.json": "e4ffb8a82a11f218fe64fbcf80948f6647ae1652b6168466730e73d4c9efd65f",
+    "agent-artifacts/manifests/v2.2/change-log-v2_1-to-v2_2.csv": "6dd598899d07135f9c30fdca7cc31b4fc9fd7f77de90f66bc1baba623908f459",
+    "agent-artifacts/manifests/v2.2/head_audit_v2_2.csv": "ec6f11c609e1da0a26744c0ba92f26b305161a7128756e0568c0060d6ea3bea6",
+    "agent-artifacts/manifests/v2.2/linked_family_manifest_v2_2.csv": "8dd51be62c713d7acc733589fb39f91cb1833746c599ac43f2b329dde93c9baa",
+    "agent-artifacts/manifests/v2.2/production_manifest_TC026_TC300_v2_2.csv": "23af3e9c94831c24cdd068d7ddd78670a6db63d8c08a04a251814741aa6e6b8b",
+    "agent-artifacts/manifests/v2.2/production_manifest_masterplan_v2_2.json": "f8824c2e98819a4f2a97e26f67a2d27291a8e10ddb1c37bee1d950ffda7d732b",
+    "agent-artifacts/manifests/v2.2/production_manifest_review_v2_2.md": "1b2c1fc01d147cad35464707c39039c3825a59dfc34f9f2b13ee0e70fa1c7abc",
+    "agent-artifacts/manifests/v2.2/revise.py": "ef63fd094991cd541cef8310d99158cf4c295eef13c238e42ed148ddd1f8e50f",
+    "agent-artifacts/manifests/v2.2/runtime-output.json": "abe4bee0f51d588e8b419a3c974c1e2520bcc46b8bdfd680063fb516d512f64c",
+    "agent-artifacts/manifests/v2.2/runtime_coverage_v2_2.json": "8fa3e04805f98fd890ac27b6cc4578488800b93afea1fe34ef8111fb26d22a5f",
+    "agent-artifacts/manifests/v2.2/validation-result.json": "7e27f4600aa21e52e8b3a6279ef0acffca00081ef8b715daa0083b462c3870d7",
+    "agent-artifacts/manifests/v2.2/vocabulary-review-v2.2.md": "e3e5b98d83d28dec8d6d0143525434cd816ff63f14cff0b884f7c6cbc23dde77",
+    "agent-artifacts/test-bank/batch-01-r2/cases_TC026_TC050_r2.json": "61483afc2868ef762cc652ef845e7b4d78a9144d9ec6d9211a6801c59f657d2c"
+  },
+  "sourceTraceCount": 25,
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "composition": {
+    "standalone": 16,
+    "linked": 9,
+    "pairs": 3,
+    "triplets": 1,
+    "families": 4
+  },
+  "levels": {
+    "head": 3,
+    "junior": 5,
+    "middle": 11,
+    "senior": 6
+  },
+  "repetitionGate": "PASS with explicit frozen-blueprint learning-objective overlaps; no identical option sets outside linked families",
+  "independenceLimitation": "Same author read the context and final strategy texts without scoring fields. Prior drafting and keys were known; this is a key-hidden author self-check, not independent blind QA.",
+  "schemaFieldMapping": {
+    "whatToNotice": "decisiveFacts (1–3)",
+    "thinkingModel": "mentalModel"
+  },
+  "candidateSHA256": "24f161737357cd5e9b233f7015627b0040d856148c56e671a7c33018ead8881d"
+}

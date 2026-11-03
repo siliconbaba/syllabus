@@ -1,0 +1,34 @@
+{
+  "wrapperSourceContainedPath": {
+    "exit": 1,
+    "error": "Результат не должен быть symlink или находиться внутри .app.",
+    "noSourceFilesCreated": true
+  },
+  "openStepLocalizationPreserved": "PASS",
+  "sourceVendorSigningVerification": {
+    "exit": 1,
+    "output": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/build/sidestore-release/Build/Products/Release-iphoneos/InteractiveBook.app/Frameworks/onnxruntime.framework: code has no resources but signature indicates they must be present",
+    "note": "Presence of vendor signature does not imply validity; final IPA must be unsigned for SideStore."
+  },
+  "realUnsignedDeviceIPA": {
+    "status": "PASS",
+    "changedFiles": [
+      "Info.plist",
+      "Frameworks/onnxruntime.framework/onnxruntime"
+    ],
+    "removedSignatureFiles": [],
+    "added": [
+      "ru.lproj/InfoPlist.strings"
+    ],
+    "cases": 100,
+    "sha256": "cc87f55f75aff19c8c8886eb809626e97253e0df4db6115b41c3e220ac29efa0",
+    "sourceBankBytesPreserved": true,
+    "mainExecutableBytesPreserved": true
+  },
+  "sourceReadOnlyDuringReview": true,
+  "currentSourceHashes": {
+    "scripts/package_sidestore.py": "6728a25732ebcf2a630e7e6d7a32a0310ac2a10b7d04bc58a021556301ae902e",
+    "scripts/build-sidestore.sh": "3e779146cf1110a990babed7ca13e8bee5838c9ab63b80d9b3b0cfa4f0eeb2ae",
+    "Tests/test_sidestore_packaging.py": "8fc7a28542bc908cd94d42c449df8cbdc962fa75dbff63a8852168389c0c3e88"
+  }
+}

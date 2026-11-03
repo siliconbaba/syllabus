@@ -1,0 +1,60 @@
+[
+  {
+    "familyId": "F-BV-P02",
+    "members": [
+      "TC-083",
+      "TC-084"
+    ],
+    "allRawIdentical": true,
+    "questionAndOptionsIdenticalWithinFamily": true,
+    "keys": [
+      "B",
+      "D"
+    ],
+    "result": "PASS — inherited r2 content result; independently verified regression"
+  },
+  {
+    "familyId": "F-DR-T01",
+    "members": [
+      "TC-076",
+      "TC-077",
+      "TC-078"
+    ],
+    "allRawIdentical": true,
+    "questionAndOptionsIdenticalWithinFamily": true,
+    "keys": [
+      "C",
+      "A",
+      "D"
+    ],
+    "result": "PASS — inherited r2 content result; independently verified regression"
+  },
+  {
+    "familyId": "F-PE-P01",
+    "members": [
+      "TC-081",
+      "TC-082"
+    ],
+    "allRawIdentical": true,
+    "questionAndOptionsIdenticalWithinFamily": true,
+    "keys": [
+      "D",
+      "A"
+    ],
+    "result": "PASS — inherited r2 content result; independently verified regression"
+  },
+  {
+    "familyId": "F-TD-P01",
+    "members": [
+      "TC-079",
+      "TC-080"
+    ],
+    "allRawIdentical": true,
+    "questionAndOptionsIdenticalWithinFamily": true,
+    "keys": [
+      "B",
+      "C"
+    ],
+    "result": "PASS — inherited r2 content result; independently verified regression"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "agent-artifacts/test-bank/reconstruction/tc146-r1/proposed-manifest-row.json": "07dc33b70fcaa611cd2af15fd22d8b8c4c0131ce199ead89275a3f1778add806",
+  "agent-artifacts/manifests/v2.3-completion-01-candidate/production_manifest_masterplan_v2_3_completion_01_candidate.json": "24adbe7421c5df1d29c3ae0a6836d8a046bf81dd015854062efb1a5b49c4675c",
+  "agent-artifacts/test-bank/reconstruction/tc146-r1/source-t-6-3.txt": "d14090b5a30e60e073fdcd5e3cbabab53e186c18700ca2ed1fdb025cbc66ee7d",
+  "agent-artifacts/test-bank/reconstruction/tc146-r1/README.md": "418e360737c4868cbc2ffd4495304038d7023f95d0c078a0c6f703068c177b44",
+  "agent-artifacts/test-bank/reconstruction/tc272-r1/proposed-manifest-row.json": "697ce1d99358b8d50e9264c9a75e234e462fc3ae1f82335f470dda6bb0b92ef1",
+  "agent-artifacts/test-bank/full-cases/tc200-r2/cases.json": "e7a886403846d60d415710c94f0a4ea6a325414d6e1598cd472d698b313bc034",
+  "agent-artifacts/project-completion/qa-manifest-completion01/QA-verdict.json": "6f3d10b258851bf5f47fea4bda57e138c66cdf8ae9fe02f0a8b7686ce0020111",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677"
+}

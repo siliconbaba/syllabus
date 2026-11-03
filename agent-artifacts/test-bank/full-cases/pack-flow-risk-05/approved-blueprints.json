@@ -1,0 +1,202 @@
+[
+  {
+    "plannedId": "TC-116",
+    "batch": "Batch 04",
+    "block": "B10 — Product / Analytics / Technical Strategy",
+    "partId": "part-10",
+    "topicId": "t-10-4",
+    "oneSentenceScenarioConcept": "Senior TPM обнаруживает персональные данные в логах, которые помогают расследовать инциденты, но нарушают принцип минимизации; нужно решить, сохранять ли raw payload ради observability.",
+    "decisiveFactsConcept": [
+      "Логи полезны для диагностики",
+      "Содержат персональные данные",
+      "Trace ID позволяет коррелировать без raw payload"
+    ],
+    "oneSentenceDecisionBoundary": "Максимальная диагностическая детализация ↔ наблюдаемость с маскированием и минимизацией данных.",
+    "domain": "technical_delivery",
+    "requiredLevel": "middle",
+    "primaryPattern": "safeguards",
+    "secondaryPatterns": [
+      "quality-metrics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§10.4: диагностическая корреляция через trace ID сохраняется при минимизации и маскировании payload; safeguards относится к защите данных, не к распределению полномочий."
+  },
+  {
+    "plannedId": "TC-162",
+    "batch": "Batch 06",
+    "block": "B10 — Product / Analytics / Technical Strategy",
+    "partId": "part-10",
+    "topicId": "t-10-4",
+    "oneSentenceScenarioConcept": "Senior TPM определяет требования к наблюдаемости после того, как усиление телеметрии совпало с ухудшением задержки и потерей диагностических данных.",
+    "decisiveFactsConcept": [
+      "При замедлении операций библиотека включает подробную запись каждой попытки и повторов. Запись использует общий вычислительный лимит с обработкой запросов; по времени включение детализации предшествует второму росту задержки, но исходная причина первого замедления ещё неизвестна.",
+      "Метрики содержат отдельный ряд на ID запроса; при всплеске collector отбрасывает часть данных. Поднять общий лимит можно, но он расходуется и на операции, и на телеметрию. Отключение всей записи вернёт ресурс ценой слепого режима; одного сравнения средних до/после недостаточно, поскольку нагрузка различалась.",
+      "Доступно воспроизведение одной нагрузки с разной детализацией. Команда может отдельно ограничивать затраты на экспорт телеметрии, сохранять низкокардинальные счётчики всех бизнес-операций и корреляцию выборочных трасс; содержимое клиентских запросов для этого не нужно. TPM задаёт критерии пригодности наблюдаемости до расширения."
+    ],
+    "oneSentenceDecisionBoundary": "Разделить измерение здоровья и диагностическую детализацию: оставить полные агрегаты бизнес-операций, убрать ID из меток метрик и ограничить подробный экспорт с учётом пропущенных наблюдений; на одинаковой нагрузке проверить вклад самой телеметрии в задержку. Не объявлять дополнительную мощность лечением исходной причины и не усиливать запись автоматически до потери измеряемой функции.",
+    "domain": "technical_delivery",
+    "requiredLevel": "senior",
+    "primaryPattern": "root-cause",
+    "secondaryPatterns": [
+      "quality-metrics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Senior: распознать возможную обратную связь «замедление → детализация → конкуренция за ресурс → новое замедление» и перестроить механизм наблюдения так, чтобы отличить исходную деградацию от воздействия измерителя, сохранив пригодность evidence.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "systems",
+    "derivedRuntimeSecondaryThinking": [
+      "evidence"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-10-4: Высокая кардинальность. Senior: распознать возможную обратную связь «замедление → детализация → конкуренция за ресурс → новое замедление» и перестроить механизм наблюдения так, чтобы отличить исходную деградацию от воздействия измерителя, сохранив пригодность evidence. Конкретные условия, величины и доступные действия — авторские, не утверждения учебника."
+  },
+  {
+    "plannedId": "TC-174",
+    "batch": "Batch 06",
+    "block": "B05 — Processes",
+    "partId": "part-3",
+    "topicId": "t-3-7",
+    "oneSentenceScenarioConcept": "Middle delivery manager видит ступенчатую поставку при стабильном входе и выбирает частоту пакетного согласования: ежедневные сессии сокращают ожидание, но съедают время тех же специалистов и требуют платного покрытия.",
+    "decisiveFactsConcept": [
+      "Каждую неделю равномерно поступают10 сопоставимых готовых работ; активная работа и обязательное содержание проверки не меняются. Среднее ожидание при одном/двух/пяти равномерных окнах — 2,5/1,25/0,5 рабочего дня.",
+      "Подготовка каждого окна требует4 часа независимо от размера пакета, проверка каждой работы —0,2 часа. Доступно10 часов специалистов в неделю; ежедневный режим требует дополнительного покрытия за150. Два окна укладываются ровно в10 часов.",
+      "Цена подготовки одного окна10, цена ожидания одной работы10 за день; все затраты на одном недельном горизонте. Покрытие для пяти окон уже подтверждено; все три режима сохраняют качество, обязательства и throughput10."
+    ],
+    "oneSentenceDecisionBoundary": "Перейти на два окна в неделю: полная цена145 против260 у одного и250 у ежедневного режима. Убрать часть пакетного ожидания, сохранив доступную мощность; не считать максимальную частоту бесплатным улучшением.",
+    "domain": "delivery_quality",
+    "requiredLevel": "middle",
+    "primaryPattern": "lead-time",
+    "secondaryPatterns": [
+      "process-economics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Сопоставить стоимость ожидания с фиксированной подготовкой каждого пакета и пределом специалистов; выбрать частоту, а не просто указать место очереди.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Процессы",
+    "derivedRuntimePrimaryThinking": "prioritization",
+    "derivedRuntimeSecondaryThinking": [
+      "proportionality"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-3-7: Крупные ступеньки внизу. Сопоставить стоимость ожидания с фиксированной подготовкой каждого пакета и пределом специалистов; выбрать частоту, а не просто указать место очереди. Конкретные оценки, роли, условия процедуры и допустимые действия — авторские факты, не утверждения учебника."
+  },
+  {
+    "plannedId": "TC-211",
+    "batch": "Batch 08",
+    "block": "B01 — Project Management",
+    "partId": "part-2",
+    "topicId": "t-2-6",
+    "oneSentenceScenarioConcept": "Middle PM внешней интеграции выбирает, платить ли за резерв сразу или заранее купить возможность включить его по раннему сигналу: позднее подтверждение задержки достовернее, но свободной резервной мощности к нему уже не будет.",
+    "decisiveFactsConcept": [
+      "Без защиты задержка стоит 100 и возникает с вероятностью 0,4; резерв, заказанный целиком сейчас за 30, полностью устраняет её влияние. Остальные риски одинаковы, оба варианта разрешены спонсором.",
+      "За 5 сейчас можно удержать резерв до раннего сигнала; при сигнале доплата 20 включает его вовремя. Сигнал появляется в половине случаев; вероятность задержки при сигнале 0,7, без сигнала 0,1. Позднее подтверждение приходит после закрытия окна покупки, наблюдение само по себе бесплатно.",
+      "Резерв по опциону защищает только при включении по раннему сигналу; без сигнала менеджер вправе принять остаточный риск. Цель — минимизировать ожидаемые суммарные расходы, бюджет позволяет и 30 сразу, и 5+20; жёсткого требования нулевого риска нет."
+    ],
+    "oneSentenceDecisionBoundary": "Зарезервировать возможность за 5 и включать за 20 по раннему сигналу: ожидаемая цена 5 + 0,5×20 + 0,5×0,1×100 = 20 против 30 за немедленную защиту и 40 при ожидании. Записать владельца, окно и принятие остатка; не ждать достоверного позднего подтверждения и не покупать всю защиту заранее.",
+    "domain": "risk_management",
+    "requiredLevel": "middle",
+    "primaryPattern": "early-warning-response",
+    "secondaryPatterns": [
+      "process-economics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно связать достоверность сигнала, срок доступности реакции и стоимость необязательного включения; ранний сигнал полезен не сам по себе, а в двухступенчатом плане с остаточным риском.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Управление проектами",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "proportionality"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-2-6: Стратегия выбирается по соотношению стоимости реагирования и ожидаемых потерь. Нужно связать достоверность сигнала, срок доступности реакции и стоимость необязательного включения; ранний сигнал полезен не сам по себе, а в двухступенчатом плане с остаточным риском. Конкретные оценки, роли, условия процедуры и допустимые действия — авторские факты, не утверждения учебника."
+  },
+  {
+    "plannedId": "TC-237",
+    "batch": "Batch 09",
+    "block": "B10 — Product / Analytics / Technical Strategy",
+    "partId": "part-10",
+    "topicId": "t-10-4",
+    "oneSentenceScenarioConcept": "Middle TPM выбирает первую меру после релиза, улучшившего задержку большинства операций и замедлившего один бизнес-сценарий.",
+    "decisiveFactsConcept": [
+      "Срезы по версиям и типам операций подтвердили: новая версия ускорила обычные запросы, но пакетный отчёт крупных клиентов замедлился. Дело не в изменении состава трафика; откладывать решение ради ещё одной разбивки не требуется.",
+      "Полный откат занимает 15 минут и на сутки возвращает обычным операциям прежнюю задержку с оценённой потерей 80. Существующий переключатель позволяет за 30 минут вернуть старый отчёт только проблемной группе; ущерб дополнительного ожидания этой группы за разницу во времени — 20. Оба способа полностью устраняют ухудшение отчёта, прочие риски и затраты одинаковы.",
+      "Один дежурный выполнит только один из этих планов в ближайшие полчаса; исправление отчёта займёт день. Владелец продукта разрешил оба варианта по заданным оценкам, мониторинг хвоста отчёта и обычных операций готов; немедленная опасность для данных исключена."
+    ],
+    "oneSentenceDecisionBoundary": "Вернуть старый отчёт только проблемной группе и проверить её хвост задержки: принять дополнительные 15 минут ущерба ценой 20, сохранив улучшение остальных операций ценой 80. Не выбирать полный откат только потому, что он быстрее, и не считать улучшившееся среднее основанием оставить проблему.",
+    "domain": "technical_delivery",
+    "requiredLevel": "middle",
+    "primaryPattern": "impact-analysis",
+    "secondaryPatterns": [
+      "process-economics"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Middle: выбрать выполнимую адресную меру между скоростью восстановления сегмента и ценой потери улучшения для остальных при одном дежурном.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "evidence",
+    "derivedRuntimeSecondaryThinking": [
+      "proportionality"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-10-4: отключающий новую главную для сегмента. Middle: выбрать выполнимую адресную меру между скоростью восстановления сегмента и ценой потери улучшения для остальных при одном дежурном. Конкретные условия, величины и доступные действия — авторские, не утверждения учебника."
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "actualSwift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  },
+  "families": [
+    {
+      "ids": [
+        "TC-104",
+        "TC-105"
+      ],
+      "sameOptions": true,
+      "bestFlips": true,
+      "assessmentExcluded": true
+    },
+    {
+      "ids": [
+        "TC-106",
+        "TC-107"
+      ],
+      "sameOptions": true,
+      "bestFlips": true,
+      "assessmentExcluded": true
+    },
+    {
+      "ids": [
+        "TC-108",
+        "TC-109"
+      ],
+      "sameOptions": true,
+      "bestFlips": true,
+      "assessmentExcluded": true
+    }
+  ],
+  "candidateSHA256": "6935ee8ee5ab51f78c87bc44b79d30e1edcc3924e35476980471339b7c8b2db1",
+  "independentQA": "PENDING"
+}

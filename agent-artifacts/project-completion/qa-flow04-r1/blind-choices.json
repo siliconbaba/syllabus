@@ -1,0 +1,30 @@
+{
+  "phase": "blind before keys/blueprints",
+  "blind_sha256": "01b0ab966724385754c7af4bea98f7d61c1c34d67c9a4f547a9ee4acef4e388f",
+  "choices": [
+    {
+      "id": "TC-222",
+      "choice": "B",
+      "runner_up": "A",
+      "reason": "Short work yields50 with both accepted commitments on time. Idle/partial-long zero current value; complete long90 minus100 delays."
+    },
+    {
+      "id": "TC-287",
+      "choice": "B",
+      "runner_up": "D",
+      "reason": "A protects100; residual day adds10; B external wait cannot be helped."
+    },
+    {
+      "id": "TC-253",
+      "choice": "A",
+      "runner_up": "C",
+      "reason": "External120 vs no enhancement160. Internal diverts shared downstream capacity; combined adds redundant cost and downstream harm."
+    },
+    {
+      "id": "TC-254",
+      "choice": "B",
+      "runner_up": "A",
+      "reason": "Independent internal40 plus first-week deferral40 =80; external120; no enhancement160; combined160."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-incidents-03/cases.json",
+  "candidateSHA256": "c06de5e0b99be92c8156a349bd9a01e11893b9b48f925b253bb446bc2b704da0",
+  "verdict": "FIX REQUIRED",
+  "acceptedCaseIDs": [
+    "TC-115",
+    "TC-124"
+  ],
+  "remainingCaseIDs": [
+    "TC-185"
+  ],
+  "importEligible": false,
+  "issues": [
+    {
+      "id": "INC03-185-01",
+      "caseID": "TC-185",
+      "severity": "major",
+      "field": "context",
+      "evidence": "Обе незавершённые меры вытеснили продуктовые задачи. Обычный порядок слов приписывает вытеснение мерам. Именительный и винительный падежи множественного числа здесь совпадают, поэтому допускается и обратное прочтение. Ключ и разбор требуют однозначно обратной причинности.",
+      "scope": "Уточнить только субъект и объект в этом предложении.",
+      "retest": "Новый хеш, слепая проверка изменённого контекста, сверка объяснений и неизменности других объектов."
+    }
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 1,
+    "minor": 0
+  },
+  "caseResults": {
+    "TC-115": "PASS",
+    "TC-124": "PASS",
+    "TC-185": "FIX REQUIRED"
+  },
+  "gates": {
+    "blind": "PASS: C/A/B",
+    "identities": "PASS",
+    "source": "PASS",
+    "levels": "PASS",
+    "family": "N/A: 3 standalone",
+    "uniqueness": "TC-185 requires clarification of decisive fact",
+    "wholeOptionWHEN": "PASS",
+    "DQ": "PASS as partial-credit judgments",
+    "duplication": "PASS",
+    "surface": "PASS except substantive context issue INC03-185-01",
+    "swift": "INHERITED PASS from validation-summary.json on exact candidate"
+  },
+  "inputSHA256": {
+    "agent-artifacts/context-packs/batch-04/source-topics/t-10-6.md": "0d38cd1469d215f4f55ae6a322dc3cffeb90c28988ff86ea8c06090f2a4fdae9",
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f"
+  },
+  "evidenceHashes": {
+    "approved-blueprints.json": "5e784a76b66c7b1d3d7595e2c099167225f1e0517769e6b027d60d0831b4ca9e",
+    "README.md": "da4c12f2f9b52791885aa513c5999465c953b1f67535179a955da43c35c3ac24",
+    "blind-cases.json": "59b8088306f001a94d5f4d7df819497c0403c1d183609568ffc2a2830555b5b8",
+    "planned-analogs.json": "4eb2c64d1c0d296018ba70f1cbdae379e56ba9bfa6b2b4a62a65565500a98edd",
+    "cases.json": "c06de5e0b99be92c8156a349bd9a01e11893b9b48f925b253bb446bc2b704da0",
+    "production-analogs.json": "332df0b404ed9451d79934b4a6b0a77ade799ca5312d3546696a38866ea3f155",
+    "validation-summary.json": "3e5451af215907c7edbedccc11576e01b9922e94fe05f77e1ab563bc74b17ab4"
+  }
+}

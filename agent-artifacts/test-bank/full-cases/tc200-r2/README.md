@@ -1,0 +1,1 @@
+TC200 R2: scoped repair TC200-FULL-R1-01. Only case revision1→2, A decisionQuality .55→.70 and B .70→.55 changed. C>A>B>D reflects timely shared action versus a missed explicit deadline. Key, wording, explanations, metadata and blind payload unchanged. No scoring engine changes. R1 evidence remains historical; independent focused retest required before acceptance/import.

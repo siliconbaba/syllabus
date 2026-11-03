@@ -1,0 +1,990 @@
+{
+  "caseCount": 25,
+  "composition": {
+    "standalone": 16,
+    "linked": 9,
+    "pairs": 3,
+    "triplets": 1
+  },
+  "levels": {
+    "middle": 9,
+    "junior": 4,
+    "senior": 8,
+    "head": 4
+  },
+  "correctPositionDistribution": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "correctPositionSequence": [
+    "C",
+    "A",
+    "D",
+    "B",
+    "D",
+    "A",
+    "C",
+    "B",
+    "A",
+    "D",
+    "B",
+    "C",
+    "A",
+    "D",
+    "B",
+    "C",
+    "D",
+    "A",
+    "C",
+    "B",
+    "D",
+    "A",
+    "C",
+    "D",
+    "B"
+  ],
+  "optionLengths": {
+    "unit": "Unicode code points including spaces",
+    "strongestMean": 131.48,
+    "distractorMean": 130.24,
+    "strongestMedian": 130,
+    "distractorMedian": 130,
+    "meanRatio": 1.0095208845208843,
+    "strongestUniqueLongestCount": 7,
+    "strongestLongestIncludingTiesCount": 10,
+    "perCase": [
+      {
+        "id": "TC-026",
+        "charsByOption": {
+          "A": 130,
+          "B": 137,
+          "C": 130,
+          "D": 127
+        },
+        "wordsByOption": {
+          "A": 16,
+          "B": 18,
+          "C": 18,
+          "D": 15
+        },
+        "strongest": "C",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.0787,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-027",
+        "charsByOption": {
+          "A": 130,
+          "B": 137,
+          "C": 130,
+          "D": 127
+        },
+        "wordsByOption": {
+          "A": 16,
+          "B": 18,
+          "C": 18,
+          "D": 15
+        },
+        "strongest": "A",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.0787,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-028",
+        "charsByOption": {
+          "A": 130,
+          "B": 137,
+          "C": 130,
+          "D": 127
+        },
+        "wordsByOption": {
+          "A": 16,
+          "B": 18,
+          "C": 18,
+          "D": 15
+        },
+        "strongest": "D",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.0787,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-029",
+        "charsByOption": {
+          "A": 127,
+          "B": 120,
+          "C": 132,
+          "D": 130
+        },
+        "wordsByOption": {
+          "A": 16,
+          "B": 16,
+          "C": 18,
+          "D": 18
+        },
+        "strongest": "B",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.1,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "D": 3
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-030",
+        "charsByOption": {
+          "A": 127,
+          "B": 120,
+          "C": 132,
+          "D": 130
+        },
+        "wordsByOption": {
+          "A": 16,
+          "B": 16,
+          "C": 18,
+          "D": 18
+        },
+        "strongest": "D",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.1,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "D": 3
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-031",
+        "charsByOption": {
+          "A": 130,
+          "B": 129,
+          "C": 126,
+          "D": 125
+        },
+        "wordsByOption": {
+          "A": 16,
+          "B": 16,
+          "C": 13,
+          "D": 15
+        },
+        "strongest": "A",
+        "strongestIsUniqueLongest": true,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.04,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-032",
+        "charsByOption": {
+          "A": 130,
+          "B": 129,
+          "C": 126,
+          "D": 125
+        },
+        "wordsByOption": {
+          "A": 16,
+          "B": 16,
+          "C": 13,
+          "D": 15
+        },
+        "strongest": "C",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.04,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-033",
+        "charsByOption": {
+          "A": 121,
+          "B": 130,
+          "C": 125,
+          "D": 123
+        },
+        "wordsByOption": {
+          "A": 17,
+          "B": 15,
+          "C": 16,
+          "D": 16
+        },
+        "strongest": "B",
+        "strongestIsUniqueLongest": true,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.0744,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-034",
+        "charsByOption": {
+          "A": 121,
+          "B": 130,
+          "C": 125,
+          "D": 123
+        },
+        "wordsByOption": {
+          "A": 17,
+          "B": 15,
+          "C": 16,
+          "D": 16
+        },
+        "strongest": "A",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.0744,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-035",
+        "charsByOption": {
+          "A": 134,
+          "B": 133,
+          "C": 125,
+          "D": 130
+        },
+        "wordsByOption": {
+          "A": 17,
+          "B": 14,
+          "C": 18,
+          "D": 16
+        },
+        "strongest": "D",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.072,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 1
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 1
+        }
+      },
+      {
+        "id": "TC-036",
+        "charsByOption": {
+          "A": 127,
+          "B": 135,
+          "C": 122,
+          "D": 128
+        },
+        "wordsByOption": {
+          "A": 17,
+          "B": 18,
+          "C": 17,
+          "D": 18
+        },
+        "strongest": "B",
+        "strongestIsUniqueLongest": true,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.1066,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-037",
+        "charsByOption": {
+          "A": 126,
+          "B": 114,
+          "C": 126,
+          "D": 134
+        },
+        "wordsByOption": {
+          "A": 18,
+          "B": 16,
+          "C": 17,
+          "D": 17
+        },
+        "strongest": "C",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.1754,
+        "latinTokensByOption": {
+          "A": 1,
+          "B": 1,
+          "C": 2,
+          "D": 1
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-038",
+        "charsByOption": {
+          "A": 136,
+          "B": 136,
+          "C": 128,
+          "D": 125
+        },
+        "wordsByOption": {
+          "A": 17,
+          "B": 18,
+          "C": 18,
+          "D": 17
+        },
+        "strongest": "A",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.088,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-039",
+        "charsByOption": {
+          "A": 132,
+          "B": 140,
+          "C": 138,
+          "D": 137
+        },
+        "wordsByOption": {
+          "A": 15,
+          "B": 17,
+          "C": 17,
+          "D": 18
+        },
+        "strongest": "D",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.0606,
+        "latinTokensByOption": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-040",
+        "charsByOption": {
+          "A": 136,
+          "B": 136,
+          "C": 125,
+          "D": 128
+        },
+        "wordsByOption": {
+          "A": 16,
+          "B": 18,
+          "C": 18,
+          "D": 15
+        },
+        "strongest": "B",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.088,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 1,
+          "C": 3,
+          "D": 1
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-041",
+        "charsByOption": {
+          "A": 129,
+          "B": 137,
+          "C": 134,
+          "D": 133
+        },
+        "wordsByOption": {
+          "A": 17,
+          "B": 17,
+          "C": 17,
+          "D": 16
+        },
+        "strongest": "C",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.062,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-042",
+        "charsByOption": {
+          "A": 130,
+          "B": 137,
+          "C": 135,
+          "D": 128
+        },
+        "wordsByOption": {
+          "A": 18,
+          "B": 16,
+          "C": 17,
+          "D": 21
+        },
+        "strongest": "D",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.0703,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "D": 2
+        },
+        "numericTokensByOption": {
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-043",
+        "charsByOption": {
+          "A": 134,
+          "B": 128,
+          "C": 134,
+          "D": 132
+        },
+        "wordsByOption": {
+          "A": 17,
+          "B": 17,
+          "C": 18,
+          "D": 17
+        },
+        "strongest": "A",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.0469,
+        "latinTokensByOption": {
+          "A": 2,
+          "B": 0,
+          "C": 1,
+          "D": 1
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-044",
+        "charsByOption": {
+          "A": 134,
+          "B": 126,
+          "C": 125,
+          "D": 133
+        },
+        "wordsByOption": {
+          "A": 18,
+          "B": 16,
+          "C": 18,
+          "D": 17
+        },
+        "strongest": "C",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.072,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 2,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-045",
+        "charsByOption": {
+          "A": 139,
+          "B": 130,
+          "C": 127,
+          "D": 142
+        },
+        "wordsByOption": {
+          "A": 17,
+          "B": 19,
+          "C": 18,
+          "D": 18
+        },
+        "strongest": "B",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.1181,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-046",
+        "charsByOption": {
+          "A": 130,
+          "B": 128,
+          "C": 130,
+          "D": 141
+        },
+        "wordsByOption": {
+          "A": 19,
+          "B": 17,
+          "C": 18,
+          "D": 19
+        },
+        "strongest": "D",
+        "strongestIsUniqueLongest": true,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.1016,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-047",
+        "charsByOption": {
+          "A": 137,
+          "B": 126,
+          "C": 130,
+          "D": 128
+        },
+        "wordsByOption": {
+          "A": 18,
+          "B": 14,
+          "C": 19,
+          "D": 13
+        },
+        "strongest": "A",
+        "strongestIsUniqueLongest": true,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.0873,
+        "latinTokensByOption": {
+          "A": 2,
+          "B": 1,
+          "C": 3,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-048",
+        "charsByOption": {
+          "A": 136,
+          "B": 123,
+          "C": 133,
+          "D": 140
+        },
+        "wordsByOption": {
+          "A": 21,
+          "B": 18,
+          "C": 17,
+          "D": 17
+        },
+        "strongest": "C",
+        "strongestIsUniqueLongest": false,
+        "strongestIsLongestIncludingTies": false,
+        "longestShortestRatio": 1.1382,
+        "latinTokensByOption": {
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-049",
+        "charsByOption": {
+          "A": 137,
+          "B": 139,
+          "C": 133,
+          "D": 141
+        },
+        "wordsByOption": {
+          "A": 16,
+          "B": 15,
+          "C": 16,
+          "D": 16
+        },
+        "strongest": "D",
+        "strongestIsUniqueLongest": true,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.0602,
+        "latinTokensByOption": {
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "D": 1
+        },
+        "numericTokensByOption": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      },
+      {
+        "id": "TC-050",
+        "charsByOption": {
+          "A": 126,
+          "B": 140,
+          "C": 133,
+          "D": 138
+        },
+        "wordsByOption": {
+          "A": 17,
+          "B": 18,
+          "C": 17,
+          "D": 17
+        },
+        "strongest": "B",
+        "strongestIsUniqueLongest": true,
+        "strongestIsLongestIncludingTies": true,
+        "longestShortestRatio": 1.1111,
+        "latinTokensByOption": {
+          "A": 0,
+          "B": 3,
+          "C": 0,
+          "D": 0
+        },
+        "numericTokensByOption": {
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "D": 0
+        }
+      }
+    ]
+  },
+  "duplicates": {
+    "options": [
+      {
+        "caseIDs": [
+          "TC-026:A",
+          "TC-027:A",
+          "TC-028:A"
+        ],
+        "text": "Оплатить подготовленное ускорение из резерва и обновить рабочий график; внешнюю дату оставить прежней, контролируя остаток буфера."
+      },
+      {
+        "caseIDs": [
+          "TC-026:B",
+          "TC-027:B",
+          "TC-028:B"
+        ],
+        "text": "Сохранить дату до завтрашней сверки с оператором и пересчитать прогноз повторно; решение о расходах принять после подтверждения задержки."
+      },
+      {
+        "caseIDs": [
+          "TC-026:C",
+          "TC-027:C",
+          "TC-028:C"
+        ],
+        "text": "Продолжить работы по базовому плану без расходов на ускорение; отслеживать критический путь и остаток резерва на обычном контроле."
+      },
+      {
+        "caseIDs": [
+          "TC-026:D",
+          "TC-027:D",
+          "TC-028:D"
+        ],
+        "text": "Вынести владельцу обязательства выбор нового срока или сокращения объёма; приложить прогноз с максимально доступным ускорением."
+      },
+      {
+        "caseIDs": [
+          "TC-029:A",
+          "TC-030:A"
+        ],
+        "text": "Зафиксировать цену всей разработки по текущим материалам; спорные детали оформлять запросами на изменение после приёмки этапов."
+      },
+      {
+        "caseIDs": [
+          "TC-029:B",
+          "TC-030:B"
+        ],
+        "text": "Фиксировать цену только устойчивых пакетов с приёмкой; изменчивую часть оплачивать по времени в пределах общего бюджета."
+      },
+      {
+        "caseIDs": [
+          "TC-029:C",
+          "TC-030:C"
+        ],
+        "text": "Продлить discovery ещё на месяц до заключения основного договора; уточнять приёмочные критерии и затем выбрать единую модель оплаты."
+      },
+      {
+        "caseIDs": [
+          "TC-029:D",
+          "TC-030:D"
+        ],
+        "text": "Вести всю разработку по T&M с бюджетным cap; принимать результат еженедельно и регулярно пересматривать приоритеты и расход часов."
+      },
+      {
+        "caseIDs": [
+          "TC-031:A",
+          "TC-032:A"
+        ],
+        "text": "Зафиксировать успех эксперимента и передать изменение в план раскатки; сохранить рассчитанный эффект и результаты защитных метрик."
+      },
+      {
+        "caseIDs": [
+          "TC-031:B",
+          "TC-032:B"
+        ],
+        "text": "Продлить текущий эксперимент ещё на неделю и затем принять решение; использовать дополнительные данные для повышения уверенности."
+      },
+      {
+        "caseIDs": [
+          "TC-031:C",
+          "TC-032:C"
+        ],
+        "text": "Зафиксировать недостижение критерия и оставить текущий вариант продукта; следующую гипотезу проверять отдельным экспериментом."
+      },
+      {
+        "caseIDs": [
+          "TC-031:D",
+          "TC-032:D"
+        ],
+        "text": "Разрешить ограниченную раскатку как отдельную продуктовую ставку; итог эксперимента пока не использовать для полного запуска."
+      },
+      {
+        "caseIDs": [
+          "TC-033:A",
+          "TC-034:A"
+        ],
+        "text": "Потратить неделю на доступное исследование и затем выбрать пилот; до результата не принимать обязательств по его запуску."
+      },
+      {
+        "caseIDs": [
+          "TC-033:B",
+          "TC-034:B"
+        ],
+        "text": "Запустить ограниченный пилот сейчас и оценить фактическое использование; решение о расширении принять после недельного результата."
+      },
+      {
+        "caseIDs": [
+          "TC-033:C",
+          "TC-034:C"
+        ],
+        "text": "Одобрить всю инициативу с поэтапной оплатой и еженедельными обзорами; при слабом отклике пересмотреть объём следующего этапа."
+      },
+      {
+        "caseIDs": [
+          "TC-033:D",
+          "TC-034:D"
+        ],
+        "text": "Отложить инициативу до появления отраслевой статистики спроса; сохранить бюджет и затем вернуться к выбору формата запуска."
+      }
+    ],
+    "questions": [
+      {
+        "caseIDs": [
+          "TC-026",
+          "TC-027",
+          "TC-028"
+        ],
+        "text": "Какое решение по плану следует принять сейчас?"
+      },
+      {
+        "caseIDs": [
+          "TC-029",
+          "TC-030"
+        ],
+        "text": "Какую модель основной разработки выбрать?"
+      },
+      {
+        "caseIDs": [
+          "TC-031",
+          "TC-032"
+        ],
+        "text": "Как зафиксировать результат и дальнейшее продуктовое решение?"
+      },
+      {
+        "caseIDs": [
+          "TC-033",
+          "TC-034"
+        ],
+        "text": "Какой первый шаг выбрать для этой инициативы?"
+      }
+    ],
+    "contexts": [],
+    "explanations": [],
+    "disposition": "Repeated option texts and questions occur only within intended families; context equality outside mutation is intentional."
+  },
+  "goldExactTextMatches": []
+}

@@ -1,0 +1,11 @@
+{
+  "agent-artifacts/test-bank/replacement-authoring/tc263-r2/proposed-manifest-row.json": "2bd63ccf36388731ee3f90f77a5f011cc64a29b6d2f4158f1e411b159eed124d",
+  "agent-artifacts/test-bank/replacement-authoring/tc263-r1/proposed-manifest-row.json": "c669ae1023e3cbdfd8ac7032c618eca5654705c3bd27496cfbc4e771441ac795",
+  "agent-artifacts/project-completion/qa-tc263-r1/QA-verdict.json": "6f97e732bf86c487daa89b7583e7186447ae48e5d1acff06dbc892cd8168ffc9",
+  "agent-artifacts/project-completion/qa-tc263-r1/runtime-check.txt": "4512815725e413035622bbc55bf6ff62d467200223f80e8fcdb11a3f274022ef",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+  "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/production_manifest_masterplan_v2_3_hardtail_b2_candidate.json": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced"
+}

@@ -1,0 +1,7 @@
+# TC200 R1 — isolated Junior manifest proposal
+
+Scope U-COMMS-J, R2 semantic repositioning. Source t6.2 attached in full. Preserved slot/level/topic/domain/eligibility/batch/family structure. Decision object changes from occupied early-warning boundary to order/channel for already prepared confirmed news. Forecast certainty, costed options and opportunity to act are GIVEN; not the tested decision. Intended distinction vs015/056/057; compare243/267 and communication/escalation cases across bank before approval.
+
+Three alternative skeletons: immediate general post with sponsor mention; private sponsor conversation then same-day written record; defer all communication until tomorrow's group status; leave only private call without common written record. All are standard communication modes with different failures; not final option text/quality. No asymmetrical truth, censorship or indefinite waiting for an unavailable sponsor. If urgent harm required immediate action, explicit given constraints change and current rule may not apply.
+
+Runtime proposed communications+expectation-management both stakeholders; dedup yields single category evidence, not2. No forecast score: prognosis is already established, no forecast reasoning required. Old row had evidence1/3; new evidence belongs entirely to stakeholders; carry delta into cumulative coverage review rather than silently retaining irrelevant forecast label. Production/accepted manifests unchanged; no import permission.

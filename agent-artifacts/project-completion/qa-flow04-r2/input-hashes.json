@@ -1,0 +1,12 @@
+{
+  "agent-artifacts/test-bank/full-cases/pack-flow-04/cases.json": "894b42abf4c430e6bc53f3469baa553890d2d0340f94039627ef825404082dc7",
+  "agent-artifacts/test-bank/full-cases/pack-flow-04-r2/cases.json": "e0df03cbb0a672c54d822ed4ba625c54d8868e9357eb6f4497c377159decac6e",
+  "agent-artifacts/test-bank/full-cases/pack-flow-04-r2/validation.json": "8581cf25ac46e3ea3deb4dae130d56edc117a7f05ea2ce5038aec102b041736d",
+  "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-3-7.txt": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "agent-artifacts/project-completion/qa-flow04-r1/QA-verdict.json": "78dfbe7406bec23c10bec755f3515f3ff58463a56ceb7011d5c8be0e88144b41",
+  "agent-artifacts/project-completion/qa-flow04-r1/evidence.json": "000a9d7b73e137434b0f65c26204bd3b21919b0957b490bb70b5b3dd2b949ffe",
+  "agent-artifacts/project-completion/qa-flow04-r1/issues.json": "9894c9b54c82d55f124b49b67c033ef6e523ec60d2b76a1570260283afc057c5",
+  "agent-artifacts/project-completion/qa-flow04-r1/blind-choices.json": "67117d7bfeba6b94bc8dba95260346426b6a2c4834321a739139b22d242d6605"
+}

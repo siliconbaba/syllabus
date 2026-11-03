@@ -1,0 +1,158 @@
+{
+  "verdict": "PASS",
+  "candidate": "agent-artifacts/test-bank/batch-04-completion03-r3/cases.json",
+  "candidateSHA256": "48de342eab74571fb624b53f8ed7551e5598503e64a372b2e1edd7a7d2e2271d",
+  "production100SHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "individualLineage": {
+    "acceptedOriginalObjects": 25,
+    "filesAndVerdictsSHA256Verified": true,
+    "acceptedOriginalFieldsIdentical": 20,
+    "changed": [
+      "TC-110",
+      "TC-111",
+      "TC-112",
+      "TC-116",
+      "TC-123"
+    ],
+    "changedSemantics": "PASS"
+  },
+  "manifest": {
+    "acceptedWorkingBase": true,
+    "rowsMatched": 25,
+    "caseCSV_SHA256": "7e52d0e0e1fa0022f6770fe7dbcd785b675b7234b836c169f3a8e593677abbfc",
+    "familiesCSV_SHA256": "c07f30be3ca187ac6cd2c7abb74fb2541cd81787207708e95524edcdeb75416a",
+    "fields": [
+      "id",
+      "partId",
+      "topicId",
+      "domain",
+      "requiredLevel",
+      "primaryPattern",
+      "secondaryPatterns",
+      "assessmentEligible",
+      "trainingEligible",
+      "scenarioFamilyId",
+      "family structure/member IDs"
+    ]
+  },
+  "families": {
+    "wholeFamilies": 4,
+    "members": 9,
+    "standalone": 16,
+    "identicalOptionSpacesAndDistinctKeys": true
+  },
+  "duplication": {
+    "nonfamilyPairsScanned": 2794,
+    "unintendedExactCollisions": 0,
+    "analogsInspected": [
+      "106/059",
+      "111/083",
+      "108/116",
+      "118/052"
+    ]
+  },
+  "surface": {
+    "production100": {
+      "n": 100,
+      "firstTieMax": 33,
+      "randomTieMax": 31.0,
+      "longest": 20.5,
+      "specificFirstPunctuation": 31.0,
+      "permutation": {
+        "maxStatisticAdjustedP": 0.6006996501749126,
+        "seed": 20261008,
+        "draws": 2000,
+        "groups": 82,
+        "rules": 78
+      },
+      "positions": {
+        "B": 24,
+        "D": 27,
+        "C": 25,
+        "A": 24
+      }
+    },
+    "batch25": {
+      "n": 25,
+      "firstTieMax": 13,
+      "randomTieMax": 11.5,
+      "longest": 9.0,
+      "specificFirstPunctuation": 11.0,
+      "permutation": {
+        "maxStatisticAdjustedP": 0.10644677661169415,
+        "seed": 20261008,
+        "draws": 2000,
+        "groups": 20,
+        "rules": 78
+      },
+      "positions": {
+        "A": 6,
+        "B": 7,
+        "C": 6,
+        "D": 6
+      }
+    },
+    "combined125": {
+      "n": 125,
+      "firstTieMax": 44,
+      "randomTieMax": 42.0,
+      "longest": 29.5,
+      "specificFirstPunctuation": 42.0,
+      "permutation": {
+        "maxStatisticAdjustedP": 0.11744127936031984,
+        "seed": 20261008,
+        "draws": 2000,
+        "groups": 102,
+        "rules": 78
+      },
+      "positions": {
+        "B": 31,
+        "D": 33,
+        "C": 31,
+        "A": 30
+      }
+    }
+  },
+  "issues": [],
+  "scopeReadyToFreeze": true,
+  "scopeReadyToImport": true,
+  "globalManifestFreezePerformed": false,
+  "releaseCondition": "Scoped Batch 04 manifest freeze and normal import checks; this review does not execute either action.",
+  "closed": [
+    "B04-SURF-01",
+    "B04-SURF-02"
+  ],
+  "r2VerdictSHA256": "aa92b76e36bbe3f9e71be402563e956c9bc5746ff9e1a79c44d0d0c894d702e3",
+  "r3Delta": {
+    "changedIds": [
+      "TC-110",
+      "TC-111",
+      "TC-116"
+    ],
+    "extraWhitespaceOnlyPathsTC116": [
+      "/context",
+      "/decisiveFacts/0",
+      "/decisiveFacts/1",
+      "/decisiveFacts/2",
+      "/options/2/explanation",
+      "/options/2/whyNotBest",
+      "/options/3/explanation",
+      "/options/3/whyNotBest"
+    ]
+  },
+  "surfaceInterpretation": "No repeated visual key signature in revised items. Residual specificity and action associations are monitoring evidence; scanner diagnostics alone do not determine acceptance.",
+  "scopedManifestProjection": {
+    "result": "PASS",
+    "file": "agent-artifacts/manifests/batch-04-scoped-candidate/batch04-projection.json",
+    "sha256": "77362e9e1211384df300e2b22839365d2a2e02bbc9daa75e8acf77724919c894",
+    "acceptedMasterplan": "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json",
+    "acceptedMasterplanSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "exactFullObjectsInSourceOrder": {
+      "manifest": 25,
+      "familyManifest": 4,
+      "changedFamilyDesigns": 4,
+      "headAudit": 3
+    },
+    "additionalRows": 0
+  }
+}

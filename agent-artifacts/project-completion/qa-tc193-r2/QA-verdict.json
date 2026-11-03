@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "verdict": "FOCUSED INDEPENDENT MANIFEST-ROW QA PASS",
+  "scope": [
+    "TC-193"
+  ],
+  "candidate": "agent-artifacts/test-bank/reconstruction/tc193-r2/proposed-manifest-row.json",
+  "candidateSHA256": "8355e52e144c59fe36aa5ae32fcc376864632e423718088c47e0a803d3e146fc",
+  "inheritanceBase": "agent-artifacts/project-completion/qa-tc193-r1/QA-verdict.json",
+  "inheritedGates": [
+    "sourceGrounding",
+    "distinctDecisionBoundary",
+    "JuniorRealization",
+    "structuralInvariants"
+  ],
+  "retestedGates": {
+    "internalConsistency": "PASS: existing request followed up, no duplicate",
+    "sourceActionAlignment": "PASS",
+    "exactAllowedDiff": "PASS",
+    "runtimeVocabularyAndDerivedFields": "PASS"
+  },
+  "closedIssueIDs": [
+    "TC193-R1-01"
+  ],
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "candidateAccepted": true,
+  "acceptanceMeaning": "Single proposed manifest blueprint; no full-case/options approval and no cumulative manifest freeze",
+  "readyForFullCaseAuthoring": true,
+  "readyForFreeze": false,
+  "importEligible": false,
+  "remainingUnresolvedInUnmodifiedAcceptedBase": 72,
+  "eligibleClosureAfterControlledMerge": [
+    "TC-193"
+  ],
+  "productionChanged": false,
+  "manifestChanged": false,
+  "fullCaseBlindStrongest": "NOT_APPLICABLE",
+  "DQAndOptionSurface": "NOT_APPLICABLE",
+  "globalCoverage": "NOT_RUN; carry per-row delta into controlled cumulative merge"
+}

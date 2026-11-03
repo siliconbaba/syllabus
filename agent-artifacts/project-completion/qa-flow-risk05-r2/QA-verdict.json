@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "batch": "QA5full flow-risk05 R2",
+  "candidatePath": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/test-bank/full-cases/pack-flow-risk-05-r2/cases.json",
+  "candidateSHA256": "b0995abd07137801a8527eedfc28f1e763df9546169144da8e2461742799bc78",
+  "verdict": "READY FOR IMPORT",
+  "semanticVerdict": "PASS",
+  "importEligible": true,
+  "importAuthorizedByThisReview": false,
+  "productionChanged": false,
+  "manifestFreezePerformed": false,
+  "scope": "Focused R2 delta QA: blind116 before key, substantive116 and211 A WHEN; inherit three exact unchanged R1 accepted objects. No production/freeze/import.",
+  "gates": {
+    "blind": "PASS",
+    "oneBest": "PASS",
+    "source": "PASS",
+    "metadata": "PASS",
+    "level": "PASS",
+    "professionalCompetitors": "PASS",
+    "wholeOptionWhen": "PASS",
+    "DQ": "PASS",
+    "duplication": "PASS",
+    "surface": "PASS",
+    "family": "NOT_APPLICABLE five standalone null family/mutation",
+    "schemaRuntime": "INHERITED PASS R2 validation exact candidateSHA256 verified; no recompile"
+  },
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "remainingIssueIds": [],
+  "closedIssueIds": [
+    "FLOW05-211-WHEN-A",
+    "FLOW05-116-LEVEL"
+  ],
+  "caseVerdicts": {
+    "TC-211": "PASS",
+    "TC-237": "PASS",
+    "TC-174": "PASS",
+    "TC-116": "PASS",
+    "TC-162": "PASS"
+  },
+  "inheritanceBases": [
+    {
+      "path": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/project-completion/qa-flow-risk05-r1/QA-verdict.json",
+      "sha256": "af451d64b683a7f0a25697270feae10f860828b68838843363740bba783cb672",
+      "scope": "TC237/174/162 full semantic PASS; exact whole-object hashes verified; all unmodified211 gates; unchanged source/analog context"
+    },
+    {
+      "path": "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/test-bank/full-cases/pack-flow-risk-05-r2/validation.json",
+      "sha256": "41d3ccfb1676b4591042f8fad57c50cc22012393aa357818c3fb6faa6a85528c",
+      "candidateSHA256": "b0995abd07137801a8527eedfc28f1e763df9546169144da8e2461742799bc78",
+      "exactCandidateHashVerified": true,
+      "scope": "Supplied actualSwift runtime/schema PASS only"
+    }
+  ],
+  "nextAction": "Independent content QA complete; separate governed integration if authorized. No import or freeze performed."
+}

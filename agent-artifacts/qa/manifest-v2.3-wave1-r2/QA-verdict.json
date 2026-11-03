@@ -1,0 +1,53 @@
+{
+  "verdict": "CALIBRATION METHOD PASS",
+  "focusedRetest": "PASS",
+  "safeToContinueNextRedesignWave": true,
+  "candidateSHA256": "bb858ee97bda87d6716a4ad1fa19385bef24f2b96443873da4bb9ba0bffede01",
+  "baselineSHA256": "006c45c553b28f35f816cf09652be9fe41ff0718cc3eac4ddd6d7331a4736977",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "scope": [
+    "TC-184",
+    "TC-291"
+  ],
+  "gates": {
+    "diff": "PASS",
+    "other273RawAndSemanticUnchanged": true,
+    "unexpectedFamilyChanges": 0,
+    "source": "PASS",
+    "seniorRealization": "PASS",
+    "runtimeMechanical": "PASS",
+    "runtimeSemantic": "PASS",
+    "semanticUniqueness": "PASS",
+    "nearDuplicate": 0,
+    "duplicate": 0,
+    "productionUnchanged": "PASS"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "resolvedIssueIDs": [
+    "LV-184",
+    "LV-291",
+    "MAP-291"
+  ],
+  "remainingIssueIDs": [],
+  "methodContract": [
+    "strict Senior realization gate",
+    "runtime metadata must be re-derived after substantive redesign"
+  ],
+  "inheritance": "Prior QA PASS of other 10 redesigned Wave1 rows retained by exact identity; all other rows retain prior status, including unresolved six. No complete manifest approval.",
+  "unresolvedSix": [
+    "TC-129",
+    "TC-130",
+    "TC-133",
+    "TC-134",
+    "TC-148",
+    "TC-218"
+  ],
+  "importEligible": false,
+  "readyToFreeze": false,
+  "wave2Started": false
+}

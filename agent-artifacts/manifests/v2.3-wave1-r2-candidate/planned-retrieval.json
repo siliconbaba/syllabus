@@ -1,0 +1,406 @@
+[
+  {
+    "plannedId": "TC-184",
+    "topN": 8,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-160",
+        "retrievalScore": 16.318951,
+        "reasons": [
+          "topicId",
+          "primaryPattern",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "impact-analysis",
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "npv",
+          "senior",
+          "бизнес",
+          "кейс",
+          "клиентов",
+          "маржу",
+          "общей",
+          "одновременно",
+          "после",
+          "предложить",
+          "при",
+          "расходов"
+        ]
+      },
+      {
+        "id": "TC-291",
+        "retrievalScore": 11.406933,
+        "reasons": [
+          "topicId",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "impact-analysis",
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "senior",
+          "без",
+          "будущую",
+          "всех",
+          "маржу",
+          "может",
+          "нет",
+          "полного",
+          "при",
+          "следующего",
+          "сохранение",
+          "требует",
+          "уже",
+          "цикла",
+          "часть",
+          "этого"
+        ]
+      },
+      {
+        "id": "TC-245",
+        "retrievalScore": 8.127567,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "автоматизацию",
+          "проверка",
+          "экономики",
+          "экономия"
+        ]
+      },
+      {
+        "id": "TC-148",
+        "retrievalScore": 8.054144,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "считать",
+          "экономия"
+        ]
+      },
+      {
+        "id": "TC-250",
+        "retrievalScore": 8.050304,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "hypothesis"
+        ],
+        "sharedTerms": [
+          "изменения",
+          "эффект"
+        ]
+      },
+      {
+        "id": "TC-208",
+        "retrievalScore": 8.019676,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "требует"
+        ]
+      },
+      {
+        "id": "TC-108",
+        "retrievalScore": 7.158515,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "без",
+          "нет",
+          "при",
+          "проверка",
+          "следующего",
+          "уже",
+          "этого"
+        ]
+      },
+      {
+        "id": "TC-109",
+        "retrievalScore": 7.158515,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "без",
+          "нет",
+          "при",
+          "проверка",
+          "следующего",
+          "уже",
+          "этого"
+        ]
+      },
+      {
+        "id": "TC-170",
+        "retrievalScore": 7.105499,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "без",
+          "инвестиции",
+          "после",
+          "решение",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-253",
+        "retrievalScore": 7.08993,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "мощности",
+          "переносит",
+          "при",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-254",
+        "retrievalScore": 7.065173,
+        "reasons": [
+          "primaryPattern"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "переносит",
+          "при",
+          "этой"
+        ]
+      },
+      {
+        "id": "TC-218",
+        "retrievalScore": 6.161769,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "npv",
+          "выгоды",
+          "диапазон",
+          "можно",
+          "при",
+          "прогноз"
+        ]
+      },
+      {
+        "id": "TC-123",
+        "retrievalScore": 6.114223,
+        "reasons": [
+          "topicId"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "npv",
+          "выгоды",
+          "затем",
+          "общей"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-109",
+      "TC-123",
+      "TC-170",
+      "TC-218",
+      "TC-253",
+      "TC-254"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-291",
+    "topN": 8,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-160",
+        "retrievalScore": 16.240708,
+        "reasons": [
+          "topicId",
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "impact-analysis",
+          "options",
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "senior",
+          "выручки",
+          "выручку",
+          "для",
+          "или",
+          "именно",
+          "маржу",
+          "новый",
+          "ограниченный",
+          "при",
+          "что"
+        ]
+      },
+      {
+        "id": "TC-184",
+        "retrievalScore": 11.361453,
+        "reasons": [
+          "topicId",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "impact-analysis",
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "senior",
+          "без",
+          "будущую",
+          "всех",
+          "маржу",
+          "может",
+          "нет",
+          "полного",
+          "при",
+          "следующего",
+          "сохранение",
+          "требует",
+          "уже",
+          "цикла",
+          "часть",
+          "этого"
+        ]
+      },
+      {
+        "id": "TC-218",
+        "retrievalScore": 11.078987,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "options"
+        ],
+        "sharedTerms": [
+          "или",
+          "инициативу",
+          "одном",
+          "при"
+        ]
+      },
+      {
+        "id": "TC-245",
+        "retrievalScore": 11.041677,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "один",
+          "разработки"
+        ]
+      },
+      {
+        "id": "TC-208",
+        "retrievalScore": 11.041011,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "разработки",
+          "требует"
+        ]
+      },
+      {
+        "id": "TC-148",
+        "retrievalScore": 11.0,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": []
+      },
+      {
+        "id": "TC-250",
+        "retrievalScore": 9.150836,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "именно",
+          "инициативы",
+          "один",
+          "продукта",
+          "проект",
+          "эту"
+        ]
+      },
+      {
+        "id": "TC-123",
+        "retrievalScore": 9.024153,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "инициативы"
+        ]
+      }
+    ],
+    "safetyAdded": [
+      "TC-123"
+    ],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

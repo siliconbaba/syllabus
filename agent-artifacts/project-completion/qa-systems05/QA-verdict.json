@@ -1,0 +1,134 @@
+{
+  "status": "CONTENT ACCEPTED",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-systems-05/cases.json",
+  "candidateSHA256": "349a2c73fabfdbdd111b248aeb9cc57d292c777d5b6e81d9d892bba7e905d37a",
+  "manifestSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "scope": "Independent content QA, five standalone completion03 cases, revision 1.",
+  "acceptedCaseIDs": [
+    "TC-120",
+    "TC-143",
+    "TC-189",
+    "TC-241",
+    "TC-249"
+  ],
+  "cases": [
+    {
+      "id": "TC-120",
+      "status": "CONTENT ACCEPTED",
+      "key": "B",
+      "blindRunnerUp": "C",
+      "level": "head",
+      "sourceAndLevel": "§4.3, ART как единица планирования ёмкости и типичный срыв IP. Между двумя поездами требуется связать правила обещаний, изменение KPI и согласованный перенос продуктового объёма. Полномочия и цена решения заданы.",
+      "pairwiseDQAndWholeOptions": "A не меняет доступную мощность, C снимает конфликт на квартал, D оставляет весь прежний объём. C выше D и A. В другой ситуации D целиком подходит при уже учтённых в обещаниях инженерных результатах.",
+      "duplication": "ALLOWED REINFORCEMENT",
+      "boundary": "TC-098 защищает денежный резерв для неизвестных рисков решением спонсора. Здесь работа заранее известна и есть стимул повторно продать время. TC-039 и 111 меняют координацию и права PO.",
+      "optionLengths": [
+        107,
+        134,
+        137,
+        110
+      ],
+      "issues": []
+    },
+    {
+      "id": "TC-143",
+      "status": "CONTENT ACCEPTED",
+      "key": "D",
+      "blindRunnerUp": "C",
+      "level": "junior",
+      "sourceAndLevel": "§3.3 отделяет deploy от release. Одно явное правило полномочий, в том числе для 1%.",
+      "pairwiseDQAndWholeOptions": "C сохраняет полномочия, но добавляет повторное развёртывание. B и A открывают разный охват без решения. Их when описывают конкретное предварительное разрешение владельца, а C требует невозможности безопасно держать сборку.",
+      "duplication": "ALLOWED REINFORCEMENT",
+      "boundary": "TC-005 управляет сроком магазина при уже обещанной дате. TC-061 оптимизирует охват разрешённого запуска, 133/134 разрешают конфликт за общий ресурс.",
+      "optionLengths": [
+        86,
+        97,
+        94,
+        98
+      ],
+      "issues": []
+    },
+    {
+      "id": "TC-189",
+      "status": "CONTENT ACCEPTED",
+      "key": "A",
+      "blindRunnerUp": "D",
+      "level": "junior",
+      "sourceAndLevel": "§3.3, гигиена временных флагов. Учащийся применяет правило завершения после явного исключения внешних потребителей и зависимости отката.",
+      "pairwiseDQAndWholeOptions": "D задаёт проверку и дату, но препятствия сняты. C экономит регресс, оставляя достижимый непроверенный путь. B сохраняет его и двойной регресс. Отдельные проверки аудитории оправдывают C, отдельная проверяемая резервная конфигурация — B.",
+      "duplication": "ALLOWED REINFORCEMENT",
+      "boundary": "TC-010/037/054/055 проверяют способность вернуть данные или поведение при запуске. Здесь резерв уже доказан и речь о снятии технического долга после запуска.",
+      "optionLengths": [
+        86,
+        89,
+        77,
+        102
+      ],
+      "issues": []
+    },
+    {
+      "id": "TC-241",
+      "status": "CONTENT ACCEPTED",
+      "key": "C",
+      "blindRunnerUp": "D",
+      "level": "junior",
+      "sourceAndLevel": "§10.1, балансировщик, stateless-слой, общая база, снижение нагрузки на чтение. Junior указывает измеренный участок ожидания, выбор реализации оставлен архитектору.",
+      "pairwiseDQAndWholeOptions": "A и B меняют промежуточный слой при равномерном распределении и запасе CPU. D может ухудшить уже измеренную очередь. При слепом просмотре D казался ближайшим к правильному слою, но близость к базе не даёт частичного устранения причины. Низкий балл D обоснован. В контрфактах явно разделены очереди CPU, балансировки и клиентского пула.",
+      "duplication": "ALLOWED REINFORCEMENT",
+      "boundary": "TC-110 требует переноса состояния сессий. TC-190/297 выявляют вторичную нагрузку от наполнения кэша. TC-214 уже выбирает конкретный кэш с ограничениями свежести.",
+      "optionLengths": [
+        93,
+        92,
+        111,
+        105
+      ],
+      "issues": []
+    },
+    {
+      "id": "TC-249",
+      "status": "CONTENT ACCEPTED",
+      "key": "D",
+      "blindRunnerUp": "A",
+      "level": "junior",
+      "sourceAndLevel": "§10.1, таблица REST/gRPC. Клиент JSON, задержка в норме, выигрыш не покрывает вытеснение работы. Для Junior достаточно распознать явное отсутствие требования.",
+      "pairwiseDQAndWholeOptions": "A сохраняет контракт и даёт второй реальный вход, C добавляет внутренний перевод без потребности, B требует смены клиента. Их when предполагают соответственно подтверждённого второго потребителя, внутренние сервисы с окупаемым шлюзом или готовность обеих сторон и выгоду переключения.",
+      "duplication": "ALLOWED REINFORCEMENT",
+      "boundary": "TC-011/038/265 определяют безопасное снятие старого API после миграции. Здесь решается предшествующий вопрос о целесообразности самой инвестиции.",
+      "optionLengths": [
+        82,
+        102,
+        98,
+        114
+      ],
+      "issues": []
+    }
+  ],
+  "gates": {
+    "identity": "PASS; 10 artifact and 7 input hashes, five exact blueprint rows and matching candidate metadata",
+    "runtime": "PASS inherited for exact candidate hash; not rerun",
+    "blind": "5/5 independent strongest and runner-up recorded before reveal; confidence not recorded separately",
+    "sourceLevel": "PASS",
+    "duplication": "PASS; 24 production and 70 planned dossiers cover entire same-topic/primary union; expanded TC-005 and latest 101–103/110/111",
+    "family": "N/A; all standalone",
+    "pairwiseDQWholeOption": "PASS",
+    "surface": "PASS; 20 distinct visible options, keys B/D/A/C/D; longest by character count identifies 3/5, no universal length or wording cue"
+  },
+  "inheritanceBases": [
+    "Swift validation PASS for exact hash supplied by coordinator. Content reviewed independently."
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "remainingIssueIDs": [],
+  "remainingUnresolvedIDs": [],
+  "importEligible": false,
+  "productionImported": false,
+  "readyToFreeze": false,
+  "evidenceSHA256": {
+    "blind-choices.json": "2835cf2d936ccac121c2919668796d01de0c1ae4d212bf27887f0130976a848b",
+    "input-hashes.json": "bed64207492e3c572946147f1eb9c39a053ac644d472dedcbc53834d156b284e",
+    "artifact-hashes.json": "160a1bd1005174934fb7f38820c19667eafb60cabd0923ec745f5af5f79c63fc"
+  }
+}

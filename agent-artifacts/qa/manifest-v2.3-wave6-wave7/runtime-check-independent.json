@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "freshAuthoritativeSwiftCompilation": true,
+  "unknownCodes": 0,
+  "derivedFieldMismatches": 0,
+  "normalizedWeights": {
+    "TC-148": {
+      "proportionality": 0.6666666666666666,
+      "prioritization": 0.3333333333333333
+    },
+    "TC-183": {
+      "prioritization": 0.6666666666666666,
+      "organization": 0.3333333333333333
+    },
+    "TC-199": {
+      "organization": 1.0
+    },
+    "TC-208": {
+      "proportionality": 0.6666666666666666,
+      "prioritization": 0.3333333333333333
+    },
+    "TC-218": {
+      "uncertainty": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-257": {
+      "organization": 1.0
+    },
+    "TC-258": {
+      "organization": 1.0
+    },
+    "TC-288": {
+      "prioritization": 0.6666666666666666,
+      "stakeholders": 0.3333333333333333
+    },
+    "TC-290": {
+      "stakeholders": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-248": {
+      "uncertainty": 0.6666666666666666,
+      "systems": 0.3333333333333333
+    }
+  },
+  "contextScoredEvidenceInScope": 0,
+  "note": "Known runtime codes do not establish level validity. TC183 has a separate level defect."
+}

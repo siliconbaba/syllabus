@@ -1,0 +1,217 @@
+[
+  {
+    "plannedId": "TC-101",
+    "batch": "Batch 04",
+    "block": "B04 — Technical Delivery",
+    "partId": "part-3",
+    "topicId": "t-3-3",
+    "oneSentenceScenarioConcept": "Lead TPM выбирает доказательную схему замены движка комиссий: редкие тарифы не набираются в малой canary за доступное окно, а неверные списания недопустимы; скрытый результат сам по себе не блокирует публикацию платёжных команд. Состояние границы эффектов: Проверенный shadow-режим перехватывает все внешние эффекты и сохраняет сравнимость расчёта.",
+    "decisiveFactsConcept": [
+      "Проверенный shadow-режим перехватывает все внешние эффекты и сохраняет сравнимость расчёта.",
+      "Один Lead TPM, одна цель — проверить редкую финансовую логику без повторных списаний; прежний движок остаётся единственным источником клиентского результата.",
+      "Входной поток, тарифы и правила расчёта одинаковы; сравнение расчётов доступно, миграции данных нет; новая версия не получает право реально списывать деньги до завершения доказательства.",
+      "Резерв мощности для двойного вычисления подтверждён; 1% canary не набирает редкие тарифы в отведённый срок; полный пользовательский запуск до сравнения запрещён.",
+      "Есть бюджет двух недель на ограниченную изоляцию имеющегося интерфейса; выделение нового архитектурного интерфейса займёт шесть недель и требует переноса замены. Перенос разрешён; цена задержки одинакова."
+    ],
+    "oneSentenceDecisionBoundary": "Использовать уже проверенный shadow-контур с сопоставлением редких тарифов; не заменять его пользовательской canary ради скорости и не строить второй изолятор.",
+    "domain": "release_engineering",
+    "requiredLevel": "senior",
+    "primaryPattern": "risk-based-testing",
+    "secondaryPatterns": [
+      "safeguards",
+      "feature-flags"
+    ],
+    "structure": "triplet",
+    "scenarioFamilyId": "F-TD-T01",
+    "familyPosition": 1,
+    "decisiveMutationConcept": "Доступная и проверенная граница изоляции внешних эффектов: Проверенный shadow-режим перехватывает все внешние эффекты и сохраняет сравнимость расчёта.",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Senior: требуется совместить редкую финансовую логику, полноту побочных эффектов, ограниченную наблюдаемость canary и цену архитектурного перехода. Простого выбора малого процента или проверки rollback недостаточно: скрытый результат может всё равно создать второе списание.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Delivery и релизы",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "risk",
+      "systems"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§3.3: dark launch проверяет расчёт на реальном входе без выдачи результата клиенту, но внешние эффекты и двойная нагрузка требуют отдельной защиты; canary может не обнаружить редкий финансовый сценарий."
+  },
+  {
+    "plannedId": "TC-102",
+    "batch": "Batch 04",
+    "block": "B04 — Technical Delivery",
+    "partId": "part-3",
+    "topicId": "t-3-3",
+    "oneSentenceScenarioConcept": "Lead TPM выбирает доказательную схему замены движка комиссий: редкие тарифы не набираются в малой canary за доступное окно, а неверные списания недопустимы; скрытый результат сам по себе не блокирует публикацию платёжных команд. Состояние границы эффектов: Готового shadow-режима нет, но все внешние эффекты проходят через один существующий интерфейс, который можно изолировать за две недели без изменения расчёта.",
+    "decisiveFactsConcept": [
+      "Готового shadow-режима нет, но все внешние эффекты проходят через один существующий интерфейс, который можно изолировать за две недели без изменения расчёта.",
+      "Один Lead TPM, одна цель — проверить редкую финансовую логику без повторных списаний; прежний движок остаётся единственным источником клиентского результата.",
+      "Входной поток, тарифы и правила расчёта одинаковы; сравнение расчётов доступно, миграции данных нет; новая версия не получает право реально списывать деньги до завершения доказательства.",
+      "Резерв мощности для двойного вычисления подтверждён; 1% canary не набирает редкие тарифы в отведённый срок; полный пользовательский запуск до сравнения запрещён.",
+      "Есть бюджет двух недель на ограниченную изоляцию имеющегося интерфейса; выделение нового архитектурного интерфейса займёт шесть недель и требует переноса замены. Перенос разрешён; цена задержки одинакова."
+    ],
+    "oneSentenceDecisionBoundary": "До shadow реализовать изолирующий адаптер на существующей границе внешних эффектов и доказать отсутствие реальных списаний; затем сравнивать расчёты на живом входе.",
+    "domain": "release_engineering",
+    "requiredLevel": "senior",
+    "primaryPattern": "risk-based-testing",
+    "secondaryPatterns": [
+      "safeguards",
+      "feature-flags"
+    ],
+    "structure": "triplet",
+    "scenarioFamilyId": "F-TD-T01",
+    "familyPosition": 2,
+    "decisiveMutationConcept": "Доступная и проверенная граница изоляции внешних эффектов: Готового shadow-режима нет, но все внешние эффекты проходят через один существующий интерфейс, который можно изолировать за две недели без изменения расчёта.",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Senior: требуется совместить редкую финансовую логику, полноту побочных эффектов, ограниченную наблюдаемость canary и цену архитектурного перехода. Простого выбора малого процента или проверки rollback недостаточно: скрытый результат может всё равно создать второе списание.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Delivery и релизы",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "risk",
+      "systems"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§3.3: dark launch проверяет расчёт на реальном входе без выдачи результата клиенту, но внешние эффекты и двойная нагрузка требуют отдельной защиты; canary может не обнаружить редкий финансовый сценарий."
+  },
+  {
+    "plannedId": "TC-103",
+    "batch": "Batch 04",
+    "block": "B04 — Technical Delivery",
+    "partId": "part-3",
+    "topicId": "t-3-3",
+    "oneSentenceScenarioConcept": "Lead TPM выбирает доказательную схему замены движка комиссий: редкие тарифы не набираются в малой canary за доступное окно, а неверные списания недопустимы; скрытый результат сам по себе не блокирует публикацию платёжных команд. Состояние границы эффектов: Часть внешних эффектов идёт в обход доступного интерфейса; их нельзя изолировать конфигурацией или существующим адаптером, сначала нужен новый архитектурный шов.",
+    "decisiveFactsConcept": [
+      "Часть внешних эффектов идёт в обход доступного интерфейса; их нельзя изолировать конфигурацией или существующим адаптером, сначала нужен новый архитектурный шов.",
+      "Один Lead TPM, одна цель — проверить редкую финансовую логику без повторных списаний; прежний движок остаётся единственным источником клиентского результата.",
+      "Входной поток, тарифы и правила расчёта одинаковы; сравнение расчётов доступно, миграции данных нет; новая версия не получает право реально списывать деньги до завершения доказательства.",
+      "Резерв мощности для двойного вычисления подтверждён; 1% canary не набирает редкие тарифы в отведённый срок; полный пользовательский запуск до сравнения запрещён.",
+      "Есть бюджет двух недель на ограниченную изоляцию имеющегося интерфейса; выделение нового архитектурного интерфейса займёт шесть недель и требует переноса замены. Перенос разрешён; цена задержки одинакова."
+    ],
+    "oneSentenceDecisionBoundary": "Отказаться от непосредственного shadow и перенести замену: сначала отделить вычисление от внешних эффектов архитектурно; один флаг скрытия результата не делает двойное выполнение безопасным.",
+    "domain": "release_engineering",
+    "requiredLevel": "senior",
+    "primaryPattern": "risk-based-testing",
+    "secondaryPatterns": [
+      "safeguards",
+      "feature-flags"
+    ],
+    "structure": "triplet",
+    "scenarioFamilyId": "F-TD-T01",
+    "familyPosition": 3,
+    "decisiveMutationConcept": "Доступная и проверенная граница изоляции внешних эффектов: Часть внешних эффектов идёт в обход доступного интерфейса; их нельзя изолировать конфигурацией или существующим адаптером, сначала нужен новый архитектурный шов.",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Senior: требуется совместить редкую финансовую логику, полноту побочных эффектов, ограниченную наблюдаемость canary и цену архитектурного перехода. Простого выбора малого процента или проверки rollback недостаточно: скрытый результат может всё равно создать второе списание.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Delivery и релизы",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "risk",
+      "systems"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§3.3: dark launch проверяет расчёт на реальном входе без выдачи результата клиенту, но внешние эффекты и двойная нагрузка требуют отдельной защиты; canary может не обнаружить редкий финансовый сценарий."
+  },
+  {
+    "plannedId": "TC-110",
+    "batch": "Batch 04",
+    "block": "B04 — Technical Delivery",
+    "partId": "part-10",
+    "topicId": "t-10-1",
+    "oneSentenceScenarioConcept": "Middle TPM видит сервис с локальной памятью сессий, который не масштабируется простым добавлением копий; нагрузка растёт, а состояние можно вынести во внешнее хранилище; нужно решить, покупать ли ещё большие серверы или убрать stateful bottleneck.",
+    "decisiveFactsConcept": [
+      "Состояние хранится локально",
+      "Горизонтальное масштабирование ограничено",
+      "Внешнее хранилище доступно"
+    ],
+    "oneSentenceDecisionBoundary": "Вертикально масштабировать симптом ↔ изменить архитектурное ограничение состояния.",
+    "domain": "technical_delivery",
+    "requiredLevel": "middle",
+    "primaryPattern": "structural-dependency-reduction",
+    "secondaryPatterns": [
+      "bottleneck",
+      "migration-strategy"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Технический TPM",
+    "derivedRuntimePrimaryThinking": "organization",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies",
+      "systems"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-111",
+    "batch": "Batch 04",
+    "block": "B05 — Processes",
+    "partId": "part-4",
+    "topicId": "t-4-3",
+    "oneSentenceScenarioConcept": "Head выбирает последовательность перехода трёх продуктов на LeSS: бюджеты принадлежат шести департаментам, полномочный единый PO не может появиться без решения CFO; ограниченная координация ART уже позволяет выполнить ближайшие квартальные обязательства.",
+    "decisiveFactsConcept": [
+      "LeSS требует общего продуктового backlog и PO с правом отклонять запросы; нынешняя бюджетная модель такого права не даёт.",
+      "Реформа продуктового финансирования требует двух кварталов; запуск обучения LeSS сейчас не меняет права департаментов.",
+      "Head может предложить CFO этапы финансирования трансформации; ближайшие обязательства обеспечиваются текущей облегчённой координацией, её стоимость известна."
+    ],
+    "oneSentenceDecisionBoundary": "Не финансировать немедленное масштабирование LeSS при невыполненной бюджетной предпосылке: разделить инвестицию на продуктовый бюджет/мандат PO и последующий переход, сохранив временную координацию до выполнения условия.",
+    "domain": "organizational_design",
+    "requiredLevel": "head",
+    "primaryPattern": "team-topologies",
+    "secondaryPatterns": [
+      "change-management",
+      "resource-conflict"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Head: выбор последовательности бюджетной и организационной реформы с условием следующей инвестиции; Senior может настроить координацию, но не устранит автономные бюджеты и не утвердит права продуктового владельца.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Процессы",
+    "derivedRuntimePrimaryThinking": "organization",
+    "derivedRuntimeSecondaryThinking": [
+      "organization",
+      "prioritization"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": "Head: выбор последовательности бюджетной и организационной реформы с условием следующей инвестиции; Senior может настроить координацию, но не устранит автономные бюджеты и не утвердит права продуктового владельца.",
+    "authorityScope": "Мандат Head на предложение CFO/правлению продуктового финансирования и этапов инвестиции в трансформацию; бюджеты департаментов не отменяются единолично.",
+    "secondaryEffect": "Сохранить поставку на переходе и не потратить обучение/реорганизацию на конструкцию без реальных полномочий.",
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§4.3 связывает реализуемость LeSS с единым продуктовым бюджетом и полномочным PO; организационные предпосылки должны предшествовать масштабированию фреймворка."
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "verdict": "HARD-TAIL R2 QA PASS",
+  "date": "2026-10-17",
+  "scope": [
+    "TC-270",
+    "TC-275"
+  ],
+  "candidateSHA256": "820f6e0db2273f8d815952f8919d962cb6c8cb534fafa44fc81e777d0e331f2e",
+  "baseSHA256": "5498924e75926d6c315ea54aa4b9456ada0ac9237fe143c8f7404b24c1461d75",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "gates": {
+    "diff": "PASS",
+    "unexpectedChangedRows": 0,
+    "sourceGrounding": {
+      "pass": 2,
+      "fail": []
+    },
+    "levelRealization": {
+      "pass": 2,
+      "fail": []
+    },
+    "decisionBoundary": "PASS",
+    "runtimeSemantics": {
+      "pass": 2,
+      "fail": []
+    },
+    "semanticUniqueness": {
+      "NO CLOSE ANALOG": 0,
+      "ALLOWED REINFORCEMENT": 2,
+      "NEAR DUPLICATE": 0,
+      "DUPLICATE": 0
+    },
+    "familiesUnchanged": "PASS",
+    "allPreviouslyAcceptedUnchanged": "PASS",
+    "allOtherUnresolvedUnchanged": "PASS",
+    "productionUnchanged": "PASS"
+  },
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "severityScope": "New findings within TC270/TC275 focused scope",
+  "inheritedNonBlockingIssues": [
+    {
+      "issueID": "HT1-261-M01",
+      "severity": "Minor",
+      "status": "OPEN / unchanged; outside current scope",
+      "source": "agent-artifacts/qa/manifest-v2.3-hardtail-r1/issues.json"
+    }
+  ],
+  "cumulativeKnownSeverityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 1
+  },
+  "TC217": {
+    "unchanged": true,
+    "unresolved": true,
+    "rejectedDraftNotApplied": true,
+    "routingReconsiderationRecommended": true
+  },
+  "TC292": {
+    "unchanged": true,
+    "unresolved": true,
+    "routingReconsiderationPreserved": true
+  },
+  "candidateAccepted": true,
+  "remainingUnresolved": 74,
+  "remainingUnresolvedIDs": [
+    "TC-126",
+    "TC-127",
+    "TC-128",
+    "TC-129",
+    "TC-130",
+    "TC-133",
+    "TC-134",
+    "TC-135",
+    "TC-145",
+    "TC-146",
+    "TC-151",
+    "TC-152",
+    "TC-153",
+    "TC-156",
+    "TC-157",
+    "TC-159",
+    "TC-171",
+    "TC-176",
+    "TC-177",
+    "TC-178",
+    "TC-179",
+    "TC-180",
+    "TC-188",
+    "TC-191",
+    "TC-193",
+    "TC-200",
+    "TC-204",
+    "TC-205",
+    "TC-206",
+    "TC-207",
+    "TC-210",
+    "TC-212",
+    "TC-217",
+    "TC-220",
+    "TC-221",
+    "TC-223",
+    "TC-226",
+    "TC-227",
+    "TC-228",
+    "TC-229",
+    "TC-230",
+    "TC-231",
+    "TC-232",
+    "TC-233",
+    "TC-234",
+    "TC-238",
+    "TC-239",
+    "TC-242",
+    "TC-243",
+    "TC-251",
+    "TC-252",
+    "TC-253",
+    "TC-254",
+    "TC-255",
+    "TC-256",
+    "TC-259",
+    "TC-260",
+    "TC-263",
+    "TC-265",
+    "TC-266",
+    "TC-267",
+    "TC-271",
+    "TC-272",
+    "TC-278",
+    "TC-279",
+    "TC-282",
+    "TC-283",
+    "TC-284",
+    "TC-289",
+    "TC-292",
+    "TC-294",
+    "TC-296",
+    "TC-298",
+    "TC-299"
+  ],
+  "categoryAStraightRedesignTrack": "CLOSED",
+  "readyForNextHardTailTrack": true,
+  "nextTrackStarted": false,
+  "readyToFreeze": false,
+  "importEligible": false,
+  "productionChanged": false,
+  "inheritanceBase": "agent-artifacts/qa/manifest-v2.3-hardtail-r1/QA-verdict.json",
+  "acceptanceScope": "Two redesigned rows plus unchanged prior accepted lineage.74 unresolved remain unaccepted; inherited nonblocking Minor not silently closed. No freeze/import approval.",
+  "notApplicable": [
+    "full-case blind options",
+    "decisionQuality",
+    "option leakage",
+    "changed-family substantive QA: no changed families"
+  ]
+}

@@ -1,0 +1,366 @@
+[
+  {
+    "plannedId": "TC-088",
+    "batch": "Batch 03",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-3",
+    "oneSentenceScenarioConcept": "PM после второго нарушения письменно согласованной даты смежной командой располагает готовыми вариантами и их ценой: ещё один локальный круг переговоров займёт три дня, а возможность сменить приоритет на уровне владельца закрывается через два; нужно выбрать момент эскалации, не дожидаясь фактического срыва вехи.",
+    "decisiveFactsConcept": [
+      "После первого нарушения были прямой разговор и новая письменная договорённость; второе нарушение уже произошло, веха под угрозой.",
+      "Impact, required date, варианты и decision ask полностью подготовлены и согласованы по фактам; дополнительного расчёта не нужно.",
+      "Следующий локальный круг займёт три дня; владелец может решить вопрос в ближайшие два дня, после чего исполнимый альтернативный план исчезнет."
+    ],
+    "oneSentenceDecisionBoundary": "Продлить локальные переговоры ради отношений и пропустить окно решения ↔ предупредить партнёра и эскалировать готовый выбор сейчас по повторному нарушению договорённости.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "escalation-readiness",
+    "secondaryPatterns": [
+      "required-date",
+      "escalation"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Middle: сопоставить время локальных попыток с окном решения и последствиями для вехи; своевременно задействовать известного владельца, сохранив рабочие отношения и согласованные факты.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-146",
+    "batch": "Batch 05",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-3",
+    "oneSentenceScenarioConcept": "Junior PM трижды напомнил смежной команде, но нужная работа имеет десять дней float и не влияет на обязательства; нужно решить, превращать ли число напоминаний в основание для эскалации.",
+    "decisiveFactsConcept": [
+      "Три напоминания",
+      "Есть десять дней float",
+      "Required date не под угрозой"
+    ],
+    "oneSentenceDecisionBoundary": "Количество писем ↔ реальный impact как основание эскалации.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "junior",
+    "primaryPattern": "escalation-readiness",
+    "secondaryPatterns": [
+      "required-date",
+      "escalation"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-151",
+    "batch": "Batch 06",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-3",
+    "oneSentenceScenarioConcept": "Смежная команда задерживает необходимое решение; прямой разговор состоялся, причина и владелец понятны, а требуемая дата зафиксирована. В этой версии решающий факт: Влияние нерешённой задержки на float до required date: float значительно больше ожидаемой задержки. Под выбором — Оставить вопрос на рабочем уровне и контролировать согласованный срок.",
+    "decisiveFactsConcept": [
+      "Влияние нерешённой задержки на float до required date: float значительно больше ожидаемой задержки",
+      "Одинаковая required date",
+      "Одинаковая причина задержки"
+    ],
+    "oneSentenceDecisionBoundary": "Оставить вопрос на рабочем уровне и контролировать согласованный срок.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "escalation-readiness",
+    "secondaryPatterns": [
+      "required-date",
+      "escalation"
+    ],
+    "structure": "triplet",
+    "scenarioFamilyId": "F-ST-T01",
+    "familyPosition": 1,
+    "decisiveMutationConcept": "Влияние нерешённой задержки на float до required date: float значительно больше ожидаемой задержки",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-152",
+    "batch": "Batch 06",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-3",
+    "oneSentenceScenarioConcept": "Смежная команда задерживает необходимое решение; прямой разговор состоялся, причина и владелец понятны, а требуемая дата зафиксирована. В этой версии решающий факт: Влияние нерешённой задержки на float до required date: float сокращается до размера ожидаемой задержки, но срок ещё можно защитить рабочим решением. Под выбором — Зафиксировать последний рабочий срок решения и заранее определить escalation trigger/decision ask.",
+    "decisiveFactsConcept": [
+      "Влияние нерешённой задержки на float до required date: float сокращается до размера ожидаемой задержки, но срок ещё можно защитить рабочим решением",
+      "Одинаковая required date",
+      "Одинаковая причина задержки"
+    ],
+    "oneSentenceDecisionBoundary": "Зафиксировать последний рабочий срок решения и заранее определить escalation trigger/decision ask.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "escalation-readiness",
+    "secondaryPatterns": [
+      "required-date",
+      "escalation"
+    ],
+    "structure": "triplet",
+    "scenarioFamilyId": "F-ST-T01",
+    "familyPosition": 2,
+    "decisiveMutationConcept": "Влияние нерешённой задержки на float до required date: float сокращается до размера ожидаемой задержки, но срок ещё можно защитить рабочим решением",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-153",
+    "batch": "Batch 06",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-3",
+    "oneSentenceScenarioConcept": "Смежная команда задерживает необходимое решение; прямой разговор состоялся, причина и владелец понятны, а требуемая дата зафиксирована. В этой версии решающий факт: Влияние нерешённой задержки на float до required date: float исчерпан и нерешённый конфликт приоритетов уже угрожает required date. Под выбором — Эскалировать конкретный конфликт приоритетов с вариантами и требуемым решением сейчас.",
+    "decisiveFactsConcept": [
+      "Влияние нерешённой задержки на float до required date: float исчерпан и нерешённый конфликт приоритетов уже угрожает required date",
+      "Одинаковая required date",
+      "Одинаковая причина задержки"
+    ],
+    "oneSentenceDecisionBoundary": "Эскалировать конкретный конфликт приоритетов с вариантами и требуемым решением сейчас.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "escalation-readiness",
+    "secondaryPatterns": [
+      "required-date",
+      "escalation"
+    ],
+    "structure": "triplet",
+    "scenarioFamilyId": "F-ST-T01",
+    "familyPosition": 3,
+    "decisiveMutationConcept": "Влияние нерешённой задержки на float до required date: float исчерпан и нерешённый конфликт приоритетов уже угрожает required date",
+    "trainingEligible": true,
+    "assessmentEligible": false,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": true,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-200",
+    "batch": "Batch 07",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-2",
+    "oneSentenceScenarioConcept": "Junior PM уже подготовил подтверждённую плохую новость с вариантами и выбирает порядок сообщения: лично ключевому получателю перед общей фиксацией или сразу всей рабочей группе.",
+    "decisiveFactsConcept": [
+      "Сдвиг релиза подтверждён владельцами работ. Текст с причинами, влиянием, двумя вариантами и рекомендацией готов; ждать уточнения прогноза не требуется. Спонсор, который принимает решение об объёме, ещё не знает о сдвиге.",
+      "Спонсор доступен для короткого разговора через 15 минут. Следующая общая встреча — завтра, но участвующие команды должны получить письменную фиксацию сегодня; ближайшее зависящее от решения действие начнётся через два часа. Угроза безопасности и необходимость немедленно останавливать работы отсутствуют.",
+      "Есть общий чат на 40 человек и возможность отправить спонсору личное сообщение или позвонить. Содержание новости нельзя смягчать для отдельных получателей; после разговора всем участникам нужна одна согласованная запись фактов, выбранного действия и следующего шага."
+    ],
+    "oneSentenceDecisionBoundary": "Сначала коротко обсудить подготовленную новость и решение со спонсором в доступное ближайшее окно, сразу после разговора письменно зафиксировать ту же фактическую картину и итог для затронутых участников, до начала зависящего действия через два часа. Не заменять личное предупреждение упоминанием спонсора в общей рассылке и не переносить фиксацию до завтрашнего общего статуса.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "junior",
+    "primaryPattern": "communications",
+    "secondaryPatterns": [
+      "expectation-management"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Junior: применить правило последовательности адресной коммуникации и общей фиксации при доступном ключевом получателе. Срок, прогноз и содержание сообщения уже подготовлены; строить стратегию эскалации, выбирать экономический вариант или балансировать взаимоисключающие сроки не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "t-6-2, «Форма и канал»: первое сообщение лично или голосом ключевому стейкхолдеру, затем письменная фиксация; не сообщать о срыве в общем чате раньше спонсора. Это порядок коммуникации уже подготовленной новости, не повтор выбора момента сообщения или точности прогноза в TC015/056/057. Временные окна и доступность получателя — условия авторского сценария."
+  },
+  {
+    "plannedId": "TC-216",
+    "batch": "Batch 08",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-1",
+    "oneSentenceScenarioConcept": "Junior PM составляет stakeholder map для проекта с регулятором, внутренним спонсором и операционной командой; регулятор имеет высокую власть, но взаимодействует только в контрольных точках; нужно решить, кому нужен плотный ежедневный контакт.",
+    "decisiveFactsConcept": [
+      "Власть и интерес различаются",
+      "Есть редкие формальные внешние точки",
+      "Операционная команда вовлечена ежедневно"
+    ],
+    "oneSentenceDecisionBoundary": "Частота коммуникации по статусу ↔ стратегия контакта по власти и интересу.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "junior",
+    "primaryPattern": "communications",
+    "secondaryPatterns": [
+      "external-contact"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-224",
+    "batch": "Batch 08",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-5",
+    "oneSentenceScenarioConcept": "Junior coordinator работает с распределённой командой: решение по API принято на встрече в одном часовом поясе, половина команды не присутствовала и на следующий день трактует его иначе; нужно решить, достаточно ли устной синхронизации.",
+    "decisiveFactsConcept": [
+      "Команда распределена по часовым поясам",
+      "Решение влияет на несколько команд",
+      "Письменной фиксации нет"
+    ],
+    "oneSentenceDecisionBoundary": "Устная договорённость ↔ асинхронно доступная фиксация решения и owner.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "junior",
+    "primaryPattern": "communications",
+    "secondaryPatterns": [
+      "dependency-management"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно распознать явное ограничение или базовый следующий шаг; проектировать систему управления не требуется.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-289",
+    "batch": "Batch 11",
+    "block": "B06 — Stakeholders",
+    "partId": "part-6",
+    "topicId": "t-6-3",
+    "oneSentenceScenarioConcept": "Middle PM имеет нерешённый конфликт приоритета: обе команды согласны с фактами, требуемая дата завтра, а решение может принять только общий руководитель; нужно решить форму эскалации.",
+    "decisiveFactsConcept": [
+      "Факты согласованы",
+      "Required date завтра",
+      "Authority находится у общего руководителя"
+    ],
+    "oneSentenceDecisionBoundary": "Просьба «разберитесь» ↔ конкретные варианты, цена каждого и точный decision ask.",
+    "domain": "stakeholder_communication",
+    "requiredLevel": "middle",
+    "primaryPattern": "escalation-readiness",
+    "secondaryPatterns": [
+      "required-date",
+      "escalation"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно сопоставить несколько рабочих ограничений, зависимостей или ресурсов и выбрать управляемый trade-off.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Стейкхолдеры",
+    "derivedRuntimePrimaryThinking": "stakeholders",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies",
+      "stakeholders"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  }
+]

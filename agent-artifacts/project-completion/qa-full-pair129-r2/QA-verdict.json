@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "scope": "Independent focused full-case R2 content acceptance",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pair-129-130-r2/cases.json",
+  "candidateSHA256": "d7554d453712e5548387891b31ffe858fb9aa16a13aa21f70c7f867adfbd3203",
+  "projectionSHA256": "e1d4f1470d1196c4afe03605c8101e1335efcdead4033cfa59cd32a6e4e987b2",
+  "acceptedFamilyID": "F-DM-P02",
+  "acceptedCaseIDs": [
+    "TC-129",
+    "TC-130"
+  ],
+  "priorVerdict": "agent-artifacts/project-completion/qa-full-pair129/QA-verdict.json",
+  "priorVerdictSHA256": "a1d5c0de7174909853f1cd377978b7e0ea4578205a2c1b8a15dca177d89c4f1f",
+  "priorCandidateSHA256": "6879fc6d3c75b6c0a0bc6034e760791a20c3f498fb53a3495514d22dfc42ee3d",
+  "gates": {
+    "blind": "A/B, runners B/C, high confidence; captured before opening the key.",
+    "family": "Only cancellation fee changes: 9 to 60. Income, cost, 40% success, 2 test fee, timing and quality invariant; reservation separate from learning.",
+    "economics": "A=38−0.6f, B=26, C=4, D=0. At 9: A32.6>B26>C4>D0. At 60: B26>C4>A2>D0. Partial grades and explanations agree; A and B tie only at f=20. TC130 explicitly notes equivalence of canceling and building after failure.",
+    "sourceLevel": "§13.2 gives the cheap informative test before development; case supplies measured economics. Middle must compare conditional expenditures and loss from waiting, within one sponsor decision. Projection classification and eligibility match.",
+    "duplicationSurface": "Intentional controlled pair: same neutral title, four identical choices, different keys. TC033/034 changes the learning pilot itself; here both tested plans obtain identical evidence. TC211 uses imperfect signal.",
+    "runtime": {
+      "issues": [],
+      "runtime": "PASS",
+      "schema": "PASS"
+    },
+    "exactDelta": "Only two revision increments plus A/B/D WHEN for each sibling. All other bytes unchanged.",
+    "wholeOptionWhen": "Fixed other inputs: A wins for 0.6f<12, B for 0.6f>12, A=B on f=20. D now excludes direct development and both tested plans when its zero payoff is maximal. C remains valid at high demand probability."
+  },
+  "resolvedIssueIDs": [
+    "129130-A-WHEN",
+    "129130-B-WHEN",
+    "129130-D-WHEN"
+  ],
+  "remainingIssueIDs": [],
+  "issues": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "importEligible": false,
+  "importScope": "Training-only content accepted as a pair. Freeze and production integration outside scope."
+}

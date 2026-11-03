@@ -1,0 +1,24 @@
+Loaded test phase 0
+["ok": 0, "error": Error: anchor positioned below header, "checks": <__NSArrayM 0xb8da61cb0>(
+129 topics,
+no horizontal page overflow,
+header does not overlap text,
+focused menu lands on requested t-10-3,
+focus leaves closed menu t-10-3,
+requested topic persisted t-10-3,
+focused menu lands on requested t-11-4,
+focus leaves closed menu t-11-4,
+requested topic persisted t-11-4,
+focused menu lands on requested t-10-4,
+focus leaves closed menu t-10-4,
+requested topic persisted t-10-4,
+focused menu lands on requested t-1-1,
+focus leaves closed menu t-1-1,
+requested topic persisted t-1-1,
+menu traps reading interaction,
+search has no iOS focus zoom trigger,
+search finds GenAI topic,
+menu closes after navigation,
+navigation scrolls reader only: 39977 / 0
+)
+]

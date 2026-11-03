@@ -1,0 +1,1 @@
+Isolated full-case candidate from accepted blueprint. Source is the complete topic in reconstruction directory; authoritative input hashes attached. Independent blind review, whole-option WHEN, score ordering, source/level/duplicates/surface and real Swift decoding required. No production changes, no import approval.

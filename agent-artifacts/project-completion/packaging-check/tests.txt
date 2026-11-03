@@ -1,0 +1,11 @@
+test_appledouble_removed_and_source_untouched (test_sidestore_packaging.PackagingTests.test_appledouble_removed_and_source_untouched) ... ok
+test_ascii_base_and_preserved_localization_keys (test_sidestore_packaging.PackagingTests.test_ascii_base_and_preserved_localization_keys) ... ok
+test_does_not_overwrite_existing_release (test_sidestore_packaging.PackagingTests.test_does_not_overwrite_existing_release) ... ok
+test_refuses_output_inside_source (test_sidestore_packaging.PackagingTests.test_refuses_output_inside_source) ... ok
+test_simulator_rejected_before_binary_inspection (test_sidestore_packaging.PackagingTests.test_simulator_rejected_before_binary_inspection) ... ok
+test_symlink_and_signing_resources_rejected (test_sidestore_packaging.PackagingTests.test_symlink_and_signing_resources_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK

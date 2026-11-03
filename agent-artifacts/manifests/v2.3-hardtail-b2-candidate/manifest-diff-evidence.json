@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "base": "v2.3-hardtail-b1-candidate",
+  "baseSHA256": "e33426000f6cdd4bfc638278432fafc4c6989c778c587609f21a8b40f7c3e2c6",
+  "changedRows": [],
+  "unchangedRows": 275,
+  "changedFamilies": [],
+  "unchangedFamilyContracts": 43,
+  "unexpectedChangedRows": 0,
+  "unexpectedFamilyChanges": 0,
+  "reopenedAcceptedMembers": [],
+  "F_TD_P03Unchanged": true,
+  "F_PE_T01Unchanged": true,
+  "allPreviouslyAcceptedUnchanged": true,
+  "allOtherUnresolvedUnchanged": true,
+  "protectedRows": {
+    "TC-214": "UNCHANGED",
+    "TC-261": "UNCHANGED",
+    "TC-270": "UNCHANGED",
+    "TC-275": "UNCHANGED",
+    "TC-217": "UNCHANGED",
+    "TC-292": "UNCHANGED",
+    "TC-235": "UNCHANGED",
+    "TC-176": "UNCHANGED",
+    "TC-177": "UNCHANGED",
+    "TC-178": "UNCHANGED",
+    "TC-253": "UNCHANGED",
+    "TC-254": "UNCHANGED"
+  },
+  "productionUnchanged": true,
+  "productionSHA256": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "headAuditUnchanged": true,
+  "coverageUnchangedVerifiedByRecalculation": true,
+  "changedTopLevelMetadataOnly": [
+    "manifestVersion",
+    "freezeProvenance",
+    "hardtailB2Revision"
+  ],
+  "note": "Empty change-log intentionally contains header only; rejected drafts are not manifest changes."
+}

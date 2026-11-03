@@ -1,0 +1,23 @@
+{
+  "unresolvedInput": 72,
+  "classified": 72,
+  "missing": 0,
+  "duplicates": 0,
+  "onePrimaryTreatmentPerID": true,
+  "atomicUnresolvedCoverageExactlyOnce": true,
+  "candidateChanged": false,
+  "productionChanged": false,
+  "noNewCandidateCreated": true,
+  "noReconstructionUnitStarted": true,
+  "status": "PASS — planning sanity",
+  "readyForUnifiedReconstructionExecution": true,
+  "contentAcceptance": "NOT CLAIMED",
+  "primaryTreatmentCounts": {
+    "R6": 22,
+    "R4": 18,
+    "R2": 9,
+    "R3": 20,
+    "R1": 1,
+    "R5": 2
+  }
+}

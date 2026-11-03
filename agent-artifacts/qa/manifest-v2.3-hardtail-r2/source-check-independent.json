@@ -1,0 +1,15 @@
+{
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "completeTopics": {
+    "t-9-4": {
+      "normalizedCharacters": 20221,
+      "normalizedSHA256": "e4bfaf08a4b1986500b1bde083a2f4b86ac493a2794c0091f4931874c679f0c3",
+      "readTextMatchesAuthoritativeHTML": true
+    },
+    "t-8-4": {
+      "normalizedCharacters": 19730,
+      "normalizedSHA256": "e8cb63c38c20ae1d99812f5d0b7855a1a3a3577c170762e70c284711c1aa2fc0",
+      "readTextMatchesAuthoritativeHTML": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "allInputHashesMatch": true,
+  "completeTopicsReadOnce": [
+    "t-2-6",
+    "t-3-7",
+    "t-10-4"
+  ],
+  "sourceHashes": {
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-3-7.txt": "43eee3421779b920753f39cd84ba7d82a0bde637d8af6865c2fd162e5f9333c0",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-2-6.txt": "bf8090d91def4ebe4b6494ea9724fe29e296ee0d8c3e65ea6e1f2536eb8f3b42",
+    "agent-artifacts/test-bank/full-cases/pack-104-109/source-t-10-4.txt": "bce771ddc6f30526d9134fa803a81cd631ebb25aa30808733ef0ddce1bf31109"
+  },
+  "scope": "Entire supplied source texts including theory, levels, examples, all cases, antipatterns, interview questions and self-checks. Truncated combined outputs were supplemented by explicit reads. No broader project rescan.",
+  "analogScope": {
+    "plannedDossierRows": 102,
+    "productionDossierCases": 27,
+    "plannedReview": "Same-topic concepts and boundaries; all remaining supplied planned decision boundaries screened. Nearest analog distinctions recorded per case.",
+    "productionReview": "All27 contexts/questions/options screened; truncated range expanded separately.",
+    "limitations": "Planned analogs are concepts, not approvals of their future full realizations. No blanket full-bank re-review claimed."
+  }
+}

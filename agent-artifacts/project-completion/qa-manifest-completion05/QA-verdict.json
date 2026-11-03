@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "scope": "Independent cumulative manifest merge and actual Swift coverage verification. Working authoring base and scoped Batch 05 preparation only.",
+  "candidatePath": "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json",
+  "candidateSHA256": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+  "acceptedAsWorkingBase": true,
+  "readyToFreeze": false,
+  "importEligible": false,
+  "changedRows": [
+    "TC-129",
+    "TC-130",
+    "TC-133",
+    "TC-134",
+    "TC-135",
+    "TC-145"
+  ],
+  "unchangedRows": 269,
+  "changedFamilies": [
+    "F-DM-P02",
+    "F-PO-P02"
+  ],
+  "unchangedFamilies": 41,
+  "changedCompactDesigns": [
+    "F-DM-P02",
+    "F-PO-P02"
+  ],
+  "remainingUnresolvedIDs": [
+    "TC-151",
+    "TC-152",
+    "TC-153",
+    "TC-156",
+    "TC-157",
+    "TC-159",
+    "TC-171",
+    "TC-176",
+    "TC-177",
+    "TC-178",
+    "TC-179",
+    "TC-180",
+    "TC-188",
+    "TC-191",
+    "TC-204",
+    "TC-205",
+    "TC-206",
+    "TC-207",
+    "TC-210",
+    "TC-212",
+    "TC-217",
+    "TC-220",
+    "TC-221",
+    "TC-223",
+    "TC-226",
+    "TC-227",
+    "TC-228",
+    "TC-229",
+    "TC-230",
+    "TC-231",
+    "TC-232",
+    "TC-233",
+    "TC-234",
+    "TC-238",
+    "TC-239",
+    "TC-242",
+    "TC-243",
+    "TC-251",
+    "TC-252",
+    "TC-255",
+    "TC-256",
+    "TC-259",
+    "TC-260",
+    "TC-263",
+    "TC-265",
+    "TC-266",
+    "TC-267",
+    "TC-271",
+    "TC-278",
+    "TC-279",
+    "TC-282",
+    "TC-283",
+    "TC-284",
+    "TC-289",
+    "TC-292",
+    "TC-294",
+    "TC-296",
+    "TC-298",
+    "TC-299"
+  ],
+  "remainingUnresolved": 59,
+  "gates": {
+    "projectionMerge": "Exact match for six independently accepted rows, two whole families and two compact designs. Identical order and membership; both CSVs agree field by field, including nested JSON and eligibility.",
+    "unresolved": "65 accepted C04 unresolved minus exactly six reconstructed IDs. No extra exclusions.",
+    "runtime": "Reconstructed the 300 inputs from current production gold and approved C05 rows; real production125 agrees on every mapping input. Compiled the current production model/mapping/engine with ScoringFixtures and RuntimeAudit, repeated 300 impulses, reproduced published output and all seven pool aggregates. Exactly TC-135 changes from C04.",
+    "head": "Identical to independently reproduced prior baseline: 200 eligible items, eight breadth domains, no excluded metadata; maximum synthetic Head. This is structural reachability under perfect responses."
+  },
+  "TC135": {
+    "old": {
+      "id": "TC-135",
+      "normalizedWeights": {
+        "dependencies": 0.25,
+        "organization": 0.5,
+        "prioritization": 0.25
+      },
+      "primaryThinking": "organization",
+      "secondaryThinking": [
+        "dependencies",
+        "prioritization"
+      ],
+      "uiDomain": "processes",
+      "uiDomainTitle": "Процессы"
+    },
+    "new": {
+      "id": "TC-135",
+      "normalizedWeights": {
+        "organization": 1
+      },
+      "primaryThinking": "organization",
+      "secondaryThinking": [],
+      "uiDomain": "processes",
+      "uiDomainTitle": "Процессы"
+    }
+  },
+  "headFeasibility": {
+    "breadthDomains": [
+      "project",
+      "processes",
+      "stakeholders",
+      "people",
+      "finance",
+      "portfolio",
+      "technical",
+      "product"
+    ],
+    "breadthMet": true,
+    "eligibleCount": 200,
+    "excludedMetadataCount": 0,
+    "headDomainEvidence": 3,
+    "maximumSyntheticLevel": "head",
+    "minimumLevelEvidence": 5,
+    "note": "Synthetic perfect responses test structural feasibility only, not learner proficiency."
+  },
+  "remainingIssueIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "inputs": {
+    "agent-artifacts/manifests/v2.3-completion-04-candidate/production_manifest_masterplan_v2_3_completion_04_candidate.json": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+    "agent-artifacts/test-bank/reconstruction/f-dm-p02-completion05/proposed-projection.json": "e1d4f1470d1196c4afe03605c8101e1335efcdead4033cfa59cd32a6e4e987b2",
+    "agent-artifacts/project-completion/qa-blueprint-f-dm-p02/QA-verdict.json": "29d97bca5d5bc029ac7665f72c44f98d05f327adfa887c8893c8b0c2e3c7e79d",
+    "agent-artifacts/test-bank/reconstruction/f-po-p02-completion05-r2/proposed-projection.json": "16c9a40e00b05aec0966043139d8fe17147dd6832e677cab87b055f067900acc",
+    "agent-artifacts/project-completion/qa-blueprint-f-po-p02-r2/QA-verdict.json": "b170bc53b7f3b48a75afb977a7e02b8029e1b1175ec841422893ef5efaeb1604",
+    "agent-artifacts/test-bank/reconstruction/junior-135-145-c05-r2/proposed-projection.json": "67aec7c1e6e795a9d814ab905ae3e7b530c7c7d82f7421bdf7bba3b724395df2",
+    "agent-artifacts/project-completion/qa-blueprint-junior135145-r2/QA-verdict.json": "ed7b797127d42443d60547078fc502ae7f3799817ac9bd4ac189cc8edf5564bf",
+    "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4",
+    "Tests/ScoringFixtures.swift": "735789c248bacbcee3bcd82a2f46ee1d57bddeeca37badc95eb703ddd3035c5c",
+    "agent-artifacts/work-imports/manifest-v2.2.3-freeze/RuntimeAudit.swift": "19d0c899cc886c67bdd3e040763aa524ba0b7211173b968071d51db19682e02e",
+    "agent-artifacts/project-completion/qa-manifest-completion04/QA-verdict.json": "ba6d787c3a1fa2dbf51f9d581f15d520eaeab3b6c52d3c93283d3d59a2ebff32",
+    "InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da"
+  },
+  "outputHashes": {
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/input-hashes.json": "88f3a0defd0c3b2adb2d0e2e7f38f401c0cefe4569f6116e3351a3dcbc0edbf1",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/linked_family_manifest_v2_3_completion_05_candidate.csv": "a2c21fd13ad4252f26e55f7f59921c1c470c339973cf84cd246c2a2a3a0c4fdc",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_TC026_TC300_v2_3_completion_05_candidate.csv": "4818474f05e8fb6f146f4f51632038209a2ffbe267ee6f8466608400657b0cbf",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/production_manifest_masterplan_v2_3_completion_05_candidate.json": "525db7fbcea72fb3e65ccb537696db28ba041a7b017d625256d86b04aaf5c143",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/runtime-input.json": "b3925a67c4b587e15782064157351e81c87cebfc7508200c0e02cd042554495b",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/runtime-output.json": "1a1c54c700e02db43d179bf9674da936dc44fb15bc9af31693bb1dc34e4531cd",
+    "agent-artifacts/manifests/v2.3-completion-05-candidate/runtime_coverage_v2_3_completion_05_candidate.json": "6ef035715fa024c98a7570333eaac30400b230b757f08563a96c8661698a254b",
+    "/Users/denis/.codex/.chatgpt-projects/g-p-6ab2d0e595d0819198b17a9dbcd2a4d2/syllabus/agent-artifacts/project-completion/qa-manifest-completion05/runtime-reproduced.json": "1a1c54c700e02db43d179bf9674da936dc44fb15bc9af31693bb1dc34e4531cd"
+  },
+  "productionChanged": false,
+  "limitations": [
+    "No global freeze or import. This audit addresses cumulative blueprint and structural scoring coverage; release of any batch additionally requires its full-case QA and application regression."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "derivedAndCoverageErrors": [],
+  "unknownCodes": [],
+  "artifactHashErrors": [],
+  "contextPackSourceHashErrors": [],
+  "familyStructureErrors": [],
+  "compiledAuthoritativeSwift": true,
+  "coveragePoolsRecomputed": [
+    "gold",
+    "new",
+    "all300",
+    "newAssessment",
+    "assessment200",
+    "currentProduction100",
+    "changedScope15"
+  ],
+  "runtimeCoverageEqualsMaster": true,
+  "packUsage": "Baseline comparison shortlist/source only; changed candidate read directly; pack manifestVersion label2.2.2-frozen is stale but hash binds authoritative v2.2.3, which is verified."
+}

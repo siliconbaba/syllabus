@@ -1,0 +1,16 @@
+{
+  "blind-choice.json": "b1ac174d18f9cc5d26cf52ceb27d391b34203e994484dedf4665e677f8f65adb",
+  "source-verification.json": "94d418875b522ee25f9299ca9857893899c76859e7eeb50d5b5477444cfae2cf",
+  "input-hashes.json": "a787845093628335380d572691e7c711768d58951465eb148cc996eab24473e2",
+  "surface-78-rule-evidence.json": "7d772d586b5b4658dce830597af145b0deef4dd52e5aad619f365e71f51587d8",
+  "runtime-vocabulary.json": "bcee01dcecc36eaea05e4f967f4b1980c68f0e04c27f90627bee4c42cc7208ae",
+  "pairwise-and-counterfactuals.json": "1d78181001e794a04adcbe4f5a5bd7c6221482f65cc9b084b7b2ad6fd77df5ab",
+  "metadata-and-surface.json": "2da2163aad1900150edc4209c4e98f1debabe6ac76c4731c36ebc723476bb51e",
+  "QA-verdict.json": "822e72ffe7152dccc109c9c4f8b292f7e85e1671842391231f6e0ae5e95ef95b",
+  "issues.json": "c060016b4539315a7e8242b759021d294eead9d324be16c1ffaa60f643a68703",
+  "analog-evidence.json": "d68c262858d74b4c1e30fb803145e0a9e05ed0ae3e53ba84e7380508a7b99202",
+  "runtime-loader.json": "08c2d82d9e0cbe3db703ca8e4b4321cd538d17556af0f3f9d82352678f8d6b7f",
+  "retrieval.json": "70708cf609d43a17bd232ea3d66b5cfb6c24c2c20dcc547058d52671f266b94b",
+  "mandatory-analog-rows.json": "a832a12ae1c682c1307ab23bc03cad49e407d0a5fbbeb3cd9362e2c9c4f48a39",
+  "QA-report.md": "f29f4c1aba984dd6c71ba3b91acde4a29b0ed1bb8631e6b40666661546a8efee"
+}

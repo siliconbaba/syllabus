@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "bounded rendering preflight and explicit headless-mode review",
+  "compile": "PASS",
+  "occludedRuntimeClassification": "PASS",
+  "runtimeExit": 2,
+  "elapsedSeconds": 21.7,
+  "positiveVisibleRuntime": "NOT_RUN",
+  "fullWebKitRegression": "NOT_RUN",
+  "headlessSuiteExecution": "primary-owned, not repeated",
+  "remainingBlockingFindings": 0,
+  "sourceHashes": {
+    "Tests/WebKitSmoke.swift": "ab244e106c9e123b91a7bc3ef224809521ba77c1a74a620042b1feaba11bd5cf",
+    "scripts/check.sh": "96ca4907356f2f778aa6bfc626114b07414e4c8026b0870dd395e30ac5fe1660"
+  },
+  "productionChangesByReviewer": false
+}

@@ -1,0 +1,61 @@
+{
+  "verdict": "NOT READY",
+  "reviewDate": "2026-10-08",
+  "casesChecked": 25,
+  "severityCounts": {
+    "BLOCKER": 1,
+    "MAJOR": 4,
+    "MINOR": 0
+  },
+  "uniqueStrongest": 25,
+  "sourceGrounded": 25,
+  "manifestConceptMetadataAligned": 25,
+  "manifestLevelRealizationAligned": 21,
+  "seniorRealized": 2,
+  "seniorTotal": 6,
+  "seniorIndependentDesignsRealized": 2,
+  "seniorIndependentDesignsTotal": 4,
+  "headRealized": 3,
+  "headTotal": 3,
+  "linkedMutationFamiliesPass": 4,
+  "linkedFamiliesTotal": 4,
+  "bestSimpleSurfaceHeuristicHits": 11,
+  "bestSingleFeatureHits": 9,
+  "surfaceLeakage": "PASS",
+  "correctPositions": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 7
+  },
+  "crossBank": {
+    "allowedReinforcementCases": 21,
+    "nearDuplicateCases": 1,
+    "duplicateCases": 1,
+    "noCloseMatchCases": 2,
+    "unit": "candidate cases, one representative comparison per case; not independent psychometric observations"
+  },
+  "casesRequiringFixes": [
+    "TC-051",
+    "TC-052",
+    "TC-053",
+    "TC-068",
+    "TC-074",
+    "TC-075"
+  ],
+  "familiesRequiringFixes": [
+    "F-DM-T01"
+  ],
+  "schemaRuntime": "PASS",
+  "workImport": "NO",
+  "reason": "Senior realization fails in 4/6 labeled cases (2/4 independent Senior designs); an assessment-eligible exact diagnostic duplicate and a near duplicate also require correction. Controlled mutations and source grounding pass.",
+  "candidateModified": false,
+  "productionImported": false,
+  "batch03Started": false,
+  "inputHashes": {
+    "agent-artifacts/test-bank/batch-02/cases_TC051_TC075.json": "24f161737357cd5e9b233f7015627b0040d856148c56e671a7c33018ead8881d",
+    "InteractiveBook/TrainerContent/cases.json": "a16c00b2be4d2d841b401ce15a076320b6a7c33f91a0b7a077b7d80d86800dcc",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "agent-artifacts/manifests/v2.2/production_manifest_masterplan_v2_2.json": "f8824c2e98819a4f2a97e26f67a2d27291a8e10ddb1c37bee1d950ffda7d732b"
+  }
+}

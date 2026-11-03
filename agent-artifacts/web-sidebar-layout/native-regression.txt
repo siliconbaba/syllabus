@@ -1,0 +1,82 @@
+Loaded test phase 0
+["ok": 1, "checks": <__NSArrayM 0x835970660>(
+129 topics,
+no horizontal page overflow,
+header does not overlap text,
+focused menu lands on requested t-10-3,
+focus leaves closed menu t-10-3,
+requested topic persisted t-10-3,
+focused menu lands on requested t-11-4,
+focus leaves closed menu t-11-4,
+requested topic persisted t-11-4,
+focused menu lands on requested t-10-4,
+focus leaves closed menu t-10-4,
+requested topic persisted t-10-4,
+focused menu lands on requested t-1-1,
+focus leaves closed menu t-1-1,
+requested topic persisted t-1-1,
+menu traps reading interaction,
+search has no iOS focus zoom trigger,
+search finds GenAI topic,
+menu closes after navigation,
+navigation scrolls reader only: 474960 / 0,
+anchor positioned below header,
+heading and studied control are stacked,
+progress updates,
+answer expands,
+answer collapses,
+filter selected,
+other levels hidden,
+dark mode toggles,
+reading position does not jump,
+position persisted within topic
+)
+]
+Loaded test phase 1
+["ok": 1, "checks": <__NSArrayM 0x8359ac090>(
+reading position,
+studied,
+checklist,
+expanded answer,
+theme
+)
+, "restoredOffset": 322.640625]
+PASS: WebKit integration and native-state restoration
+Loaded test phase 2
+["ok": 1, "saved": 1]
+PASS: saved selection, bridge, persistence and source navigation
+Loaded test phase 3
+["ok": 1, "gestures": 1]
+PASS: edge navigation and menu gestures, cancellation and conflict guards
+Loaded test phase 4
+["ok": 1, "checks": <__NSArrayM 0x8359aed00>(
+new book title,
+exactly 100 questions,
+300 full answer variants,
+seven merged cases,
+deep link opens question,
+PMBOK tab filters answer,
+answer mode persisted,
+new answer supports Saved selection,
+selected paragraph shares TTS semantic ID,
+question prompt included in speech,
+inactive answer excluded from speech,
+saved source reveals inactive answer,
+Saved restores correct variant,
+ungraded bank remains visible for Junior,
+ungraded bank remains visible for Head,
+global search finds full text inside closed detailed answer,
+search result opens matching answer,
+search result closes menu,
+printing expands answers,
+printing restores disclosure state,
+diagram scroll is local on mobile,
+diagrams do not overflow page,
+offline responsive SVG diagrams,
+diagram has spoken text description,
+visual legends excluded from speech,
+trainer entry in sidebar,
+trainer entry preserves reader position
+)
+]
+PASS: integrated content, answer tabs, search, diagram layout and speech

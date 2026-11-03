@@ -1,0 +1,50 @@
+[
+  {
+    "actual" : "junior",
+    "breadthDomains" : [
+
+    ],
+    "breadthMet" : false,
+    "count" : 32,
+    "expected" : "junior"
+  },
+  {
+    "actual" : "middle",
+    "breadthDomains" : [
+
+    ],
+    "breadthMet" : false,
+    "count" : 131,
+    "expected" : "middle"
+  },
+  {
+    "actual" : "senior",
+    "breadthDomains" : [
+      "project",
+      "processes",
+      "stakeholders",
+      "portfolio",
+      "technical",
+      "product"
+    ],
+    "breadthMet" : true,
+    "count" : 177,
+    "expected" : "senior"
+  },
+  {
+    "actual" : "head",
+    "breadthDomains" : [
+      "project",
+      "processes",
+      "stakeholders",
+      "people",
+      "finance",
+      "portfolio",
+      "technical",
+      "product"
+    ],
+    "breadthMet" : true,
+    "count" : 200,
+    "expected" : "head"
+  }
+]

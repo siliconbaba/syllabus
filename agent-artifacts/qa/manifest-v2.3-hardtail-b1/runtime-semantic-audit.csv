@@ -1,0 +1,5 @@
+plannedId,role,pattern,category,concreteDecisionEvidence,semanticVerdict,derivedMapping
+TC-253,primary,bottleneck,dependencies,"Отклонить локальное усиление review за счёт downstream и купить независимую мощность; оценить выход обеих стадий, а не12 прошедших review.",PASS,PASS
+TC-253,secondary,process-economics,proportionality,Сравнить120 внешнего с160 ограниченного входа и320 внутреннего с переносами на одном горизонте; выбрать меньшую полную цену.,PASS,PASS
+TC-254,primary,bottleneck,dependencies,Выделить именно независимый резерв и согласовать вход10→12 при сохранении следующей стадии12; завершения ограничиваются текущим минимумом обеих стадий.,PASS,PASS
+TC-254,secondary,process-economics,proportionality,Принять2 отсрочки стоимостью40 и назначение40 вместо внешнего120: подготовительная неделя включена в полную цену.,PASS,PASS

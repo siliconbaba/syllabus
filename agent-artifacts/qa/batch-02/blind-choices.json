@@ -1,0 +1,105 @@
+{
+  "method": "Read only context/question/option.text for all 25 before keys or author reports.",
+  "choices": {
+    "TC-051": {
+      "predictedStrongest": "C",
+      "unique": true
+    },
+    "TC-052": {
+      "predictedStrongest": "A",
+      "unique": true
+    },
+    "TC-053": {
+      "predictedStrongest": "D",
+      "unique": true
+    },
+    "TC-054": {
+      "predictedStrongest": "B",
+      "unique": true
+    },
+    "TC-055": {
+      "predictedStrongest": "C",
+      "unique": true
+    },
+    "TC-056": {
+      "predictedStrongest": "A",
+      "unique": true
+    },
+    "TC-057": {
+      "predictedStrongest": "C",
+      "unique": true
+    },
+    "TC-058": {
+      "predictedStrongest": "A",
+      "unique": true
+    },
+    "TC-059": {
+      "predictedStrongest": "D",
+      "unique": true
+    },
+    "TC-060": {
+      "predictedStrongest": "B",
+      "unique": true
+    },
+    "TC-061": {
+      "predictedStrongest": "D",
+      "unique": true
+    },
+    "TC-062": {
+      "predictedStrongest": "A",
+      "unique": true
+    },
+    "TC-063": {
+      "predictedStrongest": "C",
+      "unique": true
+    },
+    "TC-064": {
+      "predictedStrongest": "B",
+      "unique": true
+    },
+    "TC-065": {
+      "predictedStrongest": "D",
+      "unique": true
+    },
+    "TC-066": {
+      "predictedStrongest": "C",
+      "unique": true
+    },
+    "TC-067": {
+      "predictedStrongest": "A",
+      "unique": true
+    },
+    "TC-068": {
+      "predictedStrongest": "D",
+      "unique": true
+    },
+    "TC-069": {
+      "predictedStrongest": "B",
+      "unique": true
+    },
+    "TC-070": {
+      "predictedStrongest": "A",
+      "unique": true
+    },
+    "TC-071": {
+      "predictedStrongest": "D",
+      "unique": true
+    },
+    "TC-072": {
+      "predictedStrongest": "C",
+      "unique": true
+    },
+    "TC-073": {
+      "predictedStrongest": "B",
+      "unique": true
+    },
+    "TC-074": {
+      "predictedStrongest": "D",
+      "unique": true
+    },
+    "TC-075": {
+      "predictedStrongest": "B",
+      "unique": true
+    }
+  }
+}

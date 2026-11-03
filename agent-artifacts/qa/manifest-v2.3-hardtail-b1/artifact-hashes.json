@@ -1,0 +1,16 @@
+{
+  "QA-report.md": "742cd84643b489005e944c01e48c775d41a897d06acdbf96ce301bcf5d939262",
+  "QA-verdict.json": "197f5af2f09988f0dcab53a1744836124524a2228857940975770d092180542e",
+  "duplication-audit-independent.csv": "2c68893cb0af24ed457bfa31e87adc1d337d8528482ef6626cc0d2cd59222111",
+  "family-verdict.json": "313d2bb996a55446a99942b9b132d81eb7210b890e14fc3697548591e93aba1c",
+  "input-hashes-independent.json": "0f14d183468e593d6545e4af7c363b1cdd4ef0d045270dd33579c7b3aef91b2c",
+  "level-audit.csv": "7b12dca923b52ebe4291307d62d8ec342cfd191e593cf6347e030c5bda45ab65",
+  "manifest-diff-evidence.json": "8f05e83ed6e65c633ee936085bbfd4a409f808d1f42147105d62d8107c2b79df",
+  "retrieval-independent.json": "5bc91ae63aae6f2b829f409e546eb38518f97a4a18490ab5ad3d1d968d657a4a",
+  "row-verdicts.csv": "726e58c6b7dbe67e0dcc47ed2063292cea377e2d7dd7a54dd56c28600a85de1a",
+  "runtime-check-independent.json": "c429855da99dbd461c9758c540b48f091d7dbb18b27abd3b71b961d7b2fe978b",
+  "runtime-mapping-independent.json": "bcee01dcecc36eaea05e4f967f4b1980c68f0e04c27f90627bee4c42cc7208ae",
+  "runtime-semantic-audit.csv": "5675efc9b38d287e490b1ec69d2f53004a9478ca732cb3b08d7a9a3208594892",
+  "source-check-independent.json": "5c0a08a72b358be10176082618a3f08f1d050351a777de2c5ba11e05dcfe0f38",
+  "validation-summary.json": "7887824e477ef1b39f3e55181fc6e4ae201f3470817a094c8ddf3560c45eafa0"
+}

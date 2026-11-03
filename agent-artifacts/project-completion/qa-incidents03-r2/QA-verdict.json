@@ -1,0 +1,35 @@
+{
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pack-incidents-03-r2/cases.json",
+  "candidateSHA256": "b45726444e2936f7c75b8b7d6a4b1c75b9c047bb3276e0a23c08ec3c43cf77a4",
+  "verdict": "READY FOR IMPORT",
+  "importEligible": true,
+  "acceptedCaseIDs": [
+    "TC-115",
+    "TC-124",
+    "TC-185"
+  ],
+  "remainingCaseIDs": [],
+  "issues": [],
+  "closedIssues": [
+    "INC03-185-01"
+  ],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "inheritance": {
+    "approvalPath": "agent-artifacts/project-completion/qa-incidents03/QA-verdict.json",
+    "priorCandidateSHA256": "c06de5e0b99be92c8156a349bd9a01e11893b9b48f925b253bb446bc2b704da0",
+    "exactUnchangedCaseIDs": [
+      "TC-115",
+      "TC-124"
+    ],
+    "unchangedGates": "Независимая приёмка базовой версии, кроме исправленного контекста TC-185. Результаты на уровне пакета не изменяют полномочий на импорт."
+  },
+  "focusedRetest": {
+    "rawDiff": "Две удалённые и две добавленные строки: context и revision TC-185, 1→2. Остальные байты идентичны.",
+    "result": "PASS",
+    "finding": "Уточнено, что команды тратили зарезервированные часы на продуктовые задачи. Однозначно сильнее B: риск неодинаков, есть мандат согласовать перенос поставки и проследить эффект. A сохраняет одинаковый резерв, C не защищает мощность, D улучшает уже проверяемые меры. Разбор и оценка соответствуют новой формулировке."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "agent-artifacts/manifests/v2.3-completion-03-candidate/input-hashes.json": "2ac6bdb70b109da4c54dbf9b2aec9d773fbeef209291231cf65f767513a67ef8",
+  "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_TC026_TC300_v2_3_completion_03_candidate.csv": "7e52d0e0e1fa0022f6770fe7dbcd785b675b7234b836c169f3a8e593677abbfc",
+  "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "agent-artifacts/manifests/v2.3-completion-03-candidate/README.md": "c86449143baafa44c1d06bdbfa86c75476dc723dfdb6acfe5e8f01c5feabf282",
+  "agent-artifacts/manifests/v2.3-completion-03-candidate/linked_family_manifest_v2_3_completion_03_candidate.csv": "c07f30be3ca187ac6cd2c7abb74fb2541cd81787207708e95524edcdeb75416a",
+  "agent-artifacts/manifests/v2.3-completion-03-candidate/runtime-inheritance.json": "74e455c4704e5238de37af8c8c8099831b83a201cb0c8816bcaf41ab06d01ad2",
+  "agent-artifacts/project-completion/qa-pack104-109-r3/QA-verdict.json": "70ec3f04082aff939bb83d302d0d4d58053031bb14ad5e3928556b3fddc1a244",
+  "agent-artifacts/project-completion/qa-pack104-109-r3/evidence.json": "7af808f6bd26cc5defbd2276a4b684b1919fdc4534493491dec58ca7c1c933ca",
+  "agent-artifacts/project-completion/qa-pack104-109-r2/standards-audit.md": "2edb6ca335201c7c26b34403a38b0290c6e432750d84b03d9c626287854d2266",
+  "agent-artifacts/manifests/v2.3-completion-02-candidate/runtime_coverage_v2_3_completion_02_candidate.json": "df3b1bd0f016517080b3ab244b151c54789d564df5dcb6c77cf06baaf9fc7e9d"
+}

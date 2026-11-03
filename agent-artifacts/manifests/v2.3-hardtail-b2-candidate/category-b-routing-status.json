@@ -1,0 +1,78 @@
+{
+  "status": "CLOSED — ordinary method routing decision, pending focused B2 independent review",
+  "originalCategoryBFamilyCount": 4,
+  "acceptedFamilies": [
+    "F-TD-P03"
+  ],
+  "reroutedFamilies": [
+    "F-PE-T01",
+    "F-PR-T01",
+    "F-PO-P03"
+  ],
+  "stillEligibleForSameMethod": [],
+  "remainingGlobalUnresolved": 72,
+  "substantiveUnresolvedClosed": false,
+  "families": {
+    "F-TD-P03": {
+      "classification": "ACCEPTED VIA FAMILY REMEDIATION",
+      "members": [
+        "TC-253",
+        "TC-254"
+      ],
+      "acceptance": "manifest-v2.3-hardtail-b1/QA-verdict.json",
+      "unchanged": true
+    },
+    "F-PE-T01": {
+      "classification": "REROUTED",
+      "members": [
+        "TC-176",
+        "TC-177",
+        "TC-178"
+      ],
+      "status": "UNCHANGED + UNRESOLVED",
+      "retrySameMethod": false,
+      "needs": [
+        "family-axis reconstruction",
+        "level realization reconsideration",
+        "semantic-space review against TC-288 and TC-106/107"
+      ],
+      "basis": "Inherited independent B1 routing; not redesigned in B2"
+    },
+    "F-PR-T01": {
+      "classification": "REROUTED",
+      "members": [
+        "TC-126",
+        "TC-127",
+        "TC-128"
+      ],
+      "status": "UNCHANGED + UNRESOLVED",
+      "retrySameMethod": false,
+      "needs": [
+        "three-strategy diagnostic architecture before another family pass",
+        "Middle trade-off proof for every state",
+        "semantic-space review of process-removal/automation alternatives against TC-076/077/078 and evidence alternatives against TC-215/242"
+      ],
+      "reason": "Nested common-framework/principles-only strategies remain indistinguishable. Clean alternative requires new diagnostic architecture, not another homogeneity ladder."
+    },
+    "F-PO-P03": {
+      "classification": "REROUTED",
+      "members": [
+        "TC-234",
+        "TC-235"
+      ],
+      "unresolvedMembers": [
+        "TC-234"
+      ],
+      "acceptedUnchangedSibling": [
+        "TC-235"
+      ],
+      "retrySameMethod": false,
+      "needs": [
+        "semantic repositioning of entire pair before atomic rewrite",
+        "Head decision evidence distinct from TC-150/161/199",
+        "preserve TC-235 acceptance unless replacement family passes all gates"
+      ],
+      "reason": "Original234 repeats013/298. Reconstructed ownership-boundary pair fails uniqueness:234 overlaps199,235 overlaps150; Head authority additions do not establish a different diagnostic mechanism."
+    }
+  }
+}

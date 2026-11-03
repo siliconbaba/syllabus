@@ -1,0 +1,78 @@
+{
+  "id": "TC-023",
+  "revision": 3,
+  "topicId": "t-10-6",
+  "domain": "incident_management",
+  "requiredLevel": "middle",
+  "primaryPattern": "incident-command",
+  "secondaryPatterns": [
+    "roles",
+    "change-control",
+    "communications"
+  ],
+  "type": "single-best",
+  "context": "Крупный production incident длится 25 минут. В общем чате 18 человек. CTO просит одного инженера проверить rollback, product lead просит второго включить обходной режим, техлид просит третьего поменять конфигурацию; несколько production changes уже идут параллельно. Единого incident commander нет. Вы — дежурный incident manager по runbook и имеете право назначить роли и остановить несогласованные изменения.",
+  "question": "Что сделать в первые минуты?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Назначить единое управление инцидентом и остановить несогласованные изменения, затем вести технические действия и коммуникацию через назначенные роли.",
+      "decisionQuality": 1.0,
+      "isBest": true,
+      "reasoningPattern": "incident-command-system",
+      "explanation": "Сначала восстанавливается управляемость, чтобы технические гипотезы не конфликтовали и не уничтожали диагностические сигналы.",
+      "whyTempting": "Организационная пауза под давлением кажется потерей времени.",
+      "whyNotBest": "Не применимо: context прямо даёт вакуум командования и полномочия его закрыть.",
+      "whenItWouldBeBest": "Когда крупный incident имеет несколько параллельных исполнителей и ещё не имеет единого command structure."
+    },
+    {
+      "id": "B",
+      "text": "Остановить изменения и сначала локализовать компонент, затем назначить руководителя инцидента и распределить роли после первичной технической диагностики.",
+      "decisionQuality": 0.35,
+      "isBest": false,
+      "reasoningPattern": "diagnosis-before-command",
+      "failurePattern": "delayed-command",
+      "explanation": "Короткая diagnostic pause полезна, но откладывать command structure при 18 участниках опасно.",
+      "whyTempting": "Локализация причины может сделать дальнейшие роли более предметными.",
+      "whyNotBest": "Command structure нужен именно для безопасной организации этой диагностики.",
+      "whenItWouldBeBest": "Если активный пользовательский impact уже остановлен, production стабилен и команда перешла из response в контролируемую диагностическую фазу."
+    },
+    {
+      "id": "C",
+      "text": "Попросить технического директора вести инцидент и остановить несогласованные изменения, оставив ему технические решения и коммуникацию до восстановления сервиса.",
+      "decisionQuality": 0.65,
+      "isBest": false,
+      "reasoningPattern": "executive-command",
+      "failurePattern": "authority-not-role-fit",
+      "explanation": "Один commander уже лучше хаоса, но вариант концентрирует technical и communications роли в одном человеке и игнорирует runbook-owner.",
+      "whyTempting": "Высший руководитель способен быстро разрешать resource conflicts.",
+      "whyNotBest": "Проблема не в титуле CTO, а в неполной структуре ролей и unnecessary centralization.",
+      "whenItWouldBeBest": "Если runbook заранее назначает CTO incident commander, инцидент мал по числу потоков и отдельные роли не нужны."
+    },
+    {
+      "id": "D",
+      "text": "Разделить инженеров на независимые диагностические потоки и запретить изменения продукта, синхронизируя результаты и общую гипотезу каждые десять минут.",
+      "decisionQuality": 0.5,
+      "isBest": false,
+      "reasoningPattern": "parallel-investigation",
+      "failurePattern": "multiple-commanders",
+      "explanation": "Это уменьшает хаотичные изменения, но при активном крупном incident всё ещё не создаёт единого decision owner для mitigation.",
+      "whyTempting": "Read-only параллельная диагностика действительно может быстрее локализовать неизвестную причину.",
+      "whyNotBest": "В текущем context сервис ещё деградирует и нужны управляемые production actions, поэтому одной диагностической координации недостаточно.",
+      "whenItWouldBeBest": "Если пользовательский impact стабилен, до локализации причины production changes не требуются и команда заранее согласовала такой read-only диагностический режим."
+    }
+  ],
+  "keyInsight": "При крупном инциденте сначала нужно убрать множественное командование.",
+  "mentalModel": "Один IC, разделённые роли, единый change-control и таймлайн; root cause разбирается после стабилизации.",
+  "decisiveFacts": [
+    "Несколько руководителей дают конкурирующие команды.",
+    "Production меняется параллельно.",
+    "Вы имеете runbook-полномочия установить роли."
+  ],
+  "authorRationale": "A strongest. C теперь проигрывает не потому, что CTO «хуже», а потому что предлагает неполную структуру и игнорирует формально назначенного incident manager.",
+  "partId": "part-10",
+  "title": "Параллельные изменения во время инцидента",
+  "sourceTopicExplanation": "Тема 10.6 выделяет incident commander, роли и фиксацию действий во время инцидента. Координация нужна для остановки ущерба и предотвращения противоречащих изменений; поиск причины следует после стабилизации.",
+  "trainingEligible": true,
+  "assessmentEligible": true
+}

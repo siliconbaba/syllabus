@@ -1,0 +1,13 @@
+Read CURRENT-TASK.json, STATE.json and the three project contracts under agent-artifacts/contracts. Verify all task/base/candidate/protected-input hashes. All paths in descriptors are relative to syllabus. Work only in the local Work workspace with access to syllabus. Do not use synced sources as writable files. Do not edit STATE.json or derived queues directly; submit a validated receipt through supervisor.py. Do not commit/push.
+
+Claim before work: `python3 supervisor.py claim --owner <actual-fresh-context-id>`. Keep the returned claimToken. Resume only the claimed task. Save result.json last, atomically, under tasks/<taskId>/. Candidate and evidence must be immutable revision files. A limit interruption is not completion. Write progress in that task directory and resume it; never fabricate PASS.
+
+Receipt fields: taskId, worker, claimToken, baseHash, status=COMPLETE, outcome, evidence={project-relative-file:sha256}. Evidence must contain actual reports and raw validations. Supervisor validates identity/hashes/transitions, not semantic truth. See RESULT-CONTRACT.md. Stop on unsupported capability. Structural contract changes use HUMAN_DECISION; routine blocked units reroute with evidence.
+
+TEST BANK / ARCHITECTURE / CASE AUTHORING
+
+Read TEST-BANK-RUNBOOK in full. Retrieve source/evidence yourself. Architecture preflight → semantic analog screening → skeleton/authoring → self-QA. ARCHITECTURE_READY requires proving diagnostic space before prose. Read the latest planning overlay; don't retry exhausted methods or borrow occupied reservations. Preserve accepted siblings, frozen constraints and explicit scope. Reroute a blocked unit, record reason/next treatment and continue eligible units within scope.
+
+Accumulate substantive changes: independent QA checkpoint at roughly 8–12 standalone rows or 2–3 materially changed complex families, whichever first. An explicit immediate-QA requirement in current scope (U-EXP overlay) takes priority. Never split a family; hand off a smaller final batch only with a reason. Five consecutive attempted units with zero applicable changes → ROUTING_OR_METHOD_REVIEW, consecutiveZeroYield=5; do not loop indefinitely. Distinguish routing review from structural human gates.
+
+READY_FOR_QA receipt requires new candidate path/hash, selfQA=PASS, changedUnits and evidence: architecture/preflight, source trace, level audit, runtime re-derivation, families, semantic uniqueness, surface audit, mechanical validation-summary and raw reports. Include routing records. Empty content is not QA-ready. Supervisor materializes qa-queue.json from the receipt. FIX_READY reads fix-queue.json and creates a new revision with focused retest evidence.

@@ -1,0 +1,54 @@
+{
+  "verdict": "FIX REQUIRED",
+  "semanticVerdict": "PASS on blind keys, economics, grounding, alternatives and mutation; unapproved TC-131 contract divergence",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pair-runner-131-132/cases.json",
+  "candidateSHA256": "2f0b00710599b25a53ec93df508c9435e42d10cf63ae97ca4a8f424fd61da45f",
+  "manifestSHA256": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+  "inputs": {
+    "agent-artifacts/test-bank/full-cases/pair-runner-131-132/cases.json": "2f0b00710599b25a53ec93df508c9435e42d10cf63ae97ca4a8f424fd61da45f",
+    "agent-artifacts/test-bank/full-cases/pair-runner-131-132/blind-cases.json": "88e9f8d461d4f0c4dfb432113cfbcf07c3e9dcbaaf93b80925adfda4e8f76156",
+    "agent-artifacts/manifests/v2.3-completion-03-candidate/production_manifest_masterplan_v2_3_completion_03_candidate.json": "b6ab92037cff78cfb5ed792f9317e2d51a3c77d1c66ad3351802ec71d15b0f40",
+    "agent-artifacts/manifests/v2.3-wave5-candidate/source-topics/t-3-9.md": "1f2faa3443fa83436f46e92009e9b96fb812d7547e7485f93f0388547dcb156a",
+    "InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da",
+    "agent-artifacts/test-bank/full-cases/pair-runner-131-132/runtime.json": "08c2d82d9e0cbe3db703ca8e4b4321cd538d17556af0f3f9d82352678f8d6b7f",
+    "agent-artifacts/project-completion/qa-runner131/blind-verdict.json": "607b3bac6ca0f3951375c6e4c1a9a6fb6c91c2330b6dee5a7b0b3a3065f68178"
+  },
+  "acceptedCaseIDs": [],
+  "atomicFamily": "F-DR-P02",
+  "remainingCaseIDs": [
+    "TC-131",
+    "TC-132"
+  ],
+  "remainingIssueIDs": [
+    "FDRP02-01"
+  ],
+  "issues": [
+    {
+      "id": "FDRP02-01",
+      "severity": "blocker",
+      "field": "familyManifest[F-DR-P02].strategySpace.TC-131 ↔ TC-131.options.D",
+      "approvedDistractor": "Ручной прогон сейчас плюс обязательное подтверждение тем же набором на обычном CI до rollout",
+      "candidateDistractor": "Запустить на отдельном runner короткий smoke и по его результату переходить к выпуску.",
+      "finding": "C03 lists TC-131 manual plus mandatory shared-CI confirmation. Candidate replaces it with smoke-only on rented runner. TC-132 already includes smoke-only in the contract. The omitted route is sufficient but duplicative, whereas the replacement is insufficient.",
+      "repair": "Reconcile the single conflicting strategy explicitly through independently accepted focused manifest change preserving the shared candidate menu; alternatively align content and feedback with the accepted contract and retest sibling comparability."
+    }
+  ],
+  "severityCounts": {
+    "blocker": 1,
+    "major": 0,
+    "minor": 0
+  },
+  "gates": {
+    "blind": "PASS C/B; snapshot before key read",
+    "costOrdering": "131 C27 < B32 < A47; 132 B32 < A107 < C117. D insufficient both. DQ order matches.",
+    "source": "PASS §3.9; risk-based regression, queue time, automation economics, training-only Middle. Figures explicitly scenario assumptions.",
+    "singleMutation": "PASS risk coverage only; exact identity after substituting first decisive fact; four action strings and question unchanged.",
+    "manifestOtherFields": "PASS",
+    "actionSpace": "FIX REQUIRED FDRP02-01",
+    "duplication": "ALLOWED REINFORCEMENT: TC003/004 sufficiency changes; TC085 bottleneck from state reset; TC076–078 economic value of additional review; TC108/109 sampling volume vs detail; no duplicate decision boundary.",
+    "schemaRuntime": "Supplied runtime.json reports PASS; no new independent Swift run.",
+    "surface": "No single simultaneous longest/shortest cue selects C and B in identical answer menu."
+  },
+  "importEligible": false,
+  "readyToFreeze": false
+}

@@ -1,0 +1,2 @@
+PASS: 100 questions / 300 source variants / 10 groups; 108 System Design source units; seven 16-section cases; 129 topics; unique IDs, links, title, offline assets and balanced HTML
+Built agent-artifacts/project-completion/Управление процессами и проектами.html (6,725,246 bytes); 2 stylesheets and 6 scripts embedded.

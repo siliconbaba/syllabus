@@ -1,0 +1,12 @@
+{
+  "authoring-report.md": "73be6277dc5ef67c44208644f517a4e8def16ca04d7b8399837165909b02d09b",
+  "batch-statistics.json": "caeea42675397bf7a856692a680846c72f411baa54c7f042808f328c49ccf5ea",
+  "cross-bank-retrieval-evidence.json": "a149a0997e52c19ee0065e190f2af8437f1ca146a1993b998c180394e2030a8c",
+  "duplication-preflight.csv": "81c2f2dbbc449170c0e35d9a8b6e4c2cbd3c31445c2f1a48210e5269c4151d5d",
+  "family-diff-analysis.json": "f6073ecaca2e72b90f2693ea36b889308a1c3773bacc40ac7054b5a0aec0ce82",
+  "input-hashes.json": "f4fb0fd22b1dcba024d3990dead210222a538d5fa5fe3d20ed242e22b9178700",
+  "manifest-extract.json": "6c6fa960e09500b8e86037317cb8a45bd007cce1355173804ea6cc488d3ccb04",
+  "self-qa.json": "c2bc5514584ee878697b40664d9b2f78d6ea4217354e23559a6a486996e9fb6e",
+  "source-trace.csv": "69da0f6d270bcd0d5e51c299b7d584d1c6209a0638fa3c040dcdf4271929015f",
+  "surface-leakage-analysis.json": "e1c6fa1123e7b81b8e0fb209a8fbf605f678d903002c687e3ca84bde50c1ec8f"
+}

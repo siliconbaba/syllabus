@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-27",
+  "status": "PASS",
+  "verdict": "FOCUSED INDEPENDENT MANIFEST-ROW QA PASS",
+  "scope": [
+    "TC-200"
+  ],
+  "candidate": "agent-artifacts/test-bank/reconstruction/tc200-r2/proposed-manifest-row.json",
+  "candidateSHA256": "a809f143f9cb532f0fd8725b2cb79c4e1c5897ac97a771ee73771a03739bd7b8",
+  "inheritanceBase": "agent-artifacts/project-completion/qa-tc200-r1/QA-verdict.json",
+  "inheritedGates": [
+    "sourceGrounding",
+    "distinctDecisionBoundary",
+    "JuniorRealization",
+    "structuralInvariants"
+  ],
+  "retestedGates": {
+    "exactAllowedDiff": "PASS",
+    "actionTimingConsistency": "PASS",
+    "sourceActionAlignment": "PASS",
+    "runtimeVocabularyAndDerivedFields": "PASS"
+  },
+  "closedIssueIDs": [
+    "TC200-R1-01"
+  ],
+  "severityCounts": {
+    "Blocker": 0,
+    "Major": 0,
+    "Minor": 0
+  },
+  "candidateAccepted": true,
+  "acceptanceMeaning": "Single proposed manifest blueprint only; no full-case/options acceptance or cumulative freeze",
+  "readyForFullCaseAuthoring": true,
+  "readyForFreeze": false,
+  "importEligible": false,
+  "productionChanged": false,
+  "manifestChanged": false,
+  "remainingUnresolvedInUnmodifiedAcceptedBase": 72,
+  "eligibleClosureAfterControlledMerge": [
+    "TC-200"
+  ],
+  "fullCaseBlindStrongest": "NOT_APPLICABLE",
+  "DQAndOptionSurface": "NOT_APPLICABLE",
+  "globalCoverage": "NOT_RUN; per-row change stakeholders2/3+evidence1/3 → stakeholders1 must be incorporated at controlled merge"
+}

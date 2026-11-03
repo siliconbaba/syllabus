@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "compiledAuthoritativeSwift": true,
+  "checkedIDs": [
+    "TC-158",
+    "TC-187",
+    "TC-192",
+    "TC-201",
+    "TC-202",
+    "TC-203",
+    "TC-211",
+    "TC-268",
+    "TC-274",
+    "TC-280",
+    "TC-281",
+    "TC-131",
+    "TC-132",
+    "TC-174",
+    "TC-213",
+    "TC-222",
+    "TC-236",
+    "TC-264",
+    "TC-276",
+    "TC-277",
+    "TC-287"
+  ],
+  "unknownCodes": 0,
+  "derivedFieldMismatches": 0,
+  "normalizedWeights": {
+    "TC-158": {
+      "organization": 1.0
+    },
+    "TC-187": {
+      "dependencies": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-192": {
+      "stakeholders": 0.6666666666666666,
+      "uncertainty": 0.3333333333333333
+    },
+    "TC-201": {
+      "risk": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-202": {
+      "risk": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-203": {
+      "risk": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-211": {
+      "risk": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-268": {
+      "organization": 0.6666666666666666,
+      "prioritization": 0.3333333333333333
+    },
+    "TC-274": {
+      "organization": 1.0
+    },
+    "TC-280": {
+      "organization": 1.0
+    },
+    "TC-281": {
+      "organization": 1.0
+    },
+    "TC-131": {
+      "proportionality": 1.0
+    },
+    "TC-132": {
+      "proportionality": 1.0
+    },
+    "TC-174": {
+      "prioritization": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-213": {
+      "risk": 0.6666666666666666,
+      "proportionality": 0.3333333333333333
+    },
+    "TC-222": {
+      "prioritization": 1.0
+    },
+    "TC-236": {
+      "prioritization": 1.0
+    },
+    "TC-264": {
+      "systems": 1.0
+    },
+    "TC-276": {
+      "prioritization": 0.6666666666666666,
+      "organization": 0.3333333333333333
+    },
+    "TC-277": {
+      "prioritization": 0.6666666666666666,
+      "organization": 0.3333333333333333
+    },
+    "TC-287": {
+      "prioritization": 1.0
+    }
+  },
+  "contextScoredEvidenceInScope": 0,
+  "note": "Category aliases deduplicate by max, including roles and versioning; no new scored evidence for linked context sensitivity."
+}

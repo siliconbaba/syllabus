@@ -1,0 +1,2 @@
+﻿familyId,affectedMembers,severity,problem,minimalCorrection
+F-BV-P01,TC-029 | TC-030,BLOCKER,"Формально одна mutation, но в TC-030 варианты B/D не разделены: hybrid с нулём стабильных пакетов вырождается в T&M.","Синхронно уточнить один и тот же B в обоих siblings как конкретное обязательство фиксировать существенный пакет, сохранив context mutation и порядок. Повторить слепой QA 029/030. Эта запись ссылается на blocker TC-030, не добавляет третий blocker."

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "read-only readiness reconciliation",
+  "inputsUnchanged": true,
+  "futureRows": 200,
+  "acceptedInheritedBlueprints": 128,
+  "unresolved": 72,
+  "units": 43,
+  "uniqueUnresolvedCoverage": 72,
+  "productionVsB2MetadataDifferences": 0,
+  "goldLinkedAssessmentDisabled": true,
+  "independentContentApproval": "NOT_PERFORMED",
+  "appTests": "NOT_RUN",
+  "productionChanged": false,
+  "manifestChanged": false,
+  "orchestrationChanged": false
+}

@@ -1,0 +1,506 @@
+{
+  "production": [
+    {
+      "plannedId": "TC-183",
+      "topN": 10,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-089",
+          "retrievalScore": 12.145747,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "accountability"
+          ],
+          "sharedTerms": [
+            "delivery",
+            "двух",
+            "ещё",
+            "нарушение",
+            "после",
+            "при",
+            "проверка",
+            "разборе",
+            "сознательное",
+            "только"
+          ]
+        },
+        {
+          "id": "TC-087",
+          "retrievalScore": 12.121562,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "accountability"
+          ],
+          "sharedTerms": [
+            "без",
+            "инцидента",
+            "независимо",
+            "отдельно",
+            "после",
+            "проверка",
+            "сознательное",
+            "сохранить"
+          ]
+        },
+        {
+          "id": "TC-019",
+          "retrievalScore": 10.129086,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "без",
+            "восстановлен",
+            "или",
+            "инцидента",
+            "после",
+            "проверки",
+            "сервис",
+            "системная"
+          ]
+        },
+        {
+          "id": "TC-074",
+          "retrievalScore": 3.271038,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "более",
+            "готовит",
+            "две",
+            "двух",
+            "для",
+            "или",
+            "между",
+            "нельзя",
+            "обе",
+            "общий",
+            "после",
+            "при",
+            "работ",
+            "работы",
+            "сегодня",
+            "слот",
+            "только",
+            "требует",
+            "цена"
+          ]
+        },
+        {
+          "id": "TC-018",
+          "retrievalScore": 3.117844,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "accountability"
+          ],
+          "sharedTerms": [
+            "без",
+            "две",
+            "ещё",
+            "нет",
+            "ожидания",
+            "работы",
+            "следующий",
+            "согласованный",
+            "требует"
+          ]
+        },
+        {
+          "id": "TC-012",
+          "retrievalScore": 3.050486,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "общий",
+            "одна",
+            "только",
+            "цена"
+          ]
+        },
+        {
+          "id": "TC-066",
+          "retrievalScore": 2.170908,
+          "reasons": [],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "вправе",
+            "двух",
+            "затраты",
+            "или",
+            "можно",
+            "отдельно",
+            "подтверждена",
+            "работы",
+            "следующий",
+            "сохранить",
+            "только",
+            "требует"
+          ]
+        },
+        {
+          "id": "TC-096",
+          "retrievalScore": 2.156475,
+          "reasons": [],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "без",
+            "двух",
+            "для",
+            "ещё",
+            "меняет",
+            "неделю",
+            "общий",
+            "передачи",
+            "работы",
+            "решения",
+            "требует",
+            "четыре"
+          ]
+        },
+        {
+          "id": "TC-040",
+          "retrievalScore": 2.114395,
+          "reasons": [],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "есть",
+            "порядок",
+            "работ",
+            "решения",
+            "следующий",
+            "только",
+            "требует",
+            "третий"
+          ]
+        },
+        {
+          "id": "TC-098",
+          "retrievalScore": 2.085626,
+          "reasons": [],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "день",
+            "если",
+            "один",
+            "отдельно",
+            "отдельный",
+            "при"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  ],
+  "planned": [
+    {
+      "plannedId": "TC-183",
+      "topN": 12,
+      "weakRetrieval": false,
+      "analogs": [
+        {
+          "id": "TC-258",
+          "retrievalScore": 11.168829,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "accountability"
+          ],
+          "sharedTerms": [
+            "без",
+            "выбрать",
+            "для",
+            "если",
+            "ещё",
+            "меняет",
+            "нужен",
+            "одновременно",
+            "после",
+            "разбора",
+            "только",
+            "этого"
+          ]
+        },
+        {
+          "id": "TC-257",
+          "retrievalScore": 11.166907,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "accountability"
+          ],
+          "sharedTerms": [
+            "без",
+            "выбрать",
+            "для",
+            "если",
+            "ещё",
+            "меняет",
+            "нужен",
+            "после",
+            "разбора",
+            "сохранить",
+            "только",
+            "этого"
+          ]
+        },
+        {
+          "id": "TC-230",
+          "retrievalScore": 11.126035,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "accountability"
+          ],
+          "sharedTerms": [
+            "инженера",
+            "инцидента",
+            "после",
+            "процесса",
+            "разбор",
+            "условиях",
+            "факт"
+          ]
+        },
+        {
+          "id": "TC-231",
+          "retrievalScore": 11.11467,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "accountability"
+          ],
+          "sharedTerms": [
+            "без",
+            "инженера",
+            "инцидента",
+            "нарушение",
+            "после",
+            "процесса",
+            "факт"
+          ]
+        },
+        {
+          "id": "TC-137",
+          "retrievalScore": 11.009605,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [
+            "accountability"
+          ],
+          "sharedTerms": [
+            "или"
+          ]
+        },
+        {
+          "id": "TC-290",
+          "retrievalScore": 10.280037,
+          "reasons": [
+            "topicId",
+            "domain",
+            "requiredLevel"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "manager",
+            "middle",
+            "без",
+            "вправе",
+            "выбирает",
+            "день",
+            "если",
+            "завершение",
+            "или",
+            "менеджер",
+            "нет",
+            "после",
+            "при",
+            "работы",
+            "результат",
+            "согласованный",
+            "технической",
+            "требует",
+            "четыре"
+          ]
+        },
+        {
+          "id": "TC-191",
+          "retrievalScore": 9.081233,
+          "reasons": [
+            "topicId",
+            "domain"
+          ],
+          "patternOverlap": [],
+          "sharedTerms": [
+            "manager",
+            "для",
+            "инцидента",
+            "меняет",
+            "после",
+            "работы"
+          ]
+        },
+        {
+          "id": "TC-222",
+          "retrievalScore": 8.302708,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "delivery",
+            "manager",
+            "middle",
+            "без",
+            "вправе",
+            "выбрать",
+            "день",
+            "дополнительного",
+            "допустимый",
+            "или",
+            "короткой",
+            "можно",
+            "нельзя",
+            "нет",
+            "обе",
+            "один",
+            "пока",
+            "при",
+            "работы",
+            "этого"
+          ]
+        },
+        {
+          "id": "TC-288",
+          "retrievalScore": 8.283956,
+          "reasons": [
+            "primaryPattern",
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "manager",
+            "middle",
+            "вправе",
+            "двух",
+            "или",
+            "менеджер",
+            "можно",
+            "мощность",
+            "неделю",
+            "нельзя",
+            "обе",
+            "один",
+            "после",
+            "работ",
+            "сообщить",
+            "сохранить",
+            "считать",
+            "цель",
+            "часа"
+          ]
+        },
+        {
+          "id": "TC-120",
+          "retrievalScore": 7.061467,
+          "reasons": [
+            "primaryPattern"
+          ],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "или",
+            "между",
+            "можно",
+            "отдельно",
+            "после"
+          ]
+        },
+        {
+          "id": "TC-122",
+          "retrievalScore": 3.355165,
+          "reasons": [
+            "requiredLevel"
+          ],
+          "patternOverlap": [
+            "resource-conflict"
+          ],
+          "sharedTerms": [
+            "без",
+            "дополнительной",
+            "или",
+            "любой",
+            "между",
+            "него",
+            "неделю",
+            "нельзя",
+            "новой",
+            "ответственности",
+            "передачи",
+            "проверки",
+            "провести",
+            "работы",
+            "результат",
+            "самостоятельно",
+            "сохранить",
+            "считать",
+            "только",
+            "требует",
+            "часа",
+            "четыре"
+          ]
+        }
+      ],
+      "safetyAdded": [],
+      "safetyCoverage": "PASS",
+      "semanticVerdict": "NOT_EVALUATED"
+    }
+  ]
+}

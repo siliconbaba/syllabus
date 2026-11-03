@@ -1,0 +1,127 @@
+[
+  {
+    "plannedId": "TC-117",
+    "batch": "Batch 04",
+    "block": "B01 — Project Management",
+    "partId": "part-2",
+    "topicId": "t-2-6",
+    "oneSentenceScenarioConcept": "Senior PM наблюдает, что три early-warning indicator по одному риску ухудшаются две недели, хотя сам risk event ещё не наступил; response plan дорог и частично обратим; нужно решить, запускать ли mitigation до триггера.",
+    "decisiveFactsConcept": [
+      "Три сигнала устойчиво ухудшаются",
+      "Событие ещё не произошло",
+      "Mitigation частично обратим"
+    ],
+    "oneSentenceDecisionBoundary": "Ждать бинарного события ↔ действовать по заранее определённым EWI, если цена промедления выше.",
+    "domain": "risk_management",
+    "requiredLevel": "senior",
+    "primaryPattern": "early-warning-response",
+    "secondaryPatterns": [
+      "mitigation",
+      "risk-register"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Нужно работать с системной причиной или существенной неопределённостью, учитывать вторичные последствия и сохранять несколько вариантов решения.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Управление проектами",
+    "derivedRuntimePrimaryThinking": "risk",
+    "derivedRuntimeSecondaryThinking": [
+      "risk",
+      "risk"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping"
+  },
+  {
+    "plannedId": "TC-118",
+    "batch": "Batch 04",
+    "block": "B09 — Portfolio & Organization",
+    "partId": "part-9",
+    "topicId": "t-9-3",
+    "oneSentenceScenarioConcept": "Lead TPM пересобирает scope крупной партнёрской интеграции, которая третий квартал не проходит WSJF по размеру: деление на UI/API/данные создаёт маленькие карточки без самостоятельной ценности, но каталог с существующей оплатой уже позволяет реальные продажи.",
+    "decisiveFactsConcept": [
+      "Ценность инициативы и спрос подтверждены; это не проверка продуктовой гипотезы.",
+      "Технические слои по отдельности не дают продаж и зависят друг от друга; вертикальный каталог+оплата даёт самостоятельную часть эффекта.",
+      "Общий обязательный интерфейс и его стоимость включены в первую вертикаль; остаток можно отложить без нарушения её работы, но переучесть ценность дважды нельзя."
+    ],
+    "oneSentenceDecisionBoundary": "Переразбить инициативу на самостоятельно ценные вертикали, включив общий prerequisite в первую, и пересчитать WSJF/стоимость вытеснения; не повышать ранг фиктивным дроблением технических слоёв.",
+    "domain": "portfolio_management",
+    "requiredLevel": "senior",
+    "primaryPattern": "portfolio-reprioritization",
+    "secondaryPatterns": [
+      "dependency-management",
+      "cost-of-delay"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Senior: нужно изменить единицу инвестиционного решения, удержать общие зависимости и не задвоить выгоды; расчёт готовых баллов уровня Middle не определяет, какая часть реально самостоятельна и как остаток меняет портфель.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Портфель и стратегия",
+    "derivedRuntimePrimaryThinking": "prioritization",
+    "derivedRuntimeSecondaryThinking": [
+      "dependencies",
+      "prioritization"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§9.3 предлагает разбиение крупной интеграции на части, которые дают ценность раньше; рейтинг служит переговорам о scope, а не только очереди."
+  },
+  {
+    "plannedId": "TC-119",
+    "batch": "Batch 04",
+    "block": "B03 — Delivery & Release",
+    "partId": "part-3",
+    "topicId": "t-3-2",
+    "oneSentenceScenarioConcept": "Lead TPM проектирует межкомандный contract gate: проверки приложения зелёные, но backend после них изменил API; бессрочный статус passed позволяет выпустить непроверенную пару версий, а полный регресс всех продуктов на каждое изменение слишком дорог.",
+    "decisiveFactsConcept": [
+      "Проверка выполнилась на прежней версии API; provider изменился после неё, изменение затрагивает используемый consumer contract.",
+      "Есть версия артефакта provider и каталог затронутых consumers; автоматический targeted contract suite помещается в релизное окно.",
+      "Команды уже умеют проходить gate; проблема не в rollout readiness и не в проценте покрытия, а во времени жизни доказательства."
+    ],
+    "oneSentenceDecisionBoundary": "Привязать passed к конкретной паре provider/consumer и при изменении используемого контракта инвалидировать затронутое свидетельство с повторным targeted прогоном; не сохранять старую зелёную отметку и не запускать весь регресс без различения зависимостей.",
+    "domain": "delivery_quality",
+    "requiredLevel": "senior",
+    "primaryPattern": "api-contracts",
+    "secondaryPatterns": [
+      "versioning",
+      "evidence-before-release"
+    ],
+    "structure": "standalone",
+    "scenarioFamilyId": null,
+    "familyPosition": null,
+    "decisiveMutationConcept": null,
+    "trainingEligible": true,
+    "assessmentEligible": true,
+    "whyLevel": "Senior: нужен механизм согласования жизни доказательств между независимыми релизами; одиночная ручная перепроверка не закрывает повторение гонки, а глобальный регресс создаёт лишнюю связность и задержку.",
+    "futureContextSensitivityCandidate": false,
+    "vocabularyReviewRef": null,
+    "derivedRuntimeUiDomain": "Процессы",
+    "derivedRuntimePrimaryThinking": "dependencies",
+    "derivedRuntimeSecondaryThinking": [
+      "systems",
+      "evidence"
+    ],
+    "runtimeDerivationStatus": "authoritative-swift-mapping",
+    "whyHead": null,
+    "authorityScope": null,
+    "secondaryEffect": null,
+    "runtimeClassificationSource": "authoritative-swift-mapping",
+    "sourceTopicExplanation": "§3.2 требует contract checks на актуальном API и уведомление consumers при изменении; зелёная проверка прежней версии не доказывает готовность новой связки."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "blindSHA256": "0ba523b79fe519f9f04786cf301d79c0dd3b1355b5a950c008502d2a87c7667b",
+  "selections": {
+    "TC-154": "C",
+    "TC-155": "B"
+  },
+  "rationale": "6 days: new client passes even on day 5 and nets 30 rather than 15 or 0. 3 days: server solution nets 15 and finishes on day 2. Resubmission can take 5 and old approval is lost."
+}

@@ -1,0 +1,11 @@
+{
+  "agent-artifacts/manifests/v2.2.2/production_manifest_masterplan_v2_2_2.json": "c4f8600132a4099a655c31c4c97356c52265da7c0895e04d9a99f04503821e41",
+  "agent-artifacts/manifests/v2.2.3-candidate/production_manifest_masterplan_v2_2_3_candidate.json": "84cfcf2e9e3a86b3f259421869e092bad969bbcbbb851b50cb44b59af29a3546",
+  "agent-artifacts/test-bank/batch-03-r2/cases_TC076_TC100_r2.json": "900218858830b22b2558813b9a589966c9c069cb15f00360c171aaff45944b39",
+  "agent-artifacts/test-bank/batch-03-r3/cases_TC076_TC100_r3.json": "77e465c3b9a5e0ac26eb7bdf756d20d2416d18fb57cd74f225575d0e6f202f21",
+  "InteractiveBook/TrainerContent/cases.json": "2540570c2b907ea0e48cb9752e715486126e006a6100bd27e2f9f170d2c99689",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "TC-222",
+    "verdict": "PASS",
+    "strongest": "B",
+    "runnerUp": "A",
+    "confidence": "high",
+    "arithmetic": {
+      "A": 0,
+      "B": 50,
+      "C": -10,
+      "D": 0
+    },
+    "pairwise": "B adds50 versus idle A and partial D; C adds90 but incurs two 2-day delays at25 (100). Both accepted items still consume WIP while waiting; B never exceeds3.",
+    "sourceLevel": "Source WIP/blocked unfinished work and completion before new starts support checking future capacity; Middle resolves profitable bounded admission versus blanket no-start and longer high-value interference.",
+    "plausibility": "D is an actionable familiar utilization/pre-start error: it preserves deadlines but confuses progress with completed value. No requirement that all four be near-optimal. A is conservative; C maximizes gross new value.",
+    "wholeWhen": "All four WHEN conditions describe changed conditions that support the whole action: safe no-start, bounded completed task, long-task incremental value exceeding delay, or independent valuable preparation without displacing commitments.",
+    "DQ": "One1 aligned with B; A>D defensible because D leaves extra WIP without current value; C worst because net loss.",
+    "issueIDs": []
+  },
+  {
+    "id": "TC-287",
+    "verdict": "FIX REQUIRED",
+    "strongest": "B",
+    "runnerUp": "D",
+    "confidence": "high for key",
+    "arithmetic": {
+      "A": 40,
+      "B": 110,
+      "D": 100,
+      "C": "Not fixed: 4 days A +1 day B protects100; smaller A allocation may protect0."
+    },
+    "pairwise": "B secures A100 plus two short jobs10. External B cannot be accelerated and must remain visible. More work on B has no attainable current-week payoff.",
+    "sourceLevel": "Work-item age supplements completed-only lead time. Middle distinguishes reachable versus externally blocked aging work and fills remaining capacity with valuable shorts.",
+    "plausibility": "Counting closures, equal-age attention, and needless reserve are professionally recognizable errors. C lacks enough operational detail for its assigned quality.",
+    "wholeWhen": "A: greater short-job value with acceptable A delay (B external date remains benign); B: A ready and residual shorts fit; C: assistance must actually unblock both and outperform concentration; D: useful urgent B action whose readiness value exceeds shorts.",
+    "DQ": "Unique1 aligned; C ordering not defensible across its permitted plans.",
+    "issueIDs": [
+      "FLOW04-01"
+    ]
+  },
+  {
+    "id": "TC-253",
+    "verdict": "FIX REQUIRED",
+    "strongest": "A",
+    "runnerUp": "C",
+    "confidence": "high for key",
+    "arithmeticWithBlueprintTiming": {
+      "A": 120,
+      "B": 320,
+      "C": 160,
+      "D": 400
+    },
+    "pairwise": "A avoids deferrals for120; C incurs8×20=160. Internal loses downstream4 each of three later weeks: (2+12)×20+40=320. Combined produces12 first week then8 each:12×20+160=400.",
+    "sourceLevel": "Throughput counts completed route output, and local relief can move bottleneck downstream. Middle computes coupled capacities and total deferral cost.",
+    "plausibility": "Combined D is a recognizable redundancy/capacity-overbuying mistake, despite explicit input ceiling; it is actionable and deserves low DQ, not rejection solely for dominance.",
+    "wholeWhen": "A superior when internal damages total route; B when independent internal capacity and preparation are economical; C when deferrals beat reinforcement; D when increased useful demand/downstream capacity makes both augmentations productive and joint value justifies cost. These are counterfactual conditions, not claims of present optimum.",
+    "DQ": "Ordering A>C>B>D coherent under intended timing; visible timing requires repair.",
+    "issueIDs": [
+      "FLOW04-02"
+    ]
+  },
+  {
+    "id": "TC-254",
+    "verdict": "PASS CONTENT / ATOMIC FAMILY HOLD",
+    "strongest": "B",
+    "runnerUp": "A",
+    "confidence": "high",
+    "arithmetic": {
+      "A": 120,
+      "B": 80,
+      "C": 160,
+      "D": 160
+    },
+    "pairwise": "Internal40 plus first-week two deferrals40=80 beats external120; no reinforcement160 and redundant combined160. Independent internal resource preserves downstream12.",
+    "sourceLevel": "Same Middle complete-route economics; one resource relation changes the strongest strategy without changing prices, demand or qualification.",
+    "plausibility": "Same professional error logic for D as sibling. Equal160 totals need not force equal DQ: C avoids new spending but defers8, D buys unnecessary reserve but fulfils output. Difference0.5/0.4 is defensible reasoning-quality ordering, not a mandated utility ratio.",
+    "wholeWhen": "All counterfactual WHENs support their whole strategies as in sibling; no action bundle is validated by only its first clause.",
+    "DQ": "One1 aligned with B, A next; C/D distinction explained.",
+    "issueIDs": [],
+    "atomicHoldReason": "Common context timing clarification in TC-253 must be reflected identically and rechecked as family."
+  }
+]

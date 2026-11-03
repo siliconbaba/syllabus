@@ -1,0 +1,9 @@
+{
+  "input-hashes.json": "514e798c1d8d8ba93451249f7d66295c21a96c313f516f78b5dc032ca740052a",
+  "identity-and-inheritance.json": "c24429984af393d40b34434038b32f2ea0bb1f49b09c48e2794c15c074004d22",
+  "QA-verdict.json": "77f1945ae31e0d222e994d1ad0814a9ffabab6193ba9ec8869eb086acf784a08",
+  "runtime-loader.json": "08c2d82d9e0cbe3db703ca8e4b4321cd538d17556af0f3f9d82352678f8d6b7f",
+  "QA-report.md": "60c22c4bc9af8ab2b727ecea805965c7f95b2d8f5711507a8aa6871d29a93c20",
+  "diff/case-diff.json": "74b6dd5e3dc661ac9df2e19c59f3b5e50bf1ff0627211156504f4646668b20bc",
+  "diff/validation-summary.json": "85281fae37120f9901cf587d0cceb5da50d920d107755c053eacd1bd20c1f22e"
+}

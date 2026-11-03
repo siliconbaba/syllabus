@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Focused atomic family F-TD-P03 TC253/254",
+  "inputHashesFinalRecheck": "PASS",
+  "candidateArtifactHashes": "PASS",
+  "parsedRawAndCsvDiff": "PASS",
+  "familyLiteralStateNormalization": "PASS",
+  "independentRouteArithmetic": "PASS",
+  "sameTopicPrimaryCoverage": "PASS",
+  "authoritativeSwiftProbe": "PASS",
+  "semanticGates": "Independently reasoned in report/CSVs; not inferred from scripts",
+  "fullAppSuite": "NOT_RUN",
+  "candidateModified": false,
+  "productionModified": false,
+  "triageModified": false
+}

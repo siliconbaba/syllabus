@@ -1,0 +1,105 @@
+{
+  "method": "Context, question and option.text read before candidate keys/explanations in this QA; prior manifest knowledge exists and is not concealed.",
+  "choices": {
+    "TC-076": {
+      "independentStrongest": "C",
+      "uniqueAtBlindReview": true
+    },
+    "TC-077": {
+      "independentStrongest": "A",
+      "uniqueAtBlindReview": true
+    },
+    "TC-078": {
+      "independentStrongest": "D",
+      "uniqueAtBlindReview": true
+    },
+    "TC-079": {
+      "independentStrongest": "B",
+      "uniqueAtBlindReview": true
+    },
+    "TC-080": {
+      "independentStrongest": "C",
+      "uniqueAtBlindReview": true
+    },
+    "TC-081": {
+      "independentStrongest": "D",
+      "uniqueAtBlindReview": true
+    },
+    "TC-082": {
+      "independentStrongest": "A",
+      "uniqueAtBlindReview": true
+    },
+    "TC-083": {
+      "independentStrongest": "B",
+      "uniqueAtBlindReview": true
+    },
+    "TC-084": {
+      "independentStrongest": "D",
+      "uniqueAtBlindReview": true
+    },
+    "TC-085": {
+      "independentStrongest": "C",
+      "uniqueAtBlindReview": true
+    },
+    "TC-086": {
+      "independentStrongest": "A",
+      "uniqueAtBlindReview": true
+    },
+    "TC-087": {
+      "independentStrongest": "B",
+      "uniqueAtBlindReview": true
+    },
+    "TC-088": {
+      "independentStrongest": "D",
+      "uniqueAtBlindReview": true
+    },
+    "TC-089": {
+      "independentStrongest": "C",
+      "uniqueAtBlindReview": true
+    },
+    "TC-090": {
+      "independentStrongest": "A",
+      "uniqueAtBlindReview": true
+    },
+    "TC-091": {
+      "independentStrongest": "B",
+      "uniqueAtBlindReview": true
+    },
+    "TC-092": {
+      "independentStrongest": "C",
+      "uniqueAtBlindReview": true
+    },
+    "TC-093": {
+      "independentStrongest": "D",
+      "uniqueAtBlindReview": true
+    },
+    "TC-094": {
+      "independentStrongest": "A",
+      "uniqueAtBlindReview": true
+    },
+    "TC-095": {
+      "independentStrongest": "B",
+      "uniqueAtBlindReview": true
+    },
+    "TC-096": {
+      "independentStrongest": "D",
+      "uniqueAtBlindReview": true
+    },
+    "TC-097": {
+      "independentStrongest": "A",
+      "uniqueAtBlindReview": true
+    },
+    "TC-098": {
+      "independentStrongest": "C",
+      "uniqueAtBlindReview": true
+    },
+    "TC-099": {
+      "independentStrongest": "B",
+      "uniqueAtBlindReview": true
+    },
+    "TC-100": {
+      "independentStrongest": "D",
+      "uniqueAtBlindReview": true
+    }
+  }
+}

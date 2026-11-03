@@ -1,0 +1,50 @@
+{
+  "status": "PASS mechanical regression; PARTIAL substantive scope",
+  "selectedFamilies": [
+    "F-PE-T01",
+    "F-TD-P03"
+  ],
+  "successfullyRedesignedFamilies": [
+    "F-TD-P03"
+  ],
+  "unchangedUnresolvedFamilies": [
+    "F-PE-T01"
+  ],
+  "selectedMembers": [
+    "TC-176",
+    "TC-177",
+    "TC-178",
+    "TC-253",
+    "TC-254"
+  ],
+  "changedRows": [
+    "TC-253",
+    "TC-254"
+  ],
+  "sourceGrounding": "PASS2/2",
+  "levelRealization": "PASS2/2",
+  "familyContracts": "PASS1/1 applied;1 selected unresolved",
+  "runtimeSemanticMapping": "PASS2/2",
+  "unknownCodes": 0,
+  "semanticUniqueness": {
+    "NO CLOSE ANALOG": 0,
+    "ALLOWED REINFORCEMENT": 2,
+    "NEAR DUPLICATE": 0,
+    "DUPLICATE": 0
+  },
+  "unexpectedChangedRows": 0,
+  "unexpectedFamilyChanges": 0,
+  "structuralRegression": "PASS",
+  "otherUnresolvedUnchanged": true,
+  "acceptedRowsUnchanged": true,
+  "productionUnchanged": true,
+  "remainingAuthorUnresolved": 72,
+  "acceptedBaselineUnresolved": 74,
+  "pendingIndependentAcceptance": [
+    "TC-253",
+    "TC-254"
+  ],
+  "independentQA": "NOT_RUN",
+  "fullCaseLoader": "NOT_APPLICABLE — no full cases",
+  "readyForFocusedIndependentQA": true
+}

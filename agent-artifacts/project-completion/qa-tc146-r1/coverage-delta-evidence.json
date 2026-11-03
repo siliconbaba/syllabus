@@ -1,0 +1,79 @@
+{
+  "oldRowWeights": {
+    "stakeholders": 0.6666666666666666,
+    "dependencies": 0.3333333333333333
+  },
+  "newRowWeights": {
+    "stakeholders": 1.0
+  },
+  "pools": {
+    "all300": {
+      "dependencies": {
+        "before": {
+          "count": 58,
+          "weight": 28.249999999999993
+        },
+        "after": {
+          "count": 57,
+          "weight": 27.91666666666666
+        }
+      },
+      "stakeholders": {
+        "before": {
+          "count": 57,
+          "weight": 28.416666666666668
+        },
+        "after": {
+          "count": 57,
+          "weight": 28.750000000000004
+        }
+      }
+    },
+    "assessment200": {
+      "dependencies": {
+        "before": {
+          "count": 43,
+          "weight": 18.66666666666666
+        },
+        "after": {
+          "count": 42,
+          "weight": 18.33333333333333
+        }
+      },
+      "stakeholders": {
+        "before": {
+          "count": 35,
+          "weight": 18.916666666666664
+        },
+        "after": {
+          "count": 35,
+          "weight": 19.25
+        }
+      }
+    },
+    "assessmentJunior": {
+      "dependencies": {
+        "before": {
+          "count": 12,
+          "weight": 5.583333333333333
+        },
+        "after": {
+          "count": 11,
+          "weight": 5.25
+        }
+      },
+      "stakeholders": {
+        "before": {
+          "count": 6,
+          "weight": 4.25
+        },
+        "after": {
+          "count": 6,
+          "weight": 4.583333333333333
+        }
+      }
+    }
+  },
+  "structuralCountsUnchanged": true,
+  "note": "Per-row simulation only. No cumulative manifest mutation or whole-engine coverage approval. Existing approved completion01 pool used as working base."
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "plannedId": "TC-193",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-065",
+        "retrievalScore": 11.343108,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "support"
+        ],
+        "sharedTerms": [
+          "аналитик",
+          "день",
+          "дней",
+          "доступ",
+          "его",
+          "ему",
+          "может",
+          "неделю",
+          "первую",
+          "первый",
+          "поддержку",
+          "рабочий",
+          "через"
+        ]
+      },
+      {
+        "id": "TC-041",
+        "retrievalScore": 5.188233,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "support"
+        ],
+        "sharedTerms": [
+          "встречах",
+          "как",
+          "работает",
+          "рабочих",
+          "руководитель",
+          "самостоятельно"
+        ]
+      },
+      {
+        "id": "TC-017",
+        "retrievalScore": 5.063155,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [
+          "support"
+        ],
+        "sharedTerms": [
+          "ещё",
+          "команды",
+          "статус"
+        ]
+      },
+      {
+        "id": "TC-081",
+        "retrievalScore": 4.084258,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "доступны",
+          "ещё",
+          "нет",
+          "ответственности"
+        ]
+      },
+      {
+        "id": "TC-082",
+        "retrievalScore": 4.068809,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "доступны",
+          "нет",
+          "ответственности"
+        ]
+      },
+      {
+        "id": "TC-097",
+        "retrievalScore": 3.193509,
+        "reasons": [
+          "domain"
+        ],
+        "patternOverlap": [],
+        "sharedTerms": [
+          "доступны",
+          "его",
+          "как",
+          "может",
+          "план",
+          "поддержки",
+          "роль",
+          "руководитель"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

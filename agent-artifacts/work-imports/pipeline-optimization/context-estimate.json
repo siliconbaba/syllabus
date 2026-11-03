@@ -1,0 +1,14 @@
+{
+  "method": "Unicode character counts, not API token billing. Old proxy = all 275-row masterplan + all textbook topic text + full production + schema; excludes repeated long prompts and historic reports. New proxy = full relevant topics, batch manifest/families, all unique analog dossiers + retrieval list + contract/runbook/short prompt/schema. Read aggregate OR per-item copies, never both. Evidence index is lookup-only.",
+  "oldBroadReadCharacters": 4733850,
+  "newScopedReadCharacters": 903262,
+  "estimatedReductionPercent": 80.9,
+  "sourceTopicCount": 16,
+  "totalBookTopicCount": 129,
+  "uniqueAnalogCount": 76,
+  "averageAnalogsPerPlannedCase": 7.0,
+  "newCoreFiles": 10,
+  "newCoreLines": 12574,
+  "fullMasterplanLines": 19461,
+  "packManifestLines": 1019
+}

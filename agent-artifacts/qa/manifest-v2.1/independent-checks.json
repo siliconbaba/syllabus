@@ -1,0 +1,147 @@
+{
+  "errors": [],
+  "hashes": {
+    "production_manifest_masterplan_v2_1.json": true,
+    "production_manifest_TC026_TC300_v2_1.csv": true,
+    "linked_family_manifest_v2_1.csv": true,
+    "production_manifest_review_v2_1.md": true,
+    "runtime_coverage_v2_1.json": true,
+    "vocabulary_review_v2_1.csv": true,
+    "head_audit_v2.csv": true
+  },
+  "new": {
+    "count": 275,
+    "levels": {
+      "middle": 99,
+      "junior": 43,
+      "senior": 88,
+      "head": 45
+    },
+    "domains": {
+      "project": 24,
+      "finance": 24,
+      "analytics": 15,
+      "product": 14,
+      "delivery": 23,
+      "technical": 46,
+      "processes": 41,
+      "stakeholders": 27,
+      "people": 33,
+      "portfolio": 28
+    }
+  },
+  "standalone": {
+    "count": 181,
+    "levels": {
+      "senior": 56,
+      "middle": 70,
+      "head": 26,
+      "junior": 29
+    },
+    "domains": {
+      "project": 15,
+      "product": 10,
+      "delivery": 10,
+      "technical": 35,
+      "processes": 27,
+      "stakeholders": 18,
+      "people": 22,
+      "finance": 18,
+      "portfolio": 15,
+      "analytics": 11
+    }
+  },
+  "full": {
+    "count": 300,
+    "levels": {
+      "middle": 120,
+      "junior": 45,
+      "senior": 90,
+      "head": 45
+    },
+    "domains": {
+      "project": 29,
+      "delivery": 27,
+      "processes": 44,
+      "technical": 49,
+      "portfolio": 30,
+      "stakeholders": 29,
+      "people": 36,
+      "finance": 25,
+      "analytics": 16,
+      "product": 15
+    }
+  },
+  "assessment200": {
+    "count": 200,
+    "levels": {
+      "middle": 85,
+      "junior": 31,
+      "senior": 58,
+      "head": 26
+    },
+    "domains": {
+      "delivery": 12,
+      "project": 18,
+      "processes": 30,
+      "technical": 38,
+      "portfolio": 17,
+      "stakeholders": 20,
+      "people": 23,
+      "finance": 19,
+      "analytics": 12,
+      "product": 11
+    }
+  },
+  "families": {
+    "triplet": 8,
+    "pair": 35
+  },
+  "batches": {
+    "Batch 01": 25,
+    "Batch 02": 25,
+    "Batch 03": 25,
+    "Batch 04": 25,
+    "Batch 05": 25,
+    "Batch 06": 25,
+    "Batch 07": 25,
+    "Batch 08": 25,
+    "Batch 09": 25,
+    "Batch 10": 25,
+    "Batch 11": 25
+  },
+  "unknown": [],
+  "derivedMismatches": [],
+  "headBreadthCounts": {
+    "processes": 14,
+    "project": 6,
+    "product": 4,
+    "technical": 20,
+    "stakeholders": 9,
+    "people": 11,
+    "finance": 8,
+    "analytics": 3,
+    "portfolio": 7,
+    "delivery": 2
+  },
+  "headBreadthAreas": [
+    "processes",
+    "project",
+    "product",
+    "technical",
+    "stakeholders",
+    "people",
+    "finance",
+    "analytics",
+    "portfolio"
+  ],
+  "headBreadthPass": true,
+  "contextScoredEvidence": 0,
+  "provisionalRows": [],
+  "inputHashes": {
+    "agent-artifacts/manifests/v2.1/production_manifest_masterplan_v2_1.json": "8563e61a14387f66d2b99a4280ed2e4dbb28bcfc5b87fc2c39f299f0a497d5ae",
+    "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+    "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+    "InteractiveBook/Trainer/TrainerScoringEngine.swift": "13e6a94d5deb5483d9cdf87fd6369540ad36cff821e220e6418409788dbeb5a4"
+  }
+}

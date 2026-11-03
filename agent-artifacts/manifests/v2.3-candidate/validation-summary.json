@@ -1,0 +1,8 @@
+{
+  "status": "BLOCKED",
+  "mechanical": "PASS",
+  "semantic": "UNRESOLVED",
+  "level": "UNRESOLVED",
+  "sourceRedesign": "8/8 PASS",
+  "readyForIndependentGlobalManifestQA": false
+}

@@ -1,0 +1,51 @@
+{
+  "status": "FIX REQUIRED",
+  "candidateSHA256": "894b42abf4c430e6bc53f3469baa553890d2d0340f94039627ef825404082dc7",
+  "scope": "Independent economical batch full-case QA; TC-222 and TC-287 standalone; TC-253/254 atomic F-TD-P03",
+  "perCase": {
+    "TC-222": "PASS",
+    "TC-287": "FIX REQUIRED",
+    "TC-253": "FIX REQUIRED",
+    "TC-254": "PASS CONTENT / ATOMIC FAMILY HOLD"
+  },
+  "gates": {
+    "blindStrongest": "PASS",
+    "source": "PASS",
+    "level": "PASS",
+    "uniqueStrongest": "PASS",
+    "professionalPlausibility": "PASS",
+    "wholeWhen": "PASS",
+    "DQ": "FIX REQUIRED TC-287",
+    "visibleArithmeticAndFeasibility": "FIX REQUIRED TC-253",
+    "familySingleVariable": "PASS; common wording repair retest required",
+    "duplication": "PASS",
+    "surface": "PASS",
+    "metadataRuntime": "PASS INHERITED EXACT HASH"
+  },
+  "severityCounts": {
+    "blocker": 0,
+    "major": 2,
+    "minor": 0
+  },
+  "remainingIssueIDs": [
+    "FLOW04-01",
+    "FLOW04-02"
+  ],
+  "remainingCaseIDs": [
+    "TC-287",
+    "TC-253",
+    "TC-254"
+  ],
+  "importEligible": false,
+  "productionChanged": false,
+  "freezePerformed": false,
+  "runtimeCompilationCount": 0,
+  "inheritanceBases": [
+    "pack-flow-04/validation.json exact candidateSHA256 match",
+    "approved-blueprints rows match accepted working completion03"
+  ],
+  "notes": [
+    "No four-near-optimal-options requirement imposed.",
+    "TC-222 passes independently. TC-254 content passes but cannot be released alone from its linked family."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "scope": "Independent full-case content QA, atomic training-only pair against approved R2 family; awaiting cumulative manifest reconciliation and downstream import process.",
+  "candidatePath": "agent-artifacts/test-bank/full-cases/pair-133-134/cases.json",
+  "candidateSHA256": "5183bf959c71ed601afcff8a6e8069f544977230c49301c31bb66eea59d74af6",
+  "acceptedCaseIDs": [
+    "TC-133",
+    "TC-134"
+  ],
+  "acceptedFamilyID": "F-PO-P02",
+  "perCase": {
+    "TC-133": "PASS",
+    "TC-134": "PASS"
+  },
+  "remainingCaseIDs": [],
+  "remainingIssueIDs": [],
+  "severityCounts": {
+    "blocker": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "inputs": {
+    "agent-artifacts/test-bank/reconstruction/f-po-p02-completion05-r2/proposed-projection.json": "16c9a40e00b05aec0966043139d8fe17147dd6832e677cab87b055f067900acc",
+    "agent-artifacts/project-completion/qa-blueprint-f-po-p02-r2/QA-verdict.json": "b170bc53b7f3b48a75afb977a7e02b8029e1b1175ec841422893ef5efaeb1604",
+    "agent-artifacts/manifests/v2.3-completion-04-candidate/production_manifest_masterplan_v2_3_completion_04_candidate.json": "964cd7a0a9a550967215a330eb114e88a7806dbffa7439126ec6ee6e1474e713",
+    "agent-artifacts/project-completion/qa-full-pair133/blind-choices.json": "2ef85f273668954fda9b726a51ad636e5651f0fec1484851a245d93732410a0a",
+    "agent-artifacts/project-completion/qa-full-pair133/runtime-loader.json": "08c2d82d9e0cbe3db703ca8e4b4321cd538d17556af0f3f9d82352678f8d6b7f",
+    "agent-artifacts/test-bank/hard-tail-triage/source-topics/t-9-4.md": "930f2a5aa24ff29e8ba5d2fa03e0107c4c8d581b11593af4c5e1a808cf870c85",
+    "InteractiveBook/TrainerContent/cases.json": "98ba625e4c9d73de11dc6bf6d9762acdab5a5869e83be6924048e2cc047de8da"
+  },
+  "gates": {
+    "blindUnique": "TC-133 A > B, TC-134 B > C; both .99. Blind view matches published context, question and options. Correct positions A and B; shared menu, longest C wins neither. Explicitly infeasible shared D is a weak distractor, but remaining choices discriminate between routing and recommended outcome.",
+    "family": "Only context mutation is catalog→certificate. Same complete mandate, alternatives, owner availability/decision today, indivisible resource, costs and timelines. Both training-only. TC-133 catalog already delivered; swap costs 0 and is within A+B mandate, keeping B costs 50, delaying V unnecessary. TC-134 certificate needed on day 3; swap supplies it on day 5 costing 90, keeping B costs 50. All plans breach an obligation so only portfolio owner can approve even retaining B. C escalates correctly but doubles down on the costlier plan.",
+    "wholeWhen": "A: conditional consent plus unaffected input and internal deadlines permits whole bilateral swap. B: unavoidable portfolio conflict plus cheaper retention requires owner and justifies recommendation. C: under same mandate owner required only if no plan saves all commitments; if A delay then costs more than V loss, escalate and prefer A. D: splittable capacity with both jobs fitting in time, integrity preserved and agreement makes both promised dates feasible.",
+    "dq": "One 1.0 each, scores consistent with feasible decision/available mandate. In TC-134 C .7 follows proper route, A .25 incorrectly claims to preserve V, D .1 impossible. Reasons distinguish recipient and recommendation.",
+    "sourceLevelAnalogs": "§9.4 requires following dependency across programs and placing true competing commitments with portfolio authority. Senior operation present: identify required output, calculate downstream effect, derive available authority. TC-012 and 156/157,226/227 take owner/mandate scope directly; same mandate here, actual downstream dependency changes. TC-074 common dependency, TC-139 end-to-end readiness. Full case realizes approved blueprint without changing that distinction.",
+    "runtime": "Fresh Swift production loader PASS schema and runtime, zero issues. Checked all classification and eligibility fields against approved R2."
+  },
+  "importEligible": false,
+  "productionChanged": false,
+  "limitations": [
+    "Content accepted jointly. Import/freeze requires accepted cumulative manifest containing this R2 projection and applicable production regression."
+  ]
+}

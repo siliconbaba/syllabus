@@ -1,0 +1,66 @@
+{
+  "id": "TC-085",
+  "result": "PASS",
+  "blindChoice": "C",
+  "candidateChoice": "C",
+  "agreement": true,
+  "uniqueStrongest": true,
+  "sourceGrounding": "SUPPORTED",
+  "sourceTopic": "t-3-9",
+  "sourcePropositions": [
+    "Полный цикл регресса следует разделять на прогон, ожидание/подготовку данных, разбор и повторение; автоматизация не единственный ответ.",
+    "Тестовые данные расходуются; необходимо сохранять согласованность между системами; наборы как код с восстановлением перед регрессом — прямая практика учебника.",
+    "Выбор автоматизации зависит от частоты, стабильности, цены и эффекта."
+  ],
+  "pairwise": [
+    {
+      "comparison": "C>A",
+      "decisiveFacts": "C27ч и готовность12.5ч; A43ч и готовность20ч при30/16. Автоматизация выполнения не снимает подготовку4ч."
+    },
+    {
+      "comparison": "C>B",
+      "decisiveFacts": "Среда свободна; прогоны последовательны; новая среда не меняет труд подготовки: B40ч>C27ч."
+    },
+    {
+      "comparison": "C>D",
+      "decisiveFacts": "Все6 прогонов нужны; ручные наборы4ч каждый: D36ч>30ч, C27ч. Подготовка заранее не уменьшает общий труд."
+    }
+  ],
+  "calculations": {
+    "A": {
+      "totalHours": 43,
+      "beforeFirstRun": 20
+    },
+    "B": {
+      "totalHours": 40,
+      "beforeFirstRun": 8
+    },
+    "C": {
+      "totalHours": 27,
+      "beforeFirstRun": 12.5
+    },
+    "D": {
+      "totalHours": 36,
+      "beforeFirstRun": 4
+    }
+  },
+  "requiredLevel": "middle",
+  "levelResult": "PASS",
+  "levelReason": "Выделить подготовку и исполнение, сравнить разовое вложение с повторным трудом на шести циклах и проверить общий ресурс вместе с готовностью первого старта. Junior знание пирамиды и среды не решает эту задачу; системная стратегия нескольких команд не нужна.",
+  "decisionQuality": {
+    "A": 0.65,
+    "B": 0.45,
+    "C": 1.0,
+    "D": 0.82,
+    "result": "PASS",
+    "reason": "D — проверенный ручной путь без разработки, проигрывает полной ёмкости; A действительно сокращает часть повторяемой работы, но не ограничитель; B добавляет ресурс без существующего ожидания. Оценки отражают reasoning, а не линейную шкалу перерасхода часов."
+  },
+  "whenItWouldBeBest": "PASS for all four whole options: A cheap preparation/dominant execution; B actual environment queue and justified extra setup; C consumable consistent data and favorable whole-horizon economics; D few runs or volatile data with feasible cheaper manual sets.",
+  "explanations": "PASS — вычисления следуют context; причинный вывод только из прямо заданного механизма, не из корреляции.",
+  "decisiveFacts": "PASS — 3 items, all present before answer.",
+  "mentalModel": "PASS — разделение подготовки/исполнения и полной стоимости переносимо за пределы сюжета.",
+  "distractors": "PASS — automation-first, environment-first, avoid-upfront-investment are plausible competing heuristics.",
+  "duplicateVsTC004": "ALLOWED REINFORCEMENT",
+  "productionComparisons": 75,
+  "remainingFixes": []
+}

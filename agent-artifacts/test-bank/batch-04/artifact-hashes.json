@@ -1,0 +1,11 @@
+{
+  "authoring-report.md": "6b3c4873bb49869e28f1144aec12d97190c737c0686d4717e87a613feb725cd1",
+  "duplication-preflight.csv": "4eae1c8def705e6791be4255543170f6c3b279710508b7ed8c6e53de2eabcb35",
+  "family-preflight.json": "c1130d322c5e444cbc7c12e46a811eb093387c120259e32f7443d0ac0709e879",
+  "frozen-batch04-contract.json": "54d606cd539408b1354aef82d4b3f5a1b7753bd5fa025d7137b0f510fd71cdd7",
+  "input-hashes.json": "92f1aa111fa046ee2aa3bd139d8145006b28345b7d5109809b2301951d89bac2",
+  "internal-preflight.csv": "9bb69081e2d1d917529eb07d7b4c92e04c6dc6072661919fe2293d65d6ce484f",
+  "manifest-blockers.csv": "893545beeee54ffac0ccdd78d46560cd585475ba72adcd0faf0a23bf854d8d1c",
+  "nearest-production-evidence.json": "ec8c65eb7b410f69b942547ecf9a139d30fbb13bab782850c1cdde0005b4e7ea",
+  "preflight-validation.json": "02a9287cb2cdb2d8cb00defb0c3b1aa58936699235c8ffb2886f40e1c53a3d9d"
+}

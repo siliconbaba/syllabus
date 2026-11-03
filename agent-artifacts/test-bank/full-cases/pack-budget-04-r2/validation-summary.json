@@ -1,0 +1,21 @@
+{
+  "candidateSHA256": "50b0dddc892c46aa0e99cf709534e6e4f63a16a8e1d467d095f8347aeed5c3ce",
+  "parentSHA256": "687f0b35e3c1064135425d99b2ecfbc42a2962fb31f1701b640eb129c0fd3cff",
+  "baseQA": "agent-artifacts/project-completion/qa-budget04/QA-verdict.json",
+  "baseQASHA256": "bd585793ee984e885a79585a2753fa074d8fcba3ca9304a672e921adba422c51",
+  "fields": {
+    "TC-114": [
+      "B.text",
+      "revision"
+    ],
+    "TC-300": [
+      "C.text",
+      "revision"
+    ]
+  },
+  "swift": {
+    "issues": [],
+    "runtime": "PASS",
+    "schema": "PASS"
+  }
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "plannedId": "TC-253",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-086",
+        "retrievalScore": 11.327764,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "bottleneck"
+        ],
+        "sharedTerms": [
+          "wip",
+          "вне",
+          "всего",
+          "вход",
+          "два",
+          "задач",
+          "недели",
+          "неделю",
+          "поступают",
+          "пропускной",
+          "способности",
+          "стадии",
+          "три",
+          "уже"
+        ]
+      },
+      {
+        "id": "TC-063",
+        "retrievalScore": 6.246273,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "bottleneck"
+        ],
+        "sharedTerms": [
+          "wip",
+          "без",
+          "два",
+          "дополнительной",
+          "задачи",
+          "каждого",
+          "может",
+          "при",
+          "проверки",
+          "согласовать",
+          "такого",
+          "четыре",
+          "этот"
+        ]
+      },
+      {
+        "id": "TC-095",
+        "retrievalScore": 6.16268,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "bottleneck"
+        ],
+        "sharedTerms": [
+          "wip",
+          "вход",
+          "два",
+          "дня",
+          "задачи",
+          "может",
+          "недели",
+          "после",
+          "четыре"
+        ]
+      },
+      {
+        "id": "TC-076",
+        "retrievalScore": 6.158619,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "дополнительной",
+          "его",
+          "поставки",
+          "при",
+          "проверка",
+          "проверки",
+          "ревью",
+          "уже",
+          "цена"
+        ]
+      },
+      {
+        "id": "TC-077",
+        "retrievalScore": 6.158619,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "дополнительной",
+          "его",
+          "поставки",
+          "при",
+          "проверка",
+          "проверки",
+          "ревью",
+          "уже",
+          "цена"
+        ]
+      },
+      {
+        "id": "TC-078",
+        "retrievalScore": 6.158619,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "дополнительной",
+          "его",
+          "поставки",
+          "при",
+          "проверка",
+          "проверки",
+          "ревью",
+          "уже",
+          "цена"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  },
+  {
+    "plannedId": "TC-254",
+    "topN": 6,
+    "weakRetrieval": false,
+    "analogs": [
+      {
+        "id": "TC-086",
+        "retrievalScore": 11.37275,
+        "reasons": [
+          "topicId",
+          "domain"
+        ],
+        "patternOverlap": [
+          "bottleneck"
+        ],
+        "sharedTerms": [
+          "wip",
+          "вместо",
+          "вне",
+          "всего",
+          "вход",
+          "два",
+          "задач",
+          "недели",
+          "неделю",
+          "ней",
+          "поступают",
+          "пропускной",
+          "способности",
+          "стадии",
+          "три"
+        ]
+      },
+      {
+        "id": "TC-063",
+        "retrievalScore": 6.231419,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "bottleneck"
+        ],
+        "sharedTerms": [
+          "wip",
+          "без",
+          "два",
+          "дополнительной",
+          "задачи",
+          "каждого",
+          "может",
+          "при",
+          "проверки",
+          "такого",
+          "четыре",
+          "этот"
+        ]
+      },
+      {
+        "id": "TC-095",
+        "retrievalScore": 6.202555,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "bottleneck"
+        ],
+        "sharedTerms": [
+          "wip",
+          "вход",
+          "два",
+          "двух",
+          "дня",
+          "задачи",
+          "может",
+          "недели",
+          "отдельного",
+          "после",
+          "четыре"
+        ]
+      },
+      {
+        "id": "TC-076",
+        "retrievalScore": 6.170185,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "дополнительной",
+          "его",
+          "отдельного",
+          "поставки",
+          "при",
+          "проверка",
+          "проверки",
+          "ревью",
+          "цена"
+        ]
+      },
+      {
+        "id": "TC-077",
+        "retrievalScore": 6.170185,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "дополнительной",
+          "его",
+          "отдельного",
+          "поставки",
+          "при",
+          "проверка",
+          "проверки",
+          "ревью",
+          "цена"
+        ]
+      },
+      {
+        "id": "TC-078",
+        "retrievalScore": 6.170185,
+        "reasons": [
+          "domain",
+          "requiredLevel"
+        ],
+        "patternOverlap": [
+          "process-economics"
+        ],
+        "sharedTerms": [
+          "дополнительной",
+          "его",
+          "отдельного",
+          "поставки",
+          "при",
+          "проверка",
+          "проверки",
+          "ревью",
+          "цена"
+        ]
+      }
+    ],
+    "safetyAdded": [],
+    "safetyCoverage": "PASS",
+    "semanticVerdict": "NOT_EVALUATED"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "status": "NOT RUN",
+  "batchHeuristics": null,
+  "crossBank100": null,
+  "reason": "No candidate: corpus remains 75 cases, not 100. This is not a PASS or a measured leakage FAIL."
+}

@@ -1,0 +1,10 @@
+{
+  "source": "InteractiveBook/WebContent/index.html",
+  "sourceSHA256": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "topicId": "t-5-5",
+  "extraction": "Full article HTMLParser text; whitespace-only formatting differences permitted",
+  "extractedFile": "agent-artifacts/test-bank/reconstruction/tc272-r1/source-t-5-5.txt",
+  "extractedSHA256": "8f3bcd1c75a1f3faa10bb022198ee9558727467244d49240d1e48b5b1cb4e7ab",
+  "exactTextMatch": false,
+  "completeTextMatchIgnoringWhitespace": true
+}

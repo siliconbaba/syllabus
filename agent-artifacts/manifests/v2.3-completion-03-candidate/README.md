@@ -1,0 +1,1 @@
+Candidate explicit action-space clarification for108/109. Two rows andonefamily only, all runtime inputs identical to acceptedcompletion02. Inherit compiledcoverage only after independent hash/equality verification; no300impulse rerun needed. Historical nested statuses unchanged; remaining68. No freeze/import/production changes.

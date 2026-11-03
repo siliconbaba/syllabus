@@ -1,0 +1,19 @@
+{
+  "agent-artifacts/test-bank/full-cases/tc200-r1/cases.json": "d6d21fc43a357bc0db0815ec529e4cce3f493a4fdc06c908aac22bb2474cc50d",
+  "agent-artifacts/test-bank/full-cases/tc200-r1/blind-case.json": "0c9f5613f6fd23030aaf06aeab4ec1b1b0e88363d2b1d6e5692d8bddb62d9cef",
+  "agent-artifacts/test-bank/reconstruction/tc200-r1/source-t-6-2.txt": "25d8106b4d5a382c06b557d9a05427fb8e079371b73e229664e83fc5aad15a02",
+  "agent-artifacts/test-bank/reconstruction/tc200-r2/proposed-manifest-row.json": "a809f143f9cb532f0fd8725b2cb79c4e1c5897ac97a771ee73771a03739bd7b8",
+  "agent-artifacts/project-completion/qa-tc200-r2/QA-verdict.json": "86a2906db3ed292db3c4d6290b692696bbe6dc809862d62f68c5d51268c32cff",
+  "InteractiveBook/WebContent/index.html": "f525fbb22c62688ae4a7c7b07f5f12b4bbd9c8044daf32a0f229ba70438e2b4f",
+  "InteractiveBook/TrainerContent/cases.json": "6becf4f8ccdb914e9ebd51ca780902174ecdd7914824408139b40477cd25c6a3",
+  "InteractiveBook/TrainerContent/topics.json": "2b2be6cb8dab568bdc6464b7b84240d5507d63a0d58617c813283ff1db6451cc",
+  "InteractiveBook/Trainer/TrainerModels.swift": "bcf35d1246a2c60901431510551ce0c1f0de71e0c82f4f0c74305a0c0e45d677",
+  "InteractiveBook/Trainer/TrainerScoringMapping.swift": "a0e578503d7a13868326ffaa786ad363cddbe0782cecfa42a74f6cb2646d3cad",
+  "agent-artifacts/manifests/v2.3-hardtail-b2-candidate/production_manifest_masterplan_v2_3_hardtail_b2_candidate.json": "625d6b2529c74da2bf51c4ae349f77d44182472fac9263a47f8f33f47b734ced",
+  "docs/TRAINER-CONTENT-SCHEMA.md": "efaada5334107e0656d47d9c388142a4fcac65932b63c05ce0686059a6319ab7",
+  "agent-artifacts/contracts/TEST-QA-RUNBOOK.md": "9a052138b073a3357eb2b27cc08b1e489a3596179d368719b36dd03b5bf43116",
+  "agent-artifacts/contracts/PIPELINE-CONTRACT.md": "5c59a69e89172438ad78535c69b0abf887d3cabc4efea67638e5a08624ca77c3",
+  "agent-artifacts/project-completion/qa-tc200-r1/analog-evidence.json": "1f4fa8da8c923de739a26ebb1c6cc2c8b1e1fbe7767af8681e9b2588e8f868d2",
+  "agent-artifacts/qa/batch-03-r3/reproduce-surface-independent.py": "8289a759e8e32ae741f356840951715ffbcaed82ec24a0a1c6c04e071813ec5e",
+  "agent-artifacts/test-bank/full-cases/tc193-r2/cases.json": "1aefbe44e3cb73660bb8139988aebae0398afce3ad8f9c67dfef76e3cef73c11"
+}

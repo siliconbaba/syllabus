@@ -23,6 +23,7 @@
   var main = document.querySelector('main'), sidebar = document.getElementById('sidebar');
   var toc = document.getElementById('toc'), search = document.getElementById('tocSearch');
   var burger = document.getElementById('burger'), backdrop = document.getElementById('menuBackdrop');
+  var dockedMenu = document.documentElement.hasAttribute('data-standalone-web');
   var topics = Array.from(document.querySelectorAll('.topic[id]'));
   var ready = false, scrollTimer, current = null, positions = [];
   var header = document.querySelector('.topbar');
@@ -67,10 +68,12 @@
   document.addEventListener('visibilitychange', function () { if (document.hidden) savePosition(); });
   window.bookSavePosition = savePosition;
   function menu(open) {
+    var reading = dockedMenu && ready ? snapshot().location : null;
     if (!open && sidebar.contains(document.activeElement)) document.activeElement.blur();
     document.body.classList.toggle('side-open', open);
     burger.setAttribute('aria-expanded', String(open));
-    sidebar.inert = !open; main.inert = open; backdrop.hidden = !open;
+    sidebar.inert = !open; main.inert = open && !dockedMenu; backdrop.hidden = dockedMenu || !open;
+    if (reading) restorePosition(reading);
     if (open && current) {
       var a = toc.querySelector('a[href="#' + current + '"]');
       if (a) {
@@ -106,7 +109,7 @@
   function back() {
     if (navigating || !readingHistory.length) return false;
     navigating = true;
-    var previous = readingHistory.pop(); updateBack(); menu(false);
+    var previous = readingHistory.pop(); updateBack(); if (!dockedMenu) menu(false);
     if (window.bookAudio) window.bookAudio.invalidate();
     applyFilter(previous.filter); set('ya-filter', previous.filter);
     requestAnimationFrame(function() {
@@ -128,14 +131,25 @@
     }
     navigating = true;
     if (window.bookRevealElement) window.bookRevealElement(target);
-    menu(false);
+    if (!dockedMenu) menu(false);
+    // Move focus out of the closing sidebar before positioning the reader.
+    // Explicit instant alignment also cancels any pending browser scroll.
+    main.tabIndex = -1;
+    main.focus({preventScroll:true});
     var navigationContext=target.closest('.topic') || target;
     if (window.bookAudio) window.bookAudio.topicChanged(navigationContext.id);
+    function alignTarget() {
+      main.scrollTo({top:main.scrollTop + target.getBoundingClientRect().top - main.getBoundingClientRect().top - 16, behavior:'instant'});
+    }
     requestAnimationFrame(function () {
       measure();
-      main.scrollTop += target.getBoundingClientRect().top - main.getBoundingClientRect().top - 16;
-      if (historyEntry && location.hash !== '#' + id) history.pushState(null,'','#' + id);
-      savePosition(); setCurrent(navigationContext.id); navigating = false;
+      alignTarget();
+      // Commit history/progress only after focus and layout have settled.
+      requestAnimationFrame(function () {
+        alignTarget(); measure();
+        if (historyEntry && location.hash !== '#' + id) history.pushState(null,'','#' + id);
+        savePosition(); setCurrent(navigationContext.id); navigating = false;
+      });
     });
   }
   window.bookNavigateTo = navigate;

@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-FB0000000000000000000003 = {isa = PBXBuildFile; fileRef = FA0000000000000000000003; };
-		FB0000000000000000000002 = {isa = PBXBuildFile; fileRef = FA0000000000000000000002; };
-		FB0000000000000000000001 = {isa = PBXBuildFile; fileRef = FA0000000000000000000001; };
 		169D848E6EA030687207F30F /* InteractiveBook/Audio/Silero/SileroTextRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F4C87550ECDEF98A80EA85 /* InteractiveBook/Audio/Silero/SileroTextRules.swift */; };
 		3682A459D13E5C1145B92590 /* InteractiveBook/Audio/Silero/DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E1D5B589DAFEA7E403E12 /* InteractiveBook/Audio/Silero/DSP.swift */; };
 		53D1D75DF11331D8A4A63DED /* InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8DECC645CA2416460415 /* InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift */; };
 		64DFA87ED7B10433C108F021 /* InteractiveBook/Audio/Silero/SileroPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D937E1BDC20F611DD22998 /* InteractiveBook/Audio/Silero/SileroPreprocessor.swift */; };
 		6755DAE5070826A01A020BE9 /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB150F25C14EDDEE868CDA /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c */; };
 		70E6A2D9C9C5FB1FC01F7135 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4957C352708D3870C16E9 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift */; };
-		ED0000000000000000000001 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0000000000000000000002 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift */; };
 		7867E2997973F8EF53634CF5 /* InteractiveBook/SileroResources in Resources */ = {isa = PBXBuildFile; fileRef = B2E6E17C817FAE2397823825 /* InteractiveBook/SileroResources */; };
 		886207456C94C01D5CD7FFA2 /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = D62B3A9D181C868008ECF39B /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c */; };
 		8AC8DE887189DA3AC2575AE9 /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0AE1E8EFA66366021707D /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift */; };
@@ -31,27 +27,27 @@ FB0000000000000000000003 = {isa = PBXBuildFile; fileRef = FA00000000000000000000
 		A00000000000000000000008 /* Audio/SpeechReaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* Audio/SpeechReaderManager.swift */; };
 		A00000000000000000000009 /* Audio/SpeechControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* Audio/SpeechControls.swift */; };
 		AA25EE8BDE82C5B6C6F0E84A /* InteractiveBook/Audio/Silero/SileroWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5CE947C75514FDC5D89989 /* InteractiveBook/Audio/Silero/SileroWorker.swift */; };
+		AA7722000000000000000000 /* InteractiveBook/Trainer/TrainerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7711000000000000000000 /* InteractiveBook/Trainer/TrainerModels.swift */; };
+		AA7722000000000000000001 /* InteractiveBook/Trainer/TrainerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7711000000000000000001 /* InteractiveBook/Trainer/TrainerStore.swift */; };
+		AA7722000000000000000002 /* InteractiveBook/Trainer/TrainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7711000000000000000002 /* InteractiveBook/Trainer/TrainerView.swift */; };
+		AA7722000000000000000003 /* InteractiveBook/TrainerContent in Resources */ = {isa = PBXBuildFile; fileRef = AA7711000000000000000003 /* InteractiveBook/TrainerContent */; };
+		AD4400000000000000000000 /* InteractiveBook/Trainer/TrainerScoringEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4400000000000000000000 /* InteractiveBook/Trainer/TrainerScoringEngine.swift */; };
+		AD4400000000000000000001 /* InteractiveBook/Trainer/TrainerScoringMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4400000000000000000001 /* InteractiveBook/Trainer/TrainerScoringMapping.swift */; };
+		AD4400000000000000000002 /* InteractiveBook/Trainer/TrainerProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4400000000000000000002 /* InteractiveBook/Trainer/TrainerProfileView.swift */; };
 		B271FBEC702E5B5BE6077693 /* onnxruntime in Frameworks */ = {isa = PBXBuildFile; productRef = EAC6EE3A2DFA358D00049288 /* onnxruntime */; };
 		C78032AE8E41AA071F407301 /* InteractiveBook/Audio/AppleSpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D1A02C977D6F080DAE4BC4 /* InteractiveBook/Audio/AppleSpeechEngine.swift */; };
 		C92CC0506835B2FB5F7B305A /* InteractiveBook/Audio/SpeechEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42815BFE9291536B66BC1BAA /* InteractiveBook/Audio/SpeechEngine.swift */; };
 		CD518B937C624FF900D499F5 /* InteractiveBook/Audio/Silero/ORTBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7513EE54E3F1CB029ED38 /* InteractiveBook/Audio/Silero/ORTBridge.mm */; };
-AA7722000000000000000000 = {isa = PBXBuildFile; fileRef = AA7711000000000000000000; };
-AA7722000000000000000001 = {isa = PBXBuildFile; fileRef = AA7711000000000000000001; };
-AA7722000000000000000002 = {isa = PBXBuildFile; fileRef = AA7711000000000000000002; };
-AA7722000000000000000003 = {isa = PBXBuildFile; fileRef = AA7711000000000000000003; };
-AD4400000000000000000000 = {isa = PBXBuildFile; fileRef = AC4400000000000000000000; };
-AD4400000000000000000001 = {isa = PBXBuildFile; fileRef = AC4400000000000000000001; };
-AD4400000000000000000002 = {isa = PBXBuildFile; fileRef = AC4400000000000000000002; };
+		ED0000000000000000000001 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0000000000000000000002 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift */; };
+		FB0000000000000000000001 /* InteractiveBook/Saved/SavedExcerptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000001 /* InteractiveBook/Saved/SavedExcerptStore.swift */; };
+		FB0000000000000000000002 /* InteractiveBook/Saved/SavedExcerptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000002 /* InteractiveBook/Saved/SavedExcerptsView.swift */; };
+		FB0000000000000000000003 /* InteractiveBook/BookMessageTrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0000000000000000000003 /* InteractiveBook/BookMessageTrust.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-FA0000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/BookMessageTrust.swift; sourceTree = SOURCE_ROOT; };
-		FA0000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Saved/SavedExcerptsView.swift; sourceTree = SOURCE_ROOT; };
-		FA0000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Saved/SavedExcerptStore.swift; sourceTree = SOURCE_ROOT; };
 		07F54F76DEAAB4C6A8892F55 /* InteractiveBook/Audio/SileroSpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/SileroSpeechEngine.swift; sourceTree = SOURCE_ROOT; };
 		2ACB150F25C14EDDEE868CDA /* InteractiveBook/Audio/Silero/Vendor/kiss_fft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InteractiveBook/Audio/Silero/Vendor/kiss_fft.c; sourceTree = SOURCE_ROOT; };
 		30E4957C352708D3870C16E9 /* InteractiveBook/Audio/Silero/TechnicalLexicon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/TechnicalLexicon.swift; sourceTree = SOURCE_ROOT; };
-		ED0000000000000000000002 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/EnglishPronunciation.swift; sourceTree = SOURCE_ROOT; };
 		3A9E1D5B589DAFEA7E403E12 /* InteractiveBook/Audio/Silero/DSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/DSP.swift; sourceTree = SOURCE_ROOT; };
 		42815BFE9291536B66BC1BAA /* InteractiveBook/Audio/SpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/SpeechEngine.swift; sourceTree = SOURCE_ROOT; };
 		47F4C87550ECDEF98A80EA85 /* InteractiveBook/Audio/Silero/SileroTextRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroTextRules.swift; sourceTree = SOURCE_ROOT; };
@@ -59,7 +55,14 @@ FA0000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourceco
 		6AE0AE1E8EFA66366021707D /* InteractiveBook/Audio/Silero/TechnicalNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/TechnicalNumbers.swift; sourceTree = SOURCE_ROOT; };
 		8EE7513EE54E3F1CB029ED38 /* InteractiveBook/Audio/Silero/ORTBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InteractiveBook/Audio/Silero/ORTBridge.mm; sourceTree = SOURCE_ROOT; };
 		98C8755630193A524DA85B02 /* InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/TechnicalSpeechNormalizer.swift; sourceTree = SOURCE_ROOT; };
+		AA7711000000000000000000 /* InteractiveBook/Trainer/TrainerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerModels.swift; sourceTree = SOURCE_ROOT; };
+		AA7711000000000000000001 /* InteractiveBook/Trainer/TrainerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerStore.swift; sourceTree = SOURCE_ROOT; };
+		AA7711000000000000000002 /* InteractiveBook/Trainer/TrainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerView.swift; sourceTree = SOURCE_ROOT; };
+		AA7711000000000000000003 /* InteractiveBook/TrainerContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = InteractiveBook/TrainerContent; sourceTree = SOURCE_ROOT; };
 		AA8E8DECC645CA2416460415 /* InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroSynthesisRuntime.swift; sourceTree = SOURCE_ROOT; };
+		AC4400000000000000000000 /* InteractiveBook/Trainer/TrainerScoringEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerScoringEngine.swift; sourceTree = SOURCE_ROOT; };
+		AC4400000000000000000001 /* InteractiveBook/Trainer/TrainerScoringMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerScoringMapping.swift; sourceTree = SOURCE_ROOT; };
+		AC4400000000000000000002 /* InteractiveBook/Trainer/TrainerProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerProfileView.swift; sourceTree = SOURCE_ROOT; };
 		B00000000000000000000001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		B00000000000000000000002 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		B00000000000000000000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,14 +77,11 @@ FA0000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourceco
 		D62B3A9D181C868008ECF39B /* InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InteractiveBook/Audio/Silero/Vendor/kiss_fftr.c; sourceTree = SOURCE_ROOT; };
 		DB5CE947C75514FDC5D89989 /* InteractiveBook/Audio/Silero/SileroWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroWorker.swift; sourceTree = SOURCE_ROOT; };
 		E8310F0FE7CA9F6446BD1697 /* InteractiveBook/Audio/Silero/SileroAuxiliary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/SileroAuxiliary.swift; sourceTree = SOURCE_ROOT; };
+		ED0000000000000000000002 /* InteractiveBook/Audio/Silero/EnglishPronunciation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/Silero/EnglishPronunciation.swift; sourceTree = SOURCE_ROOT; };
 		F6D1A02C977D6F080DAE4BC4 /* InteractiveBook/Audio/AppleSpeechEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Audio/AppleSpeechEngine.swift; sourceTree = SOURCE_ROOT; };
-AA7711000000000000000000 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerModels.swift; sourceTree = SOURCE_ROOT; };
-AA7711000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerStore.swift; sourceTree = SOURCE_ROOT; };
-AA7711000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerView.swift; sourceTree = SOURCE_ROOT; };
-AA7711000000000000000003 = {isa = PBXFileReference; lastKnownFileType = folder; path = InteractiveBook/TrainerContent; sourceTree = SOURCE_ROOT; };
-AC4400000000000000000000 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerScoringEngine.swift; sourceTree = SOURCE_ROOT; };
-AC4400000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerScoringMapping.swift; sourceTree = SOURCE_ROOT; };
-AC4400000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Trainer/TrainerProfileView.swift; sourceTree = SOURCE_ROOT; };
+		FA0000000000000000000001 /* InteractiveBook/Saved/SavedExcerptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Saved/SavedExcerptStore.swift; sourceTree = SOURCE_ROOT; };
+		FA0000000000000000000002 /* InteractiveBook/Saved/SavedExcerptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/Saved/SavedExcerptsView.swift; sourceTree = SOURCE_ROOT; };
+		FA0000000000000000000003 /* InteractiveBook/BookMessageTrust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBook/BookMessageTrust.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,16 +99,16 @@ AC4400000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourceco
 		D00000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-AA7711000000000000000003,
-AA7711000000000000000002,
-AA7711000000000000000001,
-AC4400000000000000000000,
-AC4400000000000000000001,
-AC4400000000000000000002,
-AA7711000000000000000000,
-FA0000000000000000000003,
-				FA0000000000000000000001 /* SavedExcerptStore.swift */,
-				FA0000000000000000000002 /* SavedExcerptsView.swift */,
+				AA7711000000000000000003 /* InteractiveBook/TrainerContent */,
+				AA7711000000000000000002 /* InteractiveBook/Trainer/TrainerView.swift */,
+				AA7711000000000000000001 /* InteractiveBook/Trainer/TrainerStore.swift */,
+				AC4400000000000000000000 /* InteractiveBook/Trainer/TrainerScoringEngine.swift */,
+				AC4400000000000000000001 /* InteractiveBook/Trainer/TrainerScoringMapping.swift */,
+				AC4400000000000000000002 /* InteractiveBook/Trainer/TrainerProfileView.swift */,
+				AA7711000000000000000000 /* InteractiveBook/Trainer/TrainerModels.swift */,
+				FA0000000000000000000003 /* InteractiveBook/BookMessageTrust.swift */,
+				FA0000000000000000000001 /* InteractiveBook/Saved/SavedExcerptStore.swift */,
+				FA0000000000000000000002 /* InteractiveBook/Saved/SavedExcerptsView.swift */,
 				42815BFE9291536B66BC1BAA /* InteractiveBook/Audio/SpeechEngine.swift */,
 				F6D1A02C977D6F080DAE4BC4 /* InteractiveBook/Audio/AppleSpeechEngine.swift */,
 				07F54F76DEAAB4C6A8892F55 /* InteractiveBook/Audio/SileroSpeechEngine.swift */,
@@ -225,7 +225,7 @@ FA0000000000000000000003,
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-AA7722000000000000000003,
+				AA7722000000000000000003 /* InteractiveBook/TrainerContent in Resources */,
 				7867E2997973F8EF53634CF5 /* InteractiveBook/SileroResources in Resources */,
 				A00000000000000000000003 /* Assets.xcassets in Resources */,
 				A00000000000000000000004 /* WebContent in Resources */,
@@ -239,15 +239,15 @@ AA7722000000000000000003,
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-AD4400000000000000000002,
-AD4400000000000000000001,
-AD4400000000000000000000,
-AA7722000000000000000002,
-AA7722000000000000000001,
-AA7722000000000000000000,
-FB0000000000000000000003,
-				FB0000000000000000000002,
-				FB0000000000000000000001,
+				AD4400000000000000000002 /* InteractiveBook/Trainer/TrainerProfileView.swift in Sources */,
+				AD4400000000000000000001 /* InteractiveBook/Trainer/TrainerScoringMapping.swift in Sources */,
+				AD4400000000000000000000 /* InteractiveBook/Trainer/TrainerScoringEngine.swift in Sources */,
+				AA7722000000000000000002 /* InteractiveBook/Trainer/TrainerView.swift in Sources */,
+				AA7722000000000000000001 /* InteractiveBook/Trainer/TrainerStore.swift in Sources */,
+				AA7722000000000000000000 /* InteractiveBook/Trainer/TrainerModels.swift in Sources */,
+				FB0000000000000000000003 /* InteractiveBook/BookMessageTrust.swift in Sources */,
+				FB0000000000000000000002 /* InteractiveBook/Saved/SavedExcerptsView.swift in Sources */,
+				FB0000000000000000000001 /* InteractiveBook/Saved/SavedExcerptStore.swift in Sources */,
 				C92CC0506835B2FB5F7B305A /* InteractiveBook/Audio/SpeechEngine.swift in Sources */,
 				C78032AE8E41AA071F407301 /* InteractiveBook/Audio/AppleSpeechEngine.swift in Sources */,
 				981E833765E953B881E046E3 /* InteractiveBook/Audio/SileroSpeechEngine.swift in Sources */,

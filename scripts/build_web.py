@@ -26,6 +26,10 @@ def build(output):
     html = re.sub(r'<link\s+rel="stylesheet"\s+href="(?P<file>[^"]+)"\s*>',
                   lambda m: embed('style', m.group('file')), original)
     html = re.sub(r'<(?P<tag>script)\s+src="(?P<file>[^"]+)"\s*>\s*</script>', lambda m: embed('script', m.group('file')), html)
+    # Standalone navigation is docked; the native app retains its overlay menu.
+    html = html.replace('<html ', '<html data-standalone-web ', 1)
+    web_css = (ROOT / 'scripts' / 'web-layout.css').read_text(encoding='utf-8')
+    html = html.replace('</head>', '<style data-bundled-from="web-layout.css">\n' + web_css + '\n</style>\n</head>', 1)
     parsed = Parser()
     parsed.feed(html)
     nodes = list(parsed.root.all())

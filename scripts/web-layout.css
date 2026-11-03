@@ -1,0 +1,19 @@
+/* Standalone HTML only: navigation and reader occupy separate columns. */
+html[data-standalone-web] { --web-sidebar-width:min(320px, 42vw); }
+html[data-standalone-web] .sidebar {
+  width:var(--web-sidebar-width);
+  transition:none;
+  box-shadow:none;
+  border-right:1px solid var(--border);
+}
+html[data-standalone-web] body.side-open main { left:var(--web-sidebar-width); }
+html[data-standalone-web] #menuBackdrop { display:none!important; }
+@media (max-width:820px) {
+  html[data-standalone-web] body.side-open main { padding-left:8px; padding-right:8px; }
+  html[data-standalone-web] body.side-open .topic { padding:10px; }
+  html[data-standalone-web] .sidebar { padding-left:8px; padding-right:8px; }
+  html[data-standalone-web] .menu-heading { flex-wrap:wrap; }
+}
+@media print {
+  html[data-standalone-web] body.side-open main { left:0; }
+}

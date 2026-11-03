@@ -13,6 +13,16 @@
     assert(document.querySelectorAll('.topic').length===129,'129 topics');
     assert(document.documentElement.scrollWidth<=innerWidth,'no horizontal page overflow');
     assert(main.getBoundingClientRect().top>=document.querySelector('.topbar').getBoundingClientRect().bottom,'header does not overlap text');
+    for (const id of ['t-10-3','t-11-4','t-10-4','t-1-1']) {
+      document.getElementById('burger').click();
+      const targetLink=document.querySelector('#toc a[href="#'+id+'"]');
+      targetLink.closest('.toc > li').classList.add('open');
+      targetLink.focus(); targetLink.click();
+      await until(()=>location.hash==='#'+id,'topic navigation '+id); await wait();
+      assert(Math.abs(document.getElementById(id).getBoundingClientRect().top-main.getBoundingClientRect().top-16)<3,'focused menu lands on requested '+id);
+      assert(document.activeElement===main,'focus leaves closed menu '+id);
+      assert(JSON.parse(localStorage.getItem('ya-reading')).id===id,'requested topic persisted '+id);
+    }
     document.getElementById('burger').click();
     assert(main.inert&&!menu.inert,'menu traps reading interaction');
     const search=document.getElementById('tocSearch');

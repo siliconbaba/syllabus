@@ -31,6 +31,56 @@ import WebKit
     }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         print("Loaded test phase \(phase)")
+        if phase < 2 {
+            waitForVisibleFrames { self.runPhase() }
+        } else {
+            runPhase()
+        }
+    }
+    // A hidden/occluded desktop can suspend rAF and JS timers while native timers run.
+    // Do not turn unavailable rendering into a misleading content-test timeout.
+    func waitForVisibleFrames(_ ready: @escaping () -> Void) {
+        var finished = false
+        web.evaluateJavaScript("window.__smokeFrames = 0; requestAnimationFrame(function(){ window.__smokeFrames++; requestAnimationFrame(function(){window.__smokeFrames++;}); });") { _, error in
+            if let error = error { print("FAIL: rendering preflight JavaScript: \(error)"); exit(1) }
+        }
+        func poll() {
+            guard !finished else { return }
+            web.evaluateJavaScript("({frames:window.__smokeFrames || 0, visibility:document.visibilityState})") { value, error in
+                guard !finished else { return }
+                if let error = error { print("FAIL: rendering preflight: \(error)"); exit(1) }
+                if let status = value as? [String:Any], (status["frames"] as? Int ?? 0) >= 2,
+                   status["visibility"] as? String == "visible", self.window.occlusionState.contains(.visible) {
+                    finished = true
+                    print("PASS: visible animation frames available")
+                    ready()
+                } else {
+                    DispatchQueue.main.asyncAfter(deadline:.now()+0.5) { poll() }
+                }
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline:.now()+0.1) { poll() }
+        DispatchQueue.main.asyncAfter(deadline:.now()+20) {
+            guard !finished else { return }
+            finished = true
+            if !self.window.occlusionState.contains(.visible) {
+                print("ENVIRONMENT_UNAVAILABLE: WebKit window is occluded; no animation frames. Run in an unlocked visible desktop. Remaining UI assertions NOT_RUN; phase \(self.phase).")
+                exit(2)
+            }
+            print("FAIL: visible WebKit did not produce animation frames in 20 seconds")
+            exit(1)
+        }
+    }
+    func webViewWebContentProcessDidTerminate(_ webView: WKWebView) {
+        print("FAIL: WebContent process terminated during phase \(phase)"); exit(1)
+    }
+    func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+        print("FAIL: navigation: \(error)"); exit(1)
+    }
+    func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+        print("FAIL: provisional navigation: \(error)"); exit(1)
+    }
+    func runPhase() {
         if phase >= 2 {
             let testFile = phase == 2 ? "/saved-excerpts.test.js" : phase == 3 ? "/reader-gestures.test.js" : "/content.test.js"
             let js = try! String(contentsOfFile: CommandLine.arguments[2] + testFile, encoding: .utf8)

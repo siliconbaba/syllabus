@@ -1,7 +1,10 @@
 #!/bin/bash
 set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/common.sh"
+mode="${1:-full}"
+[[ $# -le 1 && ( "$mode" == full || "$mode" == --headless ) ]] || fail 'Использование: bash scripts/check.sh [--headless]'
 prepare_xcode
+python3 -m unittest discover -s "$BOOK_ROOT/Tests" -p 'test_sidestore_packaging.py' -v
 python3 "$BOOK_ROOT/scripts/sync_runtime_contract.py" --check
 python3 "$BOOK_ROOT/scripts/check_content.py"
 python3 "$BOOK_ROOT/scripts/build_trainer_catalog.py" --check
@@ -15,10 +18,14 @@ mkdir -p "$BOOK_ROOT/build/checks"
 /usr/bin/xcodebuild -project "$BOOK_ROOT/InteractiveBook.xcodeproj" -scheme InteractiveBook \
   -configuration Debug -destination 'generic/platform=iOS Simulator' \
   -derivedDataPath "$BOOK_ROOT/build/simulator" CODE_SIGNING_ALLOWED=NO build
+if [[ "$mode" != --headless ]]; then
 /usr/bin/xcrun swiftc "$BOOK_ROOT/InteractiveBook/BookMessageTrust.swift" "$BOOK_ROOT/InteractiveBook/Saved/SavedExcerptStore.swift" "$BOOK_ROOT/Tests/WebKitSmoke.swift" -o "$BOOK_ROOT/build/checks/webkit-smoke" -framework Cocoa -framework WebKit
 "$BOOK_ROOT/build/checks/webkit-smoke" "$BOOK_ROOT/InteractiveBook/WebContent" "$BOOK_ROOT/Tests" 390 760
 "$BOOK_ROOT/build/checks/webkit-smoke" "$BOOK_ROOT/InteractiveBook/WebContent" "$BOOK_ROOT/Tests" 320 568
 "$BOOK_ROOT/build/checks/webkit-smoke" "$BOOK_ROOT/InteractiveBook/WebContent" "$BOOK_ROOT/Tests" 1280 900
+else
+  printf '\nWebKit UI: NOT_RUN (--headless). This is not a full regression PASS.\n'
+fi
 
 /usr/bin/xcrun swiftc "$BOOK_ROOT/InteractiveBook/Audio/SpeechTextProcessor.swift" "$BOOK_ROOT/InteractiveBook/Audio/SpeechReaderManager.swift" "$BOOK_ROOT/InteractiveBook/Audio/SpeechEngine.swift" "$BOOK_ROOT/InteractiveBook/Audio/AppleSpeechEngine.swift" "$BOOK_ROOT/Tests/SpeechTests.swift" -o "$BOOK_ROOT/build/checks/speech-tests" -framework AVFoundation -framework Combine
 "$BOOK_ROOT/build/checks/speech-tests"
@@ -39,3 +46,9 @@ python3 "$BOOK_ROOT/tools/pronunciation/scan.py"
 
 "$BOOK_ROOT/build/checks/english-tests" "$BOOK_ROOT/Tests/original-technical-terms.json"
 "$BOOK_ROOT/build/checks/english-tests" "$BOOK_ROOT/Tests/pronunciation-audio-corpus.json"
+
+if [[ "$mode" == --headless ]]; then
+  printf '\nPASS: non-UI checks. WebKit UI remains NOT_RUN.\n'
+else
+  printf '\nPASS: full check suite.\n'
+fi

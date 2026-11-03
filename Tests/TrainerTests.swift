@@ -5,7 +5,7 @@ import Foundation
         func check(_ value: Bool, _ name: String) { precondition(value, name); print("PASS: " + name) }
         let source = URL(fileURLWithPath: CommandLine.arguments[1])
         let bank = try TrainerBank.load(url: source)
-        check(bank.cases.count == 75, "75 production cases load")
+        check(bank.cases.count == 150, "150 production cases load")
         func rejects(_ edit: (inout [[String: Any]]) -> Void) throws {
             var root = try JSONSerialization.jsonObject(with: Data(contentsOf: source)) as! [String: Any]
             var cases = root["cases"] as! [[String: Any]]; edit(&cases); root["cases"] = cases

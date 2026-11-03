@@ -124,3 +124,26 @@ bash scripts/install-device.sh --device DEVICE_ID --dry-run
 Откройте проект, выберите установленный симулятор iPhone и нажмите Run. Аккаунт и подпись для симулятора не нужны. Если симуляторов нет, установите соответствующую платформу через настройки Xcode.
 
 Для разработчиков: `bash scripts/check.sh` выполняет сборку для симулятора и изолированные проверки WebKit. Это не проверка подписи для физического телефона.
+
+
+## Готовый IPA для SideStore (для сопровождающего проекта)
+
+В репозитории есть воспроизводимая сборка unsigned Release iPhoneOS IPA. Она не меняет исходный Bundle ID и не устанавливает приложение автоматически:
+
+```bash
+bash scripts/build-sidestore.sh agent-artifacts/releases/local/InteractiveBook-sidestore.ipa
+```
+
+Нужны настроенный Xcode, Python 3, доступные зависимости Swift Package Manager и проверенные локальные модели Silero (см. `docs/SILERO_BUILD.md`). Если модели отсутствуют или их контрольные суммы не совпадают, скрипт останавливается: неполный нейросетевой голос не включается молча. Для обычной установки из Xcode по инструкции выше можно пользоваться Apple TTS без моделей.
+
+Сборщик создаёт `Payload/InteractiveBook.app/`, исключает служебные AppleDouble-файлы и проверяет arm64/iPhoneOS, plist, исполняемые файлы и обратную распаковку. В базовом plist техническое имя становится `InteractiveBook`; русское название переносится в `ru.lproj/InfoPlist.strings`. Это исправляет обнаруженную ранее передачу кириллицы как `appIdName`. Сам исходный `.app` не меняется.
+
+Рядом сохраняется `.ipa.json` с SHA-256 и результатом проверок. Повторный запуск не перезаписывает старый IPA — задайте новое имя. Это проверка упаковки, а не подтверждение регистрации и установки: SideStore должен переподписать IPA аккаунтом получателя. Проверка непосредственно на его iPhone остаётся отдельным шагом.
+
+Для упаковки уже имеющегося **неподписанного** Release `.app` без пересборки:
+
+```bash
+python3 scripts/package_sidestore.py \
+  --app build/sidestore-release/Build/Products/Release-iphoneos/InteractiveBook.app \
+  --output agent-artifacts/releases/local/InteractiveBook-repacked.ipa
+```

@@ -23,7 +23,7 @@ import Foundation
         func changeCase(_ root: inout [String: Any], _ edit: (inout [String: Any]) -> Void) {
             var cases = root["cases"] as! [[String: Any]]; edit(&cases[0]); root["cases"] = cases
         }
-        check(bank.schemaVersion == .text("2.0") && bank.cases.count == 75, "v2 production bank decodes")
+        check(bank.schemaVersion == .text("2.0") && bank.cases.count == 150, "v2 production bank decodes")
         for key in ["partId", "sourceTopicExplanation", "trainingEligible", "assessmentEligible"] {
             try rejects({ r in changeCase(&r) { $0.removeValue(forKey: key) } }, "missing " + key)
             try rejects({ r in changeCase(&r) { $0[key] = NSNull() } }, "null " + key)
@@ -37,8 +37,8 @@ import Foundation
         try rejects({ r in changeCase(&r) { $0["trainingEligible"] = "true" } }, "string instead of bool")
         try rejects({ $0["schemaVersion"] = "1.0" }, "v1 as production bank")
         try rejects({ r in changeCase(&r) { $0["scenarioFamilyId"] = "orphan" } }, "orphan family")
-        check(bank.trainingCases.count == 75 && bank.cases.allSatisfy { $0.title != nil }, "75 training cases and titles")
-        check(bank.cases.filter(\.assessmentEligible).count == 51 && bank.cases.allSatisfy { $0.assessmentEligible == ($0.scenarioFamilyId == nil) }, "51 standalone diagnostic cases; all linked training-only")
+        check(bank.trainingCases.count == 150 && bank.cases.allSatisfy { $0.title != nil }, "150 training cases and titles")
+        check(bank.cases.filter(\.assessmentEligible).count == 99 && bank.cases.allSatisfy { $0.assessmentEligible == ($0.scenarioFamilyId == nil) }, "99 standalone diagnostic cases; all linked training-only")
         var restored = raw
         let goldIDs = Set(old.cases.map(\.id))
         var cases = (restored["cases"] as! [[String: Any]]).filter { goldIDs.contains($0["id"] as! String) }
@@ -100,7 +100,7 @@ import Foundation
         check(TrainerScoringEngine.profile(history: TrainerStore(url:stateURL).diagnosticHistory) == expectedProfile, "old profile unchanged after new v2 session persisted")
         let fresh = TrainerStore(url: directory.appendingPathComponent("new.json"))
         check(fresh.startDiagnostic(bank: bank, count: nil) && fresh.diagnostic?.bankSchemaVersion == .text("2.0"), "new diagnostic records bank schema 2 separately")
-        check(fresh.diagnostic?.cases.count == 51 && fresh.diagnostic!.cases.allSatisfy { $0.assessmentEligible && $0.scenarioFamilyId == nil }, "ordinary diagnostic excludes every linked case")
+        check(fresh.diagnostic?.cases.count == 99 && fresh.diagnostic!.cases.allSatisfy { $0.assessmentEligible && $0.scenarioFamilyId == nil }, "ordinary diagnostic excludes every linked case")
         let persisted = try JSONSerialization.jsonObject(with: Data(contentsOf: directory.appendingPathComponent("new.json"))) as! [String:Any]
         check(persisted["schemaVersion"] as? Int == 3, "persistence remains schema 3")
     }

@@ -1,5 +1,9 @@
 (function () {
   'use strict';
+  document.getElementById('system-design-entry')?.addEventListener('click', function () {
+    window.bookSavePosition?.();
+    window.bookAudio?.invalidate();
+  });
   const handler = window.webkit?.messageHandlers?.trainer;
   if (!handler) return;
   const entry = document.createElement('button');

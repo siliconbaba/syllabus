@@ -172,6 +172,7 @@ struct BookView: UIViewRepresentable {
             }
             if url.isFileURL, let folder = contentFolder,
                url.standardizedFileURL.path.hasPrefix(folder.standardizedFileURL.path + "/") {
+                if url.lastPathComponent == "system-design.html" { reader.reset() }
                 decisionHandler(.allow)
             } else if ["https", "http"].contains(url.scheme?.lowercased() ?? "") {
                 UIApplication.shared.open(url)

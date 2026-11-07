@@ -3,6 +3,7 @@
 from pathlib import Path
 import argparse
 import re
+from html import escape
 from check_content import Parser, check
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -46,6 +47,12 @@ def build(output):
     assert counts == {'style': 2, 'script': 6}, counts
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(html, encoding='utf-8')
+    # The course is an offline companion app with its own progress and workbook.
+    course = SOURCE / 'system-design.html'
+    if not course.is_file():
+        raise ValueError('Missing offline System Design course: ' + str(course))
+    course_html = course.read_text(encoding='utf-8').replace('href="index.html"', 'href="' + escape(output.name, quote=True) + '"')
+    (output.parent / course.name).write_text(course_html, encoding='utf-8')
     print(f'Built {output} ({output.stat().st_size:,} bytes); 2 stylesheets and 6 scripts embedded.')
 
 

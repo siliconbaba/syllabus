@@ -1,0 +1,19 @@
+{
+  "course": "Системы: путь архитектора",
+  "chapters": 32,
+  "worlds": 8,
+  "business_types": 14,
+  "diagrams": 64,
+  "checkpoint_questions": 64,
+  "main_text_words": 47384,
+  "runtime_sha256": "1b6874e837066285d83ad309789b096559031ee730749fc294093f134fe6f874",
+  "source_runtime_preview_equal": true,
+  "content_checks": "PASS",
+  "actual_js_logic": "PASS",
+  "offline_dependencies": "PASS",
+  "original_book_integrity": "PASS",
+  "browser_layout": "NOT_RUN",
+  "native_build": "PASS: Xcode GUI, Debug, iPhone 17 Pro / iOS 26.3.1 Simulator, 2026-11-07 14:00 local",
+  "device_install": "NOT_RUN",
+  "native_build_cli": "BLOCKED: SwiftPM diagnostics outside writable workspace; Operation not permitted"
+}

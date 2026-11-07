@@ -1,0 +1,207 @@
+{
+  "atlas_count": 8,
+  "status": "PASS",
+  "chapter_count": 32,
+  "packs": [
+    "chapters-01-08.json",
+    "chapters-25-32.json",
+    "chapters-09-16.json",
+    "chapters-17-24.json"
+  ],
+  "counts": [
+    {
+      "id": "ch-01",
+      "words_theory_example_expedition": 1564,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-02",
+      "words_theory_example_expedition": 1513,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-03",
+      "words_theory_example_expedition": 1533,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-04",
+      "words_theory_example_expedition": 1581,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-05",
+      "words_theory_example_expedition": 1622,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-06",
+      "words_theory_example_expedition": 1444,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-07",
+      "words_theory_example_expedition": 1491,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-08",
+      "words_theory_example_expedition": 1630,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-09",
+      "words_theory_example_expedition": 1471,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-10",
+      "words_theory_example_expedition": 1463,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-11",
+      "words_theory_example_expedition": 1470,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-12",
+      "words_theory_example_expedition": 1502,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-13",
+      "words_theory_example_expedition": 1579,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-14",
+      "words_theory_example_expedition": 1474,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-15",
+      "words_theory_example_expedition": 1475,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-16",
+      "words_theory_example_expedition": 1489,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-17",
+      "words_theory_example_expedition": 1457,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-18",
+      "words_theory_example_expedition": 1413,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-19",
+      "words_theory_example_expedition": 1419,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-20",
+      "words_theory_example_expedition": 1411,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-21",
+      "words_theory_example_expedition": 1461,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-22",
+      "words_theory_example_expedition": 1434,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-23",
+      "words_theory_example_expedition": 1534,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-24",
+      "words_theory_example_expedition": 1466,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-25",
+      "words_theory_example_expedition": 1466,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-26",
+      "words_theory_example_expedition": 1482,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-27",
+      "words_theory_example_expedition": 1429,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-28",
+      "words_theory_example_expedition": 1430,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-29",
+      "words_theory_example_expedition": 1412,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-30",
+      "words_theory_example_expedition": 1420,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-31",
+      "words_theory_example_expedition": 1414,
+      "sections": 6,
+      "diagrams": 2
+    },
+    {
+      "id": "ch-32",
+      "words_theory_example_expedition": 1435,
+      "sections": 6,
+      "diagrams": 2
+    }
+  ],
+  "issues": [],
+  "browser_layout": "NOT_RUN — requires actual browser; Node/static checks are not layout validation"
+}

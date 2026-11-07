@@ -1,0 +1,87 @@
+{
+  "modules": 13,
+  "minutes": 1560,
+  "questions": 45,
+  "modules_detail": [
+    {
+      "id": "sd-01",
+      "words_including_practice": 1135,
+      "questions": 3,
+      "sources": 2
+    },
+    {
+      "id": "sd-02",
+      "words_including_practice": 1109,
+      "questions": 3,
+      "sources": 3
+    },
+    {
+      "id": "sd-03",
+      "words_including_practice": 1320,
+      "questions": 3,
+      "sources": 6
+    },
+    {
+      "id": "sd-04",
+      "words_including_practice": 1253,
+      "questions": 3,
+      "sources": 4
+    },
+    {
+      "id": "sd-05",
+      "words_including_practice": 1071,
+      "questions": 4,
+      "sources": 3
+    },
+    {
+      "id": "sd-06",
+      "words_including_practice": 1499,
+      "questions": 3,
+      "sources": 4
+    },
+    {
+      "id": "sd-07",
+      "words_including_practice": 1097,
+      "questions": 3,
+      "sources": 3
+    },
+    {
+      "id": "sd-08",
+      "words_including_practice": 1116,
+      "questions": 3,
+      "sources": 4
+    },
+    {
+      "id": "sd-09",
+      "words_including_practice": 1075,
+      "questions": 3,
+      "sources": 3
+    },
+    {
+      "id": "sd-10",
+      "words_including_practice": 1366,
+      "questions": 4,
+      "sources": 4
+    },
+    {
+      "id": "sd-11",
+      "words_including_practice": 1118,
+      "questions": 4,
+      "sources": 3
+    },
+    {
+      "id": "sd-12",
+      "words_including_practice": 1199,
+      "questions": 5,
+      "sources": 3
+    },
+    {
+      "id": "sd-13",
+      "words_including_practice": 1194,
+      "questions": 4,
+      "sources": 2
+    }
+  ],
+  "html_sha256": "bd7223781a2ac693832a71ea19b4d1bd369d539b0e64108da4f789add6d757d6",
+  "offline": true
+}

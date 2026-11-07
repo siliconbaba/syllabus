@@ -1,0 +1,122 @@
+[
+  {
+    "id": "payments",
+    "title": "Платежи и кошельки",
+    "kernel": "Денежный факт, идемпотентность, сверка и конечный расчёт",
+    "worlds": [
+      "money"
+    ]
+  },
+  {
+    "id": "business-finance",
+    "title": "Корпоративные финансы и учёт",
+    "kernel": "Реестры, согласования, версии правил, закрытие периода",
+    "worlds": [
+      "money",
+      "saas"
+    ]
+  },
+  {
+    "id": "commerce",
+    "title": "Торговля и маркетплейсы",
+    "kernel": "Каталог, поиск, остаток, цена и длинный заказ",
+    "worlds": [
+      "inventory",
+      "search"
+    ]
+  },
+  {
+    "id": "booking",
+    "title": "Билеты, гостиницы и слоты",
+    "kernel": "Ограниченный ресурс, интервалы, временный резерв и истечение",
+    "worlds": [
+      "inventory"
+    ]
+  },
+  {
+    "id": "discovery",
+    "title": "Объявления, найм и рекомендации",
+    "kernel": "Кандидаты, ранжирование, свежесть, модерация и ML",
+    "worlds": [
+      "search"
+    ]
+  },
+  {
+    "id": "mobility",
+    "title": "Такси, каршеринг и геосервисы",
+    "kernel": "Координаты, пространственный поиск, ETA и назначение",
+    "worlds": [
+      "geo"
+    ]
+  },
+  {
+    "id": "logistics",
+    "title": "Доставка, склады и транспорт",
+    "kernel": "Физическое исполнение, маршруты, сканирования и offline",
+    "worlds": [
+      "geo",
+      "telemetry",
+      "inventory"
+    ]
+  },
+  {
+    "id": "media",
+    "title": "Видео, музыка и трансляции",
+    "kernel": "Объекты, обработка, bitrate, CDN и опыт зрителя",
+    "worlds": [
+      "media"
+    ]
+  },
+  {
+    "id": "communications",
+    "title": "Мессенджеры и совместная работа",
+    "kernel": "Соединения, порядок, fan-out, offline и слияние изменений",
+    "worlds": [
+      "collaboration"
+    ]
+  },
+  {
+    "id": "saas",
+    "title": "CRM, ЭДО и корпоративный SaaS",
+    "kernel": "Tenant-изоляция, права, workflow, конфигурации и noisy neighbor",
+    "worlds": [
+      "saas"
+    ]
+  },
+  {
+    "id": "adtech",
+    "title": "Реклама и продвижение",
+    "kernel": "Отбор, бюджет, оценка показа, потоки событий и атрибуция",
+    "worlds": [
+      "search",
+      "telemetry",
+      "money"
+    ]
+  },
+  {
+    "id": "industrial",
+    "title": "Промышленный IT и IoT",
+    "kernel": "Устройства, время наблюдения, edge и подтверждение команд",
+    "worlds": [
+      "telemetry"
+    ]
+  },
+  {
+    "id": "games",
+    "title": "Онлайн-игры",
+    "kernel": "Общее состояние, matchmaking, задержка, серверный шаг и доверие клиенту",
+    "worlds": [
+      "collaboration",
+      "geo"
+    ]
+  },
+  {
+    "id": "infrastructure",
+    "title": "Облака и инфраструктурные продукты",
+    "kernel": "Изоляция, control/data plane, квоты, размещение и metering",
+    "worlds": [
+      "saas",
+      "telemetry"
+    ]
+  }
+]

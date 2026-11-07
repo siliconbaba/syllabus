@@ -1,0 +1,2 @@
+PASS actual JS: 32 render strings, no eager checkpoint reveal, escaping, notes/decisions/checks/bookmarks export+restore, old-progress isolation, denied/corrupt storage. Browser layout NOT_RUN.
+PASS built artifact: actual 32 chapter render strings and 8 worlds, unique per-page SVG/HTML IDs. Browser layout NOT_RUN.

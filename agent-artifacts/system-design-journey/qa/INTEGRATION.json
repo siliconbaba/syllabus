@@ -5,15 +5,28 @@
   "business_types": 14,
   "diagrams": 64,
   "checkpoint_questions": 64,
-  "main_text_words": 47384,
-  "runtime_sha256": "1b6874e837066285d83ad309789b096559031ee730749fc294093f134fe6f874",
+  "main_text_words": 47974,
+  "runtime_sha256": "868aa5a1794cd68061f63fedaa00a8b246e7f0d0154b7823b377122908ada673",
   "source_runtime_preview_equal": true,
   "content_checks": "PASS",
   "actual_js_logic": "PASS",
   "offline_dependencies": "PASS",
   "original_book_integrity": "PASS",
   "browser_layout": "NOT_RUN",
-  "native_build": "PASS: Xcode GUI, Debug, iPhone 17 Pro / iOS 26.3.1 Simulator, 2026-11-07 14:00 local",
   "device_install": "NOT_RUN",
-  "native_build_cli": "BLOCKED: SwiftPM diagnostics outside writable workspace; Operation not permitted"
+  "native_build_cli": "BLOCKED: SwiftPM diagnostics outside writable workspace; Operation not permitted",
+  "reading_cues": "PASS: compact definitions, contextual conclusions; exact current content preserved",
+  "native_build_before_reading_cues": "PASS: Xcode GUI, Debug, iPhone 17 Pro / iOS 26.3.1 Simulator, 2026-11-07 14:00 local",
+  "native_build": "NOT_RERUN after small inline illustration integration",
+  "editorial_revision": "PASS in reviewed scope: N01–05, R01–14, C01–10; see editorial-2026-11-08/FIXES.md and RETEST.md",
+  "story_passports": "PASS: eight stages, 32 chapter render strings, escaped content",
+  "story_illustrations": "PASS: 8 arc openings + 4 moments + 16 small inline spots; all embedded offline",
+  "visual_explainers": {
+    "status": "PASS",
+    "count": 10,
+    "svg_frames": 29,
+    "controller": "PASS VM events",
+    "independent_content_review": "PASS",
+    "browser_layout": "NOT_RUN"
+  }
 }

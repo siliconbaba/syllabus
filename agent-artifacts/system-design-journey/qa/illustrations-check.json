@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scenes": 28,
+  "arc_openings": 8,
+  "moments": 4,
+  "assets": {
+    "story-moments.png": {
+      "bytes": 3063802,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "99d1ded042eb4be6fa6c354a9c6b10bcdcbb0769d3c9c6e6858add1643da9ee1"
+    },
+    "story-spots.png": {
+      "bytes": 2044710,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "eb0b8af12d4922cb2279b11f699670a6d8240aeb5da34276f4a337d337f43fca"
+    },
+    "story-arcs.png": {
+      "bytes": 3386625,
+      "width": 1024,
+      "height": 1536,
+      "sha256": "9d22c1ecae6000216cc6ea66460c9c64c95b5042a3158e630f102ae9a2c618af"
+    }
+  },
+  "runtime_sha256": "868aa5a1794cd68061f63fedaa00a8b246e7f0d0154b7823b377122908ada673",
+  "runtime_bytes": 12777541,
+  "three_copies_equal": true,
+  "zip_matches": true,
+  "offline": "PASS",
+  "render_strings": "PASS",
+  "visual_source_sheets": "INSPECTED",
+  "browser_layout": "NOT_RUN",
+  "ios_runtime": "NOT_RUN",
+  "inline_spots": 16,
+  "inline_text_preservation": "PASS: all 192 sections compared after removing inserted figures"
+}

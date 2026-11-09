@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-08",
+  "verdict": "NEEDS_REVISION",
+  "primary_issues": [
+    "ch-13 candidate funnel 45 to 100",
+    "ch-28 incorrect verbal cost model",
+    "ch-26 underdefined RAG evaluation denominators"
+  ],
+  "sources_unchanged_during_audit": true,
+  "independent_reviewers": 3,
+  "reading_cues_review": "author self-review, disclosed separately",
+  "full_prose_coverage": "32 chapters: sections, workedExample, expedition",
+  "browser_mobile_visual": "NOT_RUN",
+  "human_reader_study": "NOT_RUN",
+  "all_vendor_claims_verified": "NOT_RUN",
+  "report": "REPORT.md"
+}

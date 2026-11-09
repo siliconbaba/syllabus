@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-08",
+  "status": "PASS_IN_REVIEWED_SCOPE",
+  "closed": [
+    "N01-N05",
+    "R01-R14",
+    "C01-C10",
+    "A01-A03",
+    "HTML table inside p"
+  ],
+  "independent_retest": "RETEST.md",
+  "source_sha256": {
+    "chapters-01-08.json": "010cf961a3e90570ae4b5e817ce928239f3f40ec75fd2c993b8e8078d25e685f",
+    "chapters-09-16.json": "03a4e385bb94a2c0ef5c2c2791afbea1a5e6aac8143f745101e46923936eae74",
+    "chapters-17-24.json": "93fa6a237dca8a3129c9ac616280ecef2a829069ba09eb47a30823c610ba2289",
+    "chapters-25-32.json": "a21e7a89c6caacbebc5ddaf759cad9d390182b0b93a05b0608bd0a9ef6e7c563",
+    "reading-cues.json": "d7b77fc16480183ef177ad21ca590f5b44198d2f86004e7c505e15f53cdffafb",
+    "story-stages.json": "f8f7221981ef3ffd2391fcf8c9c8b4b4a74c800ad716b4102a797863b48508be",
+    "system-design.html": "e9e2f1a216acb9a49da75b44d650e8dffab2d1cecaf5c7f4a7a7c611147aa857"
+  },
+  "browser_layout": "NOT_RUN",
+  "native_build_after_revision": "NOT_RUN"
+}

@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "explainers": 10,
+  "frames": 29,
+  "placements": {
+    "storage": {
+      "chapter": "ch-03",
+      "afterSection": 4,
+      "presentation": "sequence",
+      "frames": 3
+    },
+    "last-item": {
+      "chapter": "ch-04",
+      "afterSection": 3,
+      "presentation": "sequence",
+      "frames": 3
+    },
+    "cache-stampede": {
+      "chapter": "ch-07",
+      "afterSection": 4,
+      "presentation": "sequence",
+      "frames": 3
+    },
+    "replicas-vs-shards": {
+      "chapter": "ch-08",
+      "afterSection": 0,
+      "presentation": "comparison",
+      "frames": 3
+    },
+    "payment-unknown": {
+      "chapter": "ch-09",
+      "afterSection": 0,
+      "presentation": "sequence",
+      "frames": 3
+    },
+    "queue-vs-log": {
+      "chapter": "ch-11",
+      "afterSection": 2,
+      "presentation": "comparison",
+      "frames": 3
+    },
+    "road-distance": {
+      "chapter": "ch-14",
+      "afterSection": 2,
+      "presentation": "comparison",
+      "frames": 2
+    },
+    "replica-lag": {
+      "chapter": "ch-17",
+      "afterSection": 3,
+      "presentation": "sequence",
+      "frames": 3
+    },
+    "rag-boundaries": {
+      "chapter": "ch-26",
+      "afterSection": 3,
+      "presentation": "sequence",
+      "frames": 3
+    },
+    "migration-bridge": {
+      "chapter": "ch-30",
+      "afterSection": 4,
+      "presentation": "sequence",
+      "frames": 3
+    }
+  },
+  "source_sha256": {
+    "visual-explainers-a.json": "d880d404884259c7fd8c34d8b56d6e63b397b6f9020d850bc262b05b4a2014ce",
+    "visual-explainers-b.json": "d4561c989b21f77b8790c8989e4140757bd133c4d0e5b419072de870ed30ca41",
+    "visual-explainers.js": "243d762ab3c659db049722e7a57d95e4ea5c2d9856ac13f157d12f956d39d0af"
+  },
+  "scope": "JSON, XML, placement and text-anchor bounds; glyph overlap and browser layout NOT_RUN",
+  "runtime_sha256": "bdd91bdc9a7be39a7f132e4f47fb414d95ede7d92981bd24bcbdbe428349b230",
+  "three_copies_equal": true,
+  "zip_matches": true
+}

@@ -1,0 +1,337 @@
+{
+  "sheets": {
+    "arcs": {
+      "file": "story-arcs.png",
+      "columns": 2,
+      "rows": 4
+    },
+    "moments": {
+      "file": "story-moments.png",
+      "columns": 2,
+      "rows": 2
+    },
+    "spots": {
+      "file": "story-spots.png",
+      "columns": 4,
+      "rows": 4
+    }
+  },
+  "scenes": [
+    {
+      "id": "first-order",
+      "chapter": "ch-01",
+      "placement": "opening",
+      "sheet": "arcs",
+      "cell": 0,
+      "kind": "arc",
+      "caption": "Утро первого заказа. Пока весь путь от экрана до пакета помещается в одной комнате.",
+      "alt": "На небольшом складе руководительница операций передаёт пакет курьеру. Инженер работает за столом рядом с полками."
+    },
+    {
+      "id": "growing-attention",
+      "chapter": "ch-05",
+      "placement": "opening",
+      "sheet": "arcs",
+      "cell": 1,
+      "kind": "arc",
+      "caption": "Заказов и вопросов стало больше. Команда ищет причину задержек, прежде чем добавлять новые системы.",
+      "alt": "Инженер, руководительница операций и диспетчер вместе изучают экраны на фоне работающего склада."
+    },
+    {
+      "id": "partners",
+      "chapter": "ch-09",
+      "placement": "opening",
+      "sheet": "arcs",
+      "cell": 2,
+      "kind": "arc",
+      "caption": "За пределами своей команды. Теперь обещание клиенту зависит ещё и от того, как партнёры понимают результат.",
+      "alt": "Руководительница операций и инженер обсуждают документы и работу сервиса с представителем склада за общим столом."
+    },
+    {
+      "id": "rainy-route",
+      "chapter": "ch-13",
+      "placement": "opening",
+      "sheet": "arcs",
+      "cell": 3,
+      "kind": "arc",
+      "caption": "Город добавляет свои условия: реку, мосты, дождь и дороги, по которым нужно действительно доехать.",
+      "alt": "Курьер с велосипедом стоит у реки дождливым вечером. Вдали мост и машины, в освещённом окне работает диспетчер."
+    },
+    {
+      "id": "night-watch",
+      "chapter": "ch-17",
+      "placement": "opening",
+      "sheet": "arcs",
+      "cell": 4,
+      "kind": "arc",
+      "caption": "Ночное дежурство. Чтобы вернуть системе доверие, сначала приходится восстановить историю одного заказа.",
+      "alt": "Инженер и руководительница операций сосредоточенно разбирают ситуацию у экранов в ночном офисе под настольной лампой."
+    },
+    {
+      "id": "other-scales",
+      "chapter": "ch-21",
+      "placement": "opening",
+      "sheet": "arcs",
+      "cell": 5,
+      "kind": "arc",
+      "caption": "За одной доставкой — разные потоки: сканирования, наблюдения, файлы и работа людей.",
+      "alt": "В распределительном центре сотрудница сканирует упаковку. Рядом холодильные контейнеры, инженер, руководительница операций и рабочее место с видеозаписью."
+    },
+    {
+      "id": "human-review",
+      "chapter": "ch-25",
+      "placement": "opening",
+      "sheet": "arcs",
+      "cell": 6,
+      "kind": "arc",
+      "caption": "Помощник предлагает ответ. Ответственность за его проверку и допустимые действия остаётся у системы и людей.",
+      "alt": "Диспетчер и инженер рассматривают ноутбук, открытые инструкции и документы на столе. Они вместе проверяют предложенный ответ."
+    },
+    {
+      "id": "architecture-council",
+      "chapter": "ch-29",
+      "placement": "opening",
+      "sheet": "arcs",
+      "cell": 7,
+      "kind": "arc",
+      "caption": "За общим столом снова та же команда. Теперь ей предстоит обосновать следующий шаг выросшего продукта.",
+      "alt": "Руководительница операций, инженер, диспетчер и курьер обсуждают большую карту за столом в светлой переговорной."
+    },
+    {
+      "id": "last-box",
+      "chapter": "ch-04",
+      "placement": "afterSection",
+      "afterSection": 0,
+      "sheet": "moments",
+      "cell": 0,
+      "kind": "moment",
+      "caption": "Одна коробка, два намерения. На экранах обоих покупателей товар ещё выглядит доступным.",
+      "alt": "На складе курьер держит единственную коробку, руководительница операций задумалась. На переднем плане два покупателя смотрят в телефоны."
+    },
+    {
+      "id": "payment-silence",
+      "chapter": "ch-09",
+      "placement": "afterSection",
+      "afterSection": 0,
+      "sheet": "moments",
+      "cell": 1,
+      "kind": "moment",
+      "caption": "Покупатель видит тишину на экране. Поддержке ещё предстоит выяснить, что произошло по другую сторону соединения.",
+      "alt": "Покупатель за домашним кухонным столом обеспокоенно смотрит на телефон. В отдельной части сцены диспетчер принимает звонок в офисе."
+    },
+    {
+      "id": "two-views",
+      "chapter": "ch-17",
+      "placement": "afterSection",
+      "afterSection": 0,
+      "sheet": "moments",
+      "cell": 2,
+      "kind": "moment",
+      "caption": "Один заказ, разные наблюдения. Сохранённый факт и его появление на другом экране разделены временем.",
+      "alt": "Инженер сверяет бумажную запись у одного экрана, диспетчер смотрит в другой. На столе уже стоит собранный пакет заказа."
+    },
+    {
+      "id": "moving-with-care",
+      "chapter": "ch-30",
+      "placement": "afterSection",
+      "afterSection": 0,
+      "sheet": "moments",
+      "cell": 3,
+      "kind": "moment",
+      "caption": "Переносить и продолжать работать. Папки — образ миграции; за спиной команды по-прежнему уходят заказы.",
+      "alt": "Инженер и руководительница операций осторожно переносят папки между шкафами. На заднем плане сотрудница передаёт заказ курьеру."
+    },
+    {
+      "id": "small-phone",
+      "chapter": "ch-02",
+      "placement": "inline",
+      "section": 2,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 0,
+      "kind": "spot",
+      "caption": "До склада заказу ещё предстоит пройти сеть.",
+      "alt": "Телефон рядом с небольшим запечатанным пакетом."
+    },
+    {
+      "id": "small-cards",
+      "chapter": "ch-03",
+      "placement": "inline",
+      "section": 2,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 1,
+      "kind": "spot",
+      "caption": "Каждая карточка хранит свой факт.",
+      "alt": "Деревянная картотека с аккуратно разложенными карточками."
+    },
+    {
+      "id": "small-laptops",
+      "chapter": "ch-06",
+      "placement": "inline",
+      "section": 0,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 2,
+      "kind": "spot",
+      "caption": "Два рабочих места. Состояние нужно согласовать отдельно.",
+      "alt": "Два ноутбука и две кружки стоят рядом."
+    },
+    {
+      "id": "small-jars",
+      "chapter": "ch-07",
+      "placement": "inline",
+      "section": 1,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 3,
+      "kind": "spot",
+      "caption": "Взять готовое с полки быстрее, чем готовить заново.",
+      "alt": "Рука тянется к одной из трёх банок на небольшой полке."
+    },
+    {
+      "id": "small-handoff",
+      "chapter": "ch-10",
+      "placement": "inline",
+      "section": 0,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 4,
+      "kind": "spot",
+      "caption": "Передать посылку — ещё и договориться о результате.",
+      "alt": "Две руки обмениваются посылкой и планшетом с бумагой."
+    },
+    {
+      "id": "small-envelopes",
+      "chapter": "ch-11",
+      "placement": "inline",
+      "section": 0,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 5,
+      "kind": "spot",
+      "caption": "Работа ждёт своего исполнителя.",
+      "alt": "Три конверта стоят в деревянном лотке."
+    },
+    {
+      "id": "small-receipt",
+      "chapter": "ch-12",
+      "placement": "inline",
+      "section": 1,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 6,
+      "kind": "spot",
+      "caption": "У каждого выполненного действия остаётся след.",
+      "alt": "Бумажный чек лежит рядом с зелёным штампом."
+    },
+    {
+      "id": "small-map",
+      "chapter": "ch-14",
+      "placement": "inline",
+      "section": 0,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 7,
+      "kind": "spot",
+      "caption": "Адрес на карте — начало пути.",
+      "alt": "Сложенная карта города и велосипедный шлем."
+    },
+    {
+      "id": "small-bicycle",
+      "chapter": "ch-15",
+      "placement": "inline",
+      "section": 1,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 8,
+      "kind": "spot",
+      "caption": "Назначение превращается в реальную поездку.",
+      "alt": "Велосипед и курьерский рюкзак горчичного цвета."
+    },
+    {
+      "id": "small-phones",
+      "chapter": "ch-16",
+      "placement": "inline",
+      "section": 2,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 9,
+      "kind": "spot",
+      "caption": "Связь вернулась. Нужно восстановить пропущенное.",
+      "alt": "Два телефона, перчатки и открытый блокнот."
+    },
+    {
+      "id": "small-drawers",
+      "chapter": "ch-18",
+      "placement": "inline",
+      "section": 1,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 10,
+      "kind": "spot",
+      "caption": "Для каждой части набора нужно знать её место.",
+      "alt": "Две небольшие картотеки с разными цветами папок."
+    },
+    {
+      "id": "small-key",
+      "chapter": "ch-19",
+      "placement": "inline",
+      "section": 3,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 11,
+      "kind": "spot",
+      "caption": "Право на действие должно проверяться там, где оно совершается.",
+      "alt": "Металлический ключ с двумя цветными бирками на кольце."
+    },
+    {
+      "id": "small-watch",
+      "chapter": "ch-20",
+      "placement": "inline",
+      "section": 5,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 12,
+      "kind": "spot",
+      "caption": "Дежурство продолжается до проверенного восстановления.",
+      "alt": "Горящая настольная лампа, часы и зелёный блокнот."
+    },
+    {
+      "id": "small-scanner",
+      "chapter": "ch-22",
+      "placement": "inline",
+      "section": 0,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 13,
+      "kind": "spot",
+      "caption": "У каждого наблюдения есть источник и время.",
+      "alt": "Ручной сканер лежит рядом с ящиком продуктов."
+    },
+    {
+      "id": "small-folders",
+      "chapter": "ch-24",
+      "placement": "inline",
+      "section": 0,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 14,
+      "kind": "spot",
+      "caption": "У каждой организации — свои данные и полномочия.",
+      "alt": "Несколько отдельных папок перевязаны лентами."
+    },
+    {
+      "id": "small-budget",
+      "chapter": "ch-28",
+      "placement": "inline",
+      "section": 0,
+      "afterParagraph": 1,
+      "sheet": "spots",
+      "cell": 15,
+      "kind": "spot",
+      "caption": "Считать стоит цену полезного результата.",
+      "alt": "Карманный калькулятор, монеты, карандаш и блокнот."
+    }
+  ]
+}

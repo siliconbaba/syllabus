@@ -11,7 +11,7 @@
   "counts": [
     {
       "id": "ch-01",
-      "words_theory_example_expedition": 1564,
+      "words_theory_example_expedition": 1554,
       "sections": 6,
       "diagrams": 2
     },
@@ -23,7 +23,7 @@
     },
     {
       "id": "ch-03",
-      "words_theory_example_expedition": 1533,
+      "words_theory_example_expedition": 1534,
       "sections": 6,
       "diagrams": 2
     },
@@ -35,13 +35,13 @@
     },
     {
       "id": "ch-05",
-      "words_theory_example_expedition": 1622,
+      "words_theory_example_expedition": 1621,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-06",
-      "words_theory_example_expedition": 1444,
+      "words_theory_example_expedition": 1446,
       "sections": 6,
       "diagrams": 2
     },
@@ -53,13 +53,13 @@
     },
     {
       "id": "ch-08",
-      "words_theory_example_expedition": 1630,
+      "words_theory_example_expedition": 1624,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-09",
-      "words_theory_example_expedition": 1471,
+      "words_theory_example_expedition": 1473,
       "sections": 6,
       "diagrams": 2
     },
@@ -71,19 +71,19 @@
     },
     {
       "id": "ch-11",
-      "words_theory_example_expedition": 1470,
+      "words_theory_example_expedition": 1495,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-12",
-      "words_theory_example_expedition": 1502,
+      "words_theory_example_expedition": 1504,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-13",
-      "words_theory_example_expedition": 1579,
+      "words_theory_example_expedition": 1595,
       "sections": 6,
       "diagrams": 2
     },
@@ -101,25 +101,25 @@
     },
     {
       "id": "ch-16",
-      "words_theory_example_expedition": 1489,
+      "words_theory_example_expedition": 1494,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-17",
-      "words_theory_example_expedition": 1457,
+      "words_theory_example_expedition": 1471,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-18",
-      "words_theory_example_expedition": 1413,
+      "words_theory_example_expedition": 1437,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-19",
-      "words_theory_example_expedition": 1419,
+      "words_theory_example_expedition": 1424,
       "sections": 6,
       "diagrams": 2
     },
@@ -131,7 +131,7 @@
     },
     {
       "id": "ch-21",
-      "words_theory_example_expedition": 1461,
+      "words_theory_example_expedition": 1476,
       "sections": 6,
       "diagrams": 2
     },
@@ -143,43 +143,43 @@
     },
     {
       "id": "ch-23",
-      "words_theory_example_expedition": 1534,
+      "words_theory_example_expedition": 1538,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-24",
-      "words_theory_example_expedition": 1466,
+      "words_theory_example_expedition": 1471,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-25",
-      "words_theory_example_expedition": 1466,
+      "words_theory_example_expedition": 1473,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-26",
-      "words_theory_example_expedition": 1482,
+      "words_theory_example_expedition": 1615,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-27",
-      "words_theory_example_expedition": 1429,
+      "words_theory_example_expedition": 1416,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-28",
-      "words_theory_example_expedition": 1430,
+      "words_theory_example_expedition": 1616,
       "sections": 6,
       "diagrams": 2
     },
     {
       "id": "ch-29",
-      "words_theory_example_expedition": 1412,
+      "words_theory_example_expedition": 1484,
       "sections": 6,
       "diagrams": 2
     },
@@ -191,7 +191,7 @@
     },
     {
       "id": "ch-31",
-      "words_theory_example_expedition": 1414,
+      "words_theory_example_expedition": 1516,
       "sections": 6,
       "diagrams": 2
     },

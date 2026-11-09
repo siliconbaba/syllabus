@@ -1,0 +1,941 @@
+{
+  "scope": "32 chapters; sections, workedExample, expedition; descriptive metrics, no readability grade",
+  "chapters": [
+    {
+      "id": "ch-01",
+      "paragraphs": 25,
+      "median_paragraph_words": 63,
+      "max_paragraph_words": 75,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 2,
+          "kind": "definition",
+          "words": 59
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 12
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 59
+        },
+        {
+          "section": 2,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-02",
+      "paragraphs": 25,
+      "median_paragraph_words": 60,
+      "max_paragraph_words": 75,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 2,
+          "kind": "definition",
+          "words": 75
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 9
+        },
+        {
+          "section": 1,
+          "kind": "boundary",
+          "words": 68
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-03",
+      "paragraphs": 25,
+      "median_paragraph_words": 61,
+      "max_paragraph_words": 71,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 61
+        },
+        {
+          "section": 2,
+          "kind": "key",
+          "words": 13
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 57
+        },
+        {
+          "section": 1,
+          "kind": "term",
+          "words": 2
+        }
+      ]
+    },
+    {
+      "id": "ch-04",
+      "paragraphs": 26,
+      "median_paragraph_words": 59.0,
+      "max_paragraph_words": 71,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 64
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 10
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 57
+        },
+        {
+          "section": 1,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-05",
+      "paragraphs": 26,
+      "median_paragraph_words": 61.0,
+      "max_paragraph_words": 69,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 60
+        },
+        {
+          "section": 4,
+          "kind": "key",
+          "words": 10
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 64
+        },
+        {
+          "section": 1,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-06",
+      "paragraphs": 25,
+      "median_paragraph_words": 57,
+      "max_paragraph_words": 66,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 0,
+          "kind": "definition",
+          "words": 61
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 17
+        },
+        {
+          "section": 4,
+          "kind": "boundary",
+          "words": 54
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 2
+        }
+      ]
+    },
+    {
+      "id": "ch-07",
+      "paragraphs": 25,
+      "median_paragraph_words": 58,
+      "max_paragraph_words": 72,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 0,
+          "kind": "definition",
+          "words": 63
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 13
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 60
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-08",
+      "paragraphs": 26,
+      "median_paragraph_words": 61.5,
+      "max_paragraph_words": 80,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 0,
+          "kind": "definition",
+          "words": 62
+        },
+        {
+          "section": 4,
+          "kind": "key",
+          "words": 13
+        },
+        {
+          "section": 2,
+          "kind": "boundary",
+          "words": 61
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-09",
+      "paragraphs": 24,
+      "median_paragraph_words": 62.0,
+      "max_paragraph_words": 78,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 58
+        },
+        {
+          "section": 0,
+          "kind": "key",
+          "words": 9
+        },
+        {
+          "section": 3,
+          "kind": "boundary",
+          "words": 62
+        },
+        {
+          "section": 1,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-10",
+      "paragraphs": 24,
+      "median_paragraph_words": 60.0,
+      "max_paragraph_words": 79,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 4,
+          "kind": "definition",
+          "words": 63
+        },
+        {
+          "section": 0,
+          "kind": "key",
+          "words": 16
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 55
+        },
+        {
+          "section": 4,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-11",
+      "paragraphs": 24,
+      "median_paragraph_words": 60.0,
+      "max_paragraph_words": 78,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 2,
+          "kind": "definition",
+          "words": 57
+        },
+        {
+          "section": 0,
+          "kind": "key",
+          "words": 10
+        },
+        {
+          "section": 3,
+          "kind": "boundary",
+          "words": 63
+        },
+        {
+          "section": 2,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-12",
+      "paragraphs": 24,
+      "median_paragraph_words": 63.0,
+      "max_paragraph_words": 87,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 2,
+          "kind": "definition",
+          "words": 60
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 12
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 50
+        },
+        {
+          "section": 2,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-13",
+      "paragraphs": 25,
+      "median_paragraph_words": 60,
+      "max_paragraph_words": 102,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 4,
+          "kind": "definition",
+          "words": 102
+        },
+        {
+          "section": 2,
+          "kind": "key",
+          "words": 10
+        },
+        {
+          "section": 3,
+          "kind": "boundary",
+          "words": 59
+        },
+        {
+          "section": 4,
+          "kind": "term",
+          "words": 2
+        }
+      ]
+    },
+    {
+      "id": "ch-14",
+      "paragraphs": 24,
+      "median_paragraph_words": 60.5,
+      "max_paragraph_words": 79,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 56
+        },
+        {
+          "section": 2,
+          "kind": "key",
+          "words": 12
+        },
+        {
+          "section": 4,
+          "kind": "boundary",
+          "words": 60
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-15",
+      "paragraphs": 24,
+      "median_paragraph_words": 62.5,
+      "max_paragraph_words": 76,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 0,
+          "kind": "definition",
+          "words": 57
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 9
+        },
+        {
+          "section": 4,
+          "kind": "boundary",
+          "words": 55
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-16",
+      "paragraphs": 24,
+      "median_paragraph_words": 60.5,
+      "max_paragraph_words": 83,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 3,
+          "kind": "definition",
+          "words": 54
+        },
+        {
+          "section": 2,
+          "kind": "key",
+          "words": 11
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 57
+        },
+        {
+          "section": 2,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-17",
+      "paragraphs": 26,
+      "median_paragraph_words": 57.5,
+      "max_paragraph_words": 73,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 57
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 8
+        },
+        {
+          "section": 4,
+          "kind": "boundary",
+          "words": 60
+        },
+        {
+          "section": 1,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-18",
+      "paragraphs": 26,
+      "median_paragraph_words": 54.0,
+      "max_paragraph_words": 67,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 56
+        },
+        {
+          "section": 4,
+          "kind": "key",
+          "words": 8
+        },
+        {
+          "section": 2,
+          "kind": "boundary",
+          "words": 51
+        },
+        {
+          "section": 1,
+          "kind": "term",
+          "words": 2
+        }
+      ]
+    },
+    {
+      "id": "ch-19",
+      "paragraphs": 26,
+      "median_paragraph_words": 54.5,
+      "max_paragraph_words": 66,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 3,
+          "kind": "definition",
+          "words": 51
+        },
+        {
+          "section": 2,
+          "kind": "key",
+          "words": 9
+        },
+        {
+          "section": 4,
+          "kind": "boundary",
+          "words": 57
+        },
+        {
+          "section": 3,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-20",
+      "paragraphs": 26,
+      "median_paragraph_words": 52.5,
+      "max_paragraph_words": 76,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 3,
+          "kind": "definition",
+          "words": 59
+        },
+        {
+          "section": 0,
+          "kind": "key",
+          "words": 12
+        },
+        {
+          "section": 2,
+          "kind": "boundary",
+          "words": 53
+        },
+        {
+          "section": 3,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-21",
+      "paragraphs": 26,
+      "median_paragraph_words": 56.5,
+      "max_paragraph_words": 72,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 2,
+          "kind": "definition",
+          "words": 55
+        },
+        {
+          "section": 0,
+          "kind": "key",
+          "words": 21
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 57
+        },
+        {
+          "section": 2,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-22",
+      "paragraphs": 26,
+      "median_paragraph_words": 54.5,
+      "max_paragraph_words": 80,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 56
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 14
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 49
+        },
+        {
+          "section": 1,
+          "kind": "term",
+          "words": 2
+        }
+      ]
+    },
+    {
+      "id": "ch-23",
+      "paragraphs": 27,
+      "median_paragraph_words": 56,
+      "max_paragraph_words": 101,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 3,
+          "kind": "definition",
+          "words": 56
+        },
+        {
+          "section": 1,
+          "kind": "key",
+          "words": 16
+        },
+        {
+          "section": 5,
+          "kind": "boundary",
+          "words": 56
+        },
+        {
+          "section": 3,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-24",
+      "paragraphs": 26,
+      "median_paragraph_words": 55.5,
+      "max_paragraph_words": 77,
+      "goals_duplicate_section_titles": false,
+      "cues": [
+        {
+          "section": 0,
+          "kind": "definition",
+          "words": 49
+        },
+        {
+          "section": 1,
+          "kind": "key",
+          "words": 19
+        },
+        {
+          "section": 2,
+          "kind": "boundary",
+          "words": 55
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-25",
+      "paragraphs": 25,
+      "median_paragraph_words": 57,
+      "max_paragraph_words": 75,
+      "goals_duplicate_section_titles": true,
+      "cues": [
+        {
+          "section": 5,
+          "kind": "definition",
+          "words": 54
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 5
+        },
+        {
+          "section": 2,
+          "kind": "boundary",
+          "words": 57
+        },
+        {
+          "section": 5,
+          "kind": "term",
+          "words": 2
+        }
+      ]
+    },
+    {
+      "id": "ch-26",
+      "paragraphs": 25,
+      "median_paragraph_words": 58,
+      "max_paragraph_words": 93,
+      "goals_duplicate_section_titles": true,
+      "cues": [
+        {
+          "section": 2,
+          "kind": "definition",
+          "words": 58
+        },
+        {
+          "section": 3,
+          "kind": "key",
+          "words": 12
+        },
+        {
+          "section": 0,
+          "kind": "boundary",
+          "words": 61
+        },
+        {
+          "section": 2,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-27",
+      "paragraphs": 26,
+      "median_paragraph_words": 54.0,
+      "max_paragraph_words": 64,
+      "goals_duplicate_section_titles": true,
+      "cues": [
+        {
+          "section": 0,
+          "kind": "definition",
+          "words": 54
+        },
+        {
+          "section": 1,
+          "kind": "key",
+          "words": 12
+        },
+        {
+          "section": 4,
+          "kind": "boundary",
+          "words": 53
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-28",
+      "paragraphs": 26,
+      "median_paragraph_words": 55.0,
+      "max_paragraph_words": 77,
+      "goals_duplicate_section_titles": true,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 56
+        },
+        {
+          "section": 0,
+          "kind": "key",
+          "words": 17
+        },
+        {
+          "section": 4,
+          "kind": "boundary",
+          "words": 50
+        },
+        {
+          "section": 1,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-29",
+      "paragraphs": 26,
+      "median_paragraph_words": 53.0,
+      "max_paragraph_words": 98,
+      "goals_duplicate_section_titles": true,
+      "cues": [
+        {
+          "section": 1,
+          "kind": "definition",
+          "words": 50
+        },
+        {
+          "section": 4,
+          "kind": "key",
+          "words": 11
+        },
+        {
+          "section": 2,
+          "kind": "boundary",
+          "words": 55
+        },
+        {
+          "section": 1,
+          "kind": "term",
+          "words": 2
+        }
+      ]
+    },
+    {
+      "id": "ch-30",
+      "paragraphs": 26,
+      "median_paragraph_words": 53.0,
+      "max_paragraph_words": 89,
+      "goals_duplicate_section_titles": true,
+      "cues": [
+        {
+          "section": 0,
+          "kind": "definition",
+          "words": 51
+        },
+        {
+          "section": 1,
+          "kind": "key",
+          "words": 9
+        },
+        {
+          "section": 4,
+          "kind": "boundary",
+          "words": 55
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 1
+        }
+      ]
+    },
+    {
+      "id": "ch-31",
+      "paragraphs": 26,
+      "median_paragraph_words": 52.5,
+      "max_paragraph_words": 94,
+      "goals_duplicate_section_titles": true,
+      "cues": [
+        {
+          "section": 0,
+          "kind": "definition",
+          "words": 61
+        },
+        {
+          "section": 4,
+          "kind": "key",
+          "words": 10
+        },
+        {
+          "section": 2,
+          "kind": "boundary",
+          "words": 50
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 2
+        }
+      ]
+    },
+    {
+      "id": "ch-32",
+      "paragraphs": 26,
+      "median_paragraph_words": 54.0,
+      "max_paragraph_words": 86,
+      "goals_duplicate_section_titles": true,
+      "cues": [
+        {
+          "section": 0,
+          "kind": "definition",
+          "words": 56
+        },
+        {
+          "section": 5,
+          "kind": "key",
+          "words": 10
+        },
+        {
+          "section": 2,
+          "kind": "boundary",
+          "words": 47
+        },
+        {
+          "section": 0,
+          "kind": "term",
+          "words": 2
+        }
+      ]
+    }
+  ],
+  "long_sentence_candidates": [],
+  "source_sha256": {
+    "chapters-01-08.json": "65e5661b2c5083c955dd5083486ddf0924eaddabad634662017c9104459878dd",
+    "chapters-09-16.json": "54e9ac7b1711b4f0bb367cc9a22e3de2cc210141aff116cb242e4a581dc22cbc",
+    "chapters-17-24.json": "af540e552cf6beb2641495db7ee97525d8ec18bb34a547b6e09afec0f8f3969e",
+    "chapters-25-32.json": "b8a8202990049d16b56a3d9df12e06accd2037eb2dd1fc102c89ae5653c5f42e",
+    "reading-cues.json": "ae00497e321582ee0b06f8d8e7cece0f6c6b3a79aae8f5168c7812e4ad978241"
+  }
+}
